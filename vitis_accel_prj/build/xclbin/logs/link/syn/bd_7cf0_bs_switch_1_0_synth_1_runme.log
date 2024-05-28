@@ -1,0 +1,418 @@
+
+*** Running vivado
+    with args -log bd_7cf0_bs_switch_1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_7cf0_bs_switch_1_0.tcl
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source bd_7cf0_bs_switch_1_0.tcl -notrace
+INFO: Dispatch client connection id - 33469
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1716.125 ; gain = 87.992 ; free physical = 595507 ; free virtual = 822108
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/int/xo/ip_repo/xilinx_com_hls_kernel_wrapper_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/ipcache'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tools/Xilinx/Vitis/2022.2/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axi_clk_metadata_adapter:1.0'. The one found in IP location '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/axi_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/axi_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axis_clk_metadata_adapter:1.0'. The one found in IP location '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/axis_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/axis_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:clk_metadata_adapter:1.0'. The one found in IP location '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:pipeline_reg:1.0'. The one found in IP location '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pipeline_reg_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/pipeline_reg_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:shell_utils_build_info:1.0'. The one found in IP location '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/shell_utils_build_info_v1_0' will take precedence over the same IP in the Xilinx installed IP.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_7cf0_bs_switch_1_0
+Command: synth_design -top bd_7cf0_bs_switch_1_0 -part xcu55c-fsvh2892-2L-e -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcu55c'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcu55c'
+INFO: [Device 21-403] Loading part xcu55c-fsvh2892-2L-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 1 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 5840
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/bs_switch_v1_0_vl_rfs.v:362]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/bs_switch_v1_0_vl_rfs.v:397]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/verilog/bs_switch_v1_0_1_bs_ext.vh:31]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/verilog/bs_switch_v1_0_1_bs_ext.vh:68]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/verilog/bs_switch_v1_0_1_bs_ext.vh:106]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/verilog/bs_switch_v1_0_1_bs_ext.vh:145]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/verilog/bs_switch_v1_0_1_bs_ext.vh:185]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/verilog/bs_switch_v1_0_1_bs_ext.vh:226]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/verilog/bs_switch_v1_0_1_bs_ext.vh:268]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/verilog/bs_switch_v1_0_1_bs_ext.vh:311]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/verilog/bs_switch_v1_0_1_bs_ext.vh:355]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/verilog/bs_switch_v1_0_1_bs_ext.vh:400]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/verilog/bs_switch_v1_0_1_bs_ext.vh:446]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/verilog/bs_switch_v1_0_1_bs_ext.vh:493]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/verilog/bs_switch_v1_0_1_bs_ext.vh:541]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/verilog/bs_switch_v1_0_1_bs_ext.vh:590]
+INFO: [Synth 8-11241] undeclared symbol 'bscanid_en_int', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/3a3b/hdl/verilog/bs_switch_v1_0_1_bs_ext.vh:640]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 3464.441 ; gain = 354.766 ; free physical = 594875 ; free virtual = 821444
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2648.969; parent = 2522.700; children = 126.269
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4423.621; parent = 3471.383; children = 952.238
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_7cf0_bs_switch_1_0' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ulp_cmp_0/bd_1/ip/ip_2/synth/bd_7cf0_bs_switch_1_0.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_7cf0_bs_switch_1_0' (0#1) [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ulp_cmp_0/bd_1/ip/ip_2/synth/bd_7cf0_bs_switch_1_0.v:53]
+WARNING: [Synth 8-7129] Port drck_1 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset_1 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sel_1 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port capture_1 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port shift_1 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port update_1 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdi_1 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port runtest_1 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tck_1 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tms_1 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bscanid_en_1 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port drck_2 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset_2 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sel_2 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port capture_2 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port shift_2 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port update_2 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdi_2 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port runtest_2 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tck_2 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tms_2 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bscanid_en_2 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port drck_3 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset_3 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sel_3 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port capture_3 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port shift_3 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port update_3 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdi_3 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port runtest_3 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tck_3 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tms_3 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bscanid_en_3 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port drck_4 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset_4 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sel_4 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port capture_4 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port shift_4 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port update_4 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdi_4 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port runtest_4 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tck_4 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tms_4 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bscanid_en_4 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port drck_5 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset_5 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sel_5 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port capture_5 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port shift_5 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port update_5 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdi_5 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port runtest_5 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tck_5 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tms_5 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bscanid_en_5 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port drck_6 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset_6 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sel_6 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port capture_6 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port shift_6 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port update_6 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdi_6 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port runtest_6 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tck_6 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tms_6 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bscanid_en_6 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port drck_7 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset_7 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sel_7 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port capture_7 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port shift_7 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port update_7 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdi_7 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port runtest_7 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tck_7 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tms_7 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bscanid_en_7 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port drck_8 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset_8 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sel_8 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port capture_8 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port shift_8 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port update_8 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdi_8 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port runtest_8 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tck_8 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tms_8 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bscanid_en_8 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port drck_9 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset_9 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sel_9 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port capture_9 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port shift_9 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port update_9 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tdi_9 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port runtest_9 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tck_9 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tms_9 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bscanid_en_9 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+WARNING: [Synth 8-7129] Port drck_10 in module bs_switch_v1_0_1_bs_switch is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3540.348 ; gain = 430.672 ; free physical = 594189 ; free virtual = 820803
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2648.969; parent = 2522.700; children = 126.269
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4492.590; parent = 3540.352; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3558.160 ; gain = 448.484 ; free physical = 594184 ; free virtual = 820798
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2648.969; parent = 2522.700; children = 126.269
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4510.402; parent = 3558.164; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3558.160 ; gain = 448.484 ; free physical = 594218 ; free virtual = 820832
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2648.969; parent = 2522.700; children = 126.269
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4510.402; parent = 3558.164; children = 952.238
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3558.160 ; gain = 0.000 ; free physical = 594290 ; free virtual = 820904
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ulp_cmp_0/bd_1/ip/ip_2/bd_7cf0_bs_switch_1_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ulp_cmp_0/bd_1/ip/ip_2/bd_7cf0_bs_switch_1_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ulp_cmp_0/bd_1/ip/ip_2/constraints/bs_switch.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ulp_cmp_0/bd_1/ip/ip_2/constraints/bs_switch.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ulp_cmp_0/bd_1/ip/ip_2/constraints/bs_switch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/bd_7cf0_bs_switch_1_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/bd_7cf0_bs_switch_1_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_7cf0_bs_switch_1_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_7cf0_bs_switch_1_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3673.727 ; gain = 0.000 ; free physical = 599866 ; free virtual = 826441
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3673.727 ; gain = 0.000 ; free physical = 599864 ; free virtual = 826439
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 3673.727 ; gain = 564.051 ; free physical = 598118 ; free virtual = 824698
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2648.969; parent = 2522.700; children = 126.956
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4625.969; parent = 3673.730; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcu55c-fsvh2892-2L-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 3673.727 ; gain = 564.051 ; free physical = 598128 ; free virtual = 824708
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2648.969; parent = 2522.700; children = 126.956
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4625.969; parent = 3673.730; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_7cf0_bs_switch_1_0_synth_1/dont_touch.xdc, line 6).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 3673.727 ; gain = 564.051 ; free physical = 598108 ; free virtual = 824688
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2648.969; parent = 2522.700; children = 126.956
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4625.969; parent = 3673.730; children = 952.238
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'id_state_reg' in module 'bs_switch_v1_0_1_core'
+INFO: [Synth 8-6159] Found Keep on FSM register 'id_state_reg' in module 'bs_switch_v1_0_1_core', re-encoding will not be performed
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                  iSTATE |                               00 |                               00
+                 iSTATE0 |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 3673.727 ; gain = 564.051 ; free physical = 597996 ; free virtual = 824629
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2648.969; parent = 2522.700; children = 126.956
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4625.969; parent = 3673.730; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 6     
+	   2 Input    6 Bit        Muxes := 4     
+	   6 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 3     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 15    
+	   3 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 9024 (col length:94)
+BRAMs: 4032 (col length: RAMB18 288 RAMB36 144)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3673.727 ; gain = 564.051 ; free physical = 597823 ; free virtual = 824455
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2648.969; parent = 2522.700; children = 126.956
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4625.969; parent = 3673.730; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 3956.859 ; gain = 847.184 ; free physical = 595715 ; free virtual = 822368
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3122.806; parent = 2994.927; children = 127.879
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4909.102; parent = 3956.863; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 3956.859 ; gain = 847.184 ; free physical = 595703 ; free virtual = 822356
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3123.007; parent = 2995.128; children = 127.879
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4909.102; parent = 3956.863; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 3975.891 ; gain = 866.215 ; free physical = 595677 ; free virtual = 822330
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3123.710; parent = 2995.831; children = 127.879
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4928.133; parent = 3975.895; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 3981.828 ; gain = 872.152 ; free physical = 596230 ; free virtual = 822887
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3123.710; parent = 2995.831; children = 127.879
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4934.070; parent = 3981.832; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 3981.828 ; gain = 872.152 ; free physical = 597445 ; free virtual = 824101
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3127.927; parent = 2998.978; children = 128.949
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4934.070; parent = 3981.832; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 3981.828 ; gain = 872.152 ; free physical = 597945 ; free virtual = 824602
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3127.970; parent = 2999.033; children = 128.949
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4934.070; parent = 3981.832; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 3981.828 ; gain = 872.152 ; free physical = 597941 ; free virtual = 824599
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3127.970; parent = 2999.033; children = 128.949
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4934.070; parent = 3981.832; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 3981.828 ; gain = 872.152 ; free physical = 597938 ; free virtual = 824595
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3127.970; parent = 2999.033; children = 128.949
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4934.070; parent = 3981.832; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 3981.828 ; gain = 872.152 ; free physical = 597917 ; free virtual = 824574
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3127.970; parent = 2999.033; children = 128.949
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4934.070; parent = 3981.832; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY8 |     1|
+|2     |LUT1   |     1|
+|3     |LUT2   |    34|
+|4     |LUT3   |    12|
+|5     |LUT4   |    36|
+|6     |LUT5   |    43|
+|7     |LUT6   |    21|
+|8     |FDRE   |   120|
+|9     |FDSE   |     5|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 3981.828 ; gain = 872.152 ; free physical = 597876 ; free virtual = 824533
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3127.970; parent = 2999.033; children = 128.949
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4934.070; parent = 3981.832; children = 952.238
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 193 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 3981.828 ; gain = 756.586 ; free physical = 597882 ; free virtual = 824539
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 3981.836 ; gain = 872.152 ; free physical = 597865 ; free virtual = 824523
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3995.766 ; gain = 0.000 ; free physical = 597943 ; free virtual = 824600
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4056.328 ; gain = 0.000 ; free physical = 596973 ; free virtual = 823590
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 7e2f6354
+INFO: [Common 17-83] Releasing license: Synthesis
+48 Infos, 106 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 4056.328 ; gain = 2275.609 ; free physical = 597077 ; free virtual = 823693
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [Common 17-1381] The checkpoint '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_7cf0_bs_switch_1_0_synth_1/bd_7cf0_bs_switch_1_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_7cf0_bs_switch_1_0, cache-ID = e0d4fc97ed890fbc
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_7cf0_bs_switch_1_0_synth_1/bd_7cf0_bs_switch_1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bd_7cf0_bs_switch_1_0_utilization_synth.rpt -pb bd_7cf0_bs_switch_1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Jun  1 06:17:26 2024...

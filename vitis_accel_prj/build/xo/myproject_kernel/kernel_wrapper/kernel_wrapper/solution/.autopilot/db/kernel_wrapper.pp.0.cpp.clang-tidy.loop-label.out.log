@@ -1,0 +1,60 @@
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:1339:7: warning: Added loop label VITIS_LOOP_1211_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1211_1: 
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:1339:7: note: FIX-IT applied suggested code changes
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:2313:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:2313:5: note: FIX-IT applied suggested code changes
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:2327:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:2327:5: note: FIX-IT applied suggested code changes
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:2341:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:2341:5: note: FIX-IT applied suggested code changes
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:3940:7: warning: Added loop label VITIS_LOOP_1245_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1245_1: 
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:3940:7: note: FIX-IT applied suggested code changes
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:6778:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+        for (unsigned i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_27_1: 
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:6778:9: note: FIX-IT applied suggested code changes
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:6791:9: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+        for (size_t i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_40_1: 
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:6791:9: note: FIX-IT applied suggested code changes
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:7003:3: warning: Added loop label VITIS_LOOP_5_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < 8192; i++) {
+  ^~~
+  VITIS_LOOP_5_1: 
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:7003:3: note: FIX-IT applied suggested code changes
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:7005:2: warning: Added loop label VITIS_LOOP_7_2:   [xilinx-label-all-loops]
+ for(int j = 0; j < 16; j++) {
+ ^~~
+ VITIS_LOOP_7_2: 
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:7005:2: note: FIX-IT applied suggested code changes
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:7012:3: warning: Added loop label VITIS_LOOP_14_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < 8192; i++) {
+  ^~~
+  VITIS_LOOP_14_1: 
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:7012:3: note: FIX-IT applied suggested code changes
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:7018:3: warning: Added loop label VITIS_LOOP_20_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < 8192; i++) {
+  ^~~
+  VITIS_LOOP_20_1: 
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:7018:3: note: FIX-IT applied suggested code changes
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:7020:2: warning: Added loop label VITIS_LOOP_22_2:   [xilinx-label-all-loops]
+ for (int j = 0; j < 5; j++) {
+ ^~~
+ VITIS_LOOP_22_2: 
+/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:7020:2: note: FIX-IT applied suggested code changes

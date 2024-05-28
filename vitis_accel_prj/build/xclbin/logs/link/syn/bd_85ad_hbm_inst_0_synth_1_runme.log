@@ -1,0 +1,623 @@
+
+*** Running vivado
+    with args -log bd_85ad_hbm_inst_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_85ad_hbm_inst_0.tcl
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source bd_85ad_hbm_inst_0.tcl -notrace
+INFO: Dispatch client connection id - 33469
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1715.984 ; gain = 87.992 ; free physical = 603065 ; free virtual = 829059
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/int/xo/ip_repo/xilinx_com_hls_kernel_wrapper_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/ipcache'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tools/Xilinx/Vitis/2022.2/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axi_clk_metadata_adapter:1.0'. The one found in IP location '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/axi_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/axi_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axis_clk_metadata_adapter:1.0'. The one found in IP location '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/axis_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/axis_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:clk_metadata_adapter:1.0'. The one found in IP location '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:pipeline_reg:1.0'. The one found in IP location '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pipeline_reg_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/pipeline_reg_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:shell_utils_build_info:1.0'. The one found in IP location '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/shell_utils_build_info_v1_0' will take precedence over the same IP in the Xilinx installed IP.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_85ad_hbm_inst_0
+Command: synth_design -top bd_85ad_hbm_inst_0 -part xcu55c-fsvh2892-2L-e -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcu55c'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcu55c'
+INFO: [Device 21-403] Loading part xcu55c-fsvh2892-2L-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 1 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4408
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+INFO: [Synth 8-11241] undeclared symbol 'xsdb_apb_grant_0_s', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:2411]
+INFO: [Synth 8-11241] undeclared symbol 'gen_apb_wr_rd_0', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:3814]
+INFO: [Synth 8-11241] undeclared symbol 'xsdb_apb_grant_0_s', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:3968]
+INFO: [Synth 8-11241] undeclared symbol 'gen_apb_wr_rd_1', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:4067]
+INFO: [Synth 8-11241] undeclared symbol 'xsdb_apb_grant_1_s', assumed default net type 'wire' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:4220]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 3483.098 ; gain = 354.766 ; free physical = 601225 ; free virtual = 827304
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2669.239; parent = 2544.131; children = 125.108
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4445.246; parent = 3493.008; children = 952.238
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_85ad_hbm_inst_0' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/synth/bd_85ad_hbm_inst_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'hbm_v1_0_13' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:66]
+INFO: [Synth 8-6157] synthesizing module 'hbm_top' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:81]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_spram' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8650]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6059] Synth Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value.   [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:493]
+INFO: [Synth 8-3876] $readmem data file 'xpm_internal_config_file_0.mem' is read successfully [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:1132]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_spram' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8650]
+INFO: [Synth 8-6157] synthesizing module 'hbm_data_fetch' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:8185]
+INFO: [Synth 8-6155] done synthesizing module 'hbm_data_fetch' (0#1) [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:8185]
+INFO: [Synth 8-6157] synthesizing module 'hbm_apb_mst' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:6820]
+INFO: [Synth 8-6155] done synthesizing module 'hbm_apb_mst' (0#1) [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:6820]
+INFO: [Synth 8-6157] synthesizing module 'hbm_temp_rd' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:7336]
+INFO: [Synth 8-6155] done synthesizing module 'hbm_temp_rd' (0#1) [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:7336]
+INFO: [Synth 8-6157] synthesizing module 'hbm_apb_arbiter' [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:7829]
+INFO: [Synth 8-226] default block is never used [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:7981]
+INFO: [Synth 8-6155] done synthesizing module 'hbm_apb_arbiter' (0#1) [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:7829]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_spram__parameterized0' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8650]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6059] Synth Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value.   [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:493]
+INFO: [Synth 8-3876] $readmem data file 'xpm_internal_config_file_1.mem' is read successfully [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:1132]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_spram__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8650]
+INFO: [Synth 8-6157] synthesizing module 'HBM_TWO_STACK_INTF' [/tools/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:63766]
+INFO: [Synth 8-6155] done synthesizing module 'HBM_TWO_STACK_INTF' (0#1) [/tools/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:63766]
+INFO: [Synth 8-6155] done synthesizing module 'hbm_top' (0#1) [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:81]
+INFO: [Synth 8-6155] done synthesizing module 'hbm_v1_0_13' (0#1) [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:66]
+INFO: [Synth 8-6155] done synthesizing module 'bd_85ad_hbm_inst_0' (0#1) [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/synth/bd_85ad_hbm_inst_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element stall_rd_r_reg was removed.  [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:8377]
+WARNING: [Synth 8-6014] Unused sequential element gen_apb_tran_r_reg was removed.  [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:8391]
+WARNING: [Synth 8-6014] Unused sequential element gen_apb_wr_rd_r_reg was removed.  [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:8392]
+WARNING: [Synth 8-6014] Unused sequential element gen_apb_addr_r_reg was removed.  [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:8406]
+WARNING: [Synth 8-6014] Unused sequential element gen_apb_data_r_reg was removed.  [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:8407]
+WARNING: [Synth 8-6014] Unused sequential element timeout_cnt_r_reg was removed.  [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f990/hdl/hbm_v1_0_vl_rfs.sv:6966]
+WARNING: [Synth 8-3848] Net dfi_0_dw_rddata_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1946]
+WARNING: [Synth 8-3848] Net dfi_0_dw_rddata_dm_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1947]
+WARNING: [Synth 8-3848] Net dfi_0_dw_rddata_dbi_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1948]
+WARNING: [Synth 8-3848] Net dfi_0_dw_rddata_par_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1949]
+WARNING: [Synth 8-3848] Net dfi_0_dw_rddata_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1950]
+WARNING: [Synth 8-3848] Net dfi_0_dw_rddata_dm_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1951]
+WARNING: [Synth 8-3848] Net dfi_0_dw_rddata_dbi_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1952]
+WARNING: [Synth 8-3848] Net dfi_0_dw_rddata_par_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1953]
+WARNING: [Synth 8-3848] Net dfi_0_dbi_byte_disable in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1954]
+WARNING: [Synth 8-3848] Net dfi_0_dw_rddata_valid in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1955]
+WARNING: [Synth 8-3848] Net dfi_0_dw_derr_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1956]
+WARNING: [Synth 8-3848] Net dfi_0_aw_aerr_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1957]
+WARNING: [Synth 8-3848] Net dfi_0_ctrlupd_req in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1958]
+WARNING: [Synth 8-3848] Net dfi_0_phyupd_ack in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1959]
+WARNING: [Synth 8-3848] Net dfi_0_clk_init in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1960]
+WARNING: [Synth 8-3848] Net dfi_0_init_complete in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1961]
+WARNING: [Synth 8-3848] Net dfi_0_out_rst_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1962]
+WARNING: [Synth 8-3848] Net dfi_1_dw_rddata_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1964]
+WARNING: [Synth 8-3848] Net dfi_1_dw_rddata_dm_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1965]
+WARNING: [Synth 8-3848] Net dfi_1_dw_rddata_dbi_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1966]
+WARNING: [Synth 8-3848] Net dfi_1_dw_rddata_par_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1967]
+WARNING: [Synth 8-3848] Net dfi_1_dw_rddata_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1968]
+WARNING: [Synth 8-3848] Net dfi_1_dw_rddata_dm_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1969]
+WARNING: [Synth 8-3848] Net dfi_1_dw_rddata_dbi_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1970]
+WARNING: [Synth 8-3848] Net dfi_1_dw_rddata_par_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1971]
+WARNING: [Synth 8-3848] Net dfi_1_dbi_byte_disable in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1972]
+WARNING: [Synth 8-3848] Net dfi_1_dw_rddata_valid in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1973]
+WARNING: [Synth 8-3848] Net dfi_1_dw_derr_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1974]
+WARNING: [Synth 8-3848] Net dfi_1_aw_aerr_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1975]
+WARNING: [Synth 8-3848] Net dfi_1_ctrlupd_req in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1976]
+WARNING: [Synth 8-3848] Net dfi_1_phyupd_ack in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1977]
+WARNING: [Synth 8-3848] Net dfi_1_clk_init in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1978]
+WARNING: [Synth 8-3848] Net dfi_1_init_complete in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1979]
+WARNING: [Synth 8-3848] Net dfi_1_out_rst_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1980]
+WARNING: [Synth 8-3848] Net dfi_2_dw_rddata_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1982]
+WARNING: [Synth 8-3848] Net dfi_2_dw_rddata_dm_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1983]
+WARNING: [Synth 8-3848] Net dfi_2_dw_rddata_dbi_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1984]
+WARNING: [Synth 8-3848] Net dfi_2_dw_rddata_par_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1985]
+WARNING: [Synth 8-3848] Net dfi_2_dw_rddata_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1986]
+WARNING: [Synth 8-3848] Net dfi_2_dw_rddata_dm_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1987]
+WARNING: [Synth 8-3848] Net dfi_2_dw_rddata_dbi_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1988]
+WARNING: [Synth 8-3848] Net dfi_2_dw_rddata_par_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1989]
+WARNING: [Synth 8-3848] Net dfi_2_dbi_byte_disable in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1990]
+WARNING: [Synth 8-3848] Net dfi_2_dw_rddata_valid in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1991]
+WARNING: [Synth 8-3848] Net dfi_2_dw_derr_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1992]
+WARNING: [Synth 8-3848] Net dfi_2_aw_aerr_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1993]
+WARNING: [Synth 8-3848] Net dfi_2_ctrlupd_req in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1994]
+WARNING: [Synth 8-3848] Net dfi_2_phyupd_ack in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1995]
+WARNING: [Synth 8-3848] Net dfi_2_clk_init in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1996]
+WARNING: [Synth 8-3848] Net dfi_2_init_complete in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1997]
+WARNING: [Synth 8-3848] Net dfi_2_out_rst_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:1998]
+WARNING: [Synth 8-3848] Net dfi_3_dw_rddata_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2000]
+WARNING: [Synth 8-3848] Net dfi_3_dw_rddata_dm_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2001]
+WARNING: [Synth 8-3848] Net dfi_3_dw_rddata_dbi_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2002]
+WARNING: [Synth 8-3848] Net dfi_3_dw_rddata_par_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2003]
+WARNING: [Synth 8-3848] Net dfi_3_dw_rddata_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2004]
+WARNING: [Synth 8-3848] Net dfi_3_dw_rddata_dm_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2005]
+WARNING: [Synth 8-3848] Net dfi_3_dw_rddata_dbi_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2006]
+WARNING: [Synth 8-3848] Net dfi_3_dw_rddata_par_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2007]
+WARNING: [Synth 8-3848] Net dfi_3_dbi_byte_disable in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2008]
+WARNING: [Synth 8-3848] Net dfi_3_dw_rddata_valid in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2009]
+WARNING: [Synth 8-3848] Net dfi_3_dw_derr_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2010]
+WARNING: [Synth 8-3848] Net dfi_3_aw_aerr_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2011]
+WARNING: [Synth 8-3848] Net dfi_3_ctrlupd_req in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2012]
+WARNING: [Synth 8-3848] Net dfi_3_phyupd_ack in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2013]
+WARNING: [Synth 8-3848] Net dfi_3_clk_init in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2014]
+WARNING: [Synth 8-3848] Net dfi_3_init_complete in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2015]
+WARNING: [Synth 8-3848] Net dfi_3_out_rst_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2016]
+WARNING: [Synth 8-3848] Net dfi_4_dw_rddata_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2018]
+WARNING: [Synth 8-3848] Net dfi_4_dw_rddata_dm_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2019]
+WARNING: [Synth 8-3848] Net dfi_4_dw_rddata_dbi_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2020]
+WARNING: [Synth 8-3848] Net dfi_4_dw_rddata_par_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2021]
+WARNING: [Synth 8-3848] Net dfi_4_dw_rddata_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2022]
+WARNING: [Synth 8-3848] Net dfi_4_dw_rddata_dm_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2023]
+WARNING: [Synth 8-3848] Net dfi_4_dw_rddata_dbi_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2024]
+WARNING: [Synth 8-3848] Net dfi_4_dw_rddata_par_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2025]
+WARNING: [Synth 8-3848] Net dfi_4_dbi_byte_disable in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2026]
+WARNING: [Synth 8-3848] Net dfi_4_dw_rddata_valid in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2027]
+WARNING: [Synth 8-3848] Net dfi_4_dw_derr_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2028]
+WARNING: [Synth 8-3848] Net dfi_4_aw_aerr_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2029]
+WARNING: [Synth 8-3848] Net dfi_4_ctrlupd_req in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2030]
+WARNING: [Synth 8-3848] Net dfi_4_phyupd_ack in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2031]
+WARNING: [Synth 8-3848] Net dfi_4_clk_init in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2032]
+WARNING: [Synth 8-3848] Net dfi_4_init_complete in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2033]
+WARNING: [Synth 8-3848] Net dfi_4_out_rst_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2034]
+WARNING: [Synth 8-3848] Net dfi_5_dw_rddata_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2036]
+WARNING: [Synth 8-3848] Net dfi_5_dw_rddata_dm_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2037]
+WARNING: [Synth 8-3848] Net dfi_5_dw_rddata_dbi_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2038]
+WARNING: [Synth 8-3848] Net dfi_5_dw_rddata_par_p0 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2039]
+WARNING: [Synth 8-3848] Net dfi_5_dw_rddata_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2040]
+WARNING: [Synth 8-3848] Net dfi_5_dw_rddata_dm_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2041]
+WARNING: [Synth 8-3848] Net dfi_5_dw_rddata_dbi_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2042]
+WARNING: [Synth 8-3848] Net dfi_5_dw_rddata_par_p1 in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2043]
+WARNING: [Synth 8-3848] Net dfi_5_dbi_byte_disable in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2044]
+WARNING: [Synth 8-3848] Net dfi_5_dw_rddata_valid in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2045]
+WARNING: [Synth 8-3848] Net dfi_5_dw_derr_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2046]
+WARNING: [Synth 8-3848] Net dfi_5_aw_aerr_n in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2047]
+WARNING: [Synth 8-3848] Net dfi_5_ctrlupd_req in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2048]
+WARNING: [Synth 8-3848] Net dfi_5_phyupd_ack in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2049]
+WARNING: [Synth 8-3848] Net dfi_5_clk_init in module/entity hbm_v1_0_13 does not have driver. [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/rtl/hbm_v1_0_13.sv:2050]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7129] Port pslverr in module hbm_temp_rd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pslverr in module hbm_apb_mst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sleep in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regcea in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rstb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port enb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regceb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port web[0] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[10] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[9] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[8] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[7] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[6] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[5] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[4] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[3] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[2] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[1] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[0] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[31] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[30] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[29] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[28] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[27] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[26] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[25] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[24] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[23] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[22] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[21] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[20] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[19] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[18] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[17] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[16] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[15] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[14] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[13] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[12] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[11] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[10] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[9] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[8] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[7] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[6] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[5] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[4] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[3] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[2] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[1] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[0] in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectsbiterrb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectdbiterrb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sleep in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regcea in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkb in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rstb in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port enb in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regceb in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port web[0] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[10] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[9] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[8] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[7] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[6] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[5] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[4] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[3] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[2] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[1] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[0] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[31] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[30] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[29] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[28] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[27] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[26] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[25] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[24] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[23] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[22] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[21] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[20] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[19] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[18] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[17] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[16] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[15] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[14] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[13] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[12] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[11] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[10] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[9] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[8] in module xpm_memory_base is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 3589.613 ; gain = 461.281 ; free physical = 600731 ; free virtual = 826776
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2669.239; parent = 2544.131; children = 125.108
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4541.855; parent = 3589.617; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 3604.457 ; gain = 476.125 ; free physical = 600697 ; free virtual = 826741
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2669.239; parent = 2544.131; children = 125.108
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4556.699; parent = 3604.461; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 3604.457 ; gain = 476.125 ; free physical = 600686 ; free virtual = 826730
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2669.239; parent = 2544.131; children = 125.108
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4556.699; parent = 3604.461; children = 952.238
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.17 . Memory (MB): peak = 3618.395 ; gain = 0.000 ; free physical = 600451 ; free virtual = 826545
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/par/bd_85ad_hbm_inst_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/par/bd_85ad_hbm_inst_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/par/hbm_ip.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_0/hdl/par/hbm_ip.xdc] for cell 'inst'
+Parsing XDC File [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_85ad_hbm_inst_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_85ad_hbm_inst_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3718.086 ; gain = 0.000 ; free physical = 599680 ; free virtual = 825761
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  HBM_TWO_STACK_INTF => HBM_TWO_STACK_INTF (HBM_REF_CLK(x2), HBM_SNGLBLI_INTF_APB(x2), HBM_SNGLBLI_INTF_AXI(x32)): 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.25 ; elapsed = 00:00:00.26 . Memory (MB): peak = 3718.086 ; gain = 0.000 ; free physical = 599722 ; free virtual = 825784
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 3718.086 ; gain = 589.754 ; free physical = 600322 ; free virtual = 826412
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2669.239; parent = 2544.131; children = 126.830
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4670.328; parent = 3718.090; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcu55c-fsvh2892-2L-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 3718.086 ; gain = 589.754 ; free physical = 600311 ; free virtual = 826401
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2669.239; parent = 2544.131; children = 126.830
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4670.328; parent = 3718.090; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_85ad_hbm_inst_0_synth_1/dont_touch.xdc, line 6).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 3718.086 ; gain = 589.754 ; free physical = 600299 ; free virtual = 826383
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2669.239; parent = 2544.131; children = 126.830
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4670.328; parent = 3718.090; children = 952.238
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_reg' in module 'hbm_apb_mst'
+INFO: [Synth 8-802] inferred FSM for state register 'main_fsm_curr_state_reg' in module 'hbm_temp_rd'
+INFO: [Synth 8-802] inferred FSM for state register 'apb_fsm_curr_state_reg' in module 'hbm_temp_rd'
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 18 for RAM "xpm_memory_base:/gen_wr_a.gen_word_narrow.mem_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 14 for RAM "xpm_memory_base:/gen_wr_a.gen_word_narrow.mem_reg"
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                  C_IDLE |                              001 |                              001
+                 C_SETUP |                              010 |                              010
+                C_ACCESS |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'curr_state_reg' in module 'hbm_apb_mst'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+              C_APB_IDLE |                              001 |                              001
+             C_APB_SETUP |                              010 |                              010
+            C_APB_ACCESS |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'apb_fsm_curr_state_reg' in module 'hbm_temp_rd'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                  C_IDLE |                           000001 |                           000001
+           C_WAIT_INTRVL |                           000010 |                           000010
+           C_APB_ACC_REQ |                           000100 |                           000100
+     C_SEND_TEMP_ACC_CMD |                           001000 |                           001000
+  C_POLL_TEMP_ACC_CMD_ST |                           010000 |                           010000
+             C_READ_TEMP |                           100000 |                           100000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'main_fsm_curr_state_reg' in module 'hbm_temp_rd'
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 18 for RAM "xpm_memory_base__parameterized0:/gen_wr_a.gen_word_narrow.mem_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 14 for RAM "xpm_memory_base__parameterized0:/gen_wr_a.gen_word_narrow.mem_reg"
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 3718.086 ; gain = 589.754 ; free physical = 599897 ; free virtual = 826025
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2669.239; parent = 2544.131; children = 126.830
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4670.328; parent = 3718.090; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   11 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 20    
+	               22 Bit    Registers := 18    
+	               11 Bit    Registers := 2     
+	                7 Bit    Registers := 2     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 76    
++---RAMs : 
+	              64K Bit	(2048 X 32 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 30    
+	   4 Input   32 Bit        Muxes := 2     
+	   5 Input   24 Bit        Muxes := 2     
+	   2 Input   22 Bit        Muxes := 22    
+	   5 Input   22 Bit        Muxes := 2     
+	   4 Input   22 Bit        Muxes := 2     
+	   2 Input   11 Bit        Muxes := 2     
+	   2 Input    7 Bit        Muxes := 3     
+	   2 Input    6 Bit        Muxes := 8     
+	   7 Input    6 Bit        Muxes := 4     
+	   2 Input    5 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 4     
+	   5 Input    3 Bit        Muxes := 4     
+	   4 Input    3 Bit        Muxes := 8     
+	   2 Input    3 Bit        Muxes := 18    
+	   2 Input    2 Bit        Muxes := 16    
+	   5 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 152   
+	   5 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 9024 (col length:94)
+BRAMs: 4032 (col length: RAMB18 288 RAMB36 144)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 3718.086 ; gain = 589.754 ; free physical = 598853 ; free virtual = 824954
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2669.239; parent = 2544.131; children = 126.855
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4670.328; parent = 3718.090; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++---------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|Module Name                      | RTL Object                       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights | 
++---------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|xpm_memory_base:                 | gen_wr_a.gen_word_narrow.mem_reg | 2 K x 32(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 2      | 1,1             | 
+|xpm_memory_base__parameterized0: | gen_wr_a.gen_word_narrow.mem_reg | 2 K x 32(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 2      | 1,1             | 
++---------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 4010.094 ; gain = 881.762 ; free physical = 598890 ; free virtual = 825053
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3174.934; parent = 3049.816; children = 126.878
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4962.336; parent = 4010.098; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 4013.094 ; gain = 884.762 ; free physical = 600831 ; free virtual = 826957
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3180.488; parent = 3054.615; children = 126.878
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4965.336; parent = 4013.098; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++---------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|Module Name                      | RTL Object                       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights | 
++---------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|xpm_memory_base:                 | gen_wr_a.gen_word_narrow.mem_reg | 2 K x 32(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 2      | 1,1             | 
+|xpm_memory_base__parameterized0: | gen_wr_a.gen_word_narrow.mem_reg | 2 K x 32(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 2      | 1,1             | 
++---------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/TWO_STACK.u_hbm_top/TWO_STACK_HBM.xpm_memory_spram_inst_0/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/TWO_STACK.u_hbm_top/TWO_STACK_HBM.xpm_memory_spram_inst_0/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/TWO_STACK.u_hbm_top/TWO_STACK_HBM.xpm_memory_spram_inst_1/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/TWO_STACK.u_hbm_top/TWO_STACK_HBM.xpm_memory_spram_inst_1/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:29 ; elapsed = 00:01:35 . Memory (MB): peak = 4054.141 ; gain = 925.809 ; free physical = 598068 ; free virtual = 824445
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3194.296; parent = 3069.181; children = 126.878
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5006.383; parent = 4054.145; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:50 ; elapsed = 00:01:56 . Memory (MB): peak = 4054.141 ; gain = 925.809 ; free physical = 596602 ; free virtual = 823030
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3200.822; parent = 3074.680; children = 126.878
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5006.383; parent = 4054.145; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:50 ; elapsed = 00:01:56 . Memory (MB): peak = 4054.141 ; gain = 925.809 ; free physical = 596608 ; free virtual = 823035
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3200.822; parent = 3074.680; children = 126.878
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5006.383; parent = 4054.145; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:51 ; elapsed = 00:01:56 . Memory (MB): peak = 4054.141 ; gain = 925.809 ; free physical = 596603 ; free virtual = 823061
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3200.822; parent = 3074.680; children = 126.878
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5006.383; parent = 4054.145; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:51 ; elapsed = 00:01:57 . Memory (MB): peak = 4054.141 ; gain = 925.809 ; free physical = 596586 ; free virtual = 823042
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3200.822; parent = 3074.680; children = 126.878
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5006.383; parent = 4054.145; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:51 ; elapsed = 00:01:57 . Memory (MB): peak = 4054.141 ; gain = 925.809 ; free physical = 596557 ; free virtual = 823021
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3200.822; parent = 3074.680; children = 126.878
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5006.383; parent = 4054.145; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:51 ; elapsed = 00:01:57 . Memory (MB): peak = 4054.141 ; gain = 925.809 ; free physical = 596569 ; free virtual = 823043
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3200.822; parent = 3074.680; children = 126.878
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5006.383; parent = 4054.145; children = 952.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------------------+------+
+|      |Cell               |Count |
++------+-------------------+------+
+|1     |CARRY8             |    16|
+|2     |HBM_TWO_STACK_INTF |     1|
+|3     |LUT1               |    38|
+|4     |LUT2               |   214|
+|5     |LUT3               |   122|
+|6     |LUT4               |   270|
+|7     |LUT5               |   336|
+|8     |LUT6               |   239|
+|9     |RAMB36E2           |     4|
+|11    |FDCE               |   818|
+|12    |FDPE               |     6|
++------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:51 ; elapsed = 00:01:57 . Memory (MB): peak = 4054.141 ; gain = 925.809 ; free physical = 596568 ; free virtual = 823040
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3200.822; parent = 3074.680; children = 126.878
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5006.383; parent = 4054.145; children = 952.238
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 23693 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:43 ; elapsed = 00:01:48 . Memory (MB): peak = 4054.141 ; gain = 812.180 ; free physical = 596597 ; free virtual = 823070
+Synthesis Optimization Complete : Time (s): cpu = 00:01:51 ; elapsed = 00:01:57 . Memory (MB): peak = 4054.148 ; gain = 925.809 ; free physical = 596590 ; free virtual = 823063
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.17 . Memory (MB): peak = 4054.148 ; gain = 0.000 ; free physical = 596608 ; free virtual = 823037
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4165.211 ; gain = 0.000 ; free physical = 595864 ; free virtual = 822259
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  HBM_TWO_STACK_INTF => HBM_TWO_STACK_INTF (HBM_REF_CLK(x2), HBM_SNGLBLI_INTF_APB(x2), HBM_SNGLBLI_INTF_AXI(x32)): 1 instance 
+
+Synth Design complete, checksum: 7620583
+INFO: [Common 17-83] Releasing license: Synthesis
+77 Infos, 212 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:08 ; elapsed = 00:02:15 . Memory (MB): peak = 4165.211 ; gain = 2333.641 ; free physical = 596062 ; free virtual = 822457
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [Common 17-1381] The checkpoint '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_85ad_hbm_inst_0_synth_1/bd_85ad_hbm_inst_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_85ad_hbm_inst_0, cache-ID = c372f0880d27e636
+INFO: [Coretcl 2-1174] Renamed 14 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_85ad_hbm_inst_0_synth_1/bd_85ad_hbm_inst_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bd_85ad_hbm_inst_0_utilization_synth.rpt -pb bd_85ad_hbm_inst_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Jun  1 06:16:02 2024...

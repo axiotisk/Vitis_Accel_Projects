@@ -1,0 +1,246 @@
+<ENTRY>
+{
+ "thisFile": "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/myproject_kernel.xo.compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Sat Jun  1 05:33:53 2024",
+ "timestampMillis": "1717220033568",
+ "buildStep": {
+  "cmdId": "c5152b9a-ef1f-4aaf-b3ab-f4993be29df3",
+  "name": "v++",
+  "logFile": "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/myproject_kernel.steps.log",
+  "commandLine": "/tools/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -c -t hw --config ./accelerator_card.cfg --temp_dir build/xo kernel_wrapper.cpp firmware/myproject.cpp -o ./build/myproject_kernel.xo -I./ -I./firmware/ -I./firmware/weights -I./firmware/nnet_utils/ ",
+  "args": [
+   "-c",
+   "-t",
+   "hw",
+   "--config",
+   "./accelerator_card.cfg",
+   "--temp_dir",
+   "build/xo",
+   "kernel_wrapper.cpp",
+   "firmware/myproject.cpp",
+   "-o",
+   "./build/myproject_kernel.xo",
+   "-I./",
+   "-I./firmware/",
+   "-I./firmware/weights",
+   "-I./firmware/nnet_utils/"
+  ],
+  "iniFiles": [
+   {
+    "path": "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/accelerator_card.cfg",
+    "content": "kernel=kernel_wrapper\nmessageDb=build/kernel_wrapper.mdb\nplatform=xilinx_u55c_gen3x16_xdma_3_202210_1\nsave-temps=1\n\n[advanced]\nprop=kernel.kernel_wrapper.kernel_flags=-std=c++11\n\n[hls]\npre_tcl=./hls_config.tcl\n\n[connectivity]\nnk=kernel_wrapper:4\n\nsp=kernel_wrapper_1.in:HBM[0:3]\nsp=kernel_wrapper_1.out:HBM[4:7]\nsp=kernel_wrapper_2.in:HBM[8:11]\nsp=kernel_wrapper_2.out:HBM[12:15]\nsp=kernel_wrapper_3.in:HBM[16:19]\nsp=kernel_wrapper_3.out:HBM[20:23]\nsp=kernel_wrapper_4.in:HBM[24:27]\nsp=kernel_wrapper_4.out:HBM[28:31]\n\n[vivado]\nprop=run.impl_1.STEPS.OPT_DESIGN.IS_ENABLED=true\nprop=run.impl_1.STEPS.OPT_DESIGN.ARGS.DIRECTIVE=Explore\n\nprop=run.impl_1.STEPS.PLACE_DESIGN.ARGS.DIRECTIVE=AltSpreadLogic_high\n\nprop=run.impl_1.STEPS.PHYS_OPT_DESIGN.IS_ENABLED=true\nprop=run.imp1_1.STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE=AggressiveExplore\n\nprop=run.impl_1.STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE=Explore\n\nprop=run.impl_1.STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED=true\nprop=run.impl_1.STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE=AggressiveExplore"
+   }
+  ],
+  "cwd": "/home/ayvol/vitis-accel-DNN/vitis_accel_prj"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Jun  1 05:33:53 2024",
+ "timestampMillis": "1717220033568",
+ "status": {
+  "cmdId": "c5152b9a-ef1f-4aaf-b3ab-f4993be29df3",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Sat Jun  1 05:33:56 2024",
+ "timestampMillis": "1717220036756",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u55c_gen3x16_xdma_3_202210_1.xpfm",
+  "hardwareDsa": "",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u55c_gen3x16_xdma_3_202210_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "kernel_wrapper",
+     "file": "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/myproject_kernel.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp",
+     "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2022.2. SW Build 3671529 on 2022-10-13-17:52:11"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sat Jun  1 05:33:56 2024",
+ "timestampMillis": "1717220036759",
+ "buildStep": {
+  "cmdId": "9f42841d-a926-44b0-9373-92752c6b1c0e",
+  "name": "vitis_hls",
+  "logFile": "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/vitis_hls.log",
+  "commandLine": "vitis_hls -f /home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper.tcl -messageDb vitis_hls.pb",
+  "args": [
+   "vitis_hls",
+   "-f",
+   "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper.tcl",
+   "-messageDb",
+   "vitis_hls.pb"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/ayvol/vitis-accel-DNN/vitis_accel_prj"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Jun  1 05:33:56 2024",
+ "timestampMillis": "1717220036759",
+ "status": {
+  "cmdId": "9f42841d-a926-44b0-9373-92752c6b1c0e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Jun  1 05:56:08 2024",
+ "timestampMillis": "1717221368383",
+ "status": {
+  "cmdId": "9f42841d-a926-44b0-9373-92752c6b1c0e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Jun  1 05:56:08 2024",
+ "timestampMillis": "1717221368438",
+ "report": {
+  "path": "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.design.xml",
+  "name": "kernel_wrapper",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_REPORT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Jun  1 05:56:08 2024",
+ "timestampMillis": "1717221368439",
+ "report": {
+  "path": "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/.message_syn.xml",
+  "name": "kernel_wrapper",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_DRC_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Jun  1 05:56:08 2024",
+ "timestampMillis": "1717221368439",
+ "report": {
+  "path": "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/reports/myproject_kernel/hls_reports/kernel_wrapper_csynth.rpt",
+  "name": "kernel_wrapper",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_HLS_CSYNTH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Jun  1 05:56:08 2024",
+ "timestampMillis": "1717221368440",
+ "report": {
+  "path": "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/kernel_wrapper_csynth.xml",
+  "name": "kernel_wrapper",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_CSYNTH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Jun  1 05:56:08 2024",
+ "timestampMillis": "1717221368486",
+ "report": {
+  "path": "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/reports/myproject_kernel/system_estimate_myproject_kernel.xtxt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SYSTEM_ESTIMATE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Jun  1 05:56:09 2024",
+ "timestampMillis": "1717221369238",
+ "status": {
+  "cmdId": "c5152b9a-ef1f-4aaf-b3ab-f4993be29df3",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Jun  1 05:56:10 2024",
+ "timestampMillis": "1717221370966",
+ "report": {
+  "path": "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/reports/myproject_kernel/v++_compile_myproject_kernel_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Jun  1 05:56:10 2024",
+ "timestampMillis": "1717221370967",
+ "report": {
+  "path": "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build/xo/v++_compile_myproject_kernel_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
