@@ -13,8 +13,8 @@ baseline_model/*
 *.tar*
 
 # Ignore training data
-X_test.npy
-y_test.npy
+X_train_val.npy
+y_train_val.npy
 
 # Ignore intermediate files produced during Vivado bitstream generation
 vitis_accel_prj/build/xclbin/link
