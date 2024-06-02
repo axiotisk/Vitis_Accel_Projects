@@ -1,0 +1,33 @@
+
+*** Running vivado
+    with args -log bd_22c0_fanout_aresetn_ctrl_slr0_4_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_22c0_fanout_aresetn_ctrl_slr0_4_0.tcl
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source bd_22c0_fanout_aresetn_ctrl_slr0_4_0.tcl -notrace
+INFO: Dispatch client connection id - 33731
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1716.441 ; gain = 87.992 ; free physical = 657415 ; free virtual = 851537
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/int/xo/ip_repo/xilinx_com_hls_kernel_wrapper_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/ipcache'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tools/Xilinx/Vitis/2022.2/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axi_clk_metadata_adapter:1.0'. The one found in IP location '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/axi_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/axi_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axis_clk_metadata_adapter:1.0'. The one found in IP location '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/axis_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/axis_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:clk_metadata_adapter:1.0'. The one found in IP location '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:pipeline_reg:1.0'. The one found in IP location '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pipeline_reg_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/pipeline_reg_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:shell_utils_build_info:1.0'. The one found in IP location '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/shell_utils_build_info_v1_0' will take precedence over the same IP in the Xilinx installed IP.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_22c0_fanout_aresetn_ctrl_slr0_4_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 51dfbd47e9c8bd97 to dir: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_22c0_fanout_aresetn_ctrl_slr0_4_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/ayvol/vitis-accel-CNN/vitis_accel_prj/.ipcache/5/1/51dfbd47e9c8bd97/bd_22c0_fanout_aresetn_ctrl_slr2_3_0.dcp to /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_22c0_fanout_aresetn_ctrl_slr0_4_0_synth_1/bd_22c0_fanout_aresetn_ctrl_slr0_4_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/ayvol/vitis-accel-CNN/vitis_accel_prj/.ipcache/5/1/51dfbd47e9c8bd97/bd_22c0_fanout_aresetn_ctrl_slr2_3_0_stub.v to /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_22c0_fanout_aresetn_ctrl_slr0_4_0_synth_1/bd_22c0_fanout_aresetn_ctrl_slr0_4_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/ayvol/vitis-accel-CNN/vitis_accel_prj/.ipcache/5/1/51dfbd47e9c8bd97/bd_22c0_fanout_aresetn_ctrl_slr2_3_0_stub.vhdl to /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_22c0_fanout_aresetn_ctrl_slr0_4_0_synth_1/bd_22c0_fanout_aresetn_ctrl_slr0_4_0_stub.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/ayvol/vitis-accel-CNN/vitis_accel_prj/.ipcache/5/1/51dfbd47e9c8bd97/bd_22c0_fanout_aresetn_ctrl_slr2_3_0_sim_netlist.v to /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_22c0_fanout_aresetn_ctrl_slr0_4_0_synth_1/bd_22c0_fanout_aresetn_ctrl_slr0_4_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/ayvol/vitis-accel-CNN/vitis_accel_prj/.ipcache/5/1/51dfbd47e9c8bd97/bd_22c0_fanout_aresetn_ctrl_slr2_3_0_sim_netlist.vhdl to /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_22c0_fanout_aresetn_ctrl_slr0_4_0_synth_1/bd_22c0_fanout_aresetn_ctrl_slr0_4_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP bd_22c0_fanout_aresetn_ctrl_slr0_4_0, cache-ID = 51dfbd47e9c8bd97.
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  2 04:36:33 2024...

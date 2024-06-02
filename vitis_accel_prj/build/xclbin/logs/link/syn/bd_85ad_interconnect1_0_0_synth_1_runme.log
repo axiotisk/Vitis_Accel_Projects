@@ -1,0 +1,816 @@
+
+*** Running vivado
+    with args -log bd_85ad_interconnect1_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_85ad_interconnect1_0_0.tcl
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source bd_85ad_interconnect1_0_0.tcl -notrace
+INFO: Dispatch client connection id - 33731
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1716.195 ; gain = 87.992 ; free physical = 659167 ; free virtual = 846383
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/int/xo/ip_repo/xilinx_com_hls_kernel_wrapper_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/ipcache'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tools/Xilinx/Vitis/2022.2/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axi_clk_metadata_adapter:1.0'. The one found in IP location '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/axi_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/axi_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axis_clk_metadata_adapter:1.0'. The one found in IP location '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/axis_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/axis_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:clk_metadata_adapter:1.0'. The one found in IP location '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:pipeline_reg:1.0'. The one found in IP location '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pipeline_reg_v1_0' will take precedence over the same IP in location /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/pxi_ii_infra/pipeline_reg_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:shell_utils_build_info:1.0'. The one found in IP location '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/shell_utils_build_info_v1_0' will take precedence over the same IP in the Xilinx installed IP.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_85ad_interconnect1_0_0
+Command: synth_design -top bd_85ad_interconnect1_0_0 -part xcu55c-fsvh2892-2L-e -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcu55c'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcu55c'
+INFO: [Device 21-403] Loading part xcu55c-fsvh2892-2L-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 1 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 149047
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+WARNING: [Synth 8-11067] parameter 'K_MAX_EP_ROUTE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:87]
+WARNING: [Synth 8-11067] parameter 'K_MAX_SC_ROUTE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:88]
+WARNING: [Synth 8-11067] parameter 'K_MAX_CMD_PTR' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:89]
+WARNING: [Synth 8-11067] parameter 'K_MAX_LUTRAM_PTR' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:90]
+WARNING: [Synth 8-11067] parameter 'K_MAX_BRAM_PTR' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:91]
+WARNING: [Synth 8-11067] parameter 'K_MIN_BRAM_PTR' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:92]
+WARNING: [Synth 8-11067] parameter 'K_MAX_SYNC_RATIO' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:93]
+WARNING: [Synth 8-11067] parameter 'K_MAX_PIPELINES' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:94]
+WARNING: [Synth 8-11067] parameter 'K_LOG_MAX_PIPELINES' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:95]
+WARNING: [Synth 8-11067] parameter 'K_MAX_LATENCY' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:96]
+WARNING: [Synth 8-11067] parameter 'K_LOG_MAX_LATENCY' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:97]
+WARNING: [Synth 8-11067] parameter 'K_AXIS_ARB_TDATA_NUM_BYTES' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:98]
+WARNING: [Synth 8-11067] parameter 'K_MAX_USER_BITS_PER_BYTE' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:99]
+WARNING: [Synth 8-11067] parameter 'K_MAX_INFO_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:100]
+WARNING: [Synth 8-11067] parameter 'K_MAX_OUTSTANDING_REQ' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:101]
+WARNING: [Synth 8-11067] parameter 'K_AXI_SIZE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:102]
+WARNING: [Synth 8-11067] parameter 'K_AXI_BURST_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:103]
+WARNING: [Synth 8-11067] parameter 'K_AXI_RESP_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:104]
+WARNING: [Synth 8-11067] parameter 'K_AXI_LAST_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:105]
+WARNING: [Synth 8-11067] parameter 'K_AXI_LEN_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:106]
+WARNING: [Synth 8-11067] parameter 'K_AXI_EXCL_LEN_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:107]
+WARNING: [Synth 8-11067] parameter 'K_AXI_LOCK_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:108]
+WARNING: [Synth 8-11067] parameter 'K_AXI3_LEN_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:109]
+WARNING: [Synth 8-11067] parameter 'K_AXI3_LOCK_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:110]
+WARNING: [Synth 8-11067] parameter 'K_AXI_PROT_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:111]
+WARNING: [Synth 8-11067] parameter 'K_AXI_QOS_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:112]
+WARNING: [Synth 8-11067] parameter 'K_AXI_CACHE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:113]
+WARNING: [Synth 8-11067] parameter 'K_MAX_ACCEPTANCE' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:114]
+WARNING: [Synth 8-11067] parameter 'K_MAX_FANOUT' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:115]
+WARNING: [Synth 8-11067] parameter 'K_MAX_READ_WATERMARK' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:116]
+WARNING: [Synth 8-11067] parameter 'K_MAX_BURST_LENGTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:117]
+WARNING: [Synth 8-11067] parameter 'CH_R' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:164]
+WARNING: [Synth 8-11067] parameter 'CH_W' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:165]
+WARNING: [Synth 8-11067] parameter 'CH_AR' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:166]
+WARNING: [Synth 8-11067] parameter 'CH_AW' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:167]
+WARNING: [Synth 8-11067] parameter 'CH_B' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:168]
+WARNING: [Synth 8-11067] parameter 'CLK_DOWN' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:170]
+WARNING: [Synth 8-11067] parameter 'CLK_SYNC_ALIAS' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:171]
+WARNING: [Synth 8-11067] parameter 'CLK_ASYNC' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:172]
+WARNING: [Synth 8-11067] parameter 'CLK_SYNC' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:173]
+WARNING: [Synth 8-11067] parameter 'CLK_UP' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:174]
+WARNING: [Synth 8-11067] parameter 'CLKEN_NONE' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:176]
+WARNING: [Synth 8-11067] parameter 'CLKEN_S' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:177]
+WARNING: [Synth 8-11067] parameter 'CLKEN_M' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:178]
+WARNING: [Synth 8-11067] parameter 'CLKEN_S_AND_M' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:179]
+WARNING: [Synth 8-11067] parameter 'ARB_BYPASS' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:180]
+WARNING: [Synth 8-11067] parameter 'ARB_ROUNDROBIN' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:181]
+WARNING: [Synth 8-11067] parameter 'ARB_SLAVE' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:182]
+WARNING: [Synth 8-11067] parameter 'FIFO_LUTRAM' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:183]
+WARNING: [Synth 8-11067] parameter 'FIFO_BRAM' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:184]
+WARNING: [Synth 8-11067] parameter 'FIFO_NONE' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:185]
+WARNING: [Synth 8-11067] parameter 'FIFO_IP_XPM_MEMORY' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:186]
+WARNING: [Synth 8-11067] parameter 'FIFO_IP_FG' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:187]
+WARNING: [Synth 8-11067] parameter 'FIFO_IP_XPM_FIFO' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:188]
+WARNING: [Synth 8-11067] parameter 'K_T_STRUCT_EXCLUSIVE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:230]
+WARNING: [Synth 8-11067] parameter 'K_T_STATIC_ADDR_PAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:232]
+WARNING: [Synth 8-11067] parameter 'K_T_STATIC_RDATA_PAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:240]
+WARNING: [Synth 8-11067] parameter 'K_T_STATIC_WDATA_PAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:244]
+WARNING: [Synth 8-11067] parameter 'K_T_STATIC_BRSP_PAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:247]
+WARNING: [Synth 8-11067] parameter 'K_T_EXCLUSIVE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:253]
+WARNING: [Synth 8-11067] parameter 'K_T_ADDR_AUGMENT_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:256]
+WARNING: [Synth 8-11067] parameter 'K_T_DATA_AUGMENT_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:259]
+WARNING: [Synth 8-11067] parameter 'K_T_BRSP_AUGMENT_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:261]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_ADDR_CASCADE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:263]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_DATA_CASCADE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:265]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_BRSP_CASCADE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:267]
+WARNING: [Synth 8-11067] parameter 'K_T_CASCADE_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:270]
+WARNING: [Synth 8-11067] parameter 'K_T_SEG_LEN_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:304]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_ADDR_SIDEBAND_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:305]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_DATA_SIDEBAND_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:308]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_BRSP_SIDEBAND_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:310]
+WARNING: [Synth 8-11067] parameter 'K_T_SIDEBAND_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:313]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_AXPAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:341]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_WPAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:348]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_RPAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:352]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_BPAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:357]
+WARNING: [Synth 8-11067] parameter 'K_T_PAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:361]
+WARNING: [Synth 8-11067] parameter 'K_MAX_PAYLD_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:362]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_AXVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:547]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_WVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:557]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_RVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:561]
+WARNING: [Synth 8-11067] parameter 'K_USABLE_T_BVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:566]
+WARNING: [Synth 8-11067] parameter 'K_STATIC_AXVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:574]
+WARNING: [Synth 8-11067] parameter 'K_STATIC_WVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:584]
+WARNING: [Synth 8-11067] parameter 'K_STATIC_RVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:588]
+WARNING: [Synth 8-11067] parameter 'K_STATIC_BVECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:593]
+WARNING: [Synth 8-11067] parameter 'K_T_VECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:596]
+WARNING: [Synth 8-11067] parameter 'K_MAX_VECTOR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:597]
+WARNING: [Synth 8-11067] parameter 'K_MAX_NUM_MNOC' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:674]
+WARNING: [Synth 8-11067] parameter 'K_MAX_NUM_SNOC' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:675]
+WARNING: [Synth 8-11067] parameter 'NOC_MAX_SCHED_LEN' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:676]
+WARNING: [Synth 8-11067] parameter 'NOC_MAX_TKN_WIDTH' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:677]
+WARNING: [Synth 8-11067] parameter 'NOC_MAX_RTR_ADDR_WIDTH' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:678]
+WARNING: [Synth 8-11067] parameter 'NOC_PORT_EJECT' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:679]
+WARNING: [Synth 8-11067] parameter 'NOC_PORT_ASCEND' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:680]
+WARNING: [Synth 8-11067] parameter 'NOC_PORT_DESCEND' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:681]
+WARNING: [Synth 8-11067] parameter 'NOC_PORT_THROUGH' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:682]
+WARNING: [Synth 8-11067] parameter 'NOC_TOKEN_THROUGH' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:683]
+WARNING: [Synth 8-11067] parameter 'NOC_TOKEN_ASCEND' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:684]
+WARNING: [Synth 8-11067] parameter 'NOC_TOKEN_DESCEND' declared inside package 'sc_util_v1_0_4_pkg_noc' shall be treated as localparam [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f0b6/hdl/sc_util_v1_0_vl_rfs.sv:685]
+INFO: [Common 17-14] Message 'Synth 8-11067' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-11014] non-net output port 'upsizer_valid' cannot be initialized at declaration in SystemVerilog mode [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/66be/hdl/sc_node_v1_0_vl_rfs.sv:2589]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3477.496 ; gain = 356.766 ; free physical = 653538 ; free virtual = 840774
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2670.271; parent = 2542.367; children = 127.904
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4480.633; parent = 3493.344; children = 987.289
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_85ad_interconnect1_0_0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_3/synth/bd_85ad_interconnect1_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_baa4' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:9]
+INFO: [Synth 8-6157] synthesizing module 'clk_map_imp_1CIL6EU' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:382]
+INFO: [Synth 8-6157] synthesizing module 'bd_baa4_one_0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_0/synth/bd_baa4_one_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/badb/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/badb/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd_baa4_one_0' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_0/synth/bd_baa4_one_0.v:53]
+INFO: [Synth 8-638] synthesizing module 'bd_baa4_psr0_0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_1/synth/bd_baa4_psr0_0.vhd:74]
+	Parameter C_FAMILY bound to: virtexuplusHBM - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1264' bound to instance 'U0' of component 'proc_sys_reset' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_1/synth/bd_baa4_psr0_0.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1392]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1408]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1434]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1457]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1481]
+INFO: [Synth 8-638] synthesizing module 'lpf' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-3491] module 'SRL16' declared at '/tools/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:131628' bound to instance 'POR_SRL_I' of component 'SRL16' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:868]
+INFO: [Synth 8-6157] synthesizing module 'SRL16' [/tools/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:131628]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16' (0#1) [/tools/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:131628]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'bd_baa4_psr0_0' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_1/synth/bd_baa4_psr0_0.vhd:74]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'bd_baa4_psr0_0' is unconnected for instance 'psr0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:423]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'bd_baa4_psr0_0' is unconnected for instance 'psr0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:423]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'bd_baa4_psr0_0' is unconnected for instance 'psr0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:423]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'bd_baa4_psr0_0' is unconnected for instance 'psr0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:423]
+WARNING: [Synth 8-7023] instance 'psr0' of module 'bd_baa4_psr0_0' has 10 connections declared, but only 6 given [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:423]
+INFO: [Synth 8-638] synthesizing module 'bd_baa4_psr_aclk_0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_2/synth/bd_baa4_psr_aclk_0.vhd:74]
+	Parameter C_FAMILY bound to: virtexuplusHBM - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1264' bound to instance 'U0' of component 'proc_sys_reset' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_2/synth/bd_baa4_psr_aclk_0.vhd:129]
+INFO: [Synth 8-256] done synthesizing module 'bd_baa4_psr_aclk_0' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_2/synth/bd_baa4_psr_aclk_0.vhd:74]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'bd_baa4_psr_aclk_0' is unconnected for instance 'psr_aclk' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:430]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'bd_baa4_psr_aclk_0' is unconnected for instance 'psr_aclk' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:430]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'bd_baa4_psr_aclk_0' is unconnected for instance 'psr_aclk' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:430]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'bd_baa4_psr_aclk_0' is unconnected for instance 'psr_aclk' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:430]
+WARNING: [Synth 8-7023] instance 'psr_aclk' of module 'bd_baa4_psr_aclk_0' has 10 connections declared, but only 6 given [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:430]
+INFO: [Synth 8-638] synthesizing module 'bd_baa4_psr_aclk1_0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_3/synth/bd_baa4_psr_aclk1_0.vhd:74]
+	Parameter C_FAMILY bound to: virtexuplusHBM - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1264' bound to instance 'U0' of component 'proc_sys_reset' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_3/synth/bd_baa4_psr_aclk1_0.vhd:129]
+INFO: [Synth 8-256] done synthesizing module 'bd_baa4_psr_aclk1_0' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_3/synth/bd_baa4_psr_aclk1_0.vhd:74]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'bd_baa4_psr_aclk1_0' is unconnected for instance 'psr_aclk1' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:437]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'bd_baa4_psr_aclk1_0' is unconnected for instance 'psr_aclk1' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:437]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'bd_baa4_psr_aclk1_0' is unconnected for instance 'psr_aclk1' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:437]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'bd_baa4_psr_aclk1_0' is unconnected for instance 'psr_aclk1' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:437]
+WARNING: [Synth 8-7023] instance 'psr_aclk1' of module 'bd_baa4_psr_aclk1_0' has 10 connections declared, but only 6 given [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:437]
+INFO: [Synth 8-6155] done synthesizing module 'clk_map_imp_1CIL6EU' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:382]
+INFO: [Synth 8-6157] synthesizing module 'm00_exit_pipeline_imp_NZK3N1' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:446]
+INFO: [Synth 8-6157] synthesizing module 'bd_baa4_m00e_0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_11/synth/bd_baa4_m00e_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_async_rst' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1174]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_async_rst' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1174]
+INFO: [Synth 8-6155] done synthesizing module 'bd_baa4_m00e_0' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_11/synth/bd_baa4_m00e_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'm00_exit_pipeline_imp_NZK3N1' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:446]
+INFO: [Synth 8-6157] synthesizing module 'bd_baa4_m00s2a_0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_10/synth/bd_baa4_m00s2a_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_baa4_m00s2a_0' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_10/synth/bd_baa4_m00s2a_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_baa4_s00a2s_0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_7/synth/bd_baa4_s00a2s_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_baa4_s00a2s_0' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_7/synth/bd_baa4_s00a2s_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 's00_entry_pipeline_imp_1N79GFI' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:622]
+INFO: [Synth 8-6157] synthesizing module 'bd_baa4_s00mmu_0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_4/synth/bd_baa4_s00mmu_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_baa4_s00mmu_0' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_4/synth/bd_baa4_s00mmu_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_baa4_s00sic_0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_6/synth/bd_baa4_s00sic_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_baa4_s00sic_0' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_6/synth/bd_baa4_s00sic_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_baa4_s00tr_0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_5/synth/bd_baa4_s00tr_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_baa4_s00tr_0' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_5/synth/bd_baa4_s00tr_0.sv:53]
+WARNING: [Synth 8-7071] port 'm_axi_arburst' of module 'bd_baa4_s00tr_0' is unconnected for instance 's00_transaction_regulator' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:883]
+WARNING: [Synth 8-7023] instance 's00_transaction_regulator' of module 'bd_baa4_s00tr_0' has 40 connections declared, but only 39 given [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:883]
+INFO: [Synth 8-6155] done synthesizing module 's00_entry_pipeline_imp_1N79GFI' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:622]
+INFO: [Synth 8-6157] synthesizing module 's00_nodes_imp_1HIR790' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:925]
+INFO: [Synth 8-6157] synthesizing module 'bd_baa4_sarn_0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_8/synth/bd_baa4_sarn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8476]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8476]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-6155] done synthesizing module 'bd_baa4_sarn_0' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_8/synth/bd_baa4_sarn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_baa4_srn_0' [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_9/synth/bd_baa4_srn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized0' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8476]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8476]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized1' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8476]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized1' [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized1' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized1' (0#1) [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8476]
+INFO: [Synth 8-6155] done synthesizing module 'bd_baa4_srn_0' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_9/synth/bd_baa4_srn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 's00_nodes_imp_1HIR790' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:925]
+INFO: [Synth 8-6155] done synthesizing module 'bd_baa4' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'bd_85ad_interconnect1_0_0' (0#1) [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_3/synth/bd_85ad_interconnect1_0_0.v:53]
+WARNING: [Synth 8-3848] Net aresetn_out in module/entity clk_map_imp_1CIL6EU does not have driver. [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/synth/bd_baa4.v:400]
+WARNING: [Synth 8-6014] Unused sequential element dest_out_bin_ff_reg was removed.  [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:417]
+WARNING: [Synth 8-7129] Port din[0] in module sc_util_v1_0_4_onehot_to_binary is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sleep in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rsta in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regcea in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regceb in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port web[0] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[146] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[145] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[144] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[143] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[142] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[141] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[140] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[139] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[138] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[137] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[136] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[135] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[134] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[133] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[132] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[131] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[130] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[129] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[128] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[127] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[126] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[125] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[124] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[123] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[122] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[121] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[120] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[119] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[118] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[117] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[116] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[115] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[114] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[113] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[112] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[111] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[110] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[109] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[108] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[107] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[106] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[105] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[104] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[103] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[102] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[101] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[100] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[99] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[98] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[97] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[96] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[95] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[94] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[93] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[92] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[91] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[90] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[89] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[88] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[87] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[86] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[85] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[84] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[83] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[82] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[81] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[80] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[79] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[78] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[77] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[76] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[75] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[74] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[73] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[72] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[71] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[70] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[69] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[68] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[67] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[66] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[65] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[64] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[63] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[62] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[61] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[60] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[59] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[58] in module xpm_memory_base__parameterized1 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 3632.309 ; gain = 511.578 ; free physical = 653966 ; free virtual = 841201
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2670.271; parent = 2542.367; children = 130.747
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4619.602; parent = 3632.312; children = 987.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 3650.121 ; gain = 529.391 ; free physical = 653989 ; free virtual = 841225
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2670.271; parent = 2542.367; children = 130.773
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4637.414; parent = 3650.125; children = 987.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 3650.121 ; gain = 529.391 ; free physical = 653983 ; free virtual = 841218
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2670.271; parent = 2542.367; children = 130.773
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4637.414; parent = 3650.125; children = 987.289
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.66 ; elapsed = 00:00:00.67 . Memory (MB): peak = 3656.059 ; gain = 0.000 ; free physical = 656800 ; free virtual = 844031
+INFO: [Netlist 29-17] Analyzing 39 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_3/ooc.xdc] for cell 'inst'
+0V85_VCCINT { VCCINT }  -supply_current_budget  100.000 A -voltage  0.850 V -direct
+0V85_VCCINT_IO { VCCINT_IO VCCBRAM }  -supply_current_budget  30.000 A -voltage  0.850 V -direct
+0V9_AVCC { MGTYAVCC }  -supply_current_budget  0.000 A -voltage  0.900 V -direct
+1V2_AVTT { MGTYAVTT }  -supply_current_budget  0.000 A -voltage  1.200 V -direct
+1V2_HBM { VCC_HBM }  -supply_current_budget  0.000 A -voltage  1.200 V -direct
+1V8 { VCCAUX VCCAUX_IO MGTYVCCAUX VCCO18 VCCADC }  -supply_current_budget  4.000 A -voltage  1.800 V -direct
+2V5_VPP { VCCAUX_HBM }  -supply_current_budget  0.300 A -voltage  2.500 V -direct
+Finished Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_0/ip/ip_3/ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_1/bd_baa4_psr0_0_board.xdc] for cell 'inst/clk_map/psr0/U0'
+Finished Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_1/bd_baa4_psr0_0_board.xdc] for cell 'inst/clk_map/psr0/U0'
+Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_1/bd_baa4_psr0_0.xdc] for cell 'inst/clk_map/psr0/U0'
+Finished Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_1/bd_baa4_psr0_0.xdc] for cell 'inst/clk_map/psr0/U0'
+Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_2/bd_baa4_psr_aclk_0_board.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_2/bd_baa4_psr_aclk_0_board.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_2/bd_baa4_psr_aclk_0.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_2/bd_baa4_psr_aclk_0.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_3/bd_baa4_psr_aclk1_0_board.xdc] for cell 'inst/clk_map/psr_aclk1/U0'
+Finished Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_3/bd_baa4_psr_aclk1_0_board.xdc] for cell 'inst/clk_map/psr_aclk1/U0'
+Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_3/bd_baa4_psr_aclk1_0.xdc] for cell 'inst/clk_map/psr_aclk1/U0'
+Finished Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_hmss_0_0/bd_1/ip/ip_3/bd_baa4_psr_aclk1_0.xdc] for cell 'inst/clk_map/psr_aclk1/U0'
+Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_85ad_interconnect1_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_85ad_interconnect1_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/bd_85ad_interconnect1_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/bd_85ad_interconnect1_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/bd_85ad_interconnect1_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/bd_85ad_interconnect1_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 15 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3866.375 ; gain = 0.000 ; free physical = 659722 ; free virtual = 846948
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 39 instances were transformed.
+  FDR => FDRE: 36 instances
+  SRL16 => SRL16E: 3 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.16 . Memory (MB): peak = 3866.375 ; gain = 0.000 ; free physical = 659649 ; free virtual = 846875
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 3866.375 ; gain = 745.645 ; free physical = 664596 ; free virtual = 851822
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2962.623; parent = 2831.554; children = 131.618
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4853.668; parent = 3866.379; children = 987.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcu55c-fsvh2892-2L-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 3866.375 ; gain = 745.645 ; free physical = 664732 ; free virtual = 851958
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2962.623; parent = 2831.554; children = 131.618
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4853.668; parent = 3866.379; children = 987.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_85ad_interconnect1_0_0_synth_1/dont_touch.xdc, line 71).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_ar_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_r_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_ar_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_r_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_exit_pipeline/m00_exit/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_entry_pipeline/s00_mmu/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_entry_pipeline/s00_si_converter/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_entry_pipeline/s00_transaction_regulator/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_async_clocks.inst_cdc_addra_to_rd_clk . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_r_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_async_clocks.inst_cdc_addra_to_rd_clk . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_async_clocks.inst_cdc_addrb_to_wr_clk . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_r_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_async_clocks.inst_cdc_addrb_to_wr_clk . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_mem_rep[0].inst_xpm_memory . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_r_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_mem_rep[0].inst_xpm_memory . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_r_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_mem_rep[1].inst_xpm_memory . (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 3866.375 ; gain = 745.645 ; free physical = 664887 ; free virtual = 852113
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2962.623; parent = 2831.554; children = 131.618
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4853.668; parent = 3866.379; children = 987.289
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-802] inferred FSM for state register 'gen_axi.gen_write.write_cs_reg' in module 'sc_mmu_v1_0_11_decerr_slave'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            P_WRITE_IDLE |                              001 |                               00
+            P_WRITE_DATA |                              010 |                               01
+            P_WRITE_RESP |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_axi.gen_write.write_cs_reg' using encoding 'one-hot' in module 'sc_mmu_v1_0_11_decerr_slave'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 3866.375 ; gain = 745.645 ; free physical = 663533 ; free virtual = 850762
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2962.623; parent = 2831.554; children = 131.618
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4853.668; parent = 3866.379; children = 987.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   34 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 3     
+	   3 Input    8 Bit       Adders := 2     
+	   2 Input    7 Bit       Adders := 2     
+	   2 Input    6 Bit       Adders := 19    
+	   2 Input    5 Bit       Adders := 5     
+	   2 Input    4 Bit       Adders := 12    
+	   2 Input    3 Bit       Adders := 2     
+	   3 Input    3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      6 Bit         XORs := 4     
+	   2 Input      1 Bit         XORs := 44    
++---Registers : 
+	             2178 Bit    Registers := 4     
+	              512 Bit    Registers := 2     
+	              188 Bit    Registers := 1     
+	              148 Bit    Registers := 1     
+	              147 Bit    Registers := 1     
+	               64 Bit    Registers := 4     
+	               47 Bit    Registers := 1     
+	               33 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               14 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 8     
+	                7 Bit    Registers := 4     
+	                6 Bit    Registers := 27    
+	                5 Bit    Registers := 5     
+	                4 Bit    Registers := 16    
+	                3 Bit    Registers := 31    
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 118   
++---Muxes : 
+	   2 Input 2178 Bit        Muxes := 3     
+	   2 Input  512 Bit        Muxes := 2     
+	   2 Input   64 Bit        Muxes := 4     
+	   2 Input   47 Bit        Muxes := 1     
+	   2 Input   34 Bit        Muxes := 2     
+	   2 Input   33 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 5     
+	   2 Input   14 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 11    
+	   2 Input    7 Bit        Muxes := 24    
+	   2 Input    6 Bit        Muxes := 6     
+	   2 Input    4 Bit        Muxes := 4     
+	   4 Input    3 Bit        Muxes := 11    
+	  11 Input    3 Bit        Muxes := 10    
+	   2 Input    3 Bit        Muxes := 12    
+	   2 Input    2 Bit        Muxes := 25    
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 74    
+	   6 Input    1 Bit        Muxes := 54    
+	  12 Input    1 Bit        Muxes := 10    
+	   5 Input    1 Bit        Muxes := 10    
+	   3 Input    1 Bit        Muxes := 10    
+	   4 Input    1 Bit        Muxes := 4     
+	  10 Input    1 Bit        Muxes := 3     
+	   7 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 9024 (col length:94)
+BRAMs: 4032 (col length: RAMB18 288 RAMB36 144)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr0/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr0/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr0/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr0/U0/FDRE_inst) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr0/U0/BSR_OUT_DFF[0].FDRE_BSR) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr0/U0/PR_OUT_DFF[0].FDRE_PER) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr0/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/FDRE_inst) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/BSR_OUT_DFF[0].FDRE_BSR) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/PR_OUT_DFF[0].FDRE_PER) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk1/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk1/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk1/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk1/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk1/U0/FDRE_inst) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk1/U0/BSR_OUT_DFF[0].FDRE_BSR) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk1/U0/PR_OUT_DFF[0].FDRE_PER) is unused and will be removed from module bd_baa4.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk1/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N) is unused and will be removed from module bd_baa4.
+INFO: [Synth 8-3332] Sequential element (gen_endpoint.decerr_slave_inst/FSM_onehot_gen_axi.gen_write.write_cs_reg[2]) is unused and will be removed from module sc_mmu_v1_0_11_top.
+INFO: [Synth 8-3332] Sequential element (gen_endpoint.decerr_slave_inst/FSM_onehot_gen_axi.gen_write.write_cs_reg[1]) is unused and will be removed from module sc_mmu_v1_0_11_top.
+INFO: [Synth 8-3332] Sequential element (gen_endpoint.decerr_slave_inst/FSM_onehot_gen_axi.gen_write.write_cs_reg[0]) is unused and will be removed from module sc_mmu_v1_0_11_top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 3866.375 ; gain = 745.645 ; free physical = 663078 ; free virtual = 850324
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2962.623; parent = 2831.554; children = 132.137
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4853.668; parent = 3866.379; children = 987.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|Module Name                                                                                                                                                                | RTL Object                       | Inference      | Size (Depth x Width) | Primitives     | 
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|inst/\s00_nodes/s00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 188             | RAM32M16 x 14  | 
+|inst/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 148             | RAM32M16 x 11  | 
+|inst/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[1].inst_xpm_memory /xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 147             | RAM32M16 x 11  | 
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 3992.156 ; gain = 871.426 ; free physical = 663675 ; free virtual = 850921
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3173.873; parent = 3042.933; children = 132.792
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4979.449; parent = 3992.160; children = 987.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:00:55 . Memory (MB): peak = 4030.203 ; gain = 909.473 ; free physical = 664028 ; free virtual = 851278
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3186.087; parent = 3054.010; children = 132.792
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5017.496; parent = 4030.207; children = 987.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|Module Name                                                                                                                                                                | RTL Object                       | Inference      | Size (Depth x Width) | Primitives     | 
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|inst/\s00_nodes/s00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 188             | RAM32M16 x 14  | 
+|inst/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 148             | RAM32M16 x 11  | 
+|inst/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[1].inst_xpm_memory /xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 147             | RAM32M16 x 11  | 
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 4032.219 ; gain = 911.488 ; free physical = 663965 ; free virtual = 851215
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3191.773; parent = 3059.758; children = 132.792
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5019.512; parent = 4032.223; children = 987.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 4035.188 ; gain = 914.457 ; free physical = 663843 ; free virtual = 851093
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3192.477; parent = 3060.461; children = 132.792
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5022.480; parent = 4035.191; children = 987.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 4035.188 ; gain = 914.457 ; free physical = 664044 ; free virtual = 851293
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3192.492; parent = 3060.477; children = 132.792
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5022.480; parent = 4035.191; children = 987.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 4035.188 ; gain = 914.457 ; free physical = 663769 ; free virtual = 851018
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3192.958; parent = 3060.942; children = 132.792
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5022.480; parent = 4035.191; children = 987.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 4035.188 ; gain = 914.457 ; free physical = 663874 ; free virtual = 851124
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3192.958; parent = 3060.942; children = 132.792
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5022.480; parent = 4035.191; children = 987.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 4035.188 ; gain = 914.457 ; free physical = 664128 ; free virtual = 851377
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3197.903; parent = 3064.390; children = 133.514
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5022.480; parent = 4035.191; children = 987.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 4035.188 ; gain = 914.457 ; free physical = 664637 ; free virtual = 851886
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3197.903; parent = 3064.390; children = 133.514
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5022.480; parent = 4035.191; children = 987.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Dynamic Shift Register Report:
++------------+---------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name      | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+---------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | shift_reg_reg | 16     | 1          | 1      | 0       | 0      | 0      | 0      | 
+|dsrl__121   | shift_reg_reg | 16     | 1          | 1      | 0       | 0      | 0      | 0      | 
++------------+---------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY8   |     8|
+|2     |LUT1     |    48|
+|3     |LUT2     |    80|
+|4     |LUT3     |   122|
+|5     |LUT4     |    82|
+|6     |LUT5     |    73|
+|7     |LUT6     |   226|
+|8     |MUXF7    |    32|
+|9     |RAM32M16 |    28|
+|10    |SRL16    |     3|
+|11    |SRL16E   |    10|
+|12    |FDCE     |    24|
+|13    |FDR      |    20|
+|14    |FDRE     |   697|
+|15    |FDSE     |    42|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 4035.188 ; gain = 914.457 ; free physical = 664618 ; free virtual = 851868
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3197.903; parent = 3064.390; children = 133.514
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 5022.480; parent = 4035.191; children = 987.289
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13013 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:00:47 . Memory (MB): peak = 4035.188 ; gain = 698.203 ; free physical = 664756 ; free virtual = 852005
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:01:01 . Memory (MB): peak = 4035.195 ; gain = 914.457 ; free physical = 664715 ; free virtual = 851964
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.12 . Memory (MB): peak = 4035.195 ; gain = 0.000 ; free physical = 664760 ; free virtual = 852009
+INFO: [Netlist 29-17] Analyzing 91 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4117.477 ; gain = 0.000 ; free physical = 665293 ; free virtual = 852542
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 51 instances were transformed.
+  FDR => FDRE: 20 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 28 instances
+  SRL16 => SRL16E: 3 instances
+
+Synth Design complete, checksum: 8aff192b
+INFO: [Common 17-83] Releasing license: Synthesis
+124 Infos, 254 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 4117.477 ; gain = 2326.734 ; free physical = 665380 ; free virtual = 852629
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [Common 17-1381] The checkpoint '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_85ad_interconnect1_0_0_synth_1/bd_85ad_interconnect1_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_85ad_interconnect1_0_0, cache-ID = 8ee5ea66e44ce556
+INFO: [Coretcl 2-1174] Renamed 95 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build/xclbin/link/vivado/vpl/prj/prj.runs/bd_85ad_interconnect1_0_0_synth_1/bd_85ad_interconnect1_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bd_85ad_interconnect1_0_0_utilization_synth.rpt -pb bd_85ad_interconnect1_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  2 04:24:09 2024...
