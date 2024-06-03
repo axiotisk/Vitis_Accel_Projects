@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="myproject_kernel" dir="">
+  <FileSets>
+    <FileSet Name="kernel_kernel_wrapper" Type="DesignSrcs">
+      <File Path="/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp"/>
+      <File Path="/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp"/>
+      <Config/>
+    </FileSet>
+  </FileSets>
+  <Runs/>
+</project>

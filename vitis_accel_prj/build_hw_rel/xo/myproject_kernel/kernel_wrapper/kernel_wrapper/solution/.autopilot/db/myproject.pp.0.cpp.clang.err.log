@@ -1,0 +1,586 @@
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:3:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.h:4:
+In file included from /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed.h:10:
+In file included from /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h:16:
+In file included from /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int.h:12:
+/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:678:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=and_reduce_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS unroll
+        ^
+/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:692:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=or_reduce_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS unroll
+        ^
+/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:706:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=xor_reduce_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS unroll
+        ^
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:3:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.h:8:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/defines.h:6:
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_types.h:28:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:4:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/parameters.h:7:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_code_gen.h:4:
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_helpers.h:285:99: warning: unused parameter 'keep' [-Wunused-parameter]
+template <class res_T, size_t SIZE> void print_result(res_T result[SIZE], std::ostream &out, bool keep = false) {
+                                                                                                  ^
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:4:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/parameters.h:7:
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_code_gen.h:11:36: warning: unused parameter 'data' [-Wunused-parameter]
+    static void fill_buffer(data_T data[CONFIG_T::in_width * CONFIG_T::n_chan],
+                                   ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_code_gen.h:12:36: warning: unused parameter 'buffer' [-Wunused-parameter]
+                            data_T buffer[CONFIG_T::n_pixels][CONFIG_T::filt_width * CONFIG_T::n_chan],
+                                   ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_code_gen.h:13:44: warning: unused parameter 'partition' [-Wunused-parameter]
+                            const unsigned partition) {
+                                           ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_code_gen.h:21:24: warning: unused parameter 'data' [-Wunused-parameter]
+    fill_buffer(data_T data[CONFIG_T::in_height * CONFIG_T::in_width * CONFIG_T::n_chan],
+                       ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_code_gen.h:22:24: warning: unused parameter 'buffer' [-Wunused-parameter]
+                data_T buffer[CONFIG_T::n_pixels][CONFIG_T::filt_height * CONFIG_T::filt_width * CONFIG_T::n_chan],
+                       ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_code_gen.h:23:32: warning: unused parameter 'partition' [-Wunused-parameter]
+                const unsigned partition) {
+                               ^
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:4:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/parameters.h:10:
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:29:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=linear_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:40:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=relu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:54:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=relu_max_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:109:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sigmoid_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:171:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_latency_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS pipeline
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:193:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_latency_XLX_SEP_ PragmaOptions=variable=exp_res complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS array_partition variable=exp_res complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:196:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_latency_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS unroll
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:210:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_latency_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS unroll
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:217:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_stable_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS pipeline
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:244:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_stable_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS unroll
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:250:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_stable_XLX_SEP_ PragmaOptions=variable=exp_res complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS array_partition variable=exp_res complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:253:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_stable_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS unroll
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:267:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_stable_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS unroll
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:315:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_legacy_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:360:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_argmax_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:368:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_argmax_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:380:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:427:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=tanh_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:449:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=hard_sigmoid_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:464:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=hard_tanh_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:482:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=leaky_relu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:499:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=thresholded_relu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:544:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softplus_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:593:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softsign_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:642:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=elu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:698:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=selu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:721:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=prelu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:738:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=binary_tanh_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:758:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=ternary_tanh_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:4:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/parameters.h:11:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:8:
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:23:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=clone_stream_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:33:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=clone_stream_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:47:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=clone_stream_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:59:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=clone_stream_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:74:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=repack_stream_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:81:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=repack_stream_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:91:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=repack_stream_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:99:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=repack_stream_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:103:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=repack_stream_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:114:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=repack_stream_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:118:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=repack_stream_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:139:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=broadcast_stream_1x1xC_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:142:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=broadcast_stream_1x1xC_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:146:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=broadcast_stream_1x1xC_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:160:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=broadcast_stream_HxWx1_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:165:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=broadcast_stream_HxWx1_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:185:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=transpose_2d_XLX_SEP_ PragmaOptions=variable=data_array complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=data_array complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:188:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=transpose_2d_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h:196:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=transpose_2d_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:4:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/parameters.h:11:
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:20:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=linear_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:28:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=linear_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:42:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=relu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:50:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=relu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:81:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sigmoid_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:89:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sigmoid_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:133:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_latency_XLX_SEP_ PragmaOptions=variable=exp_res complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS array_partition variable=exp_res complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:137:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_latency_XLX_SEP_ PragmaOptions=II=ii_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=ii
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:142:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_latency_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:161:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_latency_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:162:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=allocation_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_latency_XLX_SEP_ PragmaOptions=operation instances=mul limit=multiplier_limit_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ALLOCATION operation instances=mul limit=multiplier_limit
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:194:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_stable_XLX_SEP_ PragmaOptions=variable=data_array complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=data_array complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:197:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_stable_XLX_SEP_ PragmaOptions=II=ii_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=ii
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:202:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_stable_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:214:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_stable_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:220:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_stable_XLX_SEP_ PragmaOptions=variable=exp_res complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=exp_res complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:223:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_stable_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:242:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_stable_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:243:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=allocation_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_stable_XLX_SEP_ PragmaOptions=operation instances=mul limit=multiplier_limit_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ALLOCATION operation instances=mul limit=multiplier_limit
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:275:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_legacy_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:279:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_legacy_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:286:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_legacy_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:289:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_legacy_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:312:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_legacy_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:329:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_argmax_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:334:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_argmax_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:342:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softmax_argmax_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:393:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=tanh_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:401:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=tanh_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:424:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=hard_sigmoid_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:432:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=hard_sigmoid_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:449:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=hard_tanh_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:457:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=hard_tanh_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:478:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=leaky_relu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:486:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=leaky_relu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:504:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=thresholded_relu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:512:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=thresholded_relu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:543:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softplus_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:551:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softplus_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:584:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softsign_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:592:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=softsign_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:625:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=elu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:633:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=elu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:673:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=selu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:681:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=selu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:705:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=prelu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:713:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=prelu_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:730:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=binary_tanh_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:738:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=binary_tanh_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:755:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=ternary_tanh_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h:763:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=ternary_tanh_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:4:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/parameters.h:12:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h:6:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_latency.h:7:
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_mult.h:25:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=product_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_mult.h:34:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=product_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_mult.h:46:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=product_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_mult.h:58:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=product_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_mult.h:72:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=product_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_mult.h:82:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=product_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:4:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/parameters.h:12:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h:6:
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_latency.h:21:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=function_instantiate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_latency_XLX_SEP_ PragmaOptions=variable=weights,biases_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS function_instantiate variable=weights,biases
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_latency.h:26:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_latency_XLX_SEP_ PragmaOptions=II=CONFIG_T::reuse_factor_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=CONFIG_T::reuse_factor
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_latency.h:29:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_latency_XLX_SEP_ PragmaOptions=variable=biases complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=biases complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_latency.h:30:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_latency_XLX_SEP_ PragmaOptions=variable=mult complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=mult complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_latency.h:31:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_latency_XLX_SEP_ PragmaOptions=variable=acc complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=acc complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_latency.h:33:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=allocation_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_latency_XLX_SEP_ PragmaOptions=operation instances=mul limit=CONFIG_T::multiplier_limit_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ALLOCATION operation instances=mul limit=CONFIG_T::multiplier_limit
+        ^
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:4:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/parameters.h:12:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h:7:
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:28:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=function_instantiate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_leq_nin_XLX_SEP_ PragmaOptions=variable=weights,biases_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS function_instantiate variable=weights,biases
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:30:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_reshape_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_leq_nin_XLX_SEP_ PragmaOptions=variable=weights block factor=block_factor_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_RESHAPE variable=weights block factor=block_factor
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:31:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_leq_nin_XLX_SEP_ PragmaOptions=variable=biases complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=biases complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:34:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_leq_nin_XLX_SEP_ PragmaOptions=variable=acc complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=acc complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:38:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_leq_nin_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:44:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_leq_nin_XLX_SEP_ PragmaOptions=II=1 rewind_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1 rewind
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:53:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_leq_nin_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:78:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_leq_nin_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:99:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=function_instantiate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_rem0_XLX_SEP_ PragmaOptions=variable=weights,biases_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS function_instantiate variable=weights,biases
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:101:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_reshape_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_rem0_XLX_SEP_ PragmaOptions=variable=weights block factor=block_factor_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_RESHAPE variable=weights block factor=block_factor
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:102:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_rem0_XLX_SEP_ PragmaOptions=variable=biases complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=biases complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:105:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_rem0_XLX_SEP_ PragmaOptions=variable=acc complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=acc complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:109:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_rem0_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:130:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_rem0_XLX_SEP_ PragmaOptions=II=1 rewind_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1 rewind
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:137:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_rem0_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:157:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_rem0_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:178:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=function_instantiate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_XLX_SEP_ PragmaOptions=variable=weights,biases_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS function_instantiate variable=weights,biases
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:180:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_reshape_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_XLX_SEP_ PragmaOptions=variable=weights block factor=block_factor_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_RESHAPE variable=weights block factor=block_factor
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:181:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_XLX_SEP_ PragmaOptions=variable=biases complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=biases complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:184:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_XLX_SEP_ PragmaOptions=variable=acc complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=acc complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:188:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:194:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_XLX_SEP_ PragmaOptions=II=1 rewind_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1 rewind
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:196:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_XLX_SEP_ PragmaOptions=variable=tmpmult complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=tmpmult complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:200:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:210:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_XLX_SEP_ PragmaOptions=variable=mult complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=mult complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:214:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:220:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:230:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:240:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_rf_gt_nin_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_resource.h:250:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_resource_XLX_SEP_ PragmaOptions=recursive_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE recursive
+        ^
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:4:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/parameters.h:12:
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h:39:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:4:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/parameters.h:13:
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_compressed.h:15:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=fill_mult_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_compressed.h:29:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_compressed_XLX_SEP_ PragmaOptions=variable=acc complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=acc complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_compressed.h:30:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_compressed_XLX_SEP_ PragmaOptions=variable=biases complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=biases complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_compressed.h:31:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_reshape_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_compressed_XLX_SEP_ PragmaOptions=variable=weights block factor=multiplier_limit_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_RESHAPE variable=weights block factor=multiplier_limit
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_compressed.h:34:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_compressed_XLX_SEP_ PragmaOptions=variable=weights_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS AGGREGATE variable=weights
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_compressed.h:41:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_compressed_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_compressed.h:49:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_compressed_XLX_SEP_ PragmaOptions=II=1 rewind_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1 rewind
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_compressed.h:52:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_compressed_XLX_SEP_ PragmaOptions=variable=mult complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=mult complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_compressed.h:56:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_compressed_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_compressed.h:62:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_compressed_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_compressed.h:82:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_compressed_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:4:
+In file included from /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/parameters.h:14:
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:16:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_wrapper_XLX_SEP_ PragmaOptions=recursive_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE recursive
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:18:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_wrapper_XLX_SEP_ PragmaOptions=II=CONFIG_T::reuse_factor_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=CONFIG_T::reuse_factor
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:30:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_XLX_SEP_ PragmaOptions=variable=data complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=data complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:33:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_XLX_SEP_ PragmaOptions=variable=res complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=res complete
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:38:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:43:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:53:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:59:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:12:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_reshape_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=fc1_input complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_RESHAPE variable=fc1_input complete dim=0
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:13:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer13_out complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=layer13_out complete dim=0
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:14:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=ap_vld port=fc1_input,layer13_out_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_vld port=fc1_input,layer13_out
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:15:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:40:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer2_out complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=layer2_out complete dim=0
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:44:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer4_out complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=layer4_out complete dim=0
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:48:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer5_out complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=layer5_out complete dim=0
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:52:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer7_out complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=layer7_out complete dim=0
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:56:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer8_out complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=layer8_out complete dim=0
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:60:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer10_out complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=layer10_out complete dim=0
+        ^
+/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp:64:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer11_out complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=layer11_out complete dim=0
+        ^
+183 warnings generated.
