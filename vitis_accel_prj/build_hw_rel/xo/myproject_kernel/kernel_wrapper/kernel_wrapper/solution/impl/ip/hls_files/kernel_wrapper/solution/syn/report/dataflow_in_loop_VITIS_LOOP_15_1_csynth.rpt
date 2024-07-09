@@ -1,0 +1,194 @@
+
+
+================================================================
+== Vitis HLS Report for 'dataflow_in_loop_VITIS_LOOP_15_1'
+================================================================
+* Date:           Thu Jul  4 07:57:24 2024
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        kernel_wrapper
+* Solution:       solution (Vitis Kernel Flow Target)
+* Product family: virtexuplus
+* Target device:  xcu55c-fsvh2892-2L-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.648 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+----------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline |
+    |   min   |   max   |    min   |    max   | min | max |   Type   |
+    +---------+---------+----------+----------+-----+-----+----------+
+    |       20|       20|  0.100 us|  0.100 us|    2|    2|  dataflow|
+    +---------+---------+----------+----------+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        +--------------+-----------+---------+---------+----------+----------+-----+-----+---------+
+        |              |           |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+        |   Instance   |   Module  |   min   |   max   |    min   |    max   | min | max |   Type  |
+        +--------------+-----------+---------+---------+----------+----------+-----+-----+---------+
+        |myproject_U0  |myproject  |       20|       20|  0.100 us|  0.100 us|    2|    2|      yes|
+        +--------------+-----------+---------+---------+----------+----------+-----+-----+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++---------------------+---------+------+---------+---------+-----+
+|         Name        | BRAM_18K|  DSP |    FF   |   LUT   | URAM|
++---------------------+---------+------+---------+---------+-----+
+|DSP                  |        -|     -|        -|        -|    -|
+|Expression           |        -|     -|        -|        -|    -|
+|FIFO                 |        -|     -|        -|        -|    -|
+|Instance             |        8|  1087|    15522|    88137|    -|
+|Memory               |        -|     -|        -|        -|    -|
+|Multiplexer          |        -|     -|        -|        -|    -|
+|Register             |        -|     -|        -|        -|    -|
++---------------------+---------+------+---------+---------+-----+
+|Total                |        8|  1087|    15522|    88137|    0|
++---------------------+---------+------+---------+---------+-----+
+|Available SLR        |     1344|  3008|   869120|   434560|  320|
++---------------------+---------+------+---------+---------+-----+
+|Utilization SLR (%)  |       ~0|    36|        1|       20|    0|
++---------------------+---------+------+---------+---------+-----+
+|Available            |     4032|  9024|  2607360|  1303680|  960|
++---------------------+---------+------+---------+---------+-----+
+|Utilization (%)      |       ~0|    12|       ~0|        6|    0|
++---------------------+---------+------+---------+---------+-----+
+
++ Detail: 
+    * Instance: 
+    +--------------+-----------+---------+------+-------+-------+-----+
+    |   Instance   |   Module  | BRAM_18K|  DSP |   FF  |  LUT  | URAM|
+    +--------------+-----------+---------+------+-------+-------+-----+
+    |myproject_U0  |myproject  |        8|  1087|  15522|  88137|    0|
+    +--------------+-----------+---------+------+-------+-------+-----+
+    |Total         |           |        8|  1087|  15522|  88137|    0|
+    +--------------+-----------+---------+------+-------+-------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++--------------------+-----+-----+------------+----------------------------------+--------------+
+|      RTL Ports     | Dir | Bits|  Protocol  |           Source Object          |    C Type    |
++--------------------+-----+-----+------------+----------------------------------+--------------+
+|in_buf_address0     |  out|   13|   ap_memory|                            in_buf|         array|
+|in_buf_ce0          |  out|    1|   ap_memory|                            in_buf|         array|
+|in_buf_d0           |  out|  256|   ap_memory|                            in_buf|         array|
+|in_buf_q0           |   in|  256|   ap_memory|                            in_buf|         array|
+|in_buf_we0          |  out|    1|   ap_memory|                            in_buf|         array|
+|in_buf_address1     |  out|   13|   ap_memory|                            in_buf|         array|
+|in_buf_ce1          |  out|    1|   ap_memory|                            in_buf|         array|
+|in_buf_d1           |  out|  256|   ap_memory|                            in_buf|         array|
+|in_buf_q1           |   in|  256|   ap_memory|                            in_buf|         array|
+|in_buf_we1          |  out|    1|   ap_memory|                            in_buf|         array|
+|i                   |   in|   14|     ap_none|                                 i|        scalar|
+|i_ap_vld            |   in|    1|     ap_none|                                 i|        scalar|
+|out_buf_0_address0  |  out|   13|   ap_memory|                         out_buf_0|         array|
+|out_buf_0_ce0       |  out|    1|   ap_memory|                         out_buf_0|         array|
+|out_buf_0_d0        |  out|   16|   ap_memory|                         out_buf_0|         array|
+|out_buf_0_q0        |   in|   16|   ap_memory|                         out_buf_0|         array|
+|out_buf_0_we0       |  out|    1|   ap_memory|                         out_buf_0|         array|
+|out_buf_0_address1  |  out|   13|   ap_memory|                         out_buf_0|         array|
+|out_buf_0_ce1       |  out|    1|   ap_memory|                         out_buf_0|         array|
+|out_buf_0_d1        |  out|   16|   ap_memory|                         out_buf_0|         array|
+|out_buf_0_q1        |   in|   16|   ap_memory|                         out_buf_0|         array|
+|out_buf_0_we1       |  out|    1|   ap_memory|                         out_buf_0|         array|
+|out_buf_1_address0  |  out|   13|   ap_memory|                         out_buf_1|         array|
+|out_buf_1_ce0       |  out|    1|   ap_memory|                         out_buf_1|         array|
+|out_buf_1_d0        |  out|   16|   ap_memory|                         out_buf_1|         array|
+|out_buf_1_q0        |   in|   16|   ap_memory|                         out_buf_1|         array|
+|out_buf_1_we0       |  out|    1|   ap_memory|                         out_buf_1|         array|
+|out_buf_1_address1  |  out|   13|   ap_memory|                         out_buf_1|         array|
+|out_buf_1_ce1       |  out|    1|   ap_memory|                         out_buf_1|         array|
+|out_buf_1_d1        |  out|   16|   ap_memory|                         out_buf_1|         array|
+|out_buf_1_q1        |   in|   16|   ap_memory|                         out_buf_1|         array|
+|out_buf_1_we1       |  out|    1|   ap_memory|                         out_buf_1|         array|
+|out_buf_2_address0  |  out|   13|   ap_memory|                         out_buf_2|         array|
+|out_buf_2_ce0       |  out|    1|   ap_memory|                         out_buf_2|         array|
+|out_buf_2_d0        |  out|   16|   ap_memory|                         out_buf_2|         array|
+|out_buf_2_q0        |   in|   16|   ap_memory|                         out_buf_2|         array|
+|out_buf_2_we0       |  out|    1|   ap_memory|                         out_buf_2|         array|
+|out_buf_2_address1  |  out|   13|   ap_memory|                         out_buf_2|         array|
+|out_buf_2_ce1       |  out|    1|   ap_memory|                         out_buf_2|         array|
+|out_buf_2_d1        |  out|   16|   ap_memory|                         out_buf_2|         array|
+|out_buf_2_q1        |   in|   16|   ap_memory|                         out_buf_2|         array|
+|out_buf_2_we1       |  out|    1|   ap_memory|                         out_buf_2|         array|
+|out_buf_3_address0  |  out|   13|   ap_memory|                         out_buf_3|         array|
+|out_buf_3_ce0       |  out|    1|   ap_memory|                         out_buf_3|         array|
+|out_buf_3_d0        |  out|   16|   ap_memory|                         out_buf_3|         array|
+|out_buf_3_q0        |   in|   16|   ap_memory|                         out_buf_3|         array|
+|out_buf_3_we0       |  out|    1|   ap_memory|                         out_buf_3|         array|
+|out_buf_3_address1  |  out|   13|   ap_memory|                         out_buf_3|         array|
+|out_buf_3_ce1       |  out|    1|   ap_memory|                         out_buf_3|         array|
+|out_buf_3_d1        |  out|   16|   ap_memory|                         out_buf_3|         array|
+|out_buf_3_q1        |   in|   16|   ap_memory|                         out_buf_3|         array|
+|out_buf_3_we1       |  out|    1|   ap_memory|                         out_buf_3|         array|
+|out_buf_4_address0  |  out|   13|   ap_memory|                         out_buf_4|         array|
+|out_buf_4_ce0       |  out|    1|   ap_memory|                         out_buf_4|         array|
+|out_buf_4_d0        |  out|   16|   ap_memory|                         out_buf_4|         array|
+|out_buf_4_q0        |   in|   16|   ap_memory|                         out_buf_4|         array|
+|out_buf_4_we0       |  out|    1|   ap_memory|                         out_buf_4|         array|
+|out_buf_4_address1  |  out|   13|   ap_memory|                         out_buf_4|         array|
+|out_buf_4_ce1       |  out|    1|   ap_memory|                         out_buf_4|         array|
+|out_buf_4_d1        |  out|   16|   ap_memory|                         out_buf_4|         array|
+|out_buf_4_q1        |   in|   16|   ap_memory|                         out_buf_4|         array|
+|out_buf_4_we1       |  out|    1|   ap_memory|                         out_buf_4|         array|
+|ap_clk              |   in|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|ap_rst              |   in|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|in_buf_empty_n      |   in|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|in_buf_read         |  out|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|out_buf_0_full_n    |   in|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|out_buf_0_write     |  out|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|out_buf_1_full_n    |   in|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|out_buf_1_write     |  out|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|out_buf_2_full_n    |   in|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|out_buf_2_write     |  out|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|out_buf_3_full_n    |   in|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|out_buf_3_write     |  out|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|out_buf_4_full_n    |   in|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|out_buf_4_write     |  out|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|ap_start            |   in|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|ap_done             |  out|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|ap_ready            |  out|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|ap_idle             |  out|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
+|ap_continue         |   in|    1|  ap_ctrl_hs|  dataflow_in_loop_VITIS_LOOP_15_1|  return value|
++--------------------+-----+-----+------------+----------------------------------+--------------+
+

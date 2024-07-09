@@ -1,0 +1,240 @@
+===============================================================================
+Version:    v++ v2022.2 (64-bit)
+Build:      SW Build 3671529 on 2022-10-13-17:52:11
+Copyright:  Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Created:    Thu Jul  4 08:06:48 2024
+===============================================================================
+
+-------------------------------------------------------------------------------
+Design Name:             myproject_kernel
+Target Device:           xilinx:u55c:gen3x16_xdma_3:202210.1
+Target Clock:            300.000000MHz
+Total number of kernels: 1
+-------------------------------------------------------------------------------
+
+Kernel Summary
+Kernel Name     Type  Target              OpenCL Library    Compute Units
+--------------  ----  ------------------  ----------------  -------------
+kernel_wrapper  c     fpga0:OCL_REGION_0  myproject_kernel  4
+
+
+-------------------------------------------------------------------------------
+OpenCL Binary:     myproject_kernel
+Kernels mapped to: clc_region
+
+Timing Information (MHz)
+Compute Unit      Kernel Name     Module Name                                                       Target Frequency  Estimated Frequency
+----------------  --------------  ----------------------------------------------------------------  ----------------  -------------------
+kernel_wrapper_1  kernel_wrapper  entry_proc                                                        200               709.219849
+kernel_wrapper_1  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                200               273.972595
+kernel_wrapper_1  kernel_wrapper  read_input                                                        200               273.972595
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s   200               274.122803
+kernel_wrapper_1  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s       200               1031.99182
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s   200               274.273193
+kernel_wrapper_1  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s       200               1031.99182
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s   200               274.197968
+kernel_wrapper_1  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s      200               1031.99182
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s  200               275.786011
+kernel_wrapper_1  kernel_wrapper  softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s    200               311.817902
+kernel_wrapper_1  kernel_wrapper  myproject                                                         200               274.122803
+kernel_wrapper_1  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_15_1                                  200               274.122803
+kernel_wrapper_1  kernel_wrapper  run_inference                                                     200               274.122803
+kernel_wrapper_1  kernel_wrapper  write_result_Pipeline_VITIS_LOOP_21_1                             200               273.972595
+kernel_wrapper_1  kernel_wrapper  write_result                                                      200               273.972595
+kernel_wrapper_1  kernel_wrapper  kernel_wrapper                                                    200               273.972595
+kernel_wrapper_2  kernel_wrapper  entry_proc                                                        200               709.219849
+kernel_wrapper_2  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                200               273.972595
+kernel_wrapper_2  kernel_wrapper  read_input                                                        200               273.972595
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s   200               274.122803
+kernel_wrapper_2  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s       200               1031.99182
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s   200               274.273193
+kernel_wrapper_2  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s       200               1031.99182
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s   200               274.197968
+kernel_wrapper_2  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s      200               1031.99182
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s  200               275.786011
+kernel_wrapper_2  kernel_wrapper  softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s    200               311.817902
+kernel_wrapper_2  kernel_wrapper  myproject                                                         200               274.122803
+kernel_wrapper_2  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_15_1                                  200               274.122803
+kernel_wrapper_2  kernel_wrapper  run_inference                                                     200               274.122803
+kernel_wrapper_2  kernel_wrapper  write_result_Pipeline_VITIS_LOOP_21_1                             200               273.972595
+kernel_wrapper_2  kernel_wrapper  write_result                                                      200               273.972595
+kernel_wrapper_2  kernel_wrapper  kernel_wrapper                                                    200               273.972595
+kernel_wrapper_3  kernel_wrapper  entry_proc                                                        200               709.219849
+kernel_wrapper_3  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                200               273.972595
+kernel_wrapper_3  kernel_wrapper  read_input                                                        200               273.972595
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s   200               274.122803
+kernel_wrapper_3  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s       200               1031.99182
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s   200               274.273193
+kernel_wrapper_3  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s       200               1031.99182
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s   200               274.197968
+kernel_wrapper_3  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s      200               1031.99182
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s  200               275.786011
+kernel_wrapper_3  kernel_wrapper  softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s    200               311.817902
+kernel_wrapper_3  kernel_wrapper  myproject                                                         200               274.122803
+kernel_wrapper_3  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_15_1                                  200               274.122803
+kernel_wrapper_3  kernel_wrapper  run_inference                                                     200               274.122803
+kernel_wrapper_3  kernel_wrapper  write_result_Pipeline_VITIS_LOOP_21_1                             200               273.972595
+kernel_wrapper_3  kernel_wrapper  write_result                                                      200               273.972595
+kernel_wrapper_3  kernel_wrapper  kernel_wrapper                                                    200               273.972595
+kernel_wrapper_4  kernel_wrapper  entry_proc                                                        200               709.219849
+kernel_wrapper_4  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                200               273.972595
+kernel_wrapper_4  kernel_wrapper  read_input                                                        200               273.972595
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s   200               274.122803
+kernel_wrapper_4  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s       200               1031.99182
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s   200               274.273193
+kernel_wrapper_4  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s       200               1031.99182
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s   200               274.197968
+kernel_wrapper_4  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s      200               1031.99182
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s  200               275.786011
+kernel_wrapper_4  kernel_wrapper  softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s    200               311.817902
+kernel_wrapper_4  kernel_wrapper  myproject                                                         200               274.122803
+kernel_wrapper_4  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_15_1                                  200               274.122803
+kernel_wrapper_4  kernel_wrapper  run_inference                                                     200               274.122803
+kernel_wrapper_4  kernel_wrapper  write_result_Pipeline_VITIS_LOOP_21_1                             200               273.972595
+kernel_wrapper_4  kernel_wrapper  write_result                                                      200               273.972595
+kernel_wrapper_4  kernel_wrapper  kernel_wrapper                                                    200               273.972595
+
+Latency Information
+Compute Unit      Kernel Name     Module Name                                                       Start Interval  Best (cycles)  Avg (cycles)  Worst (cycles)  Best (absolute)  Avg (absolute)  Worst (absolute)
+----------------  --------------  ----------------------------------------------------------------  --------------  -------------  ------------  --------------  ---------------  --------------  ----------------
+kernel_wrapper_1  kernel_wrapper  entry_proc                                                        0               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_1  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                8195            8195           8195          8195            40.975 us        40.975 us       40.975 us
+kernel_wrapper_1  kernel_wrapper  read_input                                                        8266            8266           8266          8266            41.330 us        41.330 us       41.330 us
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s   1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_1  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s       1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s   1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_1  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s       1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s   1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_1  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s      1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s  1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_1  kernel_wrapper  softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s    1               7              7             7               35.000 ns        35.000 ns       35.000 ns
+kernel_wrapper_1  kernel_wrapper  myproject                                                         2               20             20            20              0.100 us         0.100 us        0.100 us
+kernel_wrapper_1  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_15_1                                  2               20             20            20              0.100 us         0.100 us        0.100 us
+kernel_wrapper_1  kernel_wrapper  run_inference                                                     16404           16404          16404         16404           82.020 us        82.020 us       82.020 us
+kernel_wrapper_1  kernel_wrapper  write_result_Pipeline_VITIS_LOOP_21_1                             40963           40963          40963         40963           0.205 ms         0.205 ms        0.205 ms
+kernel_wrapper_1  kernel_wrapper  write_result                                                      41034           41034          41034         41034           0.205 ms         0.205 ms        0.205 ms
+kernel_wrapper_1  kernel_wrapper  kernel_wrapper                                                    41035           65706          65706         65706           0.329 ms         0.329 ms        0.329 ms
+kernel_wrapper_2  kernel_wrapper  entry_proc                                                        0               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_2  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                8195            8195           8195          8195            40.975 us        40.975 us       40.975 us
+kernel_wrapper_2  kernel_wrapper  read_input                                                        8266            8266           8266          8266            41.330 us        41.330 us       41.330 us
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s   1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_2  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s       1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s   1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_2  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s       1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s   1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_2  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s      1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s  1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_2  kernel_wrapper  softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s    1               7              7             7               35.000 ns        35.000 ns       35.000 ns
+kernel_wrapper_2  kernel_wrapper  myproject                                                         2               20             20            20              0.100 us         0.100 us        0.100 us
+kernel_wrapper_2  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_15_1                                  2               20             20            20              0.100 us         0.100 us        0.100 us
+kernel_wrapper_2  kernel_wrapper  run_inference                                                     16404           16404          16404         16404           82.020 us        82.020 us       82.020 us
+kernel_wrapper_2  kernel_wrapper  write_result_Pipeline_VITIS_LOOP_21_1                             40963           40963          40963         40963           0.205 ms         0.205 ms        0.205 ms
+kernel_wrapper_2  kernel_wrapper  write_result                                                      41034           41034          41034         41034           0.205 ms         0.205 ms        0.205 ms
+kernel_wrapper_2  kernel_wrapper  kernel_wrapper                                                    41035           65706          65706         65706           0.329 ms         0.329 ms        0.329 ms
+kernel_wrapper_3  kernel_wrapper  entry_proc                                                        0               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_3  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                8195            8195           8195          8195            40.975 us        40.975 us       40.975 us
+kernel_wrapper_3  kernel_wrapper  read_input                                                        8266            8266           8266          8266            41.330 us        41.330 us       41.330 us
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s   1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_3  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s       1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s   1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_3  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s       1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s   1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_3  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s      1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s  1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_3  kernel_wrapper  softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s    1               7              7             7               35.000 ns        35.000 ns       35.000 ns
+kernel_wrapper_3  kernel_wrapper  myproject                                                         2               20             20            20              0.100 us         0.100 us        0.100 us
+kernel_wrapper_3  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_15_1                                  2               20             20            20              0.100 us         0.100 us        0.100 us
+kernel_wrapper_3  kernel_wrapper  run_inference                                                     16404           16404          16404         16404           82.020 us        82.020 us       82.020 us
+kernel_wrapper_3  kernel_wrapper  write_result_Pipeline_VITIS_LOOP_21_1                             40963           40963          40963         40963           0.205 ms         0.205 ms        0.205 ms
+kernel_wrapper_3  kernel_wrapper  write_result                                                      41034           41034          41034         41034           0.205 ms         0.205 ms        0.205 ms
+kernel_wrapper_3  kernel_wrapper  kernel_wrapper                                                    41035           65706          65706         65706           0.329 ms         0.329 ms        0.329 ms
+kernel_wrapper_4  kernel_wrapper  entry_proc                                                        0               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_4  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                8195            8195           8195          8195            40.975 us        40.975 us       40.975 us
+kernel_wrapper_4  kernel_wrapper  read_input                                                        8266            8266           8266          8266            41.330 us        41.330 us       41.330 us
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s   1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_4  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s       1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s   1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_4  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s       1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s   1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_4  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s      1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s  1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_4  kernel_wrapper  softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s    1               7              7             7               35.000 ns        35.000 ns       35.000 ns
+kernel_wrapper_4  kernel_wrapper  myproject                                                         2               20             20            20              0.100 us         0.100 us        0.100 us
+kernel_wrapper_4  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_15_1                                  2               20             20            20              0.100 us         0.100 us        0.100 us
+kernel_wrapper_4  kernel_wrapper  run_inference                                                     16404           16404          16404         16404           82.020 us        82.020 us       82.020 us
+kernel_wrapper_4  kernel_wrapper  write_result_Pipeline_VITIS_LOOP_21_1                             40963           40963          40963         40963           0.205 ms         0.205 ms        0.205 ms
+kernel_wrapper_4  kernel_wrapper  write_result                                                      41034           41034          41034         41034           0.205 ms         0.205 ms        0.205 ms
+kernel_wrapper_4  kernel_wrapper  kernel_wrapper                                                    41035           65706          65706         65706           0.329 ms         0.329 ms        0.329 ms
+
+Area Information
+Compute Unit      Kernel Name     Module Name                                                       FF     LUT    DSP  BRAM  URAM
+----------------  --------------  ----------------------------------------------------------------  -----  -----  ---  ----  ----
+kernel_wrapper_1  kernel_wrapper  entry_proc                                                        2      20     0    0     0
+kernel_wrapper_1  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                817    109    0    0     0
+kernel_wrapper_1  kernel_wrapper  read_input                                                        949    592    0    0     0
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s   3864   24745  0    0     0
+kernel_wrapper_1  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s       0      1792   0    0     0
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s   4836   38023  0    0     0
+kernel_wrapper_1  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s       0      896    0    0     0
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s   2489   17436  0    0     0
+kernel_wrapper_1  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s      0      896    0    0     0
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s  552    3819   0    0     0
+kernel_wrapper_1  kernel_wrapper  softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s    268    453    0    8     0
+kernel_wrapper_1  kernel_wrapper  myproject                                                         15522  88137  0    8     0
+kernel_wrapper_1  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_15_1                                  15522  88137  0    8     0
+kernel_wrapper_1  kernel_wrapper  run_inference                                                     15755  88204  0    8     0
+kernel_wrapper_1  kernel_wrapper  write_result_Pipeline_VITIS_LOOP_21_1                             103    170    0    0     0
+kernel_wrapper_1  kernel_wrapper  write_result                                                      240    685    0    0     0
+kernel_wrapper_1  kernel_wrapper  kernel_wrapper                                                    22393  98932  0    162   0
+kernel_wrapper_2  kernel_wrapper  entry_proc                                                        2      20     0    0     0
+kernel_wrapper_2  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                817    109    0    0     0
+kernel_wrapper_2  kernel_wrapper  read_input                                                        949    592    0    0     0
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s   3864   24745  0    0     0
+kernel_wrapper_2  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s       0      1792   0    0     0
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s   4836   38023  0    0     0
+kernel_wrapper_2  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s       0      896    0    0     0
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s   2489   17436  0    0     0
+kernel_wrapper_2  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s      0      896    0    0     0
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s  552    3819   0    0     0
+kernel_wrapper_2  kernel_wrapper  softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s    268    453    0    8     0
+kernel_wrapper_2  kernel_wrapper  myproject                                                         15522  88137  0    8     0
+kernel_wrapper_2  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_15_1                                  15522  88137  0    8     0
+kernel_wrapper_2  kernel_wrapper  run_inference                                                     15755  88204  0    8     0
+kernel_wrapper_2  kernel_wrapper  write_result_Pipeline_VITIS_LOOP_21_1                             103    170    0    0     0
+kernel_wrapper_2  kernel_wrapper  write_result                                                      240    685    0    0     0
+kernel_wrapper_2  kernel_wrapper  kernel_wrapper                                                    22393  98932  0    162   0
+kernel_wrapper_3  kernel_wrapper  entry_proc                                                        2      20     0    0     0
+kernel_wrapper_3  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                817    109    0    0     0
+kernel_wrapper_3  kernel_wrapper  read_input                                                        949    592    0    0     0
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s   3864   24745  0    0     0
+kernel_wrapper_3  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s       0      1792   0    0     0
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s   4836   38023  0    0     0
+kernel_wrapper_3  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s       0      896    0    0     0
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s   2489   17436  0    0     0
+kernel_wrapper_3  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s      0      896    0    0     0
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s  552    3819   0    0     0
+kernel_wrapper_3  kernel_wrapper  softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s    268    453    0    8     0
+kernel_wrapper_3  kernel_wrapper  myproject                                                         15522  88137  0    8     0
+kernel_wrapper_3  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_15_1                                  15522  88137  0    8     0
+kernel_wrapper_3  kernel_wrapper  run_inference                                                     15755  88204  0    8     0
+kernel_wrapper_3  kernel_wrapper  write_result_Pipeline_VITIS_LOOP_21_1                             103    170    0    0     0
+kernel_wrapper_3  kernel_wrapper  write_result                                                      240    685    0    0     0
+kernel_wrapper_3  kernel_wrapper  kernel_wrapper                                                    22393  98932  0    162   0
+kernel_wrapper_4  kernel_wrapper  entry_proc                                                        2      20     0    0     0
+kernel_wrapper_4  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                817    109    0    0     0
+kernel_wrapper_4  kernel_wrapper  read_input                                                        949    592    0    0     0
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s   3864   24745  0    0     0
+kernel_wrapper_4  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s       0      1792   0    0     0
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s   4836   38023  0    0     0
+kernel_wrapper_4  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s       0      896    0    0     0
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s   2489   17436  0    0     0
+kernel_wrapper_4  kernel_wrapper  relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s      0      896    0    0     0
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s  552    3819   0    0     0
+kernel_wrapper_4  kernel_wrapper  softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s    268    453    0    8     0
+kernel_wrapper_4  kernel_wrapper  myproject                                                         15522  88137  0    8     0
+kernel_wrapper_4  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_15_1                                  15522  88137  0    8     0
+kernel_wrapper_4  kernel_wrapper  run_inference                                                     15755  88204  0    8     0
+kernel_wrapper_4  kernel_wrapper  write_result_Pipeline_VITIS_LOOP_21_1                             103    170    0    0     0
+kernel_wrapper_4  kernel_wrapper  write_result                                                      240    685    0    0     0
+kernel_wrapper_4  kernel_wrapper  kernel_wrapper                                                    22393  98932  0    162   0
+-------------------------------------------------------------------------------

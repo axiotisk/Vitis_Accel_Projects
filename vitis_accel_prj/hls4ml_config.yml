@@ -1,0 +1,90 @@
+AcceleratorConfig:
+  Batchsize: 8192
+  Board: alveo-u55c
+  HW_Quant: false
+  Num_Kernel: 4
+  Num_Thread: 8
+  Vivado_Directives:
+  - prop=run.impl_1.STEPS.PLACE_DESIGN.ARGS.DIRECTIVE=Explore
+Backend: VitisAccelerator
+ClockPeriod: 5
+ClockUncertainty: 27%
+HLSConfig:
+  LayerName:
+    fc1:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    fc1_input:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    fc1_linear:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    fc2:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    fc2_linear:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    fc3:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    fc3_linear:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    output:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    output_linear:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    relu1:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    relu2:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    relu3:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    softmax:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+      exp_table_t: ap_fixed<18,8>
+      inv_table_t: ap_fixed<18,4>
+  Model:
+    BramFactor: 1000000000
+    Precision: fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_parallel
+InputData: null
+KerasModel: !keras_model 'vitis_accel_prj/keras_model.keras'
+OutputDir: vitis_accel_prj
+OutputPredictions: null
+Part: xcvu13p-flga2577-2-e
+ProjectName: myproject
+Stamp: FD660D7E
+Version: 1.0.0
