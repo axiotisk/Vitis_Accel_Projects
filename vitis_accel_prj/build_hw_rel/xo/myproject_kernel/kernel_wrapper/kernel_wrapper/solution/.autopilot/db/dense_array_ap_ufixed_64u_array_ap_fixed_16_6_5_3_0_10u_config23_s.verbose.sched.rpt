@@ -1,0 +1,210 @@
+
+
+================================================================
+== Vitis HLS Report for 'dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s'
+================================================================
+* Date:           Thu Jul  4 18:55:38 2024
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        kernel_wrapper
+* Solution:       solution (Vitis Kernel Flow Target)
+* Product family: virtexuplus
+* Target device:  xcu55c-fsvh2892-2L-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.636 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |        5|        5|  25.000 ns|  25.000 ns|    5|    5|       no|
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 4
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.41>
+ST_1 : Operation 5 [1/1] (1.41ns)   --->   "%layer22_out_read = read i384 @_ssdm_op_Read.ap_fifo.volatile.i384P0A, i384 %layer22_out" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 5 'read' 'layer22_out_read' <Predicate = true> <Delay = 1.41> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.41> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 384> <Depth = 1> <FIFO>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%data_V = trunc i384 %layer22_out_read" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 6 'trunc' 'data_V' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%data_V_63 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 372, i32 377" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 7 'partselect' 'data_V_63' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%data_V_1 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 378, i32 383" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 8 'partselect' 'data_V_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%data_V_3 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 6, i32 11" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 9 'partselect' 'data_V_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%data_V_4 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 12, i32 17" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 10 'partselect' 'data_V_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%data_V_5 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 18, i32 23" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 11 'partselect' 'data_V_5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%data_V_6 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 24, i32 29" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 12 'partselect' 'data_V_6' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%data_V_7 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 30, i32 35" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 13 'partselect' 'data_V_7' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%data_V_8 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 36, i32 41" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 14 'partselect' 'data_V_8' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%data_V_9 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 42, i32 47" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 15 'partselect' 'data_V_9' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%data_V_10 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 48, i32 53" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 16 'partselect' 'data_V_10' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%data_V_11 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 54, i32 59" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 17 'partselect' 'data_V_11' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%data_V_12 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 60, i32 65" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 18 'partselect' 'data_V_12' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%data_V_13 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 66, i32 71" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 19 'partselect' 'data_V_13' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%data_V_14 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 72, i32 77" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 20 'partselect' 'data_V_14' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%data_V_15 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 78, i32 83" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 21 'partselect' 'data_V_15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%data_V_16 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 84, i32 89" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 22 'partselect' 'data_V_16' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%data_V_17 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 90, i32 95" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 23 'partselect' 'data_V_17' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%data_V_18 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 96, i32 101" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 24 'partselect' 'data_V_18' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%data_V_19 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 102, i32 107" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 25 'partselect' 'data_V_19' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%data_V_20 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 108, i32 113" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 26 'partselect' 'data_V_20' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%data_V_21 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 114, i32 119" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 27 'partselect' 'data_V_21' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%data_V_22 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 120, i32 125" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 28 'partselect' 'data_V_22' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%data_V_23 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 126, i32 131" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 29 'partselect' 'data_V_23' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%data_V_24 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 132, i32 137" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 30 'partselect' 'data_V_24' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%data_V_25 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 138, i32 143" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 31 'partselect' 'data_V_25' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%data_V_26 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 144, i32 149" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 32 'partselect' 'data_V_26' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%data_V_27 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 150, i32 155" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 33 'partselect' 'data_V_27' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "%data_V_28 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 156, i32 161" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 34 'partselect' 'data_V_28' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%data_V_29 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 162, i32 167" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 35 'partselect' 'data_V_29' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 36 [1/1] (0.00ns)   --->   "%data_V_30 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 168, i32 173" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 36 'partselect' 'data_V_30' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 37 [1/1] (0.00ns)   --->   "%data_V_31 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 174, i32 179" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 37 'partselect' 'data_V_31' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 38 [1/1] (0.00ns)   --->   "%data_V_32 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 180, i32 185" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 38 'partselect' 'data_V_32' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 39 [1/1] (0.00ns)   --->   "%data_V_33 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 186, i32 191" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 39 'partselect' 'data_V_33' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 40 [1/1] (0.00ns)   --->   "%data_V_34 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 192, i32 197" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 40 'partselect' 'data_V_34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 41 [1/1] (0.00ns)   --->   "%data_V_35 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 198, i32 203" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 41 'partselect' 'data_V_35' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 42 [1/1] (0.00ns)   --->   "%data_V_36 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 204, i32 209" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 42 'partselect' 'data_V_36' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 43 [1/1] (0.00ns)   --->   "%data_V_37 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 210, i32 215" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 43 'partselect' 'data_V_37' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 44 [1/1] (0.00ns)   --->   "%data_V_38 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 216, i32 221" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 44 'partselect' 'data_V_38' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 45 [1/1] (0.00ns)   --->   "%data_V_39 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 222, i32 227" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 45 'partselect' 'data_V_39' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 46 [1/1] (0.00ns)   --->   "%data_V_40 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 228, i32 233" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 46 'partselect' 'data_V_40' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 47 [1/1] (0.00ns)   --->   "%data_V_41 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 234, i32 239" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 47 'partselect' 'data_V_41' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 48 [1/1] (0.00ns)   --->   "%data_V_42 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 240, i32 245" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 48 'partselect' 'data_V_42' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 49 [1/1] (0.00ns)   --->   "%data_V_43 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 246, i32 251" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 49 'partselect' 'data_V_43' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 50 [1/1] (0.00ns)   --->   "%data_V_44 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 252, i32 257" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 50 'partselect' 'data_V_44' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 51 [1/1] (0.00ns)   --->   "%data_V_45 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 258, i32 263" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 51 'partselect' 'data_V_45' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 52 [1/1] (0.00ns)   --->   "%data_V_46 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 264, i32 269" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 52 'partselect' 'data_V_46' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 53 [1/1] (0.00ns)   --->   "%data_V_47 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 270, i32 275" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 53 'partselect' 'data_V_47' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 54 [1/1] (0.00ns)   --->   "%data_V_48 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 276, i32 281" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 54 'partselect' 'data_V_48' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 55 [1/1] (0.00ns)   --->   "%data_V_49 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 282, i32 287" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 55 'partselect' 'data_V_49' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 56 [1/1] (0.00ns)   --->   "%data_V_50 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 288, i32 293" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 56 'partselect' 'data_V_50' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 57 [1/1] (0.00ns)   --->   "%data_V_51 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 294, i32 299" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 57 'partselect' 'data_V_51' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 58 [1/1] (0.00ns)   --->   "%data_V_52 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 300, i32 305" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 58 'partselect' 'data_V_52' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 59 [1/1] (0.00ns)   --->   "%data_V_53 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 306, i32 311" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 59 'partselect' 'data_V_53' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 60 [1/1] (0.00ns)   --->   "%data_V_54 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 312, i32 317" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 60 'partselect' 'data_V_54' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 61 [1/1] (0.00ns)   --->   "%data_V_55 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 318, i32 323" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 61 'partselect' 'data_V_55' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 62 [1/1] (0.00ns)   --->   "%data_V_56 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 324, i32 329" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 62 'partselect' 'data_V_56' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 63 [1/1] (0.00ns)   --->   "%data_V_57 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 330, i32 335" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 63 'partselect' 'data_V_57' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 64 [1/1] (0.00ns)   --->   "%data_V_58 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 336, i32 341" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 64 'partselect' 'data_V_58' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 65 [1/1] (0.00ns)   --->   "%data_V_59 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 342, i32 347" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 65 'partselect' 'data_V_59' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 66 [1/1] (0.00ns)   --->   "%data_V_60 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 348, i32 353" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 66 'partselect' 'data_V_60' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 67 [1/1] (0.00ns)   --->   "%data_V_61 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 354, i32 359" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 67 'partselect' 'data_V_61' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 68 [1/1] (0.00ns)   --->   "%data_V_62 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 360, i32 365" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 68 'partselect' 'data_V_62' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 69 [1/1] (0.00ns)   --->   "%data_V_2 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 366, i32 371" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 69 'partselect' 'data_V_2' <Predicate = true> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 3.63>
+ST_2 : Operation 70 [2/2] (3.63ns)   --->   "%call_ret = call i160 @dense_wrapper<ap_ufixed<6, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config23>, i6 %data_V, i6 %data_V_3, i6 %data_V_4, i6 %data_V_5, i6 %data_V_6, i6 %data_V_7, i6 %data_V_8, i6 %data_V_9, i6 %data_V_10, i6 %data_V_11, i6 %data_V_12, i6 %data_V_13, i6 %data_V_14, i6 %data_V_15, i6 %data_V_16, i6 %data_V_17, i6 %data_V_18, i6 %data_V_19, i6 %data_V_20, i6 %data_V_21, i6 %data_V_22, i6 %data_V_23, i6 %data_V_24, i6 %data_V_25, i6 %data_V_26, i6 %data_V_27, i6 %data_V_28, i6 %data_V_29, i6 %data_V_30, i6 %data_V_31, i6 %data_V_32, i6 %data_V_33, i6 %data_V_34, i6 %data_V_35, i6 %data_V_36, i6 %data_V_37, i6 %data_V_38, i6 %data_V_39, i6 %data_V_40, i6 %data_V_41, i6 %data_V_42, i6 %data_V_43, i6 %data_V_44, i6 %data_V_45, i6 %data_V_46, i6 %data_V_47, i6 %data_V_48, i6 %data_V_49, i6 %data_V_50, i6 %data_V_51, i6 %data_V_52, i6 %data_V_53, i6 %data_V_54, i6 %data_V_55, i6 %data_V_56, i6 %data_V_57, i6 %data_V_58, i6 %data_V_59, i6 %data_V_60, i6 %data_V_61, i6 %data_V_62, i6 %data_V_2, i6 %data_V_63, i6 %data_V_1" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 70 'call' 'call_ret' <Predicate = true> <Delay = 3.63> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 3 <SV = 2> <Delay = 3.07>
+ST_3 : Operation 71 [1/2] (3.07ns)   --->   "%call_ret = call i160 @dense_wrapper<ap_ufixed<6, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config23>, i6 %data_V, i6 %data_V_3, i6 %data_V_4, i6 %data_V_5, i6 %data_V_6, i6 %data_V_7, i6 %data_V_8, i6 %data_V_9, i6 %data_V_10, i6 %data_V_11, i6 %data_V_12, i6 %data_V_13, i6 %data_V_14, i6 %data_V_15, i6 %data_V_16, i6 %data_V_17, i6 %data_V_18, i6 %data_V_19, i6 %data_V_20, i6 %data_V_21, i6 %data_V_22, i6 %data_V_23, i6 %data_V_24, i6 %data_V_25, i6 %data_V_26, i6 %data_V_27, i6 %data_V_28, i6 %data_V_29, i6 %data_V_30, i6 %data_V_31, i6 %data_V_32, i6 %data_V_33, i6 %data_V_34, i6 %data_V_35, i6 %data_V_36, i6 %data_V_37, i6 %data_V_38, i6 %data_V_39, i6 %data_V_40, i6 %data_V_41, i6 %data_V_42, i6 %data_V_43, i6 %data_V_44, i6 %data_V_45, i6 %data_V_46, i6 %data_V_47, i6 %data_V_48, i6 %data_V_49, i6 %data_V_50, i6 %data_V_51, i6 %data_V_52, i6 %data_V_53, i6 %data_V_54, i6 %data_V_55, i6 %data_V_56, i6 %data_V_57, i6 %data_V_58, i6 %data_V_59, i6 %data_V_60, i6 %data_V_61, i6 %data_V_62, i6 %data_V_2, i6 %data_V_63, i6 %data_V_1" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 71 'call' 'call_ret' <Predicate = true> <Delay = 3.07> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_3 : Operation 72 [1/1] (0.00ns)   --->   "%res_V = extractvalue i160 %call_ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 72 'extractvalue' 'res_V' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 73 [1/1] (0.00ns)   --->   "%res_V_1 = extractvalue i160 %call_ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 73 'extractvalue' 'res_V_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 74 [1/1] (0.00ns)   --->   "%res_V_2 = extractvalue i160 %call_ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 74 'extractvalue' 'res_V_2' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 75 [1/1] (0.00ns)   --->   "%res_V_3 = extractvalue i160 %call_ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 75 'extractvalue' 'res_V_3' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 76 [1/1] (0.00ns)   --->   "%res_V_4 = extractvalue i160 %call_ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 76 'extractvalue' 'res_V_4' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 77 [1/1] (0.00ns)   --->   "%res_V_5 = extractvalue i160 %call_ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 77 'extractvalue' 'res_V_5' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 78 [1/1] (0.00ns)   --->   "%res_V_6 = extractvalue i160 %call_ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 78 'extractvalue' 'res_V_6' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 79 [1/1] (0.00ns)   --->   "%res_V_7 = extractvalue i160 %call_ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 79 'extractvalue' 'res_V_7' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 80 [1/1] (0.00ns)   --->   "%res_V_8 = extractvalue i160 %call_ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 80 'extractvalue' 'res_V_8' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 81 [1/1] (0.00ns)   --->   "%res_V_9 = extractvalue i160 %call_ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 81 'extractvalue' 'res_V_9' <Predicate = true> <Delay = 0.00>
+
+State 4 <SV = 3> <Delay = 1.42>
+ST_4 : Operation 82 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i160 %layer23_out, void @empty_0, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_7, i32 4294967295, i32 0"   --->   Operation 82 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 83 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i384 %layer22_out, void @empty_0, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_7, i32 4294967295, i32 0"   --->   Operation 83 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 84 [1/1] (0.00ns)   --->   "%p_01 = bitconcatenate i160 @_ssdm_op_BitConcatenate.i160.i16.i16.i16.i16.i16.i16.i16.i16.i16.i16, i16 %res_V_9, i16 %res_V_8, i16 %res_V_7, i16 %res_V_6, i16 %res_V_5, i16 %res_V_4, i16 %res_V_3, i16 %res_V_2, i16 %res_V_1, i16 %res_V" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:62]   --->   Operation 84 'bitconcatenate' 'p_01' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 85 [1/1] (1.42ns)   --->   "%write_ln62 = write void @_ssdm_op_Write.ap_fifo.volatile.i160P0A, i160 %layer23_out, i160 %p_01" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:62]   --->   Operation 85 'write' 'write_ln62' <Predicate = true> <Delay = 1.42> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 160> <Depth = 1> <FIFO>
+ST_4 : Operation 86 [1/1] (0.00ns)   --->   "%ret_ln64 = ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:64]   --->   Operation 86 'ret' 'ret_ln64' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 5ns, clock uncertainty: 1.35ns.
+
+ <State 1>: 1.41ns
+The critical path consists of the following:
+	fifo read operation ('layer22_out_read', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40) on port 'layer22_out' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40) [5]  (1.41 ns)
+
+ <State 2>: 3.64ns
+The critical path consists of the following:
+	'call' operation ('call_ret', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48) to 'dense_wrapper<ap_ufixed<6, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config23>' [70]  (3.64 ns)
+
+ <State 3>: 3.07ns
+The critical path consists of the following:
+	'call' operation ('call_ret', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48) to 'dense_wrapper<ap_ufixed<6, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config23>' [70]  (3.07 ns)
+
+ <State 4>: 1.43ns
+The critical path consists of the following:
+	fifo write operation ('write_ln62', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:62) on port 'layer23_out' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:62) [82]  (1.43 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

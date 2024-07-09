@@ -1,0 +1,68 @@
+---
+MainSourceFile:  /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '47:68'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '47:72'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '59:72'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '59:76'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '71:75'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '71:80'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '84:72'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '84:77'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '88:76'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '88:81'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '96:72'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '96:77'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '100:76'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '100:81'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '108:72'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '108:77'
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.cpp
+...

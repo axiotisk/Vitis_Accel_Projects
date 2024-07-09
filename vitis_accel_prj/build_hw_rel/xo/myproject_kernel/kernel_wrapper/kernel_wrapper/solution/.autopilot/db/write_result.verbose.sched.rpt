@@ -1,0 +1,796 @@
+
+
+================================================================
+== Vitis HLS Report for 'write_result'
+================================================================
+* Date:           Thu Jul  4 18:56:34 2024
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        kernel_wrapper
+* Solution:       solution (Vitis Kernel Flow Target)
+* Product family: virtexuplus
+* Target device:  xcu55c-fsvh2892-2L-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.650 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       74|       74|  0.370 us|  0.370 us|   74|   74|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 75
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 10 
+10 --> 11 
+11 --> 12 
+12 --> 13 
+13 --> 14 
+14 --> 15 
+15 --> 16 
+16 --> 17 
+17 --> 18 
+18 --> 19 
+19 --> 20 
+20 --> 21 
+21 --> 22 
+22 --> 23 
+23 --> 24 
+24 --> 25 
+25 --> 26 
+26 --> 27 
+27 --> 28 
+28 --> 29 
+29 --> 30 
+30 --> 31 
+31 --> 32 
+32 --> 33 
+33 --> 34 
+34 --> 35 
+35 --> 36 
+36 --> 37 
+37 --> 38 
+38 --> 39 
+39 --> 40 
+40 --> 41 
+41 --> 42 
+42 --> 43 
+43 --> 44 
+44 --> 45 
+45 --> 46 
+46 --> 47 
+47 --> 48 
+48 --> 49 
+49 --> 50 
+50 --> 51 
+51 --> 52 
+52 --> 53 
+53 --> 54 
+54 --> 55 
+55 --> 56 
+56 --> 57 
+57 --> 58 
+58 --> 59 
+59 --> 60 
+60 --> 61 
+61 --> 62 
+62 --> 63 
+63 --> 64 
+64 --> 65 
+65 --> 66 
+66 --> 67 
+67 --> 68 
+68 --> 69 
+69 --> 70 
+70 --> 71 
+71 --> 72 
+72 --> 73 
+73 --> 74 
+74 --> 75 
+75 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 3.26>
+ST_1 : Operation 76 [1/1] (1.41ns)   --->   "%out_read = read i64 @_ssdm_op_Read.ap_fifo.i64P0A, i64 %out_r"   --->   Operation 76 'read' 'out_read' <Predicate = true> <Delay = 1.41> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.41> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 64> <Depth = 4> <FIFO>
+ST_1 : Operation 77 [1/1] (1.33ns)   --->   "%n_read = read i13 @_ssdm_op_Read.ap_fifo.i13P0A, i13 %n"   --->   Operation 77 'read' 'n_read' <Predicate = true> <Delay = 1.33> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.33> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 13> <Depth = 3> <FIFO>
+ST_1 : Operation 78 [1/1] (1.42ns)   --->   "%output_read = read i160 @_ssdm_op_Read.ap_fifo.volatile.i160P0A, i160 %output_r" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 78 'read' 'output_read' <Predicate = true> <Delay = 1.42> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 160> <Depth = 1> <FIFO>
+ST_1 : Operation 79 [1/1] (0.00ns)   --->   "%tmp_3 = partselect i32 @_ssdm_op_PartSelect.i32.i160.i32.i32, i160 %output_read, i32 128, i32 159" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 79 'partselect' 'tmp_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 80 [1/1] (0.00ns)   --->   "%p_shl = bitconcatenate i16 @_ssdm_op_BitConcatenate.i16.i13.i3, i13 %n_read, i3 0"   --->   Operation 80 'bitconcatenate' 'p_shl' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 81 [1/1] (0.00ns)   --->   "%p_shl_cast2 = zext i16 %p_shl"   --->   Operation 81 'zext' 'p_shl_cast2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 82 [1/1] (0.00ns)   --->   "%p_shl1 = bitconcatenate i14 @_ssdm_op_BitConcatenate.i14.i13.i1, i13 %n_read, i1 0"   --->   Operation 82 'bitconcatenate' 'p_shl1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 83 [1/1] (0.00ns)   --->   "%zext_ln20 = zext i14 %p_shl1" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:20]   --->   Operation 83 'zext' 'zext_ln20' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 84 [1/1] (0.78ns)   --->   "%add_ln20_1 = add i17 %p_shl_cast2, i17 %zext_ln20" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:20]   --->   Operation 84 'add' 'add_ln20_1' <Predicate = true> <Delay = 0.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 85 [1/1] (0.00ns)   --->   "%shl_ln = bitconcatenate i18 @_ssdm_op_BitConcatenate.i18.i17.i1, i17 %add_ln20_1, i1 0" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:20]   --->   Operation 85 'bitconcatenate' 'shl_ln' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 86 [1/1] (0.00ns)   --->   "%zext_ln20_1 = zext i18 %shl_ln" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:20]   --->   Operation 86 'zext' 'zext_ln20_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 87 [1/1] (1.14ns)   --->   "%add_ln20 = add i64 %out_read, i64 %zext_ln20_1" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:20]   --->   Operation 87 'add' 'add_ln20' <Predicate = true> <Delay = 1.14> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.14> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 88 [1/1] (0.00ns)   --->   "%trunc_ln18 = trunc i160 %output_read" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 88 'trunc' 'trunc_ln18' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 89 [1/1] (0.00ns)   --->   "%tmp_s = partselect i32 @_ssdm_op_PartSelect.i32.i160.i32.i32, i160 %output_read, i32 32, i32 63" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 89 'partselect' 'tmp_s' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 90 [1/1] (0.00ns)   --->   "%tmp_1 = partselect i32 @_ssdm_op_PartSelect.i32.i160.i32.i32, i160 %output_read, i32 64, i32 95" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 90 'partselect' 'tmp_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 91 [1/1] (0.00ns)   --->   "%tmp_2 = partselect i32 @_ssdm_op_PartSelect.i32.i160.i32.i32, i160 %output_read, i32 96, i32 127" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 91 'partselect' 'tmp_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 92 [1/1] (0.00ns)   --->   "%trunc_ln = partselect i62 @_ssdm_op_PartSelect.i62.i64.i32.i32, i64 %add_ln20, i32 2, i32 63" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 92 'partselect' 'trunc_ln' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 93 [1/1] (0.00ns)   --->   "%sext_ln18 = sext i62 %trunc_ln" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 93 'sext' 'sext_ln18' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 94 [1/1] (0.00ns)   --->   "%gmem1_addr = getelementptr i32 %gmem1, i64 %sext_ln18" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 94 'getelementptr' 'gmem1_addr' <Predicate = true> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 3.65>
+ST_2 : Operation 95 [1/1] (3.65ns)   --->   "%empty = writereq i1 @_ssdm_op_WriteReq.m_axi.p1i32, i32 %gmem1_addr, i32 5" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 95 'writereq' 'empty' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 3 <SV = 2> <Delay = 3.65>
+ST_3 : Operation 96 [1/1] (3.65ns)   --->   "%write_ln18 = write void @_ssdm_op_Write.m_axi.p1i32, i32 %gmem1_addr, i32 %trunc_ln18, i4 15" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 96 'write' 'write_ln18' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 4 <SV = 3> <Delay = 3.65>
+ST_4 : Operation 97 [1/1] (3.65ns)   --->   "%write_ln18 = write void @_ssdm_op_Write.m_axi.p1i32, i32 %gmem1_addr, i32 %tmp_s, i4 15" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 97 'write' 'write_ln18' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 5 <SV = 4> <Delay = 3.65>
+ST_5 : Operation 98 [1/1] (3.65ns)   --->   "%write_ln18 = write void @_ssdm_op_Write.m_axi.p1i32, i32 %gmem1_addr, i32 %tmp_1, i4 15" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 98 'write' 'write_ln18' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 6 <SV = 5> <Delay = 3.65>
+ST_6 : Operation 99 [1/1] (3.65ns)   --->   "%write_ln18 = write void @_ssdm_op_Write.m_axi.p1i32, i32 %gmem1_addr, i32 %tmp_2, i4 15" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 99 'write' 'write_ln18' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 7 <SV = 6> <Delay = 3.65>
+ST_7 : Operation 100 [1/1] (3.65ns)   --->   "%write_ln18 = write void @_ssdm_op_Write.m_axi.p1i32, i32 %gmem1_addr, i32 %tmp_3, i4 15" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 100 'write' 'write_ln18' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 8 <SV = 7> <Delay = 3.65>
+ST_8 : Operation 101 [68/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 101 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 9 <SV = 8> <Delay = 3.65>
+ST_9 : Operation 102 [67/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 102 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 10 <SV = 9> <Delay = 3.65>
+ST_10 : Operation 103 [66/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 103 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 11 <SV = 10> <Delay = 3.65>
+ST_11 : Operation 104 [65/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 104 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 12 <SV = 11> <Delay = 3.65>
+ST_12 : Operation 105 [64/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 105 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 13 <SV = 12> <Delay = 3.65>
+ST_13 : Operation 106 [63/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 106 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 14 <SV = 13> <Delay = 3.65>
+ST_14 : Operation 107 [62/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 107 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 15 <SV = 14> <Delay = 3.65>
+ST_15 : Operation 108 [61/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 108 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 16 <SV = 15> <Delay = 3.65>
+ST_16 : Operation 109 [60/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 109 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 17 <SV = 16> <Delay = 3.65>
+ST_17 : Operation 110 [59/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 110 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 18 <SV = 17> <Delay = 3.65>
+ST_18 : Operation 111 [58/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 111 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 19 <SV = 18> <Delay = 3.65>
+ST_19 : Operation 112 [57/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 112 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 20 <SV = 19> <Delay = 3.65>
+ST_20 : Operation 113 [56/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 113 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 21 <SV = 20> <Delay = 3.65>
+ST_21 : Operation 114 [55/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 114 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 22 <SV = 21> <Delay = 3.65>
+ST_22 : Operation 115 [54/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 115 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 23 <SV = 22> <Delay = 3.65>
+ST_23 : Operation 116 [53/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 116 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 24 <SV = 23> <Delay = 3.65>
+ST_24 : Operation 117 [52/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 117 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 25 <SV = 24> <Delay = 3.65>
+ST_25 : Operation 118 [51/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 118 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 26 <SV = 25> <Delay = 3.65>
+ST_26 : Operation 119 [50/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 119 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 27 <SV = 26> <Delay = 3.65>
+ST_27 : Operation 120 [49/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 120 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 28 <SV = 27> <Delay = 3.65>
+ST_28 : Operation 121 [48/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 121 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 29 <SV = 28> <Delay = 3.65>
+ST_29 : Operation 122 [47/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 122 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 30 <SV = 29> <Delay = 3.65>
+ST_30 : Operation 123 [46/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 123 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 31 <SV = 30> <Delay = 3.65>
+ST_31 : Operation 124 [45/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 124 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 32 <SV = 31> <Delay = 3.65>
+ST_32 : Operation 125 [44/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 125 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 33 <SV = 32> <Delay = 3.65>
+ST_33 : Operation 126 [43/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 126 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 34 <SV = 33> <Delay = 3.65>
+ST_34 : Operation 127 [42/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 127 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 35 <SV = 34> <Delay = 3.65>
+ST_35 : Operation 128 [41/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 128 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 36 <SV = 35> <Delay = 3.65>
+ST_36 : Operation 129 [40/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 129 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 37 <SV = 36> <Delay = 3.65>
+ST_37 : Operation 130 [39/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 130 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 38 <SV = 37> <Delay = 3.65>
+ST_38 : Operation 131 [38/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 131 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 39 <SV = 38> <Delay = 3.65>
+ST_39 : Operation 132 [37/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 132 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 40 <SV = 39> <Delay = 3.65>
+ST_40 : Operation 133 [36/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 133 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 41 <SV = 40> <Delay = 3.65>
+ST_41 : Operation 134 [35/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 134 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 42 <SV = 41> <Delay = 3.65>
+ST_42 : Operation 135 [34/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 135 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 43 <SV = 42> <Delay = 3.65>
+ST_43 : Operation 136 [33/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 136 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 44 <SV = 43> <Delay = 3.65>
+ST_44 : Operation 137 [32/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 137 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 45 <SV = 44> <Delay = 3.65>
+ST_45 : Operation 138 [31/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 138 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 46 <SV = 45> <Delay = 3.65>
+ST_46 : Operation 139 [30/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 139 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 47 <SV = 46> <Delay = 3.65>
+ST_47 : Operation 140 [29/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 140 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 48 <SV = 47> <Delay = 3.65>
+ST_48 : Operation 141 [28/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 141 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 49 <SV = 48> <Delay = 3.65>
+ST_49 : Operation 142 [27/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 142 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 50 <SV = 49> <Delay = 3.65>
+ST_50 : Operation 143 [26/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 143 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 51 <SV = 50> <Delay = 3.65>
+ST_51 : Operation 144 [25/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 144 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 52 <SV = 51> <Delay = 3.65>
+ST_52 : Operation 145 [24/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 145 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 53 <SV = 52> <Delay = 3.65>
+ST_53 : Operation 146 [23/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 146 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 54 <SV = 53> <Delay = 3.65>
+ST_54 : Operation 147 [22/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 147 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 55 <SV = 54> <Delay = 3.65>
+ST_55 : Operation 148 [21/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 148 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 56 <SV = 55> <Delay = 3.65>
+ST_56 : Operation 149 [20/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 149 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 57 <SV = 56> <Delay = 3.65>
+ST_57 : Operation 150 [19/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 150 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 58 <SV = 57> <Delay = 3.65>
+ST_58 : Operation 151 [18/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 151 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 59 <SV = 58> <Delay = 3.65>
+ST_59 : Operation 152 [17/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 152 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 60 <SV = 59> <Delay = 3.65>
+ST_60 : Operation 153 [16/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 153 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 61 <SV = 60> <Delay = 3.65>
+ST_61 : Operation 154 [15/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 154 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 62 <SV = 61> <Delay = 3.65>
+ST_62 : Operation 155 [14/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 155 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 63 <SV = 62> <Delay = 3.65>
+ST_63 : Operation 156 [13/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 156 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 64 <SV = 63> <Delay = 3.65>
+ST_64 : Operation 157 [12/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 157 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 65 <SV = 64> <Delay = 3.65>
+ST_65 : Operation 158 [11/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 158 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 66 <SV = 65> <Delay = 3.65>
+ST_66 : Operation 159 [10/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 159 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 67 <SV = 66> <Delay = 3.65>
+ST_67 : Operation 160 [9/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 160 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 68 <SV = 67> <Delay = 3.65>
+ST_68 : Operation 161 [8/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 161 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 69 <SV = 68> <Delay = 3.65>
+ST_69 : Operation 162 [7/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 162 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 70 <SV = 69> <Delay = 3.65>
+ST_70 : Operation 163 [6/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 163 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 71 <SV = 70> <Delay = 3.65>
+ST_71 : Operation 164 [5/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 164 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 72 <SV = 71> <Delay = 3.65>
+ST_72 : Operation 165 [4/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 165 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 73 <SV = 72> <Delay = 3.65>
+ST_73 : Operation 166 [3/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 166 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 74 <SV = 73> <Delay = 3.65>
+ST_74 : Operation 167 [2/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 167 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 75 <SV = 74> <Delay = 3.65>
+ST_75 : Operation 168 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %out_r, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @ScalarProp_str, i32 4294967295, i32 0"   --->   Operation 168 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_75 : Operation 169 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i13 %n, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @ScalarProp_str, i32 4294967295, i32 0"   --->   Operation 169 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_75 : Operation 170 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i160 %output_r, void @empty_0, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_7, i32 4294967295, i32 0"   --->   Operation 170 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_75 : Operation 171 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %gmem1, void @empty_16, i32 0, i32 0, void @empty_7, i32 64, i32 0, void @empty_5, void @empty_10, void @empty_7, i32 16, i32 16, i32 16, i32 16, void @empty_7, void @empty_7, i32 4294967295, i32 0"   --->   Operation 171 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_75 : Operation 172 [1/68] (3.65ns)   --->   "%empty_100 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem1_addr" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18]   --->   Operation 172 'writeresp' 'empty_100' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_75 : Operation 173 [1/1] (0.00ns)   --->   "%ret_ln22 = ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:22]   --->   Operation 173 'ret' 'ret_ln22' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 5ns, clock uncertainty: 1.35ns.
+
+ <State 1>: 3.27ns
+The critical path consists of the following:
+	fifo read operation ('n_read') on port 'n' [8]  (1.34 ns)
+	'add' operation ('add_ln20_1', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:20) [17]  (0.785 ns)
+	'add' operation ('add_ln20', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:20) [20]  (1.15 ns)
+
+ <State 2>: 3.65ns
+The critical path consists of the following:
+	bus request operation ('empty', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [28]  (3.65 ns)
+
+ <State 3>: 3.65ns
+The critical path consists of the following:
+	bus write operation ('write_ln18', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [29]  (3.65 ns)
+
+ <State 4>: 3.65ns
+The critical path consists of the following:
+	bus write operation ('write_ln18', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [30]  (3.65 ns)
+
+ <State 5>: 3.65ns
+The critical path consists of the following:
+	bus write operation ('write_ln18', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [31]  (3.65 ns)
+
+ <State 6>: 3.65ns
+The critical path consists of the following:
+	bus write operation ('write_ln18', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [32]  (3.65 ns)
+
+ <State 7>: 3.65ns
+The critical path consists of the following:
+	bus write operation ('write_ln18', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [33]  (3.65 ns)
+
+ <State 8>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 9>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 10>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 11>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 12>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 13>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 14>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 15>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 16>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 17>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 18>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 19>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 20>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 21>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 22>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 23>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 24>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 25>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 26>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 27>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 28>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 29>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 30>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 31>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 32>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 33>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 34>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 35>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 36>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 37>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 38>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 39>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 40>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 41>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 42>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 43>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 44>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 45>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 46>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 47>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 48>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 49>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 50>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 51>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 52>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 53>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 54>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 55>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 56>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 57>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 58>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 59>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 60>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 61>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 62>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 63>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 64>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 65>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 66>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 67>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 68>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 69>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 70>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 71>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 72>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 73>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 74>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+ <State 75>: 3.65ns
+The critical path consists of the following:
+	bus response operation ('empty_100', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) on port 'gmem1' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:18) [34]  (3.65 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+	State 17
+	State 18
+	State 19
+	State 20
+	State 21
+	State 22
+	State 23
+	State 24
+	State 25
+	State 26
+	State 27
+	State 28
+	State 29
+	State 30
+	State 31
+	State 32
+	State 33
+	State 34
+	State 35
+	State 36
+	State 37
+	State 38
+	State 39
+	State 40
+	State 41
+	State 42
+	State 43
+	State 44
+	State 45
+	State 46
+	State 47
+	State 48
+	State 49
+	State 50
+	State 51
+	State 52
+	State 53
+	State 54
+	State 55
+	State 56
+	State 57
+	State 58
+	State 59
+	State 60
+	State 61
+	State 62
+	State 63
+	State 64
+	State 65
+	State 66
+	State 67
+	State 68
+	State 69
+	State 70
+	State 71
+	State 72
+	State 73
+	State 74
+	State 75
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

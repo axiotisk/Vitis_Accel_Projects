@@ -1,0 +1,480 @@
+===============================================================================
+Version:    v++ v2022.2 (64-bit)
+Build:      SW Build 3671529 on 2022-10-13-17:52:11
+Copyright:  Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Created:    Fri Jul  5 00:33:15 2024
+===============================================================================
+
+-------------------------------------------------------------------------------
+Design Name:             kernel_wrapper
+Target Device:           xilinx:u55c:gen3x16_xdma_3:202210.1
+Target Clock:            300.000000MHz
+Total number of kernels: 1
+-------------------------------------------------------------------------------
+
+Kernel Summary
+Kernel Name     Type  Target              OpenCL Library  Compute Units
+--------------  ----  ------------------  --------------  -------------
+kernel_wrapper  c     fpga0:OCL_REGION_0  kernel_wrapper  4
+
+
+-------------------------------------------------------------------------------
+OpenCL Binary:     kernel_wrapper
+Kernels mapped to: clc_region
+
+Timing Information (MHz)
+Compute Unit      Kernel Name     Module Name                                                              Target Frequency  Estimated Frequency
+----------------  --------------  -----------------------------------------------------------------------  ----------------  -------------------
+kernel_wrapper_1  kernel_wrapper  entry_proc                                                               200               709.219849
+kernel_wrapper_1  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                       200               273.972595
+kernel_wrapper_1  kernel_wrapper  read_input                                                               200               273.972595
+kernel_wrapper_1  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s                 200               818.330627
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s     200               275.862061
+kernel_wrapper_1  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s   200               275.862061
+kernel_wrapper_1  kernel_wrapper  conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s     200               275.862061
+kernel_wrapper_1  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_s     200               359.582886
+kernel_wrapper_1  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config5_s               200               328.623077
+kernel_wrapper_1  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config6_s                200               818.330627
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_mult_s     200               274.951874
+kernel_wrapper_1  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config6_s   200               274.951874
+kernel_wrapper_1  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config6_s    200               274.951874
+kernel_wrapper_1  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config8_s     200               331.125824
+kernel_wrapper_1  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config9_s               200               274.499054
+kernel_wrapper_1  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config10_s               200               818.330627
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config10_mult_s    200               274.951874
+kernel_wrapper_1  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_24u_config10_s  200               274.951874
+kernel_wrapper_1  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s   200               274.951874
+kernel_wrapper_1  kernel_wrapper  relu_array_ap_fixed_24u_array_ap_ufixed_6_0_4_0_0_24u_relu_config12_s    200               330.578491
+kernel_wrapper_1  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_24u_config13_s              200               275.330414
+kernel_wrapper_1  kernel_wrapper  dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s         200               294.117645
+kernel_wrapper_1  kernel_wrapper  dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s        200               289.017334
+kernel_wrapper_1  kernel_wrapper  normalize_array_ap_fixed_42u_array_ap_fixed_16_6_5_3_0_42u_config17_s    200               305.343506
+kernel_wrapper_1  kernel_wrapper  relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s    200               319.795319
+kernel_wrapper_1  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config19_s         200               274.876312
+kernel_wrapper_1  kernel_wrapper  dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s       200               274.876312
+kernel_wrapper_1  kernel_wrapper  normalize_array_ap_fixed_64u_array_ap_fixed_16_6_5_3_0_64u_config21_s    200               305.343506
+kernel_wrapper_1  kernel_wrapper  relu_array_ap_fixed_64u_array_ap_ufixed_6_0_4_0_0_64u_relu_config22_s    200               319.795319
+kernel_wrapper_1  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config23_s         200               275.027496
+kernel_wrapper_1  kernel_wrapper  dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s       200               275.027496
+kernel_wrapper_1  kernel_wrapper  softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s    200               280.977814
+kernel_wrapper_1  kernel_wrapper  softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s           200               280.977814
+kernel_wrapper_1  kernel_wrapper  myproject                                                                200               274.499054
+kernel_wrapper_1  kernel_wrapper  write_result                                                             200               273.972595
+kernel_wrapper_1  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_36_1                                         200               273.972595
+kernel_wrapper_1  kernel_wrapper  kernel_wrapper                                                           200               273.972595
+kernel_wrapper_2  kernel_wrapper  entry_proc                                                               200               709.219849
+kernel_wrapper_2  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                       200               273.972595
+kernel_wrapper_2  kernel_wrapper  read_input                                                               200               273.972595
+kernel_wrapper_2  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s                 200               818.330627
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s     200               275.862061
+kernel_wrapper_2  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s   200               275.862061
+kernel_wrapper_2  kernel_wrapper  conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s     200               275.862061
+kernel_wrapper_2  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_s     200               359.582886
+kernel_wrapper_2  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config5_s               200               328.623077
+kernel_wrapper_2  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config6_s                200               818.330627
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_mult_s     200               274.951874
+kernel_wrapper_2  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config6_s   200               274.951874
+kernel_wrapper_2  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config6_s    200               274.951874
+kernel_wrapper_2  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config8_s     200               331.125824
+kernel_wrapper_2  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config9_s               200               274.499054
+kernel_wrapper_2  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config10_s               200               818.330627
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config10_mult_s    200               274.951874
+kernel_wrapper_2  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_24u_config10_s  200               274.951874
+kernel_wrapper_2  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s   200               274.951874
+kernel_wrapper_2  kernel_wrapper  relu_array_ap_fixed_24u_array_ap_ufixed_6_0_4_0_0_24u_relu_config12_s    200               330.578491
+kernel_wrapper_2  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_24u_config13_s              200               275.330414
+kernel_wrapper_2  kernel_wrapper  dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s         200               294.117645
+kernel_wrapper_2  kernel_wrapper  dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s        200               289.017334
+kernel_wrapper_2  kernel_wrapper  normalize_array_ap_fixed_42u_array_ap_fixed_16_6_5_3_0_42u_config17_s    200               305.343506
+kernel_wrapper_2  kernel_wrapper  relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s    200               319.795319
+kernel_wrapper_2  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config19_s         200               274.876312
+kernel_wrapper_2  kernel_wrapper  dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s       200               274.876312
+kernel_wrapper_2  kernel_wrapper  normalize_array_ap_fixed_64u_array_ap_fixed_16_6_5_3_0_64u_config21_s    200               305.343506
+kernel_wrapper_2  kernel_wrapper  relu_array_ap_fixed_64u_array_ap_ufixed_6_0_4_0_0_64u_relu_config22_s    200               319.795319
+kernel_wrapper_2  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config23_s         200               275.027496
+kernel_wrapper_2  kernel_wrapper  dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s       200               275.027496
+kernel_wrapper_2  kernel_wrapper  softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s    200               280.977814
+kernel_wrapper_2  kernel_wrapper  softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s           200               280.977814
+kernel_wrapper_2  kernel_wrapper  myproject                                                                200               274.499054
+kernel_wrapper_2  kernel_wrapper  write_result                                                             200               273.972595
+kernel_wrapper_2  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_36_1                                         200               273.972595
+kernel_wrapper_2  kernel_wrapper  kernel_wrapper                                                           200               273.972595
+kernel_wrapper_3  kernel_wrapper  entry_proc                                                               200               709.219849
+kernel_wrapper_3  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                       200               273.972595
+kernel_wrapper_3  kernel_wrapper  read_input                                                               200               273.972595
+kernel_wrapper_3  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s                 200               818.330627
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s     200               275.862061
+kernel_wrapper_3  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s   200               275.862061
+kernel_wrapper_3  kernel_wrapper  conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s     200               275.862061
+kernel_wrapper_3  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_s     200               359.582886
+kernel_wrapper_3  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config5_s               200               328.623077
+kernel_wrapper_3  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config6_s                200               818.330627
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_mult_s     200               274.951874
+kernel_wrapper_3  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config6_s   200               274.951874
+kernel_wrapper_3  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config6_s    200               274.951874
+kernel_wrapper_3  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config8_s     200               331.125824
+kernel_wrapper_3  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config9_s               200               274.499054
+kernel_wrapper_3  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config10_s               200               818.330627
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config10_mult_s    200               274.951874
+kernel_wrapper_3  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_24u_config10_s  200               274.951874
+kernel_wrapper_3  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s   200               274.951874
+kernel_wrapper_3  kernel_wrapper  relu_array_ap_fixed_24u_array_ap_ufixed_6_0_4_0_0_24u_relu_config12_s    200               330.578491
+kernel_wrapper_3  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_24u_config13_s              200               275.330414
+kernel_wrapper_3  kernel_wrapper  dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s         200               294.117645
+kernel_wrapper_3  kernel_wrapper  dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s        200               289.017334
+kernel_wrapper_3  kernel_wrapper  normalize_array_ap_fixed_42u_array_ap_fixed_16_6_5_3_0_42u_config17_s    200               305.343506
+kernel_wrapper_3  kernel_wrapper  relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s    200               319.795319
+kernel_wrapper_3  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config19_s         200               274.876312
+kernel_wrapper_3  kernel_wrapper  dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s       200               274.876312
+kernel_wrapper_3  kernel_wrapper  normalize_array_ap_fixed_64u_array_ap_fixed_16_6_5_3_0_64u_config21_s    200               305.343506
+kernel_wrapper_3  kernel_wrapper  relu_array_ap_fixed_64u_array_ap_ufixed_6_0_4_0_0_64u_relu_config22_s    200               319.795319
+kernel_wrapper_3  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config23_s         200               275.027496
+kernel_wrapper_3  kernel_wrapper  dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s       200               275.027496
+kernel_wrapper_3  kernel_wrapper  softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s    200               280.977814
+kernel_wrapper_3  kernel_wrapper  softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s           200               280.977814
+kernel_wrapper_3  kernel_wrapper  myproject                                                                200               274.499054
+kernel_wrapper_3  kernel_wrapper  write_result                                                             200               273.972595
+kernel_wrapper_3  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_36_1                                         200               273.972595
+kernel_wrapper_3  kernel_wrapper  kernel_wrapper                                                           200               273.972595
+kernel_wrapper_4  kernel_wrapper  entry_proc                                                               200               709.219849
+kernel_wrapper_4  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                       200               273.972595
+kernel_wrapper_4  kernel_wrapper  read_input                                                               200               273.972595
+kernel_wrapper_4  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s                 200               818.330627
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s     200               275.862061
+kernel_wrapper_4  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s   200               275.862061
+kernel_wrapper_4  kernel_wrapper  conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s     200               275.862061
+kernel_wrapper_4  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_s     200               359.582886
+kernel_wrapper_4  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config5_s               200               328.623077
+kernel_wrapper_4  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config6_s                200               818.330627
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_mult_s     200               274.951874
+kernel_wrapper_4  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config6_s   200               274.951874
+kernel_wrapper_4  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config6_s    200               274.951874
+kernel_wrapper_4  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config8_s     200               331.125824
+kernel_wrapper_4  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config9_s               200               274.499054
+kernel_wrapper_4  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config10_s               200               818.330627
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config10_mult_s    200               274.951874
+kernel_wrapper_4  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_24u_config10_s  200               274.951874
+kernel_wrapper_4  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s   200               274.951874
+kernel_wrapper_4  kernel_wrapper  relu_array_ap_fixed_24u_array_ap_ufixed_6_0_4_0_0_24u_relu_config12_s    200               330.578491
+kernel_wrapper_4  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_24u_config13_s              200               275.330414
+kernel_wrapper_4  kernel_wrapper  dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s         200               294.117645
+kernel_wrapper_4  kernel_wrapper  dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s        200               289.017334
+kernel_wrapper_4  kernel_wrapper  normalize_array_ap_fixed_42u_array_ap_fixed_16_6_5_3_0_42u_config17_s    200               305.343506
+kernel_wrapper_4  kernel_wrapper  relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s    200               319.795319
+kernel_wrapper_4  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config19_s         200               274.876312
+kernel_wrapper_4  kernel_wrapper  dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s       200               274.876312
+kernel_wrapper_4  kernel_wrapper  normalize_array_ap_fixed_64u_array_ap_fixed_16_6_5_3_0_64u_config21_s    200               305.343506
+kernel_wrapper_4  kernel_wrapper  relu_array_ap_fixed_64u_array_ap_ufixed_6_0_4_0_0_64u_relu_config22_s    200               319.795319
+kernel_wrapper_4  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config23_s         200               275.027496
+kernel_wrapper_4  kernel_wrapper  dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s       200               275.027496
+kernel_wrapper_4  kernel_wrapper  softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s    200               280.977814
+kernel_wrapper_4  kernel_wrapper  softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s           200               280.977814
+kernel_wrapper_4  kernel_wrapper  myproject                                                                200               274.499054
+kernel_wrapper_4  kernel_wrapper  write_result                                                             200               273.972595
+kernel_wrapper_4  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_36_1                                         200               273.972595
+kernel_wrapper_4  kernel_wrapper  kernel_wrapper                                                           200               273.972595
+
+Latency Information
+Compute Unit      Kernel Name     Module Name                                                              Start Interval  Best (cycles)  Avg (cycles)  Worst (cycles)  Best (absolute)  Avg (absolute)  Worst (absolute)
+----------------  --------------  -----------------------------------------------------------------------  --------------  -------------  ------------  --------------  ---------------  --------------  ----------------
+kernel_wrapper_1  kernel_wrapper  entry_proc                                                               0               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_1  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                       3075            3075           3075          3075            15.375 us        15.375 us       15.375 us
+kernel_wrapper_1  kernel_wrapper  read_input                                                               3147            3147           3147          3147            15.735 us        15.735 us       15.735 us
+kernel_wrapper_1  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s                 1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s     1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_1  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s   3               2              2             2               10.000 ns        10.000 ns       10.000 ns
+kernel_wrapper_1  kernel_wrapper  conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s     3074            3074           3074          3074            15.370 us        15.370 us       15.370 us
+kernel_wrapper_1  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_s     903             903            903           903             4.515 us         4.515 us        4.515 us
+kernel_wrapper_1  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config5_s               903             903            903           903             4.515 us         4.515 us        4.515 us
+kernel_wrapper_1  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config6_s                1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_mult_s     1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_1  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config6_s   3               3              3             3               15.000 ns        15.000 ns       15.000 ns
+kernel_wrapper_1  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config6_s    678             678            678           678             3.390 us         3.390 us        3.390 us
+kernel_wrapper_1  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config8_s     172             172            172           172             0.860 us         0.860 us        0.860 us
+kernel_wrapper_1  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config9_s               172             172            172           172             0.860 us         0.860 us        0.860 us
+kernel_wrapper_1  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config10_s               1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config10_mult_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_1  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_24u_config10_s  2               2              2             2               10.000 ns        10.000 ns       10.000 ns
+kernel_wrapper_1  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s   145             145            145           145             0.725 us         0.725 us        0.725 us
+kernel_wrapper_1  kernel_wrapper  relu_array_ap_fixed_24u_array_ap_ufixed_6_0_4_0_0_24u_relu_config12_s    19              19             19            19              95.000 ns        95.000 ns       95.000 ns
+kernel_wrapper_1  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_24u_config13_s              19              19             19            19              95.000 ns        95.000 ns       95.000 ns
+kernel_wrapper_1  kernel_wrapper  dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s         1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_1  kernel_wrapper  dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s        8               8              8             8               40.000 ns        40.000 ns       40.000 ns
+kernel_wrapper_1  kernel_wrapper  normalize_array_ap_fixed_42u_array_ap_fixed_16_6_5_3_0_42u_config17_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_1  kernel_wrapper  relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_1  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config19_s         1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_1  kernel_wrapper  dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s       4               4              4             4               20.000 ns        20.000 ns       20.000 ns
+kernel_wrapper_1  kernel_wrapper  normalize_array_ap_fixed_64u_array_ap_fixed_16_6_5_3_0_64u_config21_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_1  kernel_wrapper  relu_array_ap_fixed_64u_array_ap_ufixed_6_0_4_0_0_64u_relu_config22_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_1  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config23_s         2               2              2             2               10.000 ns        10.000 ns       10.000 ns
+kernel_wrapper_1  kernel_wrapper  dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s       5               5              5             5               25.000 ns        25.000 ns       25.000 ns
+kernel_wrapper_1  kernel_wrapper  softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s    7               7              7             7               35.000 ns        35.000 ns       35.000 ns
+kernel_wrapper_1  kernel_wrapper  softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s           8               8              8             8               40.000 ns        40.000 ns       40.000 ns
+kernel_wrapper_1  kernel_wrapper  myproject                                                                3075            3097           3097          3097            15.485 us        15.485 us       15.485 us
+kernel_wrapper_1  kernel_wrapper  write_result                                                             74              74             74            74              0.370 us         0.370 us        0.370 us
+kernel_wrapper_1  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_36_1                                         3148            3172           3172          3172            15.860 us        15.860 us       15.860 us
+kernel_wrapper_1  kernel_wrapper  kernel_wrapper                                                           25788444        25788443       25788443      25788443        0.129 sec        0.129 sec       0.129 sec
+kernel_wrapper_2  kernel_wrapper  entry_proc                                                               0               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_2  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                       3075            3075           3075          3075            15.375 us        15.375 us       15.375 us
+kernel_wrapper_2  kernel_wrapper  read_input                                                               3147            3147           3147          3147            15.735 us        15.735 us       15.735 us
+kernel_wrapper_2  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s                 1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s     1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_2  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s   3               2              2             2               10.000 ns        10.000 ns       10.000 ns
+kernel_wrapper_2  kernel_wrapper  conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s     3074            3074           3074          3074            15.370 us        15.370 us       15.370 us
+kernel_wrapper_2  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_s     903             903            903           903             4.515 us         4.515 us        4.515 us
+kernel_wrapper_2  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config5_s               903             903            903           903             4.515 us         4.515 us        4.515 us
+kernel_wrapper_2  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config6_s                1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_mult_s     1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_2  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config6_s   3               3              3             3               15.000 ns        15.000 ns       15.000 ns
+kernel_wrapper_2  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config6_s    678             678            678           678             3.390 us         3.390 us        3.390 us
+kernel_wrapper_2  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config8_s     172             172            172           172             0.860 us         0.860 us        0.860 us
+kernel_wrapper_2  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config9_s               172             172            172           172             0.860 us         0.860 us        0.860 us
+kernel_wrapper_2  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config10_s               1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config10_mult_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_2  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_24u_config10_s  2               2              2             2               10.000 ns        10.000 ns       10.000 ns
+kernel_wrapper_2  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s   145             145            145           145             0.725 us         0.725 us        0.725 us
+kernel_wrapper_2  kernel_wrapper  relu_array_ap_fixed_24u_array_ap_ufixed_6_0_4_0_0_24u_relu_config12_s    19              19             19            19              95.000 ns        95.000 ns       95.000 ns
+kernel_wrapper_2  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_24u_config13_s              19              19             19            19              95.000 ns        95.000 ns       95.000 ns
+kernel_wrapper_2  kernel_wrapper  dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s         1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_2  kernel_wrapper  dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s        8               8              8             8               40.000 ns        40.000 ns       40.000 ns
+kernel_wrapper_2  kernel_wrapper  normalize_array_ap_fixed_42u_array_ap_fixed_16_6_5_3_0_42u_config17_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_2  kernel_wrapper  relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_2  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config19_s         1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_2  kernel_wrapper  dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s       4               4              4             4               20.000 ns        20.000 ns       20.000 ns
+kernel_wrapper_2  kernel_wrapper  normalize_array_ap_fixed_64u_array_ap_fixed_16_6_5_3_0_64u_config21_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_2  kernel_wrapper  relu_array_ap_fixed_64u_array_ap_ufixed_6_0_4_0_0_64u_relu_config22_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_2  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config23_s         2               2              2             2               10.000 ns        10.000 ns       10.000 ns
+kernel_wrapper_2  kernel_wrapper  dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s       5               5              5             5               25.000 ns        25.000 ns       25.000 ns
+kernel_wrapper_2  kernel_wrapper  softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s    7               7              7             7               35.000 ns        35.000 ns       35.000 ns
+kernel_wrapper_2  kernel_wrapper  softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s           8               8              8             8               40.000 ns        40.000 ns       40.000 ns
+kernel_wrapper_2  kernel_wrapper  myproject                                                                3075            3097           3097          3097            15.485 us        15.485 us       15.485 us
+kernel_wrapper_2  kernel_wrapper  write_result                                                             74              74             74            74              0.370 us         0.370 us        0.370 us
+kernel_wrapper_2  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_36_1                                         3148            3172           3172          3172            15.860 us        15.860 us       15.860 us
+kernel_wrapper_2  kernel_wrapper  kernel_wrapper                                                           25788444        25788443       25788443      25788443        0.129 sec        0.129 sec       0.129 sec
+kernel_wrapper_3  kernel_wrapper  entry_proc                                                               0               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_3  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                       3075            3075           3075          3075            15.375 us        15.375 us       15.375 us
+kernel_wrapper_3  kernel_wrapper  read_input                                                               3147            3147           3147          3147            15.735 us        15.735 us       15.735 us
+kernel_wrapper_3  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s                 1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s     1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_3  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s   3               2              2             2               10.000 ns        10.000 ns       10.000 ns
+kernel_wrapper_3  kernel_wrapper  conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s     3074            3074           3074          3074            15.370 us        15.370 us       15.370 us
+kernel_wrapper_3  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_s     903             903            903           903             4.515 us         4.515 us        4.515 us
+kernel_wrapper_3  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config5_s               903             903            903           903             4.515 us         4.515 us        4.515 us
+kernel_wrapper_3  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config6_s                1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_mult_s     1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_3  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config6_s   3               3              3             3               15.000 ns        15.000 ns       15.000 ns
+kernel_wrapper_3  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config6_s    678             678            678           678             3.390 us         3.390 us        3.390 us
+kernel_wrapper_3  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config8_s     172             172            172           172             0.860 us         0.860 us        0.860 us
+kernel_wrapper_3  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config9_s               172             172            172           172             0.860 us         0.860 us        0.860 us
+kernel_wrapper_3  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config10_s               1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config10_mult_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_3  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_24u_config10_s  2               2              2             2               10.000 ns        10.000 ns       10.000 ns
+kernel_wrapper_3  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s   145             145            145           145             0.725 us         0.725 us        0.725 us
+kernel_wrapper_3  kernel_wrapper  relu_array_ap_fixed_24u_array_ap_ufixed_6_0_4_0_0_24u_relu_config12_s    19              19             19            19              95.000 ns        95.000 ns       95.000 ns
+kernel_wrapper_3  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_24u_config13_s              19              19             19            19              95.000 ns        95.000 ns       95.000 ns
+kernel_wrapper_3  kernel_wrapper  dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s         1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_3  kernel_wrapper  dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s        8               8              8             8               40.000 ns        40.000 ns       40.000 ns
+kernel_wrapper_3  kernel_wrapper  normalize_array_ap_fixed_42u_array_ap_fixed_16_6_5_3_0_42u_config17_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_3  kernel_wrapper  relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_3  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config19_s         1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_3  kernel_wrapper  dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s       4               4              4             4               20.000 ns        20.000 ns       20.000 ns
+kernel_wrapper_3  kernel_wrapper  normalize_array_ap_fixed_64u_array_ap_fixed_16_6_5_3_0_64u_config21_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_3  kernel_wrapper  relu_array_ap_fixed_64u_array_ap_ufixed_6_0_4_0_0_64u_relu_config22_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_3  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config23_s         2               2              2             2               10.000 ns        10.000 ns       10.000 ns
+kernel_wrapper_3  kernel_wrapper  dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s       5               5              5             5               25.000 ns        25.000 ns       25.000 ns
+kernel_wrapper_3  kernel_wrapper  softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s    7               7              7             7               35.000 ns        35.000 ns       35.000 ns
+kernel_wrapper_3  kernel_wrapper  softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s           8               8              8             8               40.000 ns        40.000 ns       40.000 ns
+kernel_wrapper_3  kernel_wrapper  myproject                                                                3075            3097           3097          3097            15.485 us        15.485 us       15.485 us
+kernel_wrapper_3  kernel_wrapper  write_result                                                             74              74             74            74              0.370 us         0.370 us        0.370 us
+kernel_wrapper_3  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_36_1                                         3148            3172           3172          3172            15.860 us        15.860 us       15.860 us
+kernel_wrapper_3  kernel_wrapper  kernel_wrapper                                                           25788444        25788443       25788443      25788443        0.129 sec        0.129 sec       0.129 sec
+kernel_wrapper_4  kernel_wrapper  entry_proc                                                               0               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_4  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                       3075            3075           3075          3075            15.375 us        15.375 us       15.375 us
+kernel_wrapper_4  kernel_wrapper  read_input                                                               3147            3147           3147          3147            15.735 us        15.735 us       15.735 us
+kernel_wrapper_4  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s                 1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s     1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_4  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s   3               2              2             2               10.000 ns        10.000 ns       10.000 ns
+kernel_wrapper_4  kernel_wrapper  conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s     3074            3074           3074          3074            15.370 us        15.370 us       15.370 us
+kernel_wrapper_4  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_s     903             903            903           903             4.515 us         4.515 us        4.515 us
+kernel_wrapper_4  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config5_s               903             903            903           903             4.515 us         4.515 us        4.515 us
+kernel_wrapper_4  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config6_s                1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_mult_s     1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_4  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config6_s   3               3              3             3               15.000 ns        15.000 ns       15.000 ns
+kernel_wrapper_4  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config6_s    678             678            678           678             3.390 us         3.390 us        3.390 us
+kernel_wrapper_4  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config8_s     172             172            172           172             0.860 us         0.860 us        0.860 us
+kernel_wrapper_4  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config9_s               172             172            172           172             0.860 us         0.860 us        0.860 us
+kernel_wrapper_4  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config10_s               1               0              0             0               0 ns             0 ns            0 ns
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config10_mult_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_4  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_24u_config10_s  2               2              2             2               10.000 ns        10.000 ns       10.000 ns
+kernel_wrapper_4  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s   145             145            145           145             0.725 us         0.725 us        0.725 us
+kernel_wrapper_4  kernel_wrapper  relu_array_ap_fixed_24u_array_ap_ufixed_6_0_4_0_0_24u_relu_config12_s    19              19             19            19              95.000 ns        95.000 ns       95.000 ns
+kernel_wrapper_4  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_24u_config13_s              19              19             19            19              95.000 ns        95.000 ns       95.000 ns
+kernel_wrapper_4  kernel_wrapper  dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s         1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_4  kernel_wrapper  dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s        8               8              8             8               40.000 ns        40.000 ns       40.000 ns
+kernel_wrapper_4  kernel_wrapper  normalize_array_ap_fixed_42u_array_ap_fixed_16_6_5_3_0_42u_config17_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_4  kernel_wrapper  relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_4  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config19_s         1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_4  kernel_wrapper  dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s       4               4              4             4               20.000 ns        20.000 ns       20.000 ns
+kernel_wrapper_4  kernel_wrapper  normalize_array_ap_fixed_64u_array_ap_fixed_16_6_5_3_0_64u_config21_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_4  kernel_wrapper  relu_array_ap_fixed_64u_array_ap_ufixed_6_0_4_0_0_64u_relu_config22_s    1               1              1             1               5.000 ns         5.000 ns        5.000 ns
+kernel_wrapper_4  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config23_s         2               2              2             2               10.000 ns        10.000 ns       10.000 ns
+kernel_wrapper_4  kernel_wrapper  dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s       5               5              5             5               25.000 ns        25.000 ns       25.000 ns
+kernel_wrapper_4  kernel_wrapper  softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s    7               7              7             7               35.000 ns        35.000 ns       35.000 ns
+kernel_wrapper_4  kernel_wrapper  softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s           8               8              8             8               40.000 ns        40.000 ns       40.000 ns
+kernel_wrapper_4  kernel_wrapper  myproject                                                                3075            3097           3097          3097            15.485 us        15.485 us       15.485 us
+kernel_wrapper_4  kernel_wrapper  write_result                                                             74              74             74            74              0.370 us         0.370 us        0.370 us
+kernel_wrapper_4  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_36_1                                         3148            3172           3172          3172            15.860 us        15.860 us       15.860 us
+kernel_wrapper_4  kernel_wrapper  kernel_wrapper                                                           25788444        25788443       25788443      25788443        0.129 sec        0.129 sec       0.129 sec
+
+Area Information
+Compute Unit      Kernel Name     Module Name                                                              FF     LUT     DSP  BRAM  URAM
+----------------  --------------  -----------------------------------------------------------------------  -----  ------  ---  ----  ----
+kernel_wrapper_1  kernel_wrapper  entry_proc                                                               3      29      0    0     0
+kernel_wrapper_1  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                       66     132     0    0     0
+kernel_wrapper_1  kernel_wrapper  read_input                                                               205    753     0    0     0
+kernel_wrapper_1  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s                 385    354     0    0     0
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s     929    6797    0    0     0
+kernel_wrapper_1  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s   2007   7587    0    0     0
+kernel_wrapper_1  kernel_wrapper  conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s     2027   7741    0    0     0
+kernel_wrapper_1  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_s     112    1281    0    0     0
+kernel_wrapper_1  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config5_s               1592   2072    0    0     0
+kernel_wrapper_1  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config6_s                2049   1888    0    0     0
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_mult_s     3489   40208   0    0     0
+kernel_wrapper_1  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config6_s   8266   42557   0    0     0
+kernel_wrapper_1  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config6_s    8283   42705   0    0     0
+kernel_wrapper_1  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config8_s     110    1279    0    0     0
+kernel_wrapper_1  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config9_s               1494   2070    0    0     0
+kernel_wrapper_1  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config10_s               2049   1888    0    0     0
+kernel_wrapper_1  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config10_mult_s    4128   48355   0    0     0
+kernel_wrapper_1  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_24u_config10_s  8614   50663   0    0     0
+kernel_wrapper_1  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s   8882   50755   0    0     0
+kernel_wrapper_1  kernel_wrapper  relu_array_ap_fixed_24u_array_ap_ufixed_6_0_4_0_0_24u_relu_config12_s    155    1867    0    0     0
+kernel_wrapper_1  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_24u_config13_s              2147   2874    0    0     0
+kernel_wrapper_1  kernel_wrapper  dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s         5824   51920   0    0     0
+kernel_wrapper_1  kernel_wrapper  dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s        7370   52014   0    0     0
+kernel_wrapper_1  kernel_wrapper  normalize_array_ap_fixed_42u_array_ap_fixed_16_6_5_3_0_42u_config17_s    1096   1648    0    0     0
+kernel_wrapper_1  kernel_wrapper  relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s    256    3160    0    0     0
+kernel_wrapper_1  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config19_s         3109   26866   0    0     0
+kernel_wrapper_1  kernel_wrapper  dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s       4392   26930   0    0     0
+kernel_wrapper_1  kernel_wrapper  normalize_array_ap_fixed_64u_array_ap_fixed_16_6_5_3_0_64u_config21_s    1658   2498    0    0     0
+kernel_wrapper_1  kernel_wrapper  relu_array_ap_fixed_64u_array_ap_ufixed_6_0_4_0_0_64u_relu_config22_s    388    4788    0    0     0
+kernel_wrapper_1  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config23_s         1969   37292   0    0     0
+kernel_wrapper_1  kernel_wrapper  dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s       2520   37356   0    0     0
+kernel_wrapper_1  kernel_wrapper  softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s    665    1680    0    10    0
+kernel_wrapper_1  kernel_wrapper  softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s           669    1723    0    10    0
+kernel_wrapper_1  kernel_wrapper  myproject                                                                60056  251536  0    50    0
+kernel_wrapper_1  kernel_wrapper  write_result                                                             300    542     0    0     0
+kernel_wrapper_1  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_36_1                                         61251  253323  0    52    0
+kernel_wrapper_1  kernel_wrapper  kernel_wrapper                                                           63116  255785  0    52    0
+kernel_wrapper_2  kernel_wrapper  entry_proc                                                               3      29      0    0     0
+kernel_wrapper_2  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                       66     132     0    0     0
+kernel_wrapper_2  kernel_wrapper  read_input                                                               205    753     0    0     0
+kernel_wrapper_2  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s                 385    354     0    0     0
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s     929    6797    0    0     0
+kernel_wrapper_2  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s   2007   7587    0    0     0
+kernel_wrapper_2  kernel_wrapper  conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s     2027   7741    0    0     0
+kernel_wrapper_2  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_s     112    1281    0    0     0
+kernel_wrapper_2  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config5_s               1592   2072    0    0     0
+kernel_wrapper_2  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config6_s                2049   1888    0    0     0
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_mult_s     3489   40208   0    0     0
+kernel_wrapper_2  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config6_s   8266   42557   0    0     0
+kernel_wrapper_2  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config6_s    8283   42705   0    0     0
+kernel_wrapper_2  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config8_s     110    1279    0    0     0
+kernel_wrapper_2  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config9_s               1494   2070    0    0     0
+kernel_wrapper_2  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config10_s               2049   1888    0    0     0
+kernel_wrapper_2  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config10_mult_s    4128   48355   0    0     0
+kernel_wrapper_2  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_24u_config10_s  8614   50663   0    0     0
+kernel_wrapper_2  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s   8882   50755   0    0     0
+kernel_wrapper_2  kernel_wrapper  relu_array_ap_fixed_24u_array_ap_ufixed_6_0_4_0_0_24u_relu_config12_s    155    1867    0    0     0
+kernel_wrapper_2  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_24u_config13_s              2147   2874    0    0     0
+kernel_wrapper_2  kernel_wrapper  dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s         5824   51920   0    0     0
+kernel_wrapper_2  kernel_wrapper  dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s        7370   52014   0    0     0
+kernel_wrapper_2  kernel_wrapper  normalize_array_ap_fixed_42u_array_ap_fixed_16_6_5_3_0_42u_config17_s    1096   1648    0    0     0
+kernel_wrapper_2  kernel_wrapper  relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s    256    3160    0    0     0
+kernel_wrapper_2  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config19_s         3109   26866   0    0     0
+kernel_wrapper_2  kernel_wrapper  dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s       4392   26930   0    0     0
+kernel_wrapper_2  kernel_wrapper  normalize_array_ap_fixed_64u_array_ap_fixed_16_6_5_3_0_64u_config21_s    1658   2498    0    0     0
+kernel_wrapper_2  kernel_wrapper  relu_array_ap_fixed_64u_array_ap_ufixed_6_0_4_0_0_64u_relu_config22_s    388    4788    0    0     0
+kernel_wrapper_2  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config23_s         1969   37292   0    0     0
+kernel_wrapper_2  kernel_wrapper  dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s       2520   37356   0    0     0
+kernel_wrapper_2  kernel_wrapper  softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s    665    1680    0    10    0
+kernel_wrapper_2  kernel_wrapper  softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s           669    1723    0    10    0
+kernel_wrapper_2  kernel_wrapper  myproject                                                                60056  251536  0    50    0
+kernel_wrapper_2  kernel_wrapper  write_result                                                             300    542     0    0     0
+kernel_wrapper_2  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_36_1                                         61251  253323  0    52    0
+kernel_wrapper_2  kernel_wrapper  kernel_wrapper                                                           63116  255785  0    52    0
+kernel_wrapper_3  kernel_wrapper  entry_proc                                                               3      29      0    0     0
+kernel_wrapper_3  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                       66     132     0    0     0
+kernel_wrapper_3  kernel_wrapper  read_input                                                               205    753     0    0     0
+kernel_wrapper_3  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s                 385    354     0    0     0
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s     929    6797    0    0     0
+kernel_wrapper_3  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s   2007   7587    0    0     0
+kernel_wrapper_3  kernel_wrapper  conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s     2027   7741    0    0     0
+kernel_wrapper_3  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_s     112    1281    0    0     0
+kernel_wrapper_3  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config5_s               1592   2072    0    0     0
+kernel_wrapper_3  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config6_s                2049   1888    0    0     0
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_mult_s     3489   40208   0    0     0
+kernel_wrapper_3  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config6_s   8266   42557   0    0     0
+kernel_wrapper_3  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config6_s    8283   42705   0    0     0
+kernel_wrapper_3  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config8_s     110    1279    0    0     0
+kernel_wrapper_3  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config9_s               1494   2070    0    0     0
+kernel_wrapper_3  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config10_s               2049   1888    0    0     0
+kernel_wrapper_3  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config10_mult_s    4128   48355   0    0     0
+kernel_wrapper_3  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_24u_config10_s  8614   50663   0    0     0
+kernel_wrapper_3  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s   8882   50755   0    0     0
+kernel_wrapper_3  kernel_wrapper  relu_array_ap_fixed_24u_array_ap_ufixed_6_0_4_0_0_24u_relu_config12_s    155    1867    0    0     0
+kernel_wrapper_3  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_24u_config13_s              2147   2874    0    0     0
+kernel_wrapper_3  kernel_wrapper  dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s         5824   51920   0    0     0
+kernel_wrapper_3  kernel_wrapper  dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s        7370   52014   0    0     0
+kernel_wrapper_3  kernel_wrapper  normalize_array_ap_fixed_42u_array_ap_fixed_16_6_5_3_0_42u_config17_s    1096   1648    0    0     0
+kernel_wrapper_3  kernel_wrapper  relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s    256    3160    0    0     0
+kernel_wrapper_3  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config19_s         3109   26866   0    0     0
+kernel_wrapper_3  kernel_wrapper  dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s       4392   26930   0    0     0
+kernel_wrapper_3  kernel_wrapper  normalize_array_ap_fixed_64u_array_ap_fixed_16_6_5_3_0_64u_config21_s    1658   2498    0    0     0
+kernel_wrapper_3  kernel_wrapper  relu_array_ap_fixed_64u_array_ap_ufixed_6_0_4_0_0_64u_relu_config22_s    388    4788    0    0     0
+kernel_wrapper_3  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config23_s         1969   37292   0    0     0
+kernel_wrapper_3  kernel_wrapper  dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s       2520   37356   0    0     0
+kernel_wrapper_3  kernel_wrapper  softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s    665    1680    0    10    0
+kernel_wrapper_3  kernel_wrapper  softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s           669    1723    0    10    0
+kernel_wrapper_3  kernel_wrapper  myproject                                                                60056  251536  0    50    0
+kernel_wrapper_3  kernel_wrapper  write_result                                                             300    542     0    0     0
+kernel_wrapper_3  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_36_1                                         61251  253323  0    52    0
+kernel_wrapper_3  kernel_wrapper  kernel_wrapper                                                           63116  255785  0    52    0
+kernel_wrapper_4  kernel_wrapper  entry_proc                                                               3      29      0    0     0
+kernel_wrapper_4  kernel_wrapper  read_input_Pipeline_VITIS_LOOP_5_1                                       66     132     0    0     0
+kernel_wrapper_4  kernel_wrapper  read_input                                                               205    753     0    0     0
+kernel_wrapper_4  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s                 385    354     0    0     0
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s     929    6797    0    0     0
+kernel_wrapper_4  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s   2007   7587    0    0     0
+kernel_wrapper_4  kernel_wrapper  conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s     2027   7741    0    0     0
+kernel_wrapper_4  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_s     112    1281    0    0     0
+kernel_wrapper_4  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config5_s               1592   2072    0    0     0
+kernel_wrapper_4  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config6_s                2049   1888    0    0     0
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_mult_s     3489   40208   0    0     0
+kernel_wrapper_4  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config6_s   8266   42557   0    0     0
+kernel_wrapper_4  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config6_s    8283   42705   0    0     0
+kernel_wrapper_4  kernel_wrapper  relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config8_s     110    1279    0    0     0
+kernel_wrapper_4  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config9_s               1494   2070    0    0     0
+kernel_wrapper_4  kernel_wrapper  shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config10_s               2049   1888    0    0     0
+kernel_wrapper_4  kernel_wrapper  dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config10_mult_s    4128   48355   0    0     0
+kernel_wrapper_4  kernel_wrapper  compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_24u_config10_s  8614   50663   0    0     0
+kernel_wrapper_4  kernel_wrapper  conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s   8882   50755   0    0     0
+kernel_wrapper_4  kernel_wrapper  relu_array_ap_fixed_24u_array_ap_ufixed_6_0_4_0_0_24u_relu_config12_s    155    1867    0    0     0
+kernel_wrapper_4  kernel_wrapper  pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_24u_config13_s              2147   2874    0    0     0
+kernel_wrapper_4  kernel_wrapper  dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s         5824   51920   0    0     0
+kernel_wrapper_4  kernel_wrapper  dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s        7370   52014   0    0     0
+kernel_wrapper_4  kernel_wrapper  normalize_array_ap_fixed_42u_array_ap_fixed_16_6_5_3_0_42u_config17_s    1096   1648    0    0     0
+kernel_wrapper_4  kernel_wrapper  relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s    256    3160    0    0     0
+kernel_wrapper_4  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config19_s         3109   26866   0    0     0
+kernel_wrapper_4  kernel_wrapper  dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s       4392   26930   0    0     0
+kernel_wrapper_4  kernel_wrapper  normalize_array_ap_fixed_64u_array_ap_fixed_16_6_5_3_0_64u_config21_s    1658   2498    0    0     0
+kernel_wrapper_4  kernel_wrapper  relu_array_ap_fixed_64u_array_ap_ufixed_6_0_4_0_0_64u_relu_config22_s    388    4788    0    0     0
+kernel_wrapper_4  kernel_wrapper  dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config23_s         1969   37292   0    0     0
+kernel_wrapper_4  kernel_wrapper  dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s       2520   37356   0    0     0
+kernel_wrapper_4  kernel_wrapper  softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s    665    1680    0    10    0
+kernel_wrapper_4  kernel_wrapper  softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config25_s           669    1723    0    10    0
+kernel_wrapper_4  kernel_wrapper  myproject                                                                60056  251536  0    50    0
+kernel_wrapper_4  kernel_wrapper  write_result                                                             300    542     0    0     0
+kernel_wrapper_4  kernel_wrapper  dataflow_in_loop_VITIS_LOOP_36_1                                         61251  253323  0    52    0
+kernel_wrapper_4  kernel_wrapper  kernel_wrapper                                                           63116  255785  0    52    0
+-------------------------------------------------------------------------------

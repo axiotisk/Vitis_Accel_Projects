@@ -1,0 +1,275 @@
+====================================================================
+Version:    xcd v2022.2 (64-bit)
+Copyright:  Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Created:    Fri Jul  5 00:33:11 2024
+====================================================================
+
+1. Kernel and compute unit information
+======================================
+
+Compute Unit: kernel_wrapper_1
+Kernel: kernel_wrapper
+Base Address: 0x800000
+Clock Pin: ap_clk
+Reset Pin: ap_rst_n
+
+Compute Unit: kernel_wrapper_2
+Kernel: kernel_wrapper
+Base Address: 0x810000
+Clock Pin: ap_clk
+Reset Pin: ap_rst_n
+
+Compute Unit: kernel_wrapper_3
+Kernel: kernel_wrapper
+Base Address: 0x820000
+Clock Pin: ap_clk
+Reset Pin: ap_rst_n
+
+Compute Unit: kernel_wrapper_4
+Kernel: kernel_wrapper
+Base Address: 0x830000
+Clock Pin: ap_clk
+Reset Pin: ap_rst_n
+
+2. Interface Connections
+========================
+
+IP to Compute Unit
+------------------
+Source Pin: SLR0/M01_AXI
+Destination Pin: kernel_wrapper_1/s_axi_control
+
+Source Pin: SLR0/M02_AXI
+Destination Pin: kernel_wrapper_2/s_axi_control
+
+Source Pin: SLR0/M03_AXI
+Destination Pin: kernel_wrapper_3/s_axi_control
+
+Source Pin: SLR0/M04_AXI
+Destination Pin: kernel_wrapper_4/s_axi_control
+
+Compute Unit to IP
+------------------
+Source Pin: kernel_wrapper_1/m_axi_gmem0
+Destination Pin: hmss_0/S01_AXI
+
+Source Pin: kernel_wrapper_1/m_axi_gmem1
+Destination Pin: hmss_0/S02_AXI
+
+Source Pin: kernel_wrapper_2/m_axi_gmem0
+Destination Pin: hmss_0/S03_AXI
+
+Source Pin: kernel_wrapper_2/m_axi_gmem1
+Destination Pin: hmss_0/S04_AXI
+
+Source Pin: kernel_wrapper_3/m_axi_gmem0
+Destination Pin: hmss_0/S05_AXI
+
+Source Pin: kernel_wrapper_3/m_axi_gmem1
+Destination Pin: hmss_0/S06_AXI
+
+Source Pin: kernel_wrapper_4/m_axi_gmem0
+Destination Pin: hmss_0/S07_AXI
+
+Source Pin: kernel_wrapper_4/m_axi_gmem1
+Destination Pin: hmss_0/S08_AXI
+
+3. Clock Connections
+====================
+
+Compute Unit: kernel_wrapper_1
+Clock ID: 0
+Platform Clock Frequency: 300.000000 MHz
+Requested Kernel Clock Frequency: 300.000000 MHz
+Achieved Kernel Clock Frequency: 191.600000 MHz
+Source Pin: ulp_ucs/aclk_kernel_00
+Destination Pin: kernel_wrapper_1/ap_clk
+
+Compute Unit: kernel_wrapper_2
+Clock ID: 0
+Platform Clock Frequency: 300.000000 MHz
+Requested Kernel Clock Frequency: 300.000000 MHz
+Achieved Kernel Clock Frequency: 191.600000 MHz
+Source Pin: ulp_ucs/aclk_kernel_00
+Destination Pin: kernel_wrapper_2/ap_clk
+
+Compute Unit: kernel_wrapper_3
+Clock ID: 0
+Platform Clock Frequency: 300.000000 MHz
+Requested Kernel Clock Frequency: 300.000000 MHz
+Achieved Kernel Clock Frequency: 191.600000 MHz
+Source Pin: ulp_ucs/aclk_kernel_00
+Destination Pin: kernel_wrapper_3/ap_clk
+
+Compute Unit: kernel_wrapper_4
+Clock ID: 0
+Platform Clock Frequency: 300.000000 MHz
+Requested Kernel Clock Frequency: 300.000000 MHz
+Achieved Kernel Clock Frequency: 191.600000 MHz
+Source Pin: ulp_ucs/aclk_kernel_00
+Destination Pin: kernel_wrapper_4/ap_clk
+
+Clock Instance: ulp_ucs
+Source Pin: ii_level0_wire/ulp_m_aclk_ctrl_00
+Destination Pin: ulp_ucs/aclk_ctrl
+
+Clock Instance: ulp_ucs
+Source Pin: ii_level0_wire/ulp_m_aclk_freerun_ref_00
+Destination Pin: ulp_ucs/aclk_freerun
+
+Clock Instance: ulp_ucs
+Source Pin: ii_level0_wire/ulp_m_aclk_freerun_ref_00
+Destination Pin: ulp_ucs/aclk_hbm_refclk
+
+Clock Instance: ulp_ucs
+Source Pin: ii_level0_wire/ulp_m_aclk_pcie_00
+Destination Pin: ulp_ucs/aclk_pcie
+
+4. Reset Connections
+====================
+
+Compute Unit: kernel_wrapper_1
+Source Pin: proc_sys_reset_kernel_slr0/peripheral_aresetn
+Destination Pin: kernel_wrapper_1/ap_rst_n
+Associated Clock Pin: kernel_wrapper_1/ap_clk
+
+Compute Unit: kernel_wrapper_2
+Source Pin: proc_sys_reset_kernel_slr0/peripheral_aresetn
+Destination Pin: kernel_wrapper_2/ap_rst_n
+Associated Clock Pin: kernel_wrapper_2/ap_clk
+
+Compute Unit: kernel_wrapper_3
+Source Pin: proc_sys_reset_kernel_slr0/peripheral_aresetn
+Destination Pin: kernel_wrapper_3/ap_rst_n
+Associated Clock Pin: kernel_wrapper_3/ap_clk
+
+Compute Unit: kernel_wrapper_4
+Source Pin: proc_sys_reset_kernel_slr0/peripheral_aresetn
+Destination Pin: kernel_wrapper_4/ap_rst_n
+Associated Clock Pin: kernel_wrapper_4/ap_clk
+
+5. SLR Utilization per Compute Unit
+===================================
+
+Compute Unit: kernel_wrapper_1
++------------+------+------+-------+--------+--------+--------+
+| Site Type  | SLR0 | SLR1 |  SLR2 | SLR0 % | SLR1 % | SLR2 % |
++------------+------+------+-------+--------+--------+--------+
+| LUT        |    0 |  306 | 90571 |   0.00 |   0.07 |  20.97 |
+| LUTAsLogic |    0 |  299 | 88633 |   0.00 |   0.07 |  20.52 |
+| LUTAsMem   |    0 |    7 |  1938 |   0.00 |   0.00 |   0.98 |
+| REG        |    0 |  410 | 33732 |   0.00 |   0.05 |   3.90 |
+| CARRY8     |    0 |    0 | 14201 |   0.00 |   0.00 |  26.30 |
+| F7MUX      |    0 |    1 |   128 |   0.00 |   0.00 |   0.06 |
+| F8MUX      |    0 |    0 |     0 |   0.00 |   0.00 |   0.00 |
+| F9MUX      |    0 |    0 |     0 |   0.00 |   0.00 |   0.00 |
+| BRAM       |    0 |    0 |  22.5 |   0.00 |   0.00 |   3.35 |
+| URAM       |    0 |    0 |     0 |   0.00 |   0.00 |   0.00 |
+| DSPs       |    0 |    0 |   766 |   0.00 |   0.00 |  24.93 |
++------------+------+------+-------+--------+--------+--------+
+
+Compute Unit: kernel_wrapper_2
++------------+------+-------+------+--------+--------+--------+
+| Site Type  | SLR0 |  SLR1 | SLR2 | SLR0 % | SLR1 % | SLR2 % |
++------------+------+-------+------+--------+--------+--------+
+| LUT        |    1 | 90904 |    0 |   0.00 |  21.04 |   0.00 |
+| LUTAsLogic |    1 | 88959 |    0 |   0.00 |  20.59 |   0.00 |
+| LUTAsMem   |    0 |  1945 |    0 |   0.00 |   0.98 |   0.00 |
+| REG        |    5 | 33813 |    0 |   0.00 |   3.91 |   0.00 |
+| CARRY8     |    0 | 14201 |    0 |   0.00 |  26.30 |   0.00 |
+| F7MUX      |    0 |   129 |    0 |   0.00 |   0.06 |   0.00 |
+| F8MUX      |    0 |     0 |    0 |   0.00 |   0.00 |   0.00 |
+| F9MUX      |    0 |     0 |    0 |   0.00 |   0.00 |   0.00 |
+| BRAM       |    0 |  22.5 |    0 |   0.00 |   3.35 |   0.00 |
+| URAM       |    0 |     0 |    0 |   0.00 |   0.00 |   0.00 |
+| DSPs       |    0 |   766 |    0 |   0.00 |  24.93 |   0.00 |
++------------+------+-------+------+--------+--------+--------+
+
+Compute Unit: kernel_wrapper_3
++------------+------+-------+------+--------+--------+--------+
+| Site Type  | SLR0 |  SLR1 | SLR2 | SLR0 % | SLR1 % | SLR2 % |
++------------+------+-------+------+--------+--------+--------+
+| LUT        |   13 | 90743 |    0 |   0.00 |  21.01 |   0.00 |
+| LUTAsLogic |   13 | 88798 |    0 |   0.00 |  20.56 |   0.00 |
+| LUTAsMem   |    0 |  1945 |    0 |   0.00 |   0.98 |   0.00 |
+| REG        |   17 | 33703 |   12 |   0.00 |   3.90 |   0.00 |
+| CARRY8     |    0 | 14201 |    0 |   0.00 |  26.30 |   0.00 |
+| F7MUX      |    0 |   129 |    0 |   0.00 |   0.06 |   0.00 |
+| F8MUX      |    0 |     0 |    0 |   0.00 |   0.00 |   0.00 |
+| F9MUX      |    0 |     0 |    0 |   0.00 |   0.00 |   0.00 |
+| BRAM       |    0 |  22.5 |    0 |   0.00 |   3.35 |   0.00 |
+| URAM       |    0 |     0 |    0 |   0.00 |   0.00 |   0.00 |
+| DSPs       |    0 |   766 |    0 |   0.00 |  24.93 |   0.00 |
++------------+------+-------+------+--------+--------+--------+
+
+Compute Unit: kernel_wrapper_4
++------------+-------+------+------+--------+--------+--------+
+| Site Type  |  SLR0 | SLR1 | SLR2 | SLR0 % | SLR1 % | SLR2 % |
++------------+-------+------+------+--------+--------+--------+
+| LUT        | 90124 |    0 |    0 |  20.50 |   0.00 |   0.00 |
+| LUTAsLogic | 88179 |    0 |    0 |  20.06 |   0.00 |   0.00 |
+| LUTAsMem   |  1945 |    0 |    0 |   0.95 |   0.00 |   0.00 |
+| REG        | 33432 |    0 |    0 |   3.80 |   0.00 |   0.00 |
+| CARRY8     | 14201 |    0 |    0 |  25.84 |   0.00 |   0.00 |
+| F7MUX      |   129 |    0 |    0 |   0.06 |   0.00 |   0.00 |
+| F8MUX      |     0 |    0 |    0 |   0.00 |   0.00 |   0.00 |
+| F9MUX      |     0 |    0 |    0 |   0.00 |   0.00 |   0.00 |
+| BRAM       |  22.5 |    0 |    0 |   3.35 |   0.00 |   0.00 |
+| URAM       |     0 |    0 |    0 |   0.00 |   0.00 |   0.00 |
+| DSPs       |   766 |    0 |    0 |  26.60 |   0.00 |   0.00 |
++------------+-------+------+------+--------+--------+--------+
+
+6. Compute Unit Utilization per SLR
+===================================
+
+SLR0
++------------+------------------+------------------+------------------+------------------+-----------+
+| Site Type  | kernel_wrapper_1 | kernel_wrapper_2 | kernel_wrapper_3 | kernel_wrapper_4 | Available |
++------------+------------------+------------------+------------------+------------------+-----------+
+| LUT        |                0 |                1 |               13 |            90124 |    439680 |
+| LUTAsLogic |                0 |                1 |               13 |            88179 |    439680 |
+| LUTAsMem   |                0 |                0 |                0 |             1945 |    205440 |
+| REG        |                0 |                5 |               17 |            33432 |    879360 |
+| CARRY8     |                0 |                0 |                0 |            14201 |     54960 |
+| F7MUX      |                0 |                0 |                0 |              129 |    219840 |
+| F8MUX      |                0 |                0 |                0 |                0 |    109920 |
+| F9MUX      |                0 |                0 |                0 |                0 |     54960 |
+| BRAM       |                0 |                0 |                0 |             22.5 |       672 |
+| URAM       |                0 |                0 |                0 |                0 |       320 |
+| DSPs       |                0 |                0 |                0 |              766 |      2880 |
++------------+------------------+------------------+------------------+------------------+-----------+
+
+SLR1
++------------+------------------+------------------+------------------+------------------+-----------+
+| Site Type  | kernel_wrapper_1 | kernel_wrapper_2 | kernel_wrapper_3 | kernel_wrapper_4 | Available |
++------------+------------------+------------------+------------------+------------------+-----------+
+| LUT        |              306 |            90904 |            90743 |                0 |    439680 |
+| LUTAsLogic |              299 |            88959 |            88798 |                0 |    439680 |
+| LUTAsMem   |                7 |             1945 |             1945 |                0 |    205440 |
+| REG        |              410 |            33813 |            33703 |                0 |    879360 |
+| CARRY8     |                0 |            14201 |            14201 |                0 |     54960 |
+| F7MUX      |                1 |              129 |              129 |                0 |    219840 |
+| F8MUX      |                0 |                0 |                0 |                0 |    109920 |
+| F9MUX      |                0 |                0 |                0 |                0 |     54960 |
+| BRAM       |                0 |             22.5 |             22.5 |                0 |       672 |
+| URAM       |                0 |                0 |                0 |                0 |       320 |
+| DSPs       |                0 |              766 |              766 |                0 |      2880 |
++------------+------------------+------------------+------------------+------------------+-----------+
+
+SLR2
++------------+------------------+------------------+------------------+------------------+-----------+
+| Site Type  | kernel_wrapper_1 | kernel_wrapper_2 | kernel_wrapper_3 | kernel_wrapper_4 | Available |
++------------+------------------+------------------+------------------+------------------+-----------+
+| LUT        |            90571 |                0 |                0 |                0 |    439680 |
+| LUTAsLogic |            88633 |                0 |                0 |                0 |    439680 |
+| LUTAsMem   |             1938 |                0 |                0 |                0 |    205440 |
+| REG        |            33732 |                0 |               12 |                0 |    879360 |
+| CARRY8     |            14201 |                0 |                0 |                0 |     54960 |
+| F7MUX      |              128 |                0 |                0 |                0 |    219840 |
+| F8MUX      |                0 |                0 |                0 |                0 |    109920 |
+| F9MUX      |                0 |                0 |                0 |                0 |     54960 |
+| BRAM       |             22.5 |                0 |                0 |                0 |       672 |
+| URAM       |                0 |                0 |                0 |                0 |       320 |
+| DSPs       |              766 |                0 |                0 |                0 |      2880 |
++------------+------------------+------------------+------------------+------------------+-----------+
+

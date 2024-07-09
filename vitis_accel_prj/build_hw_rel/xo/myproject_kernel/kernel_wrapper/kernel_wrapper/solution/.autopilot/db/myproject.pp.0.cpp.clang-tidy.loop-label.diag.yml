@@ -1,0 +1,922 @@
+---
+MainSourceFile:  /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1211_1:  '
+    FileOffset:      1211
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          780159
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          987679
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          988122
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          988566
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1245_1:  '
+    FileOffset:      1245
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1250561
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1245_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1600641
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1601016
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_1:  '
+    FileOffset:      265
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2260557
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2260944
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2261279
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_1:  '
+    FileOffset:      293
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2261502
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_2:  '
+    FileOffset:      295
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2261597
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2261961
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_2:  '
+    FileOffset:      309
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2262043
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2262386
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_344_1:  '
+    FileOffset:      344
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2262839
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_344_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_345_2:  '
+    FileOffset:      345
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2262884
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_345_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_360_1:  '
+    FileOffset:      360
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2263293
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_360_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2263506
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2266976
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_43_1:  '
+    FileOffset:      43
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2267229
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_43_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_57_1:  '
+    FileOffset:      57
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2267590
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_57_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2268406
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_114_1:  '
+    FileOffset:      114
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2269067
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_114_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_1:  '
+    FileOffset:      151
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2270201
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_162_1:  '
+    FileOffset:      162
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2270563
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_162_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_1:  '
+    FileOffset:      195
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2271466
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_2:  '
+    FileOffset:      209
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2271985
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_1:  '
+    FileOffset:      243
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2272825
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_252_2:  '
+    FileOffset:      252
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2273095
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_252_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_3:  '
+    FileOffset:      266
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2273619
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_1:  '
+    FileOffset:      273
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2273853
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2274213
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_323_1:  '
+    FileOffset:      323
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2275142
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_323_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_2:  '
+    FileOffset:      328
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2275259
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_329_3:  '
+    FileOffset:      329
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2275313
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_329_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_346_4:  '
+    FileOffset:      346
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2275894
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_346_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_359_1:  '
+    FileOffset:      359
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2276381
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_359_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_2:  '
+    FileOffset:      367
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2276522
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_402_1:  '
+    FileOffset:      402
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2277487
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_402_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_432_1:  '
+    FileOffset:      432
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2278124
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_432_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_451_1:  '
+    FileOffset:      451
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2278637
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_451_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_467_1:  '
+    FileOffset:      467
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2279095
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_467_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_485_1:  '
+    FileOffset:      485
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2279549
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_485_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_502_1:  '
+    FileOffset:      502
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2279936
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_502_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_519_1:  '
+    FileOffset:      519
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2280331
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_519_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_549_1:  '
+    FileOffset:      549
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2280997
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_549_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_568_1:  '
+    FileOffset:      568
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2281571
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_568_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_598_1:  '
+    FileOffset:      598
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2282237
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_598_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_617_1:  '
+    FileOffset:      617
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2282791
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_617_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_647_1:  '
+    FileOffset:      647
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2283423
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_647_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_674_1:  '
+    FileOffset:      674
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2284249
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_674_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_703_1:  '
+    FileOffset:      703
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2284867
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_703_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_724_1:  '
+    FileOffset:      724
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2285478
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_724_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_742_1:  '
+    FileOffset:      742
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2285867
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_742_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_762_1:  '
+    FileOffset:      762
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2286263
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_762_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_1:  '
+    FileOffset:      73
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2288471
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_80_2:  '
+    FileOffset:      80
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2288611
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_80_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_89_3:  '
+    FileOffset:      89
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2288876
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_89_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_98_4:  '
+    FileOffset:      98
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2289070
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_98_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_5:  '
+    FileOffset:      102
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2289163
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_113_6:  '
+    FileOffset:      113
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2289489
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_113_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_7:  '
+    FileOffset:      117
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2289599
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_1:  '
+    FileOffset:      141
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2290549
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_2:  '
+    FileOffset:      145
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2290635
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_164_1:  '
+    FileOffset:      164
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2291295
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_164_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_1:  '
+    FileOffset:      187
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2292227
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_2:  '
+    FileOffset:      190
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2292365
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_3:  '
+    FileOffset:      195
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2292515
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_4:  '
+    FileOffset:      199
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2292639
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_213_1:  '
+    FileOffset:      213
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2298570
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_2:  '
+    FileOffset:      222
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2298854
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_1:  '
+    FileOffset:      328
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2302067
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_333_2:  '
+    FileOffset:      333
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2302209
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_333_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_341_3:  '
+    FileOffset:      341
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2302413
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_341_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_88_1:  '
+    FileOffset:      88
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_batchnorm.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2331532
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_88_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_1:  '
+    FileOffset:      108
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_batchnorm.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2332189
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_62_1:  '
+    FileOffset:      62
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2346883
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_62_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_69_1:  '
+    FileOffset:      69
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2347087
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_69_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_38_1:  '
+    FileOffset:      38
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv2d_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2361825
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_38_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_14_1:  '
+    FileOffset:      14
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_compressed.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2365620
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_14_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_1:  '
+    FileOffset:      74
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_compressed.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2367491
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_12_1:  '
+    FileOffset:      12
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2370504
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_12_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_21_1:  '
+    FileOffset:      21
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2370703
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_21_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_95_1:  '
+    FileOffset:      95
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2372562
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_95_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_97_2:  '
+    FileOffset:      97
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2372619
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_97_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_3:  '
+    FileOffset:      102
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2372833
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_129_1:  '
+    FileOffset:      129
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2374052
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_129_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_132_2:  '
+    FileOffset:      132
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2374195
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_132_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_186_1:  '
+    FileOffset:      186
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2376335
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_186_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_189_2:  '
+    FileOffset:      189
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2376393
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_189_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_191_3:  '
+    FileOffset:      191
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2376476
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_191_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_198_4:  '
+    FileOffset:      198
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2376724
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_198_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_200_5:  '
+    FileOffset:      200
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2376800
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_200_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_242_1:  '
+    FileOffset:      242
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2379146
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_242_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_244_2:  '
+    FileOffset:      244
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2379203
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_244_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_246_3:  '
+    FileOffset:      246
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2379286
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_246_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_252_4:  '
+    FileOffset:      252
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2379531
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_252_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_254_5:  '
+    FileOffset:      254
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2379607
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_254_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_30_1:  '
+    FileOffset:      30
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2403588
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_30_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_142_1:  '
+    FileOffset:      142
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2408226
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_142_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_359_1:  '
+    FileOffset:      359
+    FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_pooling_stream.h
+    Replacements:    
+      - FilePath:        /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2415981
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_359_1: '
+...

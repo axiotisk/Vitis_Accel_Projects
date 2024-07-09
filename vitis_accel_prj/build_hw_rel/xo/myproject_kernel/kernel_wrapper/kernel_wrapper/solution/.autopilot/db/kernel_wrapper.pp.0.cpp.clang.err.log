@@ -1,0 +1,42 @@
+In file included from /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:1:
+In file included from /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.h:4:
+In file included from /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed.h:10:
+In file included from /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h:16:
+In file included from /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int.h:12:
+/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:678:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=and_reduce_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS unroll
+        ^
+/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:692:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=or_reduce_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS unroll
+        ^
+/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:706:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=xor_reduce_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS unroll
+        ^
+In file included from /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:1:
+In file included from /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/myproject.h:8:
+In file included from /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/defines.h:6:
+/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_types.h:28:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:6:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=read_input_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:9:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=read_input_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:19:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=write_result_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper.tcl:27:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=kernel_wrapper_XLX_SEP_ PragmaOptions=name=kernel_wrapper_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=kernel_wrapper
+        ^
+/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:33:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_wrapper_XLX_SEP_ PragmaOptions=variable=input depth=32 * 32 * 1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=input depth=32 * 32 * 1
+        ^
+/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:34:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_wrapper_XLX_SEP_ PragmaOptions=variable=output depth=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=output depth=1
+        ^
+/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:37:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dataflow_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_wrapper_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS DATAFLOW
+        ^
+11 warnings generated.

@@ -1,0 +1,324 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+	Reports: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/reports/link
+	Log files: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/kernel_wrapper.xclbin.link_summary, at Thu Jul  4 19:13:35 2024
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/reports/link/v++_link_kernel_wrapper_guidance.html', at Thu Jul  4 19:13:35 2024
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u55c_gen3x16_xdma_3_202210_1/xilinx_u55c_gen3x16_xdma_3_202210_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u55c_gen3x16_xdma_3_202210_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2022.2
+INFO: [v++ 60-629] Linking for hardware target
+INFO: [v++ 60-423]   Target device: xilinx_u55c_gen3x16_xdma_3_202210_1
+INFO: [v++ 60-1332] Run 'run_link' status: Not started
+INFO: [v++ 60-1443] [19:13:40] Run run_link: Step system_link: Started
+INFO: [v++ 60-1453] Command Line: system_link --xo /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/myproject_kernel.xo -keep --config /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/syslinkConfig.ini --xpfm /opt/xilinx/platforms/xilinx_u55c_gen3x16_xdma_3_202210_1/xilinx_u55c_gen3x16_xdma_3_202210_1.xpfm --target hw --output_dir /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int --temp_dir /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/sys_link
+INFO: [v++ 60-1454] Run Directory: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/run_link
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/myproject_kernel.xo
+INFO: [SYSTEM_LINK 82-53] Creating IP database /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-38] [19:13:50] build_xd_ip_db started: /tools/Xilinx/Vitis/2022.2/bin/build_xd_ip_db -ip_search 0  -sds-pf /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/sys_link/hw.hpfm -clkid 0 -ip /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/sys_link/iprepo/xilinx_com_hls_kernel_wrapper_1_0,kernel_wrapper -o /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-37] [19:14:08] build_xd_ip_db finished successfully
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 429.336 ; gain = 0.000 ; free physical = 268455 ; free virtual = 484353
+INFO: [SYSTEM_LINK 82-51] Create system connectivity graph
+INFO: [SYSTEM_LINK 82-102] Applying explicit connections to the system connectivity graph: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [SYSTEM_LINK 82-38] [19:14:09] cfgen started: /tools/Xilinx/Vitis/2022.2/bin/cfgen  -nk kernel_wrapper:4 -sp kernel_wrapper_1.in:HBM[0:3] -sp kernel_wrapper_1.out:HBM[4:7] -sp kernel_wrapper_2.in:HBM[8:11] -sp kernel_wrapper_2.out:HBM[12:15] -sp kernel_wrapper_3.in:HBM[16:19] -sp kernel_wrapper_3.out:HBM[20:23] -sp kernel_wrapper_4.in:HBM[24:27] -sp kernel_wrapper_4.out:HBM[28:31] -dpa_mem_offload false -dmclkid 0 -r /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [CFGEN 83-0] Kernel Specs: 
+INFO: [CFGEN 83-0]   kernel: kernel_wrapper, num: 4  {kernel_wrapper_1 kernel_wrapper_2 kernel_wrapper_3 kernel_wrapper_4}
+INFO: [CFGEN 83-0] Port Specs: 
+INFO: [CFGEN 83-0]   kernel: kernel_wrapper_1, k_port: in, sptag: HBM[0:3]
+INFO: [CFGEN 83-0]   kernel: kernel_wrapper_1, k_port: out, sptag: HBM[4:7]
+INFO: [CFGEN 83-0]   kernel: kernel_wrapper_2, k_port: in, sptag: HBM[8:11]
+INFO: [CFGEN 83-0]   kernel: kernel_wrapper_2, k_port: out, sptag: HBM[12:15]
+INFO: [CFGEN 83-0]   kernel: kernel_wrapper_3, k_port: in, sptag: HBM[16:19]
+INFO: [CFGEN 83-0]   kernel: kernel_wrapper_3, k_port: out, sptag: HBM[20:23]
+INFO: [CFGEN 83-0]   kernel: kernel_wrapper_4, k_port: in, sptag: HBM[24:27]
+INFO: [CFGEN 83-0]   kernel: kernel_wrapper_4, k_port: out, sptag: HBM[28:31]
+INFO: [SYSTEM_LINK 82-37] [19:14:19] cfgen finished successfully
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 429.336 ; gain = 0.000 ; free physical = 268446 ; free virtual = 484352
+INFO: [SYSTEM_LINK 82-52] Create top-level block diagram
+INFO: [SYSTEM_LINK 82-38] [19:14:19] cf2bd started: /tools/Xilinx/Vitis/2022.2/bin/cf2bd  --linux --trace_buffer 1024 --input_file /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/sys_link/cfgraph/cfgen_cfgraph.xml --ip_db /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/sys_link/_sysl/.cdb/xd_ip_db.xml --cf_name dr --working_dir /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/sys_link/_sysl/.xsd --temp_dir /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/sys_link --output_dir /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int --target_bd ulp.bd
+INFO: [CF2BD 82-31] Launching cf2xd: cf2xd -linux -trace-buffer 1024 -i /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/sys_link/cfgraph/cfgen_cfgraph.xml -r /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o dr.xml
+INFO: [CF2BD 82-28] cf2xd finished successfully
+INFO: [CF2BD 82-31] Launching cf_xsd: cf_xsd -disable-address-gen -bd ulp.bd -dn dr -dp /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/sys_link/_sysl/.xsd
+INFO: [CF2BD 82-28] cf_xsd finished successfully
+INFO: [SYSTEM_LINK 82-37] [19:14:28] cf2bd finished successfully
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 429.336 ; gain = 0.000 ; free physical = 271595 ; free virtual = 487530
+INFO: [v++ 60-1441] [19:14:28] Run run_link: Step system_link: Completed
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:48 . Memory (MB): peak = 456.688 ; gain = 0.000 ; free physical = 271662 ; free virtual = 487597
+INFO: [v++ 60-1443] [19:14:29] Run run_link: Step cf2sw: Started
+INFO: [v++ 60-1453] Command Line: cf2sw -sdsl /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/sdsl.dat -rtd /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/cf2sw.rtd -nofilter /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/cf2sw_full.rtd -xclbin /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/xclbin_orig.xml -o /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/xclbin_orig.1.xml
+INFO: [v++ 60-1454] Run Directory: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/run_link
+INFO: [v++ 60-1441] [19:14:37] Run run_link: Step cf2sw: Completed
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 456.688 ; gain = 0.000 ; free physical = 271619 ; free virtual = 487562
+INFO: [v++ 60-1443] [19:14:38] Run run_link: Step rtd2_system_diagram: Started
+INFO: [v++ 60-1453] Command Line: rtd2SystemDiagram
+INFO: [v++ 60-1454] Run Directory: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/run_link
+INFO: [v++ 60-1441] [19:14:38] Run run_link: Step rtd2_system_diagram: Completed
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.29 . Memory (MB): peak = 456.688 ; gain = 0.000 ; free physical = 271656 ; free virtual = 487599
+INFO: [v++ 60-1443] [19:14:39] Run run_link: Step vpl: Started
+INFO: [v++ 60-1453] Command Line: vpl -t hw -f xilinx_u55c_gen3x16_xdma_3_202210_1 -s --remote_ip_cache /home/ayvol/vitis-accel-CNN/vitis_accel_prj/.ipcache --output_dir /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int --log_dir /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link --report_dir /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/reports/link --config /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/vplConfig.ini -k /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link --no-info --iprepo /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/xo/ip_repo/xilinx_com_hls_kernel_wrapper_1_0 --messageDb /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/run_link/vpl.pb /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/dr.bd.tcl
+INFO: [v++ 60-1454] Run Directory: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/run_link
+
+****** vpl v2022.2 (64-bit)
+  **** SW Build 3671529 on 2022-10-13-17:52:11
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+INFO: [VPL 60-839] Read in kernel information from file '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/kernel_info.dat'.
+INFO: [VPL 74-78] Compiler Version string: 2022.2
+INFO: [VPL 60-423]   Target device: xilinx_u55c_gen3x16_xdma_3_202210_1
+INFO: [VPL 60-1032] Extracting hardware platform to /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/vivado/vpl/.local/hw_platform
+[19:15:04] Run vpl: Step create_project: Started
+Creating Vivado project.
+[19:15:14] Run vpl: Step create_project: Completed
+[19:15:14] Run vpl: Step create_bd: Started
+[19:16:30] Run vpl: Step create_bd: RUNNING...
+[19:17:46] Run vpl: Step create_bd: RUNNING...
+[19:18:01] Run vpl: Step create_bd: Completed
+[19:18:01] Run vpl: Step update_bd: Started
+[19:18:02] Run vpl: Step update_bd: Completed
+[19:18:02] Run vpl: Step generate_target: Started
+[19:19:18] Run vpl: Step generate_target: RUNNING...
+[19:20:33] Run vpl: Step generate_target: RUNNING...
+[19:21:48] Run vpl: Step generate_target: RUNNING...
+[19:23:03] Run vpl: Step generate_target: Completed
+[19:23:03] Run vpl: Step config_hw_runs: Started
+[19:23:25] Run vpl: Step config_hw_runs: Completed
+[19:23:25] Run vpl: Step synth: Started
+[19:23:56] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:24:26] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:24:57] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:25:27] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:25:57] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:26:27] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:26:57] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:27:27] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:27:57] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:28:27] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:28:57] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:29:27] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:29:57] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:30:28] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:30:58] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:31:28] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:31:58] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:32:28] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:32:58] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:33:28] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:33:58] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:34:28] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:34:58] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:35:29] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:35:59] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:36:29] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:36:59] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:37:29] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:37:59] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:38:29] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:38:59] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:39:30] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:40:00] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:40:30] Block-level synthesis in progress, 0 of 4 jobs complete, 1 job running.
+[19:41:00] Block-level synthesis in progress, 1 of 4 jobs complete, 0 jobs running.
+[19:41:30] Block-level synthesis in progress, 4 of 4 jobs complete, 0 jobs running.
+[19:42:00] Top-level synthesis in progress.
+[19:42:31] Top-level synthesis in progress.
+[19:43:08] Run vpl: Step synth: Completed
+[19:43:08] Run vpl: Step impl: Started
+[20:01:44] Finished 2nd of 6 tasks (FPGA linking synthesized kernels to platform). Elapsed time: 00h 47m 03s 
+
+[20:01:44] Starting logic optimization..
+[20:04:15] Phase 1 Retarget
+[20:04:45] Phase 2 Constant propagation
+[20:05:46] Phase 3 Sweep
+[20:06:46] Phase 4 BUFG optimization
+[20:07:16] Phase 5 Shift Register Optimization
+[20:07:16] Phase 6 Post Processing Netlist
+[20:09:47] Finished 3rd of 6 tasks (FPGA logic optimization). Elapsed time: 00h 08m 02s 
+
+[20:09:47] Starting logic placement..
+[20:10:17] Phase 1 Placer Initialization
+[20:10:17] Phase 1.1 Placer Initialization Netlist Sorting
+[20:13:48] Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+[20:15:49] Phase 1.3 Build Placer Netlist Model
+[20:20:20] Phase 1.4 Constrain Clocks/Macros
+[20:20:50] Phase 2 Global Placement
+[20:20:50] Phase 2.1 Floorplanning
+[20:22:51] Phase 2.1.1 Partition Driven Placement
+[20:22:51] Phase 2.1.1.1 PBP: Partition Driven Placement
+[20:24:22] Phase 2.1.1.2 PBP: Clock Region Placement
+[20:25:23] Phase 2.1.1.3 PBP: Compute Congestion
+[20:25:53] Phase 2.1.1.4 PBP: UpdateTiming
+[20:26:24] Phase 2.1.1.5 PBP: Add part constraints
+[20:26:24] Phase 2.2 Physical Synthesis After Floorplan
+[20:27:25] Phase 2.3 Update Timing before SLR Path Opt
+[20:27:25] Phase 2.4 Post-Processing in Floorplanning
+[20:27:56] Phase 2.5 Global Placement Core
+[20:39:38] Phase 2.5.1 UpdateTiming Before Physical Synthesis
+[20:40:08] Phase 2.5.2 Physical Synthesis In Placer
+[20:46:15] Phase 3 Detail Placement
+[20:46:46] Phase 3.1 Commit Multi Column Macros
+[20:46:46] Phase 3.2 Commit Most Macros & LUTRAMs
+[20:54:24] Phase 3.3 Small Shape DP
+[20:54:24] Phase 3.3.1 Small Shape Clustering
+[20:54:24] Phase 3.3.2 Flow Legalize Slice Clusters
+[20:54:54] Phase 3.3.3 Slice Area Swap
+[20:54:54] Phase 3.3.3.1 Slice Area Swap Initial
+[20:56:57] Phase 3.4 Place Remaining
+[20:56:57] Phase 3.5 Re-assign LUT pins
+[20:57:58] Phase 3.6 Pipeline Register Optimization
+[20:57:58] Phase 3.7 Fast Optimization
+[21:00:00] Phase 4 Post Placement Optimization and Clean-Up
+[21:00:00] Phase 4.1 Post Commit Optimization
+[21:03:34] Phase 4.1.1 Post Placement Optimization
+[21:03:34] Phase 4.1.1.1 BUFG Insertion
+[21:03:34] Phase 1 Physical Synthesis Initialization
+[21:04:35] Phase 4.1.1.2 BUFG Replication
+[21:04:35] Phase 4.1.1.3 Post Placement Timing Optimization
+[21:09:10] Phase 4.1.1.4 Replication
+[21:11:43] Phase 4.2 Post Placement Cleanup
+[21:12:13] Phase 4.3 Placer Reporting
+[21:12:13] Phase 4.3.1 Print Estimated Congestion
+[21:12:13] Phase 4.4 Final Placement Cleanup
+[21:36:09] Finished 4th of 6 tasks (FPGA logic placement). Elapsed time: 01h 26m 21s 
+
+[21:36:09] Starting logic routing..
+[21:37:40] Phase 1 Build RT Design
+[21:42:46] Phase 2 Router Initialization
+[21:42:46] Phase 2.1 Fix Topology Constraints
+[21:43:16] Phase 2.2 Pre Route Cleanup
+[21:44:17] Phase 2.3 Global Clock Net Routing
+[21:45:18] Phase 2.4 Update Timing
+[21:51:25] Phase 2.5 Update Timing for Bus Skew
+[21:51:25] Phase 2.5.1 Update Timing
+[21:54:28] Phase 3 Initial Routing
+[21:54:28] Phase 3.1 Global Routing
+[21:57:00] Phase 4 Rip-up And Reroute
+[21:57:00] Phase 4.1 Global Iteration 0
+[22:32:07] Phase 4.2 Global Iteration 1
+[22:48:24] Phase 4.3 Global Iteration 2
+[22:58:34] Phase 4.4 Global Iteration 3
+[23:05:42] Phase 4.5 Global Iteration 4
+[23:13:20] Phase 5 Delay and Skew Optimization
+[23:13:20] Phase 5.1 Delay CleanUp
+[23:13:20] Phase 5.1.1 Update Timing
+[23:15:22] Phase 5.1.2 Update Timing
+[23:17:24] Phase 5.1.3 Update Timing
+[23:19:57] Phase 5.2 Clock Skew Optimization
+[23:20:58] Phase 6 Post Hold Fix
+[23:20:58] Phase 6.1 Hold Fix Iter
+[23:20:58] Phase 6.1.1 Update Timing
+[23:24:01] Phase 7 Leaf Clock Prog Delay Opt
+[23:27:35] Phase 7.1 Delay CleanUp
+[23:27:35] Phase 7.1.1 Update Timing
+[23:29:37] Phase 7.1.2 Update Timing
+[23:31:39] Phase 7.1.3 Update Timing
+[23:33:41] Phase 7.2 Hold Fix Iter
+[23:33:41] Phase 7.2.1 Update Timing
+[23:39:17] Phase 8 Route finalize
+[23:40:18] Phase 9 Verifying routed nets
+[23:40:48] Phase 10 Depositing Routes
+[23:42:20] Phase 11 Resolve XTalk
+[23:43:21] Phase 12 Post Router Timing
+[23:47:25] Phase 13 Physical Synthesis in Router
+[23:47:25] Phase 13.1 Physical Synthesis Initialization
+[23:49:27] Phase 13.2 Critical Path Optimization
+[23:51:30] Finished 5th of 6 tasks (FPGA routing). Elapsed time: 02h 15m 21s 
+
+[23:51:30] Starting bitstream generation..
+[00:16:57] Creating bitmap...
+[00:31:43] Writing bitstream ./level0_i_ulp_my_rm_partial.bit...
+[00:31:43] Finished 6th of 6 tasks (FPGA bitstream generation). Elapsed time: 00h 40m 13s 
+Check VPL, containing 1 checks, has run: 0 errors
+[00:32:52] Run vpl: Step impl: Completed
+[00:32:52] Run vpl: FINISHED. Run Status: impl Complete!
+INFO: [v++ 60-1441] [00:32:53] Run run_link: Step vpl: Completed
+Time (s): cpu = 00:04:13 ; elapsed = 05:18:14 . Memory (MB): peak = 456.688 ; gain = 0.000 ; free physical = 259545 ; free virtual = 478977
+INFO: [v++ 60-1443] [00:32:54] Run run_link: Step rtdgen: Started
+INFO: [v++ 60-1453] Command Line: rtdgen
+INFO: [v++ 60-1454] Run Directory: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/run_link
+INFO: [v++ 60-991] clock name 'ulp_ucs/aclk_kernel_01' (clock ID '1') is being mapped to clock name 'KERNEL_CLK' in the xclbin
+INFO: [v++ 60-991] clock name 'ulp_ucs/aclk_kernel_00' (clock ID '0') is being mapped to clock name 'DATA_CLK' in the xclbin
+INFO: [v++ 60-991] clock name 'hbm_aclk' (clock ID '') is being mapped to clock name 'hbm_aclk' in the xclbin
+INFO: [v++ 60-1230] The compiler selected the following frequencies for the runtime controllable kernel clock(s) and scalable system clock(s): System (SYSTEM) clock: hbm_aclk = 450, Kernel (KERNEL) clock: ulp_ucs/aclk_kernel_01 = 500, Kernel (DATA) clock: ulp_ucs/aclk_kernel_00 = 191
+INFO: [v++ 60-1453] Command Line: cf2sw -a /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/address_map.xml -sdsl /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/sdsl.dat -xclbin /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/xclbin_orig.xml -rtd /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/kernel_wrapper.rtd -o /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/kernel_wrapper.xml
+INFO: [v++ 60-1652] Cf2sw returned exit code: 0
+INFO: [v++ 60-1441] [00:33:11] Run run_link: Step rtdgen: Completed
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 456.688 ; gain = 0.000 ; free physical = 262533 ; free virtual = 481993
+INFO: [v++ 60-1443] [00:33:11] Run run_link: Step xclbinutil: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --add-section BITSTREAM:RAW:/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/partial.bit --force --target hw --key-value SYS:dfx_enable:true --add-section :JSON:/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/kernel_wrapper.rtd --append-section :JSON:/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/appendSection.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/kernel_wrapper_xml.rtd --add-section BUILD_METADATA:JSON:/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/kernel_wrapper_build.rtd --add-section EMBEDDED_METADATA:RAW:/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/kernel_wrapper.xml --add-section SYSTEM_METADATA:RAW:/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/systemDiagramModelSlrBaseAddress.json --key-value SYS:PlatformVBNV:xilinx_u55c_gen3x16_xdma_3_202210_1 --output /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/kernel_wrapper.xclbin
+INFO: [v++ 60-1454] Run Directory: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/run_link
+XRT Build Version: 2.15.225 (2023.1)
+       Build Date: 2023-05-03 10:13:38
+          Hash ID: adf27adb3cfadc6e4c41d6db814159f1329b24f3
+Creating a default 'in-memory' xclbin image.
+
+Section: 'BITSTREAM'(0) was successfully added.
+Size   : 75036810 bytes
+Format : RAW
+File   : '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/partial.bit'
+
+Section: 'MEM_TOPOLOGY'(6) was successfully added.
+Format : JSON
+File   : 'mem_topology'
+
+Section: 'IP_LAYOUT'(8) was successfully added.
+Format : JSON
+File   : 'ip_layout'
+
+Section: 'CONNECTIVITY'(7) was successfully added.
+Format : JSON
+File   : 'connectivity'
+
+Section: 'CLOCK_FREQ_TOPOLOGY'(11) was successfully added.
+Size   : 410 bytes
+Format : JSON
+File   : '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/kernel_wrapper_xml.rtd'
+
+Section: 'BUILD_METADATA'(14) was successfully added.
+Size   : 2697 bytes
+Format : JSON
+File   : '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/kernel_wrapper_build.rtd'
+
+Section: 'EMBEDDED_METADATA'(2) was successfully added.
+Size   : 122083 bytes
+Format : RAW
+File   : '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/kernel_wrapper.xml'
+
+Section: 'SYSTEM_METADATA'(22) was successfully added.
+Size   : 59831 bytes
+Format : RAW
+File   : '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/int/systemDiagramModelSlrBaseAddress.json'
+
+Section: 'PARTITION_METADATA'(20) was successfully appended to.
+Format : JSON
+File   : 'partition_metadata'
+
+Section: 'IP_LAYOUT'(8) was successfully appended to.
+Format : JSON
+File   : 'ip_layout'
+Successfully wrote (75255973 bytes) to the output file: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/kernel_wrapper.xclbin
+Leaving xclbinutil.
+INFO: [v++ 60-1441] [00:33:14] Run run_link: Step xclbinutil: Completed
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:02 . Memory (MB): peak = 456.688 ; gain = 0.000 ; free physical = 262461 ; free virtual = 482000
+INFO: [v++ 60-1443] [00:33:14] Run run_link: Step xclbinutilinfo: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --quiet --force --info /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/kernel_wrapper.xclbin.info --input /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/kernel_wrapper.xclbin
+INFO: [v++ 60-1454] Run Directory: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/run_link
+INFO: [v++ 60-1441] [00:33:14] Run run_link: Step xclbinutilinfo: Completed
+Time (s): cpu = 00:00:00.6 ; elapsed = 00:00:00.67 . Memory (MB): peak = 456.688 ; gain = 0.000 ; free physical = 262457 ; free virtual = 481996
+INFO: [v++ 60-1443] [00:33:14] Run run_link: Step generate_sc_driver: Started
+INFO: [v++ 60-1453] Command Line: 
+INFO: [v++ 60-1454] Run Directory: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/run_link
+INFO: [v++ 60-1441] [00:33:14] Run run_link: Step generate_sc_driver: Completed
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 456.688 ; gain = 0.000 ; free physical = 262457 ; free virtual = 481996
+INFO: [v++ 60-244] Generating system estimate report...
+INFO: [v++ 60-1092] Generated system estimate report: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/reports/link/system_estimate_kernel_wrapper.xtxt
+INFO: [v++ 60-586] Created /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/kernel_wrapper.ltx
+INFO: [v++ 60-586] Created build_hw_rel/kernel_wrapper.xclbin
+INFO: [v++ 60-1307] Run completed. Additional information can be found in:
+	Guidance: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/reports/link/v++_link_kernel_wrapper_guidance.html
+	Timing Report: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpt
+	Vivado Log: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/vivado.log
+	Steps Log File: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/link.steps.log
+
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/kernel_wrapper.xclbin.link_summary 
+INFO: [v++ 60-791] Total elapsed time: 5h 19m 50s
+INFO: [v++ 60-1653] Closing dispatch client.

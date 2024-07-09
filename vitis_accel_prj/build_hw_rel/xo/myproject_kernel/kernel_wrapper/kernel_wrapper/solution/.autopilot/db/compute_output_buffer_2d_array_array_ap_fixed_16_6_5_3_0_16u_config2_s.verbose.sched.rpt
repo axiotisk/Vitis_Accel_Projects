@@ -1,0 +1,193 @@
+
+
+================================================================
+== Vitis HLS Report for 'compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s'
+================================================================
+* Date:           Thu Jul  4 18:52:32 2024
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        kernel_wrapper
+* Solution:       solution (Vitis Kernel Flow Target)
+* Product family: virtexuplus
+* Target device:  xcu55c-fsvh2892-2L-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.625 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |        2|        2|  10.000 ns|  10.000 ns|    3|    3|      yes|
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 3, depth = 3
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 3
+* Pipeline : 1
+  Pipeline-0 : II = 3, D = 3, States = { 1 2 3 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.22>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%p_read25 = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %p_read2"   --->   Operation 4 'read' 'p_read25' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%p_read14 = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %p_read1"   --->   Operation 5 'read' 'p_read14' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%p_read_205 = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %p_read"   --->   Operation 6 'read' 'p_read_205' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (1.22ns)   --->   "%call_ln286 = call void @shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 3u>, config2>, i16 %p_read_205, i16 %p_read14, i16 %p_read25, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_6, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_9, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_5, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_8, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_4, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_7, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_14, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_13, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_16, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_12, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_15, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_8, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_3, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_2, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_1, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_11, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_10, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_9, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9, i16 %p_ZZN4nnet17conv_2d_buffer_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mo_5, i16 %p_ZZN4nnet17conv_2d_buffer_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mo_2, i16 %p_ZZN4nnet17conv_2d_buffer_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mo_4, i16 %p_ZZN4nnet17conv_2d_buffer_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mo_1, i16 %p_ZZN4nnet17conv_2d_buffer_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mo_3, i16 %p_ZZN4nnet17conv_2d_buffer_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mo" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:286]   --->   Operation 7 'call' 'call_ln286' <Predicate = true> <Delay = 1.22> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 2 <SV = 1> <Delay = 1.10>
+ST_2 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i256 %layer2_out, void @empty_0, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_7, i32 4294967295, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 9 [1/1] (0.00ns)   --->   "%sX_3_load = load i32 %sX_3" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 9 'load' 'sX_3_load' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 10 [1/1] (0.85ns)   --->   "%icmp_ln289 = icmp_eq  i32 %sX_3_load, i32 2" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 10 'icmp' 'icmp_ln289' <Predicate = true> <Delay = 0.85> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.85> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 11 [1/1] (0.00ns)   --->   "%sY_3_load = load i32 %sY_3" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 11 'load' 'sY_3_load' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 12 [1/1] (0.00ns)   --->   "%pY_3_load = load i32 %pY_3" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 12 'load' 'pY_3_load' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 13 [1/1] (0.00ns)   --->   "%pX_3_load = load i32 %pX_3" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 13 'load' 'pX_3_load' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%br_ln289 = br i1 %icmp_ln289, void %if.end, void %land.lhs.true" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 14 'br' 'br_ln289' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 15 [1/1] (0.85ns)   --->   "%icmp_ln289_1 = icmp_eq  i32 %sY_3_load, i32 2" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 15 'icmp' 'icmp_ln289_1' <Predicate = (icmp_ln289)> <Delay = 0.85> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.85> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%tmp_780 = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, i32 %pY_3_load, i32 1, i32 31" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 16 'partselect' 'tmp_780' <Predicate = (icmp_ln289)> <Delay = 0.00>
+ST_2 : Operation 17 [1/1] (0.84ns)   --->   "%icmp_ln289_7 = icmp_sgt  i31 %tmp_780, i31 0" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 17 'icmp' 'icmp_ln289_7' <Predicate = (icmp_ln289)> <Delay = 0.84> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.84> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 18 [1/1] (0.00ns)   --->   "%tmp_781 = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, i32 %pX_3_load, i32 1, i32 31" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 18 'partselect' 'tmp_781' <Predicate = (icmp_ln289)> <Delay = 0.00>
+ST_2 : Operation 19 [1/1] (0.84ns)   --->   "%icmp_ln289_8 = icmp_sgt  i31 %tmp_781, i31 0" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 19 'icmp' 'icmp_ln289_8' <Predicate = (icmp_ln289)> <Delay = 0.84> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.84> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 20 [1/1] (0.00ns) (grouped into LUT with out node and_ln289_1)   --->   "%and_ln289 = and i1 %icmp_ln289_7, i1 %icmp_ln289_8" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 20 'and' 'and_ln289' <Predicate = (icmp_ln289)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.12> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 21 [1/1] (0.12ns) (out node of the LUT)   --->   "%and_ln289_1 = and i1 %and_ln289, i1 %icmp_ln289_1" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 21 'and' 'and_ln289_1' <Predicate = (icmp_ln289)> <Delay = 0.12> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.12> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%br_ln289 = br i1 %and_ln289_1, void %if.end, void %if.then" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 22 'br' 'br_ln289' <Predicate = (icmp_ln289)> <Delay = 0.00>
+ST_2 : Operation 23 [2/2] (0.00ns)   --->   "%tmp = call i256 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2_mult>, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_9, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_8, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_7, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_6, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_5, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_4, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_3, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_2, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_1, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_16, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_15, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_14, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_13, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_12, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_11, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_10, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_9, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_8, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 23 'call' 'tmp' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 3 <SV = 2> <Delay = 2.33>
+ST_3 : Operation 24 [1/2] (1.35ns)   --->   "%tmp = call i256 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2_mult>, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_9, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_8, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_7, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_6, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_5, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_4, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_3, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_2, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_1, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_16, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_15, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_14, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_13, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_12, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_11, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_10, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_9, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_8, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 24 'call' 'tmp' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 1.35> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_3 : Operation 25 [1/1] (0.00ns)   --->   "%res_out_V = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 25 'extractvalue' 'res_out_V' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 26 [1/1] (0.00ns)   --->   "%res_out_V_54 = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 26 'extractvalue' 'res_out_V_54' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 27 [1/1] (0.00ns)   --->   "%res_out_V_55 = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 27 'extractvalue' 'res_out_V_55' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 28 [1/1] (0.00ns)   --->   "%res_out_V_56 = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 28 'extractvalue' 'res_out_V_56' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 29 [1/1] (0.00ns)   --->   "%res_out_V_4 = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 29 'extractvalue' 'res_out_V_4' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 30 [1/1] (0.00ns)   --->   "%res_out_V_5 = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 30 'extractvalue' 'res_out_V_5' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 31 [1/1] (0.00ns)   --->   "%res_out_V_6 = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 31 'extractvalue' 'res_out_V_6' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 32 [1/1] (0.00ns)   --->   "%res_out_V_7 = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 32 'extractvalue' 'res_out_V_7' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 33 [1/1] (0.00ns)   --->   "%res_out_V_8 = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 33 'extractvalue' 'res_out_V_8' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 34 [1/1] (0.00ns)   --->   "%res_out_V_9 = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 34 'extractvalue' 'res_out_V_9' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 35 [1/1] (0.00ns)   --->   "%res_out_V_48 = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 35 'extractvalue' 'res_out_V_48' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 36 [1/1] (0.00ns)   --->   "%res_out_V_49 = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 36 'extractvalue' 'res_out_V_49' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 37 [1/1] (0.00ns)   --->   "%res_out_V_50 = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 37 'extractvalue' 'res_out_V_50' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 38 [1/1] (0.00ns)   --->   "%res_out_V_51 = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 38 'extractvalue' 'res_out_V_51' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 39 [1/1] (0.00ns)   --->   "%res_out_V_52 = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 39 'extractvalue' 'res_out_V_52' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 40 [1/1] (0.00ns)   --->   "%res_out_V_53 = extractvalue i256 %tmp" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294]   --->   Operation 40 'extractvalue' 'res_out_V_53' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 41 [1/1] (0.00ns)   --->   "%p_0 = bitconcatenate i256 @_ssdm_op_BitConcatenate.i256.i16.i16.i16.i16.i16.i16.i16.i16.i16.i16.i16.i16.i16.i16.i16.i16, i16 %res_out_V_53, i16 %res_out_V_52, i16 %res_out_V_51, i16 %res_out_V_50, i16 %res_out_V_49, i16 %res_out_V_48, i16 %res_out_V_9, i16 %res_out_V_8, i16 %res_out_V_7, i16 %res_out_V_6, i16 %res_out_V_5, i16 %res_out_V_4, i16 %res_out_V_56, i16 %res_out_V_55, i16 %res_out_V_54, i16 %res_out_V" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:309]   --->   Operation 41 'bitconcatenate' 'p_0' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 42 [1/1] (0.98ns)   --->   "%write_ln309 = write void @_ssdm_op_Write.ap_fifo.volatile.i256P0A, i256 %layer2_out, i256 %p_0" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:309]   --->   Operation 42 'write' 'write_ln309' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.98> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 0.98> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 256> <Depth = 900> <FIFO>
+ST_3 : Operation 43 [1/1] (0.00ns)   --->   "%br_ln310 = br void %if.end" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:310]   --->   Operation 43 'br' 'br_ln310' <Predicate = (icmp_ln289 & and_ln289_1)> <Delay = 0.00>
+ST_3 : Operation 44 [1/1] (0.88ns)   --->   "%add_ln313 = add i32 %pX_3_load, i32 1" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:313]   --->   Operation 44 'add' 'add_ln313' <Predicate = true> <Delay = 0.88> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.88> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 45 [1/1] (0.85ns)   --->   "%icmp_ln313 = icmp_eq  i32 %add_ln313, i32 32" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:313]   --->   Operation 45 'icmp' 'icmp_ln313' <Predicate = true> <Delay = 0.85> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.85> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 46 [1/1] (0.00ns)   --->   "%br_ln313 = br i1 %icmp_ln313, void %if.else28, void %if.then17" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:313]   --->   Operation 46 'br' 'br_ln313' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 47 [1/1] (0.38ns)   --->   "%store_ln326 = store i32 %add_ln313, i32 %pX_3" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:326]   --->   Operation 47 'store' 'store_ln326' <Predicate = (!icmp_ln313)> <Delay = 0.38>
+ST_3 : Operation 48 [1/1] (0.88ns)   --->   "%add_ln328 = add i32 %sX_3_load, i32 1" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:328]   --->   Operation 48 'add' 'add_ln328' <Predicate = (!icmp_ln289 & !icmp_ln313)> <Delay = 0.88> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.88> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 49 [1/1] (0.22ns)   --->   "%select_ln328 = select i1 %icmp_ln289, i32 2, i32 %add_ln328" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:328]   --->   Operation 49 'select' 'select_ln328' <Predicate = (!icmp_ln313)> <Delay = 0.22> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.22> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 50 [1/1] (0.38ns)   --->   "%store_ln328 = store i32 %select_ln328, i32 %sX_3" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:328]   --->   Operation 50 'store' 'store_ln328' <Predicate = (!icmp_ln313)> <Delay = 0.38>
+ST_3 : Operation 51 [1/1] (0.00ns)   --->   "%br_ln0 = br void %if.end39"   --->   Operation 51 'br' 'br_ln0' <Predicate = (!icmp_ln313)> <Delay = 0.00>
+ST_3 : Operation 52 [1/1] (0.38ns)   --->   "%store_ln315 = store i32 0, i32 %pX_3" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:315]   --->   Operation 52 'store' 'store_ln315' <Predicate = (icmp_ln313)> <Delay = 0.38>
+ST_3 : Operation 53 [1/1] (0.38ns)   --->   "%store_ln316 = store i32 0, i32 %sX_3" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:316]   --->   Operation 53 'store' 'store_ln316' <Predicate = (icmp_ln313)> <Delay = 0.38>
+ST_3 : Operation 54 [1/1] (0.88ns)   --->   "%add_ln317 = add i32 %pY_3_load, i32 1" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:317]   --->   Operation 54 'add' 'add_ln317' <Predicate = (icmp_ln313)> <Delay = 0.88> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.88> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 55 [1/1] (0.85ns)   --->   "%icmp_ln317 = icmp_eq  i32 %add_ln317, i32 32" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:317]   --->   Operation 55 'icmp' 'icmp_ln317' <Predicate = (icmp_ln313)> <Delay = 0.85> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.85> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 56 [1/1] (0.00ns)   --->   "%br_ln317 = br i1 %icmp_ln317, void %if.else, void %if.then20" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:317]   --->   Operation 56 'br' 'br_ln317' <Predicate = (icmp_ln313)> <Delay = 0.00>
+ST_3 : Operation 57 [1/1] (0.38ns)   --->   "%store_ln321 = store i32 %add_ln317, i32 %pY_3" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:321]   --->   Operation 57 'store' 'store_ln321' <Predicate = (icmp_ln313 & !icmp_ln317)> <Delay = 0.38>
+ST_3 : Operation 58 [1/1] (0.85ns)   --->   "%icmp_ln323 = icmp_eq  i32 %sY_3_load, i32 2" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:323]   --->   Operation 58 'icmp' 'icmp_ln323' <Predicate = (icmp_ln313 & !icmp_ln317)> <Delay = 0.85> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.85> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 59 [1/1] (0.88ns)   --->   "%add_ln323 = add i32 %sY_3_load, i32 1" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:323]   --->   Operation 59 'add' 'add_ln323' <Predicate = (icmp_ln313 & !icmp_ln317)> <Delay = 0.88> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.88> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 60 [1/1] (0.22ns)   --->   "%select_ln323 = select i1 %icmp_ln323, i32 2, i32 %add_ln323" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:323]   --->   Operation 60 'select' 'select_ln323' <Predicate = (icmp_ln313 & !icmp_ln317)> <Delay = 0.22> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.22> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 61 [1/1] (0.38ns)   --->   "%br_ln0 = br void %if.end27"   --->   Operation 61 'br' 'br_ln0' <Predicate = (icmp_ln313 & !icmp_ln317)> <Delay = 0.38>
+ST_3 : Operation 62 [1/1] (0.38ns)   --->   "%store_ln318 = store i32 0, i32 %pY_3" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:318]   --->   Operation 62 'store' 'store_ln318' <Predicate = (icmp_ln313 & icmp_ln317)> <Delay = 0.38>
+ST_3 : Operation 63 [1/1] (0.38ns)   --->   "%br_ln320 = br void %if.end27" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:320]   --->   Operation 63 'br' 'br_ln320' <Predicate = (icmp_ln313 & icmp_ln317)> <Delay = 0.38>
+ST_3 : Operation 64 [1/1] (0.00ns)   --->   "%storemerge = phi i32 %select_ln323, void %if.else, i32 0, void %if.then20" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:323]   --->   Operation 64 'phi' 'storemerge' <Predicate = (icmp_ln313)> <Delay = 0.00>
+ST_3 : Operation 65 [1/1] (0.00ns)   --->   "%store_ln319 = store i32 %storemerge, i32 %sY_3" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:319]   --->   Operation 65 'store' 'store_ln319' <Predicate = (icmp_ln313)> <Delay = 0.00>
+ST_3 : Operation 66 [1/1] (0.00ns)   --->   "%br_ln325 = br void %if.end39" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:325]   --->   Operation 66 'br' 'br_ln325' <Predicate = (icmp_ln313)> <Delay = 0.00>
+ST_3 : Operation 67 [1/1] (0.00ns)   --->   "%ret_ln330 = ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:330]   --->   Operation 67 'ret' 'ret_ln330' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 5ns, clock uncertainty: 1.35ns.
+
+ <State 1>: 1.22ns
+The critical path consists of the following:
+	wire read operation ('p_read25') on port 'p_read2' [43]  (0 ns)
+	'call' operation ('call_ln286', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:286) to 'shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 3u>, config2>' [46]  (1.22 ns)
+
+ <State 2>: 1.1ns
+The critical path consists of the following:
+	'load' operation ('sY_3_load', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289) on static variable 'sY_3' [49]  (0 ns)
+	'icmp' operation ('icmp_ln289_1', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289) [54]  (0.859 ns)
+	'and' operation ('and_ln289_1', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289) [60]  (0.122 ns)
+	blocking operation 0.122 ns on control path)
+
+ <State 3>: 2.34ns
+The critical path consists of the following:
+	'call' operation ('tmp', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:294) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2_mult>' [63]  (1.35 ns)
+	fifo write operation ('write_ln309', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:309) on port 'layer2_out' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:309) [81]  (0.989 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

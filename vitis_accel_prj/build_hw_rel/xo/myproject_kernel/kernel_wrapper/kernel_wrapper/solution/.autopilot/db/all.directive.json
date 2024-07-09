@@ -1,0 +1,35 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "kernel_wrapper",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/home\/ayvol\/vitis-accel-CNN\/vitis_accel_prj\/build_hw_rel\/xo\/myproject_kernel\/kernel_wrapper\/kernel_wrapper.tcl",
+          "sourceLine": "27",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "kernel_wrapper"
+              }]
+          }
+        },
+        {
+          "functionName": "kernel_wrapper",
+          "label": "",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "\/home\/ayvol\/vitis-accel-CNN\/vitis_accel_prj\/build_hw_rel\/xo\/myproject_kernel\/kernel_wrapper\/kernel_wrapper.tcl",
+          "sourceLine": "27",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "kernel_wrapper"
+              }]
+          }
+        }
+      ]
+    }]}
