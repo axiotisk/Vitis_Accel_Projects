@@ -1,0 +1,24 @@
+# Ignore Visual Studio Code configurations
+.vscode/
+
+# Ignore Checkpoints
+__pycache__/
+.ipynb_checkpoints/
+quant_prune_model/*
+!quant_prune_model/KERAS_check_best_model.h5
+baseline_model/*
+!baseline_model/KERAS_check_best_model.h5
+
+# Ignore .tar package
+*.tar*
+
+# Ignore training data
+X_train_val.npy
+y_train_val.npy
+
+# Ignore intermediate files produced during Vivado bitstream generation
+vitis_accel_prj/build_*/xclbin/link
+
+# Ignore server files
+*.ipcache/
+*.run/

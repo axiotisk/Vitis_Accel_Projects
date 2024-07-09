@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Jul  5 08:01:28 2024
+# Process ID: 341160
+# Current directory: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/impl/ip
+# Command line: vivado -notrace -mode batch -source run_ippack.tcl
+# Log file: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/impl/ip/vivado.log
+# Journal file: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/impl/ip/vivado.jou
+# Running On: egl, OS: Linux, CPU Frequency: 3228.269 MHz, CPU Physical cores: 24, Host memory: 540863 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:55 . Memory (MB): peak = 1756.332 ; gain = 88.992 ; free physical = 219196 ; free virtual = 475180
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'kernel_wrapper_fpext_32ns_64_2_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+create_ip: Time (s): cpu = 00:00:01 ; elapsed = 00:02:08 . Memory (MB): peak = 1861.043 ; gain = 104.711 ; free physical = 218730 ; free virtual = 475170
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'kernel_wrapper_fpext_32ns_64_2_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'kernel_wrapper_fpext_32ns_64_2_no_dsp_1_ip'...
+generate_target: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:06 . Memory (MB): peak = 1861.043 ; gain = 0.000 ; free physical = 218641 ; free virtual = 475166
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+Running package_xo -xo_path /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/impl/export.xo -kernel_name kernel_wrapper -kernel_xml /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/impl/ip/../kernel/kernel.xml -kernel_files {/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp} -ip_directory /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/impl/ip/ip_unzip_dir -design_xml /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.design.xml -debug_directory /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.debug -hls_directory /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/impl/ip/hls_files
+INFO: [Common 17-206] Exiting Vivado at Fri Jul  5 08:07:58 2024...
