@@ -30,7 +30,7 @@ template <class T, class U> class Worker {
      * \param queueMutex Mutex protecting the CommandQueue (potentially shared with other workers)
      */
     Worker(int batchsize, int sampleInputSize, int sampleOutputSize, cl::CommandQueue& queue,
-            std::mutex& queueMutex) : 
+            std::mutex& queueMutex) :
         _batchsize(batchsize),
         _sampleInputSize(sampleInputSize),
         _sampleOutputSize(sampleOutputSize),
@@ -84,7 +84,7 @@ template <class T, class U> class Worker {
     void evaluate() {
         std::lock_guard<std::mutex> lock(_queueMutex);
         // Transfer inputs
-        OCL_CHECK(err, err = _queue.enqueueMigrateMemObjects({input_buffer}, 
+        OCL_CHECK(err, err = _queue.enqueueMigrateMemObjects({input_buffer},
                                                              0, // 0 means from host
                                                              NULL, // No dependencies
                                                              &write_event));
@@ -106,7 +106,7 @@ template <class T, class U> class Worker {
         kernExeCompleteEvents.pop_back();
         OCL_CHECK(err, err = read_event.wait());
     }
-    
+
     /**
      * \brief Evaluates each batch of data provided via dataTracker. Uses float datatype
      * \param dataTracker Vector of input locations to read from and output locations to write to
@@ -116,7 +116,7 @@ template <class T, class U> class Worker {
             // Copy inputs into memory-mapped buffer
             const T* dataLoc = dataTracker.front().dataIn;
             memcpy(&memmap_in[0], dataLoc, _batchsize * _sampleInputSize * sizeof(T));
-            
+
             // Evaluate
             evaluate();
 

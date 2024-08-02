@@ -116,7 +116,7 @@ INCLUDES := -I$(XILINX_XRT)/include/ -I$(XILINX_VIVADO)/include/ -I$(XILINX_HLS)
 INCLUDES += -I$(PWD)/libs/ -I$(PWD)/firmware/ -I$(PWD)/firmware/nnet_utils/
 
 host: $(KERNEL_NAME)_host_cl.cpp libs/xcl2.cpp $(wildcard libs/*.hpp)
-	$(CXX) $(CXXFLAGS) $^ -o $@ $(INCLUDES) $(LDFLAGS)
+	$(CXX) $(CXXFLAGS) $(KERNEL_NAME)_host_cl.cpp libs/xcl2.cpp -o $@ $(INCLUDES) $(LDFLAGS)
 
 # Execute program #############################################################
 

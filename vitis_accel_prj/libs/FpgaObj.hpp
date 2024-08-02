@@ -26,9 +26,9 @@ template <class T, class U> class FpgaObj {
      */
     FpgaObj(int batchsize, int sampleInputSize, int sampleOutputSize, int numCU,
             std::string xclbinFilename)
-        : _batchsize(batchsize), _sampleInputSize(sampleInputSize), _sampleOutputSize(sampleOutputSize), 
+        : _batchsize(batchsize), _sampleInputSize(sampleInputSize), _sampleOutputSize(sampleOutputSize),
           _numCU(numCU), _xclbinFilename(xclbinFilename) {
-        
+
         // Finds Xilinx device
         devices = xcl::get_xil_devices();
         device = devices[0];
@@ -66,7 +66,7 @@ template <class T, class U> class FpgaObj {
      */
     void createWorkers(int workersPerCU, FPGAType fpga, int numHBMChannels = 0) {
         _workersPerCU = workersPerCU;
-        
+
         // Construct workers
         workers.reserve(_numCU * _workersPerCU);
         for (int i = 0; i < _numCU; i++) {
@@ -90,7 +90,7 @@ template <class T, class U> class FpgaObj {
                                                           fpga,
                                                           currHBMChannel,
                                                           numHBMChannels);
-                
+
             }
             currHBMChannel += 2 * numHBMChannels;
         }
@@ -126,14 +126,14 @@ template <class T, class U> class FpgaObj {
     }
 
     /**
-     * \brief Workers evaluate all loaded data. Each worker uses a separate thread. 
+     * \brief Workers evaluate all loaded data. Each worker uses a separate thread.
      */
     void evaluateAll() {
         // Check that data has been loaded and batched
         if (batchedData.size() == 0 || db == nullptr) {
             throw std::runtime_error("No data loaded");
         }
-        
+
         std::cout << "\nStarting FPGA run" << std::endl;
 
         auto ts_start = std::chrono::system_clock::now();
@@ -151,7 +151,7 @@ template <class T, class U> class FpgaObj {
             OCL_CHECK(err, err = comQueues[i].finish());
         }
         auto ts_end = std::chrono::system_clock::now();
-        
+
         uint64_t ns_elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(ts_end - ts_start).count();
         if (db->isProfilingMode()) {
             double profilingThroughput = 1.0e9 * static_cast<double>(db->getProfilingSampleCount()) / ns_elapsed;
@@ -168,7 +168,7 @@ template <class T, class U> class FpgaObj {
      * \brief Writes results, in text format, to provided file. Releases resources
      * \param fout Filename. If file already exists, it will be overwritten with current results.
      */
-    void saveResults(const std::string& fout) {      
+    void saveResults(const std::string& fout) {
         if (db == nullptr) {
             throw std::runtime_error("No data loaded");
         }
