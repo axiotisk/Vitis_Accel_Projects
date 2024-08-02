@@ -5,7 +5,7 @@
 __pycache__/
 .ipynb_checkpoints/
 quant_prune_model/*
-!quant_prune_model/KERAS_check_best_model.h5
+!quant_prune_model/model.h5
 baseline_model/*
 !baseline_model/KERAS_check_best_model.h5
 

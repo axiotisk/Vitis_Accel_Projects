@@ -1,4 +1,4 @@
-# Vitis Accel DNN
+# Vitis Accel CNN
 
 An example project using AMD's Alveo U55C FPGA to accelerate a Convolutional Neural Network. This project was created using hls4ml's new Vitis Accelerator workflow and AMD's Vitis/Vivado Software Platform
 

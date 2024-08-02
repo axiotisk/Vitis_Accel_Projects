@@ -4,9 +4,9 @@
 #include "firmware/defines.h"
 
 #define NUM_CU 4
-#define NUM_THREAD 8
+#define NUM_WORKER 2
 #define NUM_CHANNEL 4
-#define BATCHSIZE 8192
+#define BATCHSIZE 16384
 
 #define DATA_SIZE_IN N_INPUT_1_1 * N_INPUT_2_1 * 1
 #define NNET_ARRAY_DEPTH N_INPUT_3_1

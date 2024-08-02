@@ -1,8 +1,8 @@
 AcceleratorConfig:
-  Batchsize: 8192
+  Batchsize: 16384
   Board: alveo-u55c
   Num_Kernel: 4
-  Num_Thread: 8
+  Num_Worker: 2
 Backend: VitisAccelerator
 ClockPeriod: 5
 ClockUncertainty: 27%
@@ -136,5 +136,5 @@ KerasModel: !keras_model 'vitis_accel_prj/keras_model.keras'
 OutputDir: vitis_accel_prj
 Part: xcvu13p-flga2577-2-e
 ProjectName: myproject
-Stamp: 1c38D41D
+Stamp: E51bf6bd
 Version: 1.0.0
