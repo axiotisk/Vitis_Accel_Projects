@@ -1,9 +1,9 @@
 AcceleratorConfig:
-  Batchsize: 8192
+  Batchsize: 16384
   Board: alveo-u55c
   HW_Quant: true
   Num_Kernel: 4
-  Num_Thread: 8
+  Num_Worker: 2
   Vivado_Directives: null
 Backend: VitisAccelerator
 ClockPeriod: 5
@@ -85,5 +85,5 @@ OutputDir: vitis_accel_prj
 OutputPredictions: null
 Part: xcvu13p-flga2577-2-e
 ProjectName: myproject
-Stamp: 7DeFcd24
+Stamp: 2a63d2Bf
 Version: 1.0.0
