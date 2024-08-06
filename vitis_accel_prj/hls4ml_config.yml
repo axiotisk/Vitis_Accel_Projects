@@ -136,5 +136,5 @@ KerasModel: !keras_model 'vitis_accel_prj/keras_model.keras'
 OutputDir: vitis_accel_prj
 Part: xcvu13p-flga2577-2-e
 ProjectName: myproject
-Stamp: E51bf6bd
+Stamp: dffE3BC1
 Version: 1.0.0

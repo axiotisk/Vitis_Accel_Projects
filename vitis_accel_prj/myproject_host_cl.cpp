@@ -7,8 +7,8 @@
 
 int main(int argc, char **argv) {
     if (argc < 2) {
-        std::cout << "Usage: " << argv[0] 
-                               << " <XCLBIN filename>" 
+        std::cout << "Usage: " << argv[0]
+                               << " <XCLBIN filename>"
                                << " [Profiling: Data repeat count]" << std::endl;
         return EXIT_FAILURE;
     }
@@ -33,7 +33,7 @@ int main(int argc, char **argv) {
     } else {
         fpga.loadData("../tb_data/tb_input_features.dat", true, dataRepeatCount);
     }
-    
+
     fpga.evaluateAll();
 
     fpga.saveResults("../tb_data/hw_results.dat");

@@ -25,7 +25,7 @@ template <class T, class U> class DataBatcher {
      * \param profilingDataRepeat Only used if profiling is set to True. Additional number of
      * times the given data is iterated over.
      */
-    DataBatcher(int batchsize, int sampleInputSize, int sampleOutputSize, int numWorkers, 
+    DataBatcher(int batchsize, int sampleInputSize, int sampleOutputSize, int numWorkers,
                 bool profiling, int profilingDataRepeat)
         : _batchsize(batchsize), _sampleInputSize(sampleInputSize), _sampleOutputSize(sampleOutputSize),
           _numWorkers(numWorkers), _profiling(profiling), _profilingDataRepeat(profilingDataRepeat) {}
@@ -59,12 +59,12 @@ template <class T, class U> class DataBatcher {
         }
         std::cout << "Read in " << originalSampleCount << " lines" << std::endl;
         fin.close();
-        
+
         // Zero-pad
         numBatches = std::ceil(static_cast<double>(originalSampleCount) / _batchsize);
         if (numBatches * _batchsize > originalSampleCount) {
             inputData.resize(numBatches * _batchsize * _sampleInputSize, (T)0);
-        }    
+        }
     }
 
     /**
@@ -81,7 +81,7 @@ template <class T, class U> class DataBatcher {
 
     /**
      * \brief Splits data into batches and distributes batches evenly amongst Workers.
-     * \param batchedData A vector of containers for each Worker's batches/workload. 
+     * \param batchedData A vector of containers for each Worker's batches/workload.
      * Size must be equal to _numWorkers.
      */
     void batch(std::vector<std::list<Batch<T, U>>>& batchedData) {
@@ -91,18 +91,18 @@ template <class T, class U> class DataBatcher {
         if (storedEvalResults.size() == 0) {
             throw std::runtime_error("Create result buffers first");
         }
-        
+
         batchedData.reserve(_numWorkers);
         for (int i = 0; i < _numWorkers; i++) {
             batchedData.emplace_back();
         }
 
         uint64_t batchIndex = 0;
-        while (batchIndex < numBatches) {          
+        while (batchIndex < numBatches) {
             int worker = batchIndex % _numWorkers;
             uint64_t inputLocation = batchIndex * _batchsize * _sampleInputSize;
             uint64_t outputLocation = batchIndex * _batchsize * _sampleOutputSize;
-            
+
             const T* in = &inputData[inputLocation];
             U* out = &storedEvalResults[outputLocation];
             Batch<T, U> newBatch = {in, out};
@@ -119,7 +119,7 @@ template <class T, class U> class DataBatcher {
                 uint64_t inputLocation = (batchIndex % numBatches) * _batchsize * _sampleInputSize;
                 uint64_t outputLocation = worker * _batchsize * _sampleOutputSize;
 
-                const T* in = &inputData[inputLocation]; 
+                const T* in = &inputData[inputLocation];
                 U* out = &profilingResultsDump[outputLocation];
                 Batch<T, U> newBatch = {in, out};
 
@@ -131,7 +131,7 @@ template <class T, class U> class DataBatcher {
 
     /**
      * \brief Releases resources used when reading from input files. Note: Data from those files
-     * will be cleared and will no longer be accessible. 
+     * will be cleared and will no longer be accessible.
      */
     void closeFile() {
         inputData.clear();
