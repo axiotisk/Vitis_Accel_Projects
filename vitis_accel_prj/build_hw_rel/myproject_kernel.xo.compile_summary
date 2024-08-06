@@ -9,10 +9,10 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "Thu Jul  4 18:25:00 2024",
- "timestampMillis": "1720117500565",
+ "dateTimestamp": "Fri Aug  2 18:18:45 2024",
+ "timestampMillis": "1722622725254",
  "buildStep": {
-  "cmdId": "0e98e69c-40c1-4102-b84f-92e6b2ef0e65",
+  "cmdId": "84583652-3807-4576-931d-a4377be061a1",
   "name": "v++",
   "logFile": "/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/myproject_kernel.steps.log",
   "commandLine": "/tools/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -c -t hw --config accelerator_card.cfg --messageDb=./build_hw_rel/kernel_wrapper.mdb --temp_dir ./build_hw_rel/xo --log_dir ./build_hw_rel/xo -o build_hw_rel/myproject_kernel.xo kernel_wrapper.cpp firmware/myproject.cpp -I./ -I./firmware/ -I./firmware/weights -I./firmware/nnet_utils/ ",
@@ -49,10 +49,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Thu Jul  4 18:25:00 2024",
- "timestampMillis": "1720117500565",
+ "dateTimestamp": "Fri Aug  2 18:18:45 2024",
+ "timestampMillis": "1722622725254",
  "status": {
-  "cmdId": "0e98e69c-40c1-4102-b84f-92e6b2ef0e65",
+  "cmdId": "84583652-3807-4576-931d-a4377be061a1",
   "state": "CS_RUNNING"
  }
 }
@@ -60,8 +60,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "Thu Jul  4 18:25:14 2024",
- "timestampMillis": "1720117514826",
+ "dateTimestamp": "Fri Aug  2 18:19:00 2024",
+ "timestampMillis": "1722622740611",
  "buildSummary": {
   "hardwarePlatform": "xilinx_u55c_gen3x16_xdma_3_202210_1.xpfm",
   "hardwareDsa": "",
@@ -97,10 +97,10 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "Thu Jul  4 18:25:15 2024",
- "timestampMillis": "1720117515196",
+ "dateTimestamp": "Fri Aug  2 18:19:00 2024",
+ "timestampMillis": "1722622740857",
  "buildStep": {
-  "cmdId": "9e3b4922-3d52-41dc-b90f-af1f926c27ff",
+  "cmdId": "8c383758-4d08-42bf-99b3-0398ed30a304",
   "name": "vitis_hls",
   "logFile": "/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/vitis_hls.log",
   "commandLine": "vitis_hls -f /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper.tcl -messageDb vitis_hls.pb",
@@ -119,10 +119,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Thu Jul  4 18:25:15 2024",
- "timestampMillis": "1720117515196",
+ "dateTimestamp": "Fri Aug  2 18:19:00 2024",
+ "timestampMillis": "1722622740857",
  "status": {
-  "cmdId": "9e3b4922-3d52-41dc-b90f-af1f926c27ff",
+  "cmdId": "8c383758-4d08-42bf-99b3-0398ed30a304",
   "state": "CS_RUNNING"
  }
 }
@@ -130,10 +130,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Thu Jul  4 19:13:20 2024",
- "timestampMillis": "1720120400037",
+ "dateTimestamp": "Fri Aug  2 19:07:29 2024",
+ "timestampMillis": "1722625649086",
  "status": {
-  "cmdId": "9e3b4922-3d52-41dc-b90f-af1f926c27ff",
+  "cmdId": "8c383758-4d08-42bf-99b3-0398ed30a304",
   "state": "CS_PASSED"
  }
 }
@@ -141,8 +141,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Thu Jul  4 19:13:20 2024",
- "timestampMillis": "1720120400163",
+ "dateTimestamp": "Fri Aug  2 19:07:29 2024",
+ "timestampMillis": "1722625649207",
  "report": {
   "path": "/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.design.xml",
   "name": "kernel_wrapper",
@@ -155,8 +155,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Thu Jul  4 19:13:20 2024",
- "timestampMillis": "1720120400163",
+ "dateTimestamp": "Fri Aug  2 19:07:29 2024",
+ "timestampMillis": "1722625649208",
  "report": {
   "path": "/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/.message_syn.xml",
   "name": "kernel_wrapper",
@@ -169,8 +169,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Thu Jul  4 19:13:20 2024",
- "timestampMillis": "1720120400164",
+ "dateTimestamp": "Fri Aug  2 19:07:29 2024",
+ "timestampMillis": "1722625649208",
  "report": {
   "path": "/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/reports/myproject_kernel/hls_reports/kernel_wrapper_csynth.rpt",
   "name": "kernel_wrapper",
@@ -183,8 +183,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Thu Jul  4 19:13:20 2024",
- "timestampMillis": "1720120400164",
+ "dateTimestamp": "Fri Aug  2 19:07:29 2024",
+ "timestampMillis": "1722625649208",
  "report": {
   "path": "/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/kernel_wrapper_csynth.xml",
   "name": "kernel_wrapper",
@@ -197,8 +197,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Thu Jul  4 19:13:20 2024",
- "timestampMillis": "1720120400277",
+ "dateTimestamp": "Fri Aug  2 19:07:29 2024",
+ "timestampMillis": "1722625649322",
  "report": {
   "path": "/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/reports/myproject_kernel/system_estimate_myproject_kernel.xtxt",
   "name": "",
@@ -211,10 +211,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Thu Jul  4 19:13:22 2024",
- "timestampMillis": "1720120402037",
+ "dateTimestamp": "Fri Aug  2 19:07:32 2024",
+ "timestampMillis": "1722625652550",
  "status": {
-  "cmdId": "0e98e69c-40c1-4102-b84f-92e6b2ef0e65",
+  "cmdId": "84583652-3807-4576-931d-a4377be061a1",
   "state": "CS_PASSED"
  }
 }
@@ -222,8 +222,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Thu Jul  4 19:13:23 2024",
- "timestampMillis": "1720120403513",
+ "dateTimestamp": "Fri Aug  2 19:07:32 2024",
+ "timestampMillis": "1722625652610",
  "report": {
   "path": "/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/reports/myproject_kernel/v++_compile_myproject_kernel_guidance.html",
   "name": "",
@@ -236,8 +236,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Thu Jul  4 19:13:23 2024",
- "timestampMillis": "1720120403514",
+ "dateTimestamp": "Fri Aug  2 19:07:32 2024",
+ "timestampMillis": "1722625652610",
  "report": {
   "path": "/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/v++_compile_myproject_kernel_guidance.pb3",
   "name": "",

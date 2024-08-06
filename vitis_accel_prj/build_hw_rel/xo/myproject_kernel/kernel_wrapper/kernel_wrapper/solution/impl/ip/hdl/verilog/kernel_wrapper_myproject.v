@@ -43,9 +43,9 @@ wire    conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_ap
 wire    conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_ap_continue;
 wire    conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_ap_idle;
 wire    conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_ap_ready;
+wire    conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_input_r_read;
 wire    conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_start_out;
 wire    conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_start_write;
-wire    conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_input_r_read;
 wire   [255:0] conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_layer2_out_din;
 wire    conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_layer2_out_write;
 wire    relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_U0_ap_start;
@@ -360,13 +360,13 @@ kernel_wrapper_conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config
     .ap_continue(conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_ap_continue),
     .ap_idle(conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_ap_idle),
     .ap_ready(conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_ap_ready),
-    .start_out(conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_start_out),
-    .start_write(conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_start_write),
     .input_r_dout(input_r_dout),
     .input_r_num_data_valid(11'd0),
     .input_r_fifo_cap(11'd0),
     .input_r_empty_n(input_r_empty_n),
     .input_r_read(conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_input_r_read),
+    .start_out(conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_start_out),
+    .start_write(conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_start_write),
     .layer2_out_din(conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_layer2_out_din),
     .layer2_out_num_data_valid(layer2_out_num_data_valid),
     .layer2_out_fifo_cap(layer2_out_fifo_cap),

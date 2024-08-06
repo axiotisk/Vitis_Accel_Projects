@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'myproject'" level="0">
-<item name = "Date">Thu Jul  4 18:55:58 2024
+<item name = "Date">Fri Aug  2 18:50:40 2024
 </item>
 <item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
 <item name = "Project">kernel_wrapper</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00 ns, 3.643 ns, 1.35 ns</column>
+<column name="ap_clk">5.00 ns, 3.648 ns, 1.35 ns</column>
 </table>
 </item>
 </section>
@@ -24,23 +24,23 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">3097, 3097, 15.485 us, 15.485 us, 3075, 3075, dataflow</column>
+<column name="">3120, 3120, 15.600 us, 15.600 us, 3076, 3076, dataflow</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_1324">conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s, 3074, 3074, 15.370 us, 15.370 us, 3074, 3074, no</column>
+<column name="grp_conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_1324">conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_s, 3075, 3075, 15.375 us, 15.375 us, 3075, 3075, no</column>
 <column name="grp_relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_s_fu_1405">relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_s, 903, 903, 4.515 us, 4.515 us, 903, 903, no</column>
 <column name="grp_pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config5_s_fu_1411">pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config5_s, 903, 903, 4.515 us, 4.515 us, 903, 903, no</column>
 <column name="grp_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config6_s_fu_1521">conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config6_s, 678, 678, 3.390 us, 3.390 us, 678, 678, no</column>
 <column name="grp_relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config8_s_fu_1887">relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config8_s, 172, 172, 0.860 us, 0.860 us, 172, 172, no</column>
 <column name="grp_pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config9_s_fu_1893">pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_16u_config9_s, 172, 172, 0.860 us, 0.860 us, 172, 172, no</column>
-<column name="grp_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s_fu_2003">conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s, 145, 145, 0.725 us, 0.725 us, 145, 145, no</column>
+<column name="grp_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s_fu_2003">conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_24u_config10_s, 145, 181, 0.725 us, 0.905 us, 145, 181, no</column>
 <column name="grp_relu_array_ap_fixed_24u_array_ap_ufixed_6_0_4_0_0_24u_relu_config12_s_fu_2369">relu_array_ap_fixed_24u_array_ap_ufixed_6_0_4_0_0_24u_relu_config12_s, 19, 19, 95.000 ns, 95.000 ns, 19, 19, no</column>
 <column name="grp_pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_24u_config13_s_fu_2375">pooling2d_cl_array_array_ap_fixed_16_6_5_3_0_24u_config13_s, 19, 19, 95.000 ns, 95.000 ns, 19, 19, no</column>
-<column name="grp_dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s_fu_2533">dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s, 8, 8, 40.000 ns, 40.000 ns, 8, 8, no</column>
+<column name="grp_dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s_fu_2533">dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s, 9, 9, 45.000 ns, 45.000 ns, 9, 9, no</column>
 <column name="grp_normalize_array_ap_fixed_42u_array_ap_fixed_16_6_5_3_0_42u_config17_s_fu_2539">normalize_array_ap_fixed_42u_array_ap_fixed_16_6_5_3_0_42u_config17_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, no</column>
 <column name="grp_relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s_fu_2545">relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, no</column>
 <column name="grp_dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s_fu_2551">dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s, 4, 4, 20.000 ns, 20.000 ns, 4, 4, no</column>

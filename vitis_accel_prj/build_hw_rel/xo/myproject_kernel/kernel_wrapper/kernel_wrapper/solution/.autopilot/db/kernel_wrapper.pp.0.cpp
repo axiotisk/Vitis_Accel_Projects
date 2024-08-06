@@ -7049,7 +7049,7 @@ __attribute__((sdx_kernel("kernel_wrapper", 0))) void kernel_wrapper(const in_bu
 #pragma HLS STREAM variable=input depth=32 * 32 * 1
 #pragma HLS STREAM variable=output depth=1
 
- VITIS_LOOP_36_1: for (int n = 0; n < 8192; n++) {
+ VITIS_LOOP_36_1: for (int n = 0; n < 16384; n++) {
 #pragma HLS DATAFLOW
  read_input(in, input, n);
         myproject(input, output);

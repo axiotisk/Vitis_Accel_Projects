@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'dataflow_in_loop_VITIS_LOOP_36_1'" level="0">
-<item name = "Date">Thu Jul  4 18:56:47 2024
+<item name = "Date">Fri Aug  2 18:51:29 2024
 </item>
 <item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
 <item name = "Project">kernel_wrapper</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">3172, 3172, 15.860 us, 15.860 us, 3148, 3148, dataflow</column>
+<column name="">3195, 3195, 15.975 us, 15.975 us, 3148, 3148, dataflow</column>
 </table>
 </item>
 <item name = "Detail">
@@ -32,7 +32,7 @@
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
 <column name="grp_read_input_fu_1264">read_input, 3147, 3147, 15.735 us, 15.735 us, 3147, 3147, no</column>
-<column name="grp_myproject_fu_1275">myproject, 3097, 3097, 15.485 us, 15.485 us, 3075, 3075, dataflow</column>
+<column name="grp_myproject_fu_1275">myproject, 3120, 3120, 15.600 us, 15.600 us, 3076, 3076, dataflow</column>
 <column name="call_ln0_entry_proc_fu_2439">entry_proc, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
 <column name="grp_write_result_fu_2446">write_result, 74, 74, 0.370 us, 0.370 us, 74, 74, no</column>
 </table>

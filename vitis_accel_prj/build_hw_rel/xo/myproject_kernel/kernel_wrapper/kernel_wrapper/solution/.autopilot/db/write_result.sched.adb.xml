@@ -476,9 +476,9 @@ entry:1 %out_read = read i64 @_ssdm_op_Read.ap_fifo.i64P0A, i64 %out_r
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="8" bw="13" op_0_bw="13" op_1_bw="13">
+<Node id="8" bw="14" op_0_bw="14" op_1_bw="14">
 <![CDATA[
-entry:3 %n_read = read i13 @_ssdm_op_Read.ap_fifo.i13P0A, i13 %n
+entry:3 %n_read = read i14 @_ssdm_op_Read.ap_fifo.i14P0A, i14 %n
 
 ]]></Node>
 <StgValue><ssdm name="n_read"/></StgValue>
@@ -521,9 +521,9 @@ entry:7 %tmp_3 = partselect i32 @_ssdm_op_PartSelect.i32.i160.i32.i32, i160 %out
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="13" bw="16" op_0_bw="16" op_1_bw="13" op_2_bw="3">
+<Node id="13" bw="17" op_0_bw="17" op_1_bw="14" op_2_bw="3">
 <![CDATA[
-entry:8 %p_shl = bitconcatenate i16 @_ssdm_op_BitConcatenate.i16.i13.i3, i13 %n_read, i3 0
+entry:8 %p_shl = bitconcatenate i17 @_ssdm_op_BitConcatenate.i17.i14.i3, i14 %n_read, i3 0
 
 ]]></Node>
 <StgValue><ssdm name="p_shl"/></StgValue>
@@ -536,9 +536,9 @@ entry:8 %p_shl = bitconcatenate i16 @_ssdm_op_BitConcatenate.i16.i13.i3, i13 %n_
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="14" bw="17" op_0_bw="16">
+<Node id="14" bw="18" op_0_bw="17">
 <![CDATA[
-entry:9 %p_shl_cast2 = zext i16 %p_shl
+entry:9 %p_shl_cast2 = zext i17 %p_shl
 
 ]]></Node>
 <StgValue><ssdm name="p_shl_cast2"/></StgValue>
@@ -551,9 +551,9 @@ entry:9 %p_shl_cast2 = zext i16 %p_shl
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="15" bw="14" op_0_bw="14" op_1_bw="13" op_2_bw="1">
+<Node id="15" bw="15" op_0_bw="15" op_1_bw="14" op_2_bw="1">
 <![CDATA[
-entry:10 %p_shl1 = bitconcatenate i14 @_ssdm_op_BitConcatenate.i14.i13.i1, i13 %n_read, i1 0
+entry:10 %p_shl1 = bitconcatenate i15 @_ssdm_op_BitConcatenate.i15.i14.i1, i14 %n_read, i1 0
 
 ]]></Node>
 <StgValue><ssdm name="p_shl1"/></StgValue>
@@ -566,9 +566,9 @@ entry:10 %p_shl1 = bitconcatenate i14 @_ssdm_op_BitConcatenate.i14.i13.i1, i13 %
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="16" bw="17" op_0_bw="14">
+<Node id="16" bw="18" op_0_bw="15">
 <![CDATA[
-entry:11 %zext_ln20 = zext i14 %p_shl1
+entry:11 %zext_ln20 = zext i15 %p_shl1
 
 ]]></Node>
 <StgValue><ssdm name="zext_ln20"/></StgValue>
@@ -581,9 +581,9 @@ entry:11 %zext_ln20 = zext i14 %p_shl1
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="17" bw="17" op_0_bw="17" op_1_bw="17">
+<Node id="17" bw="18" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-entry:12 %add_ln20_1 = add i17 %p_shl_cast2, i17 %zext_ln20
+entry:12 %add_ln20_1 = add i18 %p_shl_cast2, i18 %zext_ln20
 
 ]]></Node>
 <StgValue><ssdm name="add_ln20_1"/></StgValue>
@@ -596,9 +596,9 @@ entry:12 %add_ln20_1 = add i17 %p_shl_cast2, i17 %zext_ln20
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="18" bw="18" op_0_bw="18" op_1_bw="17" op_2_bw="1">
+<Node id="18" bw="19" op_0_bw="19" op_1_bw="18" op_2_bw="1">
 <![CDATA[
-entry:13 %shl_ln = bitconcatenate i18 @_ssdm_op_BitConcatenate.i18.i17.i1, i17 %add_ln20_1, i1 0
+entry:13 %shl_ln = bitconcatenate i19 @_ssdm_op_BitConcatenate.i19.i18.i1, i18 %add_ln20_1, i1 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln"/></StgValue>
@@ -611,9 +611,9 @@ entry:13 %shl_ln = bitconcatenate i18 @_ssdm_op_BitConcatenate.i18.i17.i1, i17 %
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="19" bw="64" op_0_bw="18">
+<Node id="19" bw="64" op_0_bw="19">
 <![CDATA[
-entry:14 %zext_ln20_1 = zext i18 %shl_ln
+entry:14 %zext_ln20_1 = zext i19 %shl_ln
 
 ]]></Node>
 <StgValue><ssdm name="zext_ln20_1"/></StgValue>
@@ -2078,9 +2078,9 @@ entry:0 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %ou
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="7" bw="0" op_0_bw="0" op_1_bw="13" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<Node id="7" bw="0" op_0_bw="0" op_1_bw="14" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
 <![CDATA[
-entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i13 %n, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @ScalarProp_str, i32 4294967295, i32 0
+entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i14 %n, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @ScalarProp_str, i32 4294967295, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>

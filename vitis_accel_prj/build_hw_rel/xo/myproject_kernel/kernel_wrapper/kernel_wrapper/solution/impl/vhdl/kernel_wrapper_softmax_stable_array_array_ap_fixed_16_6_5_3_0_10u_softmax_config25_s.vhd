@@ -579,7 +579,7 @@ begin
         ce0 => invert_table_ce0,
         q0 => invert_table_q0);
 
-    mul_18s_17ns_26_1_1_U1848 : component kernel_wrapper_mul_18s_17ns_26_1_1
+    mul_18s_17ns_26_1_1_U1842 : component kernel_wrapper_mul_18s_17ns_26_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -591,7 +591,7 @@ begin
         din1 => mul_ln1270_fu_271_p1,
         dout => mul_ln1270_fu_271_p2);
 
-    mul_18s_17ns_26_1_1_U1849 : component kernel_wrapper_mul_18s_17ns_26_1_1
+    mul_18s_17ns_26_1_1_U1843 : component kernel_wrapper_mul_18s_17ns_26_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -603,7 +603,7 @@ begin
         din1 => mul_ln1270_2_fu_272_p1,
         dout => mul_ln1270_2_fu_272_p2);
 
-    mul_18s_17ns_26_1_1_U1850 : component kernel_wrapper_mul_18s_17ns_26_1_1
+    mul_18s_17ns_26_1_1_U1844 : component kernel_wrapper_mul_18s_17ns_26_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -615,7 +615,7 @@ begin
         din1 => mul_ln1270_4_fu_273_p1,
         dout => mul_ln1270_4_fu_273_p2);
 
-    mul_18s_17ns_26_1_1_U1851 : component kernel_wrapper_mul_18s_17ns_26_1_1
+    mul_18s_17ns_26_1_1_U1845 : component kernel_wrapper_mul_18s_17ns_26_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -627,7 +627,7 @@ begin
         din1 => mul_ln1270_6_fu_274_p1,
         dout => mul_ln1270_6_fu_274_p2);
 
-    mul_18s_17ns_26_1_1_U1852 : component kernel_wrapper_mul_18s_17ns_26_1_1
+    mul_18s_17ns_26_1_1_U1846 : component kernel_wrapper_mul_18s_17ns_26_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -639,7 +639,7 @@ begin
         din1 => mul_ln1270_3_fu_275_p1,
         dout => mul_ln1270_3_fu_275_p2);
 
-    mul_18s_17ns_26_1_1_U1853 : component kernel_wrapper_mul_18s_17ns_26_1_1
+    mul_18s_17ns_26_1_1_U1847 : component kernel_wrapper_mul_18s_17ns_26_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -651,7 +651,7 @@ begin
         din1 => mul_ln1270_7_fu_276_p1,
         dout => mul_ln1270_7_fu_276_p2);
 
-    mul_18s_17ns_26_1_1_U1854 : component kernel_wrapper_mul_18s_17ns_26_1_1
+    mul_18s_17ns_26_1_1_U1848 : component kernel_wrapper_mul_18s_17ns_26_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -663,7 +663,7 @@ begin
         din1 => mul_ln1270_5_fu_277_p1,
         dout => mul_ln1270_5_fu_277_p2);
 
-    mul_18s_17ns_26_1_1_U1855 : component kernel_wrapper_mul_18s_17ns_26_1_1
+    mul_18s_17ns_26_1_1_U1849 : component kernel_wrapper_mul_18s_17ns_26_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -675,7 +675,7 @@ begin
         din1 => mul_ln1270_1_fu_278_p1,
         dout => mul_ln1270_1_fu_278_p2);
 
-    mul_18s_17ns_26_1_1_U1856 : component kernel_wrapper_mul_18s_17ns_26_1_1
+    mul_18s_17ns_26_1_1_U1850 : component kernel_wrapper_mul_18s_17ns_26_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -687,7 +687,7 @@ begin
         din1 => mul_ln1270_8_fu_279_p1,
         dout => mul_ln1270_8_fu_279_p2);
 
-    mul_18s_17ns_26_1_1_U1857 : component kernel_wrapper_mul_18s_17ns_26_1_1
+    mul_18s_17ns_26_1_1_U1851 : component kernel_wrapper_mul_18s_17ns_26_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,

@@ -7,7 +7,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="kernel_wrapper_kernel_wrapper,hls_ip_2022_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xcu55c-fsvh2892-2L-e,HLS_INPUT_CLOCK=5.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=3.650000,HLS_SYN_LAT=25788443,HLS_SYN_TPT=none,HLS_SYN_MEM=52,HLS_SYN_DSP=0,HLS_SYN_FF=63116,HLS_SYN_LUT=255785,HLS_VERSION=2022_2}" *)
+(* CORE_GENERATION_INFO="kernel_wrapper_kernel_wrapper,hls_ip_2022_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xcu55c-fsvh2892-2L-e,HLS_INPUT_CLOCK=5.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=3.650000,HLS_SYN_LAT=51576882,HLS_SYN_TPT=none,HLS_SYN_MEM=52,HLS_SYN_DSP=0,HLS_SYN_FF=64233,HLS_SYN_LUT=258276,HLS_VERSION=2022_2}" *)
 
 module kernel_wrapper (
         s_axi_control_AWVALID,
@@ -366,9 +366,9 @@ wire    dataflow_in_loop_VITIS_LOOP_36_1_U0_ap_done;
 wire    dataflow_in_loop_VITIS_LOOP_36_1_U0_ap_ready;
 wire    dataflow_in_loop_VITIS_LOOP_36_1_U0_ap_idle;
 reg    dataflow_in_loop_VITIS_LOOP_36_1_U0_ap_continue;
-reg   [13:0] loop_dataflow_input_count;
-reg   [13:0] loop_dataflow_output_count;
-wire   [13:0] bound_minus_1;
+reg   [14:0] loop_dataflow_input_count;
+reg   [14:0] loop_dataflow_output_count;
+wire   [14:0] bound_minus_1;
 wire    ap_ce_reg;
 
 // power-on initialization
@@ -376,8 +376,8 @@ initial begin
 #0 ap_rst_reg_2 = 1'b1;
 #0 ap_rst_reg_1 = 1'b1;
 #0 ap_rst_n_inv = 1'b1;
-#0 loop_dataflow_input_count = 14'd0;
-#0 loop_dataflow_output_count = 14'd0;
+#0 loop_dataflow_input_count = 15'd0;
+#0 loop_dataflow_output_count = 15'd0;
 end
 
 kernel_wrapper_control_s_axi #(
@@ -704,24 +704,24 @@ kernel_wrapper_dataflow_in_loop_VITIS_LOOP_36_1 dataflow_in_loop_VITIS_LOOP_36_1
 
 always @ (posedge ap_clk) begin
     if (ap_rst_n_inv == 1'b1) begin
-        loop_dataflow_input_count <= 14'd0;
+        loop_dataflow_input_count <= 15'd0;
     end else begin
         if ((~(loop_dataflow_input_count == bound_minus_1) & (ap_start == 1'b1) & (dataflow_in_loop_VITIS_LOOP_36_1_U0_ap_ready == 1'b1))) begin
-            loop_dataflow_input_count <= (loop_dataflow_input_count + 14'd1);
+            loop_dataflow_input_count <= (loop_dataflow_input_count + 15'd1);
         end else if (((ap_start == 1'b1) & (loop_dataflow_input_count == bound_minus_1) & (dataflow_in_loop_VITIS_LOOP_36_1_U0_ap_ready == 1'b1))) begin
-            loop_dataflow_input_count <= 14'd0;
+            loop_dataflow_input_count <= 15'd0;
         end
     end
 end
 
 always @ (posedge ap_clk) begin
     if (ap_rst_n_inv == 1'b1) begin
-        loop_dataflow_output_count <= 14'd0;
+        loop_dataflow_output_count <= 15'd0;
     end else begin
         if ((~(loop_dataflow_output_count == bound_minus_1) & (dataflow_in_loop_VITIS_LOOP_36_1_U0_ap_continue == 1'b1) & (dataflow_in_loop_VITIS_LOOP_36_1_U0_ap_done == 1'b1))) begin
-            loop_dataflow_output_count <= (loop_dataflow_output_count + 14'd1);
+            loop_dataflow_output_count <= (loop_dataflow_output_count + 15'd1);
         end else if (((loop_dataflow_output_count == bound_minus_1) & (dataflow_in_loop_VITIS_LOOP_36_1_U0_ap_continue == 1'b1) & (dataflow_in_loop_VITIS_LOOP_36_1_U0_ap_done == 1'b1))) begin
-            loop_dataflow_output_count <= 14'd0;
+            loop_dataflow_output_count <= 15'd0;
         end
     end
 end
@@ -747,7 +747,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if (((ap_start == 1'b0) & (loop_dataflow_output_count == 14'd0) & (dataflow_in_loop_VITIS_LOOP_36_1_U0_ap_idle == 1'b1))) begin
+    if (((ap_start == 1'b0) & (loop_dataflow_output_count == 15'd0) & (dataflow_in_loop_VITIS_LOOP_36_1_U0_ap_idle == 1'b1))) begin
         ap_idle = 1'b1;
     end else begin
         ap_idle = 1'b0;
@@ -770,7 +770,7 @@ always @ (*) begin
     end
 end
 
-assign bound_minus_1 = (14'd8192 - 14'd1);
+assign bound_minus_1 = (15'd16384 - 15'd1);
 
 assign dataflow_in_loop_VITIS_LOOP_36_1_U0_ap_start = ap_start;
 

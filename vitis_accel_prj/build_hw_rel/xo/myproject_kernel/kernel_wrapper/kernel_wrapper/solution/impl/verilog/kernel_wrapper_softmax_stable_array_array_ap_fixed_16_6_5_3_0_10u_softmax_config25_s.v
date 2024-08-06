@@ -491,7 +491,7 @@ kernel_wrapper_mul_18s_17ns_26_1_1 #(
     .din0_WIDTH( 18 ),
     .din1_WIDTH( 17 ),
     .dout_WIDTH( 26 ))
-mul_18s_17ns_26_1_1_U1848(
+mul_18s_17ns_26_1_1_U1842(
     .din0(mul_ln1270_fu_271_p0),
     .din1(mul_ln1270_fu_271_p1),
     .dout(mul_ln1270_fu_271_p2)
@@ -503,7 +503,7 @@ kernel_wrapper_mul_18s_17ns_26_1_1 #(
     .din0_WIDTH( 18 ),
     .din1_WIDTH( 17 ),
     .dout_WIDTH( 26 ))
-mul_18s_17ns_26_1_1_U1849(
+mul_18s_17ns_26_1_1_U1843(
     .din0(mul_ln1270_2_fu_272_p0),
     .din1(mul_ln1270_2_fu_272_p1),
     .dout(mul_ln1270_2_fu_272_p2)
@@ -515,7 +515,7 @@ kernel_wrapper_mul_18s_17ns_26_1_1 #(
     .din0_WIDTH( 18 ),
     .din1_WIDTH( 17 ),
     .dout_WIDTH( 26 ))
-mul_18s_17ns_26_1_1_U1850(
+mul_18s_17ns_26_1_1_U1844(
     .din0(mul_ln1270_4_fu_273_p0),
     .din1(mul_ln1270_4_fu_273_p1),
     .dout(mul_ln1270_4_fu_273_p2)
@@ -527,7 +527,7 @@ kernel_wrapper_mul_18s_17ns_26_1_1 #(
     .din0_WIDTH( 18 ),
     .din1_WIDTH( 17 ),
     .dout_WIDTH( 26 ))
-mul_18s_17ns_26_1_1_U1851(
+mul_18s_17ns_26_1_1_U1845(
     .din0(mul_ln1270_6_fu_274_p0),
     .din1(mul_ln1270_6_fu_274_p1),
     .dout(mul_ln1270_6_fu_274_p2)
@@ -539,7 +539,7 @@ kernel_wrapper_mul_18s_17ns_26_1_1 #(
     .din0_WIDTH( 18 ),
     .din1_WIDTH( 17 ),
     .dout_WIDTH( 26 ))
-mul_18s_17ns_26_1_1_U1852(
+mul_18s_17ns_26_1_1_U1846(
     .din0(mul_ln1270_3_fu_275_p0),
     .din1(mul_ln1270_3_fu_275_p1),
     .dout(mul_ln1270_3_fu_275_p2)
@@ -551,7 +551,7 @@ kernel_wrapper_mul_18s_17ns_26_1_1 #(
     .din0_WIDTH( 18 ),
     .din1_WIDTH( 17 ),
     .dout_WIDTH( 26 ))
-mul_18s_17ns_26_1_1_U1853(
+mul_18s_17ns_26_1_1_U1847(
     .din0(mul_ln1270_7_fu_276_p0),
     .din1(mul_ln1270_7_fu_276_p1),
     .dout(mul_ln1270_7_fu_276_p2)
@@ -563,7 +563,7 @@ kernel_wrapper_mul_18s_17ns_26_1_1 #(
     .din0_WIDTH( 18 ),
     .din1_WIDTH( 17 ),
     .dout_WIDTH( 26 ))
-mul_18s_17ns_26_1_1_U1854(
+mul_18s_17ns_26_1_1_U1848(
     .din0(mul_ln1270_5_fu_277_p0),
     .din1(mul_ln1270_5_fu_277_p1),
     .dout(mul_ln1270_5_fu_277_p2)
@@ -575,7 +575,7 @@ kernel_wrapper_mul_18s_17ns_26_1_1 #(
     .din0_WIDTH( 18 ),
     .din1_WIDTH( 17 ),
     .dout_WIDTH( 26 ))
-mul_18s_17ns_26_1_1_U1855(
+mul_18s_17ns_26_1_1_U1849(
     .din0(mul_ln1270_1_fu_278_p0),
     .din1(mul_ln1270_1_fu_278_p1),
     .dout(mul_ln1270_1_fu_278_p2)
@@ -587,7 +587,7 @@ kernel_wrapper_mul_18s_17ns_26_1_1 #(
     .din0_WIDTH( 18 ),
     .din1_WIDTH( 17 ),
     .dout_WIDTH( 26 ))
-mul_18s_17ns_26_1_1_U1856(
+mul_18s_17ns_26_1_1_U1850(
     .din0(mul_ln1270_8_fu_279_p0),
     .din1(mul_ln1270_8_fu_279_p1),
     .dout(mul_ln1270_8_fu_279_p2)
@@ -599,7 +599,7 @@ kernel_wrapper_mul_18s_17ns_26_1_1 #(
     .din0_WIDTH( 18 ),
     .din1_WIDTH( 17 ),
     .dout_WIDTH( 26 ))
-mul_18s_17ns_26_1_1_U1857(
+mul_18s_17ns_26_1_1_U1851(
     .din0(mul_ln1270_9_fu_280_p0),
     .din1(mul_ln1270_9_fu_280_p1),
     .dout(mul_ln1270_9_fu_280_p2)

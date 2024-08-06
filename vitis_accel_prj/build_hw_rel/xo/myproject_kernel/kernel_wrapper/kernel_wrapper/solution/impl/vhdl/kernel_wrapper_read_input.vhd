@@ -73,8 +73,8 @@ port (
     input1_fifo_cap : IN STD_LOGIC_VECTOR (10 downto 0);
     input1_full_n : IN STD_LOGIC;
     input1_write : OUT STD_LOGIC;
-    n : IN STD_LOGIC_VECTOR (12 downto 0);
-    n_c_din : OUT STD_LOGIC_VECTOR (12 downto 0);
+    n : IN STD_LOGIC_VECTOR (13 downto 0);
+    n_c_din : OUT STD_LOGIC_VECTOR (13 downto 0);
     n_c_num_data_valid : IN STD_LOGIC_VECTOR (2 downto 0);
     n_c_fifo_cap : IN STD_LOGIC_VECTOR (2 downto 0);
     n_c_full_n : IN STD_LOGIC;
@@ -235,12 +235,12 @@ attribute shreg_extract : string;
     attribute fsm_encoding of ap_CS_fsm_state73 : signal is "none";
     signal sext_ln5_1_fu_164_p1 : STD_LOGIC_VECTOR (63 downto 0);
     signal ap_block_state1 : BOOLEAN;
-    signal p_shl_i_fu_106_p3 : STD_LOGIC_VECTOR (24 downto 0);
-    signal p_shl1_i_fu_118_p3 : STD_LOGIC_VECTOR (22 downto 0);
-    signal p_shl_cast4_i_fu_114_p1 : STD_LOGIC_VECTOR (25 downto 0);
-    signal p_shl1_cast5_i_fu_126_p1 : STD_LOGIC_VECTOR (25 downto 0);
-    signal mul7_i_fu_130_p2 : STD_LOGIC_VECTOR (25 downto 0);
-    signal tmp_i_fu_136_p3 : STD_LOGIC_VECTOR (26 downto 0);
+    signal p_shl_i_fu_106_p3 : STD_LOGIC_VECTOR (25 downto 0);
+    signal p_shl1_i_fu_118_p3 : STD_LOGIC_VECTOR (23 downto 0);
+    signal p_shl_cast4_i_fu_114_p1 : STD_LOGIC_VECTOR (26 downto 0);
+    signal p_shl1_cast5_i_fu_126_p1 : STD_LOGIC_VECTOR (26 downto 0);
+    signal mul7_i_fu_130_p2 : STD_LOGIC_VECTOR (26 downto 0);
+    signal tmp_i_fu_136_p3 : STD_LOGIC_VECTOR (27 downto 0);
     signal sext_ln5_fu_144_p1 : STD_LOGIC_VECTOR (63 downto 0);
     signal add_ln5_fu_148_p2 : STD_LOGIC_VECTOR (63 downto 0);
     signal ap_NS_fsm : STD_LOGIC_VECTOR (72 downto 0);
@@ -1023,9 +1023,9 @@ begin
         end if; 
     end process;
 
-    p_shl1_cast5_i_fu_126_p1 <= std_logic_vector(IEEE.numeric_std.resize(unsigned(p_shl1_i_fu_118_p3),26));
+    p_shl1_cast5_i_fu_126_p1 <= std_logic_vector(IEEE.numeric_std.resize(unsigned(p_shl1_i_fu_118_p3),27));
     p_shl1_i_fu_118_p3 <= (n & ap_const_lv10_0);
-    p_shl_cast4_i_fu_114_p1 <= std_logic_vector(IEEE.numeric_std.resize(unsigned(p_shl_i_fu_106_p3),26));
+    p_shl_cast4_i_fu_114_p1 <= std_logic_vector(IEEE.numeric_std.resize(unsigned(p_shl_i_fu_106_p3),27));
     p_shl_i_fu_106_p3 <= (n & ap_const_lv12_0);
 
     real_start_assign_proc : process(ap_start, start_full_n, start_once_reg)

@@ -49,7 +49,7 @@
     VITIS_LOOP_18_1: 
 /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:7030:5: note: FIX-IT applied suggested code changes
 /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:7052:2: warning: Added loop label VITIS_LOOP_36_1:   [xilinx-label-all-loops]
- for (int n = 0; n < 8192; n++) {
+ for (int n = 0; n < 16384; n++) {
  ^~~
  VITIS_LOOP_36_1: 
 /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp:7052:2: note: FIX-IT applied suggested code changes

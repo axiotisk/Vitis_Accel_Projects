@@ -16,15 +16,15 @@ set C_modelArgList {
 	{ gmem0 int 16 regular {axi_master 0}  }
 	{ in_r int 64 regular  }
 	{ input1 int 48 regular {fifo 1 volatile }  }
-	{ n int 13 regular  }
-	{ n_c int 13 regular {fifo 1}  }
+	{ n int 14 regular  }
+	{ n_c int 14 regular {fifo 1}  }
 }
 set C_modelArgMapList {[ 
 	{ "Name" : "gmem0", "interface" : "axi_master", "bitwidth" : 16, "direction" : "READONLY", "bitSlice":[ {"cElement": [{"cName": "in_r","offset": { "type": "dynamic","port_name": "in_r","bundle": "control"},"direction": "READONLY"}]}]} , 
  	{ "Name" : "in_r", "interface" : "wire", "bitwidth" : 64, "direction" : "READONLY"} , 
  	{ "Name" : "input1", "interface" : "fifo", "bitwidth" : 48, "direction" : "WRITEONLY"} , 
- 	{ "Name" : "n", "interface" : "wire", "bitwidth" : 13, "direction" : "READONLY"} , 
- 	{ "Name" : "n_c", "interface" : "fifo", "bitwidth" : 13, "direction" : "WRITEONLY"} ]}
+ 	{ "Name" : "n", "interface" : "wire", "bitwidth" : 14, "direction" : "READONLY"} , 
+ 	{ "Name" : "n_c", "interface" : "fifo", "bitwidth" : 14, "direction" : "WRITEONLY"} ]}
 # RTL Port declarations: 
 set portNum 68
 set portList { 
@@ -90,8 +90,8 @@ set portList {
 	{ input1_fifo_cap sc_in sc_lv 11 signal 2 } 
 	{ input1_full_n sc_in sc_logic 1 signal 2 } 
 	{ input1_write sc_out sc_logic 1 signal 2 } 
-	{ n sc_in sc_lv 13 signal 3 } 
-	{ n_c_din sc_out sc_lv 13 signal 4 } 
+	{ n sc_in sc_lv 14 signal 3 } 
+	{ n_c_din sc_out sc_lv 14 signal 4 } 
 	{ n_c_num_data_valid sc_in sc_lv 3 signal 4 } 
 	{ n_c_fifo_cap sc_in sc_lv 3 signal 4 } 
 	{ n_c_full_n sc_in sc_logic 1 signal 4 } 
@@ -160,8 +160,8 @@ set NewPortList {[
  	{ "name": "input1_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":11, "type": "signal", "bundle":{"name": "input1", "role": "fifo_cap" }} , 
  	{ "name": "input1_full_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "input1", "role": "full_n" }} , 
  	{ "name": "input1_write", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "input1", "role": "write" }} , 
- 	{ "name": "n", "direction": "in", "datatype": "sc_lv", "bitwidth":13, "type": "signal", "bundle":{"name": "n", "role": "default" }} , 
- 	{ "name": "n_c_din", "direction": "out", "datatype": "sc_lv", "bitwidth":13, "type": "signal", "bundle":{"name": "n_c", "role": "din" }} , 
+ 	{ "name": "n", "direction": "in", "datatype": "sc_lv", "bitwidth":14, "type": "signal", "bundle":{"name": "n", "role": "default" }} , 
+ 	{ "name": "n_c_din", "direction": "out", "datatype": "sc_lv", "bitwidth":14, "type": "signal", "bundle":{"name": "n_c", "role": "din" }} , 
  	{ "name": "n_c_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":3, "type": "signal", "bundle":{"name": "n_c", "role": "num_data_valid" }} , 
  	{ "name": "n_c_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":3, "type": "signal", "bundle":{"name": "n_c", "role": "fifo_cap" }} , 
  	{ "name": "n_c_full_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "n_c", "role": "full_n" }} , 
@@ -250,6 +250,6 @@ set Spec2ImplPortList {
 	 { m_axi {  { m_axi_gmem0_AWVALID VALID 1 1 }  { m_axi_gmem0_AWREADY READY 0 1 }  { m_axi_gmem0_AWADDR ADDR 1 64 }  { m_axi_gmem0_AWID ID 1 1 }  { m_axi_gmem0_AWLEN SIZE 1 32 }  { m_axi_gmem0_AWSIZE BURST 1 3 }  { m_axi_gmem0_AWBURST LOCK 1 2 }  { m_axi_gmem0_AWLOCK CACHE 1 2 }  { m_axi_gmem0_AWCACHE PROT 1 4 }  { m_axi_gmem0_AWPROT QOS 1 3 }  { m_axi_gmem0_AWQOS REGION 1 4 }  { m_axi_gmem0_AWREGION USER 1 4 }  { m_axi_gmem0_AWUSER DATA 1 1 }  { m_axi_gmem0_WVALID VALID 1 1 }  { m_axi_gmem0_WREADY READY 0 1 }  { m_axi_gmem0_WDATA FIFONUM 1 16 }  { m_axi_gmem0_WSTRB STRB 1 2 }  { m_axi_gmem0_WLAST LAST 1 1 }  { m_axi_gmem0_WID ID 1 1 }  { m_axi_gmem0_WUSER DATA 1 1 }  { m_axi_gmem0_ARVALID VALID 1 1 }  { m_axi_gmem0_ARREADY READY 0 1 }  { m_axi_gmem0_ARADDR ADDR 1 64 }  { m_axi_gmem0_ARID ID 1 1 }  { m_axi_gmem0_ARLEN SIZE 1 32 }  { m_axi_gmem0_ARSIZE BURST 1 3 }  { m_axi_gmem0_ARBURST LOCK 1 2 }  { m_axi_gmem0_ARLOCK CACHE 1 2 }  { m_axi_gmem0_ARCACHE PROT 1 4 }  { m_axi_gmem0_ARPROT QOS 1 3 }  { m_axi_gmem0_ARQOS REGION 1 4 }  { m_axi_gmem0_ARREGION USER 1 4 }  { m_axi_gmem0_ARUSER DATA 1 1 }  { m_axi_gmem0_RVALID VALID 0 1 }  { m_axi_gmem0_RREADY READY 1 1 }  { m_axi_gmem0_RDATA FIFONUM 0 16 }  { m_axi_gmem0_RLAST LAST 0 1 }  { m_axi_gmem0_RID ID 0 1 }  { m_axi_gmem0_RFIFONUM LEN 0 10 }  { m_axi_gmem0_RUSER DATA 0 1 }  { m_axi_gmem0_RRESP RESP 0 2 }  { m_axi_gmem0_BVALID VALID 0 1 }  { m_axi_gmem0_BREADY READY 1 1 }  { m_axi_gmem0_BRESP RESP 0 2 }  { m_axi_gmem0_BID ID 0 1 }  { m_axi_gmem0_BUSER DATA 0 1 } } }
 	in_r { ap_none {  { in_r in_data 0 64 } } }
 	input1 { ap_fifo {  { input1_din fifo_port_we 1 48 }  { input1_num_data_valid fifo_status_num_data_valid 0 11 }  { input1_fifo_cap fifo_update 0 11 }  { input1_full_n fifo_status 0 1 }  { input1_write fifo_data 1 1 } } }
-	n { ap_none {  { n in_data 0 13 } } }
-	n_c { ap_fifo {  { n_c_din fifo_port_we 1 13 }  { n_c_num_data_valid fifo_status_num_data_valid 0 3 }  { n_c_fifo_cap fifo_update 0 3 }  { n_c_full_n fifo_status 0 1 }  { n_c_write fifo_data 1 1 } } }
+	n { ap_none {  { n in_data 0 14 } } }
+	n_c { ap_fifo {  { n_c_din fifo_port_we 1 14 }  { n_c_num_data_valid fifo_status_num_data_valid 0 3 }  { n_c_fifo_cap fifo_update 0 3 }  { n_c_full_n fifo_status 0 1 }  { n_c_write fifo_data 1 1 } } }
 }

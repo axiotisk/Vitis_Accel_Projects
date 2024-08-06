@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'read_input'
 ================================================================
-* Date:           Thu Jul  4 18:52:27 2024
+* Date:           Fri Aug  2 18:46:49 2024
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        kernel_wrapper
@@ -146,17 +146,17 @@ IsGatedGlobalClock: 0
 
 * FSM state operations: 
 
-State 1 <SV = 0> <Delay = 3.41>
-ST_1 : Operation 74 [1/1] (1.42ns)   --->   "%n_read = read i13 @_ssdm_op_Read.ap_auto.i13, i13 %n"   --->   Operation 74 'read' 'n_read' <Predicate = true> <Delay = 1.42> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = -1> <Depth = -1> <FIFO>
+State 1 <SV = 0> <Delay = 3.42>
+ST_1 : Operation 74 [1/1] (1.42ns)   --->   "%n_read = read i14 @_ssdm_op_Read.ap_auto.i14, i14 %n"   --->   Operation 74 'read' 'n_read' <Predicate = true> <Delay = 1.42> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = -1> <Depth = -1> <FIFO>
 ST_1 : Operation 75 [1/1] (0.00ns)   --->   "%in_r_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %in_r"   --->   Operation 75 'read' 'in_r_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 76 [1/1] (1.33ns)   --->   "%write_ln0 = write void @_ssdm_op_Write.ap_fifo.i13P0A, i13 %n_c, i13 %n_read"   --->   Operation 76 'write' 'write_ln0' <Predicate = true> <Delay = 1.33> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.33> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 13> <Depth = 3> <FIFO>
-ST_1 : Operation 77 [1/1] (0.00ns)   --->   "%p_shl_i = bitconcatenate i25 @_ssdm_op_BitConcatenate.i25.i13.i12, i13 %n_read, i12 0"   --->   Operation 77 'bitconcatenate' 'p_shl_i' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 78 [1/1] (0.00ns)   --->   "%p_shl_cast4_i = zext i25 %p_shl_i"   --->   Operation 78 'zext' 'p_shl_cast4_i' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 79 [1/1] (0.00ns)   --->   "%p_shl1_i = bitconcatenate i23 @_ssdm_op_BitConcatenate.i23.i13.i10, i13 %n_read, i10 0"   --->   Operation 79 'bitconcatenate' 'p_shl1_i' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 80 [1/1] (0.00ns)   --->   "%p_shl1_cast5_i = zext i23 %p_shl1_i"   --->   Operation 80 'zext' 'p_shl1_cast5_i' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 81 [1/1] (0.83ns)   --->   "%mul7_i = sub i26 %p_shl_cast4_i, i26 %p_shl1_cast5_i"   --->   Operation 81 'sub' 'mul7_i' <Predicate = true> <Delay = 0.83> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 82 [1/1] (0.00ns)   --->   "%tmp_i = bitconcatenate i27 @_ssdm_op_BitConcatenate.i27.i26.i1, i26 %mul7_i, i1 0" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:5->/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:38]   --->   Operation 82 'bitconcatenate' 'tmp_i' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 83 [1/1] (0.00ns)   --->   "%sext_ln5 = sext i27 %tmp_i" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:5->/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:38]   --->   Operation 83 'sext' 'sext_ln5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 76 [1/1] (1.33ns)   --->   "%write_ln0 = write void @_ssdm_op_Write.ap_fifo.i14P0A, i14 %n_c, i14 %n_read"   --->   Operation 76 'write' 'write_ln0' <Predicate = true> <Delay = 1.33> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.33> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 14> <Depth = 3> <FIFO>
+ST_1 : Operation 77 [1/1] (0.00ns)   --->   "%p_shl_i = bitconcatenate i26 @_ssdm_op_BitConcatenate.i26.i14.i12, i14 %n_read, i12 0"   --->   Operation 77 'bitconcatenate' 'p_shl_i' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 78 [1/1] (0.00ns)   --->   "%p_shl_cast4_i = zext i26 %p_shl_i"   --->   Operation 78 'zext' 'p_shl_cast4_i' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 79 [1/1] (0.00ns)   --->   "%p_shl1_i = bitconcatenate i24 @_ssdm_op_BitConcatenate.i24.i14.i10, i14 %n_read, i10 0"   --->   Operation 79 'bitconcatenate' 'p_shl1_i' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 80 [1/1] (0.00ns)   --->   "%p_shl1_cast5_i = zext i24 %p_shl1_i"   --->   Operation 80 'zext' 'p_shl1_cast5_i' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 81 [1/1] (0.84ns)   --->   "%mul7_i = sub i27 %p_shl_cast4_i, i27 %p_shl1_cast5_i"   --->   Operation 81 'sub' 'mul7_i' <Predicate = true> <Delay = 0.84> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.84> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 82 [1/1] (0.00ns)   --->   "%tmp_i = bitconcatenate i28 @_ssdm_op_BitConcatenate.i28.i27.i1, i27 %mul7_i, i1 0" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:5->/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:38]   --->   Operation 82 'bitconcatenate' 'tmp_i' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 83 [1/1] (0.00ns)   --->   "%sext_ln5 = sext i28 %tmp_i" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:5->/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:38]   --->   Operation 83 'sext' 'sext_ln5' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 84 [1/1] (1.14ns)   --->   "%add_ln5 = add i64 %sext_ln5, i64 %in_r_read" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:5->/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:38]   --->   Operation 84 'add' 'add_ln5' <Predicate = true> <Delay = 1.14> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.14> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 85 [1/1] (0.00ns)   --->   "%trunc_ln5_i = partselect i63 @_ssdm_op_PartSelect.i63.i64.i32.i32, i64 %add_ln5, i32 1, i32 63" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:5->/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:38]   --->   Operation 85 'partselect' 'trunc_ln5_i' <Predicate = true> <Delay = 0.00>
 
@@ -377,7 +377,7 @@ ST_72 : Operation 158 [1/1] (0.00ns)   --->   "%empty_101 = wait i32 @_ssdm_op_W
 ST_72 : Operation 159 [2/2] (0.00ns)   --->   "%call_ln5 = call void @read_input_Pipeline_VITIS_LOOP_5_1, i16 %gmem0, i63 %trunc_ln5_i, i48 %input1" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:5->/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:38]   --->   Operation 159 'call' 'call_ln5' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 73 <SV = 72> <Delay = 0.00>
-ST_73 : Operation 160 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i13 %n_c, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @ScalarProp_str, i32 4294967295, i32 0"   --->   Operation 160 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_73 : Operation 160 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i14 %n_c, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @ScalarProp_str, i32 4294967295, i32 0"   --->   Operation 160 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_73 : Operation 161 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i48 %input1, void @empty_0, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_7, i32 4294967295, i32 0"   --->   Operation 161 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_73 : Operation 162 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %gmem0, void @empty_16, i32 0, i32 0, void @empty_7, i32 64, i32 0, void @empty_29, void @empty_10, void @empty_7, i32 16, i32 16, i32 16, i32 16, void @empty_7, void @empty_7, i32 4294967295, i32 0"   --->   Operation 162 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_73 : Operation 163 [1/2] (0.00ns)   --->   "%call_ln5 = call void @read_input_Pipeline_VITIS_LOOP_5_1, i16 %gmem0, i63 %trunc_ln5_i, i48 %input1" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:5->/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:38]   --->   Operation 163 'call' 'call_ln5' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
@@ -389,10 +389,10 @@ ST_73 : Operation 164 [1/1] (0.00ns)   --->   "%ret_ln38 = ret" [/home/ayvol/vit
 ============================================================
 Target clock period: 5ns, clock uncertainty: 1.35ns.
 
- <State 1>: 3.41ns
+ <State 1>: 3.42ns
 The critical path consists of the following:
 	wire read operation ('n_read') on port 'n' [6]  (1.43 ns)
-	'sub' operation ('mul7_i') [16]  (0.838 ns)
+	'sub' operation ('mul7_i') [16]  (0.844 ns)
 	'add' operation ('add_ln5', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:5->/home/ayvol/vitis-accel-CNN/vitis_accel_prj/kernel_wrapper.cpp:38) [19]  (1.15 ns)
 
  <State 2>: 3.65ns

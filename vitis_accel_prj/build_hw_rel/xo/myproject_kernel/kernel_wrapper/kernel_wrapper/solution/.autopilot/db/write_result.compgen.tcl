@@ -10,7 +10,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1899 \
+    id 1893 \
     name gmem1 \
     type other \
     dir O \
@@ -25,7 +25,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1900 \
+    id 1894 \
     name out_r \
     type fifo \
     dir I \
@@ -40,7 +40,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1901 \
+    id 1895 \
     name output_r \
     type fifo \
     dir I \
@@ -55,7 +55,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1902 \
+    id 1896 \
     name n \
     type fifo \
     dir I \
@@ -63,7 +63,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_n \
     op interface \
-    ports { n_dout { I 13 vector } n_num_data_valid { I 3 vector } n_fifo_cap { I 3 vector } n_empty_n { I 1 bit } n_read { O 1 bit } } \
+    ports { n_dout { I 14 vector } n_num_data_valid { I 3 vector } n_fifo_cap { I 3 vector } n_empty_n { I 1 bit } n_read { O 1 bit } } \
 } "
 }
 

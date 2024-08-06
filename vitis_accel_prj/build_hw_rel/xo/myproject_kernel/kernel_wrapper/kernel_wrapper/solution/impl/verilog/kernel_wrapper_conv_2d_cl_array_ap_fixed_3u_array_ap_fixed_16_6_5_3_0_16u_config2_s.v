@@ -16,13 +16,13 @@ module kernel_wrapper_conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u
         ap_continue,
         ap_idle,
         ap_ready,
-        start_out,
-        start_write,
         input_r_dout,
         input_r_num_data_valid,
         input_r_fifo_cap,
         input_r_empty_n,
         input_r_read,
+        start_out,
+        start_write,
         layer2_out_din,
         layer2_out_num_data_valid,
         layer2_out_fifo_cap,
@@ -42,13 +42,13 @@ output   ap_done;
 input   ap_continue;
 output   ap_idle;
 output   ap_ready;
-output   start_out;
-output   start_write;
 input  [47:0] input_r_dout;
 input  [10:0] input_r_num_data_valid;
 input  [10:0] input_r_fifo_cap;
 input   input_r_empty_n;
 output   input_r_read;
+output   start_out;
+output   start_write;
 output  [255:0] layer2_out_din;
 input  [10:0] layer2_out_num_data_valid;
 input  [10:0] layer2_out_fifo_cap;
@@ -56,8 +56,8 @@ input   layer2_out_full_n;
 output   layer2_out_write;
 
 reg ap_idle;
-reg start_write;
 reg input_r_read;
+reg start_write;
 reg layer2_out_write;
 
 reg    real_start;
@@ -68,47 +68,50 @@ reg    ap_enable_reg_pp0_iter0;
 reg    ap_enable_reg_pp0_iter1;
 reg    ap_idle_pp0;
 wire    internal_ap_ready;
-reg    ap_done_reg;
-reg    ap_block_state1_pp0_stage0_iter0;
-wire    grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_layer2_out_blk_n;
+wire    ap_CS_fsm_pp0_stage1;
 reg   [0:0] icmp_ln79_reg_276;
-reg    ap_block_state4_pp0_stage0_iter1;
-reg    ap_block_pp0_stage0_subdone;
-wire   [0:0] icmp_ln79_fu_225_p2;
-reg    ap_condition_exit_pp0_iter0_stage0;
+reg    ap_block_state2_pp0_stage1_iter0;
+wire    grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_layer2_out_blk_n;
+reg    ap_block_state5_pp0_stage1_iter1;
+reg    ap_block_pp0_stage1_subdone;
+reg    ap_condition_exit_pp0_iter0_stage1;
 wire    ap_loop_exit_ready;
 reg    ap_ready_int;
 wire    ap_CS_fsm_pp0_stage2;
 wire    ap_block_state3_pp0_stage2_iter0;
-wire    ap_block_pp0_stage2_subdone;
+reg    ap_done_reg;
+reg    ap_block_pp0_stage2_subdone;
 reg    input_r_blk_n;
-wire    ap_CS_fsm_pp0_stage1;
 wire    ap_block_pp0_stage1;
 reg    layer2_out_blk_n;
-wire    ap_block_pp0_stage0;
+wire   [0:0] icmp_ln79_fu_225_p2;
+reg    ap_block_state1_pp0_stage0_iter0;
+wire    ap_block_state4_pp0_stage0_iter1;
 reg    ap_block_pp0_stage0_11001;
 reg    ap_enable_reg_pp0_iter0_reg;
 wire    grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_start;
 wire    grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_done;
 wire    grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_idle;
 wire    grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_ready;
+reg    grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_ce;
 wire   [15:0] grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_p_read;
 wire   [15:0] grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_p_read1;
 wire   [15:0] grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_p_read2;
 wire   [255:0] grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_layer2_out_din;
 wire    grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_layer2_out_write;
-reg    grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_ce;
 reg    ap_block_state2_pp0_stage1_iter0_ignore_call8;
-reg    ap_block_pp0_stage1_11001_ignoreCallOp22;
+wire    ap_block_state5_pp0_stage1_iter1_ignore_call8;
+reg    ap_block_pp0_stage1_11001_ignoreCallOp23;
 wire    ap_block_state3_pp0_stage2_iter0_ignore_call8;
-wire    ap_block_pp0_stage2_11001_ignoreCallOp23;
+reg    ap_block_pp0_stage2_11001_ignoreCallOp24;
 reg    ap_block_state1_pp0_stage0_iter0_ignore_call8;
 wire    ap_block_state4_pp0_stage0_iter1_ignore_call8;
-reg    ap_block_pp0_stage0_11001_ignoreCallOp28;
+reg    ap_block_pp0_stage0_11001_ignoreCallOp25;
 reg    grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_start_reg;
-reg    ap_block_state2_pp0_stage1_iter0;
 reg    ap_block_pp0_stage1_11001;
+wire    ap_block_pp0_stage0;
 wire    ap_block_pp0_stage2;
+reg    ap_block_pp0_stage2_11001;
 reg   [10:0] indvar_flatten_fu_124;
 wire   [10:0] add_ln79_fu_231_p2;
 wire    ap_loop_init;
@@ -116,11 +119,11 @@ reg   [10:0] ap_sig_allocacmp_indvar_flatten_load;
 wire    ap_continue_int;
 reg    ap_done_int;
 reg   [2:0] ap_NS_fsm;
+reg    ap_block_pp0_stage0_subdone;
 reg    ap_idle_pp0_1to1;
-reg    ap_block_pp0_stage1_subdone;
 wire    ap_enable_pp0;
 wire    ap_start_int;
-reg    ap_condition_163;
+reg    ap_condition_160;
 wire    ap_ce_reg;
 
 // power-on initialization
@@ -140,6 +143,7 @@ kernel_wrapper_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_conf
     .ap_done(grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_done),
     .ap_idle(grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_idle),
     .ap_ready(grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_ready),
+    .ap_ce(grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_ce),
     .p_read(grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_p_read),
     .p_read1(grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_p_read1),
     .p_read2(grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_p_read2),
@@ -148,8 +152,7 @@ kernel_wrapper_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_conf
     .layer2_out_fifo_cap(11'd0),
     .layer2_out_full_n(layer2_out_full_n),
     .layer2_out_write(grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_layer2_out_write),
-    .layer2_out_blk_n(grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_layer2_out_blk_n),
-    .ap_ce(grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_ce)
+    .layer2_out_blk_n(grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_layer2_out_blk_n)
 );
 
 kernel_wrapper_flow_control_loop_pipe flow_control_loop_pipe_U(
@@ -161,7 +164,7 @@ kernel_wrapper_flow_control_loop_pipe flow_control_loop_pipe_U(
     .ap_start_int(ap_start_int),
     .ap_loop_init(ap_loop_init),
     .ap_ready_int(ap_ready_int),
-    .ap_loop_exit_ready(ap_condition_exit_pp0_iter0_stage0),
+    .ap_loop_exit_ready(ap_condition_exit_pp0_iter0_stage1),
     .ap_loop_exit_done(ap_done_int),
     .ap_continue_int(ap_continue_int),
     .ap_done_int(ap_done_int),
@@ -182,7 +185,7 @@ always @ (posedge ap_clk) begin
     end else begin
         if ((ap_continue_int == 1'b1)) begin
             ap_done_reg <= 1'b0;
-        end else if (((ap_loop_exit_ready == 1'b1) & (1'b0 == ap_block_pp0_stage0_subdone) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
+        end else if (((ap_loop_exit_ready == 1'b1) & (1'b0 == ap_block_pp0_stage1_subdone) & (1'b1 == ap_CS_fsm_pp0_stage1))) begin
             ap_done_reg <= 1'b1;
         end
     end
@@ -192,7 +195,7 @@ always @ (posedge ap_clk) begin
     if (ap_rst == 1'b1) begin
         ap_enable_reg_pp0_iter0_reg <= 1'b0;
     end else begin
-        if ((1'b1 == ap_condition_exit_pp0_iter0_stage0)) begin
+        if ((1'b1 == ap_condition_exit_pp0_iter0_stage1)) begin
             ap_enable_reg_pp0_iter0_reg <= 1'b0;
         end else if ((1'b1 == ap_CS_fsm_pp0_stage0)) begin
             ap_enable_reg_pp0_iter0_reg <= ap_start_int;
@@ -204,7 +207,7 @@ always @ (posedge ap_clk) begin
     if (ap_rst == 1'b1) begin
         ap_enable_reg_pp0_iter1 <= 1'b0;
     end else begin
-        if (((1'b0 == ap_block_pp0_stage0_subdone) & (ap_enable_reg_pp0_iter1 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
+        if (((1'b0 == ap_block_pp0_stage1_subdone) & (ap_enable_reg_pp0_iter1 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage1))) begin
             ap_enable_reg_pp0_iter1 <= 1'b0;
         end else if (((1'b0 == ap_block_pp0_stage2_subdone) & (1'b1 == ap_CS_fsm_pp0_stage2))) begin
             ap_enable_reg_pp0_iter1 <= ap_enable_reg_pp0_iter0;
@@ -216,7 +219,7 @@ always @ (posedge ap_clk) begin
     if (ap_rst == 1'b1) begin
         grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_start_reg <= 1'b0;
     end else begin
-        if (((icmp_ln79_fu_225_p2 == 1'd0) & (1'b0 == ap_block_pp0_stage0_11001) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
+        if (((1'b0 == ap_block_pp0_stage0_11001) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0) & (icmp_ln79_fu_225_p2 == 1'd0))) begin
             grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_start_reg <= 1'b1;
         end else if ((grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_ready == 1'b1)) begin
             grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_start_reg <= 1'b0;
@@ -237,7 +240,7 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if ((1'b1 == ap_condition_163)) begin
+    if ((1'b1 == ap_condition_160)) begin
         if ((icmp_ln79_fu_225_p2 == 1'd0)) begin
             indvar_flatten_fu_124 <= add_ln79_fu_231_p2;
         end else if ((ap_loop_init == 1'b1)) begin
@@ -253,15 +256,15 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (*) begin
-    if (((icmp_ln79_fu_225_p2 == 1'd1) & (1'b0 == ap_block_pp0_stage0_subdone) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
-        ap_condition_exit_pp0_iter0_stage0 = 1'b1;
+    if (((1'b0 == ap_block_pp0_stage1_subdone) & (icmp_ln79_reg_276 == 1'd1) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage1))) begin
+        ap_condition_exit_pp0_iter0_stage1 = 1'b1;
     end else begin
-        ap_condition_exit_pp0_iter0_stage0 = 1'b0;
+        ap_condition_exit_pp0_iter0_stage1 = 1'b0;
     end
 end
 
 always @ (*) begin
-    if (((ap_loop_exit_ready == 1'b1) & (1'b0 == ap_block_pp0_stage0_subdone) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
+    if (((ap_loop_exit_ready == 1'b1) & (1'b0 == ap_block_pp0_stage1_subdone) & (1'b1 == ap_CS_fsm_pp0_stage1))) begin
         ap_done_int = 1'b1;
     end else begin
         ap_done_int = ap_done_reg;
@@ -317,7 +320,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if ((((1'b0 == ap_block_pp0_stage0_11001_ignoreCallOp28) & (1'b1 == ap_CS_fsm_pp0_stage0)) | ((1'b0 == ap_block_pp0_stage2_11001_ignoreCallOp23) & (1'b1 == ap_CS_fsm_pp0_stage2)) | ((1'b0 == ap_block_pp0_stage1_11001_ignoreCallOp22) & (1'b1 == ap_CS_fsm_pp0_stage1)))) begin
+    if ((((1'b0 == ap_block_pp0_stage0_11001_ignoreCallOp25) & (1'b1 == ap_CS_fsm_pp0_stage0)) | ((1'b0 == ap_block_pp0_stage2_11001_ignoreCallOp24) & (1'b1 == ap_CS_fsm_pp0_stage2)) | ((1'b0 == ap_block_pp0_stage1_11001_ignoreCallOp23) & (1'b1 == ap_CS_fsm_pp0_stage1)))) begin
         grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_ce = 1'b1;
     end else begin
         grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_ap_ce = 1'b0;
@@ -341,7 +344,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if (((1'b0 == ap_block_pp0_stage0) & (icmp_ln79_reg_276 == 1'd0) & (ap_enable_reg_pp0_iter1 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
+    if (((1'b0 == ap_block_pp0_stage1) & (ap_enable_reg_pp0_iter1 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage1))) begin
         layer2_out_blk_n = grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_layer2_out_blk_n;
     end else begin
         layer2_out_blk_n = 1'b1;
@@ -349,7 +352,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if (((1'b0 == ap_block_pp0_stage0) & (icmp_ln79_reg_276 == 1'd0) & (ap_enable_reg_pp0_iter1 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
+    if (((1'b0 == ap_block_pp0_stage1) & (ap_enable_reg_pp0_iter1 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage1))) begin
         layer2_out_write = grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_layer2_out_write;
     end else begin
         layer2_out_write = 1'b0;
@@ -375,16 +378,16 @@ end
 always @ (*) begin
     case (ap_CS_fsm)
         ap_ST_fsm_pp0_stage0 : begin
-            if ((1'b1 == ap_condition_exit_pp0_iter0_stage0)) begin
-                ap_NS_fsm = ap_ST_fsm_pp0_stage0;
-            end else if ((~((ap_start_int == 1'b0) & (ap_idle_pp0_1to1 == 1'b1)) & (1'b0 == ap_block_pp0_stage0_subdone))) begin
+            if ((~((ap_start_int == 1'b0) & (ap_idle_pp0_1to1 == 1'b1)) & (1'b0 == ap_block_pp0_stage0_subdone))) begin
                 ap_NS_fsm = ap_ST_fsm_pp0_stage1;
             end else begin
                 ap_NS_fsm = ap_ST_fsm_pp0_stage0;
             end
         end
         ap_ST_fsm_pp0_stage1 : begin
-            if ((1'b0 == ap_block_pp0_stage1_subdone)) begin
+            if ((1'b1 == ap_condition_exit_pp0_iter0_stage1)) begin
+                ap_NS_fsm = ap_ST_fsm_pp0_stage0;
+            end else if ((1'b0 == ap_block_pp0_stage1_subdone)) begin
                 ap_NS_fsm = ap_ST_fsm_pp0_stage2;
             end else begin
                 ap_NS_fsm = ap_ST_fsm_pp0_stage1;
@@ -414,36 +417,44 @@ assign ap_CS_fsm_pp0_stage2 = ap_CS_fsm[32'd2];
 assign ap_block_pp0_stage0 = ~(1'b1 == 1'b1);
 
 always @ (*) begin
-    ap_block_pp0_stage0_11001 = (((icmp_ln79_reg_276 == 1'd0) & (grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_layer2_out_blk_n == 1'b0) & (ap_enable_reg_pp0_iter1 == 1'b1)) | ((ap_done_reg == 1'b1) & (ap_enable_reg_pp0_iter0 == 1'b1)));
+    ap_block_pp0_stage0_11001 = ((ap_done_reg == 1'b1) & (ap_enable_reg_pp0_iter0 == 1'b1));
 end
 
 always @ (*) begin
-    ap_block_pp0_stage0_11001_ignoreCallOp28 = ((ap_done_reg == 1'b1) & (ap_enable_reg_pp0_iter0 == 1'b1));
+    ap_block_pp0_stage0_11001_ignoreCallOp25 = ((ap_done_reg == 1'b1) & (ap_enable_reg_pp0_iter0 == 1'b1));
 end
 
 always @ (*) begin
-    ap_block_pp0_stage0_subdone = (((icmp_ln79_reg_276 == 1'd0) & (grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_layer2_out_blk_n == 1'b0) & (ap_enable_reg_pp0_iter1 == 1'b1)) | ((ap_done_reg == 1'b1) & (ap_enable_reg_pp0_iter0 == 1'b1)));
+    ap_block_pp0_stage0_subdone = ((ap_done_reg == 1'b1) & (ap_enable_reg_pp0_iter0 == 1'b1));
 end
 
 assign ap_block_pp0_stage1 = ~(1'b1 == 1'b1);
 
 always @ (*) begin
-    ap_block_pp0_stage1_11001 = ((ap_done_reg == 1'b1) | ((input_r_empty_n == 1'b0) & (icmp_ln79_reg_276 == 1'd0) & (ap_enable_reg_pp0_iter0 == 1'b1)));
+    ap_block_pp0_stage1_11001 = (((grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_layer2_out_blk_n == 1'b0) & (ap_enable_reg_pp0_iter1 == 1'b1)) | ((icmp_ln79_reg_276 == 1'd0) & (input_r_empty_n == 1'b0) & (ap_enable_reg_pp0_iter0 == 1'b1)));
 end
 
 always @ (*) begin
-    ap_block_pp0_stage1_11001_ignoreCallOp22 = ((ap_done_reg == 1'b1) | ((input_r_empty_n == 1'b0) & (icmp_ln79_reg_276 == 1'd0) & (ap_enable_reg_pp0_iter0 == 1'b1)));
+    ap_block_pp0_stage1_11001_ignoreCallOp23 = ((icmp_ln79_reg_276 == 1'd0) & (input_r_empty_n == 1'b0) & (ap_enable_reg_pp0_iter0 == 1'b1));
 end
 
 always @ (*) begin
-    ap_block_pp0_stage1_subdone = ((ap_done_reg == 1'b1) | ((input_r_empty_n == 1'b0) & (icmp_ln79_reg_276 == 1'd0) & (ap_enable_reg_pp0_iter0 == 1'b1)));
+    ap_block_pp0_stage1_subdone = (((grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_layer2_out_blk_n == 1'b0) & (ap_enable_reg_pp0_iter1 == 1'b1)) | ((icmp_ln79_reg_276 == 1'd0) & (input_r_empty_n == 1'b0) & (ap_enable_reg_pp0_iter0 == 1'b1)));
 end
 
 assign ap_block_pp0_stage2 = ~(1'b1 == 1'b1);
 
-assign ap_block_pp0_stage2_11001_ignoreCallOp23 = ~(1'b1 == 1'b1);
+always @ (*) begin
+    ap_block_pp0_stage2_11001 = (ap_done_reg == 1'b1);
+end
 
-assign ap_block_pp0_stage2_subdone = ~(1'b1 == 1'b1);
+always @ (*) begin
+    ap_block_pp0_stage2_11001_ignoreCallOp24 = (ap_done_reg == 1'b1);
+end
+
+always @ (*) begin
+    ap_block_pp0_stage2_subdone = (ap_done_reg == 1'b1);
+end
 
 always @ (*) begin
     ap_block_state1_pp0_stage0_iter0 = (ap_done_reg == 1'b1);
@@ -454,30 +465,34 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    ap_block_state2_pp0_stage1_iter0 = ((input_r_empty_n == 1'b0) & (icmp_ln79_reg_276 == 1'd0));
+    ap_block_state2_pp0_stage1_iter0 = ((icmp_ln79_reg_276 == 1'd0) & (input_r_empty_n == 1'b0));
 end
 
 always @ (*) begin
-    ap_block_state2_pp0_stage1_iter0_ignore_call8 = ((input_r_empty_n == 1'b0) & (icmp_ln79_reg_276 == 1'd0));
+    ap_block_state2_pp0_stage1_iter0_ignore_call8 = ((icmp_ln79_reg_276 == 1'd0) & (input_r_empty_n == 1'b0));
 end
 
 assign ap_block_state3_pp0_stage2_iter0 = ~(1'b1 == 1'b1);
 
 assign ap_block_state3_pp0_stage2_iter0_ignore_call8 = ~(1'b1 == 1'b1);
 
-always @ (*) begin
-    ap_block_state4_pp0_stage0_iter1 = ((icmp_ln79_reg_276 == 1'd0) & (grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_layer2_out_blk_n == 1'b0));
-end
+assign ap_block_state4_pp0_stage0_iter1 = ~(1'b1 == 1'b1);
 
 assign ap_block_state4_pp0_stage0_iter1_ignore_call8 = ~(1'b1 == 1'b1);
 
 always @ (*) begin
-    ap_condition_163 = ((1'b0 == ap_block_pp0_stage0_11001) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0));
+    ap_block_state5_pp0_stage1_iter1 = (grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_layer2_out_blk_n == 1'b0);
+end
+
+assign ap_block_state5_pp0_stage1_iter1_ignore_call8 = ~(1'b1 == 1'b1);
+
+always @ (*) begin
+    ap_condition_160 = ((1'b0 == ap_block_pp0_stage0_11001) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0));
 end
 
 assign ap_enable_pp0 = (ap_idle_pp0 ^ 1'b1);
 
-assign ap_loop_exit_ready = ap_condition_exit_pp0_iter0_stage0;
+assign ap_loop_exit_ready = ap_condition_exit_pp0_iter0_stage1;
 
 assign ap_ready = internal_ap_ready;
 

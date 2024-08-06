@@ -449,9 +449,9 @@
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="6" bw="13" op_0_bw="13" op_1_bw="13">
+<Node id="6" bw="14" op_0_bw="14" op_1_bw="14">
 <![CDATA[
-entry:0 %n_read = read i13 @_ssdm_op_Read.ap_auto.i13, i13 %n
+entry:0 %n_read = read i14 @_ssdm_op_Read.ap_auto.i14, i14 %n
 
 ]]></Node>
 <StgValue><ssdm name="n_read"/></StgValue>
@@ -479,9 +479,9 @@ entry:1 %in_r_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %in_r
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="9" bw="0" op_0_bw="0" op_1_bw="13" op_2_bw="13">
+<Node id="9" bw="0" op_0_bw="0" op_1_bw="14" op_2_bw="14">
 <![CDATA[
-entry:3 %write_ln0 = write void @_ssdm_op_Write.ap_fifo.i13P0A, i13 %n_c, i13 %n_read
+entry:3 %write_ln0 = write void @_ssdm_op_Write.ap_fifo.i14P0A, i14 %n_c, i14 %n_read
 
 ]]></Node>
 <StgValue><ssdm name="write_ln0"/></StgValue>
@@ -494,9 +494,9 @@ entry:3 %write_ln0 = write void @_ssdm_op_Write.ap_fifo.i13P0A, i13 %n_c, i13 %n
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="12" bw="25" op_0_bw="25" op_1_bw="13" op_2_bw="12">
+<Node id="12" bw="26" op_0_bw="26" op_1_bw="14" op_2_bw="12">
 <![CDATA[
-entry:6 %p_shl_i = bitconcatenate i25 @_ssdm_op_BitConcatenate.i25.i13.i12, i13 %n_read, i12 0
+entry:6 %p_shl_i = bitconcatenate i26 @_ssdm_op_BitConcatenate.i26.i14.i12, i14 %n_read, i12 0
 
 ]]></Node>
 <StgValue><ssdm name="p_shl_i"/></StgValue>
@@ -509,9 +509,9 @@ entry:6 %p_shl_i = bitconcatenate i25 @_ssdm_op_BitConcatenate.i25.i13.i12, i13 
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="13" bw="26" op_0_bw="25">
+<Node id="13" bw="27" op_0_bw="26">
 <![CDATA[
-entry:7 %p_shl_cast4_i = zext i25 %p_shl_i
+entry:7 %p_shl_cast4_i = zext i26 %p_shl_i
 
 ]]></Node>
 <StgValue><ssdm name="p_shl_cast4_i"/></StgValue>
@@ -524,9 +524,9 @@ entry:7 %p_shl_cast4_i = zext i25 %p_shl_i
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="14" bw="23" op_0_bw="23" op_1_bw="13" op_2_bw="10">
+<Node id="14" bw="24" op_0_bw="24" op_1_bw="14" op_2_bw="10">
 <![CDATA[
-entry:8 %p_shl1_i = bitconcatenate i23 @_ssdm_op_BitConcatenate.i23.i13.i10, i13 %n_read, i10 0
+entry:8 %p_shl1_i = bitconcatenate i24 @_ssdm_op_BitConcatenate.i24.i14.i10, i14 %n_read, i10 0
 
 ]]></Node>
 <StgValue><ssdm name="p_shl1_i"/></StgValue>
@@ -539,9 +539,9 @@ entry:8 %p_shl1_i = bitconcatenate i23 @_ssdm_op_BitConcatenate.i23.i13.i10, i13
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="15" bw="26" op_0_bw="23">
+<Node id="15" bw="27" op_0_bw="24">
 <![CDATA[
-entry:9 %p_shl1_cast5_i = zext i23 %p_shl1_i
+entry:9 %p_shl1_cast5_i = zext i24 %p_shl1_i
 
 ]]></Node>
 <StgValue><ssdm name="p_shl1_cast5_i"/></StgValue>
@@ -554,9 +554,9 @@ entry:9 %p_shl1_cast5_i = zext i23 %p_shl1_i
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="16" bw="26" op_0_bw="26" op_1_bw="26">
+<Node id="16" bw="27" op_0_bw="27" op_1_bw="27">
 <![CDATA[
-entry:10 %mul7_i = sub i26 %p_shl_cast4_i, i26 %p_shl1_cast5_i
+entry:10 %mul7_i = sub i27 %p_shl_cast4_i, i27 %p_shl1_cast5_i
 
 ]]></Node>
 <StgValue><ssdm name="mul7_i"/></StgValue>
@@ -569,9 +569,9 @@ entry:10 %mul7_i = sub i26 %p_shl_cast4_i, i26 %p_shl1_cast5_i
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="17" bw="27" op_0_bw="27" op_1_bw="26" op_2_bw="1">
+<Node id="17" bw="28" op_0_bw="28" op_1_bw="27" op_2_bw="1">
 <![CDATA[
-entry:11 %tmp_i = bitconcatenate i27 @_ssdm_op_BitConcatenate.i27.i26.i1, i26 %mul7_i, i1 0
+entry:11 %tmp_i = bitconcatenate i28 @_ssdm_op_BitConcatenate.i28.i27.i1, i27 %mul7_i, i1 0
 
 ]]></Node>
 <StgValue><ssdm name="tmp_i"/></StgValue>
@@ -584,9 +584,9 @@ entry:11 %tmp_i = bitconcatenate i27 @_ssdm_op_BitConcatenate.i27.i26.i1, i26 %m
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="18" bw="64" op_0_bw="27">
+<Node id="18" bw="64" op_0_bw="28">
 <![CDATA[
-entry:12 %sext_ln5 = sext i27 %tmp_i
+entry:12 %sext_ln5 = sext i28 %tmp_i
 
 ]]></Node>
 <StgValue><ssdm name="sext_ln5"/></StgValue>
@@ -1955,9 +1955,9 @@ entry:19 %call_ln5 = call void @read_input_Pipeline_VITIS_LOOP_5_1, i16 %gmem0, 
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="8" bw="0" op_0_bw="0" op_1_bw="13" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<Node id="8" bw="0" op_0_bw="0" op_1_bw="14" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
 <![CDATA[
-entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i13 %n_c, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @ScalarProp_str, i32 4294967295, i32 0
+entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i14 %n_c, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @ScalarProp_str, i32 4294967295, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -2046,7 +2046,7 @@ entry:20 %ret_ln38 = ret
 
 
 <dataflows>
-<dataflow id="243" from="_ssdm_op_Read.ap_auto.i13" to="n_read" fromId="242" toId="74">
+<dataflow id="243" from="_ssdm_op_Read.ap_auto.i14" to="n_read" fromId="242" toId="74">
 </dataflow>
 <dataflow id="244" from="n" to="n_read" fromId="240" toId="74">
 </dataflow>
@@ -2054,13 +2054,13 @@ entry:20 %ret_ln38 = ret
 </dataflow>
 <dataflow id="247" from="in_r" to="in_r_read" fromId="238" toId="75">
 </dataflow>
-<dataflow id="249" from="_ssdm_op_Write.ap_fifo.i13P0A" to="write_ln0" fromId="248" toId="76">
+<dataflow id="249" from="_ssdm_op_Write.ap_fifo.i14P0A" to="write_ln0" fromId="248" toId="76">
 </dataflow>
 <dataflow id="250" from="n_c" to="write_ln0" fromId="241" toId="76">
 </dataflow>
 <dataflow id="251" from="n_read" to="write_ln0" fromId="74" toId="76">
 </dataflow>
-<dataflow id="253" from="_ssdm_op_BitConcatenate.i25.i13.i12" to="p_shl_i" fromId="252" toId="77">
+<dataflow id="253" from="_ssdm_op_BitConcatenate.i26.i14.i12" to="p_shl_i" fromId="252" toId="77">
 </dataflow>
 <dataflow id="254" from="n_read" to="p_shl_i" fromId="74" toId="77">
 </dataflow>
@@ -2068,7 +2068,7 @@ entry:20 %ret_ln38 = ret
 </dataflow>
 <dataflow id="257" from="p_shl_i" to="p_shl_cast4_i" fromId="77" toId="78">
 </dataflow>
-<dataflow id="259" from="_ssdm_op_BitConcatenate.i23.i13.i10" to="p_shl1_i" fromId="258" toId="79">
+<dataflow id="259" from="_ssdm_op_BitConcatenate.i24.i14.i10" to="p_shl1_i" fromId="258" toId="79">
 </dataflow>
 <dataflow id="260" from="n_read" to="p_shl1_i" fromId="74" toId="79">
 </dataflow>
@@ -2080,7 +2080,7 @@ entry:20 %ret_ln38 = ret
 </dataflow>
 <dataflow id="265" from="p_shl1_cast5_i" to="mul7_i" fromId="80" toId="81">
 </dataflow>
-<dataflow id="267" from="_ssdm_op_BitConcatenate.i27.i26.i1" to="tmp_i" fromId="266" toId="82">
+<dataflow id="267" from="_ssdm_op_BitConcatenate.i28.i27.i1" to="tmp_i" fromId="266" toId="82">
 </dataflow>
 <dataflow id="268" from="mul7_i" to="tmp_i" fromId="81" toId="82">
 </dataflow>

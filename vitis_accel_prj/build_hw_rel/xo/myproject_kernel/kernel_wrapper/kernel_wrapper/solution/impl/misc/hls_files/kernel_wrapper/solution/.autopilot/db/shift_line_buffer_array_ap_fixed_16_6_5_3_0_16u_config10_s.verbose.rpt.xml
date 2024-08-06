@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config10_s'" level="0">
-<item name = "Date">Thu Jul  4 18:59:31 2024
+<item name = "Date">Fri Aug  2 18:54:28 2024
 </item>
 <item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
 <item name = "Project">kernel_wrapper</item>

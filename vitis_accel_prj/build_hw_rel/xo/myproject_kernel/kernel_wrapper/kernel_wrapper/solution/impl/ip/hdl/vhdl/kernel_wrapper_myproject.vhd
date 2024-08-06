@@ -39,9 +39,9 @@ attribute shreg_extract : string;
     signal conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_ap_continue : STD_LOGIC;
     signal conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_ap_idle : STD_LOGIC;
     signal conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_ap_ready : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_input_r_read : STD_LOGIC;
     signal conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_start_out : STD_LOGIC;
     signal conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_start_write : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_input_r_read : STD_LOGIC;
     signal conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_layer2_out_din : STD_LOGIC_VECTOR (255 downto 0);
     signal conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_layer2_out_write : STD_LOGIC;
     signal relu_array_ap_fixed_16u_array_ap_ufixed_6_0_4_0_0_16u_relu_config4_U0_ap_start : STD_LOGIC;
@@ -357,13 +357,13 @@ attribute shreg_extract : string;
         ap_continue : IN STD_LOGIC;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
-        start_out : OUT STD_LOGIC;
-        start_write : OUT STD_LOGIC;
         input_r_dout : IN STD_LOGIC_VECTOR (47 downto 0);
         input_r_num_data_valid : IN STD_LOGIC_VECTOR (10 downto 0);
         input_r_fifo_cap : IN STD_LOGIC_VECTOR (10 downto 0);
         input_r_empty_n : IN STD_LOGIC;
         input_r_read : OUT STD_LOGIC;
+        start_out : OUT STD_LOGIC;
+        start_write : OUT STD_LOGIC;
         layer2_out_din : OUT STD_LOGIC_VECTOR (255 downto 0);
         layer2_out_num_data_valid : IN STD_LOGIC_VECTOR (10 downto 0);
         layer2_out_fifo_cap : IN STD_LOGIC_VECTOR (10 downto 0);
@@ -1259,13 +1259,13 @@ begin
         ap_continue => conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_ap_continue,
         ap_idle => conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_ap_idle,
         ap_ready => conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_ap_ready,
-        start_out => conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_start_out,
-        start_write => conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_start_write,
         input_r_dout => input_r_dout,
         input_r_num_data_valid => ap_const_lv11_0,
         input_r_fifo_cap => ap_const_lv11_0,
         input_r_empty_n => input_r_empty_n,
         input_r_read => conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_input_r_read,
+        start_out => conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_start_out,
+        start_write => conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_start_write,
         layer2_out_din => conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0_layer2_out_din,
         layer2_out_num_data_valid => layer2_out_num_data_valid,
         layer2_out_fifo_cap => layer2_out_fifo_cap,

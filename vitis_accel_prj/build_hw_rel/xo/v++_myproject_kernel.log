@@ -1,8 +1,8 @@
 INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
 	Reports: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/reports/myproject_kernel
 	Log files: /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel
-INFO: [v++ 60-1548] Creating build summary session with primary output /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/myproject_kernel.xo.compile_summary, at Thu Jul  4 18:25:02 2024
-INFO: [v++ 60-1315] Creating rulecheck session with output '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/reports/myproject_kernel/v++_compile_myproject_kernel_guidance.html', at Thu Jul  4 18:25:03 2024
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/myproject_kernel.xo.compile_summary, at Fri Aug  2 18:18:47 2024
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xo/reports/myproject_kernel/v++_compile_myproject_kernel_guidance.html', at Fri Aug  2 18:18:47 2024
 INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u55c_gen3x16_xdma_3_202210_1/xilinx_u55c_gen3x16_xdma_3_202210_1.xpfm
 INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u55c_gen3x16_xdma_3_202210_1/hw/hw.xsa'
 INFO: [v++ 74-78] Compiler Version string: 2022.2
@@ -19,9 +19,9 @@ INFO: [v++ 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1
 INFO: [v++ 204-61] Pipelining function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2_mult>'.
 INFO: [v++ 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2_mult>'
 INFO: [v++ 204-61] Pipelining function 'compute_output_buffer_2d<array,array<ap_fixed<16,6,5,3,0>,16u>,config2>'.
-INFO: [v++ 200-1470] Pipelining result : Target II = NA, Final II = 3, Depth = 3, function 'compute_output_buffer_2d<array,array<ap_fixed<16,6,5,3,0>,16u>,config2>'
+INFO: [v++ 200-1470] Pipelining result : Target II = NA, Final II = 3, Depth = 4, function 'compute_output_buffer_2d<array,array<ap_fixed<16,6,5,3,0>,16u>,config2>'
 INFO: [v++ 204-61] Pipelining loop 'ReadInputHeight_ReadInputWidth'.
-INFO: [v++ 200-1470] Pipelining result : Target II = NA, Final II = 3, Depth = 4, loop 'ReadInputHeight_ReadInputWidth'
+INFO: [v++ 200-1470] Pipelining result : Target II = NA, Final II = 3, Depth = 5, loop 'ReadInputHeight_ReadInputWidth'
 INFO: [v++ 204-61] Pipelining loop 'ReLUActLoop'.
 INFO: [v++ 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'ReLUActLoop'
 INFO: [v++ 204-61] Pipelining loop 'ReadInputHeight_ReadInputWidth'.
@@ -54,5 +54,5 @@ INFO: [v++ 60-1092] Generated system estimate report: /home/ayvol/vitis-accel-CN
 INFO: [v++ 60-586] Created build_hw_rel/myproject_kernel.xo
 INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
     vitis_analyzer /home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/myproject_kernel.xo.compile_summary 
-INFO: [v++ 60-791] Total elapsed time: 0h 48m 33s
+INFO: [v++ 60-791] Total elapsed time: 0h 48m 58s
 INFO: [v++ 60-1653] Closing dispatch client.

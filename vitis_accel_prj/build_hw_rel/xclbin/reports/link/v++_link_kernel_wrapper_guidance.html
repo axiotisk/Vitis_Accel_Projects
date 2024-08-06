@@ -3407,7 +3407,7 @@ window.onload = function () { addSorting(); }
 <center><h1>Design Guidance Report</h1></center><center><table class="header" border="0">
 <tr><td><b>Copyright</b></td><td>Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.</td></tr>
 <tr><td><b>Tool Version</b></td><td>xcd v.2022.2 (lin64) Build 0 </td></tr>
-<tr><td><b>Date</b></td><td>Fri Jul  5 00:33:15 2024</td></tr>
+<tr><td><b>Date</b></td><td>Sat Aug  3 00:39:22 2024</td></tr>
 <tr><td><b>Host</b></td><td>egl running 64-bit Ubuntu 20.04.4 LTS</td></tr>
 <tr><td><b>Command</b></td><td>/tools/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/v++  --vivado.prop "run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}" --advanced.misc "report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}" --advanced.misc "report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}" -l -t hw --config accelerator_card.cfg --messageDb=./build_hw_rel/kernel_wrapper.mdb --temp_dir ./build_hw_rel/xclbin --log_dir ./build_hw_rel/xclbin -o build_hw_rel/kernel_wrapper.xclbin build_hw_rel/myproject_kernel.xo </td></tr>
 </table></center><br>
@@ -3439,24 +3439,24 @@ window.onload = function () { addSorting(); }
 <th align="left" width="380">Resolution</th>
 </tr>
 <tr>
-<td align="left">1</td>
-<td align="left">AUTO-FREQ-SCALING-04</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">Auto frequency scaling - Kernel timing failure</td>
-<td align="left">Accelerator.kernel_wrapper.Performance</td>
-<td align="left">One or more timing paths failed timing requirements. The kernel clock ulp_ucs/aclk_kernel_00 has an original frequency equal to 300.000000 MHz. The frequency has been automatically changed to 191.6 MHz to enable proper functionality. The clock Id is 0.</td>
-<td align="left">The automatic frequency scaling feature allows user kernels to operate in hardware, even if at a lower frequency than intended. <a href="https://www.xilinx.com/cgi-bin/docs/rdoc?t=vitis+guidance;v=2022.2;d=AUTO-FREQ-SCALING-04.html">This page</a> describes how to examine timing path violations.</td>
-</tr>
-<tr>
 <td align="left">2</td>
 <td align="left">AUTO-FREQ-SCALING-08</td>
 <td align="left">ADVISORY</td>
 <td align="left"><undefined></td>
 <td align="left">Auto frequency scaling - Higher frequency possible</td>
 <td align="left">Accelerator.kernel_wrapper.Performance</td>
-<td align="left">For clock <a href="file:///home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/vivado/vpl/prj/prj.runs/impl_1/dr_timing_summary.rpt">hbm_aclk</a>, the auto scaled frequency 464.2 MHz exceeds the original specified frequency. The compiler will select the original specified frequency of 450.0 MHz.</td>
+<td align="left">For clock <a href="file:///home/ayvol/vitis-accel-CNN/vitis_accel_prj/build_hw_rel/xclbin/link/vivado/vpl/prj/prj.runs/impl_1/dr_timing_summary.rpt">hbm_aclk</a>, the auto scaled frequency 462.3 MHz exceeds the original specified frequency. The compiler will select the original specified frequency of 450.0 MHz.</td>
 <td align="left">The automatic frequency scaling feature allows user kernels to operate in hardware, even if at a lower frequency than intended. In this case the clock may in fact be able to run at a higher frequency than specified. You may want to consider <a href="https://www.xilinx.com/cgi-bin/docs/rdoc?t=vitis+guidance;v=2022.2;d=AUTO-FREQ-SCALING-08.html">setting</a> the clock frequency higher for better performance. The '--kernel_frequency' option is one way to control the frequency specification.</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">AUTO-FREQ-SCALING-04</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">Auto frequency scaling - Kernel timing failure</td>
+<td align="left">Accelerator.kernel_wrapper.Performance</td>
+<td align="left">One or more timing paths failed timing requirements. The kernel clock ulp_ucs/aclk_kernel_00 has an original frequency equal to 300.000000 MHz. The frequency has been automatically changed to 172.3 MHz to enable proper functionality. The clock Id is 0.</td>
+<td align="left">The automatic frequency scaling feature allows user kernels to operate in hardware, even if at a lower frequency than intended. <a href="https://www.xilinx.com/cgi-bin/docs/rdoc?t=vitis+guidance;v=2022.2;d=AUTO-FREQ-SCALING-04.html">This page</a> describes how to examine timing path violations.</td>
 </tr>
 </table>
 <br>
@@ -3482,7 +3482,7 @@ window.onload = function () { addSorting(); }
 <td align="left"></td>
 <td align="left">The compiler selected the following frequencies for the runtime controllable kernel clock(s) and scalable system clock(s): 
 Kernel: ulp_ucs/aclk_kernel_01 = 500.0 MHz 
-Kernel: ulp_ucs/aclk_kernel_00 = 191.6 MHz 
+Kernel: ulp_ucs/aclk_kernel_00 = 172.3 MHz 
 System: hbm_aclk = 450.0 MHz 
 Scalable clock ulp_ucs/aclk_kernel_01 (Id = 1) is used for rtl kernels. This design has 0 rtl kernel(s).
 Scalable clock ulp_ucs/aclk_kernel_00 (Id = 0) is used for hls kernels. This design has 4 hls kernel(s).</td>

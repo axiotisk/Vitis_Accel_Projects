@@ -58,7 +58,7 @@ port (
     m_axi_gmem0_BID : IN STD_LOGIC_VECTOR (0 downto 0);
     m_axi_gmem0_BUSER : IN STD_LOGIC_VECTOR (0 downto 0);
     in_r : IN STD_LOGIC_VECTOR (63 downto 0);
-    n : IN STD_LOGIC_VECTOR (13 downto 0);
+    n : IN STD_LOGIC_VECTOR (14 downto 0);
     m_axi_gmem1_AWVALID : OUT STD_LOGIC;
     m_axi_gmem1_AWREADY : IN STD_LOGIC;
     m_axi_gmem1_AWADDR : OUT STD_LOGIC_VECTOR (63 downto 0);
@@ -122,8 +122,8 @@ end;
 architecture behav of kernel_wrapper_dataflow_in_loop_VITIS_LOOP_36_1 is 
     constant ap_const_logic_1 : STD_LOGIC := '1';
     constant ap_const_logic_0 : STD_LOGIC := '0';
-    constant ap_const_lv14_0 : STD_LOGIC_VECTOR (13 downto 0) := "00000000000000";
-    constant ap_const_lv14_D : STD_LOGIC_VECTOR (13 downto 0) := "00000000001101";
+    constant ap_const_lv15_0 : STD_LOGIC_VECTOR (14 downto 0) := "000000000000000";
+    constant ap_const_lv15_E : STD_LOGIC_VECTOR (14 downto 0) := "000000000001110";
     constant ap_const_lv2_0 : STD_LOGIC_VECTOR (1 downto 0) := "00";
     constant ap_const_lv1_0 : STD_LOGIC_VECTOR (0 downto 0) := "0";
     constant ap_const_lv32_0 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000000";
@@ -185,8 +185,8 @@ attribute shreg_extract : string;
     signal read_input_U0_m_axi_gmem0_BREADY : STD_LOGIC;
     signal read_input_U0_input1_din : STD_LOGIC_VECTOR (47 downto 0);
     signal read_input_U0_input1_write : STD_LOGIC;
-    signal read_input_U0_n : STD_LOGIC_VECTOR (12 downto 0);
-    signal read_input_U0_n_c_din : STD_LOGIC_VECTOR (12 downto 0);
+    signal read_input_U0_n : STD_LOGIC_VECTOR (13 downto 0);
+    signal read_input_U0_n_c_din : STD_LOGIC_VECTOR (13 downto 0);
     signal read_input_U0_n_c_write : STD_LOGIC;
     signal myproject_U0_input_r_read : STD_LOGIC;
     signal myproject_U0_output_r_din : STD_LOGIC_VECTOR (159 downto 0);
@@ -247,7 +247,7 @@ attribute shreg_extract : string;
     signal input1_fifo_cap : STD_LOGIC_VECTOR (10 downto 0);
     signal input1_empty_n : STD_LOGIC;
     signal n_c_full_n : STD_LOGIC;
-    signal n_c_dout : STD_LOGIC_VECTOR (12 downto 0);
+    signal n_c_dout : STD_LOGIC_VECTOR (13 downto 0);
     signal n_c_num_data_valid : STD_LOGIC_VECTOR (2 downto 0);
     signal n_c_fifo_cap : STD_LOGIC_VECTOR (2 downto 0);
     signal n_c_empty_n : STD_LOGIC;
@@ -356,8 +356,8 @@ attribute shreg_extract : string;
         input1_fifo_cap : IN STD_LOGIC_VECTOR (10 downto 0);
         input1_full_n : IN STD_LOGIC;
         input1_write : OUT STD_LOGIC;
-        n : IN STD_LOGIC_VECTOR (12 downto 0);
-        n_c_din : OUT STD_LOGIC_VECTOR (12 downto 0);
+        n : IN STD_LOGIC_VECTOR (13 downto 0);
+        n_c_din : OUT STD_LOGIC_VECTOR (13 downto 0);
         n_c_num_data_valid : IN STD_LOGIC_VECTOR (2 downto 0);
         n_c_fifo_cap : IN STD_LOGIC_VECTOR (2 downto 0);
         n_c_full_n : IN STD_LOGIC;
@@ -448,7 +448,7 @@ attribute shreg_extract : string;
         output_r_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
         output_r_empty_n : IN STD_LOGIC;
         output_r_read : OUT STD_LOGIC;
-        n_dout : IN STD_LOGIC_VECTOR (12 downto 0);
+        n_dout : IN STD_LOGIC_VECTOR (13 downto 0);
         n_num_data_valid : IN STD_LOGIC_VECTOR (2 downto 0);
         n_fifo_cap : IN STD_LOGIC_VECTOR (2 downto 0);
         n_empty_n : IN STD_LOGIC;
@@ -490,16 +490,16 @@ attribute shreg_extract : string;
     end component;
 
 
-    component kernel_wrapper_fifo_w13_d3_S IS
+    component kernel_wrapper_fifo_w14_d3_S IS
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
         if_read_ce : IN STD_LOGIC;
         if_write_ce : IN STD_LOGIC;
-        if_din : IN STD_LOGIC_VECTOR (12 downto 0);
+        if_din : IN STD_LOGIC_VECTOR (13 downto 0);
         if_full_n : OUT STD_LOGIC;
         if_write : IN STD_LOGIC;
-        if_dout : OUT STD_LOGIC_VECTOR (12 downto 0);
+        if_dout : OUT STD_LOGIC_VECTOR (13 downto 0);
         if_num_data_valid : OUT STD_LOGIC_VECTOR (2 downto 0);
         if_fifo_cap : OUT STD_LOGIC_VECTOR (2 downto 0);
         if_empty_n : OUT STD_LOGIC;
@@ -763,7 +763,7 @@ begin
         if_empty_n => input1_empty_n,
         if_read => myproject_U0_input_r_read);
 
-    n_c_U : component kernel_wrapper_fifo_w13_d3_S
+    n_c_U : component kernel_wrapper_fifo_w14_d3_S
     port map (
         clk => ap_clk,
         reset => ap_rst,
@@ -932,24 +932,24 @@ begin
     read_input_U0_ap_start <= ((ap_sync_reg_read_input_U0_ap_ready xor ap_const_logic_1) and ap_start);
     
     read_input_U0_n_proc : process(n)
-    variable vlo_cpy : STD_LOGIC_VECTOR(14+14 - 1 downto 0);
-    variable vhi_cpy : STD_LOGIC_VECTOR(14+14 - 1 downto 0);
-    variable v0_cpy : STD_LOGIC_VECTOR(14 - 1 downto 0);
+    variable vlo_cpy : STD_LOGIC_VECTOR(15+15 - 1 downto 0);
+    variable vhi_cpy : STD_LOGIC_VECTOR(15+15 - 1 downto 0);
+    variable v0_cpy : STD_LOGIC_VECTOR(15 - 1 downto 0);
     variable read_input_U0_n_i : integer;
-    variable section : STD_LOGIC_VECTOR(14 - 1 downto 0);
-    variable tmp_mask : STD_LOGIC_VECTOR(14 - 1 downto 0);
-    variable resvalue, res_value, res_mask : STD_LOGIC_VECTOR(14 - 1 downto 0);
+    variable section : STD_LOGIC_VECTOR(15 - 1 downto 0);
+    variable tmp_mask : STD_LOGIC_VECTOR(15 - 1 downto 0);
+    variable resvalue, res_value, res_mask : STD_LOGIC_VECTOR(15 - 1 downto 0);
     begin
         vlo_cpy := (others => '0');
-        vlo_cpy(4 - 1 downto 0) := ap_const_lv14_0(4 - 1 downto 0);
+        vlo_cpy(4 - 1 downto 0) := ap_const_lv15_0(4 - 1 downto 0);
         vhi_cpy := (others => '0');
-        vhi_cpy(4 - 1 downto 0) := ap_const_lv14_D(4 - 1 downto 0);
+        vhi_cpy(4 - 1 downto 0) := ap_const_lv15_E(4 - 1 downto 0);
         v0_cpy := n;
         if (vlo_cpy(4 - 1 downto 0) > vhi_cpy(4 - 1 downto 0)) then
-            vhi_cpy(4-1 downto 0) := std_logic_vector(14-1-unsigned(ap_const_lv14_D(4-1 downto 0)));
-            vlo_cpy(4-1 downto 0) := std_logic_vector(14-1-unsigned(ap_const_lv14_0(4-1 downto 0)));
-            for read_input_U0_n_i in 0 to 14-1 loop
-                v0_cpy(read_input_U0_n_i) := n(14-1-read_input_U0_n_i);
+            vhi_cpy(4-1 downto 0) := std_logic_vector(15-1-unsigned(ap_const_lv15_E(4-1 downto 0)));
+            vlo_cpy(4-1 downto 0) := std_logic_vector(15-1-unsigned(ap_const_lv15_0(4-1 downto 0)));
+            for read_input_U0_n_i in 0 to 15-1 loop
+                v0_cpy(read_input_U0_n_i) := n(15-1-read_input_U0_n_i);
             end loop;
         end if;
         res_value := std_logic_vector(shift_right(unsigned(v0_cpy), to_integer(unsigned('0' & vlo_cpy(4-1 downto 0)))));
@@ -957,10 +957,10 @@ begin
         section := (others=>'0');
         section(4-1 downto 0) := std_logic_vector(unsigned(vhi_cpy(4-1 downto 0)) - unsigned(vlo_cpy(4-1 downto 0)));
         tmp_mask := (others => '1');
-        res_mask := std_logic_vector(shift_left(unsigned(tmp_mask),to_integer(unsigned('0' & section(14-1 downto 0)))));
-        res_mask := res_mask(14-2 downto 0) & '0';
+        res_mask := std_logic_vector(shift_left(unsigned(tmp_mask),to_integer(unsigned('0' & section(15-1 downto 0)))));
+        res_mask := res_mask(15-2 downto 0) & '0';
         resvalue := res_value and not res_mask;
-        read_input_U0_n <= resvalue(13-1 downto 0);
+        read_input_U0_n <= resvalue(14-1 downto 0);
     end process;
 
     start_for_myproject_U0_din <= (0=>ap_const_logic_1, others=>'-');

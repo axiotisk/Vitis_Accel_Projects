@@ -594,8 +594,8 @@ wire   [31:0] add_ln317_fu_1342_p2;
 wire   [31:0] add_ln313_fu_1292_p2;
 reg    ap_block_pp0_stage0_11001;
 reg    ap_block_pp0_stage0_01001;
-wire   [30:0] tmp_778_fu_1248_p4;
-wire   [30:0] tmp_779_fu_1264_p4;
+wire   [30:0] tmp_782_fu_1248_p4;
+wire   [30:0] tmp_783_fu_1264_p4;
 wire   [0:0] icmp_ln289_5_fu_1258_p2;
 wire   [0:0] icmp_ln289_6_fu_1274_p2;
 wire   [0:0] and_ln289_fu_1280_p2;
@@ -2550,9 +2550,9 @@ end
 
 assign icmp_ln289_4_fu_1242_p2 = ((sY_5 == 32'd2) ? 1'b1 : 1'b0);
 
-assign icmp_ln289_5_fu_1258_p2 = (($signed(tmp_778_fu_1248_p4) > $signed(31'd0)) ? 1'b1 : 1'b0);
+assign icmp_ln289_5_fu_1258_p2 = (($signed(tmp_782_fu_1248_p4) > $signed(31'd0)) ? 1'b1 : 1'b0);
 
-assign icmp_ln289_6_fu_1274_p2 = (($signed(tmp_779_fu_1264_p4) > $signed(31'd0)) ? 1'b1 : 1'b0);
+assign icmp_ln289_6_fu_1274_p2 = (($signed(tmp_783_fu_1264_p4) > $signed(31'd0)) ? 1'b1 : 1'b0);
 
 assign icmp_ln289_fu_1224_p2 = ((sX_5 == 32'd2) ? 1'b1 : 1'b0);
 
@@ -2568,8 +2568,8 @@ assign select_ln323_fu_1372_p3 = ((icmp_ln323_fu_1360_p2[0:0] == 1'b1) ? 32'd2 :
 
 assign select_ln328_fu_1316_p3 = ((icmp_ln289_fu_1224_p2[0:0] == 1'b1) ? 32'd2 : add_ln328_fu_1310_p2);
 
-assign tmp_778_fu_1248_p4 = {{pY_5[31:1]}};
+assign tmp_782_fu_1248_p4 = {{pY_5[31:1]}};
 
-assign tmp_779_fu_1264_p4 = {{pX_5[31:1]}};
+assign tmp_783_fu_1264_p4 = {{pX_5[31:1]}};
 
 endmodule //kernel_wrapper_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config6_s

@@ -47,9 +47,9 @@
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="586" bw="14" op_0_bw="14" op_1_bw="14">
+<Node id="586" bw="15" op_0_bw="15" op_1_bw="15">
 <![CDATA[
-entry:1 %n_read = read i14 @_ssdm_op_Read.ap_auto.i14, i14 %n
+entry:1 %n_read = read i15 @_ssdm_op_Read.ap_auto.i15, i15 %n
 
 ]]></Node>
 <StgValue><ssdm name="n_read"/></StgValue>
@@ -77,9 +77,9 @@ entry:2 %in_r_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %in_r
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="588" bw="13" op_0_bw="14">
+<Node id="588" bw="14" op_0_bw="15">
 <![CDATA[
-entry:3 %empty = trunc i14 %n_read
+entry:3 %empty = trunc i15 %n_read
 
 ]]></Node>
 <StgValue><ssdm name="empty"/></StgValue>
@@ -107,7 +107,7 @@ entry:4 %out_r_c = alloca i64 1
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="592" bw="13" op_0_bw="64">
+<Node id="592" bw="14" op_0_bw="64">
 <![CDATA[
 entry:7 %n_c = alloca i64 1
 
@@ -152,9 +152,9 @@ entry:17 %output2 = alloca i64 1
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="607" bw="0" op_0_bw="0" op_1_bw="16" op_2_bw="64" op_3_bw="48" op_4_bw="13" op_5_bw="13">
+<Node id="607" bw="0" op_0_bw="0" op_1_bw="16" op_2_bw="64" op_3_bw="48" op_4_bw="14" op_5_bw="14">
 <![CDATA[
-entry:22 %call_ln38 = call void @read_input, i16 %gmem0, i64 %in_r_read, i48 %input1, i13 %empty, i13 %n_c
+entry:22 %call_ln38 = call void @read_input, i16 %gmem0, i64 %in_r_read, i48 %input1, i14 %empty, i14 %n_c
 
 ]]></Node>
 <StgValue><ssdm name="call_ln38"/></StgValue>
@@ -170,9 +170,9 @@ entry:22 %call_ln38 = call void @read_input, i16 %gmem0, i64 %in_r_read, i48 %in
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="607" bw="0" op_0_bw="0" op_1_bw="16" op_2_bw="64" op_3_bw="48" op_4_bw="13" op_5_bw="13">
+<Node id="607" bw="0" op_0_bw="0" op_1_bw="16" op_2_bw="64" op_3_bw="48" op_4_bw="14" op_5_bw="14">
 <![CDATA[
-entry:22 %call_ln38 = call void @read_input, i16 %gmem0, i64 %in_r_read, i48 %input1, i13 %empty, i13 %n_c
+entry:22 %call_ln38 = call void @read_input, i16 %gmem0, i64 %in_r_read, i48 %input1, i14 %empty, i14 %n_c
 
 ]]></Node>
 <StgValue><ssdm name="call_ln38"/></StgValue>
@@ -254,9 +254,9 @@ entry:23 %call_ln39 = call void @myproject, i48 %input1, i160 %output2, i16 %voi
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="609" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="64" op_3_bw="160" op_4_bw="13" op_5_bw="0" op_6_bw="0" op_7_bw="0">
+<Node id="609" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="64" op_3_bw="160" op_4_bw="14" op_5_bw="0" op_6_bw="0" op_7_bw="0">
 <![CDATA[
-entry:24 %call_ln40 = call void @write_result, i32 %gmem1, i64 %out_r_c, i160 %output2, i13 %n_c
+entry:24 %call_ln40 = call void @write_result, i32 %gmem1, i64 %out_r_c, i160 %output2, i14 %n_c
 
 ]]></Node>
 <StgValue><ssdm name="call_ln40"/></StgValue>
@@ -302,9 +302,9 @@ entry:6 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %ou
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="593" bw="32" op_0_bw="32" op_1_bw="0" op_2_bw="32" op_3_bw="0" op_4_bw="0" op_5_bw="32" op_6_bw="32" op_7_bw="13" op_8_bw="13">
+<Node id="593" bw="32" op_0_bw="32" op_1_bw="0" op_2_bw="32" op_3_bw="0" op_4_bw="0" op_5_bw="32" op_6_bw="32" op_7_bw="14" op_8_bw="14">
 <![CDATA[
-entry:8 %empty_118 = specchannel i32 @_ssdm_op_SpecChannel, void @n_c_str, i32 1, void @p_str, void @p_str, i32 3, i32 0, i13 %n_c, i13 %n_c
+entry:8 %empty_118 = specchannel i32 @_ssdm_op_SpecChannel, void @n_c_str, i32 1, void @p_str, void @p_str, i32 3, i32 0, i14 %n_c, i14 %n_c
 
 ]]></Node>
 <StgValue><ssdm name="empty_118"/></StgValue>
@@ -317,9 +317,9 @@ entry:8 %empty_118 = specchannel i32 @_ssdm_op_SpecChannel, void @n_c_str, i32 1
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="594" bw="0" op_0_bw="0" op_1_bw="13" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<Node id="594" bw="0" op_0_bw="0" op_1_bw="14" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
 <![CDATA[
-entry:9 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i13 %n_c, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @p_str, i32 4294967295, i32 0
+entry:9 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i14 %n_c, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @p_str, i32 4294967295, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -467,9 +467,9 @@ entry:20 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i160 %
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="609" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="64" op_3_bw="160" op_4_bw="13" op_5_bw="0" op_6_bw="0" op_7_bw="0">
+<Node id="609" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="64" op_3_bw="160" op_4_bw="14" op_5_bw="0" op_6_bw="0" op_7_bw="0">
 <![CDATA[
-entry:24 %call_ln40 = call void @write_result, i32 %gmem1, i64 %out_r_c, i160 %output2, i13 %n_c
+entry:24 %call_ln40 = call void @write_result, i32 %gmem1, i64 %out_r_c, i160 %output2, i14 %n_c
 
 ]]></Node>
 <StgValue><ssdm name="call_ln40"/></StgValue>
@@ -2378,7 +2378,7 @@ entry:25 %ret_ln40 = ret
 
 
 <dataflows>
-<dataflow id="627" from="_ssdm_op_Read.ap_auto.i14" to="n_read" fromId="626" toId="7">
+<dataflow id="627" from="_ssdm_op_Read.ap_auto.i15" to="n_read" fromId="626" toId="7">
 </dataflow>
 <dataflow id="628" from="n" to="n_read" fromId="44" toId="7">
 </dataflow>

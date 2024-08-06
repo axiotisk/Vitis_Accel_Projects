@@ -170,7 +170,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1897 \
+    id 1891 \
     name input_r \
     type fifo \
     dir I \
@@ -185,7 +185,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1898 \
+    id 1892 \
     name output_r \
     type fifo \
     dir O \

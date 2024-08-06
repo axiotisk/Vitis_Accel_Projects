@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'dense_array_ap_fixed_24u_array_ap_fixed_16_6_5_3_0_42u_config15_s'" level="0">
-<item name = "Date">Thu Jul  4 19:00:57 2024
+<item name = "Date">Fri Aug  2 18:56:00 2024
 </item>
 <item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
 <item name = "Project">kernel_wrapper</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00 ns, 3.460 ns, 1.35 ns</column>
+<column name="ap_clk">5.00 ns, 3.637 ns, 1.35 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">8, 8, 40.000 ns, 40.000 ns, 8, 8, no</column>
+<column name="">9, 9, 45.000 ns, 45.000 ns, 9, 9, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -51,21 +51,21 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 23, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">-, 19, 5824, 51920, -</column>
+<column name="Instance">-, 22, 5711, 52655, -</column>
 <column name="Memory">-, -, -, -, -</column>
-<column name="Multiplexer">-, -, -, 71, -</column>
-<column name="Register">-, -, 1546, -, -</column>
+<column name="Multiplexer">-, -, -, 76, -</column>
+<column name="Register">-, -, 2219, -, -</column>
 <specialColumn name="Available SLR">1344, 3008, 869120, 434560, 320</specialColumn>
-<specialColumn name="Utilization SLR (%)">0, ~0, ~0, 11, 0</specialColumn>
+<specialColumn name="Utilization SLR (%)">0, ~0, ~0, 12, 0</specialColumn>
 <specialColumn name="Available">4032, 9024, 2607360, 1303680, 960</specialColumn>
-<specialColumn name="Utilization (%)">0, ~0, ~0, 3, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, ~0, ~0, 4, 0</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="grp_dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s_fu_539">dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s, 0, 19, 5824, 51920, 0</column>
+<column name="grp_dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s_fu_539">dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s, 0, 22, 5711, 52655, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -90,7 +90,7 @@
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
-<column name="ap_NS_fsm">26, 5, 1, 5</column>
+<column name="ap_NS_fsm">31, 6, 1, 6</column>
 <column name="ap_done">9, 2, 1, 2</column>
 <column name="i_in_fu_138">9, 2, 3, 6</column>
 <column name="layer13_out_blk_n">9, 2, 1, 2</column>
@@ -100,7 +100,7 @@
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="ap_CS_fsm">4, 0, 4, 0</column>
+<column name="ap_CS_fsm">5, 0, 5, 0</column>
 <column name="ap_done_reg">1, 0, 1, 0</column>
 <column name="data_V_101_fu_146">16, 0, 16, 0</column>
 <column name="data_V_102_fu_150">16, 0, 16, 0</column>
@@ -200,6 +200,48 @@
 <column name="data_V_fu_142">16, 0, 16, 0</column>
 <column name="grp_dense_wrapper_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config15_s_fu_539_ap_start_reg">1, 0, 1, 0</column>
 <column name="i_in_fu_138">3, 0, 3, 0</column>
+<column name="res_V_100_reg_2998">16, 0, 16, 0</column>
+<column name="res_V_101_reg_3003">16, 0, 16, 0</column>
+<column name="res_V_102_reg_3008">16, 0, 16, 0</column>
+<column name="res_V_103_reg_3013">16, 0, 16, 0</column>
+<column name="res_V_104_reg_3018">16, 0, 16, 0</column>
+<column name="res_V_105_reg_3023">16, 0, 16, 0</column>
+<column name="res_V_106_reg_3028">16, 0, 16, 0</column>
+<column name="res_V_107_reg_3033">16, 0, 16, 0</column>
+<column name="res_V_108_reg_3038">16, 0, 16, 0</column>
+<column name="res_V_109_reg_3043">16, 0, 16, 0</column>
+<column name="res_V_110_reg_3048">16, 0, 16, 0</column>
+<column name="res_V_111_reg_3053">16, 0, 16, 0</column>
+<column name="res_V_112_reg_3058">16, 0, 16, 0</column>
+<column name="res_V_113_reg_3063">16, 0, 16, 0</column>
+<column name="res_V_73_reg_2863">16, 0, 16, 0</column>
+<column name="res_V_74_reg_2868">16, 0, 16, 0</column>
+<column name="res_V_75_reg_2873">16, 0, 16, 0</column>
+<column name="res_V_76_reg_2878">16, 0, 16, 0</column>
+<column name="res_V_77_reg_2883">16, 0, 16, 0</column>
+<column name="res_V_78_reg_2888">16, 0, 16, 0</column>
+<column name="res_V_79_reg_2893">16, 0, 16, 0</column>
+<column name="res_V_80_reg_2898">16, 0, 16, 0</column>
+<column name="res_V_81_reg_2903">16, 0, 16, 0</column>
+<column name="res_V_82_reg_2908">16, 0, 16, 0</column>
+<column name="res_V_83_reg_2913">16, 0, 16, 0</column>
+<column name="res_V_84_reg_2918">16, 0, 16, 0</column>
+<column name="res_V_85_reg_2923">16, 0, 16, 0</column>
+<column name="res_V_86_reg_2928">16, 0, 16, 0</column>
+<column name="res_V_87_reg_2933">16, 0, 16, 0</column>
+<column name="res_V_88_reg_2938">16, 0, 16, 0</column>
+<column name="res_V_89_reg_2943">16, 0, 16, 0</column>
+<column name="res_V_90_reg_2948">16, 0, 16, 0</column>
+<column name="res_V_91_reg_2953">16, 0, 16, 0</column>
+<column name="res_V_92_reg_2958">16, 0, 16, 0</column>
+<column name="res_V_93_reg_2963">16, 0, 16, 0</column>
+<column name="res_V_94_reg_2968">16, 0, 16, 0</column>
+<column name="res_V_95_reg_2973">16, 0, 16, 0</column>
+<column name="res_V_96_reg_2978">16, 0, 16, 0</column>
+<column name="res_V_97_reg_2983">16, 0, 16, 0</column>
+<column name="res_V_98_reg_2988">16, 0, 16, 0</column>
+<column name="res_V_99_reg_2993">16, 0, 16, 0</column>
+<column name="res_V_reg_2858">16, 0, 16, 0</column>
 <column name="start_once_reg">1, 0, 1, 0</column>
 </table>
 </item>

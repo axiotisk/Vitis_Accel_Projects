@@ -145,21 +145,21 @@
                      <obj_property name="Render_Data">/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_activity.dataflowTxWaveData.Cycles</obj_property>
                      <obj_property name="Value_Data">/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_activity.dataflowTxWaveData.OutStanding</obj_property>
                      <obj_property name="Detail_Data">/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_activity.dataflowTxTooltipData</obj_property>
-                     <wvobject type="group" fp_name="/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149_activity">
-                        <obj_property name="label">call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149_activity</obj_property>
+                     <wvobject type="group" fp_name="/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150_activity">
+                        <obj_property name="label">call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150_activity</obj_property>
                         <obj_property name="DisplayName">label</obj_property>
                         <obj_property name="UseFullPath">true</obj_property>
-                        <obj_property name="ElementShortName">call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149_activity</obj_property>
-                        <obj_property name="ObjectShortName">call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149_activity</obj_property>
+                        <obj_property name="ElementShortName">call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150_activity</obj_property>
+                        <obj_property name="ObjectShortName">call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150_activity</obj_property>
                         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
                         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
                         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
                         <obj_property name="UseCustomSignalColor">true</obj_property>
                         <obj_property name="CustomSignalColor">turquoise</obj_property>
                         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-                        <obj_property name="Render_Data">/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149_activity.dataflowTxWaveData.Cycles</obj_property>
-                        <obj_property name="Value_Data">/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149_activity.dataflowTxWaveData.OutStanding</obj_property>
-                        <obj_property name="Detail_Data">/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149_activity.dataflowTxTooltipData</obj_property>
+                        <obj_property name="Render_Data">/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150_activity.dataflowTxWaveData.Cycles</obj_property>
+                        <obj_property name="Value_Data">/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150_activity.dataflowTxWaveData.OutStanding</obj_property>
+                        <obj_property name="Detail_Data">/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150_activity.dataflowTxTooltipData</obj_property>
                      </wvobject>
                   </wvobject>
                </wvobject>
@@ -1080,9 +1080,9 @@
                <wvobject type="group" fp_name="grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_group">
                   <obj_property name="label">grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134</obj_property>
                   <obj_property name="DisplayName">label</obj_property>
-                  <wvobject type="protoinst" fp_name="/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149_activity">
-                     <obj_property name="ElementShortName">call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149_activity</obj_property>
-                     <obj_property name="ObjectShortName">call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149_activity</obj_property>
+                  <wvobject type="protoinst" fp_name="/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150_activity">
+                     <obj_property name="ElementShortName">call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150_activity</obj_property>
+                     <obj_property name="ObjectShortName">call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150_activity</obj_property>
                   </wvobject>
                   <wvobject type="group" fp_name="grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134_Handshake_group">
                      <obj_property name="label">Block-level handshake</obj_property>
@@ -1100,21 +1100,21 @@
                         <obj_property name="ObjectShortName">ap_done</obj_property>
                      </wvobject>
                   </wvobject>
-                  <wvobject type="group" fp_name="call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149_group">
-                     <obj_property name="label">call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149</obj_property>
+                  <wvobject type="group" fp_name="call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150_group">
+                     <obj_property name="label">call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150</obj_property>
                      <obj_property name="DisplayName">label</obj_property>
-                     <wvobject type="group" fp_name="call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149_Handshake_group">
+                     <wvobject type="group" fp_name="call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150_Handshake_group">
                         <obj_property name="label">Block-level handshake</obj_property>
                         <obj_property name="DisplayName">label</obj_property>
-                        <wvobject type="logic" fp_name="/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149/ap_start">
+                        <wvobject type="logic" fp_name="/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150/ap_start">
                            <obj_property name="ElementShortName">ap_start</obj_property>
                            <obj_property name="ObjectShortName">ap_start</obj_property>
                         </wvobject>
-                        <wvobject type="logic" fp_name="/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149/ap_ready">
+                        <wvobject type="logic" fp_name="/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150/ap_ready">
                            <obj_property name="ElementShortName">ap_ready</obj_property>
                            <obj_property name="ObjectShortName">ap_ready</obj_property>
                         </wvobject>
-                        <wvobject type="logic" fp_name="/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_149/ap_done">
+                        <wvobject type="logic" fp_name="/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/myproject_U0/conv_2d_cl_array_ap_fixed_3u_array_ap_fixed_16_6_5_3_0_16u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config2_s_fu_134/call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_3u_config2_s_fu_150/ap_done">
                            <obj_property name="ElementShortName">ap_done</obj_property>
                            <obj_property name="ObjectShortName">ap_done</obj_property>
                         </wvobject>
@@ -2573,8 +2573,8 @@
                      <obj_property name="ObjectShortName">n_blk_n</obj_property>
                   </wvobject>
                   <wvobject type="logic" fp_name="/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/write_result_U0/n_dout">
-                     <obj_property name="ElementShortName">n_dout[12:0]</obj_property>
-                     <obj_property name="ObjectShortName">n_dout[12:0]</obj_property>
+                     <obj_property name="ElementShortName">n_dout[13:0]</obj_property>
+                     <obj_property name="ObjectShortName">n_dout[13:0]</obj_property>
                   </wvobject>
                   <wvobject type="logic" fp_name="/apatb_kernel_wrapper_top/AESL_inst_kernel_wrapper/dataflow_in_loop_VITIS_LOOP_36_1_U0/write_result_U0/n_empty_n">
                      <obj_property name="ElementShortName">n_empty_n</obj_property>

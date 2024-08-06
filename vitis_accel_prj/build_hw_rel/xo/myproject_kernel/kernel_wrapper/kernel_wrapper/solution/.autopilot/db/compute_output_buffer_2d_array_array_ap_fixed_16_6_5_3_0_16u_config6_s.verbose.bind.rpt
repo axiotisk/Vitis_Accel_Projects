@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'compute_output_buffer_2d_array_array_ap_fixed_16_6_5_3_0_16u_config6_s'
 ================================================================
-* Date:           Thu Jul  4 18:53:01 2024
+* Date:           Fri Aug  2 18:47:30 2024
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        kernel_wrapper
@@ -115,10 +115,10 @@ ST_2 : Operation 26 [1/1] (0.00ns)   --->   "%pY_5_load = load i32 %pY_5" [/home
 ST_2 : Operation 27 [1/1] (0.00ns)   --->   "%pX_5_load = load i32 %pX_5" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 27 'load' 'pX_5_load' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 28 [1/1] (0.00ns)   --->   "%br_ln289 = br i1 %icmp_ln289, void %if.end, void %land.lhs.true" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 28 'br' 'br_ln289' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 29 [1/1] (0.85ns)   --->   "%icmp_ln289_4 = icmp_eq  i32 %sY_5_load, i32 2" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 29 'icmp' 'icmp_ln289_4' <Predicate = (icmp_ln289)> <Delay = 0.85> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.85> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 30 [1/1] (0.00ns)   --->   "%tmp_778 = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, i32 %pY_5_load, i32 1, i32 31" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 30 'partselect' 'tmp_778' <Predicate = (icmp_ln289)> <Delay = 0.00>
-ST_2 : Operation 31 [1/1] (0.84ns)   --->   "%icmp_ln289_5 = icmp_sgt  i31 %tmp_778, i31 0" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 31 'icmp' 'icmp_ln289_5' <Predicate = (icmp_ln289)> <Delay = 0.84> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.84> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 32 [1/1] (0.00ns)   --->   "%tmp_779 = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, i32 %pX_5_load, i32 1, i32 31" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 32 'partselect' 'tmp_779' <Predicate = (icmp_ln289)> <Delay = 0.00>
-ST_2 : Operation 33 [1/1] (0.84ns)   --->   "%icmp_ln289_6 = icmp_sgt  i31 %tmp_779, i31 0" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 33 'icmp' 'icmp_ln289_6' <Predicate = (icmp_ln289)> <Delay = 0.84> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.84> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 30 [1/1] (0.00ns)   --->   "%tmp_782 = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, i32 %pY_5_load, i32 1, i32 31" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 30 'partselect' 'tmp_782' <Predicate = (icmp_ln289)> <Delay = 0.00>
+ST_2 : Operation 31 [1/1] (0.84ns)   --->   "%icmp_ln289_5 = icmp_sgt  i31 %tmp_782, i31 0" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 31 'icmp' 'icmp_ln289_5' <Predicate = (icmp_ln289)> <Delay = 0.84> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.84> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 32 [1/1] (0.00ns)   --->   "%tmp_783 = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, i32 %pX_5_load, i32 1, i32 31" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 32 'partselect' 'tmp_783' <Predicate = (icmp_ln289)> <Delay = 0.00>
+ST_2 : Operation 33 [1/1] (0.84ns)   --->   "%icmp_ln289_6 = icmp_sgt  i31 %tmp_783, i31 0" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 33 'icmp' 'icmp_ln289_6' <Predicate = (icmp_ln289)> <Delay = 0.84> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.84> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 34 [1/1] (0.00ns) (grouped into LUT with out node and_ln289_2)   --->   "%and_ln289 = and i1 %icmp_ln289_5, i1 %icmp_ln289_6" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 34 'and' 'and_ln289' <Predicate = (icmp_ln289)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.12> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 35 [1/1] (0.12ns) (out node of the LUT)   --->   "%and_ln289_2 = and i1 %and_ln289, i1 %icmp_ln289_4" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 35 'and' 'and_ln289_2' <Predicate = (icmp_ln289)> <Delay = 0.12> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.12> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 36 [1/1] (0.00ns)   --->   "%br_ln289 = br i1 %and_ln289_2, void %if.end, void %if.then" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_conv_stream.h:289]   --->   Operation 36 'br' 'br_ln289' <Predicate = (icmp_ln289)> <Delay = 0.00>
@@ -412,9 +412,9 @@ pY_5_load         (load          ) [ 00000]
 pX_5_load         (load          ) [ 00000]
 br_ln289          (br            ) [ 00000]
 icmp_ln289_4      (icmp          ) [ 00000]
-tmp_778           (partselect    ) [ 00000]
+tmp_782           (partselect    ) [ 00000]
 icmp_ln289_5      (icmp          ) [ 00000]
-tmp_779           (partselect    ) [ 00000]
+tmp_783           (partselect    ) [ 00000]
 icmp_ln289_6      (icmp          ) [ 00000]
 and_ln289         (and           ) [ 00000]
 and_ln289_2       (and           ) [ 01111]
@@ -3072,7 +3072,7 @@ ret_ln330         (ret           ) [ 00000]
 </bind>
 </comp>
 
-<comp id="1248" class="1004" name="tmp_778_fu_1248">
+<comp id="1248" class="1004" name="tmp_782_fu_1248">
 <pin_list>
 <pin id="1249" dir="0" index="0" bw="31" slack="0"/>
 <pin id="1250" dir="0" index="1" bw="32" slack="0"/>
@@ -3082,7 +3082,7 @@ ret_ln330         (ret           ) [ 00000]
 </pin_list>
 <bind>
 <opcode="partselect(1002) " fcode="partselect"/>
-<opset="tmp_778/2 "/>
+<opset="tmp_782/2 "/>
 </bind>
 </comp>
 
@@ -3098,7 +3098,7 @@ ret_ln330         (ret           ) [ 00000]
 </bind>
 </comp>
 
-<comp id="1264" class="1004" name="tmp_779_fu_1264">
+<comp id="1264" class="1004" name="tmp_783_fu_1264">
 <pin_list>
 <pin id="1265" dir="0" index="0" bw="31" slack="0"/>
 <pin id="1266" dir="0" index="1" bw="32" slack="0"/>
@@ -3108,7 +3108,7 @@ ret_ln330         (ret           ) [ 00000]
 </pin_list>
 <bind>
 <opcode="partselect(1002) " fcode="partselect"/>
-<opset="tmp_779/2 "/>
+<opset="tmp_783/2 "/>
 </bind>
 </comp>
 
@@ -5113,9 +5113,9 @@ ret_ln330         (ret           ) [ 00000]
 		icmp_ln289 : 1
 		br_ln289 : 2
 		icmp_ln289_4 : 1
-		tmp_778 : 1
+		tmp_782 : 1
 		icmp_ln289_5 : 2
-		tmp_779 : 1
+		tmp_783 : 1
 		icmp_ln289_6 : 2
 		and_ln289 : 3
 		and_ln289_2 : 3
@@ -5165,7 +5165,7 @@ ret_ln330         (ret           ) [ 00000]
 | Operation|                                 Functional Unit                                 |   DSP   |    FF   |   LUT   |
 |----------|---------------------------------------------------------------------------------|---------|---------|---------|
 |   call   |   call_ln286_shift_line_buffer_array_ap_fixed_16_6_5_3_0_16u_config6_s_fu_540   |    0    |    0    |    0    |
-|          | grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_mult_s_fu_928 |   111   |   3232  |  38938  |
+|          | grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_mult_s_fu_928 |   144   |   3364  |  39642  |
 |----------|---------------------------------------------------------------------------------|---------|---------|---------|
 |          |                                add_ln313_fu_1292                                |    0    |    0    |    39   |
 |    add   |                                add_ln328_fu_1310                                |    0    |    0    |    39   |
@@ -5205,8 +5205,8 @@ ret_ln330         (ret           ) [ 00000]
 |----------|---------------------------------------------------------------------------------|---------|---------|---------|
 |   write  |                             write_ln309_write_fu_522                            |    0    |    0    |    0    |
 |----------|---------------------------------------------------------------------------------|---------|---------|---------|
-|partselect|                                 tmp_778_fu_1248                                 |    0    |    0    |    0    |
-|          |                                 tmp_779_fu_1264                                 |    0    |    0    |    0    |
+|partselect|                                 tmp_782_fu_1248                                 |    0    |    0    |    0    |
+|          |                                 tmp_783_fu_1264                                 |    0    |    0    |    0    |
 |----------|---------------------------------------------------------------------------------|---------|---------|---------|
 |          |                                res_out_V_fu_1386                                |    0    |    0    |    0    |
 |          |                               res_out_V_42_fu_1390                              |    0    |    0    |    0    |
@@ -5227,7 +5227,7 @@ ret_ln330         (ret           ) [ 00000]
 |----------|---------------------------------------------------------------------------------|---------|---------|---------|
 |bitconcatenate|                                   p_0_fu_1456                                   |    0    |    0    |    0    |
 |----------|---------------------------------------------------------------------------------|---------|---------|---------|
-|   Total  |                                                                                 |   111   |   3232  |  39300  |
+|   Total  |                                                                                 |   144   |   3364  |  40004  |
 |----------|---------------------------------------------------------------------------------|---------|---------|---------|
 
 Memories:
@@ -5275,10 +5275,10 @@ N/A
 +-----------+--------+--------+--------+
 |           |   DSP  |   FF   |   LUT  |
 +-----------+--------+--------+--------+
-|  Function |   111  |  3232  |  39300 |
+|  Function |   144  |  3364  |  40004 |
 |   Memory  |    -   |    -   |    -   |
 |Multiplexer|    -   |    -   |    -   |
 |  Register |    -   |   323  |    -   |
 +-----------+--------+--------+--------+
-|   Total   |   111  |  3555  |  39300 |
+|   Total   |   144  |  3687  |  40004 |
 +-----------+--------+--------+--------+

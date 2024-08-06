@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s'
 ================================================================
-* Date:           Thu Jul  4 18:55:38 2024
+* Date:           Fri Aug  2 18:50:18 2024
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        kernel_wrapper
@@ -20,7 +20,7 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  |  5.00 ns|  3.636 ns|     1.35 ns|
+    |ap_clk  |  5.00 ns|  3.648 ns|     1.35 ns|
     +--------+---------+----------+------------+
 
 + Latency: 
@@ -144,11 +144,11 @@ ST_1 : Operation 67 [1/1] (0.00ns)   --->   "%data_V_61 = partselect i6 @_ssdm_o
 ST_1 : Operation 68 [1/1] (0.00ns)   --->   "%data_V_62 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 360, i32 365" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 68 'partselect' 'data_V_62' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 69 [1/1] (0.00ns)   --->   "%data_V_2 = partselect i6 @_ssdm_op_PartSelect.i6.i384.i32.i32, i384 %layer22_out_read, i32 366, i32 371" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40]   --->   Operation 69 'partselect' 'data_V_2' <Predicate = true> <Delay = 0.00>
 
-State 2 <SV = 1> <Delay = 3.63>
-ST_2 : Operation 70 [2/2] (3.63ns)   --->   "%call_ret = call i160 @dense_wrapper<ap_ufixed<6, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config23>, i6 %data_V, i6 %data_V_3, i6 %data_V_4, i6 %data_V_5, i6 %data_V_6, i6 %data_V_7, i6 %data_V_8, i6 %data_V_9, i6 %data_V_10, i6 %data_V_11, i6 %data_V_12, i6 %data_V_13, i6 %data_V_14, i6 %data_V_15, i6 %data_V_16, i6 %data_V_17, i6 %data_V_18, i6 %data_V_19, i6 %data_V_20, i6 %data_V_21, i6 %data_V_22, i6 %data_V_23, i6 %data_V_24, i6 %data_V_25, i6 %data_V_26, i6 %data_V_27, i6 %data_V_28, i6 %data_V_29, i6 %data_V_30, i6 %data_V_31, i6 %data_V_32, i6 %data_V_33, i6 %data_V_34, i6 %data_V_35, i6 %data_V_36, i6 %data_V_37, i6 %data_V_38, i6 %data_V_39, i6 %data_V_40, i6 %data_V_41, i6 %data_V_42, i6 %data_V_43, i6 %data_V_44, i6 %data_V_45, i6 %data_V_46, i6 %data_V_47, i6 %data_V_48, i6 %data_V_49, i6 %data_V_50, i6 %data_V_51, i6 %data_V_52, i6 %data_V_53, i6 %data_V_54, i6 %data_V_55, i6 %data_V_56, i6 %data_V_57, i6 %data_V_58, i6 %data_V_59, i6 %data_V_60, i6 %data_V_61, i6 %data_V_62, i6 %data_V_2, i6 %data_V_63, i6 %data_V_1" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 70 'call' 'call_ret' <Predicate = true> <Delay = 3.63> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+State 2 <SV = 1> <Delay = 3.64>
+ST_2 : Operation 70 [2/2] (3.64ns)   --->   "%call_ret = call i160 @dense_wrapper<ap_ufixed<6, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config23>, i6 %data_V, i6 %data_V_3, i6 %data_V_4, i6 %data_V_5, i6 %data_V_6, i6 %data_V_7, i6 %data_V_8, i6 %data_V_9, i6 %data_V_10, i6 %data_V_11, i6 %data_V_12, i6 %data_V_13, i6 %data_V_14, i6 %data_V_15, i6 %data_V_16, i6 %data_V_17, i6 %data_V_18, i6 %data_V_19, i6 %data_V_20, i6 %data_V_21, i6 %data_V_22, i6 %data_V_23, i6 %data_V_24, i6 %data_V_25, i6 %data_V_26, i6 %data_V_27, i6 %data_V_28, i6 %data_V_29, i6 %data_V_30, i6 %data_V_31, i6 %data_V_32, i6 %data_V_33, i6 %data_V_34, i6 %data_V_35, i6 %data_V_36, i6 %data_V_37, i6 %data_V_38, i6 %data_V_39, i6 %data_V_40, i6 %data_V_41, i6 %data_V_42, i6 %data_V_43, i6 %data_V_44, i6 %data_V_45, i6 %data_V_46, i6 %data_V_47, i6 %data_V_48, i6 %data_V_49, i6 %data_V_50, i6 %data_V_51, i6 %data_V_52, i6 %data_V_53, i6 %data_V_54, i6 %data_V_55, i6 %data_V_56, i6 %data_V_57, i6 %data_V_58, i6 %data_V_59, i6 %data_V_60, i6 %data_V_61, i6 %data_V_62, i6 %data_V_2, i6 %data_V_63, i6 %data_V_1" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 70 'call' 'call_ret' <Predicate = true> <Delay = 3.64> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
-State 3 <SV = 2> <Delay = 3.07>
-ST_3 : Operation 71 [1/2] (3.07ns)   --->   "%call_ret = call i160 @dense_wrapper<ap_ufixed<6, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config23>, i6 %data_V, i6 %data_V_3, i6 %data_V_4, i6 %data_V_5, i6 %data_V_6, i6 %data_V_7, i6 %data_V_8, i6 %data_V_9, i6 %data_V_10, i6 %data_V_11, i6 %data_V_12, i6 %data_V_13, i6 %data_V_14, i6 %data_V_15, i6 %data_V_16, i6 %data_V_17, i6 %data_V_18, i6 %data_V_19, i6 %data_V_20, i6 %data_V_21, i6 %data_V_22, i6 %data_V_23, i6 %data_V_24, i6 %data_V_25, i6 %data_V_26, i6 %data_V_27, i6 %data_V_28, i6 %data_V_29, i6 %data_V_30, i6 %data_V_31, i6 %data_V_32, i6 %data_V_33, i6 %data_V_34, i6 %data_V_35, i6 %data_V_36, i6 %data_V_37, i6 %data_V_38, i6 %data_V_39, i6 %data_V_40, i6 %data_V_41, i6 %data_V_42, i6 %data_V_43, i6 %data_V_44, i6 %data_V_45, i6 %data_V_46, i6 %data_V_47, i6 %data_V_48, i6 %data_V_49, i6 %data_V_50, i6 %data_V_51, i6 %data_V_52, i6 %data_V_53, i6 %data_V_54, i6 %data_V_55, i6 %data_V_56, i6 %data_V_57, i6 %data_V_58, i6 %data_V_59, i6 %data_V_60, i6 %data_V_61, i6 %data_V_62, i6 %data_V_2, i6 %data_V_63, i6 %data_V_1" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 71 'call' 'call_ret' <Predicate = true> <Delay = 3.07> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+State 3 <SV = 2> <Delay = 3.04>
+ST_3 : Operation 71 [1/2] (3.04ns)   --->   "%call_ret = call i160 @dense_wrapper<ap_ufixed<6, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config23>, i6 %data_V, i6 %data_V_3, i6 %data_V_4, i6 %data_V_5, i6 %data_V_6, i6 %data_V_7, i6 %data_V_8, i6 %data_V_9, i6 %data_V_10, i6 %data_V_11, i6 %data_V_12, i6 %data_V_13, i6 %data_V_14, i6 %data_V_15, i6 %data_V_16, i6 %data_V_17, i6 %data_V_18, i6 %data_V_19, i6 %data_V_20, i6 %data_V_21, i6 %data_V_22, i6 %data_V_23, i6 %data_V_24, i6 %data_V_25, i6 %data_V_26, i6 %data_V_27, i6 %data_V_28, i6 %data_V_29, i6 %data_V_30, i6 %data_V_31, i6 %data_V_32, i6 %data_V_33, i6 %data_V_34, i6 %data_V_35, i6 %data_V_36, i6 %data_V_37, i6 %data_V_38, i6 %data_V_39, i6 %data_V_40, i6 %data_V_41, i6 %data_V_42, i6 %data_V_43, i6 %data_V_44, i6 %data_V_45, i6 %data_V_46, i6 %data_V_47, i6 %data_V_48, i6 %data_V_49, i6 %data_V_50, i6 %data_V_51, i6 %data_V_52, i6 %data_V_53, i6 %data_V_54, i6 %data_V_55, i6 %data_V_56, i6 %data_V_57, i6 %data_V_58, i6 %data_V_59, i6 %data_V_60, i6 %data_V_61, i6 %data_V_62, i6 %data_V_2, i6 %data_V_63, i6 %data_V_1" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 71 'call' 'call_ret' <Predicate = true> <Delay = 3.04> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_3 : Operation 72 [1/1] (0.00ns)   --->   "%res_V = extractvalue i160 %call_ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 72 'extractvalue' 'res_V' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 73 [1/1] (0.00ns)   --->   "%res_V_1 = extractvalue i160 %call_ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 73 'extractvalue' 'res_V_1' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 74 [1/1] (0.00ns)   --->   "%res_V_2 = extractvalue i160 %call_ret" [/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48]   --->   Operation 74 'extractvalue' 'res_V_2' <Predicate = true> <Delay = 0.00>
@@ -177,13 +177,13 @@ Target clock period: 5ns, clock uncertainty: 1.35ns.
 The critical path consists of the following:
 	fifo read operation ('layer22_out_read', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40) on port 'layer22_out' (/home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:40) [5]  (1.41 ns)
 
- <State 2>: 3.64ns
+ <State 2>: 3.65ns
 The critical path consists of the following:
-	'call' operation ('call_ret', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48) to 'dense_wrapper<ap_ufixed<6, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config23>' [70]  (3.64 ns)
+	'call' operation ('call_ret', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48) to 'dense_wrapper<ap_ufixed<6, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config23>' [70]  (3.65 ns)
 
- <State 3>: 3.07ns
+ <State 3>: 3.04ns
 The critical path consists of the following:
-	'call' operation ('call_ret', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48) to 'dense_wrapper<ap_ufixed<6, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config23>' [70]  (3.07 ns)
+	'call' operation ('call_ret', /home/ayvol/vitis-accel-CNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense_stream.h:48) to 'dense_wrapper<ap_ufixed<6, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config23>' [70]  (3.04 ns)
 
  <State 4>: 1.43ns
 The critical path consists of the following:

@@ -74,7 +74,7 @@ port (
     output_r_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
     output_r_empty_n : IN STD_LOGIC;
     output_r_read : OUT STD_LOGIC;
-    n_dout : IN STD_LOGIC_VECTOR (12 downto 0);
+    n_dout : IN STD_LOGIC_VECTOR (13 downto 0);
     n_num_data_valid : IN STD_LOGIC_VECTOR (2 downto 0);
     n_fifo_cap : IN STD_LOGIC_VECTOR (2 downto 0);
     n_empty_n : IN STD_LOGIC;
@@ -220,12 +220,12 @@ attribute shreg_extract : string;
     signal gmem1_addr_reg_283 : STD_LOGIC_VECTOR (63 downto 0);
     signal sext_ln18_fu_248_p1 : STD_LOGIC_VECTOR (63 downto 0);
     signal ap_block_state1 : BOOLEAN;
-    signal p_shl_fu_156_p3 : STD_LOGIC_VECTOR (15 downto 0);
-    signal p_shl1_fu_168_p3 : STD_LOGIC_VECTOR (13 downto 0);
-    signal p_shl_cast2_fu_164_p1 : STD_LOGIC_VECTOR (16 downto 0);
-    signal zext_ln20_fu_176_p1 : STD_LOGIC_VECTOR (16 downto 0);
-    signal add_ln20_1_fu_180_p2 : STD_LOGIC_VECTOR (16 downto 0);
-    signal shl_ln_fu_186_p3 : STD_LOGIC_VECTOR (17 downto 0);
+    signal p_shl_fu_156_p3 : STD_LOGIC_VECTOR (16 downto 0);
+    signal p_shl1_fu_168_p3 : STD_LOGIC_VECTOR (14 downto 0);
+    signal p_shl_cast2_fu_164_p1 : STD_LOGIC_VECTOR (17 downto 0);
+    signal zext_ln20_fu_176_p1 : STD_LOGIC_VECTOR (17 downto 0);
+    signal add_ln20_1_fu_180_p2 : STD_LOGIC_VECTOR (17 downto 0);
+    signal shl_ln_fu_186_p3 : STD_LOGIC_VECTOR (18 downto 0);
     signal zext_ln20_1_fu_194_p1 : STD_LOGIC_VECTOR (63 downto 0);
     signal add_ln20_fu_198_p2 : STD_LOGIC_VECTOR (63 downto 0);
     signal trunc_ln_fu_238_p4 : STD_LOGIC_VECTOR (61 downto 0);
@@ -903,7 +903,7 @@ begin
     end process;
 
     p_shl1_fu_168_p3 <= (n_dout & ap_const_lv1_0);
-    p_shl_cast2_fu_164_p1 <= std_logic_vector(IEEE.numeric_std.resize(unsigned(p_shl_fu_156_p3),17));
+    p_shl_cast2_fu_164_p1 <= std_logic_vector(IEEE.numeric_std.resize(unsigned(p_shl_fu_156_p3),18));
     p_shl_fu_156_p3 <= (n_dout & ap_const_lv3_0);
         sext_ln18_fu_248_p1 <= std_logic_vector(IEEE.numeric_std.resize(signed(trunc_ln_fu_238_p4),64));
 
@@ -911,5 +911,5 @@ begin
     trunc_ln18_fu_204_p1 <= output_r_dout(32 - 1 downto 0);
     trunc_ln_fu_238_p4 <= add_ln20_fu_198_p2(63 downto 2);
     zext_ln20_1_fu_194_p1 <= std_logic_vector(IEEE.numeric_std.resize(unsigned(shl_ln_fu_186_p3),64));
-    zext_ln20_fu_176_p1 <= std_logic_vector(IEEE.numeric_std.resize(unsigned(p_shl1_fu_168_p3),17));
+    zext_ln20_fu_176_p1 <= std_logic_vector(IEEE.numeric_std.resize(unsigned(p_shl1_fu_168_p3),18));
 end behav;

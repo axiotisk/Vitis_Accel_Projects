@@ -163,7 +163,7 @@ input  [1:0] m_axi_gmem0_BRESP;
 input  [0:0] m_axi_gmem0_BID;
 input  [0:0] m_axi_gmem0_BUSER;
 input  [63:0] in_r;
-input  [13:0] n;
+input  [14:0] n;
 output   m_axi_gmem1_AWVALID;
 input   m_axi_gmem1_AWREADY;
 output  [63:0] m_axi_gmem1_AWADDR;
@@ -272,8 +272,8 @@ wire    read_input_U0_m_axi_gmem0_RREADY;
 wire    read_input_U0_m_axi_gmem0_BREADY;
 wire   [47:0] read_input_U0_input1_din;
 wire    read_input_U0_input1_write;
-wire   [12:0] read_input_U0_n;
-wire   [12:0] read_input_U0_n_c_din;
+wire   [13:0] read_input_U0_n;
+wire   [13:0] read_input_U0_n_c_din;
 wire    read_input_U0_n_c_write;
 wire    myproject_U0_input_r_read;
 wire   [159:0] myproject_U0_output_r_din;
@@ -334,7 +334,7 @@ wire   [10:0] input1_num_data_valid;
 wire   [10:0] input1_fifo_cap;
 wire    input1_empty_n;
 wire    n_c_full_n;
-wire   [12:0] n_c_dout;
+wire   [13:0] n_c_dout;
 wire   [2:0] n_c_num_data_valid;
 wire   [2:0] n_c_fifo_cap;
 wire    n_c_empty_n;
@@ -571,7 +571,7 @@ kernel_wrapper_fifo_w48_d1024_A input1_U(
     .if_read(myproject_U0_input_r_read)
 );
 
-kernel_wrapper_fifo_w13_d3_S n_c_U(
+kernel_wrapper_fifo_w14_d3_S n_c_U(
     .clk(ap_clk),
     .reset(ap_rst),
     .if_read_ce(1'b1),
@@ -803,7 +803,7 @@ assign read_input_U0_ap_continue = 1'b1;
 
 assign read_input_U0_ap_start = ((ap_sync_reg_read_input_U0_ap_ready ^ 1'b1) & ap_start);
 
-assign read_input_U0_n = {{n[(13 - 14'd1):0]}};
+assign read_input_U0_n = {{n[(14 - 15'd1):0]}};
 
 assign start_for_myproject_U0_din = 1'b1;
 

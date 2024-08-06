@@ -63,7 +63,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_n \
     op interface \
-    ports { n { I 13 vector } } \
+    ports { n { I 14 vector } } \
 } "
 }
 
@@ -78,7 +78,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_n_c \
     op interface \
-    ports { n_c_din { O 13 vector } n_c_num_data_valid { I 3 vector } n_c_fifo_cap { I 3 vector } n_c_full_n { I 1 bit } n_c_write { O 1 bit } } \
+    ports { n_c_din { O 14 vector } n_c_num_data_valid { I 3 vector } n_c_fifo_cap { I 3 vector } n_c_full_n { I 1 bit } n_c_write { O 1 bit } } \
 } "
 }
 

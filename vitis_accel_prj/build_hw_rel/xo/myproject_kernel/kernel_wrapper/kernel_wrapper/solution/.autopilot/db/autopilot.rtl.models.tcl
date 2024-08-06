@@ -13,8 +13,8 @@ set SynModuleInfo {
   }
   {SRCNAME {dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2_mult>} MODELNAME dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s RTLNAME kernel_wrapper_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_mult_s
     SUBMODULES {
-      {MODELNAME kernel_wrapper_mul_16s_5s_21_1_0 RTLNAME kernel_wrapper_mul_16s_5s_21_1_0 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
       {MODELNAME kernel_wrapper_mul_16s_6s_21_1_0 RTLNAME kernel_wrapper_mul_16s_6s_21_1_0 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME kernel_wrapper_mul_16s_5s_21_1_0 RTLNAME kernel_wrapper_mul_16s_5s_21_1_0 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
       {MODELNAME kernel_wrapper_mul_16s_6ns_21_1_0 RTLNAME kernel_wrapper_mul_16s_6ns_21_1_0 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
       {MODELNAME kernel_wrapper_mul_16s_5ns_21_1_0 RTLNAME kernel_wrapper_mul_16s_5ns_21_1_0 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
     }
@@ -70,8 +70,8 @@ set SynModuleInfo {
   {SRCNAME relu<array<ap_fixed,42u>,array<ap_ufixed<6,0,4,0,0>,42u>,relu_config18> MODELNAME relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s RTLNAME kernel_wrapper_relu_array_ap_fixed_42u_array_ap_ufixed_6_0_4_0_0_42u_relu_config18_s}
   {SRCNAME {dense_wrapper<ap_ufixed<6, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config19>} MODELNAME dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config19_s RTLNAME kernel_wrapper_dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config19_s
     SUBMODULES {
-      {MODELNAME kernel_wrapper_mul_6ns_5s_11_1_1 RTLNAME kernel_wrapper_mul_6ns_5s_11_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
       {MODELNAME kernel_wrapper_mul_6ns_5ns_10_1_1 RTLNAME kernel_wrapper_mul_6ns_5ns_10_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME kernel_wrapper_mul_6ns_5s_11_1_1 RTLNAME kernel_wrapper_mul_6ns_5s_11_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
     }
   }
   {SRCNAME dense<array<ap_ufixed,42u>,array<ap_fixed<16,6,5,3,0>,64u>,config19> MODELNAME dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s RTLNAME kernel_wrapper_dense_array_ap_ufixed_42u_array_ap_fixed_16_6_5_3_0_64u_config19_s}
@@ -83,19 +83,16 @@ set SynModuleInfo {
   {SRCNAME relu<array<ap_fixed,64u>,array<ap_ufixed<6,0,4,0,0>,64u>,relu_config22> MODELNAME relu_array_ap_fixed_64u_array_ap_ufixed_6_0_4_0_0_64u_relu_config22_s RTLNAME kernel_wrapper_relu_array_ap_fixed_64u_array_ap_ufixed_6_0_4_0_0_64u_relu_config22_s}
   {SRCNAME {dense_wrapper<ap_ufixed<6, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config23>} MODELNAME dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config23_s RTLNAME kernel_wrapper_dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_16_6_5_3_0_config23_s
     SUBMODULES {
-      {MODELNAME kernel_wrapper_mul_6ns_6s_12_1_1 RTLNAME kernel_wrapper_mul_6ns_6s_12_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
-      {MODELNAME kernel_wrapper_mul_6ns_9s_15_1_1 RTLNAME kernel_wrapper_mul_6ns_9s_15_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
-      {MODELNAME kernel_wrapper_mul_6ns_10ns_15_1_1 RTLNAME kernel_wrapper_mul_6ns_10ns_15_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
       {MODELNAME kernel_wrapper_mul_6ns_10s_16_1_1 RTLNAME kernel_wrapper_mul_6ns_10s_16_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
-      {MODELNAME kernel_wrapper_mul_6ns_9ns_14_1_1 RTLNAME kernel_wrapper_mul_6ns_9ns_14_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME kernel_wrapper_mul_6ns_10ns_15_1_1 RTLNAME kernel_wrapper_mul_6ns_10ns_15_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
       {MODELNAME kernel_wrapper_mul_6ns_11s_17_1_1 RTLNAME kernel_wrapper_mul_6ns_11s_17_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME kernel_wrapper_mul_6ns_9s_15_1_1 RTLNAME kernel_wrapper_mul_6ns_9s_15_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
       {MODELNAME kernel_wrapper_mul_6ns_11ns_16_1_1 RTLNAME kernel_wrapper_mul_6ns_11ns_16_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME kernel_wrapper_mul_6ns_9ns_14_1_1 RTLNAME kernel_wrapper_mul_6ns_9ns_14_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
       {MODELNAME kernel_wrapper_mul_6ns_8s_14_1_1 RTLNAME kernel_wrapper_mul_6ns_8s_14_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
-      {MODELNAME kernel_wrapper_mul_6ns_8ns_13_1_1 RTLNAME kernel_wrapper_mul_6ns_8ns_13_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
       {MODELNAME kernel_wrapper_mul_6ns_7ns_12_1_1 RTLNAME kernel_wrapper_mul_6ns_7ns_12_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME kernel_wrapper_mul_6ns_8ns_13_1_1 RTLNAME kernel_wrapper_mul_6ns_8ns_13_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
       {MODELNAME kernel_wrapper_mul_6ns_7s_13_1_1 RTLNAME kernel_wrapper_mul_6ns_7s_13_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
-      {MODELNAME kernel_wrapper_mul_6ns_6ns_11_1_1 RTLNAME kernel_wrapper_mul_6ns_6ns_11_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
-      {MODELNAME kernel_wrapper_mul_6ns_11ns_15_1_1 RTLNAME kernel_wrapper_mul_6ns_11ns_15_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
     }
   }
   {SRCNAME dense<array<ap_ufixed,64u>,array<ap_fixed<16,6,5,3,0>,10u>,config23> MODELNAME dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s RTLNAME kernel_wrapper_dense_array_ap_ufixed_64u_array_ap_fixed_16_6_5_3_0_10u_config23_s}
@@ -148,7 +145,7 @@ set SynModuleInfo {
     SUBMODULES {
       {MODELNAME kernel_wrapper_fifo_w64_d4_S RTLNAME kernel_wrapper_fifo_w64_d4_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME out_r_c_U}
       {MODELNAME kernel_wrapper_fifo_w48_d1024_A RTLNAME kernel_wrapper_fifo_w48_d1024_A BINDTYPE storage TYPE fifo IMPL memory ALLOW_PRAGMA 1 INSTNAME input1_U}
-      {MODELNAME kernel_wrapper_fifo_w13_d3_S RTLNAME kernel_wrapper_fifo_w13_d3_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME n_c_U}
+      {MODELNAME kernel_wrapper_fifo_w14_d3_S RTLNAME kernel_wrapper_fifo_w14_d3_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME n_c_U}
       {MODELNAME kernel_wrapper_fifo_w160_d1_S_x RTLNAME kernel_wrapper_fifo_w160_d1_S_x BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME output2_U}
       {MODELNAME kernel_wrapper_start_for_write_result_U0 RTLNAME kernel_wrapper_start_for_write_result_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_write_result_U0_U}
       {MODELNAME kernel_wrapper_start_for_myproject_U0 RTLNAME kernel_wrapper_start_for_myproject_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_myproject_U0_U}
