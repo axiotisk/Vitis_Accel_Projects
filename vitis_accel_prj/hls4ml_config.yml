@@ -4,6 +4,7 @@ AcceleratorConfig:
   HW_Quant: true
   Num_Kernel: 4
   Num_Worker: 2
+  Platform: null
   Vivado_Directives: null
 Backend: VitisAccelerator
 ClockPeriod: 5
@@ -85,5 +86,5 @@ OutputDir: vitis_accel_prj
 OutputPredictions: null
 Part: xcvu13p-flga2577-2-e
 ProjectName: myproject
-Stamp: 2a63d2Bf
+Stamp: 2C6b67fC
 Version: 1.0.0
