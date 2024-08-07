@@ -55,9 +55,9 @@ entry:0 %br_ln0 = br void %for.cond.i.i
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="11" bw="14" op_0_bw="14" op_1_bw="0" op_2_bw="14" op_3_bw="0">
+<Node id="11" bw="15" op_0_bw="15" op_1_bw="0" op_2_bw="15" op_3_bw="0">
 <![CDATA[
-for.cond.i.i:0 %i = phi i14 %add_ln15, void %for.inc.i.i, i14 0, void %entry
+for.cond.i.i:0 %i = phi i15 %add_ln15, void %for.inc.i.i, i15 0, void %entry
 
 ]]></Node>
 <StgValue><ssdm name="i"/></StgValue>
@@ -70,9 +70,9 @@ for.cond.i.i:0 %i = phi i14 %add_ln15, void %for.inc.i.i, i14 0, void %entry
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="12" bw="1" op_0_bw="14" op_1_bw="14">
+<Node id="12" bw="1" op_0_bw="15" op_1_bw="15">
 <![CDATA[
-for.cond.i.i:1 %icmp_ln15 = icmp_eq  i14 %i, i14 8192
+for.cond.i.i:1 %icmp_ln15 = icmp_eq  i15 %i, i15 16384
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln15"/></StgValue>
@@ -87,7 +87,7 @@ for.cond.i.i:1 %icmp_ln15 = icmp_eq  i14 %i, i14 8192
 
 <Node id="13" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-for.cond.i.i:2 %empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 8192, i64 8192, i64 8192
+for.cond.i.i:2 %empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 16384, i64 16384, i64 16384
 
 ]]></Node>
 <StgValue><ssdm name="empty"/></StgValue>
@@ -100,9 +100,9 @@ for.cond.i.i:2 %empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 8
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="14" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32" op_3_bw="0" op_4_bw="14" op_5_bw="14" op_6_bw="32">
+<Node id="14" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32" op_3_bw="0" op_4_bw="15" op_5_bw="15" op_6_bw="32">
 <![CDATA[
-for.cond.i.i:3 %specdataflowpipeline_ln15 = specdataflowpipeline void @_ssdm_op_SpecDataflowPipeline, i32 4294967295, i32 0, void @dataflow_parent_loop_str, i14 %i, i14 8192, i32 0
+for.cond.i.i:3 %specdataflowpipeline_ln15 = specdataflowpipeline void @_ssdm_op_SpecDataflowPipeline, i32 4294967295, i32 0, void @dataflow_parent_loop_str, i15 %i, i15 16384, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specdataflowpipeline_ln15"/></StgValue>
@@ -115,9 +115,9 @@ for.cond.i.i:3 %specdataflowpipeline_ln15 = specdataflowpipeline void @_ssdm_op_
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="15" bw="14" op_0_bw="14" op_1_bw="14">
+<Node id="15" bw="15" op_0_bw="15" op_1_bw="15">
 <![CDATA[
-for.cond.i.i:4 %add_ln15 = add i14 %i, i14 1
+for.cond.i.i:4 %add_ln15 = add i15 %i, i15 1
 
 ]]></Node>
 <StgValue><ssdm name="add_ln15"/></StgValue>
@@ -146,9 +146,9 @@ for.cond.i.i:5 %br_ln15 = br i1 %icmp_ln15, void %for.inc.i.i, void %run_inferen
 </and_exp></or_exp>
 </condition>
 
-<Node id="19" bw="0" op_0_bw="0" op_1_bw="256" op_2_bw="14" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="16" op_7_bw="16" op_8_bw="18" op_9_bw="18">
+<Node id="19" bw="0" op_0_bw="0" op_1_bw="256" op_2_bw="15" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="16" op_7_bw="16" op_8_bw="18" op_9_bw="18">
 <![CDATA[
-for.inc.i.i:1 %call_ln17 = call void @dataflow_in_loop_VITIS_LOOP_15_1, i256 %in_buf, i14 %i, i16 %out_buf_0, i16 %out_buf_1, i16 %out_buf_2, i16 %out_buf_3, i16 %out_buf_4, i18 %exp_table, i18 %invert_table
+for.inc.i.i:1 %call_ln17 = call void @dataflow_in_loop_VITIS_LOOP_15_1, i256 %in_buf, i15 %i, i16 %out_buf_0, i16 %out_buf_1, i16 %out_buf_2, i16 %out_buf_3, i16 %out_buf_4, i18 %exp_table, i18 %invert_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ln17"/></StgValue>
@@ -197,9 +197,9 @@ for.inc.i.i:0 %specloopname_ln17 = specloopname void @_ssdm_op_SpecLoopName, voi
 </and_exp></or_exp>
 </condition>
 
-<Node id="19" bw="0" op_0_bw="0" op_1_bw="256" op_2_bw="14" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="16" op_7_bw="16" op_8_bw="18" op_9_bw="18">
+<Node id="19" bw="0" op_0_bw="0" op_1_bw="256" op_2_bw="15" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="16" op_7_bw="16" op_8_bw="18" op_9_bw="18">
 <![CDATA[
-for.inc.i.i:1 %call_ln17 = call void @dataflow_in_loop_VITIS_LOOP_15_1, i256 %in_buf, i14 %i, i16 %out_buf_0, i16 %out_buf_1, i16 %out_buf_2, i16 %out_buf_3, i16 %out_buf_4, i18 %exp_table, i18 %invert_table
+for.inc.i.i:1 %call_ln17 = call void @dataflow_in_loop_VITIS_LOOP_15_1, i256 %in_buf, i15 %i, i16 %out_buf_0, i16 %out_buf_1, i16 %out_buf_2, i16 %out_buf_3, i16 %out_buf_4, i18 %exp_table, i18 %invert_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ln17"/></StgValue>

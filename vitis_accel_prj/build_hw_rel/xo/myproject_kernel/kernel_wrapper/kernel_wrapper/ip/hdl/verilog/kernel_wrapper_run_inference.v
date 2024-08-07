@@ -90,62 +90,62 @@ module kernel_wrapper_run_inference (
 );
 
 
-output  [12:0] in_buf_address0;
+output  [13:0] in_buf_address0;
 output   in_buf_ce0;
 output  [255:0] in_buf_d0;
 input  [255:0] in_buf_q0;
 output   in_buf_we0;
-output  [12:0] in_buf_address1;
+output  [13:0] in_buf_address1;
 output   in_buf_ce1;
 output  [255:0] in_buf_d1;
 input  [255:0] in_buf_q1;
 output   in_buf_we1;
-output  [12:0] out_buf_0_address0;
+output  [13:0] out_buf_0_address0;
 output   out_buf_0_ce0;
 output  [15:0] out_buf_0_d0;
 input  [15:0] out_buf_0_q0;
 output   out_buf_0_we0;
-output  [12:0] out_buf_0_address1;
+output  [13:0] out_buf_0_address1;
 output   out_buf_0_ce1;
 output  [15:0] out_buf_0_d1;
 input  [15:0] out_buf_0_q1;
 output   out_buf_0_we1;
-output  [12:0] out_buf_1_address0;
+output  [13:0] out_buf_1_address0;
 output   out_buf_1_ce0;
 output  [15:0] out_buf_1_d0;
 input  [15:0] out_buf_1_q0;
 output   out_buf_1_we0;
-output  [12:0] out_buf_1_address1;
+output  [13:0] out_buf_1_address1;
 output   out_buf_1_ce1;
 output  [15:0] out_buf_1_d1;
 input  [15:0] out_buf_1_q1;
 output   out_buf_1_we1;
-output  [12:0] out_buf_2_address0;
+output  [13:0] out_buf_2_address0;
 output   out_buf_2_ce0;
 output  [15:0] out_buf_2_d0;
 input  [15:0] out_buf_2_q0;
 output   out_buf_2_we0;
-output  [12:0] out_buf_2_address1;
+output  [13:0] out_buf_2_address1;
 output   out_buf_2_ce1;
 output  [15:0] out_buf_2_d1;
 input  [15:0] out_buf_2_q1;
 output   out_buf_2_we1;
-output  [12:0] out_buf_3_address0;
+output  [13:0] out_buf_3_address0;
 output   out_buf_3_ce0;
 output  [15:0] out_buf_3_d0;
 input  [15:0] out_buf_3_q0;
 output   out_buf_3_we0;
-output  [12:0] out_buf_3_address1;
+output  [13:0] out_buf_3_address1;
 output   out_buf_3_ce1;
 output  [15:0] out_buf_3_d1;
 input  [15:0] out_buf_3_q1;
 output   out_buf_3_we1;
-output  [12:0] out_buf_4_address0;
+output  [13:0] out_buf_4_address0;
 output   out_buf_4_ce0;
 output  [15:0] out_buf_4_d0;
 input  [15:0] out_buf_4_q0;
 output   out_buf_4_we0;
-output  [12:0] out_buf_4_address1;
+output  [13:0] out_buf_4_address1;
 output   out_buf_4_ce1;
 output  [15:0] out_buf_4_d1;
 input  [15:0] out_buf_4_q1;
@@ -174,51 +174,51 @@ reg ap_done;
 reg ap_ready;
 reg ap_idle;
 
-wire   [12:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_in_buf_address0;
+wire   [13:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_in_buf_address0;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_in_buf_ce0;
 wire   [255:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_in_buf_d0;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_in_buf_we0;
-wire   [12:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_in_buf_address1;
+wire   [13:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_in_buf_address1;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_in_buf_ce1;
 wire   [255:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_in_buf_d1;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_in_buf_we1;
-wire   [12:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_0_address0;
+wire   [13:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_0_address0;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_0_ce0;
 wire   [15:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_0_d0;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_0_we0;
-wire   [12:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_0_address1;
+wire   [13:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_0_address1;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_0_ce1;
 wire   [15:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_0_d1;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_0_we1;
-wire   [12:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_1_address0;
+wire   [13:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_1_address0;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_1_ce0;
 wire   [15:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_1_d0;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_1_we0;
-wire   [12:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_1_address1;
+wire   [13:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_1_address1;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_1_ce1;
 wire   [15:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_1_d1;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_1_we1;
-wire   [12:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_2_address0;
+wire   [13:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_2_address0;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_2_ce0;
 wire   [15:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_2_d0;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_2_we0;
-wire   [12:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_2_address1;
+wire   [13:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_2_address1;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_2_ce1;
 wire   [15:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_2_d1;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_2_we1;
-wire   [12:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_3_address0;
+wire   [13:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_3_address0;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_3_ce0;
 wire   [15:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_3_d0;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_3_we0;
-wire   [12:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_3_address1;
+wire   [13:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_3_address1;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_3_ce1;
 wire   [15:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_3_d1;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_3_we1;
-wire   [12:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_4_address0;
+wire   [13:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_4_address0;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_4_ce0;
 wire   [15:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_4_d0;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_4_we0;
-wire   [12:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_4_address1;
+wire   [13:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_4_address1;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_4_ce1;
 wire   [15:0] dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_4_d1;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_4_we1;
@@ -234,15 +234,15 @@ wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_ap_ready;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_ap_idle;
 reg    dataflow_in_loop_VITIS_LOOP_15_1_U0_ap_continue;
 wire    dataflow_in_loop_VITIS_LOOP_15_1_U0_in_buf_write;
-reg   [13:0] loop_dataflow_input_count;
-reg   [13:0] loop_dataflow_output_count;
-wire   [13:0] bound_minus_1;
+reg   [14:0] loop_dataflow_input_count;
+reg   [14:0] loop_dataflow_output_count;
+wire   [14:0] bound_minus_1;
 wire    ap_ce_reg;
 
 // power-on initialization
 initial begin
-#0 loop_dataflow_input_count = 14'd0;
-#0 loop_dataflow_output_count = 14'd0;
+#0 loop_dataflow_input_count = 15'd0;
+#0 loop_dataflow_output_count = 15'd0;
 end
 
 kernel_wrapper_dataflow_in_loop_VITIS_LOOP_15_1 dataflow_in_loop_VITIS_LOOP_15_1_U0(
@@ -331,24 +331,24 @@ kernel_wrapper_dataflow_in_loop_VITIS_LOOP_15_1 dataflow_in_loop_VITIS_LOOP_15_1
 
 always @ (posedge ap_clk) begin
     if (ap_rst == 1'b1) begin
-        loop_dataflow_input_count <= 14'd0;
+        loop_dataflow_input_count <= 15'd0;
     end else begin
         if ((~(loop_dataflow_input_count == bound_minus_1) & (ap_start == 1'b1) & (dataflow_in_loop_VITIS_LOOP_15_1_U0_ap_ready == 1'b1))) begin
-            loop_dataflow_input_count <= (loop_dataflow_input_count + 14'd1);
+            loop_dataflow_input_count <= (loop_dataflow_input_count + 15'd1);
         end else if (((loop_dataflow_input_count == bound_minus_1) & (ap_start == 1'b1) & (dataflow_in_loop_VITIS_LOOP_15_1_U0_ap_ready == 1'b1))) begin
-            loop_dataflow_input_count <= 14'd0;
+            loop_dataflow_input_count <= 15'd0;
         end
     end
 end
 
 always @ (posedge ap_clk) begin
     if (ap_rst == 1'b1) begin
-        loop_dataflow_output_count <= 14'd0;
+        loop_dataflow_output_count <= 15'd0;
     end else begin
         if ((~(loop_dataflow_output_count == bound_minus_1) & (dataflow_in_loop_VITIS_LOOP_15_1_U0_ap_continue == 1'b1) & (dataflow_in_loop_VITIS_LOOP_15_1_U0_ap_done == 1'b1))) begin
-            loop_dataflow_output_count <= (loop_dataflow_output_count + 14'd1);
+            loop_dataflow_output_count <= (loop_dataflow_output_count + 15'd1);
         end else if (((loop_dataflow_output_count == bound_minus_1) & (dataflow_in_loop_VITIS_LOOP_15_1_U0_ap_continue == 1'b1) & (dataflow_in_loop_VITIS_LOOP_15_1_U0_ap_done == 1'b1))) begin
-            loop_dataflow_output_count <= 14'd0;
+            loop_dataflow_output_count <= 15'd0;
         end
     end
 end
@@ -362,7 +362,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if (((loop_dataflow_output_count == 14'd0) & (ap_start == 1'b0) & (dataflow_in_loop_VITIS_LOOP_15_1_U0_ap_idle == 1'b1))) begin
+    if (((loop_dataflow_output_count == 15'd0) & (ap_start == 1'b0) & (dataflow_in_loop_VITIS_LOOP_15_1_U0_ap_idle == 1'b1))) begin
         ap_idle = 1'b1;
     end else begin
         ap_idle = 1'b0;
@@ -385,7 +385,7 @@ always @ (*) begin
     end
 end
 
-assign bound_minus_1 = (14'd8192 - 14'd1);
+assign bound_minus_1 = (15'd16384 - 15'd1);
 
 assign dataflow_in_loop_VITIS_LOOP_15_1_U0_ap_start = ap_start;
 
@@ -393,7 +393,7 @@ assign dataflow_in_loop_VITIS_LOOP_15_1_U0_in_buf_write = 1'b0;
 
 assign in_buf_address0 = dataflow_in_loop_VITIS_LOOP_15_1_U0_in_buf_address0;
 
-assign in_buf_address1 = 13'd0;
+assign in_buf_address1 = 14'd0;
 
 assign in_buf_ce0 = dataflow_in_loop_VITIS_LOOP_15_1_U0_in_buf_ce0;
 
@@ -411,7 +411,7 @@ assign in_buf_we1 = 1'b0;
 
 assign out_buf_0_address0 = dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_0_address0;
 
-assign out_buf_0_address1 = 13'd0;
+assign out_buf_0_address1 = 14'd0;
 
 assign out_buf_0_ce0 = dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_0_ce0;
 
@@ -429,7 +429,7 @@ assign out_buf_0_write = dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_0_write;
 
 assign out_buf_1_address0 = dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_1_address0;
 
-assign out_buf_1_address1 = 13'd0;
+assign out_buf_1_address1 = 14'd0;
 
 assign out_buf_1_ce0 = dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_1_ce0;
 
@@ -447,7 +447,7 @@ assign out_buf_1_write = dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_1_write;
 
 assign out_buf_2_address0 = dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_2_address0;
 
-assign out_buf_2_address1 = 13'd0;
+assign out_buf_2_address1 = 14'd0;
 
 assign out_buf_2_ce0 = dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_2_ce0;
 
@@ -465,7 +465,7 @@ assign out_buf_2_write = dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_2_write;
 
 assign out_buf_3_address0 = dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_3_address0;
 
-assign out_buf_3_address1 = 13'd0;
+assign out_buf_3_address1 = 14'd0;
 
 assign out_buf_3_ce0 = dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_3_ce0;
 
@@ -483,7 +483,7 @@ assign out_buf_3_write = dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_3_write;
 
 assign out_buf_4_address0 = dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_4_address0;
 
-assign out_buf_4_address1 = 13'd0;
+assign out_buf_4_address1 = 14'd0;
 
 assign out_buf_4_ce0 = dataflow_in_loop_VITIS_LOOP_15_1_U0_out_buf_4_ce0;
 

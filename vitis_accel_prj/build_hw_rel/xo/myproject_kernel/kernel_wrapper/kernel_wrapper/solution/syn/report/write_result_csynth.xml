@@ -22,21 +22,21 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>41036</Best-caseLatency>
-<Average-caseLatency>41036</Average-caseLatency>
-<Worst-caseLatency>41036</Worst-caseLatency>
-<Best-caseRealTimeLatency>0.205 ms</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.205 ms</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.205 ms</Worst-caseRealTimeLatency>
-<Interval-min>41036</Interval-min>
-<Interval-max>41036</Interval-max>
+<Best-caseLatency>81996</Best-caseLatency>
+<Average-caseLatency>81996</Average-caseLatency>
+<Worst-caseLatency>81996</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.410 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.410 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.410 ms</Worst-caseRealTimeLatency>
+<Interval-min>81996</Interval-min>
+<Interval-max>81996</Interval-max>
 </SummaryOfOverallLatency>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
-<FF>1094</FF>
-<LUT>5326</LUT>
+<FF>1095</FF>
+<LUT>5328</LUT>
 <BRAM_18K>0</BRAM_18K>
 <DSP>0</DSP>
 <URAM>0</URAM>
@@ -697,7 +697,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>13</Bits>
+<Bits>14</Bits>
 <Attribute>address</Attribute>
 </RtlPorts>
 <RtlPorts>
@@ -730,7 +730,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>13</Bits>
+<Bits>14</Bits>
 <Attribute>address</Attribute>
 </RtlPorts>
 <RtlPorts>
@@ -763,7 +763,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>13</Bits>
+<Bits>14</Bits>
 <Attribute>address</Attribute>
 </RtlPorts>
 <RtlPorts>
@@ -796,7 +796,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>13</Bits>
+<Bits>14</Bits>
 <Attribute>address</Attribute>
 </RtlPorts>
 <RtlPorts>
@@ -829,7 +829,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>13</Bits>
+<Bits>14</Bits>
 <Attribute>address</Attribute>
 </RtlPorts>
 <RtlPorts>

@@ -3407,7 +3407,7 @@ window.onload = function () { addSorting(); }
 <center><h1>Design Guidance Report</h1></center><center><table class="header" border="0">
 <tr><td><b>Copyright</b></td><td>Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.</td></tr>
 <tr><td><b>Tool Version</b></td><td>xcd v.2022.2 (lin64) Build 0 </td></tr>
-<tr><td><b>Date</b></td><td>Fri Jul  5 08:08:13 2024</td></tr>
+<tr><td><b>Date</b></td><td>Tue Aug  6 06:38:16 2024</td></tr>
 <tr><td><b>Host</b></td><td>egl running 64-bit Ubuntu 20.04.4 LTS</td></tr>
 <tr><td><b>Command</b></td><td>/tools/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/v++  --vivado.prop "run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}" --advanced.misc "report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}" --advanced.misc "report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}" -c -t hw --config accelerator_card.cfg --messageDb=./build_hw_rel/kernel_wrapper.mdb --temp_dir ./build_hw_rel/xo --log_dir ./build_hw_rel/xo -o build_hw_rel/myproject_kernel.xo kernel_wrapper.cpp firmware/myproject.cpp -I./ -I./firmware/ -I./firmware/weights -I./firmware/nnet_utils/ </td></tr>
 </table></center><br>
@@ -3432,39 +3432,6 @@ window.onload = function () { addSorting(); }
 <th align="left">Categories</th>
 <th align="left" width="350">Details</th>
 <th align="left" width="380">Resolution</th>
-</tr>
-<tr>
-<td align="left">1</td>
-<td align="left">Interface</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Interface Related</td>
-<td align="left">Accelerator.kernel_wrapper.Interface</td>
-<td align="left">Multiple burst reads of length 8192 and bit width 512 in loop 'VITIS_LOOP_5_1'(<a href="file:///home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp#line=5">kernel_wrapper.cpp</a>) has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (<a href="file:///home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp#line=5">kernel_wrapper.cpp</a>)
-</td>
-<td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">2</td>
-<td align="left">Interface</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Interface Related</td>
-<td align="left">Accelerator.kernel_wrapper.Interface</td>
-<td align="left">Multiple burst writes of length 40960 and bit width 32 in loop 'VITIS_LOOP_21_1'(<a href="file:///home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp#line=21">kernel_wrapper.cpp</a>) has been inferred on bundle 'gmem1'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (<a href="file:///home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp#line=21">kernel_wrapper.cpp</a>)
-</td>
-<td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">3</td>
-<td align="left">Throughput</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.kernel_wrapper.Throughput</td>
-<td align="left">Pipelining result : Target II = NA, Final II = 1, Depth = 6, loop 'VITIS_LOOP_5_1'
-</td>
-<td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
 <td align="left">4</td>
@@ -3661,6 +3628,39 @@ window.onload = function () { addSorting(); }
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.kernel_wrapper.Kernel</td>
 <td align="left">**** Estimated Fmax: 273.97 MHz
+</td>
+<td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">Interface</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Interface Related</td>
+<td align="left">Accelerator.kernel_wrapper.Interface</td>
+<td align="left">Multiple burst reads of length 16384 and bit width 512 in loop 'VITIS_LOOP_5_1'(<a href="file:///home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp#line=5">kernel_wrapper.cpp</a>) has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (<a href="file:///home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp#line=5">kernel_wrapper.cpp</a>)
+</td>
+<td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">2</td>
+<td align="left">Interface</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Interface Related</td>
+<td align="left">Accelerator.kernel_wrapper.Interface</td>
+<td align="left">Multiple burst writes of length 81920 and bit width 32 in loop 'VITIS_LOOP_21_1'(<a href="file:///home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp#line=21">kernel_wrapper.cpp</a>) has been inferred on bundle 'gmem1'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (<a href="file:///home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp#line=21">kernel_wrapper.cpp</a>)
+</td>
+<td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">3</td>
+<td align="left">Throughput</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.kernel_wrapper.Throughput</td>
+<td align="left">Pipelining result : Target II = NA, Final II = 1, Depth = 6, loop 'VITIS_LOOP_5_1'
 </td>
 <td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
 </tr>

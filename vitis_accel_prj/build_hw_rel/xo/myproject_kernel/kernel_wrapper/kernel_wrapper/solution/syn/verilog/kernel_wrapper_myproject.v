@@ -51,27 +51,27 @@ input   ap_start;
 output   ap_done;
 output   ap_idle;
 output   ap_ready;
-output  [12:0] in_buf_address0;
+output  [13:0] in_buf_address0;
 output   in_buf_ce0;
 input  [255:0] in_buf_q0;
-input  [12:0] i;
-output  [12:0] out_buf_0_address0;
+input  [13:0] i;
+output  [13:0] out_buf_0_address0;
 output   out_buf_0_ce0;
 output   out_buf_0_we0;
 output  [15:0] out_buf_0_d0;
-output  [12:0] out_buf_1_address0;
+output  [13:0] out_buf_1_address0;
 output   out_buf_1_ce0;
 output   out_buf_1_we0;
 output  [15:0] out_buf_1_d0;
-output  [12:0] out_buf_2_address0;
+output  [13:0] out_buf_2_address0;
 output   out_buf_2_ce0;
 output   out_buf_2_we0;
 output  [15:0] out_buf_2_d0;
-output  [12:0] out_buf_3_address0;
+output  [13:0] out_buf_3_address0;
 output   out_buf_3_ce0;
 output   out_buf_3_we0;
 output  [15:0] out_buf_3_d0;
-output  [12:0] out_buf_4_address0;
+output  [13:0] out_buf_4_address0;
 output   out_buf_4_ce0;
 output   out_buf_4_we0;
 output  [15:0] out_buf_4_d0;
@@ -118,7 +118,7 @@ wire    ap_block_state18_pp0_stage1_iter8;
 wire    ap_block_state20_pp0_stage1_iter9;
 reg    ap_done_reg;
 reg    ap_block_pp0_stage1_subdone;
-reg   [12:0] i_read_reg_1565;
+reg   [13:0] i_read_reg_1565;
 reg    ap_block_state1_pp0_stage0_iter0;
 wire    ap_block_state3_pp0_stage0_iter1;
 wire    ap_block_state5_pp0_stage0_iter2;
@@ -1688,16 +1688,16 @@ always @ (posedge ap_clk) begin
         layer8_out_V_8_reg_2269 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s_fu_307_ap_return_8;
         layer8_out_V_9_reg_2274 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s_fu_307_ap_return_9;
         layer8_out_V_reg_2229 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s_fu_307_ap_return_0;
-        zext_ln386_reg_1570[12 : 0] <= zext_ln386_fu_428_p1[12 : 0];
-        zext_ln386_reg_1570_pp0_iter1_reg[12 : 0] <= zext_ln386_reg_1570[12 : 0];
-        zext_ln386_reg_1570_pp0_iter2_reg[12 : 0] <= zext_ln386_reg_1570_pp0_iter1_reg[12 : 0];
-        zext_ln386_reg_1570_pp0_iter3_reg[12 : 0] <= zext_ln386_reg_1570_pp0_iter2_reg[12 : 0];
-        zext_ln386_reg_1570_pp0_iter4_reg[12 : 0] <= zext_ln386_reg_1570_pp0_iter3_reg[12 : 0];
-        zext_ln386_reg_1570_pp0_iter5_reg[12 : 0] <= zext_ln386_reg_1570_pp0_iter4_reg[12 : 0];
-        zext_ln386_reg_1570_pp0_iter6_reg[12 : 0] <= zext_ln386_reg_1570_pp0_iter5_reg[12 : 0];
-        zext_ln386_reg_1570_pp0_iter7_reg[12 : 0] <= zext_ln386_reg_1570_pp0_iter6_reg[12 : 0];
-        zext_ln386_reg_1570_pp0_iter8_reg[12 : 0] <= zext_ln386_reg_1570_pp0_iter7_reg[12 : 0];
-        zext_ln386_reg_1570_pp0_iter9_reg[12 : 0] <= zext_ln386_reg_1570_pp0_iter8_reg[12 : 0];
+        zext_ln386_reg_1570[13 : 0] <= zext_ln386_fu_428_p1[13 : 0];
+        zext_ln386_reg_1570_pp0_iter1_reg[13 : 0] <= zext_ln386_reg_1570[13 : 0];
+        zext_ln386_reg_1570_pp0_iter2_reg[13 : 0] <= zext_ln386_reg_1570_pp0_iter1_reg[13 : 0];
+        zext_ln386_reg_1570_pp0_iter3_reg[13 : 0] <= zext_ln386_reg_1570_pp0_iter2_reg[13 : 0];
+        zext_ln386_reg_1570_pp0_iter4_reg[13 : 0] <= zext_ln386_reg_1570_pp0_iter3_reg[13 : 0];
+        zext_ln386_reg_1570_pp0_iter5_reg[13 : 0] <= zext_ln386_reg_1570_pp0_iter4_reg[13 : 0];
+        zext_ln386_reg_1570_pp0_iter6_reg[13 : 0] <= zext_ln386_reg_1570_pp0_iter5_reg[13 : 0];
+        zext_ln386_reg_1570_pp0_iter7_reg[13 : 0] <= zext_ln386_reg_1570_pp0_iter6_reg[13 : 0];
+        zext_ln386_reg_1570_pp0_iter8_reg[13 : 0] <= zext_ln386_reg_1570_pp0_iter7_reg[13 : 0];
+        zext_ln386_reg_1570_pp0_iter9_reg[13 : 0] <= zext_ln386_reg_1570_pp0_iter8_reg[13 : 0];
     end
 end
 
@@ -2274,16 +2274,16 @@ assign out_buf_4_d0 = grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_co
 assign zext_ln386_fu_428_p1 = i_read_reg_1565;
 
 always @ (posedge ap_clk) begin
-    zext_ln386_reg_1570[63:13] <= 51'b000000000000000000000000000000000000000000000000000;
-    zext_ln386_reg_1570_pp0_iter1_reg[63:13] <= 51'b000000000000000000000000000000000000000000000000000;
-    zext_ln386_reg_1570_pp0_iter2_reg[63:13] <= 51'b000000000000000000000000000000000000000000000000000;
-    zext_ln386_reg_1570_pp0_iter3_reg[63:13] <= 51'b000000000000000000000000000000000000000000000000000;
-    zext_ln386_reg_1570_pp0_iter4_reg[63:13] <= 51'b000000000000000000000000000000000000000000000000000;
-    zext_ln386_reg_1570_pp0_iter5_reg[63:13] <= 51'b000000000000000000000000000000000000000000000000000;
-    zext_ln386_reg_1570_pp0_iter6_reg[63:13] <= 51'b000000000000000000000000000000000000000000000000000;
-    zext_ln386_reg_1570_pp0_iter7_reg[63:13] <= 51'b000000000000000000000000000000000000000000000000000;
-    zext_ln386_reg_1570_pp0_iter8_reg[63:13] <= 51'b000000000000000000000000000000000000000000000000000;
-    zext_ln386_reg_1570_pp0_iter9_reg[63:13] <= 51'b000000000000000000000000000000000000000000000000000;
+    zext_ln386_reg_1570[63:14] <= 50'b00000000000000000000000000000000000000000000000000;
+    zext_ln386_reg_1570_pp0_iter1_reg[63:14] <= 50'b00000000000000000000000000000000000000000000000000;
+    zext_ln386_reg_1570_pp0_iter2_reg[63:14] <= 50'b00000000000000000000000000000000000000000000000000;
+    zext_ln386_reg_1570_pp0_iter3_reg[63:14] <= 50'b00000000000000000000000000000000000000000000000000;
+    zext_ln386_reg_1570_pp0_iter4_reg[63:14] <= 50'b00000000000000000000000000000000000000000000000000;
+    zext_ln386_reg_1570_pp0_iter5_reg[63:14] <= 50'b00000000000000000000000000000000000000000000000000;
+    zext_ln386_reg_1570_pp0_iter6_reg[63:14] <= 50'b00000000000000000000000000000000000000000000000000;
+    zext_ln386_reg_1570_pp0_iter7_reg[63:14] <= 50'b00000000000000000000000000000000000000000000000000;
+    zext_ln386_reg_1570_pp0_iter8_reg[63:14] <= 50'b00000000000000000000000000000000000000000000000000;
+    zext_ln386_reg_1570_pp0_iter9_reg[63:14] <= 50'b00000000000000000000000000000000000000000000000000;
 end
 
 endmodule //kernel_wrapper_myproject

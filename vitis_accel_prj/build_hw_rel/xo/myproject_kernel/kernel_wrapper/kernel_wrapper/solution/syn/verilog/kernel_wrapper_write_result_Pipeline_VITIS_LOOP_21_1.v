@@ -137,19 +137,19 @@ input  [1:0] m_axi_gmem1_BRESP;
 input  [0:0] m_axi_gmem1_BID;
 input  [0:0] m_axi_gmem1_BUSER;
 input  [61:0] sext_ln21;
-output  [12:0] out_buf_0_address0;
+output  [13:0] out_buf_0_address0;
 output   out_buf_0_ce0;
 input  [15:0] out_buf_0_q0;
-output  [12:0] out_buf_1_address0;
+output  [13:0] out_buf_1_address0;
 output   out_buf_1_ce0;
 input  [15:0] out_buf_1_q0;
-output  [12:0] out_buf_2_address0;
+output  [13:0] out_buf_2_address0;
 output   out_buf_2_ce0;
 input  [15:0] out_buf_2_q0;
-output  [12:0] out_buf_3_address0;
+output  [13:0] out_buf_3_address0;
 output   out_buf_3_ce0;
 input  [15:0] out_buf_3_q0;
-output  [12:0] out_buf_4_address0;
+output  [13:0] out_buf_4_address0;
 output   out_buf_4_ce0;
 input  [15:0] out_buf_4_q0;
 
@@ -297,10 +297,10 @@ wire    ap_block_pp0_stage0_01001;
 wire    ap_block_pp0_stage1_01001;
 wire    ap_block_pp0_stage2_01001;
 wire    ap_block_pp0_stage3_01001;
-reg   [13:0] i_fu_116;
-wire   [13:0] add_ln21_fu_255_p2;
+reg   [14:0] i_fu_116;
+wire   [14:0] add_ln21_fu_255_p2;
 wire    ap_loop_init;
-reg   [13:0] ap_sig_allocacmp_i_1;
+reg   [14:0] ap_sig_allocacmp_i_1;
 wire   [15:0] tmp_V_fu_289_p2;
 reg   [15:0] p_Result_s_fu_303_p4;
 wire   [16:0] p_Result_36_fu_313_p3;
@@ -580,7 +580,7 @@ always @ (posedge ap_clk) begin
         if (((ap_enable_reg_pp0_iter0 == 1'b1) & (icmp_ln21_fu_249_p2 == 1'd0))) begin
             i_fu_116 <= add_ln21_fu_255_p2;
         end else if ((ap_loop_init == 1'b1)) begin
-            i_fu_116 <= 14'd0;
+            i_fu_116 <= 15'd0;
         end
     end
 end
@@ -759,7 +759,7 @@ end
 
 always @ (*) begin
     if (((1'b0 == ap_block_pp0_stage0) & (ap_loop_init == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
-        ap_sig_allocacmp_i_1 = 14'd0;
+        ap_sig_allocacmp_i_1 = 15'd0;
     end else begin
         ap_sig_allocacmp_i_1 = i_fu_116;
     end
@@ -932,7 +932,7 @@ assign add_ln1124_4_fu_1728_p2 = (sub_ln1119_4_fu_1723_p2 + select_ln1098_4_fu_1
 
 assign add_ln1124_fu_636_p2 = (sub_ln1119_fu_631_p2 + select_ln1098_fu_624_p3);
 
-assign add_ln21_fu_255_p2 = (ap_sig_allocacmp_i_1 + 14'd1);
+assign add_ln21_fu_255_p2 = (ap_sig_allocacmp_i_1 + 15'd1);
 
 assign and_ln1104_1_fu_751_p2 = (xor_ln1104_1_fu_733_p2 & p_Result_11_fu_744_p3);
 
@@ -1080,7 +1080,7 @@ assign icmp_ln1113_4_fu_1641_p2 = (($signed(lsb_index_4_fu_1539_p2) > $signed(32
 
 assign icmp_ln1113_fu_485_p2 = (($signed(lsb_index_fu_383_p2) > $signed(32'd0)) ? 1'b1 : 1'b0);
 
-assign icmp_ln21_fu_249_p2 = ((ap_sig_allocacmp_i_1 == 14'd8192) ? 1'b1 : 1'b0);
+assign icmp_ln21_fu_249_p2 = ((ap_sig_allocacmp_i_1 == 15'd16384) ? 1'b1 : 1'b0);
 
 
 always @ (sext_ln1198_1_fu_591_p1) begin

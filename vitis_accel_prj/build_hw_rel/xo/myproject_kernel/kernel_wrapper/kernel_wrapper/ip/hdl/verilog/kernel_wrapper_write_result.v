@@ -214,19 +214,19 @@ input  [2:0] out_r_num_data_valid;
 input  [2:0] out_r_fifo_cap;
 input   out_r_empty_n;
 output   out_r_read;
-output  [12:0] out_buf_0_address0;
+output  [13:0] out_buf_0_address0;
 output   out_buf_0_ce0;
 input  [15:0] out_buf_0_q0;
-output  [12:0] out_buf_1_address0;
+output  [13:0] out_buf_1_address0;
 output   out_buf_1_ce0;
 input  [15:0] out_buf_1_q0;
-output  [12:0] out_buf_2_address0;
+output  [13:0] out_buf_2_address0;
 output   out_buf_2_ce0;
 input  [15:0] out_buf_2_q0;
-output  [12:0] out_buf_3_address0;
+output  [13:0] out_buf_3_address0;
 output   out_buf_3_ce0;
 input  [15:0] out_buf_3_q0;
-output  [12:0] out_buf_4_address0;
+output  [13:0] out_buf_4_address0;
 output   out_buf_4_ce0;
 input  [15:0] out_buf_4_q0;
 
@@ -294,15 +294,15 @@ wire   [3:0] grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_m_axi_gmem1_ARREGIO
 wire   [0:0] grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_m_axi_gmem1_ARUSER;
 wire    grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_m_axi_gmem1_RREADY;
 wire    grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_m_axi_gmem1_BREADY;
-wire   [12:0] grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_0_address0;
+wire   [13:0] grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_0_address0;
 wire    grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_0_ce0;
-wire   [12:0] grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_1_address0;
+wire   [13:0] grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_1_address0;
 wire    grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_1_ce0;
-wire   [12:0] grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_2_address0;
+wire   [13:0] grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_2_address0;
 wire    grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_2_ce0;
-wire   [12:0] grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_3_address0;
+wire   [13:0] grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_3_address0;
 wire    grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_3_ce0;
-wire   [12:0] grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_4_address0;
+wire   [13:0] grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_4_address0;
 wire    grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_4_ce0;
 reg    grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_ap_start_reg;
 wire    ap_CS_fsm_state3;
@@ -744,7 +744,7 @@ end
 
 always @ (*) begin
     if (((m_axi_gmem1_AWREADY == 1'b1) & (1'b1 == ap_CS_fsm_state2))) begin
-        m_axi_gmem1_AWLEN = 32'd40960;
+        m_axi_gmem1_AWLEN = 32'd81920;
     end else if (((1'b1 == ap_CS_fsm_state4) | (1'b1 == ap_CS_fsm_state3))) begin
         m_axi_gmem1_AWLEN = grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_m_axi_gmem1_AWLEN;
     end else begin

@@ -195,7 +195,7 @@ input  [1:0] m_axi_gmem0_BRESP;
 input  [0:0] m_axi_gmem0_BID;
 input  [0:0] m_axi_gmem0_BUSER;
 input  [63:0] in_r;
-output  [12:0] in_buf_address0;
+output  [13:0] in_buf_address0;
 output   in_buf_ce0;
 output   in_buf_we0;
 output  [255:0] in_buf_d0;
@@ -259,7 +259,7 @@ wire   [3:0] grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_m_axi_gmem0_ARREGION;
 wire   [0:0] grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_m_axi_gmem0_ARUSER;
 wire    grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_m_axi_gmem0_RREADY;
 wire    grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_m_axi_gmem0_BREADY;
-wire   [12:0] grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_in_buf_address0;
+wire   [13:0] grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_in_buf_address0;
 wire    grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_in_buf_ce0;
 wire    grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_in_buf_we0;
 wire   [255:0] grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_in_buf_d0;
@@ -672,7 +672,7 @@ end
 
 always @ (*) begin
     if ((~((ap_done_reg == 1'b1) | (ap_start == 1'b0) | (m_axi_gmem0_ARREADY == 1'b0)) & (1'b1 == ap_CS_fsm_state1))) begin
-        m_axi_gmem0_ARLEN = 32'd8192;
+        m_axi_gmem0_ARLEN = 32'd16384;
     end else if (((1'b1 == ap_CS_fsm_state72) | (1'b1 == ap_CS_fsm_state71))) begin
         m_axi_gmem0_ARLEN = grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_m_axi_gmem0_ARLEN;
     end else begin

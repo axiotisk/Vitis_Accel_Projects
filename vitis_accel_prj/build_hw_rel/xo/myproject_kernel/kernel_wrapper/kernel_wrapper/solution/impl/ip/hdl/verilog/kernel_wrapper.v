@@ -7,7 +7,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="kernel_wrapper_kernel_wrapper,hls_ip_2022_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xcu55c-fsvh2892-2L-e,HLS_INPUT_CLOCK=5.000000,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=3.650000,HLS_SYN_LAT=65711,HLS_SYN_TPT=41037,HLS_SYN_MEM=162,HLS_SYN_DSP=0,HLS_SYN_FF=25025,HLS_SYN_LUT=112501,HLS_VERSION=2022_2}" *)
+(* CORE_GENERATION_INFO="kernel_wrapper_kernel_wrapper,hls_ip_2022_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xcu55c-fsvh2892-2L-e,HLS_INPUT_CLOCK=5.000000,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=3.650000,HLS_SYN_LAT=131247,HLS_SYN_TPT=81997,HLS_SYN_MEM=162,HLS_SYN_DSP=0,HLS_SYN_FF=25045,HLS_SYN_LUT=112508,HLS_VERSION=2022_2}" *)
 
 module kernel_wrapper (
         ap_clk,
@@ -353,55 +353,55 @@ wire   [3:0] read_input_U0_m_axi_gmem0_ARREGION;
 wire   [0:0] read_input_U0_m_axi_gmem0_ARUSER;
 wire    read_input_U0_m_axi_gmem0_RREADY;
 wire    read_input_U0_m_axi_gmem0_BREADY;
-wire   [12:0] read_input_U0_in_buf_address0;
+wire   [13:0] read_input_U0_in_buf_address0;
 wire    read_input_U0_in_buf_ce0;
 wire    read_input_U0_in_buf_we0;
 wire   [255:0] read_input_U0_in_buf_d0;
-wire   [12:0] run_inference_U0_in_buf_address0;
+wire   [13:0] run_inference_U0_in_buf_address0;
 wire    run_inference_U0_in_buf_ce0;
 wire   [255:0] run_inference_U0_in_buf_d0;
 wire    run_inference_U0_in_buf_we0;
-wire   [12:0] run_inference_U0_in_buf_address1;
+wire   [13:0] run_inference_U0_in_buf_address1;
 wire    run_inference_U0_in_buf_ce1;
 wire   [255:0] run_inference_U0_in_buf_d1;
 wire    run_inference_U0_in_buf_we1;
-wire   [12:0] run_inference_U0_out_buf_0_address0;
+wire   [13:0] run_inference_U0_out_buf_0_address0;
 wire    run_inference_U0_out_buf_0_ce0;
 wire   [15:0] run_inference_U0_out_buf_0_d0;
 wire    run_inference_U0_out_buf_0_we0;
-wire   [12:0] run_inference_U0_out_buf_0_address1;
+wire   [13:0] run_inference_U0_out_buf_0_address1;
 wire    run_inference_U0_out_buf_0_ce1;
 wire   [15:0] run_inference_U0_out_buf_0_d1;
 wire    run_inference_U0_out_buf_0_we1;
-wire   [12:0] run_inference_U0_out_buf_1_address0;
+wire   [13:0] run_inference_U0_out_buf_1_address0;
 wire    run_inference_U0_out_buf_1_ce0;
 wire   [15:0] run_inference_U0_out_buf_1_d0;
 wire    run_inference_U0_out_buf_1_we0;
-wire   [12:0] run_inference_U0_out_buf_1_address1;
+wire   [13:0] run_inference_U0_out_buf_1_address1;
 wire    run_inference_U0_out_buf_1_ce1;
 wire   [15:0] run_inference_U0_out_buf_1_d1;
 wire    run_inference_U0_out_buf_1_we1;
-wire   [12:0] run_inference_U0_out_buf_2_address0;
+wire   [13:0] run_inference_U0_out_buf_2_address0;
 wire    run_inference_U0_out_buf_2_ce0;
 wire   [15:0] run_inference_U0_out_buf_2_d0;
 wire    run_inference_U0_out_buf_2_we0;
-wire   [12:0] run_inference_U0_out_buf_2_address1;
+wire   [13:0] run_inference_U0_out_buf_2_address1;
 wire    run_inference_U0_out_buf_2_ce1;
 wire   [15:0] run_inference_U0_out_buf_2_d1;
 wire    run_inference_U0_out_buf_2_we1;
-wire   [12:0] run_inference_U0_out_buf_3_address0;
+wire   [13:0] run_inference_U0_out_buf_3_address0;
 wire    run_inference_U0_out_buf_3_ce0;
 wire   [15:0] run_inference_U0_out_buf_3_d0;
 wire    run_inference_U0_out_buf_3_we0;
-wire   [12:0] run_inference_U0_out_buf_3_address1;
+wire   [13:0] run_inference_U0_out_buf_3_address1;
 wire    run_inference_U0_out_buf_3_ce1;
 wire   [15:0] run_inference_U0_out_buf_3_d1;
 wire    run_inference_U0_out_buf_3_we1;
-wire   [12:0] run_inference_U0_out_buf_4_address0;
+wire   [13:0] run_inference_U0_out_buf_4_address0;
 wire    run_inference_U0_out_buf_4_ce0;
 wire   [15:0] run_inference_U0_out_buf_4_d0;
 wire    run_inference_U0_out_buf_4_we0;
-wire   [12:0] run_inference_U0_out_buf_4_address1;
+wire   [13:0] run_inference_U0_out_buf_4_address1;
 wire    run_inference_U0_out_buf_4_ce1;
 wire   [15:0] run_inference_U0_out_buf_4_d1;
 wire    run_inference_U0_out_buf_4_we1;
@@ -474,15 +474,15 @@ wire   [0:0] write_result_U0_m_axi_gmem1_ARUSER;
 wire    write_result_U0_m_axi_gmem1_RREADY;
 wire    write_result_U0_m_axi_gmem1_BREADY;
 wire    write_result_U0_out_r_read;
-wire   [12:0] write_result_U0_out_buf_0_address0;
+wire   [13:0] write_result_U0_out_buf_0_address0;
 wire    write_result_U0_out_buf_0_ce0;
-wire   [12:0] write_result_U0_out_buf_1_address0;
+wire   [13:0] write_result_U0_out_buf_1_address0;
 wire    write_result_U0_out_buf_1_ce0;
-wire   [12:0] write_result_U0_out_buf_2_address0;
+wire   [13:0] write_result_U0_out_buf_2_address0;
 wire    write_result_U0_out_buf_2_ce0;
-wire   [12:0] write_result_U0_out_buf_3_address0;
+wire   [13:0] write_result_U0_out_buf_3_address0;
 wire    write_result_U0_out_buf_3_ce0;
-wire   [12:0] write_result_U0_out_buf_4_address0;
+wire   [13:0] write_result_U0_out_buf_4_address0;
 wire    write_result_U0_out_buf_4_ce0;
 wire    in_buf_V_i_full_n;
 wire    in_buf_V_t_empty_n;
@@ -524,8 +524,8 @@ end
 
 kernel_wrapper_in_buf_V_RAM_AUTO_1R1W #(
     .DataWidth( 256 ),
-    .AddressRange( 8192 ),
-    .AddressWidth( 13 ))
+    .AddressRange( 16384 ),
+    .AddressWidth( 14 ))
 in_buf_V_U(
     .clk(ap_clk),
     .reset(ap_rst_n_inv),
@@ -549,8 +549,8 @@ in_buf_V_U(
 
 kernel_wrapper_out_buf_V_RAM_AUTO_1R1W #(
     .DataWidth( 16 ),
-    .AddressRange( 8192 ),
-    .AddressWidth( 13 ))
+    .AddressRange( 16384 ),
+    .AddressWidth( 14 ))
 out_buf_V_U(
     .clk(ap_clk),
     .reset(ap_rst_n_inv),
@@ -574,8 +574,8 @@ out_buf_V_U(
 
 kernel_wrapper_out_buf_V_RAM_AUTO_1R1W #(
     .DataWidth( 16 ),
-    .AddressRange( 8192 ),
-    .AddressWidth( 13 ))
+    .AddressRange( 16384 ),
+    .AddressWidth( 14 ))
 out_buf_V_1_U(
     .clk(ap_clk),
     .reset(ap_rst_n_inv),
@@ -599,8 +599,8 @@ out_buf_V_1_U(
 
 kernel_wrapper_out_buf_V_RAM_AUTO_1R1W #(
     .DataWidth( 16 ),
-    .AddressRange( 8192 ),
-    .AddressWidth( 13 ))
+    .AddressRange( 16384 ),
+    .AddressWidth( 14 ))
 out_buf_V_2_U(
     .clk(ap_clk),
     .reset(ap_rst_n_inv),
@@ -624,8 +624,8 @@ out_buf_V_2_U(
 
 kernel_wrapper_out_buf_V_RAM_AUTO_1R1W #(
     .DataWidth( 16 ),
-    .AddressRange( 8192 ),
-    .AddressWidth( 13 ))
+    .AddressRange( 16384 ),
+    .AddressWidth( 14 ))
 out_buf_V_3_U(
     .clk(ap_clk),
     .reset(ap_rst_n_inv),
@@ -649,8 +649,8 @@ out_buf_V_3_U(
 
 kernel_wrapper_out_buf_V_RAM_AUTO_1R1W #(
     .DataWidth( 16 ),
-    .AddressRange( 8192 ),
-    .AddressWidth( 13 ))
+    .AddressRange( 16384 ),
+    .AddressWidth( 14 ))
 out_buf_V_4_U(
     .clk(ap_clk),
     .reset(ap_rst_n_inv),

@@ -122,7 +122,7 @@ input  [1:0] m_axi_gmem0_BRESP;
 input  [0:0] m_axi_gmem0_BID;
 input  [0:0] m_axi_gmem0_BUSER;
 input  [57:0] sext_ln5;
-output  [12:0] in_buf_address0;
+output  [13:0] in_buf_address0;
 output   in_buf_ce0;
 output   in_buf_we0;
 output  [255:0] in_buf_d0;
@@ -156,11 +156,11 @@ reg    ap_ready_int;
 reg    gmem0_blk_n_R;
 wire    ap_block_pp0_stage0;
 reg    ap_block_pp0_stage0_11001;
-reg   [13:0] i_2_reg_4260;
-reg   [13:0] i_2_reg_4260_pp0_iter1_reg;
-reg   [13:0] i_2_reg_4260_pp0_iter2_reg;
-reg   [13:0] i_2_reg_4260_pp0_iter3_reg;
-reg   [13:0] i_2_reg_4260_pp0_iter4_reg;
+reg   [14:0] i_2_reg_4260;
+reg   [14:0] i_2_reg_4260_pp0_iter1_reg;
+reg   [14:0] i_2_reg_4260_pp0_iter2_reg;
+reg   [14:0] i_2_reg_4260_pp0_iter3_reg;
+reg   [14:0] i_2_reg_4260_pp0_iter4_reg;
 reg   [511:0] gmem0_addr_read_reg_4269;
 reg   [511:0] gmem0_addr_read_reg_4269_pp0_iter2_reg;
 reg   [511:0] gmem0_addr_read_reg_4269_pp0_iter3_reg;
@@ -343,10 +343,10 @@ wire   [15:0] select_ln570_30_fu_4103_p3;
 reg   [15:0] select_ln570_30_reg_4924;
 reg    ap_condition_exit_pp0_iter1_stage0;
 wire   [63:0] zext_ln5_fu_4111_p1;
-reg   [13:0] i_fu_150;
-wire   [13:0] add_ln5_fu_244_p2;
+reg   [14:0] i_fu_150;
+wire   [14:0] add_ln5_fu_244_p2;
 wire    ap_loop_init;
-reg   [13:0] ap_sig_allocacmp_i_2;
+reg   [14:0] ap_sig_allocacmp_i_2;
 wire   [31:0] grp_fu_178_p0;
 wire   [31:0] grp_fu_181_p0;
 wire   [31:0] grp_fu_184_p0;
@@ -1262,7 +1262,7 @@ always @ (posedge ap_clk) begin
         if (((ap_enable_reg_pp0_iter0 == 1'b1) & (icmp_ln5_fu_238_p2 == 1'd0))) begin
             i_fu_150 <= add_ln5_fu_244_p2;
         end else if ((ap_loop_init == 1'b1)) begin
-            i_fu_150 <= 14'd0;
+            i_fu_150 <= 15'd0;
         end
     end
 end
@@ -1537,7 +1537,7 @@ end
 
 always @ (*) begin
     if (((ap_loop_init == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0) & (1'b0 == ap_block_pp0_stage0))) begin
-        ap_sig_allocacmp_i_2 = 14'd0;
+        ap_sig_allocacmp_i_2 = 15'd0;
     end else begin
         ap_sig_allocacmp_i_2 = i_fu_150;
     end
@@ -1778,7 +1778,7 @@ assign add_ln570_9_fu_2873_p2 = ($signed(F2_9_reg_4691) + $signed(12'd4086));
 
 assign add_ln570_fu_1244_p2 = ($signed(F2_reg_4466) + $signed(12'd4086));
 
-assign add_ln5_fu_244_p2 = (ap_sig_allocacmp_i_2 + 14'd1);
+assign add_ln5_fu_244_p2 = (ap_sig_allocacmp_i_2 + 15'd1);
 
 assign and_ln570_10_fu_3192_p2 = (xor_ln571_10_fu_3186_p2 & icmp_ln570_10_fu_3049_p2);
 
@@ -2132,7 +2132,7 @@ assign icmp_ln592_9_fu_2957_p2 = ((tmp_61_fu_2947_p4 == 8'd0) ? 1'b1 : 1'b0);
 
 assign icmp_ln592_fu_1328_p2 = ((tmp_34_fu_1318_p4 == 8'd0) ? 1'b1 : 1'b0);
 
-assign icmp_ln5_fu_238_p2 = ((ap_sig_allocacmp_i_2 == 14'd8192) ? 1'b1 : 1'b0);
+assign icmp_ln5_fu_238_p2 = ((ap_sig_allocacmp_i_2 == 15'd16384) ? 1'b1 : 1'b0);
 
 assign in_buf_address0 = zext_ln5_fu_4111_p1;
 

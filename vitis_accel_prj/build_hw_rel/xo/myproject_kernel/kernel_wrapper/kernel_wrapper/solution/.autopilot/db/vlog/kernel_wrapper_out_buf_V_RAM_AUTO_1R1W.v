@@ -8,8 +8,8 @@
 module kernel_wrapper_out_buf_V_RAM_AUTO_1R1W
 #(parameter
     DataWidth    = 16,
-    AddressRange = 8192,
-    AddressWidth = 13,
+    AddressRange = 16384,
+    AddressWidth = 14,
     BufferCount  = 2,
     IndexWidth   = 1
 ) (

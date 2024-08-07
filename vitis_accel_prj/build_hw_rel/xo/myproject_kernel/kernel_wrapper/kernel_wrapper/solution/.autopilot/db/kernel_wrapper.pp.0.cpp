@@ -6995,8 +6995,8 @@ typedef input_t in_buffer_t;
 typedef result_t out_buffer_t;
 # 3 "/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp" 2
 
-static void read_input(const float *in, in_buffer_t (&in_buf)[8192][16]) {
-    VITIS_LOOP_5_1: for (int i = 0; i < 8192; i++) {
+static void read_input(const float *in, in_buffer_t (&in_buf)[16384][16]) {
+    VITIS_LOOP_5_1: for (int i = 0; i < 16384; i++) {
 #pragma HLS PIPELINE
  VITIS_LOOP_7_2: for (int j = 0; j < 16; j++) {
 #pragma HLS UNROLL
@@ -7004,15 +7004,15 @@ static void read_input(const float *in, in_buffer_t (&in_buf)[8192][16]) {
         }
     }
 }
-static void run_inference(in_buffer_t (&in_buf)[8192][16],
-                          out_buffer_t (&out_buf)[8192][5]) {
-    VITIS_LOOP_15_1: for (int i = 0; i < 8192; i++) {
+static void run_inference(in_buffer_t (&in_buf)[16384][16],
+                          out_buffer_t (&out_buf)[16384][5]) {
+    VITIS_LOOP_15_1: for (int i = 0; i < 16384; i++) {
 #pragma HLS DATAFLOW
  myproject(in_buf[i], out_buf[i]);
     }
 }
-static void write_result(float *out, out_buffer_t (&out_buf)[8192][5]) {
-    VITIS_LOOP_21_1: for (int i = 0; i < 8192; i++) {
+static void write_result(float *out, out_buffer_t (&out_buf)[16384][5]) {
+    VITIS_LOOP_21_1: for (int i = 0; i < 16384; i++) {
 #pragma HLS PIPELINE
  VITIS_LOOP_23_2: for (int j = 0; j < 5; j++) {
 #pragma HLS UNROLL
@@ -7032,8 +7032,8 @@ __attribute__((sdx_kernel("kernel_wrapper", 0))) void kernel_wrapper(const float
 #pragma HLSDIRECTIVE TOP name=kernel_wrapper
 # 36 "/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp"
 
-    in_buffer_t in_buf[8192][16];
-    out_buffer_t out_buf[8192][5];
+    in_buffer_t in_buf[16384][16];
+    out_buffer_t out_buf[16384][5];
 #pragma HLS ARRAY_RESHAPE variable=in_buf complete dim=2
 #pragma HLS ARRAY_RESHAPE variable=out_buf complete dim=2
 

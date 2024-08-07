@@ -508,7 +508,7 @@ entry:5 %gmem1_addr = getelementptr i32 %gmem1, i64 %sext_ln21
 
 <Node id="14" bw="1" op_0_bw="1" op_1_bw="32" op_2_bw="32">
 <![CDATA[
-entry:6 %empty = writereq i1 @_ssdm_op_WriteReq.m_axi.p1i32, i64 %gmem1_addr, i32 40960
+entry:6 %empty = writereq i1 @_ssdm_op_WriteReq.m_axi.p1i32, i64 %gmem1_addr, i32 81920
 
 ]]></Node>
 <StgValue><ssdm name="empty"/></StgValue>

@@ -18,7 +18,7 @@ eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
     dir I \
     corename out_buf_0 \
     op interface \
-    ports { out_buf_0_address0 { O 13 vector } out_buf_0_ce0 { O 1 bit } out_buf_0_q0 { I 16 vector } } \
+    ports { out_buf_0_address0 { O 14 vector } out_buf_0_ce0 { O 1 bit } out_buf_0_q0 { I 16 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'out_buf_0'"
@@ -37,7 +37,7 @@ eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
     dir I \
     corename out_buf_1 \
     op interface \
-    ports { out_buf_1_address0 { O 13 vector } out_buf_1_ce0 { O 1 bit } out_buf_1_q0 { I 16 vector } } \
+    ports { out_buf_1_address0 { O 14 vector } out_buf_1_ce0 { O 1 bit } out_buf_1_q0 { I 16 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'out_buf_1'"
@@ -56,7 +56,7 @@ eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
     dir I \
     corename out_buf_2 \
     op interface \
-    ports { out_buf_2_address0 { O 13 vector } out_buf_2_ce0 { O 1 bit } out_buf_2_q0 { I 16 vector } } \
+    ports { out_buf_2_address0 { O 14 vector } out_buf_2_ce0 { O 1 bit } out_buf_2_q0 { I 16 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'out_buf_2'"
@@ -75,7 +75,7 @@ eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
     dir I \
     corename out_buf_3 \
     op interface \
-    ports { out_buf_3_address0 { O 13 vector } out_buf_3_ce0 { O 1 bit } out_buf_3_q0 { I 16 vector } } \
+    ports { out_buf_3_address0 { O 14 vector } out_buf_3_ce0 { O 1 bit } out_buf_3_q0 { I 16 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'out_buf_3'"
@@ -94,7 +94,7 @@ eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
     dir I \
     corename out_buf_4 \
     op interface \
-    ports { out_buf_4_address0 { O 13 vector } out_buf_4_ce0 { O 1 bit } out_buf_4_q0 { I 16 vector } } \
+    ports { out_buf_4_address0 { O 14 vector } out_buf_4_ce0 { O 1 bit } out_buf_4_q0 { I 16 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'out_buf_4'"

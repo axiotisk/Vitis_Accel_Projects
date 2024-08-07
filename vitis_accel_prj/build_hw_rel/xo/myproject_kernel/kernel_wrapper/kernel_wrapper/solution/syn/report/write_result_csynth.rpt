@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'write_result'
 ================================================================
-* Date:           Fri Jul  5 07:59:50 2024
+* Date:           Tue Aug  6 06:28:52 2024
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        kernel_wrapper
@@ -29,7 +29,7 @@
     |  Latency (cycles) |  Latency (absolute) |    Interval   | Pipeline|
     |   min   |   max   |    min   |    max   |  min  |  max  |   Type  |
     +---------+---------+----------+----------+-------+-------+---------+
-    |    41036|    41036|  0.205 ms|  0.205 ms|  41036|  41036|       no|
+    |    81996|    81996|  0.410 ms|  0.410 ms|  81996|  81996|       no|
     +---------+---------+----------+----------+-------+-------+---------+
 
     + Detail: 
@@ -38,7 +38,7 @@
         |                                                 |                                       |  Latency (cycles) |  Latency (absolute) |    Interval   | Pipeline|
         |                     Instance                    |                 Module                |   min   |   max   |    min   |    max   |  min  |  max  |   Type  |
         +-------------------------------------------------+---------------------------------------+---------+---------+----------+----------+-------+-------+---------+
-        |grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68  |write_result_Pipeline_VITIS_LOOP_21_1  |    40965|    40965|  0.205 ms|  0.205 ms|  40965|  40965|       no|
+        |grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68  |write_result_Pipeline_VITIS_LOOP_21_1  |    81925|    81925|  0.410 ms|  0.410 ms|  81925|  81925|       no|
         +-------------------------------------------------+---------------------------------------+---------+---------+----------+----------+-------+-------+---------+
 
         * Loop: 
@@ -56,12 +56,12 @@
 |DSP                  |        -|     -|        -|        -|    -|
 |Expression           |        -|     -|        0|        2|    -|
 |FIFO                 |        -|     -|        -|        -|    -|
-|Instance             |        -|     -|      958|     4811|    -|
+|Instance             |        -|     -|      959|     4813|    -|
 |Memory               |        -|     -|        -|        -|    -|
 |Multiplexer          |        -|     -|        -|      513|    -|
 |Register             |        -|     -|      136|        -|    -|
 +---------------------+---------+------+---------+---------+-----+
-|Total                |        0|     0|     1094|     5326|    0|
+|Total                |        0|     0|     1095|     5328|    0|
 +---------------------+---------+------+---------+---------+-----+
 |Available SLR        |     1344|  3008|   869120|   434560|  320|
 +---------------------+---------+------+---------+---------+-----+
@@ -77,9 +77,9 @@
     +-------------------------------------------------+---------------------------------------+---------+----+-----+------+-----+
     |                     Instance                    |                 Module                | BRAM_18K| DSP|  FF |  LUT | URAM|
     +-------------------------------------------------+---------------------------------------+---------+----+-----+------+-----+
-    |grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68  |write_result_Pipeline_VITIS_LOOP_21_1  |        0|   0|  958|  4811|    0|
+    |grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68  |write_result_Pipeline_VITIS_LOOP_21_1  |        0|   0|  959|  4813|    0|
     +-------------------------------------------------+---------------------------------------+---------+----+-----+------+-----+
-    |Total                                            |                                       |        0|   0|  958|  4811|    0|
+    |Total                                            |                                       |        0|   0|  959|  4813|    0|
     +-------------------------------------------------+---------------------------------------+---------+----+-----+------+-----+
 
     * DSP: 
@@ -206,19 +206,19 @@
 |out_r_fifo_cap        |   in|    3|     ap_fifo|         out_r|       pointer|
 |out_r_empty_n         |   in|    1|     ap_fifo|         out_r|       pointer|
 |out_r_read            |  out|    1|     ap_fifo|         out_r|       pointer|
-|out_buf_0_address0    |  out|   13|   ap_memory|     out_buf_0|         array|
+|out_buf_0_address0    |  out|   14|   ap_memory|     out_buf_0|         array|
 |out_buf_0_ce0         |  out|    1|   ap_memory|     out_buf_0|         array|
 |out_buf_0_q0          |   in|   16|   ap_memory|     out_buf_0|         array|
-|out_buf_1_address0    |  out|   13|   ap_memory|     out_buf_1|         array|
+|out_buf_1_address0    |  out|   14|   ap_memory|     out_buf_1|         array|
 |out_buf_1_ce0         |  out|    1|   ap_memory|     out_buf_1|         array|
 |out_buf_1_q0          |   in|   16|   ap_memory|     out_buf_1|         array|
-|out_buf_2_address0    |  out|   13|   ap_memory|     out_buf_2|         array|
+|out_buf_2_address0    |  out|   14|   ap_memory|     out_buf_2|         array|
 |out_buf_2_ce0         |  out|    1|   ap_memory|     out_buf_2|         array|
 |out_buf_2_q0          |   in|   16|   ap_memory|     out_buf_2|         array|
-|out_buf_3_address0    |  out|   13|   ap_memory|     out_buf_3|         array|
+|out_buf_3_address0    |  out|   14|   ap_memory|     out_buf_3|         array|
 |out_buf_3_ce0         |  out|    1|   ap_memory|     out_buf_3|         array|
 |out_buf_3_q0          |   in|   16|   ap_memory|     out_buf_3|         array|
-|out_buf_4_address0    |  out|   13|   ap_memory|     out_buf_4|         array|
+|out_buf_4_address0    |  out|   14|   ap_memory|     out_buf_4|         array|
 |out_buf_4_ce0         |  out|    1|   ap_memory|     out_buf_4|         array|
 |out_buf_4_q0          |   in|   16|   ap_memory|     out_buf_4|         array|
 +----------------------+-----+-----+------------+--------------+--------------+

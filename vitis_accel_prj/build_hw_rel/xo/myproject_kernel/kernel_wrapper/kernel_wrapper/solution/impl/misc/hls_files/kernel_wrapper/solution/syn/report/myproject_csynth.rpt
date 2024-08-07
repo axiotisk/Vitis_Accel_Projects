@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'myproject'
 ================================================================
-* Date:           Fri Jul  5 07:59:03 2024
+* Date:           Tue Aug  6 06:28:02 2024
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        kernel_wrapper
@@ -66,9 +66,9 @@
 |Instance             |        8|  1087|    12009|    88060|    -|
 |Memory               |        -|     -|        -|        -|    -|
 |Multiplexer          |        -|     -|        -|       41|    -|
-|Register             |        -|     -|     3513|       32|    -|
+|Register             |        -|     -|     3515|       32|    -|
 +---------------------+---------+------+---------+---------+-----+
-|Total                |        8|  1087|    15522|    88137|    0|
+|Total                |        8|  1087|    15524|    88137|    0|
 +---------------------+---------+------+---------+---------+-----+
 |Available SLR        |     1344|  3008|   869120|   434560|  320|
 +---------------------+---------+------+---------+---------+-----+
@@ -145,7 +145,7 @@
     |ap_enable_reg_pp0_iter8                                                                 |    1|   0|    1|          0|
     |ap_enable_reg_pp0_iter9                                                                 |    1|   0|    1|          0|
     |grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_415_ap_start_reg  |    1|   0|    1|          0|
-    |i_read_reg_1565                                                                         |   13|   0|   13|          0|
+    |i_read_reg_1565                                                                         |   14|   0|   14|          0|
     |in_buf_load_reg_1584                                                                    |  256|   0|  256|          0|
     |layer10_out_V_10_reg_2439                                                               |   16|   0|   16|          0|
     |layer10_out_V_11_reg_2444                                                               |   16|   0|   16|          0|
@@ -344,10 +344,10 @@
     |layer8_out_V_8_reg_2269                                                                 |   16|   0|   16|          0|
     |layer8_out_V_9_reg_2274                                                                 |   16|   0|   16|          0|
     |layer8_out_V_reg_2229                                                                   |   16|   0|   16|          0|
-    |zext_ln386_reg_1570                                                                     |   13|   0|   64|         51|
-    |zext_ln386_reg_1570                                                                     |   64|  32|   64|         51|
+    |zext_ln386_reg_1570                                                                     |   14|   0|   64|         50|
+    |zext_ln386_reg_1570                                                                     |   64|  32|   64|         50|
     +----------------------------------------------------------------------------------------+-----+----+-----+-----------+
-    |Total                                                                                   | 3513|  32| 3564|        102|
+    |Total                                                                                   | 3515|  32| 3565|        100|
     +----------------------------------------------------------------------------------------+-----+----+-----+-----------+
 
 
@@ -366,27 +366,27 @@
 |ap_done             |  out|    1|  ap_ctrl_hs|     myproject|  return value|
 |ap_idle             |  out|    1|  ap_ctrl_hs|     myproject|  return value|
 |ap_ready            |  out|    1|  ap_ctrl_hs|     myproject|  return value|
-|in_buf_address0     |  out|   13|   ap_memory|        in_buf|         array|
+|in_buf_address0     |  out|   14|   ap_memory|        in_buf|         array|
 |in_buf_ce0          |  out|    1|   ap_memory|        in_buf|         array|
 |in_buf_q0           |   in|  256|   ap_memory|        in_buf|         array|
-|i                   |   in|   13|     ap_none|             i|        scalar|
-|out_buf_0_address0  |  out|   13|   ap_memory|     out_buf_0|         array|
+|i                   |   in|   14|     ap_none|             i|        scalar|
+|out_buf_0_address0  |  out|   14|   ap_memory|     out_buf_0|         array|
 |out_buf_0_ce0       |  out|    1|   ap_memory|     out_buf_0|         array|
 |out_buf_0_we0       |  out|    1|   ap_memory|     out_buf_0|         array|
 |out_buf_0_d0        |  out|   16|   ap_memory|     out_buf_0|         array|
-|out_buf_1_address0  |  out|   13|   ap_memory|     out_buf_1|         array|
+|out_buf_1_address0  |  out|   14|   ap_memory|     out_buf_1|         array|
 |out_buf_1_ce0       |  out|    1|   ap_memory|     out_buf_1|         array|
 |out_buf_1_we0       |  out|    1|   ap_memory|     out_buf_1|         array|
 |out_buf_1_d0        |  out|   16|   ap_memory|     out_buf_1|         array|
-|out_buf_2_address0  |  out|   13|   ap_memory|     out_buf_2|         array|
+|out_buf_2_address0  |  out|   14|   ap_memory|     out_buf_2|         array|
 |out_buf_2_ce0       |  out|    1|   ap_memory|     out_buf_2|         array|
 |out_buf_2_we0       |  out|    1|   ap_memory|     out_buf_2|         array|
 |out_buf_2_d0        |  out|   16|   ap_memory|     out_buf_2|         array|
-|out_buf_3_address0  |  out|   13|   ap_memory|     out_buf_3|         array|
+|out_buf_3_address0  |  out|   14|   ap_memory|     out_buf_3|         array|
 |out_buf_3_ce0       |  out|    1|   ap_memory|     out_buf_3|         array|
 |out_buf_3_we0       |  out|    1|   ap_memory|     out_buf_3|         array|
 |out_buf_3_d0        |  out|   16|   ap_memory|     out_buf_3|         array|
-|out_buf_4_address0  |  out|   13|   ap_memory|     out_buf_4|         array|
+|out_buf_4_address0  |  out|   14|   ap_memory|     out_buf_4|         array|
 |out_buf_4_ce0       |  out|    1|   ap_memory|     out_buf_4|         array|
 |out_buf_4_we0       |  out|    1|   ap_memory|     out_buf_4|         array|
 |out_buf_4_d0        |  out|   16|   ap_memory|     out_buf_4|         array|

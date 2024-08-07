@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'write_result'
 ================================================================
-* Date:           Fri Jul  5 07:59:50 2024
+* Date:           Tue Aug  6 06:28:52 2024
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        kernel_wrapper
@@ -29,7 +29,7 @@
     |  Latency (cycles) |  Latency (absolute) |    Interval   | Pipeline|
     |   min   |   max   |    min   |    max   |  min  |  max  |   Type  |
     +---------+---------+----------+----------+-------+-------+---------+
-    |    41036|    41036|  0.205 ms|  0.205 ms|  41036|  41036|       no|
+    |    81996|    81996|  0.410 ms|  0.410 ms|  81996|  81996|       no|
     +---------+---------+----------+----------+-------+-------+---------+
 
     + Detail: 
@@ -38,7 +38,7 @@
         |                                                 |                                       |  Latency (cycles) |  Latency (absolute) |    Interval   | Pipeline|
         |                     Instance                    |                 Module                |   min   |   max   |    min   |    max   |  min  |  max  |   Type  |
         +-------------------------------------------------+---------------------------------------+---------+---------+----------+----------+-------+-------+---------+
-        |grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68  |write_result_Pipeline_VITIS_LOOP_21_1  |    40965|    40965|  0.205 ms|  0.205 ms|  40965|  40965|       no|
+        |grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68  |write_result_Pipeline_VITIS_LOOP_21_1  |    81925|    81925|  0.410 ms|  0.410 ms|  81925|  81925|       no|
         +-------------------------------------------------+---------------------------------------+---------+---------+----------+----------+-------+-------+---------+
 
         * Loop: 
@@ -56,12 +56,12 @@
 |DSP                  |        -|     -|        -|        -|    -|
 |Expression           |        -|     -|        0|        2|    -|
 |FIFO                 |        -|     -|        -|        -|    -|
-|Instance             |        -|     -|      958|     4811|    -|
+|Instance             |        -|     -|      959|     4813|    -|
 |Memory               |        -|     -|        -|        -|    -|
 |Multiplexer          |        -|     -|        -|      513|    -|
 |Register             |        -|     -|      136|        -|    -|
 +---------------------+---------+------+---------+---------+-----+
-|Total                |        0|     0|     1094|     5326|    0|
+|Total                |        0|     0|     1095|     5328|    0|
 +---------------------+---------+------+---------+---------+-----+
 |Available SLR        |     1344|  3008|   869120|   434560|  320|
 +---------------------+---------+------+---------+---------+-----+
@@ -77,9 +77,9 @@
     +-------------------------------------------------+---------------------------------------+---------+----+-----+------+-----+
     |                     Instance                    |                 Module                | BRAM_18K| DSP|  FF |  LUT | URAM|
     +-------------------------------------------------+---------------------------------------+---------+----+-----+------+-----+
-    |grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68  |write_result_Pipeline_VITIS_LOOP_21_1  |        0|   0|  958|  4811|    0|
+    |grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68  |write_result_Pipeline_VITIS_LOOP_21_1  |        0|   0|  959|  4813|    0|
     +-------------------------------------------------+---------------------------------------+---------+----+-----+------+-----+
-    |Total                                            |                                       |        0|   0|  958|  4811|    0|
+    |Total                                            |                                       |        0|   0|  959|  4813|    0|
     +-------------------------------------------------+---------------------------------------+---------+----+-----+------+-----+
 
     * DSP: 
@@ -206,19 +206,19 @@
 |out_r_fifo_cap        |   in|    3|     ap_fifo|         out_r|       pointer|
 |out_r_empty_n         |   in|    1|     ap_fifo|         out_r|       pointer|
 |out_r_read            |  out|    1|     ap_fifo|         out_r|       pointer|
-|out_buf_0_address0    |  out|   13|   ap_memory|     out_buf_0|         array|
+|out_buf_0_address0    |  out|   14|   ap_memory|     out_buf_0|         array|
 |out_buf_0_ce0         |  out|    1|   ap_memory|     out_buf_0|         array|
 |out_buf_0_q0          |   in|   16|   ap_memory|     out_buf_0|         array|
-|out_buf_1_address0    |  out|   13|   ap_memory|     out_buf_1|         array|
+|out_buf_1_address0    |  out|   14|   ap_memory|     out_buf_1|         array|
 |out_buf_1_ce0         |  out|    1|   ap_memory|     out_buf_1|         array|
 |out_buf_1_q0          |   in|   16|   ap_memory|     out_buf_1|         array|
-|out_buf_2_address0    |  out|   13|   ap_memory|     out_buf_2|         array|
+|out_buf_2_address0    |  out|   14|   ap_memory|     out_buf_2|         array|
 |out_buf_2_ce0         |  out|    1|   ap_memory|     out_buf_2|         array|
 |out_buf_2_q0          |   in|   16|   ap_memory|     out_buf_2|         array|
-|out_buf_3_address0    |  out|   13|   ap_memory|     out_buf_3|         array|
+|out_buf_3_address0    |  out|   14|   ap_memory|     out_buf_3|         array|
 |out_buf_3_ce0         |  out|    1|   ap_memory|     out_buf_3|         array|
 |out_buf_3_q0          |   in|   16|   ap_memory|     out_buf_3|         array|
-|out_buf_4_address0    |  out|   13|   ap_memory|     out_buf_4|         array|
+|out_buf_4_address0    |  out|   14|   ap_memory|     out_buf_4|         array|
 |out_buf_4_ce0         |  out|    1|   ap_memory|     out_buf_4|         array|
 |out_buf_4_q0          |   in|   16|   ap_memory|     out_buf_4|         array|
 +----------------------+-----+-----+------------+--------------+--------------+
@@ -336,7 +336,7 @@ ST_1 : Operation 74 [1/1] (0.00ns)   --->   "%trunc_ln = partselect i62 @_ssdm_o
 State 2 <SV = 1> <Delay = 3.65>
 ST_2 : Operation 75 [1/1] (0.00ns)   --->   "%sext_ln21 = sext i62 %trunc_ln" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:21]   --->   Operation 75 'sext' 'sext_ln21' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 76 [1/1] (0.00ns)   --->   "%gmem1_addr = getelementptr i32 %gmem1, i64 %sext_ln21" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:21]   --->   Operation 76 'getelementptr' 'gmem1_addr' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 77 [1/1] (3.65ns)   --->   "%empty = writereq i1 @_ssdm_op_WriteReq.m_axi.p1i32, i64 %gmem1_addr, i32 40960" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:21]   --->   Operation 77 'writereq' 'empty' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_2 : Operation 77 [1/1] (3.65ns)   --->   "%empty = writereq i1 @_ssdm_op_WriteReq.m_axi.p1i32, i64 %gmem1_addr, i32 81920" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:21]   --->   Operation 77 'writereq' 'empty' <Predicate = true> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 3 <SV = 2> <Delay = 0.00>
 ST_3 : Operation 78 [2/2] (0.00ns)   --->   "%call_ln21 = call void @write_result_Pipeline_VITIS_LOOP_21_1, i32 %gmem1, i62 %trunc_ln, i16 %out_buf_0, i16 %out_buf_1, i16 %out_buf_2, i16 %out_buf_3, i16 %out_buf_4" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:21]   --->   Operation 78 'call' 'call_ln21' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
@@ -855,7 +855,7 @@ ret_ln28          (ret          ) [ 00000000000000000000000000000000000000000000
 <pin_list>
 <pin id="61" dir="0" index="0" bw="1" slack="0"/>
 <pin id="62" dir="0" index="1" bw="32" slack="0"/>
-<pin id="63" dir="0" index="2" bw="17" slack="0"/>
+<pin id="63" dir="0" index="2" bw="18" slack="0"/>
 <pin id="64" dir="1" index="3" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
@@ -1091,7 +1091,7 @@ ret_ln28          (ret          ) [ 00000000000000000000000000000000000000000000
 |----------|-------------------------------------------------|---------|---------|---------|
 | Operation|                 Functional Unit                 |  Delay  |    FF   |   LUT   |
 |----------|-------------------------------------------------|---------|---------|---------|
-|   call   | grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68 |  1.935  |   1046  |   3698  |
+|   call   | grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68 |  1.935  |   1052  |   3699  |
 |----------|-------------------------------------------------|---------|---------|---------|
 |   read   |                 out_1_read_fu_54                |    0    |    0    |    0    |
 |----------|-------------------------------------------------|---------|---------|---------|
@@ -1101,7 +1101,7 @@ ret_ln28          (ret          ) [ 00000000000000000000000000000000000000000000
 |----------|-------------------------------------------------|---------|---------|---------|
 |   sext   |                 sext_ln21_fu_95                 |    0    |    0    |    0    |
 |----------|-------------------------------------------------|---------|---------|---------|
-|   Total  |                                                 |  1.935  |   1046  |   3698  |
+|   Total  |                                                 |  1.935  |   1052  |   3699  |
 |----------|-------------------------------------------------|---------|---------|---------|
 
 Memories:
@@ -1133,10 +1133,10 @@ N/A
 +-----------+--------+--------+--------+
 |           |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+
-|  Function |    1   |  1046  |  3698  |
+|  Function |    1   |  1052  |  3699  |
 |   Memory  |    -   |    -   |    -   |
 |Multiplexer|    0   |    -   |    9   |
 |  Register |    -   |   94   |    -   |
 +-----------+--------+--------+--------+
-|   Total   |    2   |  1140  |  3707  |
+|   Total   |    2   |  1146  |  3708  |
 +-----------+--------+--------+--------+

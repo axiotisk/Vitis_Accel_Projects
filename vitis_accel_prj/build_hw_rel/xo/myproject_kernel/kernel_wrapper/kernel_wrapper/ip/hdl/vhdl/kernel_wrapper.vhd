@@ -152,7 +152,7 @@ end;
 architecture behav of kernel_wrapper is 
     attribute CORE_GENERATION_INFO : STRING;
     attribute CORE_GENERATION_INFO of behav : architecture is
-    "kernel_wrapper_kernel_wrapper,hls_ip_2022_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xcu55c-fsvh2892-2L-e,HLS_INPUT_CLOCK=5.000000,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=3.650000,HLS_SYN_LAT=65711,HLS_SYN_TPT=41037,HLS_SYN_MEM=162,HLS_SYN_DSP=0,HLS_SYN_FF=25025,HLS_SYN_LUT=112501,HLS_VERSION=2022_2}";
+    "kernel_wrapper_kernel_wrapper,hls_ip_2022_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xcu55c-fsvh2892-2L-e,HLS_INPUT_CLOCK=5.000000,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=3.650000,HLS_SYN_LAT=131247,HLS_SYN_TPT=81997,HLS_SYN_MEM=162,HLS_SYN_DSP=0,HLS_SYN_FF=25045,HLS_SYN_LUT=112508,HLS_VERSION=2022_2}";
     constant ap_const_logic_1 : STD_LOGIC := '1';
     constant C_S_AXI_DATA_WIDTH : INTEGER range 63 downto 0 := 20;
     constant C_M_AXI_DATA_WIDTH : INTEGER range 63 downto 0 := 20;
@@ -258,55 +258,55 @@ attribute shreg_extract of ap_rst_n_inv : signal is "no";
     signal read_input_U0_m_axi_gmem0_ARUSER : STD_LOGIC_VECTOR (0 downto 0);
     signal read_input_U0_m_axi_gmem0_RREADY : STD_LOGIC;
     signal read_input_U0_m_axi_gmem0_BREADY : STD_LOGIC;
-    signal read_input_U0_in_buf_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal read_input_U0_in_buf_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal read_input_U0_in_buf_ce0 : STD_LOGIC;
     signal read_input_U0_in_buf_we0 : STD_LOGIC;
     signal read_input_U0_in_buf_d0 : STD_LOGIC_VECTOR (255 downto 0);
-    signal run_inference_U0_in_buf_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal run_inference_U0_in_buf_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal run_inference_U0_in_buf_ce0 : STD_LOGIC;
     signal run_inference_U0_in_buf_d0 : STD_LOGIC_VECTOR (255 downto 0);
     signal run_inference_U0_in_buf_we0 : STD_LOGIC;
-    signal run_inference_U0_in_buf_address1 : STD_LOGIC_VECTOR (12 downto 0);
+    signal run_inference_U0_in_buf_address1 : STD_LOGIC_VECTOR (13 downto 0);
     signal run_inference_U0_in_buf_ce1 : STD_LOGIC;
     signal run_inference_U0_in_buf_d1 : STD_LOGIC_VECTOR (255 downto 0);
     signal run_inference_U0_in_buf_we1 : STD_LOGIC;
-    signal run_inference_U0_out_buf_0_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal run_inference_U0_out_buf_0_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal run_inference_U0_out_buf_0_ce0 : STD_LOGIC;
     signal run_inference_U0_out_buf_0_d0 : STD_LOGIC_VECTOR (15 downto 0);
     signal run_inference_U0_out_buf_0_we0 : STD_LOGIC;
-    signal run_inference_U0_out_buf_0_address1 : STD_LOGIC_VECTOR (12 downto 0);
+    signal run_inference_U0_out_buf_0_address1 : STD_LOGIC_VECTOR (13 downto 0);
     signal run_inference_U0_out_buf_0_ce1 : STD_LOGIC;
     signal run_inference_U0_out_buf_0_d1 : STD_LOGIC_VECTOR (15 downto 0);
     signal run_inference_U0_out_buf_0_we1 : STD_LOGIC;
-    signal run_inference_U0_out_buf_1_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal run_inference_U0_out_buf_1_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal run_inference_U0_out_buf_1_ce0 : STD_LOGIC;
     signal run_inference_U0_out_buf_1_d0 : STD_LOGIC_VECTOR (15 downto 0);
     signal run_inference_U0_out_buf_1_we0 : STD_LOGIC;
-    signal run_inference_U0_out_buf_1_address1 : STD_LOGIC_VECTOR (12 downto 0);
+    signal run_inference_U0_out_buf_1_address1 : STD_LOGIC_VECTOR (13 downto 0);
     signal run_inference_U0_out_buf_1_ce1 : STD_LOGIC;
     signal run_inference_U0_out_buf_1_d1 : STD_LOGIC_VECTOR (15 downto 0);
     signal run_inference_U0_out_buf_1_we1 : STD_LOGIC;
-    signal run_inference_U0_out_buf_2_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal run_inference_U0_out_buf_2_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal run_inference_U0_out_buf_2_ce0 : STD_LOGIC;
     signal run_inference_U0_out_buf_2_d0 : STD_LOGIC_VECTOR (15 downto 0);
     signal run_inference_U0_out_buf_2_we0 : STD_LOGIC;
-    signal run_inference_U0_out_buf_2_address1 : STD_LOGIC_VECTOR (12 downto 0);
+    signal run_inference_U0_out_buf_2_address1 : STD_LOGIC_VECTOR (13 downto 0);
     signal run_inference_U0_out_buf_2_ce1 : STD_LOGIC;
     signal run_inference_U0_out_buf_2_d1 : STD_LOGIC_VECTOR (15 downto 0);
     signal run_inference_U0_out_buf_2_we1 : STD_LOGIC;
-    signal run_inference_U0_out_buf_3_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal run_inference_U0_out_buf_3_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal run_inference_U0_out_buf_3_ce0 : STD_LOGIC;
     signal run_inference_U0_out_buf_3_d0 : STD_LOGIC_VECTOR (15 downto 0);
     signal run_inference_U0_out_buf_3_we0 : STD_LOGIC;
-    signal run_inference_U0_out_buf_3_address1 : STD_LOGIC_VECTOR (12 downto 0);
+    signal run_inference_U0_out_buf_3_address1 : STD_LOGIC_VECTOR (13 downto 0);
     signal run_inference_U0_out_buf_3_ce1 : STD_LOGIC;
     signal run_inference_U0_out_buf_3_d1 : STD_LOGIC_VECTOR (15 downto 0);
     signal run_inference_U0_out_buf_3_we1 : STD_LOGIC;
-    signal run_inference_U0_out_buf_4_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal run_inference_U0_out_buf_4_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal run_inference_U0_out_buf_4_ce0 : STD_LOGIC;
     signal run_inference_U0_out_buf_4_d0 : STD_LOGIC_VECTOR (15 downto 0);
     signal run_inference_U0_out_buf_4_we0 : STD_LOGIC;
-    signal run_inference_U0_out_buf_4_address1 : STD_LOGIC_VECTOR (12 downto 0);
+    signal run_inference_U0_out_buf_4_address1 : STD_LOGIC_VECTOR (13 downto 0);
     signal run_inference_U0_out_buf_4_ce1 : STD_LOGIC;
     signal run_inference_U0_out_buf_4_d1 : STD_LOGIC_VECTOR (15 downto 0);
     signal run_inference_U0_out_buf_4_we1 : STD_LOGIC;
@@ -379,15 +379,15 @@ attribute shreg_extract of ap_rst_n_inv : signal is "no";
     signal write_result_U0_m_axi_gmem1_RREADY : STD_LOGIC;
     signal write_result_U0_m_axi_gmem1_BREADY : STD_LOGIC;
     signal write_result_U0_out_r_read : STD_LOGIC;
-    signal write_result_U0_out_buf_0_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal write_result_U0_out_buf_0_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal write_result_U0_out_buf_0_ce0 : STD_LOGIC;
-    signal write_result_U0_out_buf_1_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal write_result_U0_out_buf_1_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal write_result_U0_out_buf_1_ce0 : STD_LOGIC;
-    signal write_result_U0_out_buf_2_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal write_result_U0_out_buf_2_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal write_result_U0_out_buf_2_ce0 : STD_LOGIC;
-    signal write_result_U0_out_buf_3_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal write_result_U0_out_buf_3_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal write_result_U0_out_buf_3_ce0 : STD_LOGIC;
-    signal write_result_U0_out_buf_4_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal write_result_U0_out_buf_4_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal write_result_U0_out_buf_4_ce0 : STD_LOGIC;
     signal in_buf_V_i_full_n : STD_LOGIC;
     signal in_buf_V_t_empty_n : STD_LOGIC;
@@ -487,7 +487,7 @@ attribute shreg_extract of ap_rst_n_inv : signal is "no";
         m_axi_gmem0_BID : IN STD_LOGIC_VECTOR (0 downto 0);
         m_axi_gmem0_BUSER : IN STD_LOGIC_VECTOR (0 downto 0);
         in_r : IN STD_LOGIC_VECTOR (63 downto 0);
-        in_buf_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        in_buf_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         in_buf_ce0 : OUT STD_LOGIC;
         in_buf_we0 : OUT STD_LOGIC;
         in_buf_d0 : OUT STD_LOGIC_VECTOR (255 downto 0) );
@@ -496,62 +496,62 @@ attribute shreg_extract of ap_rst_n_inv : signal is "no";
 
     component kernel_wrapper_run_inference IS
     port (
-        in_buf_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        in_buf_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         in_buf_ce0 : OUT STD_LOGIC;
         in_buf_d0 : OUT STD_LOGIC_VECTOR (255 downto 0);
         in_buf_q0 : IN STD_LOGIC_VECTOR (255 downto 0);
         in_buf_we0 : OUT STD_LOGIC;
-        in_buf_address1 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        in_buf_address1 : OUT STD_LOGIC_VECTOR (13 downto 0);
         in_buf_ce1 : OUT STD_LOGIC;
         in_buf_d1 : OUT STD_LOGIC_VECTOR (255 downto 0);
         in_buf_q1 : IN STD_LOGIC_VECTOR (255 downto 0);
         in_buf_we1 : OUT STD_LOGIC;
-        out_buf_0_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_0_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_0_ce0 : OUT STD_LOGIC;
         out_buf_0_d0 : OUT STD_LOGIC_VECTOR (15 downto 0);
         out_buf_0_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
         out_buf_0_we0 : OUT STD_LOGIC;
-        out_buf_0_address1 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_0_address1 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_0_ce1 : OUT STD_LOGIC;
         out_buf_0_d1 : OUT STD_LOGIC_VECTOR (15 downto 0);
         out_buf_0_q1 : IN STD_LOGIC_VECTOR (15 downto 0);
         out_buf_0_we1 : OUT STD_LOGIC;
-        out_buf_1_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_1_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_1_ce0 : OUT STD_LOGIC;
         out_buf_1_d0 : OUT STD_LOGIC_VECTOR (15 downto 0);
         out_buf_1_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
         out_buf_1_we0 : OUT STD_LOGIC;
-        out_buf_1_address1 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_1_address1 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_1_ce1 : OUT STD_LOGIC;
         out_buf_1_d1 : OUT STD_LOGIC_VECTOR (15 downto 0);
         out_buf_1_q1 : IN STD_LOGIC_VECTOR (15 downto 0);
         out_buf_1_we1 : OUT STD_LOGIC;
-        out_buf_2_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_2_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_2_ce0 : OUT STD_LOGIC;
         out_buf_2_d0 : OUT STD_LOGIC_VECTOR (15 downto 0);
         out_buf_2_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
         out_buf_2_we0 : OUT STD_LOGIC;
-        out_buf_2_address1 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_2_address1 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_2_ce1 : OUT STD_LOGIC;
         out_buf_2_d1 : OUT STD_LOGIC_VECTOR (15 downto 0);
         out_buf_2_q1 : IN STD_LOGIC_VECTOR (15 downto 0);
         out_buf_2_we1 : OUT STD_LOGIC;
-        out_buf_3_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_3_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_3_ce0 : OUT STD_LOGIC;
         out_buf_3_d0 : OUT STD_LOGIC_VECTOR (15 downto 0);
         out_buf_3_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
         out_buf_3_we0 : OUT STD_LOGIC;
-        out_buf_3_address1 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_3_address1 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_3_ce1 : OUT STD_LOGIC;
         out_buf_3_d1 : OUT STD_LOGIC_VECTOR (15 downto 0);
         out_buf_3_q1 : IN STD_LOGIC_VECTOR (15 downto 0);
         out_buf_3_we1 : OUT STD_LOGIC;
-        out_buf_4_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_4_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_4_ce0 : OUT STD_LOGIC;
         out_buf_4_d0 : OUT STD_LOGIC_VECTOR (15 downto 0);
         out_buf_4_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
         out_buf_4_we0 : OUT STD_LOGIC;
-        out_buf_4_address1 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_4_address1 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_4_ce1 : OUT STD_LOGIC;
         out_buf_4_d1 : OUT STD_LOGIC_VECTOR (15 downto 0);
         out_buf_4_q1 : IN STD_LOGIC_VECTOR (15 downto 0);
@@ -638,19 +638,19 @@ attribute shreg_extract of ap_rst_n_inv : signal is "no";
         out_r_fifo_cap : IN STD_LOGIC_VECTOR (2 downto 0);
         out_r_empty_n : IN STD_LOGIC;
         out_r_read : OUT STD_LOGIC;
-        out_buf_0_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_0_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_0_ce0 : OUT STD_LOGIC;
         out_buf_0_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
-        out_buf_1_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_1_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_1_ce0 : OUT STD_LOGIC;
         out_buf_1_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
-        out_buf_2_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_2_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_2_ce0 : OUT STD_LOGIC;
         out_buf_2_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
-        out_buf_3_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_3_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_3_ce0 : OUT STD_LOGIC;
         out_buf_3_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
-        out_buf_4_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_4_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_4_ce0 : OUT STD_LOGIC;
         out_buf_4_q0 : IN STD_LOGIC_VECTOR (15 downto 0) );
     end component;
@@ -664,12 +664,12 @@ attribute shreg_extract of ap_rst_n_inv : signal is "no";
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
-        i_address0 : IN STD_LOGIC_VECTOR (12 downto 0);
+        i_address0 : IN STD_LOGIC_VECTOR (13 downto 0);
         i_ce0 : IN STD_LOGIC;
         i_we0 : IN STD_LOGIC;
         i_d0 : IN STD_LOGIC_VECTOR (255 downto 0);
         i_q0 : OUT STD_LOGIC_VECTOR (255 downto 0);
-        t_address0 : IN STD_LOGIC_VECTOR (12 downto 0);
+        t_address0 : IN STD_LOGIC_VECTOR (13 downto 0);
         t_ce0 : IN STD_LOGIC;
         t_we0 : IN STD_LOGIC;
         t_d0 : IN STD_LOGIC_VECTOR (255 downto 0);
@@ -691,12 +691,12 @@ attribute shreg_extract of ap_rst_n_inv : signal is "no";
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
-        i_address0 : IN STD_LOGIC_VECTOR (12 downto 0);
+        i_address0 : IN STD_LOGIC_VECTOR (13 downto 0);
         i_ce0 : IN STD_LOGIC;
         i_we0 : IN STD_LOGIC;
         i_d0 : IN STD_LOGIC_VECTOR (15 downto 0);
         i_q0 : OUT STD_LOGIC_VECTOR (15 downto 0);
-        t_address0 : IN STD_LOGIC_VECTOR (12 downto 0);
+        t_address0 : IN STD_LOGIC_VECTOR (13 downto 0);
         t_ce0 : IN STD_LOGIC;
         t_we0 : IN STD_LOGIC;
         t_d0 : IN STD_LOGIC_VECTOR (15 downto 0);
@@ -952,8 +952,8 @@ begin
     in_buf_V_U : component kernel_wrapper_in_buf_V_RAM_AUTO_1R1W
     generic map (
         DataWidth => 256,
-        AddressRange => 8192,
-        AddressWidth => 13)
+        AddressRange => 16384,
+        AddressWidth => 14)
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
@@ -977,8 +977,8 @@ begin
     out_buf_V_U : component kernel_wrapper_out_buf_V_RAM_AUTO_1R1W
     generic map (
         DataWidth => 16,
-        AddressRange => 8192,
-        AddressWidth => 13)
+        AddressRange => 16384,
+        AddressWidth => 14)
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
@@ -1002,8 +1002,8 @@ begin
     out_buf_V_1_U : component kernel_wrapper_out_buf_V_RAM_AUTO_1R1W
     generic map (
         DataWidth => 16,
-        AddressRange => 8192,
-        AddressWidth => 13)
+        AddressRange => 16384,
+        AddressWidth => 14)
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
@@ -1027,8 +1027,8 @@ begin
     out_buf_V_2_U : component kernel_wrapper_out_buf_V_RAM_AUTO_1R1W
     generic map (
         DataWidth => 16,
-        AddressRange => 8192,
-        AddressWidth => 13)
+        AddressRange => 16384,
+        AddressWidth => 14)
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
@@ -1052,8 +1052,8 @@ begin
     out_buf_V_3_U : component kernel_wrapper_out_buf_V_RAM_AUTO_1R1W
     generic map (
         DataWidth => 16,
-        AddressRange => 8192,
-        AddressWidth => 13)
+        AddressRange => 16384,
+        AddressWidth => 14)
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
@@ -1077,8 +1077,8 @@ begin
     out_buf_V_4_U : component kernel_wrapper_out_buf_V_RAM_AUTO_1R1W
     generic map (
         DataWidth => 16,
-        AddressRange => 8192,
-        AddressWidth => 13)
+        AddressRange => 16384,
+        AddressWidth => 14)
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,

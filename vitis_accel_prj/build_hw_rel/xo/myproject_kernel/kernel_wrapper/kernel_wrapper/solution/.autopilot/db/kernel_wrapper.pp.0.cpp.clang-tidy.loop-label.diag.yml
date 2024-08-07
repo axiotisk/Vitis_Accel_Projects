@@ -70,7 +70,7 @@ Diagnostics:
     FilePath:        /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp
     Replacements:    
       - FilePath:        /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp
-        Offset:          898377
+        Offset:          898378
         Length:          0
         ReplacementText: 'VITIS_LOOP_5_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -79,7 +79,7 @@ Diagnostics:
     FilePath:        /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp
     Replacements:    
       - FilePath:        /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp
-        Offset:          898432
+        Offset:          898434
         Length:          0
         ReplacementText: 'VITIS_LOOP_7_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -88,7 +88,7 @@ Diagnostics:
     FilePath:        /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp
     Replacements:    
       - FilePath:        /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp
-        Offset:          898670
+        Offset:          898674
         Length:          0
         ReplacementText: 'VITIS_LOOP_15_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -97,7 +97,7 @@ Diagnostics:
     FilePath:        /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp
     Replacements:    
       - FilePath:        /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp
-        Offset:          898844
+        Offset:          898850
         Length:          0
         ReplacementText: 'VITIS_LOOP_21_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -106,7 +106,7 @@ Diagnostics:
     FilePath:        /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp
     Replacements:    
       - FilePath:        /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp
-        Offset:          898899
+        Offset:          898906
         Length:          0
         ReplacementText: 'VITIS_LOOP_23_2: '
 ...

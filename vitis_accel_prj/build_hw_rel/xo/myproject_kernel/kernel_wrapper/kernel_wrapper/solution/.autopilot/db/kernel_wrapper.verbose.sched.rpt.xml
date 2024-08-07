@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'kernel_wrapper'" level="0">
-<item name = "Date">Fri Jul  5 07:57:31 2024
+<item name = "Date">Tue Aug  6 06:26:26 2024
 </item>
 <item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
 <item name = "Project">kernel_wrapper</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">65711, 65711, 0.329 ms, 0.329 ms, 41037, 41037, dataflow</column>
+<column name="">131247, 131247, 0.656 ms, 0.656 ms, 81997, 81997, dataflow</column>
 </table>
 </item>
 <item name = "Detail">

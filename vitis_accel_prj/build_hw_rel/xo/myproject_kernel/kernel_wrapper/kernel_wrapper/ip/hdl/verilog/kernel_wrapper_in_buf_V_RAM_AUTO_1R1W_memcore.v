@@ -17,8 +17,8 @@ module kernel_wrapper_in_buf_V_RAM_AUTO_1R1W_memcore (
     reset, clk);
 
 parameter DataWidth = 256;
-parameter AddressWidth = 14;
-parameter AddressRange = 16384;
+parameter AddressWidth = 15;
+parameter AddressRange = 32768;
  
 input[AddressWidth-1:0] address0;
 input ce0;

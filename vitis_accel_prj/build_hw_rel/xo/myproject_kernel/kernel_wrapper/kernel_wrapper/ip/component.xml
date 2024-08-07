@@ -1500,7 +1500,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>bb273dcd</spirit:value>
+            <spirit:value>2c28c36c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1519,7 +1519,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>d2adb1aa</spirit:value>
+            <spirit:value>2156545f</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1538,7 +1538,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>cf4ca698</spirit:value>
+            <spirit:value>5e3cdb0c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1557,7 +1557,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>150fa690</spirit:value>
+            <spirit:value>6dffc2a6</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -4415,7 +4415,7 @@
       <spirit:file>
         <spirit:name>hdl/vhdl/kernel_wrapper.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_b221d1f8</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_bcfbbb66</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -4986,7 +4986,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>latency</spirit:name>
-      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="29">65711</spirit:value>
+      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="29">131247</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>II</spirit:name>
@@ -5003,8 +5003,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Kernel_wrapper</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2113631880</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2024-07-05T08:07:55Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2113677869</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2024-08-06T06:37:57Z</xilinx:coreCreationDateTime>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>
@@ -5015,10 +5015,10 @@
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="7dd81df5"/>
       <xilinx:checksum xilinx:scope="addressSpaces" xilinx:value="9a83c657"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="c789e091"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="ef414159"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="807a93e3"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="cf56eb24"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="99315538"/>
-      <xilinx:checksum xilinx:scope="parameters" xilinx:value="09785fae"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="a286bc1b"/>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>

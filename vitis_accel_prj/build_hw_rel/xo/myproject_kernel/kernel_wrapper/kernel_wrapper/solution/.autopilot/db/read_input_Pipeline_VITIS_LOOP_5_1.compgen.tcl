@@ -24,7 +24,7 @@ eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
     dir O \
     corename in_buf \
     op interface \
-    ports { in_buf_address0 { O 13 vector } in_buf_ce0 { O 1 bit } in_buf_we0 { O 1 bit } in_buf_d0 { O 256 vector } } \
+    ports { in_buf_address0 { O 14 vector } in_buf_ce0 { O 1 bit } in_buf_we0 { O 1 bit } in_buf_d0 { O 256 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'in_buf'"

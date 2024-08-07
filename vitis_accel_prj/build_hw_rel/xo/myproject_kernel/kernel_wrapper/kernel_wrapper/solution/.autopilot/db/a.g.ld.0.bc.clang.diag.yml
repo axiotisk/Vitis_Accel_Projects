@@ -156,7 +156,7 @@ Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
 DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                    Line: 23, Column: 19 }
-Function:        _ZL12write_resultPfRA8192_A5_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
+Function:        _ZL12write_resultPfRA16384_A5_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
 Args:            
   - String:          'Loop '''
   - LoopName:        VITIS_LOOP_23_2
@@ -706,7 +706,7 @@ Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
 DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                    Line: 7, Column: 18 }
-Function:        _ZL10read_inputPKfRA8192_A16_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
+Function:        _ZL10read_inputPKfRA16384_A16_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
 Args:            
   - String:          'Loop '''
   - LoopName:        VITIS_LOOP_7_2
@@ -717,7 +717,7 @@ Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                    Line: 20, Column: 0 }
-Function:        _ZL12write_resultPfRA8192_A5_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
+Function:        _ZL12write_resultPfRA16384_A5_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        VITIS_LOOP_23_2
@@ -6327,7 +6327,7 @@ Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                    Line: 4, Column: 0 }
-Function:        _ZL10read_inputPKfRA8192_A16_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
+Function:        _ZL10read_inputPKfRA16384_A16_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        VITIS_LOOP_7_2
@@ -6993,12 +6993,12 @@ Pass:            reflow-burst-inference
 Name:            BurstInferred
 DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                    Line: 21, Column: 22 }
-Function:        _ZL12write_resultPfRA8192_A5_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
+Function:        _ZL12write_resultPfRA16384_A5_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
 Args:            
   - String:          'Sequential '
   - Direction:       write
   - String:          ' of length '
-  - Length:          '40960'
+  - Length:          '81920'
   - String:          ' has been inferred'
   - String:          ' _XLX_SEP_ OldID='
   - String:          for.inc.store.2
@@ -7022,7 +7022,7 @@ Args:
   - String:          ' '
   - LoopLoc:         '/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:21:22'
   - String:          ' '
-  - Function:        'write_result(float*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (&) [8192][5])'
+  - Function:        'write_result(float*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (&) [16384][5])'
     DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                        Line: 20, Column: 0 }
   - String:          ' '
@@ -7032,12 +7032,12 @@ Pass:            reflow-burst-inference
 Name:            BurstInferred
 DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                    Line: 5, Column: 21 }
-Function:        _ZL10read_inputPKfRA8192_A16_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
+Function:        _ZL10read_inputPKfRA16384_A16_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
 Args:            
   - String:          'Sequential '
   - Direction:       read
   - String:          ' of length '
-  - Length:          '131072'
+  - Length:          '262144'
   - String:          ' has been inferred'
   - String:          ' _XLX_SEP_ OldID='
   - String:          for.inc.load.39
@@ -7083,7 +7083,7 @@ Args:
   - String:          ' '
   - LoopLoc:         '/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:5:21'
   - String:          ' '
-  - Function:        'read_input(float const*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (&) [8192][16])'
+  - Function:        'read_input(float const*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (&) [16384][16])'
     DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                        Line: 4, Column: 0 }
   - String:          ' '
@@ -7093,18 +7093,18 @@ Pass:            reflow-burst-widen
 Name:            BurstWidened
 DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                    Line: 5, Column: 21 }
-Function:        _ZL10read_inputPKfRA8192_A16_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
+Function:        _ZL10read_inputPKfRA16384_A16_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
 Args:            
   - String:          'Sequential '
   - Direction:       read
   - String:          ' of '
-  - OldLength:       '131072'
+  - OldLength:       '262144'
   - String:          ' x '
   - OldWords:        '32'
   - String:          'bit words has been widened by '
   - Factor:          '16'
   - String:          ': '
-  - Length:          '8192'
+  - Length:          '16384'
   - String:          ' x '
   - Words:           '512'
   - String:          bit words
@@ -7122,7 +7122,7 @@ Args:
   - String:          ' '
   - LoopLoc:         '/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:5:21'
   - String:          ' '
-  - Function:        'read_input(float const*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (&) [8192][16])'
+  - Function:        'read_input(float const*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (&) [16384][16])'
     DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                        Line: 4, Column: 0 }
   - String:          ' '
@@ -7132,7 +7132,7 @@ Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
 DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                    Line: 5, Column: 21 }
-Function:        _ZL10read_inputPKfRA8192_A16_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
+Function:        _ZL10read_inputPKfRA16384_A16_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE
 Args:            
   - String:          'Could not widen since type '
   - Type:            i512
@@ -7149,7 +7149,7 @@ Args:
   - String:          ' '
   - LoopLoc:         '/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:5:21'
   - String:          ' '
-  - Function:        'read_input(float const*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (&) [8192][16])'
+  - Function:        'read_input(float const*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (&) [16384][16])'
     DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                        Line: 4, Column: 0 }
   - String:          ' '
@@ -8317,12 +8317,12 @@ Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
 DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                    Line: 5, Column: 21 }
-Function:        _ZL10read_inputPKfRA8192_A16_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE.1
+Function:        _ZL10read_inputPKfRA16384_A16_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE.1
 Args:            
   - String:          'Multiple burst '
   - Direction:       reads
   - String:          ' of length '
-  - Length:          '8192'
+  - Length:          '16384'
   - String:          ' and bit width '
   - Width:           '512'
   - String:          ' has been inferred.'
@@ -8338,7 +8338,7 @@ Args:
   - String:          ' '
   - LoopLoc:         '/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:5:21'
   - String:          ' '
-  - Function:        'read_input(float const*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (&) [8192][16]) (.1)'
+  - Function:        'read_input(float const*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (&) [16384][16]) (.1)'
     DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                        Line: 4, Column: 0 }
   - String:          ' '
@@ -8348,12 +8348,12 @@ Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
 DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                    Line: 5, Column: 21 }
-Function:        _ZL10read_inputPKfRA8192_A16_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE.1
+Function:        _ZL10read_inputPKfRA16384_A16_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE.1
 Args:            
   - String:          'Multiple burst '
   - Direction:       reads
   - String:          ' of length '
-  - Length:          '8192'
+  - Length:          '16384'
   - String:          ' and bit width '
   - Width:           '512'
   - String:          ' in loop '''
@@ -8371,12 +8371,12 @@ Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
 DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                    Line: 21, Column: 22 }
-Function:        _ZL12write_resultPfRA8192_A5_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE.1
+Function:        _ZL12write_resultPfRA16384_A5_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE.1
 Args:            
   - String:          'Multiple burst '
   - Direction:       writes
   - String:          ' of length '
-  - Length:          '40960'
+  - Length:          '81920'
   - String:          ' and bit width '
   - Width:           '32'
   - String:          ' has been inferred.'
@@ -8392,7 +8392,7 @@ Args:
   - String:          ' '
   - LoopLoc:         '/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:21:22'
   - String:          ' '
-  - Function:        'write_result(float*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (&) [8192][5]) (.1)'
+  - Function:        'write_result(float*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (&) [16384][5]) (.1)'
     DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                        Line: 20, Column: 0 }
   - String:          ' '
@@ -8402,12 +8402,12 @@ Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
 DebugLoc:        { File: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp, 
                    Line: 21, Column: 22 }
-Function:        _ZL12write_resultPfRA8192_A5_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE.1
+Function:        _ZL12write_resultPfRA16384_A5_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EE.1
 Args:            
   - String:          'Multiple burst '
   - Direction:       writes
   - String:          ' of length '
-  - Length:          '40960'
+  - Length:          '81920'
   - String:          ' and bit width '
   - Width:           '32'
   - String:          ' in loop '''

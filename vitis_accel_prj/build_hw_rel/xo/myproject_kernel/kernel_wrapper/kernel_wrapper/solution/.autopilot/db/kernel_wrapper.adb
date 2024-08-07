@@ -142,7 +142,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>976909413</coreId>
+              <coreId>2598933136</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -365,7 +365,7 @@
               <implIndex>auto</implIndex>
               <coreName>RAM</coreName>
               <isStorage>1</isStorage>
-              <storageDepth>8192</storageDepth>
+              <storageDepth>16384</storageDepth>
               <coreId>83</coreId>
               <rtlModuleName>kernel_wrapper_in_buf_V_RAM_AUTO_1R1W</rtlModuleName>
             </Obj>
@@ -421,7 +421,7 @@
               <implIndex>auto</implIndex>
               <coreName>RAM</coreName>
               <isStorage>1</isStorage>
-              <storageDepth>8192</storageDepth>
+              <storageDepth>16384</storageDepth>
               <coreId>83</coreId>
               <rtlModuleName>kernel_wrapper_out_buf_V_RAM_AUTO_1R1W</rtlModuleName>
             </Obj>
@@ -477,7 +477,7 @@
               <implIndex>auto</implIndex>
               <coreName>RAM</coreName>
               <isStorage>1</isStorage>
-              <storageDepth>8192</storageDepth>
+              <storageDepth>16384</storageDepth>
               <coreId>83</coreId>
               <rtlModuleName>kernel_wrapper_out_buf_V_RAM_AUTO_1R1W</rtlModuleName>
             </Obj>
@@ -533,7 +533,7 @@
               <implIndex>auto</implIndex>
               <coreName>RAM</coreName>
               <isStorage>1</isStorage>
-              <storageDepth>8192</storageDepth>
+              <storageDepth>16384</storageDepth>
               <coreId>83</coreId>
               <rtlModuleName>kernel_wrapper_out_buf_V_RAM_AUTO_1R1W</rtlModuleName>
             </Obj>
@@ -589,7 +589,7 @@
               <implIndex>auto</implIndex>
               <coreName>RAM</coreName>
               <isStorage>1</isStorage>
-              <storageDepth>8192</storageDepth>
+              <storageDepth>16384</storageDepth>
               <coreId>83</coreId>
               <rtlModuleName>kernel_wrapper_out_buf_V_RAM_AUTO_1R1W</rtlModuleName>
             </Obj>
@@ -645,7 +645,7 @@
               <implIndex>auto</implIndex>
               <coreName>RAM</coreName>
               <isStorage>1</isStorage>
-              <storageDepth>8192</storageDepth>
+              <storageDepth>16384</storageDepth>
               <coreId>83</coreId>
               <rtlModuleName>kernel_wrapper_out_buf_V_RAM_AUTO_1R1W</rtlModuleName>
             </Obj>
@@ -702,7 +702,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2584571168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -760,7 +760,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4276612544</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -819,7 +819,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1213932093</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -884,7 +884,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4242427536</coreId>
+              <coreId>2584573936</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -995,7 +995,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2584573936</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -1026,7 +1026,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>784</coreId>
+              <coreId>1330007625</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -1057,7 +1057,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4266791832</coreId>
+              <coreId>2362398080</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -1088,7 +1088,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4266792304</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -1119,7 +1119,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4242427536</coreId>
+              <coreId>2584573936</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -1461,8 +1461,8 @@
         <mDepth>-1</mDepth>
         <mMinTripCount>-1</mMinTripCount>
         <mMaxTripCount>-1</mMaxTripCount>
-        <mMinLatency>65711</mMinLatency>
-        <mMaxLatency>65711</mMaxLatency>
+        <mMinLatency>131247</mMinLatency>
+        <mMaxLatency>131247</mMaxLatency>
         <mIsDfPipe>1</mIsDfPipe>
         <mDfPipe class_id="23" tracking_level="1" version="0" object_id="_63">
           <port_list class_id="24" tracking_level="0" version="0">
@@ -2295,11 +2295,11 @@
             <item_version>0</item_version>
             <item>
               <first>FF</first>
-              <second>2652</second>
+              <second>2654</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>9383</second>
+              <second>9385</second>
             </item>
           </second>
         </item>
@@ -2318,11 +2318,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>15755</second>
+              <second>15772</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>88204</second>
+              <second>88207</second>
             </item>
           </second>
         </item>
@@ -2333,11 +2333,11 @@
             <item_version>0</item_version>
             <item>
               <first>FF</first>
-              <second>1094</second>
+              <second>1095</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>5326</second>
+              <second>5328</second>
             </item>
           </second>
         </item>
@@ -2801,7 +2801,7 @@
             <item_version>0</item_version>
             <item>
               <first>(0Words)</first>
-              <second>8192</second>
+              <second>16384</second>
             </item>
             <item>
               <first>(1Bits)</first>
@@ -2813,7 +2813,7 @@
             </item>
             <item>
               <first>(3W*Bits*Banks)</first>
-              <second>2097152</second>
+              <second>4194304</second>
             </item>
             <item>
               <first>BRAM</first>
@@ -2840,7 +2840,7 @@
             <item_version>0</item_version>
             <item>
               <first>(0Words)</first>
-              <second>8192</second>
+              <second>16384</second>
             </item>
             <item>
               <first>(1Bits)</first>
@@ -2852,7 +2852,7 @@
             </item>
             <item>
               <first>(3W*Bits*Banks)</first>
-              <second>131072</second>
+              <second>262144</second>
             </item>
             <item>
               <first>BRAM</first>
@@ -2879,7 +2879,7 @@
             <item_version>0</item_version>
             <item>
               <first>(0Words)</first>
-              <second>8192</second>
+              <second>16384</second>
             </item>
             <item>
               <first>(1Bits)</first>
@@ -2891,7 +2891,7 @@
             </item>
             <item>
               <first>(3W*Bits*Banks)</first>
-              <second>131072</second>
+              <second>262144</second>
             </item>
             <item>
               <first>BRAM</first>
@@ -2918,7 +2918,7 @@
             <item_version>0</item_version>
             <item>
               <first>(0Words)</first>
-              <second>8192</second>
+              <second>16384</second>
             </item>
             <item>
               <first>(1Bits)</first>
@@ -2930,7 +2930,7 @@
             </item>
             <item>
               <first>(3W*Bits*Banks)</first>
-              <second>131072</second>
+              <second>262144</second>
             </item>
             <item>
               <first>BRAM</first>
@@ -2957,7 +2957,7 @@
             <item_version>0</item_version>
             <item>
               <first>(0Words)</first>
-              <second>8192</second>
+              <second>16384</second>
             </item>
             <item>
               <first>(1Bits)</first>
@@ -2969,7 +2969,7 @@
             </item>
             <item>
               <first>(3W*Bits*Banks)</first>
-              <second>131072</second>
+              <second>262144</second>
             </item>
             <item>
               <first>BRAM</first>
@@ -2996,7 +2996,7 @@
             <item_version>0</item_version>
             <item>
               <first>(0Words)</first>
-              <second>8192</second>
+              <second>16384</second>
             </item>
             <item>
               <first>(1Bits)</first>
@@ -3008,7 +3008,7 @@
             </item>
             <item>
               <first>(3W*Bits*Banks)</first>
-              <second>131072</second>
+              <second>262144</second>
             </item>
             <item>
               <first>BRAM</first>

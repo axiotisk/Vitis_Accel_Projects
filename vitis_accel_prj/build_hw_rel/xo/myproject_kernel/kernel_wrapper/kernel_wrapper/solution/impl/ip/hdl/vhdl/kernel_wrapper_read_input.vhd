@@ -65,7 +65,7 @@ port (
     m_axi_gmem0_BID : IN STD_LOGIC_VECTOR (0 downto 0);
     m_axi_gmem0_BUSER : IN STD_LOGIC_VECTOR (0 downto 0);
     in_r : IN STD_LOGIC_VECTOR (63 downto 0);
-    in_buf_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+    in_buf_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
     in_buf_ce0 : OUT STD_LOGIC;
     in_buf_we0 : OUT STD_LOGIC;
     in_buf_d0 : OUT STD_LOGIC_VECTOR (255 downto 0) );
@@ -157,7 +157,7 @@ architecture behav of kernel_wrapper_read_input is
     constant ap_const_lv512_lc_1 : STD_LOGIC_VECTOR (511 downto 0) := "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
     constant ap_const_lv32_46 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000001000110";
     constant ap_const_lv32_47 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000001000111";
-    constant ap_const_lv32_2000 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000010000000000000";
+    constant ap_const_lv32_4000 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000100000000000000";
     constant ap_const_lv32_6 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000110";
     constant ap_const_lv32_3F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000111111";
 
@@ -207,7 +207,7 @@ attribute shreg_extract : string;
     signal grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_m_axi_gmem0_ARUSER : STD_LOGIC_VECTOR (0 downto 0);
     signal grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_m_axi_gmem0_RREADY : STD_LOGIC;
     signal grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_m_axi_gmem0_BREADY : STD_LOGIC;
-    signal grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_in_buf_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_in_buf_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_in_buf_ce0 : STD_LOGIC;
     signal grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_in_buf_we0 : STD_LOGIC;
     signal grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_in_buf_d0 : STD_LOGIC_VECTOR (255 downto 0);
@@ -348,7 +348,7 @@ attribute shreg_extract : string;
         m_axi_gmem0_BID : IN STD_LOGIC_VECTOR (0 downto 0);
         m_axi_gmem0_BUSER : IN STD_LOGIC_VECTOR (0 downto 0);
         sext_ln5 : IN STD_LOGIC_VECTOR (57 downto 0);
-        in_buf_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        in_buf_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         in_buf_ce0 : OUT STD_LOGIC;
         in_buf_we0 : OUT STD_LOGIC;
         in_buf_d0 : OUT STD_LOGIC_VECTOR (255 downto 0) );
@@ -822,7 +822,7 @@ begin
     m_axi_gmem0_ARLEN_assign_proc : process(ap_start, ap_done_reg, ap_CS_fsm_state1, m_axi_gmem0_ARREADY, grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_m_axi_gmem0_ARLEN, ap_CS_fsm_state71, ap_CS_fsm_state72)
     begin
         if ((not(((ap_done_reg = ap_const_logic_1) or (ap_start = ap_const_logic_0) or (m_axi_gmem0_ARREADY = ap_const_logic_0))) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            m_axi_gmem0_ARLEN <= ap_const_lv32_2000;
+            m_axi_gmem0_ARLEN <= ap_const_lv32_4000;
         elsif (((ap_const_logic_1 = ap_CS_fsm_state72) or (ap_const_logic_1 = ap_CS_fsm_state71))) then 
             m_axi_gmem0_ARLEN <= grp_read_input_Pipeline_VITIS_LOOP_5_1_fu_51_m_axi_gmem0_ARLEN;
         else 

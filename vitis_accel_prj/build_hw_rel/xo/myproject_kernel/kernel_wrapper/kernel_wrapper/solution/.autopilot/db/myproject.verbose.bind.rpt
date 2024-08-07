@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'myproject'
 ================================================================
-* Date:           Fri Jul  5 07:56:34 2024
+* Date:           Tue Aug  6 06:25:29 2024
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        kernel_wrapper
@@ -111,15 +111,15 @@ IsGatedGlobalClock: 0
 * FSM state operations: 
 
 State 1 <SV = 0> <Delay = 1.42>
-ST_1 : Operation 22 [1/1] (1.42ns)   --->   "%i_read = read i13 @_ssdm_op_Read.ap_auto.i13, i13 %i"   --->   Operation 22 'read' 'i_read' <Predicate = true> <Delay = 1.42> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = -1> <Depth = -1> <FIFO>
+ST_1 : Operation 22 [1/1] (1.42ns)   --->   "%i_read = read i14 @_ssdm_op_Read.ap_auto.i14, i14 %i"   --->   Operation 22 'read' 'i_read' <Predicate = true> <Delay = 1.42> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = -1> <Depth = -1> <FIFO>
 
 State 2 <SV = 1> <Delay = 2.98>
-ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%zext_ln386 = zext i13 %i_read" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 23 'zext' 'zext_ln386' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%zext_ln386 = zext i14 %i_read" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 23 'zext' 'zext_ln386' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%in_buf_addr = getelementptr i256 %in_buf, i64 0, i64 %zext_ln386" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h:41->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 24 'getelementptr' 'in_buf_addr' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 25 [2/2] (2.98ns)   --->   "%in_buf_load = load i13 %in_buf_addr" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h:41->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 25 'load' 'in_buf_load' <Predicate = true> <Delay = 2.98> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 2.98> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 256> <Depth = 8192> <RAM>
+ST_2 : Operation 25 [2/2] (2.98ns)   --->   "%in_buf_load = load i14 %in_buf_addr" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h:41->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 25 'load' 'in_buf_load' <Predicate = true> <Delay = 2.98> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 2.98> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 256> <Depth = 16384> <RAM>
 
 State 3 <SV = 2> <Delay = 2.98>
-ST_3 : Operation 26 [1/2] (2.98ns)   --->   "%in_buf_load = load i13 %in_buf_addr" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h:41->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 26 'load' 'in_buf_load' <Predicate = true> <Delay = 2.98> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 2.98> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 256> <Depth = 8192> <RAM>
+ST_3 : Operation 26 [1/2] (2.98ns)   --->   "%in_buf_load = load i14 %in_buf_addr" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h:41->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 26 'load' 'in_buf_load' <Predicate = true> <Delay = 2.98> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 2.98> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 256> <Depth = 16384> <RAM>
 
 State 4 <SV = 3> <Delay = 3.64>
 ST_4 : Operation 27 [2/2] (3.64ns)   --->   "%call_ret1_i_i = call i1024 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>, i256 %in_buf_load" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h:41->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 27 'call' 'call_ret1_i_i' <Predicate = true> <Delay = 3.64> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
@@ -443,15 +443,15 @@ ST_21 : Operation 310 [1/1] (0.00ns)   --->   "%out_buf_0_addr = getelementptr i
 ST_21 : Operation 311 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_1"   --->   Operation 311 'specpipeline' 'specpipeline_ln0' <Predicate = true> <Delay = 0.00>
 ST_21 : Operation 312 [1/8] (0.53ns)   --->   "%call_ret_i_i = call i80 @softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13>, i16 %layer11_out_V, i16 %layer11_out_V_1, i16 %layer11_out_V_2, i16 %layer11_out_V_3, i16 %layer11_out_V_4, i18 %exp_table, i18 %invert_table" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 312 'call' 'call_ret_i_i' <Predicate = true> <Delay = 0.53> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_21 : Operation 313 [1/1] (0.00ns)   --->   "%layer13_out_0_ret_i_i = extractvalue i80 %call_ret_i_i" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 313 'extractvalue' 'layer13_out_0_ret_i_i' <Predicate = true> <Delay = 0.00>
-ST_21 : Operation 314 [1/1] (1.24ns)   --->   "%store_ln386 = store i16 %layer13_out_0_ret_i_i, i13 %out_buf_0_addr" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 314 'store' 'store_ln386' <Predicate = true> <Delay = 1.24> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 8192> <RAM>
+ST_21 : Operation 314 [1/1] (1.24ns)   --->   "%store_ln386 = store i16 %layer13_out_0_ret_i_i, i14 %out_buf_0_addr" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 314 'store' 'store_ln386' <Predicate = true> <Delay = 1.24> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 16384> <RAM>
 ST_21 : Operation 315 [1/1] (0.00ns)   --->   "%layer13_out_1_ret_i_i = extractvalue i80 %call_ret_i_i" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 315 'extractvalue' 'layer13_out_1_ret_i_i' <Predicate = true> <Delay = 0.00>
-ST_21 : Operation 316 [1/1] (1.24ns)   --->   "%store_ln386 = store i16 %layer13_out_1_ret_i_i, i13 %out_buf_1_addr" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 316 'store' 'store_ln386' <Predicate = true> <Delay = 1.24> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 8192> <RAM>
+ST_21 : Operation 316 [1/1] (1.24ns)   --->   "%store_ln386 = store i16 %layer13_out_1_ret_i_i, i14 %out_buf_1_addr" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 316 'store' 'store_ln386' <Predicate = true> <Delay = 1.24> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 16384> <RAM>
 ST_21 : Operation 317 [1/1] (0.00ns)   --->   "%layer13_out_2_ret_i_i = extractvalue i80 %call_ret_i_i" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 317 'extractvalue' 'layer13_out_2_ret_i_i' <Predicate = true> <Delay = 0.00>
-ST_21 : Operation 318 [1/1] (1.24ns)   --->   "%store_ln386 = store i16 %layer13_out_2_ret_i_i, i13 %out_buf_2_addr" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 318 'store' 'store_ln386' <Predicate = true> <Delay = 1.24> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 8192> <RAM>
+ST_21 : Operation 318 [1/1] (1.24ns)   --->   "%store_ln386 = store i16 %layer13_out_2_ret_i_i, i14 %out_buf_2_addr" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 318 'store' 'store_ln386' <Predicate = true> <Delay = 1.24> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 16384> <RAM>
 ST_21 : Operation 319 [1/1] (0.00ns)   --->   "%layer13_out_3_ret_i_i = extractvalue i80 %call_ret_i_i" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 319 'extractvalue' 'layer13_out_3_ret_i_i' <Predicate = true> <Delay = 0.00>
-ST_21 : Operation 320 [1/1] (1.24ns)   --->   "%store_ln386 = store i16 %layer13_out_3_ret_i_i, i13 %out_buf_3_addr" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 320 'store' 'store_ln386' <Predicate = true> <Delay = 1.24> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 8192> <RAM>
+ST_21 : Operation 320 [1/1] (1.24ns)   --->   "%store_ln386 = store i16 %layer13_out_3_ret_i_i, i14 %out_buf_3_addr" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 320 'store' 'store_ln386' <Predicate = true> <Delay = 1.24> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 16384> <RAM>
 ST_21 : Operation 321 [1/1] (0.00ns)   --->   "%layer13_out_4_ret_i_i = extractvalue i80 %call_ret_i_i" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 321 'extractvalue' 'layer13_out_4_ret_i_i' <Predicate = true> <Delay = 0.00>
-ST_21 : Operation 322 [1/1] (1.24ns)   --->   "%store_ln386 = store i16 %layer13_out_4_ret_i_i, i13 %out_buf_4_addr" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 322 'store' 'store_ln386' <Predicate = true> <Delay = 1.24> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 8192> <RAM>
+ST_21 : Operation 322 [1/1] (1.24ns)   --->   "%store_ln386 = store i16 %layer13_out_4_ret_i_i, i14 %out_buf_4_addr" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 322 'store' 'store_ln386' <Predicate = true> <Delay = 1.24> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 1.24> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 16384> <RAM>
 ST_21 : Operation 323 [1/1] (0.00ns)   --->   "%ret_ln17 = ret" [/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17]   --->   Operation 323 'ret' 'ret_ln17' <Predicate = true> <Delay = 0.00>
 
 
@@ -870,7 +870,7 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 <pin id="19" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="_ssdm_op_Read.ap_auto.i13"/></StgValue>
+<StgValue><ssdm name="_ssdm_op_Read.ap_auto.i14"/></StgValue>
 </bind>
 </comp>
 
@@ -993,9 +993,9 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 
 <comp id="46" class="1004" name="i_read_read_fu_46">
 <pin_list>
-<pin id="47" dir="0" index="0" bw="13" slack="0"/>
-<pin id="48" dir="0" index="1" bw="13" slack="0"/>
-<pin id="49" dir="1" index="2" bw="13" slack="1"/>
+<pin id="47" dir="0" index="0" bw="14" slack="0"/>
+<pin id="48" dir="0" index="1" bw="14" slack="0"/>
+<pin id="49" dir="1" index="2" bw="14" slack="1"/>
 </pin_list>
 <bind>
 <opcode="read(1150) " fcode="read"/>
@@ -1007,8 +1007,8 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 <pin_list>
 <pin id="53" dir="0" index="0" bw="256" slack="0"/>
 <pin id="54" dir="0" index="1" bw="1" slack="0"/>
-<pin id="55" dir="0" index="2" bw="13" slack="0"/>
-<pin id="56" dir="1" index="3" bw="13" slack="0"/>
+<pin id="55" dir="0" index="2" bw="14" slack="0"/>
+<pin id="56" dir="1" index="3" bw="14" slack="0"/>
 </pin_list>
 <bind>
 <opcode="getelementptr(29) " fcode="getelementptr"/>
@@ -1018,7 +1018,7 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 
 <comp id="59" class="1004" name="grp_access_fu_59">
 <pin_list>
-<pin id="60" dir="0" index="0" bw="13" slack="0"/>
+<pin id="60" dir="0" index="0" bw="14" slack="0"/>
 <pin id="61" dir="0" index="1" bw="256" slack="2147483647"/>
 <pin id="62" dir="0" index="2" bw="0" slack="2147483647"/>
 <pin id="63" dir="1" index="3" bw="256" slack="1"/>
@@ -1033,8 +1033,8 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 <pin_list>
 <pin id="66" dir="0" index="0" bw="16" slack="0"/>
 <pin id="67" dir="0" index="1" bw="1" slack="0"/>
-<pin id="68" dir="0" index="2" bw="13" slack="19"/>
-<pin id="69" dir="1" index="3" bw="13" slack="0"/>
+<pin id="68" dir="0" index="2" bw="14" slack="19"/>
+<pin id="69" dir="1" index="3" bw="14" slack="0"/>
 </pin_list>
 <bind>
 <opcode="getelementptr(29) " fcode="getelementptr"/>
@@ -1046,8 +1046,8 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 <pin_list>
 <pin id="73" dir="0" index="0" bw="16" slack="0"/>
 <pin id="74" dir="0" index="1" bw="1" slack="0"/>
-<pin id="75" dir="0" index="2" bw="13" slack="19"/>
-<pin id="76" dir="1" index="3" bw="13" slack="0"/>
+<pin id="75" dir="0" index="2" bw="14" slack="19"/>
+<pin id="76" dir="1" index="3" bw="14" slack="0"/>
 </pin_list>
 <bind>
 <opcode="getelementptr(29) " fcode="getelementptr"/>
@@ -1059,8 +1059,8 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 <pin_list>
 <pin id="80" dir="0" index="0" bw="16" slack="0"/>
 <pin id="81" dir="0" index="1" bw="1" slack="0"/>
-<pin id="82" dir="0" index="2" bw="13" slack="19"/>
-<pin id="83" dir="1" index="3" bw="13" slack="0"/>
+<pin id="82" dir="0" index="2" bw="14" slack="19"/>
+<pin id="83" dir="1" index="3" bw="14" slack="0"/>
 </pin_list>
 <bind>
 <opcode="getelementptr(29) " fcode="getelementptr"/>
@@ -1072,8 +1072,8 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 <pin_list>
 <pin id="87" dir="0" index="0" bw="16" slack="0"/>
 <pin id="88" dir="0" index="1" bw="1" slack="0"/>
-<pin id="89" dir="0" index="2" bw="13" slack="19"/>
-<pin id="90" dir="1" index="3" bw="13" slack="0"/>
+<pin id="89" dir="0" index="2" bw="14" slack="19"/>
+<pin id="90" dir="1" index="3" bw="14" slack="0"/>
 </pin_list>
 <bind>
 <opcode="getelementptr(29) " fcode="getelementptr"/>
@@ -1085,8 +1085,8 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 <pin_list>
 <pin id="94" dir="0" index="0" bw="16" slack="0"/>
 <pin id="95" dir="0" index="1" bw="1" slack="0"/>
-<pin id="96" dir="0" index="2" bw="13" slack="19"/>
-<pin id="97" dir="1" index="3" bw="13" slack="0"/>
+<pin id="96" dir="0" index="2" bw="14" slack="19"/>
+<pin id="97" dir="1" index="3" bw="14" slack="0"/>
 </pin_list>
 <bind>
 <opcode="getelementptr(29) " fcode="getelementptr"/>
@@ -1096,7 +1096,7 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 
 <comp id="100" class="1004" name="store_ln386_access_fu_100">
 <pin_list>
-<pin id="101" dir="0" index="0" bw="13" slack="0"/>
+<pin id="101" dir="0" index="0" bw="14" slack="0"/>
 <pin id="102" dir="0" index="1" bw="16" slack="0"/>
 <pin id="103" dir="0" index="2" bw="0" slack="2147483647"/>
 <pin id="104" dir="1" index="3" bw="16" slack="2147483647"/>
@@ -1109,7 +1109,7 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 
 <comp id="106" class="1004" name="store_ln386_access_fu_106">
 <pin_list>
-<pin id="107" dir="0" index="0" bw="13" slack="0"/>
+<pin id="107" dir="0" index="0" bw="14" slack="0"/>
 <pin id="108" dir="0" index="1" bw="16" slack="0"/>
 <pin id="109" dir="0" index="2" bw="0" slack="2147483647"/>
 <pin id="110" dir="1" index="3" bw="16" slack="2147483647"/>
@@ -1122,7 +1122,7 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 
 <comp id="112" class="1004" name="store_ln386_access_fu_112">
 <pin_list>
-<pin id="113" dir="0" index="0" bw="13" slack="0"/>
+<pin id="113" dir="0" index="0" bw="14" slack="0"/>
 <pin id="114" dir="0" index="1" bw="16" slack="0"/>
 <pin id="115" dir="0" index="2" bw="0" slack="2147483647"/>
 <pin id="116" dir="1" index="3" bw="16" slack="2147483647"/>
@@ -1135,7 +1135,7 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 
 <comp id="118" class="1004" name="store_ln386_access_fu_118">
 <pin_list>
-<pin id="119" dir="0" index="0" bw="13" slack="0"/>
+<pin id="119" dir="0" index="0" bw="14" slack="0"/>
 <pin id="120" dir="0" index="1" bw="16" slack="0"/>
 <pin id="121" dir="0" index="2" bw="0" slack="2147483647"/>
 <pin id="122" dir="1" index="3" bw="16" slack="2147483647"/>
@@ -1148,7 +1148,7 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 
 <comp id="124" class="1004" name="store_ln386_access_fu_124">
 <pin_list>
-<pin id="125" dir="0" index="0" bw="13" slack="0"/>
+<pin id="125" dir="0" index="0" bw="14" slack="0"/>
 <pin id="126" dir="0" index="1" bw="16" slack="0"/>
 <pin id="127" dir="0" index="2" bw="0" slack="2147483647"/>
 <pin id="128" dir="1" index="3" bw="16" slack="2147483647"/>
@@ -1513,7 +1513,7 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 
 <comp id="428" class="1004" name="zext_ln386_fu_428">
 <pin_list>
-<pin id="429" dir="0" index="0" bw="13" slack="1"/>
+<pin id="429" dir="0" index="0" bw="14" slack="1"/>
 <pin id="430" dir="1" index="1" bw="64" slack="0"/>
 </pin_list>
 <bind>
@@ -4450,8 +4450,8 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 
 <comp id="1565" class="1005" name="i_read_reg_1565">
 <pin_list>
-<pin id="1566" dir="0" index="0" bw="13" slack="1"/>
-<pin id="1567" dir="1" index="1" bw="13" slack="1"/>
+<pin id="1566" dir="0" index="0" bw="14" slack="1"/>
+<pin id="1567" dir="1" index="1" bw="14" slack="1"/>
 </pin_list>
 <bind>
 <opset="i_read "/>
@@ -4470,8 +4470,8 @@ ret_ln17              (ret          ) [ 0000000000000000000000]
 
 <comp id="1579" class="1005" name="in_buf_addr_reg_1579">
 <pin_list>
-<pin id="1580" dir="0" index="0" bw="13" slack="1"/>
-<pin id="1581" dir="1" index="1" bw="13" slack="1"/>
+<pin id="1580" dir="0" index="0" bw="14" slack="1"/>
+<pin id="1581" dir="1" index="1" bw="14" slack="1"/>
 </pin_list>
 <bind>
 <opset="in_buf_addr "/>
@@ -8618,8 +8618,8 @@ N/A
 +-------------------------+--------+
 |                         |   FF   |
 +-------------------------+--------+
-|     i_read_reg_1565     |   13   |
-|   in_buf_addr_reg_1579  |   13   |
+|     i_read_reg_1565     |   14   |
+|   in_buf_addr_reg_1579  |   14   |
 |   in_buf_load_reg_1584  |   256  |
 |layer10_out_V_10_reg_2439|   16   |
 |layer10_out_V_11_reg_2444|   16   |
@@ -8820,16 +8820,16 @@ N/A
 |  layer8_out_V_reg_2229  |   16   |
 |   zext_ln386_reg_1570   |   64   |
 +-------------------------+--------+
-|          Total          |  3498  |
+|          Total          |  3500  |
 +-------------------------+--------+
 
 * Multiplexer (MUX) list: 
 |------------------|------|------|------|--------||---------||---------|
 |       Comp       |  Pin | Size |  BW  | S x BW ||  Delay  ||   LUT   |
 |------------------|------|------|------|--------||---------||---------|
-| grp_access_fu_59 |  p0  |   2  |  13  |   26   ||    9    |
+| grp_access_fu_59 |  p0  |   2  |  14  |   28   ||    9    |
 |------------------|------|------|------|--------||---------||---------|
-|       Total      |      |      |      |   26   ||  0.387  ||    9    |
+|       Total      |      |      |      |   28   ||  0.387  ||    9    |
 |------------------|------|------|------|--------||---------||---------|
 
 
@@ -8841,7 +8841,7 @@ N/A
 |  Function |  1087  |    6   |  10055 |  83609 |
 |   Memory  |    -   |    -   |    -   |    -   |
 |Multiplexer|    -   |    0   |    -   |    9   |
-|  Register |    -   |    -   |  3498  |    -   |
+|  Register |    -   |    -   |  3500  |    -   |
 +-----------+--------+--------+--------+--------+
-|   Total   |  1087  |    6   |  13553 |  83618 |
+|   Total   |  1087  |    6   |  13555 |  83618 |
 +-----------+--------+--------+--------+--------+

@@ -1,4 +1,4 @@
-INFO-FLOW: Workspace /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution opened at Fri Jul 05 07:46:19 UTC 2024
+INFO-FLOW: Workspace /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution opened at Tue Aug 06 06:15:13 UTC 2024
 Execute       send_msg_by_id INFO @200-1505@%s%s  vitis 
 INFO: [HLS 200-1505] Using flow_target 'vitis'
 Execute       send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
@@ -15,7 +15,7 @@ Execute       config_interface -default_interface=kernel
 Execute       send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
 INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
 Execute       config_rtl -register_reset_num=3 
-Command     open_solution done; 0.3 sec.
+Command     open_solution done; 0.17 sec.
 Execute     set_part xcu55c-fsvh2892-2L-e 
 INFO: [HLS 200-1510] Running: set_part xcu55c-fsvh2892-2L-e 
 Execute       create_platform xcu55c-fsvh2892-2L-e -board  
@@ -23,32 +23,32 @@ DBG:HLSDevice: Trying to load device library: /tools/Xilinx/Vitis_HLS/2022.2/lib
 DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: /tools/Xilinx/Vivado/2022.2/data/parts/arch.xml
 DBG:HLSDevice: init success
 INFO: [HLS 200-1611] Setting target device to 'xcu55c-fsvh2892-2L-e'
-Command       create_platform done; 282.36 sec.
+Command       create_platform done; 285.25 sec.
 Execute       source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/common/xilinx.gen 
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/plb46.gen 
 Command         ap_source done; 0.28 sec.
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/axi4.gen 
-Command         ap_source done; 0.36 sec.
+Command         ap_source done; 0.2 sec.
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/nativeAXI4.gen 
 Execute           source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/saxilite.gen 
-Command           ap_source done; 0.39 sec.
-Command         ap_source done; 0.79 sec.
+Command           ap_source done; 0.37 sec.
+Command         ap_source done; 0.77 sec.
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Command         ap_source done; 0.22 sec.
+Command         ap_source done; 0.2 sec.
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Command         ap_source done; 0.32 sec.
+Command         ap_source done; 0.54 sec.
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/dds_compiler.gen 
-Command         ap_source done; 0.52 sec.
+Command         ap_source done; 0.53 sec.
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfft.gen 
 Command         ap_source done; 0.76 sec.
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfir.gen 
 Command         ap_source done; 0.37 sec.
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/util.gen 
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/DSP48/dsp48.gen 
-Command       ap_source done; 4.82 sec.
+Command       ap_source done; 4.8 sec.
 Execute       ap_part_info -name xcu55c-fsvh2892-2L-e -data info 
 Execute       config_compile -quiet -complex-mul-dsp=0 
-Command     set_part done; 287.32 sec.
+Command     set_part done; 290.16 sec.
 Execute     create_clock -period 200MHz -name default 
 INFO: [HLS 200-1510] Running: create_clock -period 200MHz -name default 
 Execute       ap_set_clock -name default -period 5 -unit ns -default=false 
@@ -80,7 +80,7 @@ INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 1.35ns.
 Execute     csynth_design 
 INFO: [HLS 200-1510] Running: csynth_design 
 Execute       elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 754.219 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 754.215 MB.
 INFO: [HLS 200-10] Analyzing design file '/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp' ... 
 INFO-FLOW: Compiling one TU...
 INFO-FLOW: Handling /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp as C++
@@ -88,41 +88,41 @@ Execute         ap_part_info -name xcu55c-fsvh2892-2L-e -data info
 INFO-FLOW: Running: GCC PP 39
 INFO-FLOW: Source preprocessing
 Execute         ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/myproject.cpp -foptimization-record-file=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -gcc-toolchain /tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0 -fhls -fno-exceptions -E -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/weights -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils -std=c++11 -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot -I /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -I /usr/include/x86_64-linux-gnu -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp -hls-platform-db-name=/tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_4032.000000_DSP_9024.000000_FF_2607360.000000_LUT_1303680.000000_SLICE_162960.000000_SLR_3.000000_URAM_960.000000 -device-name-info=xcu55c-fsvh2892-2L-e > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.cpp.clang.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.cpp.clang.err.log 
-Command         ap_eval done; 54.44 sec.
-INFO-FLOW: Done: GCC PP 39 time: 54.4 seconds per iteration
+Command         ap_eval done; 54.09 sec.
+INFO-FLOW: Done: GCC PP 39 time: 54.1 seconds per iteration
 Execute         set_directive_top kernel_wrapper -name=kernel_wrapper 
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
-Command         ap_source done; 0.16 sec.
+Command         ap_source done; 0.44 sec.
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
 Command         ap_source done; 0.39 sec.
 INFO-FLOW: Source syntax check for synthesis
 Execute         ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp -hls-platform-db-name=/tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_4032.000000_DSP_9024.000000_FF_2607360.000000_LUT_1303680.000000_SLICE_162960.000000_SLR_3.000000_URAM_960.000000 -device-name-info=xcu55c-fsvh2892-2L-e > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/clang.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/clang.err.log 
-Command         ap_eval done; 3.37 sec.
+Command         ap_eval done; 3.38 sec.
 Execute         clang_tidy xilinx-systemc-detector -desc systemc-detector /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp std=c++11 -target fpga  -directive=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/.systemc_flag 
 INFO-FLOW: exec /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/.systemc_flag -fix-errors /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp -- -std=c++11 -target fpga -fhls -ferror-limit=0
-Command         clang_tidy done; 5.51 sec.
+Command         clang_tidy done; 5.71 sec.
 INFO-FLOW: Running: clang-tidy CDT preprocess 39
 Execute         clang_tidy xilinx-directive2pragma -desc directive2pragma /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp std=c++11 -target fpga  -directive=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/all.directive.json 
 INFO-FLOW: exec /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/all.directive.json -fix-errors /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp -- -std=c++11 -target fpga -fhls -ferror-limit=0
-Command         clang_tidy done; 1.27 sec.
+Command         clang_tidy done; 1.21 sec.
 Execute         clang_tidy xilinx-remove-assert -desc remove-assert /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp std=c++11 -target fpga  
 INFO-FLOW: exec /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-remove-assert -fix-errors /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp -- -std=c++11 -target fpga -fhls -ferror-limit=0
-Command         clang_tidy done; 1.74 sec.
-INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 3 seconds per iteration
+Command         clang_tidy done; 1.68 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 2.9 seconds per iteration
 INFO-FLOW: Calling xilinx-label-all-loops ... 
 INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
 Execute         clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp std=c++11 -target fpga  
 Execute           ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp -- -std=c++11 -target fpga -fhls -ferror-limit=0 > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp.clang-tidy.loop-label.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp.clang-tidy.loop-label.err.log 
-Command           ap_eval done; 2.51 sec.
+Command           ap_eval done; 2.44 sec.
 Execute           source /tools/Xilinx/Vitis_HLS/2022.2/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
-Command           ap_source done; 0.16 sec.
-Command         clang_tidy done; 2.95 sec.
+Command           ap_source done; 0.2 sec.
+Command         clang_tidy done; 2.92 sec.
 Execute         ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp.xilinx-dataflow-lawyer.diag.yml /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp -- -std=c++11 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp.xilinx-dataflow-lawyer.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp.xilinx-dataflow-lawyer.err.log 
-Command         ap_eval done; 2.73 sec.
+Command         ap_eval done; 2.74 sec.
 Execute         ap_part_info -name xcu55c-fsvh2892-2L-e -data info 
 INFO-FLOW: compiling source code to llvm bc
 Execute         ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/weights -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils -std=c++11 -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot -I /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.bc -hls-platform-db-name=/tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_4032.000000_DSP_9024.000000_FF_2607360.000000_LUT_1303680.000000_SLICE_162960.000000_SLR_3.000000_URAM_960.000000 -device-name-info=xcu55c-fsvh2892-2L-e > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp.clang.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.pp.0.cpp.clang.err.log 
-Command         ap_eval done; 1.94 sec.
+Command         ap_eval done; 1.84 sec.
 WARNING: [HLS 207-5292] unused parameter 'keep' (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_helpers.h:285:99)
 WARNING: [HLS 207-5292] unused parameter 'data' (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_code_gen.h:11:36)
 WARNING: [HLS 207-5292] unused parameter 'buffer' (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_code_gen.h:12:36)
@@ -137,75 +137,75 @@ Execute         ap_part_info -name xcu55c-fsvh2892-2L-e -data info
 INFO-FLOW: Running: GCC PP 39
 INFO-FLOW: Source preprocessing
 Execute         ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp -foptimization-record-file=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -gcc-toolchain /tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0 -fhls -fno-exceptions -E -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/weights -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils -std=c++11 -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot -I /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -I /usr/include/x86_64-linux-gnu -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp -hls-platform-db-name=/tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_4032.000000_DSP_9024.000000_FF_2607360.000000_LUT_1303680.000000_SLICE_162960.000000_SLR_3.000000_URAM_960.000000 -device-name-info=xcu55c-fsvh2892-2L-e > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.cpp.clang.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.cpp.clang.err.log 
-Command         ap_eval done; 0.67 sec.
-INFO-FLOW: Done: GCC PP 39 time: 0.7 seconds per iteration
+Command         ap_eval done; 0.62 sec.
+INFO-FLOW: Done: GCC PP 39 time: 0.6 seconds per iteration
 Execute         set_directive_top kernel_wrapper -name=kernel_wrapper 
 INFO-FLOW: Source syntax check for synthesis
 Execute         ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp -hls-platform-db-name=/tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_4032.000000_DSP_9024.000000_FF_2607360.000000_LUT_1303680.000000_SLICE_162960.000000_SLR_3.000000_URAM_960.000000 -device-name-info=xcu55c-fsvh2892-2L-e > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/clang.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/clang.err.log 
-Command         ap_eval done; 1.01 sec.
+Command         ap_eval done; 0.95 sec.
 Execute         clang_tidy xilinx-systemc-detector -desc systemc-detector /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp std=c++11 -target fpga  -directive=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/.systemc_flag 
 INFO-FLOW: exec /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/.systemc_flag -fix-errors /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp -- -std=c++11 -target fpga -fhls -ferror-limit=0
-Command         clang_tidy done; 0.43 sec.
+Command         clang_tidy done; 0.4 sec.
 INFO-FLOW: Running: clang-tidy CDT preprocess 39
 Execute         clang_tidy xilinx-directive2pragma -desc directive2pragma /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp std=c++11 -target fpga  -directive=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/all.directive.json 
 INFO-FLOW: exec /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/all.directive.json -fix-errors /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp -- -std=c++11 -target fpga -fhls -ferror-limit=0
-Command         clang_tidy done; 0.63 sec.
+Command         clang_tidy done; 0.59 sec.
 Execute         clang_tidy xilinx-remove-assert -desc remove-assert /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp std=c++11 -target fpga  
 INFO-FLOW: exec /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-remove-assert -fix-errors /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp -- -std=c++11 -target fpga -fhls -ferror-limit=0
-Command         clang_tidy done; 0.63 sec.
-INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 1.3 seconds per iteration
+Command         clang_tidy done; 0.58 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 1.2 seconds per iteration
 INFO-FLOW: Calling xilinx-label-all-loops ... 
 INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
 Execute         clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp std=c++11 -target fpga  
 Execute           ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp -- -std=c++11 -target fpga -fhls -ferror-limit=0 > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp.clang-tidy.loop-label.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp.clang-tidy.loop-label.err.log 
-Command           ap_eval done; 0.76 sec.
-Command         clang_tidy done; 0.8 sec.
+Command           ap_eval done; 0.71 sec.
+Command         clang_tidy done; 0.75 sec.
 Execute         ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp.xilinx-dataflow-lawyer.diag.yml /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp -- -std=c++11 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp.xilinx-dataflow-lawyer.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp.xilinx-dataflow-lawyer.err.log 
-Command         ap_eval done; 0.42 sec.
+Command         ap_eval done; 0.38 sec.
 Execute         ap_part_info -name xcu55c-fsvh2892-2L-e -data info 
 INFO-FLOW: compiling source code to llvm bc
 Execute         ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/weights -I/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils -std=c++11 -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot -I /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.bc -hls-platform-db-name=/tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_4032.000000_DSP_9024.000000_FF_2607360.000000_LUT_1303680.000000_SLICE_162960.000000_SLR_3.000000_URAM_960.000000 -device-name-info=xcu55c-fsvh2892-2L-e > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp.clang.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.pp.0.cpp.clang.err.log 
-Command         ap_eval done; 1.02 sec.
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 13.85 seconds. CPU system time: 2.16 seconds. Elapsed time: 82.28 seconds; current allocated memory: 759.621 MB.
+Command         ap_eval done; 0.97 sec.
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 13.69 seconds. CPU system time: 1.45 seconds. Elapsed time: 81.55 seconds; current allocated memory: 759.617 MB.
 INFO-FLOW: Linking Debug ...
 INFO-FLOW: Linking dut bc code.
 Execute         run_link_or_opt -out /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.0.bc -args  "/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.g.bc" "/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.g.bc"  
 Execute           ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/llvm-link /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.g.bc /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.g.bc -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.0.bc > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.0.bc.llvm-link.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.0.bc.llvm-link.err.log 
-Command           ap_eval done; 0.38 sec.
+Command           ap_eval done; 0.3 sec.
 INFO-FLOW: 
-Command         run_link_or_opt done; 0.38 sec.
+Command         run_link_or_opt done; 0.3 sec.
 Execute         run_link_or_opt -opt -out /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.1.lower.bc -args /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
 Execute           ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.1.lower.bc.opt.diag.yml /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.1.lower.bc > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.1.lower.bc.opt.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.1.lower.bc.opt.err.log 
-Command           ap_eval done; 3.82 sec.
+Command           ap_eval done; 4.3 sec.
 INFO-FLOW: 
-Command         run_link_or_opt done; 3.82 sec.
+Command         run_link_or_opt done; 4.3 sec.
 INFO-FLOW: Linking math bc lib
 Execute         run_link_or_opt -out /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.2.m1.bc -args /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.1.lower.bc -only-needed /tools/Xilinx/Vitis_HLS/2022.2/lnx64/lib/libhlsm_39.bc /tools/Xilinx/Vitis_HLS/2022.2/lnx64/lib/libhlsmc++_39.bc 
 Execute           ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/llvm-link /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.1.lower.bc -only-needed /tools/Xilinx/Vitis_HLS/2022.2/lnx64/lib/libhlsm_39.bc /tools/Xilinx/Vitis_HLS/2022.2/lnx64/lib/libhlsmc++_39.bc -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.2.m1.bc > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log 
-Command           ap_eval done; 7.15 sec.
+Command           ap_eval done; 7.68 sec.
 INFO-FLOW: 
-Command         run_link_or_opt done; 7.15 sec.
+Command         run_link_or_opt done; 7.68 sec.
 Execute         run_link_or_opt -opt -out /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.3.fpc.bc -args /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=kernel_wrapper -reflow-float-conversion 
 Execute           ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=kernel_wrapper -reflow-float-conversion -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.3.fpc.bc > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log 
-Command           ap_eval done; 0.89 sec.
+Command           ap_eval done; 0.84 sec.
 INFO-FLOW: 
-Command         run_link_or_opt done; 0.89 sec.
+Command         run_link_or_opt done; 0.84 sec.
 Execute         run_link_or_opt -out /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.4.m2.bc -args /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.3.fpc.bc -only-needed /tools/Xilinx/Vitis_HLS/2022.2/lnx64/lib/libfloatconversion_39.bc 
 Execute           ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/llvm-link /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.3.fpc.bc -only-needed /tools/Xilinx/Vitis_HLS/2022.2/lnx64/lib/libfloatconversion_39.bc -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.4.m2.bc > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.err.log 
-Command           ap_eval done; 0.36 sec.
+Command           ap_eval done; 0.34 sec.
 INFO-FLOW: 
-Command         run_link_or_opt done; 0.36 sec.
+Command         run_link_or_opt done; 0.34 sec.
 Execute         run_link_or_opt -opt -out /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.5.gdce.bc -args /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=kernel_wrapper 
 Execute           ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.5.gdce.bc.opt.diag.yml /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=kernel_wrapper -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.5.gdce.bc > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.5.gdce.bc.opt.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.5.gdce.bc.opt.err.log 
-Command           ap_eval done; 0.18 sec.
+Command           ap_eval done; 0.13 sec.
 INFO-FLOW: 
-Command         run_link_or_opt done; 0.18 sec.
+Command         run_link_or_opt done; 0.13 sec.
 Execute         send_msg_by_id INFO @200-777@%s Vitis 
 INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
 Execute         is_m_axi_addr64 
 INFO-FLOW: Doing LTO.
 Execute         ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.0.bc.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fhls -mllvm -hls-top-function-name=kernel_wrapper -mllvm -hls-db-dir -mllvm /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db -emit-llvm -c -target fpga64-xilinx-none -mllvm -xcl-xmlinfo=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/../../../kernel.xml -mllvm -top-io-mapping-info=/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/top-io-fe.xml -mllvm -hls-bitcode-version=3.1 -mllvm -reflow-enable-slave-interface-default-setting=true -mllvm -gen-kernel-xml=true -mllvm -default-maxi-offset=slave -mllvm -maxi-latency=64 -mllvm -hls-maxi-data-size-in-bits=8 -mllvm -hls-maxi-max-data-size-in-bits=1024 -mllvm -hls-max-widen-size-in-bits=512 -mllvm -xcl-kernel-max-mem-ports=1 -mllvm -maxi-read-trans=16 -mllvm -maxi-write-trans=16 -mllvm -maxi-read-burst-len=16 -mllvm -maxi-write-burst-len=16 -mllvm -reflow-enable-saxi-64bits=0 -mllvm -reflow-basic-block-instr-threshold=200000 -mllvm -reflow-auto-pipeline-threshold=64 -mllvm -reflow-enable-maxi-auto-id-channel=0 -mllvm -assume-maxi-align=64 -mllvm -reflow-pipeline-style-llvm-setting=2 -mllvm -reflow-enable-dataflow-strict-mode-checking=1 -mllvm -reflow-auto-array-partition-mode=default -mllvm -reflow-enable-auto-array-partition=true -mllvm -reflow-enable-auto-parallel-performance-driven=true -mllvm -reflow-enable-partition-for-automation=true -mllvm -reflow-aggregate-bitwidth-threshold=4096 -mllvm -reflow-assume-no-address-wrap=true -mllvm -hls -mllvm -disable-inlined-alloca-merging=true -mllvm -enable-reflow-vitis-flow-setting=true -mllvm -default-clock-period=5 -x ir /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.5.gdce.bc -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.lto.bc -hls-platform-db-name=/tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_4032.000000_DSP_9024.000000_FF_2607360.000000_LUT_1303680.000000_SLICE_162960.000000_SLR_3.000000_URAM_960.000000 -device-name-info=xcu55c-fsvh2892-2L-e > /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.0.bc.clang.out.log 2> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.ld.0.bc.clang.err.log 
-Command         ap_eval done; 134.94 sec.
+Command         ap_eval done; 134.18 sec.
 INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::weight_t*, config2::bias_t*)' (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_latency.h:42:27)
 INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config5>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config5::weight_t*, config5::bias_t*)' (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_latency.h:42:27)
 INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config8::weight_t*, config8::bias_t*)' (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_latency.h:42:27)
@@ -331,18 +331,18 @@ WARNING: [HLS 214-253] Ignored unsupported array_partition pragma on variable 'o
 WARNING: [HLS 214-253] Ignored unsupported array_partition pragma on variable 'out_buf_2'. This can happen when applying a pragma on a function argument with mismatched array size w.r.t. its call site, or when providing a dim too deep on an array of insufficient dimension. (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:44:5)
 WARNING: [HLS 214-253] Ignored unsupported array_partition pragma on variable 'out_buf_1'. This can happen when applying a pragma on a function argument with mismatched array size w.r.t. its call site, or when providing a dim too deep on an array of insufficient dimension. (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:44:5)
 WARNING: [HLS 214-253] Ignored unsupported array_partition pragma on variable 'out_buf_0'. This can happen when applying a pragma on a function argument with mismatched array size w.r.t. its call site, or when providing a dim too deep on an array of insufficient dimension. (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:44:5)
-INFO: [HLS 214-115] Multiple burst reads of length 8192 and bit width 512 in loop 'VITIS_LOOP_5_1'(/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:5:21) has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:5:21)
-INFO: [HLS 214-115] Multiple burst writes of length 40960 and bit width 32 in loop 'VITIS_LOOP_21_1'(/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:21:22) has been inferred on bundle 'gmem1'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:21:22)
+INFO: [HLS 214-115] Multiple burst reads of length 16384 and bit width 512 in loop 'VITIS_LOOP_5_1'(/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:5:21) has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:5:21)
+INFO: [HLS 214-115] Multiple burst writes of length 81920 and bit width 32 in loop 'VITIS_LOOP_21_1'(/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:21:22) has been inferred on bundle 'gmem1'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:21:22)
 INFO-FLOW: DBG:PUTS: copy_raw_kernel_xml ap_link_39: copying raw kernel.xml: /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/../../../kernel.xml -> /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel.internal.xml
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 139.52 seconds. CPU system time: 1.95 seconds. Elapsed time: 154.56 seconds; current allocated memory: 765.684 MB.
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 138.91 seconds. CPU system time: 1.09 seconds. Elapsed time: 154.5 seconds; current allocated memory: 765.684 MB.
 INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 765.684 MB.
 Execute         opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
 Execute           cleanup_all_models 
 INFO: [HLS 200-10] Starting code transformations ...
 INFO-FLOW: Running Standard Transforms...
 Execute           transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top kernel_wrapper -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -auto-shift-reg-idiom -promote-dbg-pointer -norm-name /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.0.bc -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.1.bc -f -phase std-opt 
-Command           transform done; 1.46 sec.
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 1.39 seconds. CPU system time: 0.08 seconds. Elapsed time: 1.52 seconds; current allocated memory: 896.039 MB.
+Command           transform done; 1.45 sec.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 1.39 seconds. CPU system time: 0.07 seconds. Elapsed time: 1.58 seconds; current allocated memory: 896.043 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
 INFO-FLOW: Checking Synthesizability 1/2..
 Execute           transform -hls -syn-check -check-rec-only -scalarrepl -norm-name -dce -mem2reg -instcombine -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -pag -array-normalize -instcombine -dce -array-seg-normalize -instcombine -dce -data-pack -instcombine -dce -inst-simplify -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -directive-preproc -mem2reg -dse -dce -globaldce /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.1.bc -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.2.prechk.bc -f 
@@ -351,8 +351,8 @@ INFO-FLOW: Checking Synthesizability 2/2..
 Execute           transform -syn-check /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.2.prechk.bc -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.2.bc -f -phase syn-check 
 WARNING: [SYNCHK 200-23] /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h:1102: variable-indexed range selection may cause suboptimal QoR.
 INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
-Command           transform done; 0.49 sec.
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 1.42 seconds. CPU system time: 0.07 seconds. Elapsed time: 1.65 seconds; current allocated memory: 971.406 MB.
+Command           transform done; 0.52 sec.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 1.43 seconds. CPU system time: 0.08 seconds. Elapsed time: 1.59 seconds; current allocated memory: 971.410 MB.
 INFO-FLOW: Compiler optimizing ...
 INFO-FLOW: Share syncheck's 1.bc for syn flow: copy /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.g.1.bc to /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.o.1.bc
 INFO-FLOW: Presyn 1...
@@ -365,7 +365,7 @@ INFO: [XFORM 203-712] Applying dataflow to function 'kernel_wrapper' (/home/ayvo
 	 'read_input'
 	 'run_inference'
 	 'write_result'.
-Command           transform done; 2.07 sec.
+Command           transform done; 1.97 sec.
 INFO-FLOW: Presyn 2...
 Execute           transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin2 -bitwidthmin2 -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -barrier -norm-name /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.o.1.tmp.bc -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.o.2.bc -f -phase presyn 
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:22:9) to (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:21:22) in function 'write_result'... converting 46 basic blocks.
@@ -375,18 +375,18 @@ INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_f
 INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config5>' (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_latency.h:17:1)...1513 expression(s) balanced.
 INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_latency.h:17:1)...881 expression(s) balanced.
 INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config11>' (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense_latency.h:33:1)...132 expression(s) balanced.
-Command           transform done; 1.36 sec.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 3.05 seconds. CPU system time: 0.12 seconds. Elapsed time: 3.44 seconds; current allocated memory: 1.118 GB.
+Command           transform done; 1.4 sec.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 3.06 seconds. CPU system time: 0.08 seconds. Elapsed time: 3.38 seconds; current allocated memory: 1.116 GB.
 INFO-FLOW: Building ssdm...
 Execute           transform -hls -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -aggr-aa -licm -loop-dep -loop-bound -licm -loop-simplify -loop-sink-hoist -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify -array-burst -promote-global-argument -dce -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -deadargelim -dce -canonicalize-dataflow -dce -deadargelim -globaldce -mem2reg -bram-byte-enable -load-elim -read-loop-dep -loop-simplify -loop-extract-inner -directive-preproc -bitwidthmin2 -bitwidthmin2 -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable-spec-prop -deadargelim -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -float-op-raise -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg -loop-simplify -mergereturn -inst-simplify -inst-rectify -dce -load-elim -bitop-lower -float-op-raise -fma-raise -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -dyn-mem-reuse -dce -recurrence-min -dce -share-scalar-alloca -deadargelim -dce -check-stream -norm-name -legalize -validate-dataflow -inst-clarity -bitwidth -dump-loop-dep-to-ir -check-all-ssdm -cdfg-build /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.o.2.bc -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
 INFO: [HLS 200-472] Inferring partial write operation for 'in_buf' (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:9:15)
 INFO: [HLS 200-472] Inferring partial write operation for 'out_buf_0' (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h:386:9)
 WARNING: [HLS 200-1449] Process dataflow_in_loop_VITIS_LOOP_15_1 has both a predecessor and reads an input from its caller (see the GUI dataflow viewer). This may lead to lower throughput. Consider copying this input via a predecessor process.
-Command           transform done; 2.79 sec.
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 2.65 seconds. CPU system time: 0.11 seconds. Elapsed time: 2.79 seconds; current allocated memory: 1.351 GB.
+Command           transform done; 2.8 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 2.62 seconds. CPU system time: 0.1 seconds. Elapsed time: 2.8 seconds; current allocated memory: 1.351 GB.
 INFO-FLOW: Finish building internal data model.
-Command         opt_and_import_c done; 9.43 sec.
-Command       elaborate done; 246.29 sec.
+Command         opt_and_import_c done; 9.41 sec.
+Command       elaborate done; 245.5 sec.
 Execute       ap_eval exec zip -j /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dut.hcp $dbDir/a.o.3.bc $dbDir/${topname}.rtl_wrap.cfg.tcl $dbDir/apatb_${topname}.cpp $dbDir/apatb_${topname}_util.cpp $dbDir/apatb_${topname}_ir.ll $dbDir/mapper_${topname}.cpp $dbDir/top-io-fe.xml $dbDir/kernel.internal.xml $workdir/../hls.app 
 Command       ap_eval done; 2.06 sec.
 Execute       autosyn -from_csynth_design=1 
@@ -402,7 +402,7 @@ WARNING: [SYN 201-103] Legalizing function name 'dense_latency<ap_fixed<16, 6, 5
 WARNING: [SYN 201-103] Legalizing function name 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config10>' to 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s'.
 WARNING: [SYN 201-103] Legalizing function name 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config11>' to 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s'.
 WARNING: [SYN 201-103] Legalizing function name 'softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13>' to 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s'.
-Command         ap_set_top_model done; 0.32 sec.
+Command         ap_set_top_model done; 0.38 sec.
 Execute         get_model_list kernel_wrapper -filter all-wo-channel -topdown 
 Execute         preproc_iomode -model kernel_wrapper 
 Execute         preproc_iomode -model write_result 
@@ -551,7 +551,7 @@ Execute         set_default_model entry_proc
 Execute         schedule -model entry_proc 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.24 seconds. CPU system time: 0.11 seconds. Elapsed time: 2.7 seconds; current allocated memory: 1.353 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.25 seconds. CPU system time: 0.03 seconds. Elapsed time: 2.69 seconds; current allocated memory: 1.353 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/entry_proc.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/entry_proc.sched.adb -f 
@@ -563,8 +563,8 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 0.26 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.27 seconds; current allocated memory: 1.353 GB.
+Command         bind done; 0.13 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.13 seconds; current allocated memory: 1.353 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/entry_proc.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/entry_proc.bind.adb -f 
@@ -578,8 +578,8 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_5_1'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 6, loop 'VITIS_LOOP_5_1'
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 0.69 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.56 seconds. CPU system time: 0 seconds. Elapsed time: 0.86 seconds; current allocated memory: 1.360 GB.
+Command         schedule done; 0.66 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.55 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.79 seconds; current allocated memory: 1.360 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/read_input_Pipeline_VITIS_LOOP_5_1.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
 Command         syn_report done; 0.27 sec.
@@ -592,8 +592,8 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 0.53 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.69 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.83 seconds; current allocated memory: 1.360 GB.
+Command         bind done; 0.5 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.7 seconds. CPU system time: 0 seconds. Elapsed time: 0.8 seconds; current allocated memory: 1.360 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/read_input_Pipeline_VITIS_LOOP_5_1.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
 Command         syn_report done; 1.31 sec.
@@ -606,11 +606,11 @@ Execute         set_default_model read_input
 Execute         schedule -model read_input 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 0.38 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.47 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.79 seconds; current allocated memory: 1.360 GB.
+Command         schedule done; 0.2 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.47 seconds. CPU system time: 0 seconds. Elapsed time: 1.64 seconds; current allocated memory: 1.360 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/read_input.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 0.19 sec.
+Command         syn_report done; 0.18 sec.
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/read_input.sched.adb -f 
 INFO-FLOW: Finish scheduling read_input.
 Execute         set_default_model read_input 
@@ -620,8 +620,8 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 0.71 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.66 seconds. CPU system time: 0 seconds. Elapsed time: 0.9 seconds; current allocated memory: 1.360 GB.
+Command         bind done; 0.65 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.66 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.83 seconds; current allocated memory: 1.360 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/read_input.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
 Command         syn_report done; 1.08 sec.
@@ -636,8 +636,8 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>'
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 4.87 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 5.91 seconds. CPU system time: 0.03 seconds. Elapsed time: 6.09 seconds; current allocated memory: 1.385 GB.
+Command         schedule done; 4.86 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 5.88 seconds. CPU system time: 0.02 seconds. Elapsed time: 6.04 seconds; current allocated memory: 1.385 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
 Command         syn_report done; 1.1 sec.
@@ -652,13 +652,13 @@ INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 5.91 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 6.82 seconds. CPU system time: 0.12 seconds. Elapsed time: 7.16 seconds; current allocated memory: 1.554 GB.
+Command         bind done; 5.89 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 6.99 seconds. CPU system time: 0.07 seconds. Elapsed time: 7.14 seconds; current allocated memory: 1.554 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 5.13 sec.
+Command         syn_report done; 5.14 sec.
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s.bind.adb -f 
-Command         db_write done; 0.18 sec.
+Command         db_write done; 0.19 sec.
 INFO-FLOW: Finish binding dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s' 
@@ -669,8 +669,8 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config4>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config4>'
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 0.3 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 5.51 seconds. CPU system time: 0.03 seconds. Elapsed time: 5.71 seconds; current allocated memory: 1.554 GB.
+Command         schedule done; 0.39 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 5.52 seconds. CPU system time: 0.03 seconds. Elapsed time: 5.86 seconds; current allocated memory: 1.554 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s.sched.adb -f 
@@ -682,8 +682,8 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 0.22 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.22 seconds. CPU system time: 0 seconds. Elapsed time: 0.3 seconds; current allocated memory: 1.554 GB.
+Command         bind done; 0.48 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.21 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.57 seconds; current allocated memory: 1.554 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
 Command         syn_report done; 0.39 sec.
@@ -698,13 +698,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5>'
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 7.22 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 7.37 seconds. CPU system time: 0.04 seconds. Elapsed time: 7.9 seconds; current allocated memory: 1.554 GB.
+Command         schedule done; 7.01 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 7.34 seconds. CPU system time: 0.04 seconds. Elapsed time: 7.5 seconds; current allocated memory: 1.554 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 1.75 sec.
+Command         syn_report done; 1.74 sec.
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s.sched.adb -f 
-Command         db_write done; 0.23 sec.
+Command         db_write done; 0.24 sec.
 INFO-FLOW: Finish scheduling dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5>.
 Execute         set_default_model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5> 
 Execute         bind -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5> 
@@ -714,13 +714,13 @@ INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 11.81 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 13.51 seconds. CPU system time: 0.2 seconds. Elapsed time: 13.79 seconds; current allocated memory: 1.691 GB.
+Command         bind done; 12.02 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 13.7 seconds. CPU system time: 0.13 seconds. Elapsed time: 14 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 7.85 sec.
+Command         syn_report done; 7.86 sec.
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s.bind.adb -f 
-Command         db_write done; 0.28 sec.
+Command         db_write done; 0.29 sec.
 INFO-FLOW: Finish binding dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5>.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s' 
@@ -731,8 +731,8 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7>'
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 0.22 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 8.23 seconds. CPU system time: 0.02 seconds. Elapsed time: 8.51 seconds; current allocated memory: 1.691 GB.
+Command         schedule done; 0.55 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 8.25 seconds. CPU system time: 0.02 seconds. Elapsed time: 8.86 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s.sched.adb -f 
@@ -745,7 +745,7 @@ INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
 Command         bind done; 0.23 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.27 seconds; current allocated memory: 1.691 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.12 seconds. CPU system time: 0 seconds. Elapsed time: 0.27 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
 Command         syn_report done; 0.2 sec.
@@ -760,13 +760,12 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>'
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 3.31 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 3.41 seconds. CPU system time: 0 seconds. Elapsed time: 3.57 seconds; current allocated memory: 1.691 GB.
+Command         schedule done; 3.41 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 3.4 seconds. CPU system time: 0.02 seconds. Elapsed time: 3.72 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
 Command         syn_report done; 0.79 sec.
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s.sched.adb -f 
-Command         db_write done; 0.11 sec.
 INFO-FLOW: Finish scheduling dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>.
 Execute         set_default_model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8> 
 Execute         bind -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8> 
@@ -776,11 +775,11 @@ INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 3.32 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 4 seconds. CPU system time: 0.03 seconds. Elapsed time: 4.22 seconds; current allocated memory: 1.691 GB.
+Command         bind done; 3.36 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 4 seconds. CPU system time: 0.02 seconds. Elapsed time: 4.25 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 3.62 sec.
+Command         syn_report done; 3.6 sec.
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s.bind.adb -f 
 Command         db_write done; 0.13 sec.
 INFO-FLOW: Finish binding dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>.
@@ -793,8 +792,8 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config10>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config10>'
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 0.29 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 3.85 seconds. CPU system time: 0.01 seconds. Elapsed time: 4.16 seconds; current allocated memory: 1.691 GB.
+Command         schedule done; 0.22 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 3.84 seconds. CPU system time: 0.02 seconds. Elapsed time: 4.18 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s.sched.adb -f 
@@ -806,8 +805,8 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 0.28 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.12 seconds. CPU system time: 0 seconds. Elapsed time: 0.32 seconds; current allocated memory: 1.691 GB.
+Command         bind done; 0.17 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.12 seconds. CPU system time: 0 seconds. Elapsed time: 0.21 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
 Command         syn_report done; 0.2 sec.
@@ -822,8 +821,8 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config11>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config11>'
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 0.9 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.98 seconds. CPU system time: 0 seconds. Elapsed time: 1.41 seconds; current allocated memory: 1.691 GB.
+Command         schedule done; 0.93 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.97 seconds. CPU system time: 0 seconds. Elapsed time: 1.22 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
 Command         syn_report done; 0.17 sec.
@@ -837,8 +836,8 @@ INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 0.66 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.59 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.86 seconds; current allocated memory: 1.691 GB.
+Command         bind done; 0.51 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.59 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.71 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
 Command         syn_report done; 0.8 sec.
@@ -858,8 +857,8 @@ INFO: [HLS 200-486] Changing DSP latency (root=mul_ln1270) to 3 in order to util
 INFO: [SCHED 204-61] Pipelining function 'softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 8, function 'softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13>'
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 0.52 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.95 seconds. CPU system time: 0 seconds. Elapsed time: 1.41 seconds; current allocated memory: 1.691 GB.
+Command         schedule done; 0.42 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.96 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.41 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s.sched.adb -f 
@@ -871,8 +870,8 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 0.19 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.14 seconds. CPU system time: 0 seconds. Elapsed time: 0.26 seconds; current allocated memory: 1.691 GB.
+Command         bind done; 0.17 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.14 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.24 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
 Command         syn_report done; 0.18 sec.
@@ -888,8 +887,8 @@ INFO: [SCHED 204-61] Pipelining function 'myproject'.
 INFO: [HLS 200-876] Unable to schedule the whole 2 cycles 'load' operation ('in_buf_load', /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h:41->/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:17) on array 'in_buf' within the first cycle (II = 1). Simulation mismatch may occur if the input data is modified before this operation completes.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 2, Depth = 21, function 'myproject'
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 0.42 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.41 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.75 seconds; current allocated memory: 1.691 GB.
+Command         schedule done; 0.41 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.42 seconds. CPU system time: 0 seconds. Elapsed time: 0.66 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.sched.adb -f 
@@ -901,11 +900,11 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 5.4 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 4.97 seconds. CPU system time: 0.03 seconds. Elapsed time: 5.49 seconds; current allocated memory: 1.691 GB.
+Command         bind done; 5.08 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 4.98 seconds. CPU system time: 0.03 seconds. Elapsed time: 5.2 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 14.44 sec.
+Command         syn_report done; 14.48 sec.
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.bind.adb -f 
 INFO-FLOW: Finish binding myproject.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -915,8 +914,7 @@ Execute         set_default_model dataflow_in_loop_VITIS_LOOP_15_1
 Execute         schedule -model dataflow_in_loop_VITIS_LOOP_15_1 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 0.17 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 14.47 seconds. CPU system time: 0.04 seconds. Elapsed time: 14.73 seconds; current allocated memory: 1.691 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 14.51 seconds. CPU system time: 0.04 seconds. Elapsed time: 14.66 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dataflow_in_loop_VITIS_LOOP_15_1.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dataflow_in_loop_VITIS_LOOP_15_1.sched.adb -f 
@@ -928,11 +926,11 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 5.07 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 5.02 seconds. CPU system time: 0.02 seconds. Elapsed time: 5.12 seconds; current allocated memory: 1.691 GB.
+Command         bind done; 5.04 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 5.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 5.09 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dataflow_in_loop_VITIS_LOOP_15_1.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 14.49 sec.
+Command         syn_report done; 14.48 sec.
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dataflow_in_loop_VITIS_LOOP_15_1.bind.adb -f 
 INFO-FLOW: Finish binding dataflow_in_loop_VITIS_LOOP_15_1.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -943,7 +941,7 @@ Execute         schedule -model run_inference
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
 Command         schedule done; 0.11 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 14.48 seconds. CPU system time: 0.03 seconds. Elapsed time: 14.72 seconds; current allocated memory: 1.691 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 14.47 seconds. CPU system time: 0.03 seconds. Elapsed time: 14.68 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/run_inference.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/run_inference.sched.adb -f 
@@ -955,11 +953,11 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 5.15 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 4.88 seconds. CPU system time: 0.03 seconds. Elapsed time: 5.16 seconds; current allocated memory: 1.691 GB.
+Command         bind done; 5.05 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 4.85 seconds. CPU system time: 0 seconds. Elapsed time: 5.06 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/run_inference.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 14.44 sec.
+Command         syn_report done; 14.41 sec.
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/run_inference.bind.adb -f 
 INFO-FLOW: Finish binding run_inference.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -975,8 +973,8 @@ WARNING: [HLS 200-880] The II Violation in module 'write_result_Pipeline_VITIS_L
 WARNING: [HLS 200-880] The II Violation in module 'write_result_Pipeline_VITIS_LOOP_21_1' (loop 'VITIS_LOOP_21_1'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between bus write operation ('gmem1_addr_write_ln25', /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:25) on port 'gmem1' (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:25) and bus write operation ('gmem1_addr_write_ln25', /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:25) on port 'gmem1' (/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/kernel_wrapper.cpp:25).
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 5, Depth = 9, loop 'VITIS_LOOP_21_1'
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 0.51 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 14.73 seconds. CPU system time: 0.02 seconds. Elapsed time: 15.06 seconds; current allocated memory: 1.691 GB.
+Command         schedule done; 0.8 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 14.71 seconds. CPU system time: 0.01 seconds. Elapsed time: 15.33 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/write_result_Pipeline_VITIS_LOOP_21_1.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
 Command         syn_report done; 0.12 sec.
@@ -989,11 +987,11 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 0.36 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.27 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.49 seconds; current allocated memory: 1.691 GB.
+Command         bind done; 0.47 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.28 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.6 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/write_result_Pipeline_VITIS_LOOP_21_1.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 0.43 sec.
+Command         syn_report done; 0.44 sec.
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/write_result_Pipeline_VITIS_LOOP_21_1.bind.adb -f 
 INFO-FLOW: Finish binding write_result_Pipeline_VITIS_LOOP_21_1.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -1003,11 +1001,11 @@ Execute         set_default_model write_result
 Execute         schedule -model write_result 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 0.15 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.57 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.78 seconds; current allocated memory: 1.691 GB.
+Command         schedule done; 0.21 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.58 seconds. CPU system time: 0 seconds. Elapsed time: 0.77 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/write_result.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 0.18 sec.
+Command         syn_report done; 0.19 sec.
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/write_result.sched.adb -f 
 INFO-FLOW: Finish scheduling write_result.
 Execute         set_default_model write_result 
@@ -1017,11 +1015,11 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 0.54 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.43 seconds. CPU system time: 0 seconds. Elapsed time: 0.72 seconds; current allocated memory: 1.691 GB.
+Command         bind done; 0.37 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.44 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.56 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/write_result.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 0.38 sec.
+Command         syn_report done; 0.37 sec.
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/write_result.bind.adb -f 
 INFO-FLOW: Finish binding write_result.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -1031,8 +1029,7 @@ Execute         set_default_model kernel_wrapper
 Execute         schedule -model kernel_wrapper 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 0.11 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.4 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.7 seconds; current allocated memory: 1.691 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.4 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.54 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.verbose.sched.rpt 
 Execute           AP::get_flow_target_display_name
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.sched.adb -f 
@@ -1044,11 +1041,11 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command         bind done; 5.59 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 5.4 seconds. CPU system time: 0.02 seconds. Elapsed time: 5.61 seconds; current allocated memory: 1.691 GB.
+Command         bind done; 5.77 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 5.39 seconds. CPU system time: 0.01 seconds. Elapsed time: 5.79 seconds; current allocated memory: 1.691 GB.
 Execute         syn_report -verbosereport -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.verbose.bind.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 15.96 sec.
+Command         syn_report done; 15.87 sec.
 Execute         db_write -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.bind.adb -f 
 INFO-FLOW: Finish binding kernel_wrapper.
 Execute         get_model_list kernel_wrapper -filter all-wo-channel 
@@ -1076,7 +1073,7 @@ INFO: [HLS 200-10] -- Generating RTL for module 'entry_proc'
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model entry_proc -top_prefix kernel_wrapper_ -sub_prefix kernel_wrapper_ -mg_file /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/entry_proc.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'entry_proc'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 15.93 seconds. CPU system time: 0.07 seconds. Elapsed time: 16.1 seconds; current allocated memory: 1.691 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 15.83 seconds. CPU system time: 0.07 seconds. Elapsed time: 16.21 seconds; current allocated memory: 1.691 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl entry_proc -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_entry_proc 
 Execute         gen_rtl entry_proc -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_entry_proc 
@@ -1107,19 +1104,19 @@ WARNING: [RTGEN 206-101] Setting dangling out port 'read_input_Pipeline_VITIS_LO
 WARNING: [RTGEN 206-101] Setting dangling out port 'read_input_Pipeline_VITIS_LOOP_5_1/m_axi_gmem0_ARUSER' to 0.
 INFO: [RTGEN 206-100] Generating core module 'fpext_32ns_64_2_no_dsp_1': 16 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'read_input_Pipeline_VITIS_LOOP_5_1'.
-Command         create_rtl_model done; 2.31 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.22 seconds. CPU system time: 0.01 seconds. Elapsed time: 2.42 seconds; current allocated memory: 1.691 GB.
+Command         create_rtl_model done; 2.78 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.2 seconds. CPU system time: 0.03 seconds. Elapsed time: 2.99 seconds; current allocated memory: 1.691 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl read_input_Pipeline_VITIS_LOOP_5_1 -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_read_input_Pipeline_VITIS_LOOP_5_1 
 Execute         gen_rtl read_input_Pipeline_VITIS_LOOP_5_1 -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_read_input_Pipeline_VITIS_LOOP_5_1 
 Execute         syn_report -csynth -model read_input_Pipeline_VITIS_LOOP_5_1 -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/read_input_Pipeline_VITIS_LOOP_5_1_csynth.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 0.73 sec.
+Command         syn_report done; 0.72 sec.
 Execute         syn_report -rtlxml -model read_input_Pipeline_VITIS_LOOP_5_1 -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/read_input_Pipeline_VITIS_LOOP_5_1_csynth.xml 
 Command         syn_report done; 0.36 sec.
 Execute         syn_report -verbosereport -model read_input_Pipeline_VITIS_LOOP_5_1 -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/read_input_Pipeline_VITIS_LOOP_5_1.verbose.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 1.67 sec.
+Command         syn_report done; 1.68 sec.
 Execute         db_write -model read_input_Pipeline_VITIS_LOOP_5_1 -f -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/read_input_Pipeline_VITIS_LOOP_5_1.adb 
 Command         db_write done; 0.4 sec.
 Execute         db_write -model read_input_Pipeline_VITIS_LOOP_5_1 -bindview -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/design.bindinfo.xml 
@@ -1129,7 +1126,7 @@ INFO: [HLS 200-10] -- Generating RTL for module 'read_input'
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model read_input -top_prefix kernel_wrapper_ -sub_prefix kernel_wrapper_ -mg_file /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/read_input.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'read_input'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 3.37 seconds. CPU system time: 0.03 seconds. Elapsed time: 3.53 seconds; current allocated memory: 1.691 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 3.36 seconds. CPU system time: 0.04 seconds. Elapsed time: 3.89 seconds; current allocated memory: 1.691 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl read_input -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_read_input 
 Execute         gen_rtl read_input -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_read_input 
@@ -1138,7 +1135,7 @@ Execute           AP::get_flow_target_display_name
 Execute         syn_report -rtlxml -model read_input -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/read_input_csynth.xml 
 Execute         syn_report -verbosereport -model read_input -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/read_input.verbose.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 1.07 sec.
+Command         syn_report done; 1.08 sec.
 Execute         db_write -model read_input -f -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/read_input.adb 
 Execute         db_write -model read_input -bindview -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/design.bindinfo.xml 
 Execute         gen_tb_info read_input -p /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/read_input 
@@ -1164,31 +1161,31 @@ INFO: [RTGEN 206-100] Generating core module 'mul_16s_8s_24_1_0': 45 instance(s)
 INFO: [RTGEN 206-100] Generating core module 'mul_16s_9ns_25_1_0': 48 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_16s_9s_25_1_0': 44 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s'.
-Command         create_rtl_model done; 3.59 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.2 seconds. CPU system time: 0.02 seconds. Elapsed time: 4.79 seconds; current allocated memory: 1.691 GB.
+Command         create_rtl_model done; 4.27 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.2 seconds. CPU system time: 0.03 seconds. Elapsed time: 5.66 seconds; current allocated memory: 1.691 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2> -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s 
 Execute         gen_rtl dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2> -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s 
 Execute         syn_report -csynth -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_csynth.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 2.76 sec.
+Command         syn_report done; 2.77 sec.
 Execute         syn_report -rtlxml -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_csynth.xml 
 Command         syn_report done; 1.37 sec.
 Execute         syn_report -verbosereport -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s.verbose.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 6.61 sec.
+Command         syn_report done; 6.6 sec.
 Execute         db_write -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2> -f -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s.adb 
 Command         db_write done; 1.57 sec.
 Execute         db_write -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2> -bindview -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/design.bindinfo.xml 
-Command         db_write done; 1.14 sec.
+Command         db_write done; 1.13 sec.
 Execute         gen_tb_info dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2> -p /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config4> -top_prefix kernel_wrapper_ -sub_prefix kernel_wrapper_ -mg_file /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s'.
-Command         create_rtl_model done; 0.24 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 14.26 seconds. CPU system time: 0.17 seconds. Elapsed time: 14.61 seconds; current allocated memory: 1.691 GB.
+Command         create_rtl_model done; 0.19 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 14.24 seconds. CPU system time: 0.2 seconds. Elapsed time: 14.58 seconds; current allocated memory: 1.691 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config4> -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s 
 Execute         gen_rtl relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config4> -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s 
@@ -1201,7 +1198,7 @@ Execute         syn_report -verbosereport -model relu<ap_fixed<16, 6, 5, 3, 0>, 
 Execute           AP::get_flow_target_display_name
 Command         syn_report done; 0.51 sec.
 Execute         db_write -model relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config4> -f -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s.adb 
-Command         db_write done; 0.13 sec.
+Command         db_write done; 0.14 sec.
 Execute         db_write -model relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config4> -bindview -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/design.bindinfo.xml 
 Execute         gen_tb_info relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config4> -p /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -1225,8 +1222,8 @@ INFO: [RTGEN 206-100] Generating core module 'mul_16s_8s_24_1_0': 33 instance(s)
 INFO: [RTGEN 206-100] Generating core module 'mul_16s_9ns_25_1_0': 70 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_16s_9s_25_1_0': 49 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s'.
-Command         create_rtl_model done; 2.15 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.58 seconds. CPU system time: 0.05 seconds. Elapsed time: 3.38 seconds; current allocated memory: 1.734 GB.
+Command         create_rtl_model done; 2.65 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.56 seconds. CPU system time: 0.07 seconds. Elapsed time: 3.94 seconds; current allocated memory: 1.734 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5> -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s 
 Execute         gen_rtl dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5> -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s 
@@ -1234,12 +1231,12 @@ Execute         syn_report -csynth -model dense_latency<ap_fixed<16, 6, 5, 3, 0>
 Execute           AP::get_flow_target_display_name
 Command         syn_report done; 4.22 sec.
 Execute         syn_report -rtlxml -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s_csynth.xml 
-Command         syn_report done; 2.08 sec.
+Command         syn_report done; 2.09 sec.
 Execute         syn_report -verbosereport -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s.verbose.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 10.08 sec.
+Command         syn_report done; 10.05 sec.
 Execute         db_write -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5> -f -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s.adb 
-Command         db_write done; 2.41 sec.
+Command         db_write done; 2.42 sec.
 Execute         db_write -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5> -bindview -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/design.bindinfo.xml 
 Command         db_write done; 1.73 sec.
 Execute         gen_tb_info dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5> -p /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config5_s 
@@ -1248,7 +1245,7 @@ INFO: [HLS 200-10] -- Generating RTL for module 'relu_ap_fixed_16_6_5_3_0_ap_fix
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7> -top_prefix kernel_wrapper_ -sub_prefix kernel_wrapper_ -mg_file /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 21.55 seconds. CPU system time: 0.37 seconds. Elapsed time: 22.12 seconds; current allocated memory: 1.820 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 21.6 seconds. CPU system time: 0.29 seconds. Elapsed time: 21.99 seconds; current allocated memory: 1.820 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7> -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s 
 Execute         gen_rtl relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7> -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s 
@@ -1258,7 +1255,7 @@ Command         syn_report done; 0.11 sec.
 Execute         syn_report -rtlxml -model relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s_csynth.xml 
 Execute         syn_report -verbosereport -model relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s.verbose.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 0.25 sec.
+Command         syn_report done; 0.26 sec.
 Execute         db_write -model relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7> -f -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s.adb 
 Execute         db_write -model relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7> -bindview -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/design.bindinfo.xml 
 Execute         gen_tb_info relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7> -p /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s 
@@ -1284,30 +1281,30 @@ INFO: [RTGEN 206-100] Generating core module 'mul_16s_8s_24_1_0': 11 instance(s)
 INFO: [RTGEN 206-100] Generating core module 'mul_16s_9ns_25_1_0': 25 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_16s_9s_25_1_0': 18 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s'.
-Command         create_rtl_model done; 1.44 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.29 seconds. CPU system time: 0.04 seconds. Elapsed time: 2.18 seconds; current allocated memory: 1.847 GB.
+Command         create_rtl_model done; 1.75 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.3 seconds. CPU system time: 0.02 seconds. Elapsed time: 2.5 seconds; current allocated memory: 1.847 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8> -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s 
 Execute         gen_rtl dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8> -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s 
 Execute         syn_report -csynth -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s_csynth.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 1.92 sec.
+Command         syn_report done; 1.93 sec.
 Execute         syn_report -rtlxml -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s_csynth.xml 
 Command         syn_report done; 0.96 sec.
 Execute         syn_report -verbosereport -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s.verbose.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 4.6 sec.
+Command         syn_report done; 4.61 sec.
 Execute         db_write -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8> -f -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s.adb 
-Command         db_write done; 1.11 sec.
+Command         db_write done; 1.1 sec.
 Execute         db_write -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8> -bindview -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/design.bindinfo.xml 
-Command         db_write done; 0.68 sec.
+Command         db_write done; 0.69 sec.
 Execute         gen_tb_info dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8> -p /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config10> -top_prefix kernel_wrapper_ -sub_prefix kernel_wrapper_ -mg_file /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 9.76 seconds. CPU system time: 0.16 seconds. Elapsed time: 10.09 seconds; current allocated memory: 1.897 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 9.81 seconds. CPU system time: 0.14 seconds. Elapsed time: 10.05 seconds; current allocated memory: 1.897 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config10> -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s 
 Execute         gen_rtl relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config10> -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s 
@@ -1338,14 +1335,14 @@ INFO: [RTGEN 206-100] Generating core module 'mul_16s_8s_24_1_0': 2 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_16s_9ns_25_1_0': 6 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_16s_9s_25_1_0': 3 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s'.
-Command         create_rtl_model done; 0.69 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.79 seconds. CPU system time: 0.03 seconds. Elapsed time: 1.42 seconds; current allocated memory: 1.920 GB.
+Command         create_rtl_model done; 0.99 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.79 seconds. CPU system time: 0.02 seconds. Elapsed time: 1.82 seconds; current allocated memory: 1.920 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config11> -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s 
 Execute         gen_rtl dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config11> -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s 
 Execute         syn_report -csynth -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config11> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s_csynth.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 0.44 sec.
+Command         syn_report done; 0.43 sec.
 Execute         syn_report -rtlxml -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config11> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s_csynth.xml 
 Command         syn_report done; 0.21 sec.
 Execute         syn_report -verbosereport -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config11> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s.verbose.rpt 
@@ -1354,7 +1351,7 @@ Command         syn_report done; 1.02 sec.
 Execute         db_write -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config11> -f -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s.adb 
 Command         db_write done; 0.25 sec.
 Execute         db_write -model dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config11> -bindview -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/design.bindinfo.xml 
-Command         db_write done; 0.2 sec.
+Command         db_write done; 0.21 sec.
 Execute         gen_tb_info dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config11> -p /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s' 
@@ -1367,18 +1364,17 @@ INFO: [RTGEN 206-100] Generating core module 'mul_mul_18s_18s_30_4_1': 5 instanc
 INFO: [RTGEN 206-100] Finished creating RTL model for 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s'.
 INFO: [RTMG 210-279] Implementing memory 'kernel_wrapper_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table_ROM_bkb' using auto ROMs.
 INFO: [RTMG 210-279] Implementing memory 'kernel_wrapper_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table_Rcud' using auto ROMs.
-Command         create_rtl_model done; 1.34 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.31 seconds. CPU system time: 0.04 seconds. Elapsed time: 3.7 seconds; current allocated memory: 1.928 GB.
+Command         create_rtl_model done; 1.42 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.3 seconds. CPU system time: 0.04 seconds. Elapsed time: 3.84 seconds; current allocated memory: 1.928 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13> -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s 
 Execute         gen_rtl softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13> -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s 
 Execute         syn_report -csynth -model softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_csynth.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 0.11 sec.
 Execute         syn_report -rtlxml -model softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_csynth.xml 
 Execute         syn_report -verbosereport -model softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13> -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s.verbose.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 0.23 sec.
+Command         syn_report done; 0.22 sec.
 Execute         db_write -model softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13> -f -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s.adb 
 Execute         db_write -model softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13> -bindview -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/design.bindinfo.xml 
 Execute         gen_tb_info softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13> -p /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s 
@@ -1388,8 +1384,8 @@ INFO: [HLS 200-10] -------------------------------------------------------------
 Execute         create_rtl_model myproject -top_prefix kernel_wrapper_ -sub_prefix kernel_wrapper_ -mg_file /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.compgen.tcl 
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'myproject' pipeline 'myproject' pipeline type 'function pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'myproject'.
-Command         create_rtl_model done; 0.39 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.88 seconds. CPU system time: 0.02 seconds. Elapsed time: 1.11 seconds; current allocated memory: 1.941 GB.
+Command         create_rtl_model done; 0.31 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.88 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.09 seconds; current allocated memory: 1.941 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl myproject -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_myproject 
 Execute         gen_rtl myproject -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_myproject 
@@ -1398,7 +1394,7 @@ Execute           AP::get_flow_target_display_name
 Execute         syn_report -rtlxml -model myproject -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/myproject_csynth.xml 
 Execute         syn_report -verbosereport -model myproject -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.verbose.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 14.4 sec.
+Command         syn_report done; 14.43 sec.
 Execute         db_write -model myproject -f -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject.adb 
 Execute         db_write -model myproject -bindview -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/design.bindinfo.xml 
 Execute         gen_tb_info myproject -p /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/myproject 
@@ -1407,7 +1403,7 @@ INFO: [HLS 200-10] -- Generating RTL for module 'dataflow_in_loop_VITIS_LOOP_15_
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model dataflow_in_loop_VITIS_LOOP_15_1 -top_prefix kernel_wrapper_ -sub_prefix kernel_wrapper_ -mg_file /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dataflow_in_loop_VITIS_LOOP_15_1.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dataflow_in_loop_VITIS_LOOP_15_1'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 14.65 seconds. CPU system time: 0.05 seconds. Elapsed time: 14.82 seconds; current allocated memory: 1.945 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 14.66 seconds. CPU system time: 0.03 seconds. Elapsed time: 14.86 seconds; current allocated memory: 1.945 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl dataflow_in_loop_VITIS_LOOP_15_1 -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_dataflow_in_loop_VITIS_LOOP_15_1 
 Execute         gen_rtl dataflow_in_loop_VITIS_LOOP_15_1 -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_dataflow_in_loop_VITIS_LOOP_15_1 
@@ -1416,7 +1412,7 @@ Execute           AP::get_flow_target_display_name
 Execute         syn_report -rtlxml -model dataflow_in_loop_VITIS_LOOP_15_1 -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/dataflow_in_loop_VITIS_LOOP_15_1_csynth.xml 
 Execute         syn_report -verbosereport -model dataflow_in_loop_VITIS_LOOP_15_1 -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dataflow_in_loop_VITIS_LOOP_15_1.verbose.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 14.48 sec.
+Command         syn_report done; 14.42 sec.
 Execute         db_write -model dataflow_in_loop_VITIS_LOOP_15_1 -f -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dataflow_in_loop_VITIS_LOOP_15_1.adb 
 Execute         db_write -model dataflow_in_loop_VITIS_LOOP_15_1 -bindview -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/design.bindinfo.xml 
 Execute         gen_tb_info dataflow_in_loop_VITIS_LOOP_15_1 -p /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/dataflow_in_loop_VITIS_LOOP_15_1 
@@ -1425,7 +1421,7 @@ INFO: [HLS 200-10] -- Generating RTL for module 'run_inference'
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model run_inference -top_prefix kernel_wrapper_ -sub_prefix kernel_wrapper_ -mg_file /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/run_inference.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'run_inference'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 14.61 seconds. CPU system time: 0.02 seconds. Elapsed time: 15.03 seconds; current allocated memory: 1.945 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 14.56 seconds. CPU system time: 0.02 seconds. Elapsed time: 14.79 seconds; current allocated memory: 1.945 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl run_inference -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_run_inference 
 Execute         gen_rtl run_inference -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_run_inference 
@@ -1434,7 +1430,7 @@ Execute           AP::get_flow_target_display_name
 Execute         syn_report -rtlxml -model run_inference -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/run_inference_csynth.xml 
 Execute         syn_report -verbosereport -model run_inference -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/run_inference.verbose.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 14.48 sec.
+Command         syn_report done; 14.38 sec.
 Execute         db_write -model run_inference -f -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/run_inference.adb 
 Execute         db_write -model run_inference -bindview -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/design.bindinfo.xml 
 Execute         gen_tb_info run_inference -p /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/run_inference 
@@ -1457,30 +1453,30 @@ WARNING: [RTGEN 206-101] Setting dangling out port 'write_result_Pipeline_VITIS_
 WARNING: [RTGEN 206-101] Setting dangling out port 'write_result_Pipeline_VITIS_LOOP_21_1/m_axi_gmem1_AWUSER' to 0.
 WARNING: [RTGEN 206-101] Setting dangling out port 'write_result_Pipeline_VITIS_LOOP_21_1/m_axi_gmem1_BREADY' to 0.
 INFO: [RTGEN 206-100] Finished creating RTL model for 'write_result_Pipeline_VITIS_LOOP_21_1'.
-Command         create_rtl_model done; 0.73 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 14.74 seconds. CPU system time: 0.04 seconds. Elapsed time: 15.47 seconds; current allocated memory: 1.945 GB.
+Command         create_rtl_model done; 0.99 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 14.6 seconds. CPU system time: 0.07 seconds. Elapsed time: 15.68 seconds; current allocated memory: 1.945 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl write_result_Pipeline_VITIS_LOOP_21_1 -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_write_result_Pipeline_VITIS_LOOP_21_1 
 Execute         gen_rtl write_result_Pipeline_VITIS_LOOP_21_1 -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_write_result_Pipeline_VITIS_LOOP_21_1 
 Execute         syn_report -csynth -model write_result_Pipeline_VITIS_LOOP_21_1 -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/write_result_Pipeline_VITIS_LOOP_21_1_csynth.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 0.23 sec.
+Command         syn_report done; 0.24 sec.
 Execute         syn_report -rtlxml -model write_result_Pipeline_VITIS_LOOP_21_1 -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/write_result_Pipeline_VITIS_LOOP_21_1_csynth.xml 
-Command         syn_report done; 0.12 sec.
+Command         syn_report done; 0.11 sec.
 Execute         syn_report -verbosereport -model write_result_Pipeline_VITIS_LOOP_21_1 -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/write_result_Pipeline_VITIS_LOOP_21_1.verbose.rpt 
 Execute           AP::get_flow_target_display_name
 Command         syn_report done; 0.55 sec.
 Execute         db_write -model write_result_Pipeline_VITIS_LOOP_21_1 -f -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/write_result_Pipeline_VITIS_LOOP_21_1.adb 
 Command         db_write done; 0.13 sec.
 Execute         db_write -model write_result_Pipeline_VITIS_LOOP_21_1 -bindview -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/design.bindinfo.xml 
-Command         db_write done; 0.11 sec.
 Execute         gen_tb_info write_result_Pipeline_VITIS_LOOP_21_1 -p /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/write_result_Pipeline_VITIS_LOOP_21_1 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'write_result' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model write_result -top_prefix kernel_wrapper_ -sub_prefix kernel_wrapper_ -mg_file /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/write_result.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'write_result'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.22 seconds. CPU system time: 0.04 seconds. Elapsed time: 1.43 seconds; current allocated memory: 1.945 GB.
+Command         create_rtl_model done; 0.46 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.21 seconds. CPU system time: 0.04 seconds. Elapsed time: 3.56 seconds; current allocated memory: 1.972 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl write_result -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper_write_result 
 Execute         gen_rtl write_result -style xilinx -f -lang vlog -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/verilog/kernel_wrapper_write_result 
@@ -1510,8 +1506,8 @@ INFO: [RTMG 210-278] Implementing memory 'kernel_wrapper_in_buf_V_RAM_AUTO_1R1W_
 INFO: [HLS 200-741] Implementing PIPO kernel_wrapper_out_buf_V_RAM_AUTO_1R1W using a single memory for all blocks
 INFO: [RTMG 210-278] Implementing memory 'kernel_wrapper_out_buf_V_RAM_AUTO_1R1W_memcore' using auto RAMs.
 INFO: [RTMG 210-285] Implementing FIFO 'out_r_c_U(kernel_wrapper_fifo_w64_d4_S)' using Shift Registers.
-Command         create_rtl_model done; 6.83 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.67 seconds. CPU system time: 0.05 seconds. Elapsed time: 7.84 seconds; current allocated memory: 1.949 GB.
+Command         create_rtl_model done; 6.58 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.66 seconds. CPU system time: 0.04 seconds. Elapsed time: 7.15 seconds; current allocated memory: 1.983 GB.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.rtl_wrap.cfg.tcl 
 Execute         gen_rtl kernel_wrapper -istop -style xilinx -f -lang vhdl -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/vhdl/kernel_wrapper 
 Command         gen_rtl done; 0.12 sec.
@@ -1521,14 +1517,14 @@ Execute           AP::get_flow_target_display_name
 Execute         syn_report -rtlxml -model kernel_wrapper -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/kernel_wrapper_csynth.xml 
 Execute         syn_report -verbosereport -model kernel_wrapper -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.verbose.rpt 
 Execute           AP::get_flow_target_display_name
-Command         syn_report done; 15.95 sec.
+Command         syn_report done; 15.81 sec.
 Execute         db_write -model kernel_wrapper -f -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.adb 
 Execute         db_write -model kernel_wrapper -bindview -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/design.bindinfo.xml 
 Command         db_write done; 0.13 sec.
 Execute         gen_tb_info kernel_wrapper -p /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper 
 Execute         export_constraint_db -f -tool general -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.constraint.tcl 
 Execute         syn_report -designview -model kernel_wrapper -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.design.xml 
-Command         syn_report done; 10.89 sec.
+Command         syn_report done; 10.88 sec.
 Execute         syn_report -csynthDesign -model kernel_wrapper -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/syn/report/csynth.rpt 
 Execute           AP::get_flow_target_display_name
 Execute         syn_report -wcfg -model kernel_wrapper -o /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper_dataflow_ana.wcfg 
@@ -1711,14 +1707,14 @@ INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::auto_generate_csynth_design
 INFO-FLOW: DBG:PUTS: read_platform_lib /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/global.setting.tcl
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/common.gen 
 Execute           source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/APCoreGen.gen 
-Command           ap_source done; 0.46 sec.
-Command         ap_source done; 0.61 sec.
+Command           ap_source done; 0.51 sec.
+Command         ap_source done; 0.66 sec.
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/op.gen 
 Command         ap_source done; 0.33 sec.
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/op_simcore.gen 
-Command         ap_source done; 0.39 sec.
+Command         ap_source done; 0.4 sec.
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/interface.gen 
-Command         ap_source done; 0.35 sec.
+Command         ap_source done; 0.38 sec.
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/global.setting.tcl 
 Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/common/xilinx.gen 
 Execute           source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/plb46.gen 
@@ -1732,7 +1728,6 @@ Execute           source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx
 Execute           source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfir.gen 
 Execute           source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/util.gen 
 Execute           source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/DSP48/dsp48.gen 
-Command         ap_source done; 0.11 sec.
 INFO-FLOW: DBG:PUTS:   using AESL_AUTOCG::g_clock_period=5.000 (was NA)
 INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::generate_ip_cores gen_sim_model='1' gen_fp_models='0' gen_for_export='0' dstSCDir='' dstVhdlDir='/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/vhdl' dstVlogDir='/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/vlog' tclDir='/home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db' modelList='kernel_wrapper_fpext_32ns_64_2_no_dsp_1
 kernel_wrapper_flow_control_loop_pipe_sequential_init
@@ -1808,7 +1803,7 @@ Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/write_result.compgen.tcl 
 Execute         source /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/.autopilot/db/kernel_wrapper.compgen.tcl 
 Execute           source ./control.slave.tcl 
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 27.53 seconds. CPU system time: 0.11 seconds. Elapsed time: 29.8 seconds; current allocated memory: 1.988 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 27.42 seconds. CPU system time: 0.06 seconds. Elapsed time: 29.74 seconds; current allocated memory: 1.985 GB.
 INFO-FLOW: DBG:PROC: ::HLSREPORTS::create_csynth_xml bind_info_var='bind_info' RtlSubPrefix='kernel_wrapper_' outfile=''
 INFO-FLOW: Running: create_csynth_xml read xml data
 INFO-FLOW: Done: create_csynth_xml read xml data time: 0 seconds per iteration
@@ -1917,15 +1912,15 @@ INFO-FLOW: Running: gen_csynth_sec_pragma
 INFO-FLOW: Done: gen_csynth_sec_pragma time: 0.1 seconds per iteration
 INFO-FLOW: DBG:PUTS:      update_csynth_reports wrote xml
 INFO-FLOW: DBG:PUTS:      update_csynth_reports appended to csynth rpt file
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 4.67 seconds. CPU system time: 0.05 seconds. Elapsed time: 5.2 seconds; current allocated memory: 2.030 GB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 4.65 seconds. CPU system time: 0.07 seconds. Elapsed time: 5.19 seconds; current allocated memory: 2.027 GB.
 INFO: [VHDL 208-304] Generating VHDL RTL for kernel_wrapper.
 INFO: [VLOG 209-307] Generating Verilog RTL for kernel_wrapper.
 Execute         syn_report -model kernel_wrapper -printsummary 
 INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
 INFO: [HLS 200-789] **** Estimated Fmax: 273.97 MHz
-Command       autosyn done; 317.63 sec.
-Command     csynth_design done; 565.99 sec.
-INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 446.8 seconds. CPU system time: 6.74 seconds. Elapsed time: 565.99 seconds; current allocated memory: 1.294 GB.
+Command       autosyn done; 323.62 sec.
+Command     csynth_design done; 571.19 sec.
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 445.96 seconds. CPU system time: 4.79 seconds. Elapsed time: 571.19 seconds; current allocated memory: 1.291 GB.
 Execute     export_design 
 INFO: [HLS 200-1510] Running: export_design 
 INFO-FLOW: DBG:PUTS: export_design_wrap: -format xo -rtl verilog -ipname kernel_wrapper
@@ -2126,11 +2121,11 @@ INFO-FLOW: DBG:PUTS:     IP package: exec /home/ayvol/vitis-accel-hw-quant/vitis
 INFO-FLOW: DBG:PUTS:     IP package: success /home/ayvol/vitis-accel-hw-quant/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/impl/ip/pack.sh
 Execute       send_msg_by_id INFO @200-802@%s kernel_wrapper/solution/impl/export.xo 
 INFO: [HLS 200-802] Generated output file kernel_wrapper/solution/impl/export.xo
-Command     export_design done; 456.83 sec.
-INFO: [HLS 200-111] Finished Command export_design CPU user time: 30.8 seconds. CPU system time: 2.81 seconds. Elapsed time: 456.83 seconds; current allocated memory: 13.172 MB.
+Command     export_design done; 517.16 sec.
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 31.11 seconds. CPU system time: 2.5 seconds. Elapsed time: 517.16 seconds; current allocated memory: 13.125 MB.
 Execute     close_project 
 INFO: [HLS 200-1510] Running: close_project 
 Execute       close_solution 
 Execute         cleanup_all 
-Command         cleanup_all done; 0.37 sec.
+Command         cleanup_all done; 0.34 sec.
 Execute         cleanup_all 

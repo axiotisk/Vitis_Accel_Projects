@@ -18,7 +18,7 @@ eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
     dir I \
     corename in_buf \
     op interface \
-    ports { in_buf_address0 { O 13 vector } in_buf_ce0 { O 1 bit } in_buf_d0 { O 256 vector } in_buf_q0 { I 256 vector } in_buf_we0 { O 1 bit } in_buf_address1 { O 13 vector } in_buf_ce1 { O 1 bit } in_buf_d1 { O 256 vector } in_buf_q1 { I 256 vector } in_buf_we1 { O 1 bit } } \
+    ports { in_buf_address0 { O 14 vector } in_buf_ce0 { O 1 bit } in_buf_d0 { O 256 vector } in_buf_q0 { I 256 vector } in_buf_we0 { O 1 bit } in_buf_address1 { O 14 vector } in_buf_ce1 { O 1 bit } in_buf_d1 { O 256 vector } in_buf_q1 { I 256 vector } in_buf_we1 { O 1 bit } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'in_buf'"
@@ -37,7 +37,7 @@ eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
     dir O \
     corename out_buf_0 \
     op interface \
-    ports { out_buf_0_address0 { O 13 vector } out_buf_0_ce0 { O 1 bit } out_buf_0_d0 { O 16 vector } out_buf_0_q0 { I 16 vector } out_buf_0_we0 { O 1 bit } out_buf_0_address1 { O 13 vector } out_buf_0_ce1 { O 1 bit } out_buf_0_d1 { O 16 vector } out_buf_0_q1 { I 16 vector } out_buf_0_we1 { O 1 bit } } \
+    ports { out_buf_0_address0 { O 14 vector } out_buf_0_ce0 { O 1 bit } out_buf_0_d0 { O 16 vector } out_buf_0_q0 { I 16 vector } out_buf_0_we0 { O 1 bit } out_buf_0_address1 { O 14 vector } out_buf_0_ce1 { O 1 bit } out_buf_0_d1 { O 16 vector } out_buf_0_q1 { I 16 vector } out_buf_0_we1 { O 1 bit } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'out_buf_0'"
@@ -56,7 +56,7 @@ eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
     dir O \
     corename out_buf_1 \
     op interface \
-    ports { out_buf_1_address0 { O 13 vector } out_buf_1_ce0 { O 1 bit } out_buf_1_d0 { O 16 vector } out_buf_1_q0 { I 16 vector } out_buf_1_we0 { O 1 bit } out_buf_1_address1 { O 13 vector } out_buf_1_ce1 { O 1 bit } out_buf_1_d1 { O 16 vector } out_buf_1_q1 { I 16 vector } out_buf_1_we1 { O 1 bit } } \
+    ports { out_buf_1_address0 { O 14 vector } out_buf_1_ce0 { O 1 bit } out_buf_1_d0 { O 16 vector } out_buf_1_q0 { I 16 vector } out_buf_1_we0 { O 1 bit } out_buf_1_address1 { O 14 vector } out_buf_1_ce1 { O 1 bit } out_buf_1_d1 { O 16 vector } out_buf_1_q1 { I 16 vector } out_buf_1_we1 { O 1 bit } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'out_buf_1'"
@@ -75,7 +75,7 @@ eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
     dir O \
     corename out_buf_2 \
     op interface \
-    ports { out_buf_2_address0 { O 13 vector } out_buf_2_ce0 { O 1 bit } out_buf_2_d0 { O 16 vector } out_buf_2_q0 { I 16 vector } out_buf_2_we0 { O 1 bit } out_buf_2_address1 { O 13 vector } out_buf_2_ce1 { O 1 bit } out_buf_2_d1 { O 16 vector } out_buf_2_q1 { I 16 vector } out_buf_2_we1 { O 1 bit } } \
+    ports { out_buf_2_address0 { O 14 vector } out_buf_2_ce0 { O 1 bit } out_buf_2_d0 { O 16 vector } out_buf_2_q0 { I 16 vector } out_buf_2_we0 { O 1 bit } out_buf_2_address1 { O 14 vector } out_buf_2_ce1 { O 1 bit } out_buf_2_d1 { O 16 vector } out_buf_2_q1 { I 16 vector } out_buf_2_we1 { O 1 bit } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'out_buf_2'"
@@ -94,7 +94,7 @@ eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
     dir O \
     corename out_buf_3 \
     op interface \
-    ports { out_buf_3_address0 { O 13 vector } out_buf_3_ce0 { O 1 bit } out_buf_3_d0 { O 16 vector } out_buf_3_q0 { I 16 vector } out_buf_3_we0 { O 1 bit } out_buf_3_address1 { O 13 vector } out_buf_3_ce1 { O 1 bit } out_buf_3_d1 { O 16 vector } out_buf_3_q1 { I 16 vector } out_buf_3_we1 { O 1 bit } } \
+    ports { out_buf_3_address0 { O 14 vector } out_buf_3_ce0 { O 1 bit } out_buf_3_d0 { O 16 vector } out_buf_3_q0 { I 16 vector } out_buf_3_we0 { O 1 bit } out_buf_3_address1 { O 14 vector } out_buf_3_ce1 { O 1 bit } out_buf_3_d1 { O 16 vector } out_buf_3_q1 { I 16 vector } out_buf_3_we1 { O 1 bit } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'out_buf_3'"
@@ -113,7 +113,7 @@ eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
     dir O \
     corename out_buf_4 \
     op interface \
-    ports { out_buf_4_address0 { O 13 vector } out_buf_4_ce0 { O 1 bit } out_buf_4_d0 { O 16 vector } out_buf_4_q0 { I 16 vector } out_buf_4_we0 { O 1 bit } out_buf_4_address1 { O 13 vector } out_buf_4_ce1 { O 1 bit } out_buf_4_d1 { O 16 vector } out_buf_4_q1 { I 16 vector } out_buf_4_we1 { O 1 bit } } \
+    ports { out_buf_4_address0 { O 14 vector } out_buf_4_ce0 { O 1 bit } out_buf_4_d0 { O 16 vector } out_buf_4_q0 { I 16 vector } out_buf_4_we0 { O 1 bit } out_buf_4_address1 { O 14 vector } out_buf_4_ce1 { O 1 bit } out_buf_4_d1 { O 16 vector } out_buf_4_q1 { I 16 vector } out_buf_4_we1 { O 1 bit } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'out_buf_4'"
@@ -132,7 +132,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_i \
     op interface \
-    ports { i { I 14 vector } i_ap_vld { I 1 bit } } \
+    ports { i { I 15 vector } i_ap_vld { I 1 bit } } \
 } "
 }
 

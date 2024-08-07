@@ -69,19 +69,19 @@ port (
     out_r_fifo_cap : IN STD_LOGIC_VECTOR (2 downto 0);
     out_r_empty_n : IN STD_LOGIC;
     out_r_read : OUT STD_LOGIC;
-    out_buf_0_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+    out_buf_0_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
     out_buf_0_ce0 : OUT STD_LOGIC;
     out_buf_0_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
-    out_buf_1_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+    out_buf_1_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
     out_buf_1_ce0 : OUT STD_LOGIC;
     out_buf_1_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
-    out_buf_2_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+    out_buf_2_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
     out_buf_2_ce0 : OUT STD_LOGIC;
     out_buf_2_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
-    out_buf_3_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+    out_buf_3_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
     out_buf_3_ce0 : OUT STD_LOGIC;
     out_buf_3_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
-    out_buf_4_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+    out_buf_4_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
     out_buf_4_ce0 : OUT STD_LOGIC;
     out_buf_4_q0 : IN STD_LOGIC_VECTOR (15 downto 0) );
 end;
@@ -173,7 +173,7 @@ architecture behav of kernel_wrapper_write_result is
     constant ap_const_lv32_47 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000001000111";
     constant ap_const_lv32_2 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000010";
     constant ap_const_lv32_3 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000011";
-    constant ap_const_lv32_A000 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000001010000000000000";
+    constant ap_const_lv32_14000 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000010100000000000000";
     constant ap_const_lv32_3F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000111111";
     constant ap_const_lv9_0 : STD_LOGIC_VECTOR (8 downto 0) := "000000000";
 
@@ -228,15 +228,15 @@ attribute shreg_extract : string;
     signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_m_axi_gmem1_ARUSER : STD_LOGIC_VECTOR (0 downto 0);
     signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_m_axi_gmem1_RREADY : STD_LOGIC;
     signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_m_axi_gmem1_BREADY : STD_LOGIC;
-    signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_0_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_0_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_0_ce0 : STD_LOGIC;
-    signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_1_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_1_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_1_ce0 : STD_LOGIC;
-    signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_2_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_2_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_2_ce0 : STD_LOGIC;
-    signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_3_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_3_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_3_ce0 : STD_LOGIC;
-    signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_4_address0 : STD_LOGIC_VECTOR (12 downto 0);
+    signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_4_address0 : STD_LOGIC_VECTOR (13 downto 0);
     signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_out_buf_4_ce0 : STD_LOGIC;
     signal grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_ap_start_reg : STD_LOGIC := '0';
     signal ap_CS_fsm_state3 : STD_LOGIC;
@@ -375,19 +375,19 @@ attribute shreg_extract : string;
         m_axi_gmem1_BID : IN STD_LOGIC_VECTOR (0 downto 0);
         m_axi_gmem1_BUSER : IN STD_LOGIC_VECTOR (0 downto 0);
         sext_ln21 : IN STD_LOGIC_VECTOR (61 downto 0);
-        out_buf_0_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_0_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_0_ce0 : OUT STD_LOGIC;
         out_buf_0_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
-        out_buf_1_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_1_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_1_ce0 : OUT STD_LOGIC;
         out_buf_1_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
-        out_buf_2_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_2_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_2_ce0 : OUT STD_LOGIC;
         out_buf_2_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
-        out_buf_3_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_3_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_3_ce0 : OUT STD_LOGIC;
         out_buf_3_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
-        out_buf_4_address0 : OUT STD_LOGIC_VECTOR (12 downto 0);
+        out_buf_4_address0 : OUT STD_LOGIC_VECTOR (13 downto 0);
         out_buf_4_ce0 : OUT STD_LOGIC;
         out_buf_4_q0 : IN STD_LOGIC_VECTOR (15 downto 0) );
     end component;
@@ -917,7 +917,7 @@ begin
     m_axi_gmem1_AWLEN_assign_proc : process(m_axi_gmem1_AWREADY, ap_CS_fsm_state2, grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_m_axi_gmem1_AWLEN, ap_CS_fsm_state3, ap_CS_fsm_state4)
     begin
         if (((m_axi_gmem1_AWREADY = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            m_axi_gmem1_AWLEN <= ap_const_lv32_A000;
+            m_axi_gmem1_AWLEN <= ap_const_lv32_14000;
         elsif (((ap_const_logic_1 = ap_CS_fsm_state4) or (ap_const_logic_1 = ap_CS_fsm_state3))) then 
             m_axi_gmem1_AWLEN <= grp_write_result_Pipeline_VITIS_LOOP_21_1_fu_68_m_axi_gmem1_AWLEN;
         else 

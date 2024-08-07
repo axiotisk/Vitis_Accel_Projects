@@ -499,8 +499,8 @@
     "time_stamp": "2022-10-13-17:52:11",
     "options": "/tools/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/v++ -l -t hw --config accelerator_card.cfg --messageDb=./build_hw_rel/kernel_wrapper.mdb --temp_dir ./build_hw_rel/xclbin --log_dir ./build_hw_rel/xclbin -o build_hw_rel/kernel_wrapper.xclbin build_hw_rel/myproject_kernel.xo ",
     "xclbin_name": "kernel_wrapper",
-    "uuid": "3efefae2-2404-47cb-adeb-b8ef7608fe96",
-    "link_uuid": "3efefae2-2404-47cb-adeb-b8ef7608fe96",
+    "uuid": "432cdbac-1709-4293-88e8-2b4cd9f32cc6",
+    "link_uuid": "432cdbac-1709-4293-88e8-2b4cd9f32cc6",
     "package_uuid": "",
     "system_compile_flow": false
    },
@@ -621,25 +621,25 @@
        "actual_resources": [
         {
          "design_state": "routed",
-         "LUT": "50191",
-         "REG": "20265",
-         "BRAM": "162",
+         "LUT": "50224",
+         "REG": "20288",
+         "BRAM": "314",
          "DSP": "1079",
          "URAM": "0"
         },
         {
          "design_state": "fully_placed",
-         "LUT": "50191",
-         "REG": "20010",
-         "BRAM": "162",
+         "LUT": "50221",
+         "REG": "20240",
+         "BRAM": "314",
          "DSP": "1079",
          "URAM": "0"
         },
         {
          "design_state": "synthesized",
-         "LUT": "53068",
-         "REG": "21038",
-         "BRAM": "162",
+         "LUT": "52960",
+         "REG": "21220",
+         "BRAM": "314",
          "DSP": "1079",
          "URAM": "0"
         }
@@ -723,32 +723,32 @@
          "resource_utilization": [
           {
            "resource_name": "LUT",
-           "used": "708",
+           "used": "38117",
            "available": "432000"
           },
           {
            "resource_name": "LUTAsLogic",
-           "used": "703",
+           "used": "37646",
            "available": "432000"
           },
           {
            "resource_name": "LUTAsMem",
-           "used": "5",
+           "used": "471",
            "available": "197760"
           },
           {
            "resource_name": "REG",
-           "used": "1192",
+           "used": "15234",
            "available": "864000"
           },
           {
            "resource_name": "CARRY8",
-           "used": "6",
+           "used": "4607",
            "available": "54000"
           },
           {
            "resource_name": "F7MUX",
-           "used": "0",
+           "used": "129",
            "available": "216000"
           },
           {
@@ -763,7 +763,7 @@
           },
           {
            "resource_name": "BRAM",
-           "used": "0",
+           "used": "236",
            "available": "672"
           },
           {
@@ -773,7 +773,7 @@
           },
           {
            "resource_name": "DSPs",
-           "used": "0",
+           "used": "792",
            "available": "3072"
           }
          ]
@@ -783,32 +783,32 @@
          "resource_utilization": [
           {
            "resource_name": "LUT",
-           "used": "49483",
+           "used": "12104",
            "available": "432000"
           },
           {
            "resource_name": "LUTAsLogic",
-           "used": "49008",
+           "used": "12094",
            "available": "432000"
           },
           {
            "resource_name": "LUTAsMem",
-           "used": "475",
+           "used": "10",
            "available": "197760"
           },
           {
            "resource_name": "REG",
-           "used": "18818",
+           "used": "5006",
            "available": "864000"
           },
           {
            "resource_name": "CARRY8",
-           "used": "6124",
+           "used": "1523",
            "available": "54000"
           },
           {
            "resource_name": "F7MUX",
-           "used": "156",
+           "used": "10",
            "available": "216000"
           },
           {
@@ -823,7 +823,7 @@
           },
           {
            "resource_name": "BRAM",
-           "used": "162",
+           "used": "78",
            "available": "672"
           },
           {
@@ -833,7 +833,7 @@
           },
           {
            "resource_name": "DSPs",
-           "used": "1079",
+           "used": "287",
            "available": "3072"
           }
          ]
@@ -848,25 +848,25 @@
        "actual_resources": [
         {
          "design_state": "routed",
-         "LUT": "50058",
-         "REG": "20208",
-         "BRAM": "162",
+         "LUT": "50321",
+         "REG": "20441",
+         "BRAM": "314",
          "DSP": "1079",
          "URAM": "0"
         },
         {
          "design_state": "fully_placed",
-         "LUT": "50058",
-         "REG": "20000",
-         "BRAM": "162",
+         "LUT": "50321",
+         "REG": "20201",
+         "BRAM": "314",
          "DSP": "1079",
          "URAM": "0"
         },
         {
          "design_state": "synthesized",
-         "LUT": "53068",
-         "REG": "21038",
-         "BRAM": "162",
+         "LUT": "52960",
+         "REG": "21220",
+         "BRAM": "314",
          "DSP": "1079",
          "URAM": "0"
         }
@@ -950,32 +950,92 @@
          "resource_utilization": [
           {
            "resource_name": "LUT",
-           "used": "50058",
+           "used": "5942",
            "available": "432000"
           },
           {
            "resource_name": "LUTAsLogic",
-           "used": "49578",
+           "used": "5485",
            "available": "432000"
           },
           {
            "resource_name": "LUTAsMem",
-           "used": "480",
+           "used": "457",
            "available": "197760"
           },
           {
            "resource_name": "REG",
-           "used": "20000",
+           "used": "4809",
            "available": "864000"
           },
           {
            "resource_name": "CARRY8",
-           "used": "6130",
+           "used": "147",
            "available": "54000"
           },
           {
            "resource_name": "F7MUX",
-           "used": "156",
+           "used": "129",
+           "available": "216000"
+          },
+          {
+           "resource_name": "F8MUX",
+           "used": "0",
+           "available": "108000"
+          },
+          {
+           "resource_name": "F9MUX",
+           "used": "0",
+           "available": "54000"
+          },
+          {
+           "resource_name": "BRAM",
+           "used": "8",
+           "available": "672"
+          },
+          {
+           "resource_name": "URAM",
+           "used": "0",
+           "available": "320"
+          },
+          {
+           "resource_name": "DSPs",
+           "used": "4",
+           "available": "3072"
+          }
+         ]
+        },
+        {
+         "slr_name": "SLR2",
+         "resource_utilization": [
+          {
+           "resource_name": "LUT",
+           "used": "44379",
+           "available": "432000"
+          },
+          {
+           "resource_name": "LUTAsLogic",
+           "used": "44355",
+           "available": "432000"
+          },
+          {
+           "resource_name": "LUTAsMem",
+           "used": "24",
+           "available": "197760"
+          },
+          {
+           "resource_name": "REG",
+           "used": "15392",
+           "available": "864000"
+          },
+          {
+           "resource_name": "CARRY8",
+           "used": "5983",
+           "available": "54000"
+          },
+          {
+           "resource_name": "F7MUX",
+           "used": "10",
            "available": "216000"
           },
           {
@@ -990,7 +1050,7 @@
           },
           {
            "resource_name": "BRAM",
-           "used": "162",
+           "used": "306",
            "available": "672"
           },
           {
@@ -1000,67 +1060,7 @@
           },
           {
            "resource_name": "DSPs",
-           "used": "1079",
-           "available": "3072"
-          }
-         ]
-        },
-        {
-         "slr_name": "SLR2",
-         "resource_utilization": [
-          {
-           "resource_name": "LUT",
-           "used": "0",
-           "available": "432000"
-          },
-          {
-           "resource_name": "LUTAsLogic",
-           "used": "0",
-           "available": "432000"
-          },
-          {
-           "resource_name": "LUTAsMem",
-           "used": "0",
-           "available": "197760"
-          },
-          {
-           "resource_name": "REG",
-           "used": "0",
-           "available": "864000"
-          },
-          {
-           "resource_name": "CARRY8",
-           "used": "0",
-           "available": "54000"
-          },
-          {
-           "resource_name": "F7MUX",
-           "used": "0",
-           "available": "216000"
-          },
-          {
-           "resource_name": "F8MUX",
-           "used": "0",
-           "available": "108000"
-          },
-          {
-           "resource_name": "F9MUX",
-           "used": "0",
-           "available": "54000"
-          },
-          {
-           "resource_name": "BRAM",
-           "used": "0",
-           "available": "672"
-          },
-          {
-           "resource_name": "URAM",
-           "used": "0",
-           "available": "320"
-          },
-          {
-           "resource_name": "DSPs",
-           "used": "0",
+           "used": "1075",
            "available": "3072"
           }
          ]
@@ -1075,25 +1075,25 @@
        "actual_resources": [
         {
          "design_state": "routed",
-         "LUT": "50190",
-         "REG": "20715",
-         "BRAM": "162",
+         "LUT": "50076",
+         "REG": "20423",
+         "BRAM": "314",
          "DSP": "1079",
          "URAM": "0"
         },
         {
          "design_state": "fully_placed",
-         "LUT": "50190",
-         "REG": "20076",
-         "BRAM": "162",
+         "LUT": "50076",
+         "REG": "20263",
+         "BRAM": "314",
          "DSP": "1079",
          "URAM": "0"
         },
         {
          "design_state": "synthesized",
-         "LUT": "53068",
-         "REG": "21038",
-         "BRAM": "162",
+         "LUT": "52960",
+         "REG": "21220",
+         "BRAM": "314",
          "DSP": "1079",
          "URAM": "0"
         }
@@ -1177,32 +1177,92 @@
          "resource_utilization": [
           {
            "resource_name": "LUT",
-           "used": "50190",
+           "used": "48852",
            "available": "432000"
           },
           {
            "resource_name": "LUTAsLogic",
-           "used": "49710",
+           "used": "48373",
            "available": "432000"
           },
           {
            "resource_name": "LUTAsMem",
-           "used": "480",
+           "used": "479",
            "available": "197760"
           },
           {
            "resource_name": "REG",
-           "used": "20076",
+           "used": "19773",
            "available": "864000"
           },
           {
            "resource_name": "CARRY8",
-           "used": "6130",
+           "used": "6067",
            "available": "54000"
           },
           {
            "resource_name": "F7MUX",
-           "used": "156",
+           "used": "129",
+           "available": "216000"
+          },
+          {
+           "resource_name": "F8MUX",
+           "used": "0",
+           "available": "108000"
+          },
+          {
+           "resource_name": "F9MUX",
+           "used": "0",
+           "available": "54000"
+          },
+          {
+           "resource_name": "BRAM",
+           "used": "236",
+           "available": "672"
+          },
+          {
+           "resource_name": "URAM",
+           "used": "0",
+           "available": "320"
+          },
+          {
+           "resource_name": "DSPs",
+           "used": "1074",
+           "available": "3072"
+          }
+         ]
+        },
+        {
+         "slr_name": "SLR2",
+         "resource_utilization": [
+          {
+           "resource_name": "LUT",
+           "used": "1224",
+           "available": "432000"
+          },
+          {
+           "resource_name": "LUTAsLogic",
+           "used": "1222",
+           "available": "432000"
+          },
+          {
+           "resource_name": "LUTAsMem",
+           "used": "2",
+           "available": "197760"
+          },
+          {
+           "resource_name": "REG",
+           "used": "490",
+           "available": "864000"
+          },
+          {
+           "resource_name": "CARRY8",
+           "used": "63",
+           "available": "54000"
+          },
+          {
+           "resource_name": "F7MUX",
+           "used": "10",
            "available": "216000"
           },
           {
@@ -1217,7 +1277,7 @@
           },
           {
            "resource_name": "BRAM",
-           "used": "162",
+           "used": "78",
            "available": "672"
           },
           {
@@ -1227,67 +1287,7 @@
           },
           {
            "resource_name": "DSPs",
-           "used": "1079",
-           "available": "3072"
-          }
-         ]
-        },
-        {
-         "slr_name": "SLR2",
-         "resource_utilization": [
-          {
-           "resource_name": "LUT",
-           "used": "0",
-           "available": "432000"
-          },
-          {
-           "resource_name": "LUTAsLogic",
-           "used": "0",
-           "available": "432000"
-          },
-          {
-           "resource_name": "LUTAsMem",
-           "used": "0",
-           "available": "197760"
-          },
-          {
-           "resource_name": "REG",
-           "used": "0",
-           "available": "864000"
-          },
-          {
-           "resource_name": "CARRY8",
-           "used": "0",
-           "available": "54000"
-          },
-          {
-           "resource_name": "F7MUX",
-           "used": "0",
-           "available": "216000"
-          },
-          {
-           "resource_name": "F8MUX",
-           "used": "0",
-           "available": "108000"
-          },
-          {
-           "resource_name": "F9MUX",
-           "used": "0",
-           "available": "54000"
-          },
-          {
-           "resource_name": "BRAM",
-           "used": "0",
-           "available": "672"
-          },
-          {
-           "resource_name": "URAM",
-           "used": "0",
-           "available": "320"
-          },
-          {
-           "resource_name": "DSPs",
-           "used": "0",
+           "used": "5",
            "available": "3072"
           }
          ]
@@ -1302,25 +1302,25 @@
        "actual_resources": [
         {
          "design_state": "routed",
-         "LUT": "49812",
-         "REG": "21372",
-         "BRAM": "162",
+         "LUT": "49929",
+         "REG": "20934",
+         "BRAM": "314",
          "DSP": "1079",
          "URAM": "0"
         },
         {
          "design_state": "fully_placed",
-         "LUT": "49812",
-         "REG": "20909",
-         "BRAM": "162",
+         "LUT": "49929",
+         "REG": "20726",
+         "BRAM": "314",
          "DSP": "1079",
          "URAM": "0"
         },
         {
          "design_state": "synthesized",
-         "LUT": "53068",
-         "REG": "21038",
-         "BRAM": "162",
+         "LUT": "52960",
+         "REG": "21220",
+         "BRAM": "314",
          "DSP": "1079",
          "URAM": "0"
         }
@@ -1344,22 +1344,22 @@
          "resource_utilization": [
           {
            "resource_name": "LUT",
-           "used": "49812",
+           "used": "49929",
            "available": "439680"
           },
           {
            "resource_name": "LUTAsLogic",
-           "used": "49332",
+           "used": "49448",
            "available": "439680"
           },
           {
            "resource_name": "LUTAsMem",
-           "used": "480",
+           "used": "481",
            "available": "205440"
           },
           {
            "resource_name": "REG",
-           "used": "20909",
+           "used": "20726",
            "available": "879360"
           },
           {
@@ -1369,7 +1369,7 @@
           },
           {
            "resource_name": "F7MUX",
-           "used": "156",
+           "used": "139",
            "available": "219840"
           },
           {
@@ -1384,7 +1384,7 @@
           },
           {
            "resource_name": "BRAM",
-           "used": "162",
+           "used": "314",
            "available": "672"
           },
           {

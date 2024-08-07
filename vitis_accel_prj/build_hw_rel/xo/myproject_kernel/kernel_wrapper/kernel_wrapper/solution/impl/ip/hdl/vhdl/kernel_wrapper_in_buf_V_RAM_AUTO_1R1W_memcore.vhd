@@ -12,8 +12,8 @@ entity kernel_wrapper_in_buf_V_RAM_AUTO_1R1W_memcore is
     generic(
         MEM_TYPE        : string    := "auto"; 
         DataWidth       : integer   := 256; 
-        AddressWidth    : integer   := 14;
-        AddressRange    : integer   := 16384
+        AddressWidth    : integer   := 15;
+        AddressRange    : integer   := 32768
     ); 
     port (
         address0    : in std_logic_vector(AddressWidth-1 downto 0); 
