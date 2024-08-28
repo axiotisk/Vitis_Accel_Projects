@@ -6,8 +6,8 @@
 
 <UserAssignments>
 <unit>ns</unit>
-<ProductFamily>virtexuplus</ProductFamily>
-<Part>xcu55c-fsvh2892-2L-e</Part>
+<ProductFamily>versal</ProductFamily>
+<Part>xcvc1902-vsvd1760-2MP-e-S</Part>
 <TopModelName>kernel_wrapper</TopModelName>
 <TargetClockPeriod>5.00</TargetClockPeriod>
 <ClockUncertainty>1.35</ClockUncertainty>
@@ -22,12 +22,12 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>131242</Best-caseLatency>
-<Average-caseLatency>131242</Average-caseLatency>
-<Worst-caseLatency>131242</Worst-caseLatency>
-<Best-caseRealTimeLatency>0.656 ms</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.656 ms</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.656 ms</Worst-caseRealTimeLatency>
+<Best-caseLatency>114859</Best-caseLatency>
+<Average-caseLatency>114859</Average-caseLatency>
+<Worst-caseLatency>114859</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.574 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.574 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.574 ms</Worst-caseRealTimeLatency>
 <DataflowPipelineThroughput>81995</DataflowPipelineThroughput>
 <Interval-min>81995</Interval-min>
 <Interval-max>81995</Interval-max>
@@ -36,18 +36,18 @@
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>162</BRAM_18K>
-<DSP>1087</DSP>
-<FF>22414</FF>
-<LUT>98939</LUT>
-<URAM>0</URAM>
+<BRAM_18K>8</BRAM_18K>
+<DSP>5</DSP>
+<FF>42170</FF>
+<LUT>653062</LUT>
+<URAM>13</URAM>
 </Resources>
 <AvailableResources>
-<BRAM_18K>4032</BRAM_18K>
-<DSP>9024</DSP>
-<FF>2607360</FF>
-<LUT>1303680</LUT>
-<URAM>960</URAM>
+<BRAM_18K>1934</BRAM_18K>
+<DSP>1968</DSP>
+<FF>1799680</FF>
+<LUT>899840</LUT>
+<URAM>463</URAM>
 </AvailableResources>
 </AreaEstimates>
 

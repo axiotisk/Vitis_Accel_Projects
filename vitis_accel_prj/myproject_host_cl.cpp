@@ -25,7 +25,7 @@ int main(int argc, char **argv) {
                                             xclbinFilename);
 
     fpga.createWorkers(NUM_WORKER,
-                       FPGAType::HBM,
+                       FPGAType::DDR,
                        NUM_CHANNEL);
 
     if (dataRepeatCount == -1) {

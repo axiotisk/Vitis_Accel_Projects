@@ -1,9 +1,10 @@
 AcceleratorConfig:
   Batchsize: 16384
-  Board: alveo-u55c
+  Board: vck5000
   HW_Quant: false
-  Num_Kernel: 4
-  Num_Worker: 2
+  Num_Kernel: 1
+  Num_Worker: 1
+  Platform: null
   Vivado_Directives:
   - prop=run.impl_1.STEPS.PLACE_DESIGN.ARGS.DIRECTIVE=Explore
 Backend: VitisAccelerator
@@ -86,5 +87,5 @@ OutputDir: vitis_accel_prj
 OutputPredictions: null
 Part: xcvu13p-flga2577-2-e
 ProjectName: myproject
-Stamp: 08FEbFaA
+Stamp: 86Dce007
 Version: 1.0.0

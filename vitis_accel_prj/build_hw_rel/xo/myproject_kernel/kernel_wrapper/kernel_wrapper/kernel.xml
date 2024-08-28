@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root versionMajor="1" versionMinor="5">
-  <kernel name="kernel_wrapper" language="c" vlnv="xilinx.com:hls:kernel_wrapper:1.0" attributes="" hash="" preferredWorkGroupSizeMultiple="0" workGroupSize="1" debug="false" compileOptions=" -I /home/ayvol/vitis-accel-DNN/vitis_accel_prj -I /home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware -I /home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/weights -I /home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils -std=c++11" profileType="" interrupt="true" hwControlProtocol="ap_ctrl_chain" countedAutoRestart="0" deadlockDetection="local" mailbox="none" swReset="false">
+  <kernel name="kernel_wrapper" language="c" vlnv="xilinx.com:hls:kernel_wrapper:1.0" attributes="" hash="" preferredWorkGroupSizeMultiple="0" workGroupSize="1" debug="false" compileOptions=" -I /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj -I /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware -I /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/weights -I /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils -std=c++11" profileType="" interrupt="true" hwControlProtocol="ap_ctrl_chain" countedAutoRestart="0" deadlockDetection="local" mailbox="none" swReset="false">
     <ports>
       <port name="M_AXI_GMEM0" mode="master" range="0xFFFFFFFF" dataWidth="512" portType="addressable" base="0x0"/>
       <port name="M_AXI_GMEM1" mode="master" range="0xFFFFFFFF" dataWidth="16" portType="addressable" base="0x0"/>

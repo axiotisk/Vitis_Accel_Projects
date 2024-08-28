@@ -1,4 +1,4 @@
-# 1 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp"
+# 1 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 361 "<built-in>" 3
@@ -155,8 +155,8 @@ extern "C" {
 
 }
 # 2 "<built-in>" 2
-# 1 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp" 2
-# 1 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.h" 1
+# 1 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp" 2
+# 1 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.h" 1
 
 
 
@@ -5706,9 +5706,9 @@ inline __attribute__((nodebug)) bool operator!=(
 
 }
 # 366 "/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed.h" 2
-# 5 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.h" 2
+# 5 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.h" 2
 # 1 "/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int.h" 1
-# 6 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.h" 2
+# 6 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.h" 2
 # 1 "/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/hls_stream.h" 1
 # 15 "/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/hls_stream.h"
 # 1 "/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/hls_stream_39.h" 1
@@ -5840,16 +5840,16 @@ class stream : public stream<__STREAM_T__, 0> {
 };
 }
 # 16 "/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/hls_stream.h" 2
-# 7 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.h" 2
+# 7 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.h" 2
 
-# 1 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/defines.h" 1
+# 1 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/defines.h" 1
 
 
 
 
 # 1 "/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int.h" 1
-# 6 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/defines.h" 2
-# 1 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_types.h" 1
+# 6 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/defines.h" 2
+# 1 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_types.h" 1
 
 
 
@@ -5895,7 +5895,7 @@ extern void __assert (const char *__assertion, const char *__file, int __line)
 
 
 }
-# 5 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_types.h" 2
+# 5 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_types.h" 2
 # 1 "/tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstddef" 1 3
 # 43 "/tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstddef" 3
 
@@ -5955,7 +5955,7 @@ namespace std
 
   using ::max_align_t;
 }
-# 6 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_types.h" 2
+# 6 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_types.h" 2
 # 1 "/tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdio" 1 3
 # 40 "/tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdio" 3
 
@@ -6890,7 +6890,7 @@ namespace std
   using ::__gnu_cxx::vsnprintf;
   using ::__gnu_cxx::vsscanf;
 }
-# 7 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_types.h" 2
+# 7 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_types.h" 2
 
 namespace nnet {
 
@@ -6947,12 +6947,12 @@ template <typename T, unsigned N, T (*func)(T)> class lookup_table {
 };
 
 }
-# 7 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/defines.h" 2
+# 7 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/defines.h" 2
 
 # 1 "/tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdio" 1 3
 # 40 "/tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cstdio" 3
-# 9 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/defines.h" 2
-# 22 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/defines.h"
+# 9 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/defines.h" 2
+# 22 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/defines.h"
 typedef ap_fixed<16,6> input_t;
 typedef ap_fixed<16,6> model_default_t;
 typedef ap_fixed<16,6> layer2_t;
@@ -6981,19 +6981,19 @@ typedef ap_fixed<18,8> softmax_exp_table_t;
 typedef ap_fixed<18,4> softmax_inv_table_t;
 typedef ap_fixed<16,6> result_t;
 typedef ap_fixed<18,8> softmax_table_t;
-# 9 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.h" 2
+# 9 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.h" 2
 
 
 void myproject(
     input_t fc1_input[16],
     result_t layer13_out[5]
 );
-# 2 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp" 2
-# 1 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.h" 1
-# 17 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.h"
+# 2 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp" 2
+# 1 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.h" 1
+# 17 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.h"
 typedef input_t in_buffer_t;
 typedef result_t out_buffer_t;
-# 3 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp" 2
+# 3 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp" 2
 
 static void read_input(const in_buffer_t *in, in_buffer_t (&in_buf)[16384][16]) {
     VITIS_LOOP_5_1: for (int i = 0; i < 16384; i++) {
@@ -7028,9 +7028,9 @@ extern "C" {
 
 
 __attribute__((sdx_kernel("kernel_wrapper", 0))) void kernel_wrapper(const in_buffer_t *in, out_buffer_t *out) {
-#line 27 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper.tcl"
+#line 27 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper.tcl"
 #pragma HLSDIRECTIVE TOP name=kernel_wrapper
-# 36 "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp"
+# 36 "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp"
 
     in_buffer_t in_buf[16384][16];
     out_buffer_t out_buf[16384][5];

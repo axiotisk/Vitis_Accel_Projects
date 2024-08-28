@@ -158,33 +158,33 @@ for.inc:0 %i_2 = load i15 %i
 </operation>
 
 <operation id="15" st_id="1" stage="1" lat="1">
-<core>Cmp</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="15" bw="1" op_0_bw="15" op_1_bw="15">
-<![CDATA[
-for.inc:2 %icmp_ln5 = icmp_eq  i15 %i_2, i15 16384
-
-]]></Node>
-<StgValue><ssdm name="icmp_ln5"/></StgValue>
-</operation>
-
-<operation id="16" st_id="1" stage="1" lat="1">
 <core>Adder</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="17" bw="15" op_0_bw="15" op_1_bw="15">
+<Node id="14" bw="15" op_0_bw="15" op_1_bw="15">
 <![CDATA[
-for.inc:4 %add_ln5 = add i15 %i_2, i15 1
+for.inc:1 %add_ln5 = add i15 %i_2, i15 1
 
 ]]></Node>
 <StgValue><ssdm name="add_ln5"/></StgValue>
+</operation>
+
+<operation id="16" st_id="1" stage="1" lat="1">
+<core>Cmp</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="16" bw="1" op_0_bw="15" op_1_bw="15">
+<![CDATA[
+for.inc:3 %icmp_ln5 = icmp_eq  i15 %i_2, i15 16384
+
+]]></Node>
+<StgValue><ssdm name="icmp_ln5"/></StgValue>
 </operation>
 
 <operation id="17" st_id="1" stage="1" lat="1">
@@ -276,9 +276,9 @@ for.inc.split._crit_edge:4 %store_ln5 = store i15 %add_ln5, i15 %i
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="14" bw="64" op_0_bw="64" op_1_bw="64">
+<Node id="15" bw="64" op_0_bw="64" op_1_bw="64">
 <![CDATA[
-for.inc:1 %gmem0_addr = getelementptr i512 %gmem0, i64 %sext_ln5_cast
+for.inc:2 %gmem0_addr = getelementptr i512 %gmem0, i64 %sext_ln5_cast
 
 ]]></Node>
 <StgValue><ssdm name="gmem0_addr"/></StgValue>
@@ -291,9 +291,9 @@ for.inc:1 %gmem0_addr = getelementptr i512 %gmem0, i64 %sext_ln5_cast
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="16" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
+<Node id="17" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-for.inc:3 %empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 16384, i64 16384, i64 16384
+for.inc:4 %empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 16384, i64 16384, i64 16384
 
 ]]></Node>
 <StgValue><ssdm name="empty"/></StgValue>
@@ -598,15 +598,15 @@ for.inc.split._crit_edge:6 %br_ln5 = br void %for.inc
 </dataflow>
 <dataflow id="97" from="i" to="i_2" fromId="7" toId="14">
 </dataflow>
-<dataflow id="98" from="i_2" to="icmp_ln5" fromId="14" toId="15">
+<dataflow id="98" from="i_2" to="add_ln5" fromId="14" toId="15">
 </dataflow>
-<dataflow id="100" from="StgValue_99" to="icmp_ln5" fromId="99" toId="15">
+<dataflow id="100" from="StgValue_99" to="add_ln5" fromId="99" toId="15">
 </dataflow>
-<dataflow id="101" from="i_2" to="add_ln5" fromId="14" toId="16">
+<dataflow id="101" from="i_2" to="icmp_ln5" fromId="14" toId="16">
 </dataflow>
-<dataflow id="103" from="StgValue_102" to="add_ln5" fromId="102" toId="16">
+<dataflow id="103" from="StgValue_102" to="icmp_ln5" fromId="102" toId="16">
 </dataflow>
-<dataflow id="104" from="icmp_ln5" to="br_ln5" fromId="15" toId="17">
+<dataflow id="104" from="icmp_ln5" to="br_ln5" fromId="16" toId="17">
 </dataflow>
 <dataflow id="105" from="i_2" to="zext_ln5_1" fromId="14" toId="18">
 </dataflow>
@@ -618,7 +618,7 @@ for.inc.split._crit_edge:6 %br_ln5 = br void %for.inc
 </dataflow>
 <dataflow id="110" from="zext_ln5_1" to="in_buf_addr" fromId="18" toId="20">
 </dataflow>
-<dataflow id="111" from="add_ln5" to="store_ln5" fromId="16" toId="21">
+<dataflow id="111" from="add_ln5" to="store_ln5" fromId="15" toId="21">
 </dataflow>
 <dataflow id="112" from="i" to="store_ln5" fromId="7" toId="21">
 </dataflow>
@@ -696,13 +696,13 @@ for.inc.split._crit_edge:6 %br_ln5 = br void %for.inc
 </dataflow>
 <dataflow id="153" from="shiftreg" to="store_ln5" fromId="6" toId="35">
 </dataflow>
-<dataflow id="154" from="icmp_ln5" to="StgValue_2" fromId="15" toId="2">
+<dataflow id="154" from="icmp_ln5" to="StgValue_2" fromId="16" toId="2">
 </dataflow>
-<dataflow id="155" from="icmp_ln5" to="StgValue_3" fromId="15" toId="3">
+<dataflow id="155" from="icmp_ln5" to="StgValue_3" fromId="16" toId="3">
 </dataflow>
 <dataflow id="156" from="trunc_ln5" to="StgValue_3" fromId="19" toId="3">
 </dataflow>
-<dataflow id="157" from="icmp_ln5" to="StgValue_4" fromId="15" toId="4">
+<dataflow id="157" from="icmp_ln5" to="StgValue_4" fromId="16" toId="4">
 </dataflow>
 <dataflow id="158" from="trunc_ln5" to="StgValue_4" fromId="19" toId="4">
 </dataflow>

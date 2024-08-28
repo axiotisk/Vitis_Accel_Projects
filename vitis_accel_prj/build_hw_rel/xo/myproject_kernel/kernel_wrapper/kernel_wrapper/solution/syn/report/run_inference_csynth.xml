@@ -6,8 +6,8 @@
 
 <UserAssignments>
 <unit>ns</unit>
-<ProductFamily>virtexuplus</ProductFamily>
-<Part>xcu55c-fsvh2892-2L-e</Part>
+<ProductFamily>versal</ProductFamily>
+<Part>xcvc1902-vsvd1760-2MP-e-S</Part>
 <TopModelName>run_inference</TopModelName>
 <TargetClockPeriod>5.00</TargetClockPeriod>
 <ClockUncertainty>1.35</ClockUncertainty>
@@ -18,26 +18,26 @@
 <PipelineType>no</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>3.648</EstimatedClockPeriod>
+<EstimatedClockPeriod>3.639</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>32788</Best-caseLatency>
-<Average-caseLatency>32788</Average-caseLatency>
-<Worst-caseLatency>32788</Worst-caseLatency>
-<Best-caseRealTimeLatency>0.164 ms</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.164 ms</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.164 ms</Worst-caseRealTimeLatency>
-<Interval-min>32788</Interval-min>
-<Interval-max>32788</Interval-max>
+<Best-caseLatency>16405</Best-caseLatency>
+<Average-caseLatency>16405</Average-caseLatency>
+<Worst-caseLatency>16405</Worst-caseLatency>
+<Best-caseRealTimeLatency>82.025 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>82.025 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>82.025 us</Worst-caseRealTimeLatency>
+<Interval-min>16405</Interval-min>
+<Interval-max>16405</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <VITIS_LOOP_15_1>
 <Slack>3.65</Slack>
 <TripCount>16384</TripCount>
-<Latency>32787</Latency>
-<AbsoluteTimeLatency>163935</AbsoluteTimeLatency>
-<DataflowPipelineThroughput>2</DataflowPipelineThroughput>
+<Latency>16404</Latency>
+<AbsoluteTimeLatency>82020</AbsoluteTimeLatency>
+<DataflowPipelineThroughput>1</DataflowPipelineThroughput>
 <InstanceList>
 </InstanceList>
 </VITIS_LOOP_15_1>
@@ -47,17 +47,17 @@
 <AreaEstimates>
 <Resources>
 <BRAM_18K>8</BRAM_18K>
-<DSP>1087</DSP>
-<FF>15772</FF>
-<LUT>88207</LUT>
+<DSP>5</DSP>
+<FF>35530</FF>
+<LUT>642737</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
-<BRAM_18K>4032</BRAM_18K>
-<DSP>9024</DSP>
-<FF>2607360</FF>
-<LUT>1303680</LUT>
-<URAM>960</URAM>
+<BRAM_18K>1934</BRAM_18K>
+<DSP>1968</DSP>
+<FF>1799680</FF>
+<LUT>899840</LUT>
+<URAM>463</URAM>
 </AvailableResources>
 </AreaEstimates>
 

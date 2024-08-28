@@ -41,10 +41,10 @@ set ExportMCPathFlag 0
 set SCTraceFileName mytrace
 set SCTraceFileFormat vcd
 set SCTraceOption all
-set TargetInfo xcu55c:-fsvh2892:-2L-e
-set SourceFiles {sc {} c {/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp /home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp}}
-set SourceFlags {sc {} c {{-I/home/ayvol/vitis-accel-DNN/vitis_accel_prj -I/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware -I/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/weights -I/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils -std=c++11} {-I/home/ayvol/vitis-accel-DNN/vitis_accel_prj -I/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware -I/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/weights -I/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils -std=c++11}}}
-set DirectiveFile /home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/solution.directive
+set TargetInfo xcvc1902:-vsvd1760:-2MP-e-S
+set SourceFiles {sc {} c {/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp}}
+set SourceFlags {sc {} c {{-I/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj -I/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware -I/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/weights -I/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils -std=c++11} {-I/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj -I/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware -I/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/weights -I/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils -std=c++11}}}
+set DirectiveFile /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper/solution/solution.directive
 set TBFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
@@ -61,5 +61,5 @@ set DefaultPlatform DefaultPlatform
 set multiClockList {}
 set SCPortClockMap {}
 set intNbAccess 0
-set PlatformFiles {{DefaultPlatform {xilinx/virtexuplus/virtexuplus}}}
+set PlatformFiles {{DefaultPlatform {xilinx/versal/versal}}}
 set HPFPO 0

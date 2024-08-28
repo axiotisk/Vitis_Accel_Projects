@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper'
+HD_PWD='/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

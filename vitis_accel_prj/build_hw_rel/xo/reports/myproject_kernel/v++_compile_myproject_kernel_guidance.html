@@ -3407,8 +3407,8 @@ window.onload = function () { addSorting(); }
 <center><h1>Design Guidance Report</h1></center><center><table class="header" border="0">
 <tr><td><b>Copyright</b></td><td>Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.</td></tr>
 <tr><td><b>Tool Version</b></td><td>xcd v.2022.2 (lin64) Build 0 </td></tr>
-<tr><td><b>Date</b></td><td>Thu Aug  1 18:15:27 2024</td></tr>
-<tr><td><b>Host</b></td><td>egl running 64-bit Ubuntu 20.04.4 LTS</td></tr>
+<tr><td><b>Date</b></td><td>Sat Aug 24 01:50:18 2024</td></tr>
+<tr><td><b>Host</b></td><td>dpnc-fpgadev01 running 64-bit Ubuntu 20.04.6 LTS</td></tr>
 <tr><td><b>Command</b></td><td>/tools/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/v++  --vivado.prop "run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}" --advanced.misc "report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}" --advanced.misc "report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}" -c -t hw --config accelerator_card.cfg --messageDb=./build_hw_rel/kernel_wrapper.mdb --temp_dir ./build_hw_rel/xo --log_dir ./build_hw_rel/xo -o build_hw_rel/myproject_kernel.xo kernel_wrapper.cpp firmware/myproject.cpp -I./ -I./firmware/ -I./firmware/weights -I./firmware/nnet_utils/ </td></tr>
 </table></center><br>
 <table class="toc" border="1"><tr><td><b>Table of Contents</b></td></tr>
@@ -3416,7 +3416,7 @@ window.onload = function () { addSorting(); }
 <tr><td><a href="#VIOLATION DETAILS">2 VIOLATION DETAILS</a></tr></td>
 </table>
 <a name="REPORT SUMMARY"></a><h1>1 REPORT SUMMARY</h1>
-<pre>Violations found: 21
+<pre>Violations found: 20
 </pre>
 <pre>Rule Specs Violated: 3
 </pre>
@@ -3434,24 +3434,13 @@ window.onload = function () { addSorting(); }
 <th align="left" width="380">Resolution</th>
 </tr>
 <tr>
-<td align="left">1</td>
-<td align="left">Interface</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Interface Related</td>
-<td align="left">Accelerator.kernel_wrapper.Interface</td>
-<td align="left">Multiple burst reads of length 8192 and bit width 512 has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (<a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=5">kernel_wrapper.cpp</a>)
-</td>
-<td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
 <td align="left">2</td>
 <td align="left">Interface</td>
 <td align="left">ADVISORY</td>
 <td align="left"><undefined></td>
 <td align="left">HLS Interface Related</td>
 <td align="left">Accelerator.kernel_wrapper.Interface</td>
-<td align="left">Multiple burst writes of length 81920 and bit width 16 in loop 'VITIS_LOOP_21_1'(<a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=21">kernel_wrapper.cpp</a>) has been inferred on bundle 'gmem1'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (<a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=21">kernel_wrapper.cpp</a>)
+<td align="left">Multiple burst writes of length 81920 and bit width 16 in loop 'VITIS_LOOP_21_1'(<a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=21">kernel_wrapper.cpp</a>) has been inferred on bundle 'gmem1'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (<a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=21">kernel_wrapper.cpp</a>)
 </td>
 <td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3495,7 +3484,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Throughput Related</td>
 <td align="left">Accelerator.kernel_wrapper.Throughput</td>
-<td align="left">Pipelining result : Target II = NA, Final II = 1, Depth = 2, function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5>'
+<td align="left">Pipelining result : Target II = NA, Final II = 1, Depth = 3, function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config5>'
 </td>
 <td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3550,29 +3539,29 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Throughput Related</td>
 <td align="left">Accelerator.kernel_wrapper.Throughput</td>
-<td align="left">Pipelining result : Target II = NA, Final II = 1, Depth = 8, function 'softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13>'
+<td align="left">Pipelining result : Target II = NA, Final II = 1, Depth = 7, function 'softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13>'
 </td>
 <td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
 <td align="left">12</td>
-<td align="left">Kernel</td>
+<td align="left">Throughput</td>
 <td align="left">ADVISORY</td>
 <td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.kernel_wrapper.Kernel</td>
-<td align="left">Unable to schedule the whole 2 cycles 'load' operation ('in_buf_load', <a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h#line=41">nnet_dense.h</a>-><a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=17">kernel_wrapper.cpp</a>) on array 'in_buf' within the first cycle (II = 1). Simulation mismatch may occur if the input data is modified before this operation completes.
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.kernel_wrapper.Throughput</td>
+<td align="left">Pipelining result : Target II = NA, Final II = 1, Depth = 21, function 'myproject'
 </td>
 <td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
 <td align="left">13</td>
 <td align="left">Throughput</td>
-<td align="left">ADVISORY</td>
+<td align="left">WARNING</td>
 <td align="left"><undefined></td>
 <td align="left">HLS Throughput Related</td>
 <td align="left">Accelerator.kernel_wrapper.Throughput</td>
-<td align="left">Pipelining result : Target II = NA, Final II = 2, Depth = 21, function 'myproject'
+<td align="left">The II Violation in module 'write_result_Pipeline_VITIS_LOOP_21_1' (loop 'VITIS_LOOP_21_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) and bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>).
 </td>
 <td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3583,7 +3572,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Throughput Related</td>
 <td align="left">Accelerator.kernel_wrapper.Throughput</td>
-<td align="left">The II Violation in module 'write_result_Pipeline_VITIS_LOOP_21_1' (loop 'VITIS_LOOP_21_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) and bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>).
+<td align="left">The II Violation in module 'write_result_Pipeline_VITIS_LOOP_21_1' (loop 'VITIS_LOOP_21_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) and bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>).
 </td>
 <td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3594,7 +3583,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Throughput Related</td>
 <td align="left">Accelerator.kernel_wrapper.Throughput</td>
-<td align="left">The II Violation in module 'write_result_Pipeline_VITIS_LOOP_21_1' (loop 'VITIS_LOOP_21_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) and bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>).
+<td align="left">The II Violation in module 'write_result_Pipeline_VITIS_LOOP_21_1' (loop 'VITIS_LOOP_21_1'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) and bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>).
 </td>
 <td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3605,23 +3594,12 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Throughput Related</td>
 <td align="left">Accelerator.kernel_wrapper.Throughput</td>
-<td align="left">The II Violation in module 'write_result_Pipeline_VITIS_LOOP_21_1' (loop 'VITIS_LOOP_21_1'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) and bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>).
+<td align="left">The II Violation in module 'write_result_Pipeline_VITIS_LOOP_21_1' (loop 'VITIS_LOOP_21_1'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) and bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>).
 </td>
 <td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
 <td align="left">17</td>
-<td align="left">Throughput</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.kernel_wrapper.Throughput</td>
-<td align="left">The II Violation in module 'write_result_Pipeline_VITIS_LOOP_21_1' (loop 'VITIS_LOOP_21_1'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) and bus write operation ('gmem1_addr_write_ln23', <a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>) on port 'gmem1' (<a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp#line=23">kernel_wrapper.cpp</a>).
-</td>
-<td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">18</td>
 <td align="left">Throughput</td>
 <td align="left">ADVISORY</td>
 <td align="left"><undefined></td>
@@ -3632,7 +3610,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
-<td align="left">19</td>
+<td align="left">18</td>
 <td align="left">Interface</td>
 <td align="left">ADVISORY</td>
 <td align="left"><undefined></td>
@@ -3643,7 +3621,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
-<td align="left">20</td>
+<td align="left">19</td>
 <td align="left">Kernel</td>
 <td align="left">ADVISORY</td>
 <td align="left"><undefined></td>
@@ -3654,13 +3632,24 @@ window.onload = function () { addSorting(); }
 <td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
-<td align="left">21</td>
+<td align="left">20</td>
 <td align="left">Kernel</td>
 <td align="left">ADVISORY</td>
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.kernel_wrapper.Kernel</td>
 <td align="left">**** Estimated Fmax: 273.97 MHz
+</td>
+<td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">Interface</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Interface Related</td>
+<td align="left">Accelerator.kernel_wrapper.Interface</td>
+<td align="left">Multiple burst reads of length 8192 and bit width 512 has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (<a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp#line=5">kernel_wrapper.cpp</a>)
 </td>
 <td align="left"><a href="http:///www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;d=ug1399-vitis-hls.pdf;">Vitis HLS User Guide (UG1399)</a></td>
 </tr>

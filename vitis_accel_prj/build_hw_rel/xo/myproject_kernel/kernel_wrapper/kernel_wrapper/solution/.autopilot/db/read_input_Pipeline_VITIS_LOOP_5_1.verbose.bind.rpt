@@ -3,13 +3,13 @@
 ================================================================
 == Vitis HLS Report for 'read_input_Pipeline_VITIS_LOOP_5_1'
 ================================================================
-* Date:           Thu Aug  1 18:01:29 2024
+* Date:           Sat Aug 24 01:31:37 2024
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        kernel_wrapper
 * Solution:       solution (Vitis Kernel Flow Target)
-* Product family: virtexuplus
-* Target device:  xcu55c-fsvh2892-2L-e
+* Product family: versal
+* Target device:  xcvc1902-vsvd1760-2MP-e-S
 
 
 ================================================================
@@ -85,43 +85,43 @@ IsGatedGlobalClock: 0
 
 * FSM state operations: 
 
-State 1 <SV = 0> <Delay = 1.16>
+State 1 <SV = 0> <Delay = 1.22>
 ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%shiftreg = alloca i32 1"   --->   Operation 6 'alloca' 'shiftreg' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%i = alloca i32 1"   --->   Operation 7 'alloca' 'i' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%sext_ln5_read = read i58 @_ssdm_op_Read.ap_auto.i58, i58 %sext_ln5"   --->   Operation 8 'read' 'sext_ln5_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%sext_ln5_cast = sext i58 %sext_ln5_read"   --->   Operation 9 'sext' 'sext_ln5_cast' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %gmem0, void @empty_0, i32 0, i32 0, void @empty_1, i32 64, i32 0, void @empty_2, void @empty_9, void @empty_1, i32 16, i32 16, i32 16, i32 16, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 10 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 11 [1/1] (0.38ns)   --->   "%store_ln0 = store i15 0, i15 %i"   --->   Operation 11 'store' 'store_ln0' <Predicate = true> <Delay = 0.38>
-ST_1 : Operation 12 [1/1] (0.38ns)   --->   "%store_ln0 = store i256 0, i256 %shiftreg"   --->   Operation 12 'store' 'store_ln0' <Predicate = true> <Delay = 0.38>
+ST_1 : Operation 11 [1/1] (0.40ns)   --->   "%store_ln0 = store i15 0, i15 %i"   --->   Operation 11 'store' 'store_ln0' <Predicate = true> <Delay = 0.40>
+ST_1 : Operation 12 [1/1] (0.53ns)   --->   "%store_ln0 = store i256 0, i256 %shiftreg"   --->   Operation 12 'store' 'store_ln0' <Predicate = true> <Delay = 0.53>
 ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%br_ln0 = br void %for.inc"   --->   Operation 13 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%i_2 = load i15 %i" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 14 'load' 'i_2' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 15 [1/1] (0.66ns)   --->   "%icmp_ln5 = icmp_eq  i15 %i_2, i15 16384" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 15 'icmp' 'icmp_ln5' <Predicate = true> <Delay = 0.66> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.66> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 16 [1/1] (0.77ns)   --->   "%add_ln5 = add i15 %i_2, i15 1" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 16 'add' 'add_ln5' <Predicate = true> <Delay = 0.77> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%br_ln5 = br i1 %icmp_ln5, void %for.inc.split, void %for.end11.exitStub" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 17 'br' 'br_ln5' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%zext_ln5_1 = zext i15 %i_2" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 18 'zext' 'zext_ln5_1' <Predicate = (!icmp_ln5)> <Delay = 0.00>
-ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%trunc_ln5 = trunc i15 %i_2" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 19 'trunc' 'trunc_ln5' <Predicate = (!icmp_ln5)> <Delay = 0.00>
-ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%in_buf_addr = getelementptr i256 %in_buf, i64 0, i64 %zext_ln5_1" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 20 'getelementptr' 'in_buf_addr' <Predicate = (!icmp_ln5)> <Delay = 0.00>
-ST_1 : Operation 21 [1/1] (0.38ns)   --->   "%store_ln5 = store i15 %add_ln5, i15 %i" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 21 'store' 'store_ln5' <Predicate = (!icmp_ln5)> <Delay = 0.38>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%i_2 = load i15 %i" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 14 'load' 'i_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.81ns)   --->   "%add_ln5 = add i15 %i_2, i15 1" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 15 'add' 'add_ln5' <Predicate = true> <Delay = 0.81> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.81> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 16 [1/1] (0.64ns)   --->   "%icmp_ln5 = icmp_eq  i15 %i_2, i15 16384" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 16 'icmp' 'icmp_ln5' <Predicate = true> <Delay = 0.64> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.64> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%br_ln5 = br i1 %icmp_ln5, void %for.inc.split, void %for.end11.exitStub" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 17 'br' 'br_ln5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%zext_ln5_1 = zext i15 %i_2" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 18 'zext' 'zext_ln5_1' <Predicate = (!icmp_ln5)> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%trunc_ln5 = trunc i15 %i_2" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 19 'trunc' 'trunc_ln5' <Predicate = (!icmp_ln5)> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%in_buf_addr = getelementptr i256 %in_buf, i64 0, i64 %zext_ln5_1" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 20 'getelementptr' 'in_buf_addr' <Predicate = (!icmp_ln5)> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.40ns)   --->   "%store_ln5 = store i15 %add_ln5, i15 %i" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 21 'store' 'store_ln5' <Predicate = (!icmp_ln5)> <Delay = 0.40>
 
 State 2 <SV = 1> <Delay = 3.65>
-ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%gmem0_addr = getelementptr i512 %gmem0, i64 %sext_ln5_cast" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 22 'getelementptr' 'gmem0_addr' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%gmem0_addr = getelementptr i512 %gmem0, i64 %sext_ln5_cast" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 22 'getelementptr' 'gmem0_addr' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 16384, i64 16384, i64 16384"   --->   Operation 23 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 24 [1/1] (3.65ns)   --->   "%gmem0_addr_read = read i512 @_ssdm_op_Read.m_axi.p1i512, i512 %gmem0_addr" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 24 'read' 'gmem0_addr_read' <Predicate = (!icmp_ln5 & !trunc_ln5)> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 121 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_2 : Operation 24 [1/1] (3.65ns)   --->   "%gmem0_addr_read = read i512 @_ssdm_op_Read.m_axi.p1i512, i512 %gmem0_addr" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 24 'read' 'gmem0_addr_read' <Predicate = (!icmp_ln5 & !trunc_ln5)> <Delay = 3.65> <CoreInst = "m_axi">   --->   Core 125 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 ST_2 : Operation 37 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 37 'ret' 'ret_ln0' <Predicate = (icmp_ln5)> <Delay = 0.00>
 
-State 3 <SV = 2> <Delay = 3.37>
-ST_3 : Operation 25 [1/1] (0.00ns)   --->   "%shiftreg_load = load i256 %shiftreg" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 25 'load' 'shiftreg_load' <Predicate = (!icmp_ln5)> <Delay = 0.00>
-ST_3 : Operation 26 [1/1] (0.00ns)   --->   "%zext_ln5 = zext i256 %shiftreg_load" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 26 'zext' 'zext_ln5' <Predicate = (!icmp_ln5)> <Delay = 0.00>
-ST_3 : Operation 27 [1/1] (0.00ns)   --->   "%specpipeline_ln6 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_1" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:6]   --->   Operation 27 'specpipeline' 'specpipeline_ln6' <Predicate = (!icmp_ln5)> <Delay = 0.00>
-ST_3 : Operation 28 [1/1] (0.00ns)   --->   "%specloopname_ln5 = specloopname void @_ssdm_op_SpecLoopName, void @empty_13" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 28 'specloopname' 'specloopname_ln5' <Predicate = (!icmp_ln5)> <Delay = 0.00>
-ST_3 : Operation 29 [1/1] (0.38ns)   --->   "%br_ln9 = br i1 %trunc_ln5, void, void %for.inc.split._crit_edge" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 29 'br' 'br_ln9' <Predicate = (!icmp_ln5)> <Delay = 0.38>
-ST_3 : Operation 30 [1/1] (0.38ns)   --->   "%br_ln9 = br void %for.inc.split._crit_edge" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 30 'br' 'br_ln9' <Predicate = (!icmp_ln5 & !trunc_ln5)> <Delay = 0.38>
-ST_3 : Operation 31 [1/1] (0.00ns)   --->   "%empty_51 = phi i512 %gmem0_addr_read, void, i512 %zext_ln5, void %for.inc.split" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 31 'phi' 'empty_51' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 32 [1/1] (0.00ns)   --->   "%trunc_ln9_s = partselect i256 @_ssdm_op_PartSelect.i256.i512.i32.i32, i512 %empty_51, i32 256, i32 511" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 32 'partselect' 'trunc_ln9_s' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 33 [1/1] (0.00ns)   --->   "%trunc_ln9 = trunc i512 %empty_51" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 33 'trunc' 'trunc_ln9' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 34 [1/1] (2.98ns)   --->   "%store_ln9 = store i256 %trunc_ln9, i14 %in_buf_addr" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 34 'store' 'store_ln9' <Predicate = true> <Delay = 2.98> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 2.98> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 256> <Depth = 16384> <RAM>
-ST_3 : Operation 35 [1/1] (0.38ns)   --->   "%store_ln5 = store i256 %trunc_ln9_s, i256 %shiftreg" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 35 'store' 'store_ln5' <Predicate = true> <Delay = 0.38>
-ST_3 : Operation 36 [1/1] (0.00ns)   --->   "%br_ln5 = br void %for.inc" [/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 36 'br' 'br_ln5' <Predicate = true> <Delay = 0.00>
+State 3 <SV = 2> <Delay = 1.71>
+ST_3 : Operation 25 [1/1] (0.00ns)   --->   "%shiftreg_load = load i256 %shiftreg" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 25 'load' 'shiftreg_load' <Predicate = (!icmp_ln5)> <Delay = 0.00>
+ST_3 : Operation 26 [1/1] (0.00ns)   --->   "%zext_ln5 = zext i256 %shiftreg_load" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 26 'zext' 'zext_ln5' <Predicate = (!icmp_ln5)> <Delay = 0.00>
+ST_3 : Operation 27 [1/1] (0.00ns)   --->   "%specpipeline_ln6 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_1" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:6]   --->   Operation 27 'specpipeline' 'specpipeline_ln6' <Predicate = (!icmp_ln5)> <Delay = 0.00>
+ST_3 : Operation 28 [1/1] (0.00ns)   --->   "%specloopname_ln5 = specloopname void @_ssdm_op_SpecLoopName, void @empty_13" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 28 'specloopname' 'specloopname_ln5' <Predicate = (!icmp_ln5)> <Delay = 0.00>
+ST_3 : Operation 29 [1/1] (0.53ns)   --->   "%br_ln9 = br i1 %trunc_ln5, void, void %for.inc.split._crit_edge" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 29 'br' 'br_ln9' <Predicate = (!icmp_ln5)> <Delay = 0.53>
+ST_3 : Operation 30 [1/1] (0.53ns)   --->   "%br_ln9 = br void %for.inc.split._crit_edge" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 30 'br' 'br_ln9' <Predicate = (!icmp_ln5 & !trunc_ln5)> <Delay = 0.53>
+ST_3 : Operation 31 [1/1] (0.00ns)   --->   "%empty_51 = phi i512 %gmem0_addr_read, void, i512 %zext_ln5, void %for.inc.split" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 31 'phi' 'empty_51' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 32 [1/1] (0.00ns)   --->   "%trunc_ln9_s = partselect i256 @_ssdm_op_PartSelect.i256.i512.i32.i32, i512 %empty_51, i32 256, i32 511" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 32 'partselect' 'trunc_ln9_s' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 33 [1/1] (0.00ns)   --->   "%trunc_ln9 = trunc i512 %empty_51" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 33 'trunc' 'trunc_ln9' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 34 [1/1] (1.17ns)   --->   "%store_ln9 = store i256 %trunc_ln9, i14 %in_buf_addr" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:9]   --->   Operation 34 'store' 'store_ln9' <Predicate = true> <Delay = 1.17> <CoreInst = "RAM">   --->   Core 87 'RAM' <Latency = 1> <II = 1> <Delay = 1.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 256> <Depth = 16384> <RAM>
+ST_3 : Operation 35 [1/1] (0.53ns)   --->   "%store_ln5 = store i256 %trunc_ln9_s, i256 %shiftreg" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 35 'store' 'store_ln5' <Predicate = true> <Delay = 0.53>
+ST_3 : Operation 36 [1/1] (0.00ns)   --->   "%br_ln5 = br void %for.inc" [/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp:5]   --->   Operation 36 'br' 'br_ln5' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -153,8 +153,8 @@ store_ln0         (store            ) [ 0000]
 store_ln0         (store            ) [ 0000]
 br_ln0            (br               ) [ 0000]
 i_2               (load             ) [ 0000]
-icmp_ln5          (icmp             ) [ 0111]
 add_ln5           (add              ) [ 0000]
+icmp_ln5          (icmp             ) [ 0111]
 br_ln5            (br               ) [ 0000]
 zext_ln5_1        (zext             ) [ 0000]
 trunc_ln5         (trunc            ) [ 0111]
@@ -576,27 +576,27 @@ ret_ln0           (ret              ) [ 0000]
 </bind>
 </comp>
 
-<comp id="113" class="1004" name="icmp_ln5_fu_113">
+<comp id="113" class="1004" name="add_ln5_fu_113">
 <pin_list>
 <pin id="114" dir="0" index="0" bw="15" slack="0"/>
-<pin id="115" dir="0" index="1" bw="15" slack="0"/>
-<pin id="116" dir="1" index="2" bw="1" slack="1"/>
-</pin_list>
-<bind>
-<opcode="icmp(45) " fcode="icmp"/>
-<opset="icmp_ln5/1 "/>
-</bind>
-</comp>
-
-<comp id="119" class="1004" name="add_ln5_fu_119">
-<pin_list>
-<pin id="120" dir="0" index="0" bw="15" slack="0"/>
-<pin id="121" dir="0" index="1" bw="1" slack="0"/>
-<pin id="122" dir="1" index="2" bw="15" slack="0"/>
+<pin id="115" dir="0" index="1" bw="1" slack="0"/>
+<pin id="116" dir="1" index="2" bw="15" slack="0"/>
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
 <opset="add_ln5/1 "/>
+</bind>
+</comp>
+
+<comp id="119" class="1004" name="icmp_ln5_fu_119">
+<pin_list>
+<pin id="120" dir="0" index="0" bw="15" slack="0"/>
+<pin id="121" dir="0" index="1" bw="15" slack="0"/>
+<pin id="122" dir="1" index="2" bw="1" slack="1"/>
+</pin_list>
+<bind>
+<opcode="icmp(45) " fcode="icmp"/>
+<opset="icmp_ln5/1 "/>
 </bind>
 </comp>
 
@@ -812,7 +812,7 @@ ret_ln0           (ret              ) [ 0000]
 
 <net id="133"><net_src comp="110" pin="1"/><net_sink comp="130" pin=0"/></net>
 
-<net id="138"><net_src comp="119" pin="2"/><net_sink comp="134" pin=0"/></net>
+<net id="138"><net_src comp="113" pin="2"/><net_sink comp="134" pin=0"/></net>
 
 <net id="143"><net_src comp="0" pin="0"/><net_sink comp="139" pin=0"/></net>
 
@@ -856,7 +856,7 @@ ret_ln0           (ret              ) [ 0000]
 
 <net id="191"><net_src comp="187" pin="1"/><net_sink comp="139" pin=1"/></net>
 
-<net id="195"><net_src comp="113" pin="2"/><net_sink comp="192" pin=0"/></net>
+<net id="195"><net_src comp="119" pin="2"/><net_sink comp="192" pin=0"/></net>
 
 <net id="199"><net_src comp="130" pin="1"/><net_sink comp="196" pin=0"/></net>
 
@@ -884,8 +884,8 @@ ret_ln0           (ret              ) [ 0000]
 		store_ln0 : 1
 		store_ln0 : 1
 		i_2 : 1
-		icmp_ln5 : 2
 		add_ln5 : 2
+		icmp_ln5 : 2
 		br_ln5 : 3
 		zext_ln5_1 : 2
 		trunc_ln5 : 2
@@ -910,9 +910,9 @@ ret_ln0           (ret              ) [ 0000]
 |----------|----------------------------|---------|---------|
 | Operation|       Functional Unit      |    FF   |   LUT   |
 |----------|----------------------------|---------|---------|
-|    add   |       add_ln5_fu_119       |    0    |    22   |
+|    add   |       add_ln5_fu_113       |    0    |    15   |
 |----------|----------------------------|---------|---------|
-|   icmp   |       icmp_ln5_fu_113      |    0    |    12   |
+|   icmp   |       icmp_ln5_fu_119      |    0    |    8    |
 |----------|----------------------------|---------|---------|
 |   read   |  sext_ln5_read_read_fu_64  |    0    |    0    |
 |          | gmem0_addr_read_read_fu_70 |    0    |    0    |
@@ -927,7 +927,7 @@ ret_ln0           (ret              ) [ 0000]
 |----------|----------------------------|---------|---------|
 |partselect|     trunc_ln9_s_fu_153     |    0    |    0    |
 |----------|----------------------------|---------|---------|
-|   Total  |                            |    0    |    34   |
+|   Total  |                            |    0    |    23   |
 |----------|----------------------------|---------|---------|
 
 Memories:
@@ -962,10 +962,10 @@ N/A
 +-----------+--------+--------+
 |           |   FF   |   LUT  |
 +-----------+--------+--------+
-|  Function |    0   |   34   |
+|  Function |    0   |   23   |
 |   Memory  |    -   |    -   |
 |Multiplexer|    -   |    -   |
 |  Register |  1375  |    -   |
 +-----------+--------+--------+
-|   Total   |  1375  |   34   |
+|   Total   |  1375  |   23   |
 +-----------+--------+--------+

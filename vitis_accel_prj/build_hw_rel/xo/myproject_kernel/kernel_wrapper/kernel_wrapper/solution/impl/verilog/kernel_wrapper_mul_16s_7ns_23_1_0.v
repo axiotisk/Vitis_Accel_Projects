@@ -6,7 +6,7 @@
 
 `timescale 1 ns / 1 ps
 
-module kernel_wrapper_mul_16s_7ns_23_1_0(din0, din1, dout);
+(* use_dsp = "no" *) module kernel_wrapper_mul_16s_7ns_23_1_0(din0, din1, dout);
 parameter ID = 1;
 parameter NUM_STAGE = 0;
 parameter din0_WIDTH = 14;

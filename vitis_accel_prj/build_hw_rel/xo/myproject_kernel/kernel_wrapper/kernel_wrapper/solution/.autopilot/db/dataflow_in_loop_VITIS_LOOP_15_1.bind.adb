@@ -34,7 +34,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1819244153</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>256</bitwidth>
@@ -70,7 +70,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1819244153</coreId>
+						<coreId>959874784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>15</bitwidth>
@@ -106,7 +106,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1819244153</coreId>
+						<coreId>1330007625</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -142,7 +142,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1330007625</coreId>
+						<coreId>959689472</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -178,7 +178,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2956441744</coreId>
+						<coreId>841744112</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -214,7 +214,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>966902640</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -250,7 +250,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3210479408</coreId>
+						<coreId>959689472</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -290,7 +290,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701735968</coreId>
+						<coreId>1834971215</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>15</bitwidth>
@@ -358,8 +358,8 @@
 						<type>0</type>
 						<id>13</id>
 						<name>_ln17</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>17</lineNumber>
 						<contextFuncName>run_inference</contextFuncName>
 						<contextNormFuncName>run_inference</contextNormFuncName>
@@ -367,13 +367,13 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="11" tracking_level="0" version="0">
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second class_id="12" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
 									<item class_id="13" tracking_level="0" version="0">
 										<first class_id="14" tracking_level="0" version="0">
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -413,7 +413,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.42</m_delay>
+				<m_delay>2.01</m_delay>
 				<m_topoIndex>3</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -423,8 +423,8 @@
 						<type>0</type>
 						<id>14</id>
 						<name>_ln17</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>17</lineNumber>
 						<contextFuncName>run_inference</contextFuncName>
 						<contextNormFuncName>run_inference</contextNormFuncName>
@@ -432,13 +432,13 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -454,7 +454,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701735968</coreId>
+						<coreId>1834971215</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -499,7 +499,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1330007625</coreId>
+						<coreId>999389248</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -533,7 +533,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>2985378864</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>

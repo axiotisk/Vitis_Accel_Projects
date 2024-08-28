@@ -6,8 +6,8 @@
 
 <UserAssignments>
 <unit>ns</unit>
-<ProductFamily>virtexuplus</ProductFamily>
-<Part>xcu55c-fsvh2892-2L-e</Part>
+<ProductFamily>versal</ProductFamily>
+<Part>xcvc1902-vsvd1760-2MP-e-S</Part>
 <TopModelName>dataflow_in_loop_VITIS_LOOP_15_1</TopModelName>
 <TargetClockPeriod>5.00</TargetClockPeriod>
 <ClockUncertainty>1.35</ClockUncertainty>
@@ -18,7 +18,7 @@
 <PipelineType>dataflow</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>3.648</EstimatedClockPeriod>
+<EstimatedClockPeriod>3.639</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
@@ -28,26 +28,26 @@
 <Best-caseRealTimeLatency>0.100 us</Best-caseRealTimeLatency>
 <Average-caseRealTimeLatency>0.100 us</Average-caseRealTimeLatency>
 <Worst-caseRealTimeLatency>0.100 us</Worst-caseRealTimeLatency>
-<DataflowPipelineThroughput>2</DataflowPipelineThroughput>
-<Interval-min>2</Interval-min>
-<Interval-max>2</Interval-max>
+<DataflowPipelineThroughput>1</DataflowPipelineThroughput>
+<Interval-min>1</Interval-min>
+<Interval-max>1</Interval-max>
 </SummaryOfOverallLatency>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
 <BRAM_18K>8</BRAM_18K>
-<DSP>1087</DSP>
-<FF>15524</FF>
-<LUT>88137</LUT>
+<DSP>5</DSP>
+<FF>35319</FF>
+<LUT>642632</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
-<BRAM_18K>4032</BRAM_18K>
-<DSP>9024</DSP>
-<FF>2607360</FF>
-<LUT>1303680</LUT>
-<URAM>960</URAM>
+<BRAM_18K>1934</BRAM_18K>
+<DSP>1968</DSP>
+<FF>1799680</FF>
+<LUT>899840</LUT>
+<URAM>463</URAM>
 </AvailableResources>
 </AreaEstimates>
 

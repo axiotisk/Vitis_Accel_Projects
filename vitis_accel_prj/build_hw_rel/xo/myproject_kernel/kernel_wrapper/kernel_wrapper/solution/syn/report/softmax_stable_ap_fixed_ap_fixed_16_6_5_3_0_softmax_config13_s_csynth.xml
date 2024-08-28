@@ -6,8 +6,8 @@
 
 <UserAssignments>
 <unit>ns</unit>
-<ProductFamily>virtexuplus</ProductFamily>
-<Part>xcu55c-fsvh2892-2L-e</Part>
+<ProductFamily>versal</ProductFamily>
+<Part>xcvc1902-vsvd1760-2MP-e-S</Part>
 <TopModelName>softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s</TopModelName>
 <TargetClockPeriod>5.00</TargetClockPeriod>
 <ClockUncertainty>1.35</ClockUncertainty>
@@ -19,18 +19,18 @@
 <PipelineType>yes</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>3.207</EstimatedClockPeriod>
+<EstimatedClockPeriod>3.555</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>7</Best-caseLatency>
-<Average-caseLatency>7</Average-caseLatency>
-<Worst-caseLatency>7</Worst-caseLatency>
-<Best-caseRealTimeLatency>35.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>35.000 ns</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>35.000 ns</Worst-caseRealTimeLatency>
+<Best-caseLatency>6</Best-caseLatency>
+<Average-caseLatency>6</Average-caseLatency>
+<Worst-caseLatency>6</Worst-caseLatency>
+<Best-caseRealTimeLatency>30.000 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>30.000 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>30.000 ns</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>1</PipelineInitiationInterval>
-<PipelineDepth>8</PipelineDepth>
+<PipelineDepth>7</PipelineDepth>
 <Interval-min>1</Interval-min>
 <Interval-max>1</Interval-max>
 </SummaryOfOverallLatency>
@@ -40,16 +40,16 @@
 <Resources>
 <BRAM_18K>8</BRAM_18K>
 <DSP>5</DSP>
-<FF>268</FF>
-<LUT>453</LUT>
+<FF>193</FF>
+<LUT>460</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
-<BRAM_18K>4032</BRAM_18K>
-<DSP>9024</DSP>
-<FF>2607360</FF>
-<LUT>1303680</LUT>
-<URAM>960</URAM>
+<BRAM_18K>1934</BRAM_18K>
+<DSP>1968</DSP>
+<FF>1799680</FF>
+<LUT>899840</LUT>
+<URAM>463</URAM>
 </AvailableResources>
 </AreaEstimates>
 

@@ -8,31 +8,27 @@
                 "active": true,
                 "debug_cores": [
                     {
-                        "type": "XSDB_V3",
-                        "name": "level0_i/ulp/ulp_cmp/inst/user_debug_hub/inst/xsdbm",
-                        "spec": "labtools_xsdbm_v3",
-                        "reconfigTop": "level0_i/ulp",
-                        "clk_input_freq_hz": "50000000"
+                        "type": "AXI_DEBUG_HUB_V1",
+                        "name": "top_i/blp/blp_logic/axi_blp_dbg_hub",
+                        "spec": "axi_dbg_hub_v2_0",
+                        "ipName": "axi_dbg_hub",
+                        "address_info": {
+                            "offset": "0x20105000000",
+                            "range": "0x00200000"
+                        },
+                        "uuid": "82B7ECDD90B755B195B4BC4E33D154E6"
                     },
                     {
-                        "type": "XSDB_V3",
-                        "name": "level0_i/blp/blp_i/ss_cmp/inst/mgmt_debug_hub/inst/xsdbm",
-                        "spec": "labtools_xsdbm_v3",
-                        "clk_input_freq_hz": "50000000"
-                    },
-                    {
-                        "type": "XSDBS_V2",
-                        "name": "level0_i/blp/blp_i/ss_hif/inst/pcie/inst/debug_wrapper_U/jtag_axi4l_m_inst",
-                        "spec": "labtools_xsdbslavelib_v2",
-                        "ipName": "jtag_axi",
-                        "uuid": "00B465070694511880F9426ACDD144BA"
-                    },
-                    {
-                        "type": "XSDBS_V2",
-                        "name": "level0_i/blp/blp_i/PLP/ss_cmp/inst/jtag_axi_master",
-                        "spec": "labtools_xsdbslavelib_v2",
-                        "ipName": "jtag_axi",
-                        "uuid": "982025B638455F17A20EDD5CFCD9BFFD"
+                        "type": "AXI_DEBUG_HUB_V1",
+                        "name": "top_i/ulp/axi_dbg_hub",
+                        "spec": "axi_dbg_hub_v2_0",
+                        "ipName": "axi_dbg_hub",
+                        "reconfigTop": "top_i/ulp",
+                        "address_info": {
+                            "offset": "0x20205800000",
+                            "range": "0x00200000"
+                        },
+                        "uuid": "FB0FE7782D735F9AA5E3705ED8BFAC07"
                     }
                 ]
             }

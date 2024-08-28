@@ -190,7 +190,7 @@ wire    ap_block_pp0_stage1;
 wire    ap_block_state1_pp0_stage0_iter0;
 wire    ap_block_state6_pp0_stage0_iter1;
 reg    ap_block_pp0_stage0_11001;
-wire   [0:0] icmp_ln21_fu_191_p2;
+wire   [0:0] icmp_ln21_fu_197_p2;
 reg   [15:0] out_buf_0_load_reg_262;
 reg    ap_block_pp0_stage1_11001;
 reg   [15:0] out_buf_1_load_reg_267;
@@ -212,7 +212,7 @@ wire    ap_block_pp0_stage4_01001;
 wire    ap_block_pp0_stage0_01001;
 wire    ap_block_pp0_stage1_01001;
 reg   [14:0] i_fu_58;
-wire   [14:0] add_ln21_fu_197_p2;
+wire   [14:0] add_ln21_fu_185_p2;
 wire    ap_loop_init;
 reg   [14:0] ap_sig_allocacmp_i_1;
 reg    ap_done_reg;
@@ -296,8 +296,8 @@ end
 
 always @ (posedge ap_clk) begin
     if (((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
-        if (((ap_enable_reg_pp0_iter0 == 1'b1) & (icmp_ln21_fu_191_p2 == 1'd0))) begin
-            i_fu_58 <= add_ln21_fu_197_p2;
+        if (((ap_enable_reg_pp0_iter0 == 1'b1) & (icmp_ln21_fu_197_p2 == 1'd0))) begin
+            i_fu_58 <= add_ln21_fu_185_p2;
         end else if ((ap_loop_init == 1'b1)) begin
             i_fu_58 <= 15'd0;
         end
@@ -306,7 +306,7 @@ end
 
 always @ (posedge ap_clk) begin
     if (((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
-        icmp_ln21_reg_233 <= icmp_ln21_fu_191_p2;
+        icmp_ln21_reg_233 <= icmp_ln21_fu_197_p2;
     end
 end
 
@@ -501,7 +501,7 @@ always @ (*) begin
     endcase
 end
 
-assign add_ln21_fu_197_p2 = (ap_sig_allocacmp_i_1 + 15'd1);
+assign add_ln21_fu_185_p2 = (ap_sig_allocacmp_i_1 + 15'd1);
 
 assign ap_CS_fsm_pp0_stage0 = ap_CS_fsm[32'd0];
 
@@ -603,7 +603,7 @@ assign ap_enable_pp0 = (ap_idle_pp0 ^ 1'b1);
 
 assign ap_loop_exit_ready = ap_condition_exit_pp0_iter0_stage1;
 
-assign icmp_ln21_fu_191_p2 = ((ap_sig_allocacmp_i_1 == 15'd16384) ? 1'b1 : 1'b0);
+assign icmp_ln21_fu_197_p2 = ((ap_sig_allocacmp_i_1 == 15'd16384) ? 1'b1 : 1'b0);
 
 assign m_axi_gmem1_ARADDR = 64'd0;
 

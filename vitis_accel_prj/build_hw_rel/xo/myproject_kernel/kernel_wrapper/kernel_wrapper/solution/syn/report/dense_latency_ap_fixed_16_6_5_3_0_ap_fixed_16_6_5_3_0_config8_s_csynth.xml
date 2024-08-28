@@ -6,8 +6,8 @@
 
 <UserAssignments>
 <unit>ns</unit>
-<ProductFamily>virtexuplus</ProductFamily>
-<Part>xcu55c-fsvh2892-2L-e</Part>
+<ProductFamily>versal</ProductFamily>
+<Part>xcvc1902-vsvd1760-2MP-e-S</Part>
 <TopModelName>dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config8_s</TopModelName>
 <TargetClockPeriod>5.00</TargetClockPeriod>
 <ClockUncertainty>1.35</ClockUncertainty>
@@ -19,7 +19,7 @@
 <PipelineType>yes</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>3.647</EstimatedClockPeriod>
+<EstimatedClockPeriod>3.627</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
@@ -38,18 +38,18 @@
 
 <AreaEstimates>
 <Resources>
-<DSP>205</DSP>
-<FF>2489</FF>
-<LUT>17436</LUT>
+<DSP>0</DSP>
+<FF>6815</FF>
+<LUT>153677</LUT>
 <BRAM_18K>0</BRAM_18K>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
-<BRAM_18K>4032</BRAM_18K>
-<DSP>9024</DSP>
-<FF>2607360</FF>
-<LUT>1303680</LUT>
-<URAM>960</URAM>
+<BRAM_18K>1934</BRAM_18K>
+<DSP>1968</DSP>
+<FF>1799680</FF>
+<LUT>899840</LUT>
+<URAM>463</URAM>
 </AvailableResources>
 </AreaEstimates>
 

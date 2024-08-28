@@ -32,7 +32,7 @@ CARD_CFG ?= accelerator_card.cfg
 PLATFORM ?= $(shell awk -F '=' '/platform=/ {print $$2}' $(CARD_CFG))
 
 # Board Type (determines whether design will go through packaging step)
-BOARD_TYPE := alveo
+BOARD_TYPE := versal
 
 # Kernel name
 KERNEL_NAME := myproject

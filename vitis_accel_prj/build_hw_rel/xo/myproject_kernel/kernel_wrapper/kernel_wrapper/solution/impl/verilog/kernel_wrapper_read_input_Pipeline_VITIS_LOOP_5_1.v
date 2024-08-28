@@ -145,7 +145,7 @@ reg    ap_predicate_op24_read_state2;
 reg    ap_block_state2_pp0_stage0_iter1;
 wire    ap_block_state3_pp0_stage0_iter2;
 reg    ap_block_pp0_stage0_subdone;
-wire   [0:0] icmp_ln5_fu_113_p2;
+wire   [0:0] icmp_ln5_fu_119_p2;
 reg    ap_condition_exit_pp0_iter0_stage0;
 wire    ap_loop_exit_ready;
 reg    ap_ready_int;
@@ -166,7 +166,7 @@ wire   [63:0] zext_ln5_1_fu_125_p1;
 reg   [255:0] shiftreg_fu_56;
 wire    ap_loop_init;
 reg   [14:0] i_fu_60;
-wire   [14:0] add_ln5_fu_119_p2;
+wire   [14:0] add_ln5_fu_113_p2;
 reg   [14:0] ap_sig_allocacmp_i_2;
 reg    ap_done_reg;
 wire    ap_continue_int;
@@ -244,8 +244,8 @@ end
 
 always @ (posedge ap_clk) begin
     if (((1'b1 == ap_CS_fsm_pp0_stage0) & (1'b0 == ap_block_pp0_stage0_11001))) begin
-        if (((ap_enable_reg_pp0_iter0 == 1'b1) & (icmp_ln5_fu_113_p2 == 1'd0))) begin
-            i_fu_60 <= add_ln5_fu_119_p2;
+        if (((ap_enable_reg_pp0_iter0 == 1'b1) & (icmp_ln5_fu_119_p2 == 1'd0))) begin
+            i_fu_60 <= add_ln5_fu_113_p2;
         end else if ((ap_loop_init == 1'b1)) begin
             i_fu_60 <= 15'd0;
         end
@@ -265,7 +265,7 @@ end
 always @ (posedge ap_clk) begin
     if (((1'b1 == ap_CS_fsm_pp0_stage0) & (1'b0 == ap_block_pp0_stage0_11001))) begin
         ap_loop_exit_ready_pp0_iter1_reg <= ap_loop_exit_ready;
-        icmp_ln5_reg_192 <= icmp_ln5_fu_113_p2;
+        icmp_ln5_reg_192 <= icmp_ln5_fu_119_p2;
         icmp_ln5_reg_192_pp0_iter1_reg <= icmp_ln5_reg_192;
         in_buf_addr_reg_200_pp0_iter1_reg <= in_buf_addr_reg_200;
         trunc_ln5_reg_196_pp0_iter1_reg <= trunc_ln5_reg_196;
@@ -279,14 +279,14 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if (((1'b1 == ap_CS_fsm_pp0_stage0) & (icmp_ln5_fu_113_p2 == 1'd0) & (1'b0 == ap_block_pp0_stage0_11001))) begin
+    if (((1'b1 == ap_CS_fsm_pp0_stage0) & (icmp_ln5_fu_119_p2 == 1'd0) & (1'b0 == ap_block_pp0_stage0_11001))) begin
         in_buf_addr_reg_200 <= zext_ln5_1_fu_125_p1;
         trunc_ln5_reg_196 <= trunc_ln5_fu_130_p1;
     end
 end
 
 always @ (*) begin
-    if (((ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0) & (icmp_ln5_fu_113_p2 == 1'd1) & (1'b0 == ap_block_pp0_stage0_subdone))) begin
+    if (((ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0) & (icmp_ln5_fu_119_p2 == 1'd1) & (1'b0 == ap_block_pp0_stage0_subdone))) begin
         ap_condition_exit_pp0_iter0_stage0 = 1'b1;
     end else begin
         ap_condition_exit_pp0_iter0_stage0 = 1'b0;
@@ -398,7 +398,7 @@ always @ (*) begin
     endcase
 end
 
-assign add_ln5_fu_119_p2 = (ap_sig_allocacmp_i_2 + 15'd1);
+assign add_ln5_fu_113_p2 = (ap_sig_allocacmp_i_2 + 15'd1);
 
 assign ap_CS_fsm_pp0_stage0 = ap_CS_fsm[32'd0];
 
@@ -432,7 +432,7 @@ always @ (*) begin
     ap_predicate_op24_read_state2 = ((trunc_ln5_reg_196 == 1'd0) & (icmp_ln5_reg_192 == 1'd0));
 end
 
-assign icmp_ln5_fu_113_p2 = ((ap_sig_allocacmp_i_2 == 15'd16384) ? 1'b1 : 1'b0);
+assign icmp_ln5_fu_119_p2 = ((ap_sig_allocacmp_i_2 == 15'd16384) ? 1'b1 : 1'b0);
 
 assign in_buf_address0 = in_buf_addr_reg_200_pp0_iter1_reg;
 

@@ -34,7 +34,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1819244153</coreId>
+						<coreId>1043670080</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>256</bitwidth>
@@ -70,7 +70,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1819244153</coreId>
+						<coreId>954904768</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -106,7 +106,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1819244153</coreId>
+						<coreId>1127047168</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -142,7 +142,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2976038560</coreId>
+						<coreId>1043406704</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -178,7 +178,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2962232576</coreId>
+						<coreId>954904768</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -214,7 +214,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3209945536</coreId>
+						<coreId>38</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -254,7 +254,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701735968</coreId>
+						<coreId>1834971215</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -269,7 +269,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.38</m_delay>
+				<m_delay>0.40</m_delay>
 				<m_topoIndex>1</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -279,8 +279,8 @@
 						<type>0</type>
 						<id>11</id>
 						<name>i</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>run_inference</contextFuncName>
 						<contextNormFuncName>run_inference</contextNormFuncName>
@@ -288,13 +288,13 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="11" tracking_level="0" version="0">
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second class_id="12" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
 									<item class_id="13" tracking_level="0" version="0">
 										<first class_id="14" tracking_level="0" version="0">
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>15</second>
@@ -337,9 +337,9 @@
 					<Obj>
 						<type>0</type>
 						<id>12</id>
-						<name>icmp_ln15</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<name>add_ln15</name>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>run_inference</contextFuncName>
 						<contextNormFuncName>run_inference</contextNormFuncName>
@@ -347,13 +347,70 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<second>run_inference</second>
+										</first>
+										<second>15</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1834971215</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>15</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>30</item>
+					<item>32</item>
+				</oprand_edges>
+				<opcode>add</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.81</m_delay>
+				<m_topoIndex>3</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_10">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>13</id>
+						<name>icmp_ln15</name>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<lineNumber>15</lineNumber>
+						<contextFuncName>run_inference</contextFuncName>
+						<contextNormFuncName>run_inference</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>15</second>
@@ -377,72 +434,15 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>30</item>
-					<item>32</item>
+					<item>33</item>
+					<item>35</item>
 				</oprand_edges>
 				<opcode>icmp</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.66</m_delay>
-				<m_topoIndex>3</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_10">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>15</id>
-						<name>add_ln15</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
-						<lineNumber>15</lineNumber>
-						<contextFuncName>run_inference</contextFuncName>
-						<contextNormFuncName>run_inference</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
-											<second>run_inference</second>
-										</first>
-										<second>15</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1701735968</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>15</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>33</item>
-					<item>35</item>
-				</oprand_edges>
-				<opcode>add</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.77</m_delay>
+				<m_delay>0.64</m_delay>
 				<m_topoIndex>4</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -452,8 +452,8 @@
 						<type>0</type>
 						<id>16</id>
 						<name>br_ln15</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>run_inference</contextFuncName>
 						<contextNormFuncName>run_inference</contextNormFuncName>
@@ -461,13 +461,13 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>15</second>
@@ -483,7 +483,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701735968</coreId>
+						<coreId>718885840</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -510,8 +510,8 @@
 						<type>0</type>
 						<id>19</id>
 						<name>_ln17</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>17</lineNumber>
 						<contextFuncName>run_inference</contextFuncName>
 						<contextNormFuncName>run_inference</contextNormFuncName>
@@ -519,13 +519,13 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -541,7 +541,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3200914928</coreId>
+						<coreId>830011336</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -565,7 +565,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.42</m_delay>
+				<m_delay>2.01</m_delay>
 				<m_topoIndex>6</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -575,8 +575,8 @@
 						<type>0</type>
 						<id>20</id>
 						<name>br_ln15</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>run_inference</contextFuncName>
 						<contextNormFuncName>run_inference</contextNormFuncName>
@@ -584,13 +584,13 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>15</second>
@@ -606,7 +606,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983326880</coreId>
+						<coreId>1043683824</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -631,8 +631,8 @@
 						<type>0</type>
 						<id>22</id>
 						<name>_ln19</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>19</lineNumber>
 						<contextFuncName>run_inference</contextFuncName>
 						<contextNormFuncName>run_inference</contextNormFuncName>
@@ -640,13 +640,13 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>19</second>
@@ -662,7 +662,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2965212032</coreId>
+						<coreId>985912640</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -707,7 +707,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2962273920</coreId>
+						<coreId>1043670080</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>15</bitwidth>
@@ -738,13 +738,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3200889584</coreId>
+						<coreId>1014854224</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>15</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>16384</content>
+				<content>1</content>
 			</item>
 			<item class_id_reference="16" object_id="_17">
 				<Value>
@@ -769,13 +769,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3198934016</coreId>
+						<coreId>990901552</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>15</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1</content>
+				<content>16384</content>
 			</item>
 			<item class_id_reference="16" object_id="_18">
 				<Value>
@@ -800,7 +800,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2976011952</coreId>
+						<coreId>1126763952</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -873,7 +873,7 @@
 					<item_version>0</item_version>
 					<item>11</item>
 					<item>12</item>
-					<item>15</item>
+					<item>13</item>
 					<item>16</item>
 				</node_objs>
 			</item>
@@ -954,7 +954,7 @@
 			<item class_id_reference="20" object_id="_24">
 				<id>25</id>
 				<edge_type>1</edge_type>
-				<source_obj>15</source_obj>
+				<source_obj>12</source_obj>
 				<sink_obj>11</sink_obj>
 				<is_back_edge>1</is_back_edge>
 			</item>
@@ -997,20 +997,20 @@
 				<id>33</id>
 				<edge_type>1</edge_type>
 				<source_obj>11</source_obj>
-				<sink_obj>15</sink_obj>
+				<sink_obj>13</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_31">
 				<id>35</id>
 				<edge_type>1</edge_type>
 				<source_obj>34</source_obj>
-				<sink_obj>15</sink_obj>
+				<sink_obj>13</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_32">
 				<id>36</id>
 				<edge_type>1</edge_type>
-				<source_obj>12</source_obj>
+				<source_obj>13</source_obj>
 				<sink_obj>16</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -1158,8 +1158,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>32788</mMinLatency>
-			<mMaxLatency>32788</mMaxLatency>
+			<mMinLatency>16405</mMinLatency>
+			<mMaxLatency>16405</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -1205,8 +1205,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>16384</mMinTripCount>
 			<mMaxTripCount>16384</mMaxTripCount>
-			<mMinLatency>32787</mMinLatency>
-			<mMaxLatency>32787</mMaxLatency>
+			<mMinLatency>16404</mMinLatency>
+			<mMaxLatency>16404</mMaxLatency>
 			<mIsDfPipe>1</mIsDfPipe>
 			<mDfPipe class_id="23" tracking_level="1" version="0" object_id="_53">
 				<port_list class_id="24" tracking_level="0" version="0">
@@ -1419,7 +1419,7 @@
 			</second>
 		</item>
 		<item>
-			<first>15</first>
+			<first>13</first>
 			<second>
 				<first>1</first>
 				<second>0</second>

@@ -6,10 +6,10 @@ catch {::common::set_param -quiet hls.xocc.mode csynth};
 open_project kernel_wrapper
 set_top kernel_wrapper
 # v++ -g, -D, -I, --advanced.prop kernel.kernel_wrapper.kernel_flags
-add_files "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp" -cflags " -I /home/ayvol/vitis-accel-DNN/vitis_accel_prj -I /home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware -I /home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/weights -I /home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils -std=c++11"
-add_files "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp" -cflags " -I /home/ayvol/vitis-accel-DNN/vitis_accel_prj -I /home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware -I /home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/weights -I /home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils -std=c++11"
+add_files "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp" -cflags " -I /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj -I /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware -I /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/weights -I /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils -std=c++11"
+add_files "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp" -cflags " -I /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj -I /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware -I /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/weights -I /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils -std=c++11"
 open_solution -flow_target vitis solution
-set_part xcu55c-fsvh2892-2L-e
+set_part xcvc1902-vsvd1760-2MP-e-S
 # v++ --hls.clock or --kernel_frequency
 create_clock -period 200MHz -name default
 # v++ --advanced.param compiler.hlsDataflowStrictMode
@@ -23,7 +23,7 @@ config_interface -m_axi_addr64
 config_interface -m_axi_auto_max_ports=0
 config_export -format xo -ipname kernel_wrapper
 # v++ --hls.pre_tcl or --advanced.prop solution.hls_pre_tcl
-source "/home/ayvol/vitis-accel-DNN/vitis_accel_prj/hls_config.tcl"
+source "/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/hls_config.tcl"
 csynth_design
 export_design
 close_project

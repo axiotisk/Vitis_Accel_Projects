@@ -34,7 +34,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1819244153</coreId>
+              <coreId>1043381408</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -70,7 +70,7 @@
               <coreName>FIFO_SRL</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1819244153</coreId>
+              <coreId>1397508187</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -106,7 +106,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1819244153</coreId>
+              <coreId>985954848</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -142,7 +142,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1667457325</coreId>
+              <coreId>823869808</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -178,7 +178,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3210425136</coreId>
+              <coreId>1043446784</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -214,7 +214,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2977736928</coreId>
+              <coreId>842545600</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -250,7 +250,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3198882848</coreId>
+              <coreId>823362000</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -290,7 +290,7 @@
               <coreName>FIFO_SRL</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>81</coreId>
+              <coreId>85</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -306,7 +306,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.41</m_delay>
+          <m_delay>0.67</m_delay>
           <m_topoIndex>1</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -316,7 +316,7 @@
               <type>0</type>
               <id>11</id>
               <name>trunc_ln</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>21</lineNumber>
               <contextFuncName>write_result</contextFuncName>
@@ -325,13 +325,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="11" tracking_level="0" version="0">
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second class_id="12" tracking_level="0" version="0">
                     <count>1</count>
                     <item_version>0</item_version>
                     <item class_id="13" tracking_level="0" version="0">
                       <first class_id="14" tracking_level="0" version="0">
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
                         <second>write_result</second>
                       </first>
                       <second>21</second>
@@ -375,7 +375,7 @@
               <type>0</type>
               <id>12</id>
               <name>sext_ln21</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>21</lineNumber>
               <contextFuncName>write_result</contextFuncName>
@@ -384,13 +384,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
                         <second>write_result</second>
                       </first>
                       <second>21</second>
@@ -431,7 +431,7 @@
               <type>0</type>
               <id>13</id>
               <name>gmem1_addr</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>21</lineNumber>
               <contextFuncName>write_result</contextFuncName>
@@ -440,13 +440,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
                         <second>write_result</second>
                       </first>
                       <second>21</second>
@@ -462,7 +462,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701735968</coreId>
+              <coreId>1834971215</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -488,7 +488,7 @@
               <type>0</type>
               <id>14</id>
               <name>empty</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>21</lineNumber>
               <contextFuncName>write_result</contextFuncName>
@@ -497,13 +497,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
                         <second>write_result</second>
                       </first>
                       <second>21</second>
@@ -519,7 +519,7 @@
               <coreName>m_axi</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>121</coreId>
+              <coreId>125</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -546,7 +546,7 @@
               <type>0</type>
               <id>15</id>
               <name>_ln21</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>21</lineNumber>
               <contextFuncName>write_result</contextFuncName>
@@ -555,13 +555,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
                         <second>write_result</second>
                       </first>
                       <second>21</second>
@@ -577,7 +577,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3198882384</coreId>
+              <coreId>823362000</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -610,7 +610,7 @@
               <type>0</type>
               <id>16</id>
               <name>empty_50</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>28</lineNumber>
               <contextFuncName>write_result</contextFuncName>
@@ -619,13 +619,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
                         <second>write_result</second>
                       </first>
                       <second>28</second>
@@ -641,7 +641,7 @@
               <coreName>m_axi</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>121</coreId>
+              <coreId>125</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -668,7 +668,7 @@
               <type>0</type>
               <id>17</id>
               <name>_ln28</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>28</lineNumber>
               <contextFuncName>write_result</contextFuncName>
@@ -677,13 +677,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
                         <second>write_result</second>
                       </first>
                       <second>28</second>
@@ -699,7 +699,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2983268352</coreId>
+              <coreId>823362000</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -744,7 +744,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3209100368</coreId>
+              <coreId>823362000</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -775,7 +775,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2977736928</coreId>
+              <coreId>823362000</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -806,7 +806,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2977736928</coreId>
+              <coreId>823362000</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -837,7 +837,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2977736928</coreId>
+              <coreId>823362000</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -871,7 +871,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>3214518800</coreId>
+            <coreId>842550128</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -3044,7 +3044,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>172</second>
+              <second>127</second>
             </item>
           </second>
         </item>
@@ -3106,7 +3106,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>331</second>
+              <second>86</second>
             </item>
           </second>
         </item>
@@ -3129,7 +3129,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>2</second>
             </item>
           </second>
         </item>
@@ -3152,7 +3152,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>2</second>
             </item>
           </second>
         </item>
@@ -3175,7 +3175,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>2</second>
             </item>
           </second>
         </item>
@@ -3198,7 +3198,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>14</second>
+              <second>64</second>
             </item>
           </second>
         </item>
@@ -3221,7 +3221,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>2</second>
             </item>
           </second>
         </item>
@@ -3244,7 +3244,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>4</second>
             </item>
           </second>
         </item>
@@ -3267,7 +3267,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>2</second>
             </item>
           </second>
         </item>
@@ -3290,7 +3290,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>14</second>
+              <second>32</second>
             </item>
           </second>
         </item>
@@ -3313,7 +3313,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>2</second>
             </item>
           </second>
         </item>
@@ -3336,7 +3336,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>3</second>
             </item>
           </second>
         </item>
@@ -3359,7 +3359,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>4</second>
             </item>
           </second>
         </item>
@@ -3382,7 +3382,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>4</second>
             </item>
           </second>
         </item>
@@ -3405,7 +3405,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>3</second>
             </item>
           </second>
         </item>
@@ -3428,7 +3428,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>2</second>
             </item>
           </second>
         </item>
@@ -3451,7 +3451,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>14</second>
+              <second>2</second>
             </item>
           </second>
         </item>
@@ -3474,7 +3474,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>14</second>
+              <second>2</second>
             </item>
           </second>
         </item>
@@ -3497,7 +3497,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>2</second>
             </item>
           </second>
         </item>
@@ -3520,7 +3520,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>2</second>
             </item>
           </second>
         </item>

@@ -13,10 +13,10 @@
         <config_export format="xo" ipname="kernel_wrapper"/>
     </config>
     <targetInfo>
-        <TargetInfo value="xcu55c:-fsvh2892:-2L-e"/>
+        <TargetInfo value="xcvc1902:-vsvd1760:-2MP-e-S"/>
     </targetInfo>
     <libraryList>
-        <library value="xilinx/virtexuplus/virtexuplus" name="DefaultPlatform"/>
+        <library value="xilinx/versal/versal" name="DefaultPlatform"/>
     </libraryList>
     <clockList>
         <clock default="false" name="default" uncertainty="27%" period="200MHz"/>

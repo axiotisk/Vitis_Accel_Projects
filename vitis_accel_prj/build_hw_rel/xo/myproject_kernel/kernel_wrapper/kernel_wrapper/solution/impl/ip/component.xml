@@ -1497,7 +1497,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>2920fda1</spirit:value>
+            <spirit:value>f7ab4c71</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1513,7 +1513,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>ebb759d4</spirit:value>
+            <spirit:value>cc510122</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1529,7 +1529,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>91f983a0</spirit:value>
+            <spirit:value>2cd26394</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1545,7 +1545,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>3d6257e8</spirit:value>
+            <spirit:value>4297a6ef</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -3835,10 +3835,6 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/kernel_wrapper_mul_16s_13s_26_1_0.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/verilog/kernel_wrapper_mul_mul_18s_18s_30_4_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
@@ -4074,11 +4070,6 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/kernel_wrapper_mul_16s_13s_26_1_0.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/verilog/kernel_wrapper_mul_mul_18s_18s_30_4_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
@@ -4291,10 +4282,6 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/kernel_wrapper_mul_16s_13s_26_1_0.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/vhdl/kernel_wrapper_mul_mul_18s_18s_30_4_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
@@ -4357,7 +4344,7 @@
       <spirit:file>
         <spirit:name>hdl/vhdl/kernel_wrapper.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_0cb817fe</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_5d24f68e</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -4504,11 +4491,6 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/kernel_wrapper_mul_16s_12s_26_1_0.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/kernel_wrapper_mul_16s_13s_26_1_0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -4898,7 +4880,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>latency</spirit:name>
-      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="29">131242</spirit:value>
+      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="29">114859</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>II</spirit:name>
@@ -4908,15 +4890,15 @@
   <spirit:vendorExtensions>
     <xilinx:coreExtensions>
       <xilinx:supportedFamilies>
-        <xilinx:family xilinx:lifeCycle="Pre-Production">virtexuplusHBM</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">versal</xilinx:family>
       </xilinx:supportedFamilies>
       <xilinx:taxonomies>
         <xilinx:taxonomy>/VITIS_HLS_IP</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>Kernel_wrapper</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2113671366</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2024-08-01T18:15:08Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2113703450</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2024-08-23T23:50:11Z</xilinx:coreCreationDateTime>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>
@@ -4927,10 +4909,10 @@
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="7dd81df5"/>
       <xilinx:checksum xilinx:scope="addressSpaces" xilinx:value="9a83c657"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="c789e091"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="90bd4f21"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="2eb8a9a5"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="cf56eb24"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="99315538"/>
-      <xilinx:checksum xilinx:scope="parameters" xilinx:value="3fe57d8d"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="50cc4e9e"/>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>

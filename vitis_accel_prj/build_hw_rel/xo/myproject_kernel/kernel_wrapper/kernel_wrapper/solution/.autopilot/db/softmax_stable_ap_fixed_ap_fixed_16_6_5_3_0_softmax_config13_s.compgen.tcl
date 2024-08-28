@@ -1,6 +1,6 @@
 # This script segment is generated automatically by AutoPilot
 
-set id 1365
+set id 2860
 set name kernel_wrapper_mul_mul_18s_18s_30_4_1
 set corename simcore_mul
 set op mul
@@ -75,7 +75,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1373 \
+    id 2868 \
     name p_read \
     type other \
     dir I \
@@ -90,7 +90,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1374 \
+    id 2869 \
     name p_read1 \
     type other \
     dir I \
@@ -105,7 +105,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1375 \
+    id 2870 \
     name p_read2 \
     type other \
     dir I \
@@ -120,7 +120,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1376 \
+    id 2871 \
     name p_read3 \
     type other \
     dir I \
@@ -135,7 +135,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1377 \
+    id 2872 \
     name p_read4 \
     type other \
     dir I \

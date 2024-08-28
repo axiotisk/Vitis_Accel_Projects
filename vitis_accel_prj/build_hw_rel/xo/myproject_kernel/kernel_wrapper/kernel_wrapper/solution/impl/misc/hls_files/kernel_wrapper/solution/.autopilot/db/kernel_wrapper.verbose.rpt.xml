@@ -1,13 +1,13 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'kernel_wrapper'" level="0">
-<item name = "Date">Thu Aug  1 18:06:12 2024
+<item name = "Date">Sat Aug 24 01:47:47 2024
 </item>
 <item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
 <item name = "Project">kernel_wrapper</item>
 <item name = "Solution">solution (Vitis Kernel Flow Target)</item>
-<item name = "Product family">virtexuplus</item>
-<item name = "Target device">xcu55c-fsvh2892-2L-e</item>
+<item name = "Product family">versal</item>
+<item name = "Target device">xcvc1902-vsvd1760-2MP-e-S</item>
 </section>
 
 <section name = "Performance Estimates" level="0">
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">131242, 131242, 0.656 ms, 0.656 ms, 81995, 81995, dataflow</column>
+<column name="">114859, 114859, 0.574 ms, 0.574 ms, 81995, 81995, dataflow</column>
 </table>
 </item>
 <item name = "Detail">
@@ -32,7 +32,7 @@
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
 <column name="read_input_U0">read_input, 16458, 16458, 82.290 us, 82.290 us, 16458, 16458, no</column>
-<column name="run_inference_U0">run_inference, 32788, 32788, 0.164 ms, 0.164 ms, 32788, 32788, no</column>
+<column name="run_inference_U0">run_inference, 16405, 16405, 82.025 us, 82.025 us, 16405, 16405, no</column>
 <column name="entry_proc_U0">entry_proc, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
 <column name="write_result_U0">write_result, 81994, 81994, 0.410 ms, 0.410 ms, 81994, 81994, no</column>
 </table>
@@ -52,15 +52,13 @@
 <keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 36, -</column>
-<column name="FIFO">-, -, 5, 42, -</column>
-<column name="Instance">8, 1087, 22399, 98786, 0</column>
-<column name="Memory">154, -, 0, 12, 0</column>
-<column name="Multiplexer">-, -, -, 63, -</column>
+<column name="FIFO">-, -, 5, 44, -</column>
+<column name="Instance">8, 5, 42155, 652968, 0</column>
+<column name="Memory">0, -, 0, 0, 13</column>
+<column name="Multiplexer">-, -, -, 14, -</column>
 <column name="Register">-, -, 10, -, -</column>
-<specialColumn name="Available SLR">1344, 3008, 869120, 434560, 320</specialColumn>
-<specialColumn name="Utilization SLR (%)">12, 36, 2, 22, 0</specialColumn>
-<specialColumn name="Available">4032, 9024, 2607360, 1303680, 960</specialColumn>
-<specialColumn name="Utilization (%)">4, 12, ~0, 7, 0</specialColumn>
+<specialColumn name="Available">1934, 1968, 1799680, 899840, 463</specialColumn>
+<specialColumn name="Utilization (%)">~0, ~0, 2, 72, 2</specialColumn>
 </table>
 </item>
 <item name = "Detail">
@@ -68,12 +66,12 @@
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
 <column name="control_s_axi_U">control_s_axi, 0, 0, 176, 296, 0</column>
-<column name="entry_proc_U0">entry_proc, 0, 0, 2, 20, 0</column>
-<column name="gmem0_m_axi_U">gmem0_m_axi, 0, 0, 4567, 8001, 0</column>
-<column name="gmem1_m_axi_U">gmem1_m_axi, 0, 0, 689, 981, 0</column>
-<column name="read_input_U0">read_input, 0, 0, 952, 594, 0</column>
-<column name="run_inference_U0">run_inference, 8, 1087, 15772, 88207, 0</column>
-<column name="write_result_U0">write_result, 0, 0, 241, 687, 0</column>
+<column name="entry_proc_U0">entry_proc, 0, 0, 2, 6, 0</column>
+<column name="gmem0_m_axi_U">gmem0_m_axi, 0, 0, 4565, 8069, 0</column>
+<column name="gmem1_m_axi_U">gmem1_m_axi, 0, 0, 689, 977, 0</column>
+<column name="read_input_U0">read_input, 0, 0, 952, 532, 0</column>
+<column name="run_inference_U0">run_inference, 8, 5, 35530, 642737, 0</column>
+<column name="write_result_U0">write_result, 0, 0, 241, 351, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -82,12 +80,12 @@
 </item>
 <item name = "Memory"><table name="" hasTotal="1">
 <keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
-<column name="in_buf_V_U">in_buf_V_RAM_AUTO_1R1W, 114, 0, 12, 0, 16384, 256, 1, 4194304</column>
-<column name="out_buf_V_U">out_buf_V_RAM_AUTO_1R1W, 8, 0, 0, 0, 16384, 16, 1, 262144</column>
-<column name="out_buf_V_1_U">out_buf_V_RAM_AUTO_1R1W, 8, 0, 0, 0, 16384, 16, 1, 262144</column>
-<column name="out_buf_V_2_U">out_buf_V_RAM_AUTO_1R1W, 8, 0, 0, 0, 16384, 16, 1, 262144</column>
-<column name="out_buf_V_3_U">out_buf_V_RAM_AUTO_1R1W, 8, 0, 0, 0, 16384, 16, 1, 262144</column>
-<column name="out_buf_V_4_U">out_buf_V_RAM_AUTO_1R1W, 8, 0, 0, 0, 16384, 16, 1, 262144</column>
+<column name="in_buf_V_U">in_buf_V_RAM_AUTO_1R1W, 0, 0, 0, 8, 16384, 256, 1, 4194304</column>
+<column name="out_buf_V_U">out_buf_V_RAM_AUTO_1R1W, 0, 0, 0, 1, 16384, 16, 1, 262144</column>
+<column name="out_buf_V_1_U">out_buf_V_RAM_AUTO_1R1W, 0, 0, 0, 1, 16384, 16, 1, 262144</column>
+<column name="out_buf_V_2_U">out_buf_V_RAM_AUTO_1R1W, 0, 0, 0, 1, 16384, 16, 1, 262144</column>
+<column name="out_buf_V_3_U">out_buf_V_RAM_AUTO_1R1W, 0, 0, 0, 1, 16384, 16, 1, 262144</column>
+<column name="out_buf_V_4_U">out_buf_V_RAM_AUTO_1R1W, 0, 0, 0, 1, 16384, 16, 1, 262144</column>
 </table>
 </item>
 <item name = "FIFO"><table name="" hasTotal="1">
@@ -119,13 +117,13 @@
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
-<column name="ap_sync_reg_channel_write_out_buf_V">9, 2, 1, 2</column>
-<column name="ap_sync_reg_channel_write_out_buf_V_1">9, 2, 1, 2</column>
-<column name="ap_sync_reg_channel_write_out_buf_V_2">9, 2, 1, 2</column>
-<column name="ap_sync_reg_channel_write_out_buf_V_3">9, 2, 1, 2</column>
-<column name="ap_sync_reg_channel_write_out_buf_V_4">9, 2, 1, 2</column>
-<column name="ap_sync_reg_entry_proc_U0_ap_ready">9, 2, 1, 2</column>
-<column name="ap_sync_reg_read_input_U0_ap_ready">9, 2, 1, 2</column>
+<column name="ap_sync_reg_channel_write_out_buf_V">2, 2, 1, 2</column>
+<column name="ap_sync_reg_channel_write_out_buf_V_1">2, 2, 1, 2</column>
+<column name="ap_sync_reg_channel_write_out_buf_V_2">2, 2, 1, 2</column>
+<column name="ap_sync_reg_channel_write_out_buf_V_3">2, 2, 1, 2</column>
+<column name="ap_sync_reg_channel_write_out_buf_V_4">2, 2, 1, 2</column>
+<column name="ap_sync_reg_entry_proc_U0_ap_ready">2, 2, 1, 2</column>
+<column name="ap_sync_reg_read_input_U0_ap_ready">2, 2, 1, 2</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">

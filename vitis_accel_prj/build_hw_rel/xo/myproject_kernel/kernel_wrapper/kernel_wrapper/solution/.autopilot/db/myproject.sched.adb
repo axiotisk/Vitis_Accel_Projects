@@ -70,7 +70,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1819244153</coreId>
+						<coreId>920</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>14</bitwidth>
@@ -106,7 +106,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1819244153</coreId>
+						<coreId>174</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -142,7 +142,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1819244153</coreId>
+						<coreId>174</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -178,7 +178,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1819244153</coreId>
+						<coreId>273</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -214,7 +214,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1819244153</coreId>
+						<coreId>174</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -250,7 +250,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>66</coreId>
+						<coreId>273</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -290,7 +290,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701735968</coreId>
+						<coreId>1834971215</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>14</bitwidth>
@@ -306,7 +306,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.42</m_delay>
+				<m_delay>0.83</m_delay>
 				<m_topoIndex>1</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -316,8 +316,8 @@
 						<type>0</type>
 						<id>11</id>
 						<name>zext_ln386</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -325,20 +325,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="11" tracking_level="0" version="0">
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second class_id="12" tracking_level="0" version="0">
 									<count>2</count>
 									<item_version>0</item_version>
 									<item class_id="13" tracking_level="0" version="0">
 										<first class_id="14" tracking_level="0" version="0">
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -379,8 +379,8 @@
 						<type>0</type>
 						<id>12</id>
 						<name>out_buf_4_addr</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -388,20 +388,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -444,8 +444,8 @@
 						<type>0</type>
 						<id>13</id>
 						<name>out_buf_3_addr</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -453,20 +453,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -482,7 +482,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701735968</coreId>
+						<coreId>1834971215</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>14</bitwidth>
@@ -509,8 +509,8 @@
 						<type>0</type>
 						<id>14</id>
 						<name>out_buf_2_addr</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -518,20 +518,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -547,7 +547,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701735968</coreId>
+						<coreId>1834971215</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>14</bitwidth>
@@ -574,8 +574,8 @@
 						<type>0</type>
 						<id>15</id>
 						<name>out_buf_1_addr</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -583,20 +583,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -612,7 +612,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701735968</coreId>
+						<coreId>1030315008</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>14</bitwidth>
@@ -639,8 +639,8 @@
 						<type>0</type>
 						<id>16</id>
 						<name>out_buf_0_addr</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -648,20 +648,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -677,7 +677,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3030096816</coreId>
+						<coreId>1184122304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>14</bitwidth>
@@ -704,8 +704,8 @@
 						<type>0</type>
 						<id>17</id>
 						<name>in_buf_addr</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -713,20 +713,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -742,7 +742,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1184122304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>14</bitwidth>
@@ -769,8 +769,8 @@
 						<type>0</type>
 						<id>19</id>
 						<name>in_buf_load</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -778,20 +778,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -807,7 +807,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1004648128</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>256</bitwidth>
@@ -822,7 +822,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.98</m_delay>
+				<m_delay>1.17</m_delay>
 				<m_topoIndex>4</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -832,8 +832,8 @@
 						<type>0</type>
 						<id>20</id>
 						<name>call_ret1_i_i</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -841,20 +841,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -870,7 +870,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040007248</coreId>
+						<coreId>1184122304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1024</bitwidth>
@@ -886,7 +886,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.64</m_delay>
+				<m_delay>3.63</m_delay>
 				<m_topoIndex>5</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -896,8 +896,8 @@
 						<type>0</type>
 						<id>21</id>
 						<name>layer2_out_V</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -905,20 +905,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -934,7 +934,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1032219792</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -959,8 +959,8 @@
 						<type>0</type>
 						<id>22</id>
 						<name>layer2_out_V_1</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -968,20 +968,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -997,7 +997,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3208929440</coreId>
+						<coreId>859391440</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1022,8 +1022,8 @@
 						<type>0</type>
 						<id>23</id>
 						<name>layer2_out_V_2</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1031,20 +1031,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -1060,7 +1060,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3209459952</coreId>
+						<coreId>1004376432</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1085,8 +1085,8 @@
 						<type>0</type>
 						<id>24</id>
 						<name>layer2_out_V_3</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1094,20 +1094,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -1123,7 +1123,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>126</coreId>
+						<coreId>1032202496</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1148,8 +1148,8 @@
 						<type>0</type>
 						<id>25</id>
 						<name>layer2_out_V_4</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1157,20 +1157,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -1186,7 +1186,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3209465808</coreId>
+						<coreId>2147483647</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1211,8 +1211,8 @@
 						<type>0</type>
 						<id>26</id>
 						<name>layer2_out_V_5</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1220,20 +1220,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -1249,7 +1249,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216740112</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1274,8 +1274,8 @@
 						<type>0</type>
 						<id>27</id>
 						<name>layer2_out_V_6</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1283,20 +1283,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -1312,7 +1312,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1919950882</coreId>
+						<coreId>1184116032</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1337,8 +1337,8 @@
 						<type>0</type>
 						<id>28</id>
 						<name>layer2_out_V_7</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1346,20 +1346,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -1375,7 +1375,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1031369833</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1400,8 +1400,8 @@
 						<type>0</type>
 						<id>29</id>
 						<name>layer2_out_V_8</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1409,20 +1409,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -1438,7 +1438,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3039999552</coreId>
+						<coreId>30</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1463,8 +1463,8 @@
 						<type>0</type>
 						<id>30</id>
 						<name>layer2_out_V_9</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1472,20 +1472,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -1501,7 +1501,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1571074209</coreId>
+						<coreId>1184122304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1526,8 +1526,8 @@
 						<type>0</type>
 						<id>31</id>
 						<name>layer2_out_V_10</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1535,20 +1535,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -1564,7 +1564,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3209465808</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1589,8 +1589,8 @@
 						<type>0</type>
 						<id>32</id>
 						<name>layer2_out_V_11</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1598,20 +1598,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -1627,7 +1627,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040005568</coreId>
+						<coreId>1032204496</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1652,8 +1652,8 @@
 						<type>0</type>
 						<id>33</id>
 						<name>layer2_out_V_12</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1661,20 +1661,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -1690,7 +1690,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3209465808</coreId>
+						<coreId>784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1715,8 +1715,8 @@
 						<type>0</type>
 						<id>34</id>
 						<name>layer2_out_V_13</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1724,20 +1724,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -1753,7 +1753,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040000304</coreId>
+						<coreId>1032208160</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1778,8 +1778,8 @@
 						<type>0</type>
 						<id>35</id>
 						<name>layer2_out_V_14</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1787,20 +1787,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -1816,7 +1816,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3209465808</coreId>
+						<coreId>840563744</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1841,8 +1841,8 @@
 						<type>0</type>
 						<id>36</id>
 						<name>layer2_out_V_15</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1850,20 +1850,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -1879,7 +1879,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1032173816</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1904,8 +1904,8 @@
 						<type>0</type>
 						<id>37</id>
 						<name>layer2_out_V_16</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1913,20 +1913,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -1942,7 +1942,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040014928</coreId>
+						<coreId>1032175664</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1967,8 +1967,8 @@
 						<type>0</type>
 						<id>38</id>
 						<name>layer2_out_V_17</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1976,20 +1976,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2005,7 +2005,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>608</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2030,8 +2030,8 @@
 						<type>0</type>
 						<id>39</id>
 						<name>layer2_out_V_18</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2039,20 +2039,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2068,7 +2068,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>908078134</coreId>
+						<coreId>1032221248</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2093,8 +2093,8 @@
 						<type>0</type>
 						<id>40</id>
 						<name>layer2_out_V_19</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2102,20 +2102,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2131,7 +2131,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>574451311</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2156,8 +2156,8 @@
 						<type>0</type>
 						<id>41</id>
 						<name>layer2_out_V_20</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2165,20 +2165,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2194,7 +2194,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1819243365</coreId>
+						<coreId>1032183040</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2219,8 +2219,8 @@
 						<type>0</type>
 						<id>42</id>
 						<name>layer2_out_V_21</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2228,20 +2228,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2257,7 +2257,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3198987272</coreId>
+						<coreId>1330007625</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2282,8 +2282,8 @@
 						<type>0</type>
 						<id>43</id>
 						<name>layer2_out_V_22</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2291,20 +2291,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2320,7 +2320,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040107888</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2345,8 +2345,8 @@
 						<type>0</type>
 						<id>44</id>
 						<name>layer2_out_V_23</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2354,20 +2354,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2383,7 +2383,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>575620686</coreId>
+						<coreId>1768304490</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2408,8 +2408,8 @@
 						<type>0</type>
 						<id>45</id>
 						<name>layer2_out_V_24</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2417,20 +2417,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2446,7 +2446,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749051</coreId>
+						<coreId>1184122304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2471,8 +2471,8 @@
 						<type>0</type>
 						<id>46</id>
 						<name>layer2_out_V_25</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2480,20 +2480,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2509,7 +2509,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3209465808</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2534,8 +2534,8 @@
 						<type>0</type>
 						<id>47</id>
 						<name>layer2_out_V_26</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2543,20 +2543,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2572,7 +2572,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741744684</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2597,8 +2597,8 @@
 						<type>0</type>
 						<id>48</id>
 						<name>layer2_out_V_27</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2606,20 +2606,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2635,7 +2635,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2660,8 +2660,8 @@
 						<type>0</type>
 						<id>49</id>
 						<name>layer2_out_V_28</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2669,20 +2669,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2698,7 +2698,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>1032223968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2723,8 +2723,8 @@
 						<type>0</type>
 						<id>50</id>
 						<name>layer2_out_V_29</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2732,20 +2732,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2761,7 +2761,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040121376</coreId>
+						<coreId>1032226200</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2786,8 +2786,8 @@
 						<type>0</type>
 						<id>51</id>
 						<name>layer2_out_V_30</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2795,20 +2795,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2824,7 +2824,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040123912</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2849,8 +2849,8 @@
 						<type>0</type>
 						<id>52</id>
 						<name>layer2_out_V_31</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2858,20 +2858,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2887,7 +2887,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3030118816</coreId>
+						<coreId>1818583907</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2912,8 +2912,8 @@
 						<type>0</type>
 						<id>53</id>
 						<name>layer2_out_V_32</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2921,20 +2921,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -2950,7 +2950,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1394752889</coreId>
+						<coreId>791158881</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2975,8 +2975,8 @@
 						<type>0</type>
 						<id>54</id>
 						<name>layer2_out_V_33</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2984,20 +2984,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3013,7 +3013,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>576533044</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3038,8 +3038,8 @@
 						<type>0</type>
 						<id>55</id>
 						<name>layer2_out_V_34</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3047,20 +3047,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3076,7 +3076,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539119430</coreId>
+						<coreId>1032235648</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3101,8 +3101,8 @@
 						<type>0</type>
 						<id>56</id>
 						<name>layer2_out_V_35</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3110,20 +3110,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3139,7 +3139,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1031369833</coreId>
+						<coreId>192</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3164,8 +3164,8 @@
 						<type>0</type>
 						<id>57</id>
 						<name>layer2_out_V_36</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3173,20 +3173,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3202,7 +3202,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3030126848</coreId>
+						<coreId>1032239152</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3227,8 +3227,8 @@
 						<type>0</type>
 						<id>58</id>
 						<name>layer2_out_V_37</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3236,20 +3236,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3265,7 +3265,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>119936</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3290,8 +3290,8 @@
 						<type>0</type>
 						<id>59</id>
 						<name>layer2_out_V_38</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3299,20 +3299,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3328,7 +3328,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1036442976</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3353,8 +3353,8 @@
 						<type>0</type>
 						<id>60</id>
 						<name>layer2_out_V_39</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3362,20 +3362,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3391,7 +3391,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2975593216</coreId>
+						<coreId>1684367724</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3416,8 +3416,8 @@
 						<type>0</type>
 						<id>61</id>
 						<name>layer2_out_V_40</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3425,20 +3425,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3454,7 +3454,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1952673397</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3479,8 +3479,8 @@
 						<type>0</type>
 						<id>62</id>
 						<name>layer2_out_V_41</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3488,20 +3488,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3517,7 +3517,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1852793632</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3542,8 +3542,8 @@
 						<type>0</type>
 						<id>63</id>
 						<name>layer2_out_V_42</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3551,20 +3551,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3580,7 +3580,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1563439405</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3605,8 +3605,8 @@
 						<type>0</type>
 						<id>64</id>
 						<name>layer2_out_V_43</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3614,20 +3614,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3643,7 +3643,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040072728</coreId>
+						<coreId>1701016181</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3668,8 +3668,8 @@
 						<type>0</type>
 						<id>65</id>
 						<name>layer2_out_V_44</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3677,20 +3677,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3731,8 +3731,8 @@
 						<type>0</type>
 						<id>66</id>
 						<name>layer2_out_V_45</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3740,20 +3740,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3769,7 +3769,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040017632</coreId>
+						<coreId>805510496</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3794,8 +3794,8 @@
 						<type>0</type>
 						<id>67</id>
 						<name>layer2_out_V_46</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3803,20 +3803,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3832,7 +3832,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1935763810</coreId>
+						<coreId>805535736</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3857,8 +3857,8 @@
 						<type>0</type>
 						<id>68</id>
 						<name>layer2_out_V_47</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3866,20 +3866,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3895,7 +3895,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>909196148</coreId>
+						<coreId>805510496</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3920,8 +3920,8 @@
 						<type>0</type>
 						<id>69</id>
 						<name>layer2_out_V_48</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3929,20 +3929,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -3958,7 +3958,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>784</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3983,8 +3983,8 @@
 						<type>0</type>
 						<id>70</id>
 						<name>layer2_out_V_49</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3992,20 +3992,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4021,7 +4021,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040084176</coreId>
+						<coreId>805538800</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4046,8 +4046,8 @@
 						<type>0</type>
 						<id>71</id>
 						<name>layer2_out_V_50</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4055,20 +4055,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4084,7 +4084,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1630496109</coreId>
+						<coreId>805542944</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4109,8 +4109,8 @@
 						<type>0</type>
 						<id>72</id>
 						<name>layer2_out_V_51</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4118,20 +4118,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4147,7 +4147,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>805544320</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4172,8 +4172,8 @@
 						<type>0</type>
 						<id>73</id>
 						<name>layer2_out_V_52</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4181,20 +4181,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4210,7 +4210,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040089848</coreId>
+						<coreId>839902784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4235,8 +4235,8 @@
 						<type>0</type>
 						<id>74</id>
 						<name>layer2_out_V_53</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4244,20 +4244,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4273,7 +4273,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040091856</coreId>
+						<coreId>1184122304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4298,8 +4298,8 @@
 						<type>0</type>
 						<id>75</id>
 						<name>layer2_out_V_54</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4307,20 +4307,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4336,7 +4336,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>192</coreId>
+						<coreId>859077440</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4361,8 +4361,8 @@
 						<type>0</type>
 						<id>76</id>
 						<name>layer2_out_V_55</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4370,20 +4370,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4399,7 +4399,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040095360</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4424,8 +4424,8 @@
 						<type>0</type>
 						<id>77</id>
 						<name>layer2_out_V_56</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4433,20 +4433,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4462,7 +4462,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>859083512</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4487,8 +4487,8 @@
 						<type>0</type>
 						<id>78</id>
 						<name>layer2_out_V_57</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4496,20 +4496,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4525,7 +4525,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040099664</coreId>
+						<coreId>1184051344</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4550,8 +4550,8 @@
 						<type>0</type>
 						<id>79</id>
 						<name>layer2_out_V_58</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4559,20 +4559,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4613,8 +4613,8 @@
 						<type>0</type>
 						<id>80</id>
 						<name>layer2_out_V_59</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4622,20 +4622,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4651,7 +4651,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>859087632</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4676,8 +4676,8 @@
 						<type>0</type>
 						<id>81</id>
 						<name>layer2_out_V_60</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4685,20 +4685,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4714,7 +4714,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040104112</coreId>
+						<coreId>859091200</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4739,8 +4739,8 @@
 						<type>0</type>
 						<id>82</id>
 						<name>layer2_out_V_61</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4748,20 +4748,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4777,7 +4777,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3209465808</coreId>
+						<coreId>1032240536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4802,8 +4802,8 @@
 						<type>0</type>
 						<id>83</id>
 						<name>layer2_out_V_62</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4811,20 +4811,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4840,7 +4840,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4865,8 +4865,8 @@
 						<type>0</type>
 						<id>84</id>
 						<name>layer2_out_V_63</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4874,20 +4874,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4903,7 +4903,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1599294536</coreId>
+						<coreId>859093824</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4928,8 +4928,8 @@
 						<type>0</type>
 						<id>85</id>
 						<name>call_ret2_i_i</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4937,20 +4937,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -4966,7 +4966,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983365280</coreId>
+						<coreId>859097312</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1024</bitwidth>
@@ -5045,7 +5045,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.96</m_delay>
+				<m_delay>1.06</m_delay>
 				<m_topoIndex>70</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -5055,8 +5055,8 @@
 						<type>0</type>
 						<id>86</id>
 						<name>layer4_out_V</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -5064,20 +5064,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -5093,7 +5093,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983364464</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -5118,8 +5118,8 @@
 						<type>0</type>
 						<id>87</id>
 						<name>layer4_out_V_1</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -5127,20 +5127,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -5156,7 +5156,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983367600</coreId>
+						<coreId>784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -5181,8 +5181,8 @@
 						<type>0</type>
 						<id>88</id>
 						<name>layer4_out_V_2</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -5190,20 +5190,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -5219,7 +5219,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983367384</coreId>
+						<coreId>1184122304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -5244,8 +5244,8 @@
 						<type>0</type>
 						<id>89</id>
 						<name>layer4_out_V_3</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -5253,20 +5253,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -5282,7 +5282,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>859101712</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -5307,8 +5307,8 @@
 						<type>0</type>
 						<id>90</id>
 						<name>layer4_out_V_4</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -5316,20 +5316,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -5345,7 +5345,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983368824</coreId>
+						<coreId>859103088</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -5370,8 +5370,8 @@
 						<type>0</type>
 						<id>91</id>
 						<name>layer4_out_V_5</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -5379,20 +5379,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -5408,7 +5408,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1869833586</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -5433,8 +5433,8 @@
 						<type>0</type>
 						<id>92</id>
 						<name>layer4_out_V_6</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -5442,20 +5442,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -5471,7 +5471,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983371456</coreId>
+						<coreId>819452576</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -5496,8 +5496,8 @@
 						<type>0</type>
 						<id>93</id>
 						<name>layer4_out_V_7</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -5505,20 +5505,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -5559,8 +5559,8 @@
 						<type>0</type>
 						<id>94</id>
 						<name>layer4_out_V_8</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -5568,20 +5568,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -5597,7 +5597,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983367600</coreId>
+						<coreId>805475760</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -5622,8 +5622,8 @@
 						<type>0</type>
 						<id>95</id>
 						<name>layer4_out_V_9</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -5631,20 +5631,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -5685,8 +5685,8 @@
 						<type>0</type>
 						<id>96</id>
 						<name>layer4_out_V_10</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -5694,20 +5694,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -5723,7 +5723,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>805478400</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -5748,8 +5748,8 @@
 						<type>0</type>
 						<id>97</id>
 						<name>layer4_out_V_11</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -5757,20 +5757,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -5786,7 +5786,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>656436847</coreId>
+						<coreId>288</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -5811,8 +5811,8 @@
 						<type>0</type>
 						<id>98</id>
 						<name>layer4_out_V_12</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -5820,20 +5820,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -5849,7 +5849,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983379464</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -5874,8 +5874,8 @@
 						<type>0</type>
 						<id>99</id>
 						<name>layer4_out_V_13</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -5883,20 +5883,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -5912,7 +5912,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>805482496</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -5937,8 +5937,8 @@
 						<type>0</type>
 						<id>100</id>
 						<name>layer4_out_V_14</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -5946,20 +5946,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -5975,7 +5975,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983377168</coreId>
+						<coreId>805482592</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6000,8 +6000,8 @@
 						<type>0</type>
 						<id>101</id>
 						<name>layer4_out_V_15</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6009,20 +6009,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6038,7 +6038,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983385664</coreId>
+						<coreId>805518896</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6063,8 +6063,8 @@
 						<type>0</type>
 						<id>102</id>
 						<name>layer4_out_V_16</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6072,20 +6072,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6101,7 +6101,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>805487512</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6126,8 +6126,8 @@
 						<type>0</type>
 						<id>103</id>
 						<name>layer4_out_V_17</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6135,20 +6135,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6164,7 +6164,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983386688</coreId>
+						<coreId>805489032</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6189,8 +6189,8 @@
 						<type>0</type>
 						<id>104</id>
 						<name>layer4_out_V_18</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6198,20 +6198,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6227,7 +6227,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983388512</coreId>
+						<coreId>805491896</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6252,8 +6252,8 @@
 						<type>0</type>
 						<id>105</id>
 						<name>layer4_out_V_19</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6261,20 +6261,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6290,7 +6290,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>805492072</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6315,8 +6315,8 @@
 						<type>0</type>
 						<id>106</id>
 						<name>layer4_out_V_20</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6324,20 +6324,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6353,7 +6353,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983392888</coreId>
+						<coreId>805493296</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6378,8 +6378,8 @@
 						<type>0</type>
 						<id>107</id>
 						<name>layer4_out_V_21</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6387,20 +6387,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6416,7 +6416,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>48</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6441,8 +6441,8 @@
 						<type>0</type>
 						<id>108</id>
 						<name>layer4_out_V_22</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6450,20 +6450,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6479,7 +6479,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983396640</coreId>
+						<coreId>805498816</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6504,8 +6504,8 @@
 						<type>0</type>
 						<id>109</id>
 						<name>layer4_out_V_23</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6513,20 +6513,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6542,7 +6542,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1431323424</coreId>
+						<coreId>27520</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6567,8 +6567,8 @@
 						<type>0</type>
 						<id>110</id>
 						<name>layer4_out_V_24</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6576,20 +6576,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6630,8 +6630,8 @@
 						<type>0</type>
 						<id>111</id>
 						<name>layer4_out_V_25</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6639,20 +6639,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6668,7 +6668,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040018240</coreId>
+						<coreId>805502912</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6693,8 +6693,8 @@
 						<type>0</type>
 						<id>112</id>
 						<name>layer4_out_V_26</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6702,20 +6702,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6731,7 +6731,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>574453865</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6756,8 +6756,8 @@
 						<type>0</type>
 						<id>113</id>
 						<name>layer4_out_V_27</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6765,20 +6765,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6794,7 +6794,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040021088</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6819,8 +6819,8 @@
 						<type>0</type>
 						<id>114</id>
 						<name>layer4_out_V_28</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6828,20 +6828,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6857,7 +6857,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040022712</coreId>
+						<coreId>805507840</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6882,8 +6882,8 @@
 						<type>0</type>
 						<id>115</id>
 						<name>layer4_out_V_29</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6891,20 +6891,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6920,7 +6920,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1869438831</coreId>
+						<coreId>819455200</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -6945,8 +6945,8 @@
 						<type>0</type>
 						<id>116</id>
 						<name>layer4_out_V_30</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -6954,20 +6954,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -6983,7 +6983,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1684371561</coreId>
+						<coreId>805510880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -7008,8 +7008,8 @@
 						<type>0</type>
 						<id>117</id>
 						<name>layer4_out_V_31</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7017,20 +7017,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7046,7 +7046,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1835606124</coreId>
+						<coreId>805510848</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -7071,8 +7071,8 @@
 						<type>0</type>
 						<id>118</id>
 						<name>layer4_out_V_32</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7080,20 +7080,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7134,8 +7134,8 @@
 						<type>0</type>
 						<id>119</id>
 						<name>layer4_out_V_33</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7143,20 +7143,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7172,7 +7172,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1819244153</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -7197,8 +7197,8 @@
 						<type>0</type>
 						<id>120</id>
 						<name>layer4_out_V_34</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7206,20 +7206,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7235,7 +7235,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1330007625</coreId>
+						<coreId>805517008</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -7260,8 +7260,8 @@
 						<type>0</type>
 						<id>121</id>
 						<name>layer4_out_V_35</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7269,20 +7269,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7298,7 +7298,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1836016416</coreId>
+						<coreId>805518456</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -7323,8 +7323,8 @@
 						<type>0</type>
 						<id>122</id>
 						<name>layer4_out_V_36</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7332,20 +7332,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7386,8 +7386,8 @@
 						<type>0</type>
 						<id>123</id>
 						<name>layer4_out_V_37</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7395,20 +7395,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7424,7 +7424,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040035632</coreId>
+						<coreId>1184122304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -7449,8 +7449,8 @@
 						<type>0</type>
 						<id>124</id>
 						<name>layer4_out_V_38</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7458,20 +7458,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7487,7 +7487,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>480</coreId>
+						<coreId>1184122304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -7512,8 +7512,8 @@
 						<type>0</type>
 						<id>125</id>
 						<name>layer4_out_V_39</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7521,20 +7521,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7550,7 +7550,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1184053552</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -7575,8 +7575,8 @@
 						<type>0</type>
 						<id>126</id>
 						<name>layer4_out_V_40</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7584,20 +7584,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7613,7 +7613,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3209465808</coreId>
+						<coreId>1184058064</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -7638,8 +7638,8 @@
 						<type>0</type>
 						<id>127</id>
 						<name>layer4_out_V_41</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7647,20 +7647,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7676,7 +7676,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>840979276</coreId>
+						<coreId>1184059584</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -7701,8 +7701,8 @@
 						<type>0</type>
 						<id>128</id>
 						<name>layer4_out_V_42</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7710,20 +7710,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7739,7 +7739,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040043344</coreId>
+						<coreId>1184063232</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -7764,8 +7764,8 @@
 						<type>0</type>
 						<id>129</id>
 						<name>layer4_out_V_43</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7773,20 +7773,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7802,7 +7802,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040046664</coreId>
+						<coreId>1184062624</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -7827,8 +7827,8 @@
 						<type>0</type>
 						<id>130</id>
 						<name>layer4_out_V_44</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7836,20 +7836,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7865,7 +7865,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040046720</coreId>
+						<coreId>1184064144</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -7890,8 +7890,8 @@
 						<type>0</type>
 						<id>131</id>
 						<name>layer4_out_V_45</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7899,20 +7899,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7928,7 +7928,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>542329928</coreId>
+						<coreId>1184066272</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -7953,8 +7953,8 @@
 						<type>0</type>
 						<id>132</id>
 						<name>layer4_out_V_46</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -7962,20 +7962,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -7991,7 +7991,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040049680</coreId>
+						<coreId>1184067184</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8016,8 +8016,8 @@
 						<type>0</type>
 						<id>133</id>
 						<name>layer4_out_V_47</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8025,20 +8025,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8054,7 +8054,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1184065968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8079,8 +8079,8 @@
 						<type>0</type>
 						<id>134</id>
 						<name>layer4_out_V_48</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8088,20 +8088,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8117,7 +8117,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194101040</coreId>
+						<coreId>1184070224</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8142,8 +8142,8 @@
 						<type>0</type>
 						<id>135</id>
 						<name>layer4_out_V_49</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8151,20 +8151,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8180,7 +8180,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040053872</coreId>
+						<coreId>1184071744</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8205,8 +8205,8 @@
 						<type>0</type>
 						<id>136</id>
 						<name>layer4_out_V_50</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8214,20 +8214,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8243,7 +8243,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040055680</coreId>
+						<coreId>1184075392</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8268,8 +8268,8 @@
 						<type>0</type>
 						<id>137</id>
 						<name>layer4_out_V_51</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8277,20 +8277,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8306,7 +8306,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>1184074784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8331,8 +8331,8 @@
 						<type>0</type>
 						<id>138</id>
 						<name>layer4_out_V_52</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8340,20 +8340,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8369,7 +8369,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1184076304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8394,8 +8394,8 @@
 						<type>0</type>
 						<id>139</id>
 						<name>layer4_out_V_53</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8403,20 +8403,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8432,7 +8432,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040060208</coreId>
+						<coreId>1184078432</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8457,8 +8457,8 @@
 						<type>0</type>
 						<id>140</id>
 						<name>layer4_out_V_54</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8466,20 +8466,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8495,7 +8495,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>639660143</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8520,8 +8520,8 @@
 						<type>0</type>
 						<id>141</id>
 						<name>layer4_out_V_55</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8529,20 +8529,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8558,7 +8558,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983356928</coreId>
+						<coreId>864569312</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8583,8 +8583,8 @@
 						<type>0</type>
 						<id>142</id>
 						<name>layer4_out_V_56</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8592,20 +8592,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8621,7 +8621,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040066784</coreId>
+						<coreId>1184083408</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8646,8 +8646,8 @@
 						<type>0</type>
 						<id>143</id>
 						<name>layer4_out_V_57</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8655,20 +8655,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8684,7 +8684,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040067440</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8709,8 +8709,8 @@
 						<type>0</type>
 						<id>144</id>
 						<name>layer4_out_V_58</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8718,20 +8718,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8747,7 +8747,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194103784</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8772,8 +8772,8 @@
 						<type>0</type>
 						<id>145</id>
 						<name>layer4_out_V_59</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8781,20 +8781,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8810,7 +8810,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194104688</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8835,8 +8835,8 @@
 						<type>0</type>
 						<id>146</id>
 						<name>layer4_out_V_60</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8844,20 +8844,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8873,7 +8873,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194106184</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8898,8 +8898,8 @@
 						<type>0</type>
 						<id>147</id>
 						<name>layer4_out_V_61</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8907,20 +8907,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8936,7 +8936,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1184094608</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -8961,8 +8961,8 @@
 						<type>0</type>
 						<id>148</id>
 						<name>layer4_out_V_62</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -8970,20 +8970,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -8999,7 +8999,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3209465808</coreId>
+						<coreId>1184094064</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -9024,8 +9024,8 @@
 						<type>0</type>
 						<id>149</id>
 						<name>layer4_out_V_63</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>45</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -9033,20 +9033,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>45</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -9062,7 +9062,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1819113532</coreId>
+						<coreId>784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -9087,8 +9087,8 @@
 						<type>0</type>
 						<id>150</id>
 						<name>call_ret3_i_i</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -9096,20 +9096,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -9125,7 +9125,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194110368</coreId>
+						<coreId>1013212536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>512</bitwidth>
@@ -9204,7 +9204,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.64</m_delay>
+				<m_delay>3.61</m_delay>
 				<m_topoIndex>135</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -9214,8 +9214,8 @@
 						<type>0</type>
 						<id>151</id>
 						<name>layer5_out_V</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -9223,20 +9223,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -9252,7 +9252,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>1184102584</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -9277,8 +9277,8 @@
 						<type>0</type>
 						<id>152</id>
 						<name>layer5_out_V_1</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -9286,20 +9286,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -9315,7 +9315,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194116032</coreId>
+						<coreId>1184104520</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -9340,8 +9340,8 @@
 						<type>0</type>
 						<id>153</id>
 						<name>layer5_out_V_2</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -9349,20 +9349,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -9378,7 +9378,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1184106584</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -9403,8 +9403,8 @@
 						<type>0</type>
 						<id>154</id>
 						<name>layer5_out_V_3</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -9412,20 +9412,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -9441,7 +9441,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194123840</coreId>
+						<coreId>1953068591</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -9466,8 +9466,8 @@
 						<type>0</type>
 						<id>155</id>
 						<name>layer5_out_V_4</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -9475,20 +9475,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -9504,7 +9504,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194125832</coreId>
+						<coreId>1184110400</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -9529,8 +9529,8 @@
 						<type>0</type>
 						<id>156</id>
 						<name>layer5_out_V_5</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -9538,20 +9538,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -9567,7 +9567,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3209465808</coreId>
+						<coreId>1184112336</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -9592,8 +9592,8 @@
 						<type>0</type>
 						<id>157</id>
 						<name>layer5_out_V_6</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -9601,20 +9601,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -9630,7 +9630,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194129472</coreId>
+						<coreId>997959528</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -9655,8 +9655,8 @@
 						<type>0</type>
 						<id>158</id>
 						<name>layer5_out_V_7</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -9664,20 +9664,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -9693,7 +9693,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>997961048</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -9718,8 +9718,8 @@
 						<type>0</type>
 						<id>159</id>
 						<name>layer5_out_V_8</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -9727,20 +9727,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -9756,7 +9756,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194133472</coreId>
+						<coreId>833771583</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -9781,8 +9781,8 @@
 						<type>0</type>
 						<id>160</id>
 						<name>layer5_out_V_9</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -9790,20 +9790,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -9819,7 +9819,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741744684</coreId>
+						<coreId>1902080097</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -9844,8 +9844,8 @@
 						<type>0</type>
 						<id>161</id>
 						<name>layer5_out_V_10</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -9853,20 +9853,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -9882,7 +9882,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194137336</coreId>
+						<coreId>833774165</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -9907,8 +9907,8 @@
 						<type>0</type>
 						<id>162</id>
 						<name>layer5_out_V_11</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -9916,20 +9916,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -9945,7 +9945,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194139472</coreId>
+						<coreId>997969632</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -9970,8 +9970,8 @@
 						<type>0</type>
 						<id>163</id>
 						<name>layer5_out_V_12</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -9979,20 +9979,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10008,7 +10008,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194131712</coreId>
+						<coreId>997971304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10033,8 +10033,8 @@
 						<type>0</type>
 						<id>164</id>
 						<name>layer5_out_V_13</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10042,20 +10042,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10071,7 +10071,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>4</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10096,8 +10096,8 @@
 						<type>0</type>
 						<id>165</id>
 						<name>layer5_out_V_14</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10105,20 +10105,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10134,7 +10134,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1346576430</coreId>
+						<coreId>997975136</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10159,8 +10159,8 @@
 						<type>0</type>
 						<id>166</id>
 						<name>layer5_out_V_15</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10168,20 +10168,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10197,7 +10197,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194147176</coreId>
+						<coreId>6</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10222,8 +10222,8 @@
 						<type>0</type>
 						<id>167</id>
 						<name>layer5_out_V_16</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10231,20 +10231,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10260,7 +10260,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3209465808</coreId>
+						<coreId>997978760</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10285,8 +10285,8 @@
 						<type>0</type>
 						<id>168</id>
 						<name>layer5_out_V_17</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10294,20 +10294,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10323,7 +10323,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194150624</coreId>
+						<coreId>833779346</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10348,8 +10348,8 @@
 						<type>0</type>
 						<id>169</id>
 						<name>layer5_out_V_18</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10357,20 +10357,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10386,7 +10386,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194153152</coreId>
+						<coreId>809121073</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10411,8 +10411,8 @@
 						<type>0</type>
 						<id>170</id>
 						<name>layer5_out_V_19</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10420,20 +10420,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10449,7 +10449,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1601399156</coreId>
+						<coreId>833780896</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10474,8 +10474,8 @@
 						<type>0</type>
 						<id>171</id>
 						<name>layer5_out_V_20</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10483,20 +10483,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10512,7 +10512,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>997987344</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10537,8 +10537,8 @@
 						<type>0</type>
 						<id>172</id>
 						<name>layer5_out_V_21</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10546,20 +10546,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10575,7 +10575,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>480</coreId>
+						<coreId>997989016</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10600,8 +10600,8 @@
 						<type>0</type>
 						<id>173</id>
 						<name>layer5_out_V_22</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10609,20 +10609,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10638,7 +10638,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1667457325</coreId>
+						<coreId>4</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10663,8 +10663,8 @@
 						<type>0</type>
 						<id>174</id>
 						<name>layer5_out_V_23</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10672,20 +10672,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10701,7 +10701,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>997992848</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10726,8 +10726,8 @@
 						<type>0</type>
 						<id>175</id>
 						<name>layer5_out_V_24</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10735,20 +10735,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10764,7 +10764,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194033736</coreId>
+						<coreId>6</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10789,8 +10789,8 @@
 						<type>0</type>
 						<id>176</id>
 						<name>layer5_out_V_25</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10798,20 +10798,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10827,7 +10827,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>997996472</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10852,8 +10852,8 @@
 						<type>0</type>
 						<id>177</id>
 						<name>layer5_out_V_26</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10861,20 +10861,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10890,7 +10890,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194037568</coreId>
+						<coreId>833786717</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10915,8 +10915,8 @@
 						<type>0</type>
 						<id>178</id>
 						<name>layer5_out_V_27</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10924,20 +10924,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -10953,7 +10953,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>544175214</coreId>
+						<coreId>825046065</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -10978,8 +10978,8 @@
 						<type>0</type>
 						<id>179</id>
 						<name>layer5_out_V_28</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -10987,20 +10987,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11016,7 +11016,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194041304</coreId>
+						<coreId>833788139</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -11041,8 +11041,8 @@
 						<type>0</type>
 						<id>180</id>
 						<name>layer5_out_V_29</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -11050,20 +11050,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11079,7 +11079,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2977127538</coreId>
+						<coreId>998005056</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -11104,8 +11104,8 @@
 						<type>0</type>
 						<id>181</id>
 						<name>layer5_out_V_30</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -11113,20 +11113,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11142,7 +11142,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>141</coreId>
+						<coreId>998006728</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -11167,8 +11167,8 @@
 						<type>0</type>
 						<id>182</id>
 						<name>layer5_out_V_31</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config5_s</contextNormFuncName>
@@ -11176,20 +11176,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config5&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11205,7 +11205,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2977128953</coreId>
+						<coreId>4</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -11230,8 +11230,8 @@
 						<type>0</type>
 						<id>183</id>
 						<name>call_ret4_i_i</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -11239,20 +11239,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11268,7 +11268,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>10</coreId>
+						<coreId>998010560</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>512</bitwidth>
@@ -11315,7 +11315,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.96</m_delay>
+				<m_delay>1.06</m_delay>
 				<m_topoIndex>168</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -11325,8 +11325,8 @@
 						<type>0</type>
 						<id>184</id>
 						<name>layer7_out_V</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -11334,20 +11334,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11363,7 +11363,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>4</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -11388,8 +11388,8 @@
 						<type>0</type>
 						<id>185</id>
 						<name>layer7_out_V_1</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -11397,20 +11397,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11451,8 +11451,8 @@
 						<type>0</type>
 						<id>186</id>
 						<name>layer7_out_V_2</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -11460,20 +11460,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11489,7 +11489,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194052856</coreId>
+						<coreId>833792696</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -11514,8 +11514,8 @@
 						<type>0</type>
 						<id>187</id>
 						<name>layer7_out_V_3</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -11523,20 +11523,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11552,7 +11552,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2977131406</coreId>
+						<coreId>998015200</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -11577,8 +11577,8 @@
 						<type>0</type>
 						<id>188</id>
 						<name>layer7_out_V_4</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -11586,20 +11586,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11615,7 +11615,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4</coreId>
+						<coreId>6</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -11640,8 +11640,8 @@
 						<type>0</type>
 						<id>189</id>
 						<name>layer7_out_V_5</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -11649,20 +11649,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11678,7 +11678,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953244793</coreId>
+						<coreId>998018072</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -11703,8 +11703,8 @@
 						<type>0</type>
 						<id>190</id>
 						<name>layer7_out_V_6</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -11712,20 +11712,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11741,7 +11741,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194057552</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -11766,8 +11766,8 @@
 						<type>0</type>
 						<id>191</id>
 						<name>layer7_out_V_7</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -11775,20 +11775,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11804,7 +11804,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2977133263</coreId>
+						<coreId>998020064</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -11829,8 +11829,8 @@
 						<type>0</type>
 						<id>192</id>
 						<name>layer7_out_V_8</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -11838,20 +11838,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11867,7 +11867,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>6</coreId>
+						<coreId>3</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -11892,8 +11892,8 @@
 						<type>0</type>
 						<id>193</id>
 						<name>layer7_out_V_9</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -11901,20 +11901,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11930,7 +11930,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194061552</coreId>
+						<coreId>998022600</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -11955,8 +11955,8 @@
 						<type>0</type>
 						<id>194</id>
 						<name>layer7_out_V_10</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -11964,20 +11964,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -11993,7 +11993,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194062792</coreId>
+						<coreId>539780468</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -12018,8 +12018,8 @@
 						<type>0</type>
 						<id>195</id>
 						<name>layer7_out_V_11</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12027,20 +12027,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -12056,7 +12056,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4</coreId>
+						<coreId>998025856</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -12081,8 +12081,8 @@
 						<type>0</type>
 						<id>196</id>
 						<name>layer7_out_V_12</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12090,20 +12090,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -12119,7 +12119,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194065760</coreId>
+						<coreId>998027264</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -12144,8 +12144,8 @@
 						<type>0</type>
 						<id>197</id>
 						<name>layer7_out_V_13</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12153,20 +12153,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -12182,7 +12182,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>6</coreId>
+						<coreId>998028864</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -12207,8 +12207,8 @@
 						<type>0</type>
 						<id>198</id>
 						<name>layer7_out_V_14</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12216,20 +12216,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -12245,7 +12245,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194068520</coreId>
+						<coreId>998030224</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -12270,8 +12270,8 @@
 						<type>0</type>
 						<id>199</id>
 						<name>layer7_out_V_15</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12279,20 +12279,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -12308,7 +12308,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2977138072</coreId>
+						<coreId>1208372480</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -12333,8 +12333,8 @@
 						<type>0</type>
 						<id>200</id>
 						<name>layer7_out_V_16</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12342,20 +12342,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -12371,7 +12371,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1684371561</coreId>
+						<coreId>833797498</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -12396,8 +12396,8 @@
 						<type>0</type>
 						<id>201</id>
 						<name>layer7_out_V_17</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12405,20 +12405,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -12434,7 +12434,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2977139462</coreId>
+						<coreId>864646192</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -12459,8 +12459,8 @@
 						<type>0</type>
 						<id>202</id>
 						<name>layer7_out_V_18</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12468,20 +12468,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -12497,7 +12497,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194075376</coreId>
+						<coreId>864647656</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -12522,8 +12522,8 @@
 						<type>0</type>
 						<id>203</id>
 						<name>layer7_out_V_19</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12531,20 +12531,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -12585,8 +12585,8 @@
 						<type>0</type>
 						<id>204</id>
 						<name>layer7_out_V_20</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12594,20 +12594,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -12623,7 +12623,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194080992</coreId>
+						<coreId>864653480</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -12648,8 +12648,8 @@
 						<type>0</type>
 						<id>205</id>
 						<name>layer7_out_V_21</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12657,20 +12657,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -12686,7 +12686,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194082232</coreId>
+						<coreId>1798268269</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -12711,8 +12711,8 @@
 						<type>0</type>
 						<id>206</id>
 						<name>layer7_out_V_22</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12720,20 +12720,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -12749,7 +12749,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4</coreId>
+						<coreId>3</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -12774,8 +12774,8 @@
 						<type>0</type>
 						<id>207</id>
 						<name>layer7_out_V_23</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12783,20 +12783,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -12812,7 +12812,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194085200</coreId>
+						<coreId>1869770357</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -12837,8 +12837,8 @@
 						<type>0</type>
 						<id>208</id>
 						<name>layer7_out_V_24</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12846,20 +12846,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -12875,7 +12875,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>6</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -12900,8 +12900,8 @@
 						<type>0</type>
 						<id>209</id>
 						<name>layer7_out_V_25</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12909,20 +12909,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -12938,7 +12938,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194087960</coreId>
+						<coreId>1701012289</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -12963,8 +12963,8 @@
 						<type>0</type>
 						<id>210</id>
 						<name>layer7_out_V_26</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -12972,20 +12972,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13001,7 +13001,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2977146015</coreId>
+						<coreId>1869635878</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -13026,8 +13026,8 @@
 						<type>0</type>
 						<id>211</id>
 						<name>layer7_out_V_27</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -13035,20 +13035,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13064,7 +13064,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1864394606</coreId>
+						<coreId>644113784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -13089,8 +13089,8 @@
 						<type>0</type>
 						<id>212</id>
 						<name>layer7_out_V_28</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -13098,20 +13098,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13127,7 +13127,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2977147374</coreId>
+						<coreId>1718580026</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -13152,8 +13152,8 @@
 						<type>0</type>
 						<id>213</id>
 						<name>layer7_out_V_29</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -13161,20 +13161,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13190,7 +13190,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194094816</coreId>
+						<coreId>1701994871</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -13215,8 +13215,8 @@
 						<type>0</type>
 						<id>214</id>
 						<name>layer7_out_V_30</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -13224,20 +13224,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13253,7 +13253,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3194096056</coreId>
+						<coreId>2019650351</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -13278,8 +13278,8 @@
 						<type>0</type>
 						<id>215</id>
 						<name>layer7_out_V_31</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>53</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -13287,20 +13287,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>53</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13316,7 +13316,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4</coreId>
+						<coreId>1868767266</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -13341,8 +13341,8 @@
 						<type>0</type>
 						<id>216</id>
 						<name>call_ret5_i_i</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -13350,20 +13350,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13379,7 +13379,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3209465808</coreId>
+						<coreId>575620686</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>512</bitwidth>
@@ -13426,7 +13426,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.64</m_delay>
+				<m_delay>3.62</m_delay>
 				<m_topoIndex>201</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -13436,8 +13436,8 @@
 						<type>0</type>
 						<id>217</id>
 						<name>layer8_out_V</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -13445,20 +13445,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13474,7 +13474,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -13499,8 +13499,8 @@
 						<type>0</type>
 						<id>218</id>
 						<name>layer8_out_V_1</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -13508,20 +13508,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13537,7 +13537,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1635017060</coreId>
+						<coreId>542329928</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -13562,8 +13562,8 @@
 						<type>0</type>
 						<id>219</id>
 						<name>layer8_out_V_2</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -13571,20 +13571,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13600,7 +13600,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1852793632</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -13625,8 +13625,8 @@
 						<type>0</type>
 						<id>220</id>
 						<name>layer8_out_V_3</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -13634,20 +13634,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13663,7 +13663,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983409816</coreId>
+						<coreId>1634492261</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -13688,8 +13688,8 @@
 						<type>0</type>
 						<id>221</id>
 						<name>layer8_out_V_4</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -13697,20 +13697,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13726,7 +13726,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>16843008</coreId>
+						<coreId>1768318322</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -13751,8 +13751,8 @@
 						<type>0</type>
 						<id>222</id>
 						<name>layer8_out_V_5</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -13760,20 +13760,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13789,7 +13789,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>690648159</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -13814,8 +13814,8 @@
 						<type>0</type>
 						<id>223</id>
 						<name>layer8_out_V_6</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -13823,20 +13823,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13852,7 +13852,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1684371561</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -13877,8 +13877,8 @@
 						<type>0</type>
 						<id>224</id>
 						<name>layer8_out_V_7</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -13886,20 +13886,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13915,7 +13915,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1763720051</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -13940,8 +13940,8 @@
 						<type>0</type>
 						<id>225</id>
 						<name>layer8_out_V_8</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -13949,20 +13949,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -13978,7 +13978,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>640688172</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14003,8 +14003,8 @@
 						<type>0</type>
 						<id>226</id>
 						<name>layer8_out_V_9</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14012,20 +14012,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14041,7 +14041,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1869833586</coreId>
+						<coreId>1031365995</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14066,8 +14066,8 @@
 						<type>0</type>
 						<id>227</id>
 						<name>layer8_out_V_10</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14075,20 +14075,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14104,7 +14104,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1730551867</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14129,8 +14129,8 @@
 						<type>0</type>
 						<id>228</id>
 						<name>layer8_out_V_11</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14138,20 +14138,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14167,7 +14167,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983425864</coreId>
+						<coreId>908078134</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14192,8 +14192,8 @@
 						<type>0</type>
 						<id>229</id>
 						<name>layer8_out_V_12</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14201,20 +14201,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14230,7 +14230,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>304</coreId>
+						<coreId>1767864417</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14255,8 +14255,8 @@
 						<type>0</type>
 						<id>230</id>
 						<name>layer8_out_V_13</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14264,20 +14264,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14293,7 +14293,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1914711102</coreId>
+						<coreId>942944813</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14318,8 +14318,8 @@
 						<type>0</type>
 						<id>231</id>
 						<name>layer8_out_V_14</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14327,20 +14327,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14356,7 +14356,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983431632</coreId>
+						<coreId>1948282479</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14381,8 +14381,8 @@
 						<type>0</type>
 						<id>232</id>
 						<name>layer8_out_V_15</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14390,20 +14390,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14419,7 +14419,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983433432</coreId>
+						<coreId>1667851878</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14444,8 +14444,8 @@
 						<type>0</type>
 						<id>233</id>
 						<name>layer8_out_V_16</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14453,20 +14453,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14482,7 +14482,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983435520</coreId>
+						<coreId>539116867</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14507,8 +14507,8 @@
 						<type>0</type>
 						<id>234</id>
 						<name>layer8_out_V_17</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14516,20 +14516,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14545,7 +14545,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>864711104</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14570,8 +14570,8 @@
 						<type>0</type>
 						<id>235</id>
 						<name>layer8_out_V_18</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14579,20 +14579,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14608,7 +14608,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14633,8 +14633,8 @@
 						<type>0</type>
 						<id>236</id>
 						<name>layer8_out_V_19</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14642,20 +14642,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14671,7 +14671,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983441304</coreId>
+						<coreId>1280</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14696,8 +14696,8 @@
 						<type>0</type>
 						<id>237</id>
 						<name>layer8_out_V_20</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14705,20 +14705,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14734,7 +14734,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983443152</coreId>
+						<coreId>374</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14759,8 +14759,8 @@
 						<type>0</type>
 						<id>238</id>
 						<name>layer8_out_V_21</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14768,20 +14768,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14797,7 +14797,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1484524767</coreId>
+						<coreId>1834970975</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14822,8 +14822,8 @@
 						<type>0</type>
 						<id>239</id>
 						<name>layer8_out_V_22</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14831,20 +14831,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14860,7 +14860,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>864571840</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14885,8 +14885,8 @@
 						<type>0</type>
 						<id>240</id>
 						<name>layer8_out_V_23</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14894,20 +14894,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14923,7 +14923,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2858489507</coreId>
+						<coreId>864573968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -14948,8 +14948,8 @@
 						<type>0</type>
 						<id>241</id>
 						<name>layer8_out_V_24</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -14957,20 +14957,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -14986,7 +14986,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>480</coreId>
+						<coreId>864575792</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15011,8 +15011,8 @@
 						<type>0</type>
 						<id>242</id>
 						<name>layer8_out_V_25</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -15020,20 +15020,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -15049,7 +15049,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1330007625</coreId>
+						<coreId>864577248</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15074,8 +15074,8 @@
 						<type>0</type>
 						<id>243</id>
 						<name>layer8_out_V_26</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -15083,20 +15083,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -15137,8 +15137,8 @@
 						<type>0</type>
 						<id>244</id>
 						<name>layer8_out_V_27</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -15146,20 +15146,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -15175,7 +15175,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983456928</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15200,8 +15200,8 @@
 						<type>0</type>
 						<id>245</id>
 						<name>layer8_out_V_28</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -15209,20 +15209,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -15263,8 +15263,8 @@
 						<type>0</type>
 						<id>246</id>
 						<name>layer8_out_V_29</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -15272,20 +15272,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -15301,7 +15301,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>544367987</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15326,8 +15326,8 @@
 						<type>0</type>
 						<id>247</id>
 						<name>layer8_out_V_30</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -15335,20 +15335,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -15364,7 +15364,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702258035</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15389,8 +15389,8 @@
 						<type>0</type>
 						<id>248</id>
 						<name>layer8_out_V_31</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config8_s</contextNormFuncName>
@@ -15398,20 +15398,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config8&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -15427,7 +15427,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3209084352</coreId>
+						<coreId>1036442976</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15452,8 +15452,8 @@
 						<type>0</type>
 						<id>249</id>
 						<name>call_ret6_i_i</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -15461,20 +15461,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -15537,7 +15537,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.96</m_delay>
+				<m_delay>1.06</m_delay>
 				<m_topoIndex>234</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -15547,8 +15547,8 @@
 						<type>0</type>
 						<id>250</id>
 						<name>layer10_out_V</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -15556,20 +15556,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -15585,7 +15585,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983469584</coreId>
+						<coreId>1768316784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15610,8 +15610,8 @@
 						<type>0</type>
 						<id>251</id>
 						<name>layer10_out_V_1</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -15619,20 +15619,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -15648,7 +15648,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>32</coreId>
+						<coreId>1702258035</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15673,8 +15673,8 @@
 						<type>0</type>
 						<id>252</id>
 						<name>layer10_out_V_2</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -15682,20 +15682,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -15711,7 +15711,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983471904</coreId>
+						<coreId>864594384</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15736,8 +15736,8 @@
 						<type>0</type>
 						<id>253</id>
 						<name>layer10_out_V_3</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -15745,20 +15745,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -15774,7 +15774,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>864596272</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15799,8 +15799,8 @@
 						<type>0</type>
 						<id>254</id>
 						<name>layer10_out_V_4</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -15808,20 +15808,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -15837,7 +15837,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>864596880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15862,8 +15862,8 @@
 						<type>0</type>
 						<id>255</id>
 						<name>layer10_out_V_5</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -15871,20 +15871,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -15900,7 +15900,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983454576</coreId>
+						<coreId>864598656</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15925,8 +15925,8 @@
 						<type>0</type>
 						<id>256</id>
 						<name>layer10_out_V_6</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -15934,20 +15934,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -15963,7 +15963,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>864599872</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -15988,8 +15988,8 @@
 						<type>0</type>
 						<id>257</id>
 						<name>layer10_out_V_7</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -15997,20 +15997,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16026,7 +16026,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1769236854</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16051,8 +16051,8 @@
 						<type>0</type>
 						<id>258</id>
 						<name>layer10_out_V_8</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -16060,20 +16060,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16089,7 +16089,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2977150276</coreId>
+						<coreId>864603576</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16114,8 +16114,8 @@
 						<type>0</type>
 						<id>259</id>
 						<name>layer10_out_V_9</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -16123,20 +16123,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16152,7 +16152,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>11</coreId>
+						<coreId>864603448</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16177,8 +16177,8 @@
 						<type>0</type>
 						<id>260</id>
 						<name>layer10_out_V_10</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -16186,20 +16186,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16215,7 +16215,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216656496</coreId>
+						<coreId>864605032</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16240,8 +16240,8 @@
 						<type>0</type>
 						<id>261</id>
 						<name>layer10_out_V_11</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -16249,20 +16249,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16278,7 +16278,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2977152177</coreId>
+						<coreId>864604512</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16303,8 +16303,8 @@
 						<type>0</type>
 						<id>262</id>
 						<name>layer10_out_V_12</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -16312,20 +16312,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16341,7 +16341,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2977152888</coreId>
+						<coreId>864608232</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16366,8 +16366,8 @@
 						<type>0</type>
 						<id>263</id>
 						<name>layer10_out_V_13</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -16375,20 +16375,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16404,7 +16404,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3030082827</coreId>
+						<coreId>1917869932</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16429,8 +16429,8 @@
 						<type>0</type>
 						<id>264</id>
 						<name>layer10_out_V_14</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -16438,20 +16438,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16467,7 +16467,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2977154081</coreId>
+						<coreId>864611408</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16492,8 +16492,8 @@
 						<type>0</type>
 						<id>265</id>
 						<name>layer10_out_V_15</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -16501,20 +16501,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16530,7 +16530,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>6</coreId>
+						<coreId>864613152</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16555,8 +16555,8 @@
 						<type>0</type>
 						<id>266</id>
 						<name>layer10_out_V_16</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -16564,20 +16564,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16593,7 +16593,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3030084606</coreId>
+						<coreId>864614640</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16618,8 +16618,8 @@
 						<type>0</type>
 						<id>267</id>
 						<name>layer10_out_V_17</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -16627,20 +16627,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16656,7 +16656,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1948262961</coreId>
+						<coreId>1036442976</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16681,8 +16681,8 @@
 						<type>0</type>
 						<id>268</id>
 						<name>layer10_out_V_18</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -16690,20 +16690,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16719,7 +16719,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4</coreId>
+						<coreId>394</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16744,8 +16744,8 @@
 						<type>0</type>
 						<id>269</id>
 						<name>layer10_out_V_19</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -16753,20 +16753,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16782,7 +16782,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>10</coreId>
+						<coreId>864621600</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16807,8 +16807,8 @@
 						<type>0</type>
 						<id>270</id>
 						<name>layer10_out_V_20</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -16816,20 +16816,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16845,7 +16845,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>11</coreId>
+						<coreId>864626360</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16870,8 +16870,8 @@
 						<type>0</type>
 						<id>271</id>
 						<name>layer10_out_V_21</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -16879,20 +16879,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16908,7 +16908,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216677888</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16933,8 +16933,8 @@
 						<type>0</type>
 						<id>272</id>
 						<name>layer10_out_V_22</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -16942,20 +16942,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -16971,7 +16971,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>42</coreId>
+						<coreId>864628192</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -16996,8 +16996,8 @@
 						<type>0</type>
 						<id>273</id>
 						<name>layer10_out_V_23</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -17005,20 +17005,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -17034,7 +17034,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216680536</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -17059,8 +17059,8 @@
 						<type>0</type>
 						<id>274</id>
 						<name>layer10_out_V_24</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -17068,20 +17068,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -17097,7 +17097,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741681509</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -17122,8 +17122,8 @@
 						<type>0</type>
 						<id>275</id>
 						<name>layer10_out_V_25</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -17131,20 +17131,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -17160,7 +17160,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216683560</coreId>
+						<coreId>2037146996</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -17185,8 +17185,8 @@
 						<type>0</type>
 						<id>276</id>
 						<name>layer10_out_V_26</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -17194,20 +17194,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -17223,7 +17223,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>864634528</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -17248,8 +17248,8 @@
 						<type>0</type>
 						<id>277</id>
 						<name>layer10_out_V_27</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -17257,20 +17257,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -17286,7 +17286,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216686584</coreId>
+						<coreId>864636128</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -17311,8 +17311,8 @@
 						<type>0</type>
 						<id>278</id>
 						<name>layer10_out_V_28</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -17320,20 +17320,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -17349,7 +17349,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216688464</coreId>
+						<coreId>864637568</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -17374,8 +17374,8 @@
 						<type>0</type>
 						<id>279</id>
 						<name>layer10_out_V_29</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -17383,20 +17383,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -17412,7 +17412,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216690472</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -17437,8 +17437,8 @@
 						<type>0</type>
 						<id>280</id>
 						<name>layer10_out_V_30</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -17446,20 +17446,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -17475,7 +17475,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216691600</coreId>
+						<coreId>864640856</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -17500,8 +17500,8 @@
 						<type>0</type>
 						<id>281</id>
 						<name>layer10_out_V_31</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>61</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -17509,20 +17509,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/myproject.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/myproject.cpp</first>
 											<second>myproject</second>
 										</first>
 										<second>61</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -17538,7 +17538,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216693272</coreId>
+						<coreId>304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -17563,8 +17563,8 @@
 						<type>0</type>
 						<id>282</id>
 						<name>call_ret7_i_i</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config11&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config11_s</contextNormFuncName>
@@ -17572,20 +17572,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config11&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -17601,7 +17601,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1</coreId>
+						<coreId>833624224</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
@@ -17648,7 +17648,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.62</m_delay>
+				<m_delay>3.61</m_delay>
 				<m_topoIndex>267</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -17658,8 +17658,8 @@
 						<type>0</type>
 						<id>283</id>
 						<name>layer11_out_V</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config11&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config11_s</contextNormFuncName>
@@ -17667,20 +17667,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config11&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -17696,7 +17696,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216700408</coreId>
+						<coreId>833630320</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -17721,8 +17721,8 @@
 						<type>0</type>
 						<id>284</id>
 						<name>layer11_out_V_1</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config11&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config11_s</contextNormFuncName>
@@ -17730,20 +17730,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config11&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -17759,7 +17759,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>10</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -17784,8 +17784,8 @@
 						<type>0</type>
 						<id>285</id>
 						<name>layer11_out_V_2</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config11&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config11_s</contextNormFuncName>
@@ -17793,20 +17793,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config11&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -17822,7 +17822,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>6</coreId>
+						<coreId>833634168</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -17847,8 +17847,8 @@
 						<type>0</type>
 						<id>286</id>
 						<name>layer11_out_V_3</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config11&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config11_s</contextNormFuncName>
@@ -17856,20 +17856,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config11&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -17885,7 +17885,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216706024</coreId>
+						<coreId>833635840</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -17910,8 +17910,8 @@
 						<type>0</type>
 						<id>287</id>
 						<name>layer11_out_V_4</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>41</lineNumber>
 						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config11&amp;gt;</contextFuncName>
 						<contextNormFuncName>dense_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config11_s</contextNormFuncName>
@@ -17919,20 +17919,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config11&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -17948,7 +17948,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3030101775</coreId>
+						<coreId>998031552</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -17973,8 +17973,8 @@
 						<type>0</type>
 						<id>288</id>
 						<name>call_ret_i_i</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -17982,20 +17982,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -18011,7 +18011,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>875639328</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
@@ -18033,7 +18033,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.83</m_delay>
+				<m_delay>2.02</m_delay>
 				<m_topoIndex>273</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -18043,8 +18043,8 @@
 						<type>0</type>
 						<id>289</id>
 						<name>layer13_out_0_ret_i_i</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -18052,20 +18052,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -18081,7 +18081,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216712072</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -18106,8 +18106,8 @@
 						<type>0</type>
 						<id>290</id>
 						<name>out_buf_0_addr_write_ln386</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -18115,20 +18115,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -18144,7 +18144,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>705</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -18160,7 +18160,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.24</m_delay>
+				<m_delay>0.65</m_delay>
 				<m_topoIndex>280</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -18170,8 +18170,8 @@
 						<type>0</type>
 						<id>291</id>
 						<name>layer13_out_1_ret_i_i</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -18179,20 +18179,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -18208,7 +18208,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>141</coreId>
+						<coreId>833645456</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -18233,8 +18233,8 @@
 						<type>0</type>
 						<id>292</id>
 						<name>out_buf_1_addr_write_ln386</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -18242,20 +18242,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -18271,7 +18271,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216718400</coreId>
+						<coreId>833647696</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -18287,7 +18287,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.24</m_delay>
+				<m_delay>0.65</m_delay>
 				<m_topoIndex>282</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -18297,8 +18297,8 @@
 						<type>0</type>
 						<id>293</id>
 						<name>layer13_out_2_ret_i_i</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -18306,20 +18306,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -18335,7 +18335,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3040124432</coreId>
+						<coreId>833649944</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -18360,8 +18360,8 @@
 						<type>0</type>
 						<id>294</id>
 						<name>out_buf_2_addr_write_ln386</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -18369,20 +18369,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -18414,7 +18414,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.24</m_delay>
+				<m_delay>0.65</m_delay>
 				<m_topoIndex>284</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -18424,8 +18424,8 @@
 						<type>0</type>
 						<id>295</id>
 						<name>layer13_out_3_ret_i_i</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -18433,20 +18433,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -18462,7 +18462,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216724256</coreId>
+						<coreId>833653952</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -18487,8 +18487,8 @@
 						<type>0</type>
 						<id>296</id>
 						<name>out_buf_3_addr_write_ln386</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -18496,20 +18496,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -18525,7 +18525,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216725968</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -18541,7 +18541,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.24</m_delay>
+				<m_delay>0.65</m_delay>
 				<m_topoIndex>286</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -18551,8 +18551,8 @@
 						<type>0</type>
 						<id>297</id>
 						<name>layer13_out_4_ret_i_i</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -18560,20 +18560,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -18589,7 +18589,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>542329928</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -18614,8 +18614,8 @@
 						<type>0</type>
 						<id>298</id>
 						<name>out_buf_4_addr_write_ln386</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>386</lineNumber>
 						<contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</contextFuncName>
 						<contextNormFuncName>softmax_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_softmax_config13_s</contextNormFuncName>
@@ -18623,20 +18623,20 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
 											<second>softmax&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, softmax_config13&amp;gt;</second>
 										</first>
 										<second>386</second>
 									</item>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -18652,7 +18652,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216730232</coreId>
+						<coreId>1330007625</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -18668,7 +18668,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.24</m_delay>
+				<m_delay>0.65</m_delay>
 				<m_topoIndex>288</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -18678,8 +18678,8 @@
 						<type>0</type>
 						<id>299</id>
 						<name>_ln17</name>
-						<fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</fileName>
-						<fileDirectory>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
+						<fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</fileName>
+						<fileDirectory>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</fileDirectory>
 						<lineNumber>17</lineNumber>
 						<contextFuncName>run_inference</contextFuncName>
 						<contextNormFuncName>run_inference</contextNormFuncName>
@@ -18687,13 +18687,13 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+								<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/kernel_wrapper.cpp</first>
+											<first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/kernel_wrapper.cpp</first>
 											<second>run_inference</second>
 										</first>
 										<second>17</second>
@@ -18709,7 +18709,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216732240</coreId>
+						<coreId>867792320</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -18754,7 +18754,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216733152</coreId>
+						<coreId>867792320</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -18785,7 +18785,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216734704</coreId>
+						<coreId>833664384</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1024</bitwidth>
@@ -18816,7 +18816,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216736464</coreId>
+						<coreId>833666240</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1024</bitwidth>
@@ -18847,7 +18847,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1852793701</coreId>
+						<coreId>833671424</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>512</bitwidth>
@@ -18878,7 +18878,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3216736464</coreId>
+						<coreId>833666240</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>512</bitwidth>
@@ -18909,7 +18909,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>833676928</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>512</bitwidth>
@@ -18971,7 +18971,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>304</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
@@ -19002,7 +19002,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2983483024</coreId>
+						<coreId>833668192</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
@@ -19036,7 +19036,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1127</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -23339,7 +23339,7 @@
 				<item_version>0</item_version>
 				<item>300</item>
 			</basic_blocks>
-			<mII>2</mII>
+			<mII>1</mII>
 			<mDepth>21</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
@@ -23364,7 +23364,7 @@
 		<item>
 			<first>11</first>
 			<second>
-				<first>1</first>
+				<first>0</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -23406,469 +23406,469 @@
 		<item>
 			<first>17</first>
 			<second>
-				<first>1</first>
+				<first>0</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>19</first>
 			<second>
-				<first>1</first>
+				<first>0</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>20</first>
 			<second>
-				<first>3</first>
+				<first>2</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>21</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>22</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>23</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>24</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>25</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>26</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>27</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>28</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>29</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>30</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>31</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>32</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>33</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>34</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>35</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>36</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>37</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>38</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>39</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>40</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>41</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>42</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>43</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>44</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>45</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>46</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>47</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>48</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>49</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>50</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>51</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>52</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>53</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>54</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>55</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>56</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>57</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>58</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>59</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>60</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>61</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>62</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>63</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>64</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>65</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>66</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>67</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>68</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>69</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>70</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>71</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>72</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>73</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>74</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>75</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>76</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>77</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>78</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>79</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>80</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>81</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>82</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>83</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>84</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -24331,973 +24331,973 @@
 			<first>150</first>
 			<second>
 				<first>5</first>
-				<second>1</second>
+				<second>3</second>
 			</second>
 		</item>
 		<item>
 			<first>151</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>152</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>153</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>154</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>155</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>156</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>157</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>158</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>159</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>160</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>161</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>162</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>163</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>164</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>165</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>166</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>167</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>168</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>169</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>170</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>171</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>172</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>173</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>174</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>175</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>176</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>177</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>178</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>179</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>180</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>181</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>182</first>
 			<second>
-				<first>6</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>183</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>184</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>185</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>186</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>187</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>188</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>189</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>190</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>191</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>192</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>193</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>194</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>195</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>196</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>197</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>198</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>199</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>200</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>201</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>202</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>203</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>204</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>205</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>206</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>207</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>208</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>209</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>210</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>211</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>212</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>213</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>214</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>215</first>
 			<second>
-				<first>7</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>216</first>
 			<second>
-				<first>8</first>
+				<first>9</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>217</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>218</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>219</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>220</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>221</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>222</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>223</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>224</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>225</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>226</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>227</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>228</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>229</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>230</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>231</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>232</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>233</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>234</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>235</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>236</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>237</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>238</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>239</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>240</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>241</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>242</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>243</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>244</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>245</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>246</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>247</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>248</first>
 			<second>
-				<first>9</first>
+				<first>10</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>249</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>250</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>251</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>252</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>253</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>254</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>255</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>256</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>257</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>258</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>259</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>260</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>261</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>262</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>263</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>264</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>265</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>266</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>267</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>268</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>269</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>270</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>271</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>272</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>273</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>274</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>275</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>276</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>277</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>278</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>279</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>280</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>281</first>
 			<second>
-				<first>10</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>282</first>
 			<second>
-				<first>11</first>
+				<first>12</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>283</first>
 			<second>
-				<first>12</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>284</first>
 			<second>
-				<first>12</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>285</first>
 			<second>
-				<first>12</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>286</first>
 			<second>
-				<first>12</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>287</first>
 			<second>
-				<first>12</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>288</first>
 			<second>
-				<first>13</first>
-				<second>7</second>
+				<first>14</first>
+				<second>6</second>
 			</second>
 		</item>
 		<item>
@@ -25405,7 +25405,7 @@
 			</nodes>
 			<anchor_node>-1</anchor_node>
 			<region_type>8</region_type>
-			<interval>2</interval>
+			<interval>1</interval>
 			<pipe_depth>21</pipe_depth>
 			<mDBIIViolationVec class_id="34" tracking_level="0" version="0">
 				<count>0</count>

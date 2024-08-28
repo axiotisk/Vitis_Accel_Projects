@@ -152,63 +152,63 @@ for.inc:0 %i_1 = load i15 %i
 </operation>
 
 <operation id="17" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="16" bw="16" op_0_bw="16" op_1_bw="64">
-<![CDATA[
-for.inc:1 %gmem1_addr = getelementptr i16 %gmem1, i64 %sext_ln21_cast
-
-]]></Node>
-<StgValue><ssdm name="gmem1_addr"/></StgValue>
-</operation>
-
-<operation id="18" st_id="1" stage="1" lat="1">
-<core>Cmp</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="17" bw="1" op_0_bw="15" op_1_bw="15">
-<![CDATA[
-for.inc:2 %icmp_ln21 = icmp_eq  i15 %i_1, i15 16384
-
-]]></Node>
-<StgValue><ssdm name="icmp_ln21"/></StgValue>
-</operation>
-
-<operation id="19" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="18" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
-<![CDATA[
-for.inc:3 %empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 16384, i64 16384, i64 16384
-
-]]></Node>
-<StgValue><ssdm name="empty"/></StgValue>
-</operation>
-
-<operation id="20" st_id="1" stage="1" lat="1">
 <core>Adder</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="19" bw="15" op_0_bw="15" op_1_bw="15">
+<Node id="16" bw="15" op_0_bw="15" op_1_bw="15">
 <![CDATA[
-for.inc:4 %add_ln21 = add i15 %i_1, i15 1
+for.inc:1 %add_ln21 = add i15 %i_1, i15 1
 
 ]]></Node>
 <StgValue><ssdm name="add_ln21"/></StgValue>
+</operation>
+
+<operation id="18" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="17" bw="16" op_0_bw="16" op_1_bw="64">
+<![CDATA[
+for.inc:2 %gmem1_addr = getelementptr i16 %gmem1, i64 %sext_ln21_cast
+
+]]></Node>
+<StgValue><ssdm name="gmem1_addr"/></StgValue>
+</operation>
+
+<operation id="19" st_id="1" stage="1" lat="1">
+<core>Cmp</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="18" bw="1" op_0_bw="15" op_1_bw="15">
+<![CDATA[
+for.inc:3 %icmp_ln21 = icmp_eq  i15 %i_1, i15 16384
+
+]]></Node>
+<StgValue><ssdm name="icmp_ln21"/></StgValue>
+</operation>
+
+<operation id="20" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="19" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
+<![CDATA[
+for.inc:4 %empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 16384, i64 16384, i64 16384
+
+]]></Node>
+<StgValue><ssdm name="empty"/></StgValue>
 </operation>
 
 <operation id="21" st_id="1" stage="1" lat="1">

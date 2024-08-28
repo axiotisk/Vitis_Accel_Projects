@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vitis_hls" Owner="user" Host="egl" Pid="1302" HostCore="128" HostMemory="924548116">
+    <Process Command="vitis_hls" Owner="kaxiotis" Host="dpnc-fpgadev01" Pid="2064661" HostCore="48" HostMemory="263773136">
     </Process>
 </ProcessHandle>

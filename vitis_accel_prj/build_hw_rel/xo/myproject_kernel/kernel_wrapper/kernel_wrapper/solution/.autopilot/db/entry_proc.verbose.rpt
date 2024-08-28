@@ -3,13 +3,13 @@
 ================================================================
 == Vitis HLS Report for 'entry_proc'
 ================================================================
-* Date:           Thu Aug  1 18:04:04 2024
+* Date:           Sat Aug 24 01:41:24 2024
 
 * Version:        2022.2 (Build 3670227 on Oct 13 2022)
 * Project:        kernel_wrapper
 * Solution:       solution (Vitis Kernel Flow Target)
-* Product family: virtexuplus
-* Target device:  xcu55c-fsvh2892-2L-e
+* Product family: versal
+* Target device:  xcvc1902-vsvd1760-2MP-e-S
 
 
 ================================================================
@@ -20,7 +20,7 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  |  5.00 ns|  1.410 ns|     1.35 ns|
+    |ap_clk  |  5.00 ns|  0.676 ns|     1.35 ns|
     +--------+---------+----------+------------+
 
 + Latency: 
@@ -45,27 +45,23 @@
 == Utilization Estimates
 ================================================================
 * Summary: 
-+---------------------+---------+------+---------+---------+-----+
-|         Name        | BRAM_18K|  DSP |    FF   |   LUT   | URAM|
-+---------------------+---------+------+---------+---------+-----+
-|DSP                  |        -|     -|        -|        -|    -|
-|Expression           |        -|     -|        0|        2|    -|
-|FIFO                 |        -|     -|        -|        -|    -|
-|Instance             |        -|     -|        -|        -|    -|
-|Memory               |        -|     -|        -|        -|    -|
-|Multiplexer          |        -|     -|        -|       18|    -|
-|Register             |        -|     -|        2|        -|    -|
-+---------------------+---------+------+---------+---------+-----+
-|Total                |        0|     0|        2|       20|    0|
-+---------------------+---------+------+---------+---------+-----+
-|Available SLR        |     1344|  3008|   869120|   434560|  320|
-+---------------------+---------+------+---------+---------+-----+
-|Utilization SLR (%)  |        0|     0|       ~0|       ~0|    0|
-+---------------------+---------+------+---------+---------+-----+
-|Available            |     4032|  9024|  2607360|  1303680|  960|
-+---------------------+---------+------+---------+---------+-----+
-|Utilization (%)      |        0|     0|       ~0|       ~0|    0|
-+---------------------+---------+------+---------+---------+-----+
++-----------------+---------+------+---------+--------+-----+
+|       Name      | BRAM_18K|  DSP |    FF   |   LUT  | URAM|
++-----------------+---------+------+---------+--------+-----+
+|DSP              |        -|     -|        -|       -|    -|
+|Expression       |        -|     -|        0|       2|    -|
+|FIFO             |        -|     -|        -|       -|    -|
+|Instance         |        -|     -|        -|       -|    -|
+|Memory           |        -|     -|        -|       -|    -|
+|Multiplexer      |        -|     -|        -|       4|    -|
+|Register         |        -|     -|        2|       -|    -|
++-----------------+---------+------+---------+--------+-----+
+|Total            |        0|     0|        2|       6|    0|
++-----------------+---------+------+---------+--------+-----+
+|Available        |     1934|  1968|  1799680|  899840|  463|
++-----------------+---------+------+---------+--------+-----+
+|Utilization (%)  |        0|     0|       ~0|      ~0|    0|
++-----------------+---------+------+---------+--------+-----+
 
 + Detail: 
     * Instance: 
@@ -93,10 +89,10 @@
     +---------------+----+-----------+-----+-----------+
     |      Name     | LUT| Input Size| Bits| Total Bits|
     +---------------+----+-----------+-----+-----------+
-    |ap_done        |   9|          2|    1|          2|
-    |out_r_c_blk_n  |   9|          2|    1|          2|
+    |ap_done        |   2|          2|    1|          2|
+    |out_r_c_blk_n  |   2|          2|    1|          2|
     +---------------+----+-----------+-----+-----------+
-    |Total          |  18|          4|    2|          4|
+    |Total          |   4|          4|    2|          4|
     +---------------+----+-----------+-----+-----------+
 
     * Register: 
@@ -168,10 +164,10 @@ IsGatedGlobalClock: 0
 
 * FSM state operations: 
 
-State 1 <SV = 0> <Delay = 1.41>
+State 1 <SV = 0> <Delay = 0.67>
 ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %out_r_c, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @ScalarProp_str, i32 4294967295, i32 0"   --->   Operation 2 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%out_r_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %out_r"   --->   Operation 3 'read' 'out_r_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 4 [1/1] (1.41ns)   --->   "%write_ln0 = write void @_ssdm_op_Write.ap_fifo.i64P0A, i64 %out_r_c, i64 %out_r_read"   --->   Operation 4 'write' 'write_ln0' <Predicate = true> <Delay = 1.41> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.41> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 64> <Depth = 4> <FIFO>
+ST_1 : Operation 4 [1/1] (0.67ns)   --->   "%write_ln0 = write void @_ssdm_op_Write.ap_fifo.i64P0A, i64 %out_r_c, i64 %out_r_read"   --->   Operation 4 'write' 'write_ln0' <Predicate = true> <Delay = 0.67> <CoreInst = "FIFO_SRL">   --->   Core 85 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 64> <Depth = 4> <FIFO>
 ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 5 'ret' 'ret_ln0' <Predicate = true> <Delay = 0.00>
 
 

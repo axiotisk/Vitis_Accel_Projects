@@ -37,6 +37,7 @@ template <class T, class U> class FpgaObj {
 
         // Load xclbin
         fileBuf = xcl::read_binary_file(_xclbinFilename);
+
         bins = cl::Program::Binaries({{fileBuf.data(), fileBuf.size()}});
 
         // Create OpenCL context

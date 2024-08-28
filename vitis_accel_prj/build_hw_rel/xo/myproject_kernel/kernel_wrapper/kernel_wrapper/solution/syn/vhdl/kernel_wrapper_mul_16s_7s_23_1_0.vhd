@@ -19,6 +19,10 @@ port (
     din0: in std_logic_vector(din0_WIDTH - 1 downto 0);
     din1: in std_logic_vector(din1_WIDTH - 1 downto 0);
     dout: out std_logic_vector(dout_WIDTH - 1 downto 0));
+
+    attribute use_dsp : string;
+    attribute use_dsp of kernel_wrapper_mul_16s_7s_23_1_0 : entity is "no";
+
 end entity;
 
 architecture behav of kernel_wrapper_mul_16s_7s_23_1_0 is

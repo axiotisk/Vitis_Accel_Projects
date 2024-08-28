@@ -3407,9 +3407,9 @@ window.onload = function () { addSorting(); }
 <center><h1>Design Guidance Report</h1></center><center><table class="header" border="0">
 <tr><td><b>Copyright</b></td><td>Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.</td></tr>
 <tr><td><b>Tool Version</b></td><td>xcd v.2022.2 (lin64) Build 0 </td></tr>
-<tr><td><b>Date</b></td><td>Thu Aug  1 22:57:22 2024</td></tr>
-<tr><td><b>Host</b></td><td>egl running 64-bit Ubuntu 20.04.4 LTS</td></tr>
-<tr><td><b>Command</b></td><td>/tools/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/v++  --vivado.prop "run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}" --advanced.misc "report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}" --advanced.misc "report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}" -l -t hw --config accelerator_card.cfg --messageDb=./build_hw_rel/kernel_wrapper.mdb --temp_dir ./build_hw_rel/xclbin --log_dir ./build_hw_rel/xclbin -o build_hw_rel/kernel_wrapper.xclbin build_hw_rel/myproject_kernel.xo </td></tr>
+<tr><td><b>Date</b></td><td>Sat Aug 24 03:50:02 2024</td></tr>
+<tr><td><b>Host</b></td><td>dpnc-fpgadev01 running 64-bit Ubuntu 20.04.6 LTS</td></tr>
+<tr><td><b>Command</b></td><td>/tools/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/v++ --xp vivado_param:project.ensureVersalHasCIPS=false --xp vivado_param:bd.enableAutoConnectionsInNoc=1 --xp vivado_param:constr.restoreXDEFConstraintsASTCL=1 --xp vivado_param:ips.enableSLRParameter=4  --vivado.prop "run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}" --advanced.misc "report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}" --advanced.misc "report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}" -l -t hw --config accelerator_card.cfg --messageDb=./build_hw_rel/kernel_wrapper.mdb --temp_dir ./build_hw_rel/xclbin --log_dir ./build_hw_rel/xclbin -o build_hw_rel/kernel_wrapper.xsa build_hw_rel/myproject_kernel.xo </td></tr>
 </table></center><br>
 <table class="toc" border="1"><tr><td><b>Table of Contents</b></td></tr>
 <tr><td><a href="#REPORT SUMMARY">1 REPORT SUMMARY</a></tr></td>
@@ -3440,23 +3440,23 @@ window.onload = function () { addSorting(); }
 </tr>
 <tr>
 <td align="left">2</td>
-<td align="left">AUTO-FREQ-SCALING-08</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">Auto frequency scaling - Higher frequency possible</td>
-<td align="left">Accelerator.kernel_wrapper.Performance</td>
-<td align="left">For clock <a href="file:///home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xclbin/link/vivado/vpl/prj/prj.runs/impl_1/dr_timing_summary.rpt">hbm_aclk</a>, the auto scaled frequency 466.6 MHz exceeds the original specified frequency. The compiler will select the original specified frequency of 450.0 MHz.</td>
-<td align="left">The automatic frequency scaling feature allows user kernels to operate in hardware, even if at a lower frequency than intended. In this case the clock may in fact be able to run at a higher frequency than specified. You may want to consider <a href="https://www.xilinx.com/cgi-bin/docs/rdoc?t=vitis+guidance;v=2022.2;d=AUTO-FREQ-SCALING-08.html">setting</a> the clock frequency higher for better performance. The '--kernel_frequency' option is one way to control the frequency specification.</td>
-</tr>
-<tr>
-<td align="left">1</td>
 <td align="left">AUTO-FREQ-SCALING-04</td>
 <td align="left">WARNING</td>
 <td align="left"><undefined></td>
 <td align="left">Auto frequency scaling - Kernel timing failure</td>
 <td align="left">Accelerator.kernel_wrapper.Performance</td>
-<td align="left">One or more timing paths failed timing requirements. The kernel clock ulp_ucs/aclk_kernel_00 has an original frequency equal to 300.000000 MHz. The frequency has been automatically changed to 153.2 MHz to enable proper functionality. The clock Id is 0.</td>
+<td align="left">One or more timing paths failed timing requirements. The kernel clock blp_s_aclk_kernel_00 has an original frequency equal to 299.996999 MHz. The frequency has been automatically changed to 247.2 MHz to enable proper functionality. The clock Id is 0.</td>
 <td align="left">The automatic frequency scaling feature allows user kernels to operate in hardware, even if at a lower frequency than intended. <a href="https://www.xilinx.com/cgi-bin/docs/rdoc?t=vitis+guidance;v=2022.2;d=AUTO-FREQ-SCALING-04.html">This page</a> describes how to examine timing path violations.</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">AUTO-FREQ-SCALING-08</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">Auto frequency scaling - Higher frequency possible</td>
+<td align="left">Accelerator.kernel_wrapper.Performance</td>
+<td align="left">For clock <a href="file:///home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xclbin/link/vivado/vpl/prj/prj.runs/impl_1/dr_timing_summary.rpt">clkwiz_aclk_kernel_01_clk_out1</a>, the auto scaled frequency 598.0 MHz exceeds the original specified frequency. The compiler will select the original specified frequency of 500.0 MHz.</td>
+<td align="left">The automatic frequency scaling feature allows user kernels to operate in hardware, even if at a lower frequency than intended. In this case the clock may in fact be able to run at a higher frequency than specified. You may want to consider <a href="https://www.xilinx.com/cgi-bin/docs/rdoc?t=vitis+guidance;v=2022.2;d=AUTO-FREQ-SCALING-08.html">setting</a> the clock frequency higher for better performance. The '--kernel_frequency' option is one way to control the frequency specification.</td>
 </tr>
 </table>
 <br>
@@ -3481,11 +3481,10 @@ window.onload = function () { addSorting(); }
 <td align="left"></td>
 <td align="left"></td>
 <td align="left">The compiler selected the following frequencies for the runtime controllable kernel clock(s) and scalable system clock(s): 
-Kernel: ulp_ucs/aclk_kernel_01 = 500.0 MHz 
-Kernel: ulp_ucs/aclk_kernel_00 = 153.2 MHz 
-System: hbm_aclk = 450.0 MHz 
-Scalable clock ulp_ucs/aclk_kernel_01 (Id = 1) is used for rtl kernels. This design has 0 rtl kernel(s).
-Scalable clock ulp_ucs/aclk_kernel_00 (Id = 0) is used for hls kernels. This design has 4 hls kernel(s).</td>
+Kernel: blp_s_aclk_kernel_01 = 500.0 MHz 
+Kernel: blp_s_aclk_kernel_00 = 247.2 MHz 
+Scalable clock blp_s_aclk_kernel_01 (Id = 1) is used for rtl kernels. This design has 0 rtl kernel(s).
+Scalable clock blp_s_aclk_kernel_00 (Id = 0) is used for hls kernels. This design has 1 hls kernel(s).</td>
 <td align="left"><html> Kernel clocks (and system clocks for some platforms) are scalable; they can preserve functionality at the cost of performance by running at a lower frequency than requested. To be scalable, a clock must be driven by an MMCM where the control registers for the MMCM can be set by the runtime over AXI4-Lite. This item shows the final runtime controlled frequencies for the scalable clocks.</html></td>
 </tr>
 </table>

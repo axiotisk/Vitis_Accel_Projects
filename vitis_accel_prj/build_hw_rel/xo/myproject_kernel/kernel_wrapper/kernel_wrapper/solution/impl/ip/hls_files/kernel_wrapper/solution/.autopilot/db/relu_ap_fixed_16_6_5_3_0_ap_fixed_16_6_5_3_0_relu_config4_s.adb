@@ -70,7 +70,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1819244153</coreId>
+              <coreId>987</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -106,7 +106,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1819244153</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -142,7 +142,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1819244153</coreId>
+              <coreId>29</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -178,7 +178,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1819244153</coreId>
+              <coreId>54</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -214,7 +214,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1819244153</coreId>
+              <coreId>54</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -250,7 +250,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3120685632</coreId>
+              <coreId>448</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -286,7 +286,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>448</coreId>
+              <coreId>698</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -322,7 +322,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3177952992</coreId>
+              <coreId>1598309704</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -358,7 +358,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>192</coreId>
+              <coreId>1668440365</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -394,7 +394,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>192</coreId>
+              <coreId>1969447745</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -430,7 +430,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>192</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -466,7 +466,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>192</coreId>
+              <coreId>256</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -502,7 +502,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>448</coreId>
+              <coreId>1175671024</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -538,7 +538,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>448</coreId>
+              <coreId>973653680</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -574,7 +574,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>192</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -610,7 +610,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>448</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -646,7 +646,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>126</coreId>
+              <coreId>1420761472</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -682,7 +682,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2147483647</coreId>
+              <coreId>1169899856</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -718,7 +718,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>178</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -754,7 +754,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>76</coreId>
+              <coreId>976</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -790,7 +790,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>140</coreId>
+              <coreId>1175663472</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -826,7 +826,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>294</coreId>
+              <coreId>126</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -862,7 +862,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>448</coreId>
+              <coreId>280</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -898,7 +898,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>90</coreId>
+              <coreId>434</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -934,7 +934,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>244</coreId>
+              <coreId>76</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -970,7 +970,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>398</coreId>
+              <coreId>230</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1006,7 +1006,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2147483647</coreId>
+              <coreId>384</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1042,7 +1042,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2147483647</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1078,7 +1078,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1397508130</coreId>
+              <coreId>1198154432</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1114,7 +1114,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1198072976</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1150,7 +1150,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155845680</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1186,7 +1186,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>608</coreId>
+              <coreId>1198156160</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1222,7 +1222,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155304896</coreId>
+              <coreId>1198156912</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1258,7 +1258,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>795176192</coreId>
+              <coreId>1198157760</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1294,7 +1294,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155848320</coreId>
+              <coreId>1207314376</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1330,7 +1330,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3117828184</coreId>
+              <coreId>126</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1366,7 +1366,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2147483647</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1402,7 +1402,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>12064</coreId>
+              <coreId>178</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1438,7 +1438,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>320</coreId>
+              <coreId>76</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1474,7 +1474,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155850960</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1510,7 +1510,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>480</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1546,7 +1546,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178058696</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1582,7 +1582,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178057392</coreId>
+              <coreId>4144</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1618,7 +1618,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3133844528</coreId>
+              <coreId>1175669184</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1654,7 +1654,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178057504</coreId>
+              <coreId>1198072976</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1690,7 +1690,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1702258035</coreId>
+              <coreId>1601463552</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1726,7 +1726,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>115328</coreId>
+              <coreId>1207314576</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1762,7 +1762,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>176</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1798,7 +1798,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178062112</coreId>
+              <coreId>1346576442</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1834,7 +1834,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178062744</coreId>
+              <coreId>1207316176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1870,7 +1870,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178059872</coreId>
+              <coreId>1207316680</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1906,7 +1906,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178063376</coreId>
+              <coreId>1207316720</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1942,7 +1942,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178064208</coreId>
+              <coreId>1207317616</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1978,7 +1978,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178064896</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2014,7 +2014,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>119552</coreId>
+              <coreId>673197110</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2050,7 +2050,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2086,7 +2086,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178066384</coreId>
+              <coreId>1207317416</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2122,7 +2122,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>949</coreId>
+              <coreId>1207320544</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2158,7 +2158,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>176</coreId>
+              <coreId>1834970975</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2194,7 +2194,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3135460880</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2230,7 +2230,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178062000</coreId>
+              <coreId>1207322032</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2266,7 +2266,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>27</coreId>
+              <coreId>304</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2302,7 +2302,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178077024</coreId>
+              <coreId>1917869932</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2325,7 +2325,7 @@
               <type>0</type>
               <id>65</id>
               <name>p_read_35</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -2334,13 +2334,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="10" tracking_level="0" version="0">
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second class_id="11" tracking_level="0" version="0">
                     <count>1</count>
                     <item_version>0</item_version>
                     <item class_id="12" tracking_level="0" version="0">
                       <first class_id="13" tracking_level="0" version="0">
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -2356,7 +2356,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701735968</coreId>
+              <coreId>1834971215</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2382,7 +2382,7 @@
               <type>0</type>
               <id>66</id>
               <name>p_read_36</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -2391,13 +2391,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -2439,7 +2439,7 @@
               <type>0</type>
               <id>67</id>
               <name>p_read_37</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -2448,13 +2448,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -2496,7 +2496,7 @@
               <type>0</type>
               <id>68</id>
               <name>p_read_38</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -2505,13 +2505,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -2527,7 +2527,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701735968</coreId>
+              <coreId>1834971215</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2553,7 +2553,7 @@
               <type>0</type>
               <id>69</id>
               <name>p_read_39</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -2562,13 +2562,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -2584,7 +2584,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701735968</coreId>
+              <coreId>1135592288</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2610,7 +2610,7 @@
               <type>0</type>
               <id>70</id>
               <name>p_read_40</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -2619,13 +2619,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -2641,7 +2641,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>48</coreId>
+              <coreId>1135546304</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2667,7 +2667,7 @@
               <type>0</type>
               <id>71</id>
               <name>p_read_41</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -2676,13 +2676,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -2698,7 +2698,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3425125808</coreId>
+              <coreId>1424729792</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2724,7 +2724,7 @@
               <type>0</type>
               <id>72</id>
               <name>p_read_42</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -2733,13 +2733,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -2755,7 +2755,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3162256624</coreId>
+              <coreId>1207331168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2781,7 +2781,7 @@
               <type>0</type>
               <id>73</id>
               <name>p_read_43</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -2790,13 +2790,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -2812,7 +2812,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155034672</coreId>
+              <coreId>1207334488</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2838,7 +2838,7 @@
               <type>0</type>
               <id>74</id>
               <name>p_read_44</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -2847,13 +2847,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -2869,7 +2869,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3177970896</coreId>
+              <coreId>1207334544</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2895,7 +2895,7 @@
               <type>0</type>
               <id>75</id>
               <name>p_read_45</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -2904,13 +2904,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -2952,7 +2952,7 @@
               <type>0</type>
               <id>76</id>
               <name>p_read_46</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -2961,13 +2961,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -2983,7 +2983,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1207337920</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3009,7 +3009,7 @@
               <type>0</type>
               <id>77</id>
               <name>p_read_47</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3018,13 +3018,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3040,7 +3040,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3177974848</coreId>
+              <coreId>1207339544</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3066,7 +3066,7 @@
               <type>0</type>
               <id>78</id>
               <name>p_read_48</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3075,13 +3075,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3097,7 +3097,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3177978656</coreId>
+              <coreId>1207340784</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3123,7 +3123,7 @@
               <type>0</type>
               <id>79</id>
               <name>p_read_49</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3132,13 +3132,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3154,7 +3154,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1869833586</coreId>
+              <coreId>784</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3180,7 +3180,7 @@
               <type>0</type>
               <id>80</id>
               <name>p_read_50</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3189,13 +3189,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3211,7 +3211,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>273</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3237,7 +3237,7 @@
               <type>0</type>
               <id>81</id>
               <name>p_read_51</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3246,13 +3246,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3268,7 +3268,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>608</coreId>
+              <coreId>1207346256</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3294,7 +3294,7 @@
               <type>0</type>
               <id>82</id>
               <name>p_read_52</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3303,13 +3303,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3325,7 +3325,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3177983824</coreId>
+              <coreId>973767152</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3351,7 +3351,7 @@
               <type>0</type>
               <id>83</id>
               <name>p_read_53</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3360,13 +3360,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3382,7 +3382,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3177985544</coreId>
+              <coreId>1177651096</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3408,7 +3408,7 @@
               <type>0</type>
               <id>84</id>
               <name>p_read_54</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3417,13 +3417,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3465,7 +3465,7 @@
               <type>0</type>
               <id>85</id>
               <name>p_read_55</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3474,13 +3474,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3496,7 +3496,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1177654008</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3522,7 +3522,7 @@
               <type>0</type>
               <id>86</id>
               <name>p_read_56</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3531,13 +3531,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3553,7 +3553,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3177989248</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3579,7 +3579,7 @@
               <type>0</type>
               <id>87</id>
               <name>p_read_57</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3588,13 +3588,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3610,7 +3610,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1</coreId>
+              <coreId>1198072976</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3636,7 +3636,7 @@
               <type>0</type>
               <id>88</id>
               <name>p_read_58</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3645,13 +3645,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3667,7 +3667,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1177659360</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3693,7 +3693,7 @@
               <type>0</type>
               <id>89</id>
               <name>p_read_59</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3702,13 +3702,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3724,7 +3724,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3177996080</coreId>
+              <coreId>1177658912</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3750,7 +3750,7 @@
               <type>0</type>
               <id>90</id>
               <name>p_read_60</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3759,13 +3759,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3781,7 +3781,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3123139232</coreId>
+              <coreId>1819045746</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3807,7 +3807,7 @@
               <type>0</type>
               <id>91</id>
               <name>p_read_61</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3816,13 +3816,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3838,7 +3838,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1177661344</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3864,7 +3864,7 @@
               <type>0</type>
               <id>92</id>
               <name>p_read_62</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3873,13 +3873,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3895,7 +3895,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188310304</coreId>
+              <coreId>1936683105</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3921,7 +3921,7 @@
               <type>0</type>
               <id>93</id>
               <name>p_read_63</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3930,13 +3930,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -3952,7 +3952,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>394</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3978,7 +3978,7 @@
               <type>0</type>
               <id>94</id>
               <name>p_read_64</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -3987,13 +3987,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4009,7 +4009,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178004736</coreId>
+              <coreId>1834970975</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4035,7 +4035,7 @@
               <type>0</type>
               <id>95</id>
               <name>p_read_65</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4044,13 +4044,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4066,7 +4066,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1818850421</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4092,7 +4092,7 @@
               <type>0</type>
               <id>96</id>
               <name>p_read_66</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4101,13 +4101,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4123,7 +4123,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178077024</coreId>
+              <coreId>1601200444</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4149,7 +4149,7 @@
               <type>0</type>
               <id>97</id>
               <name>p_read_67</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4158,13 +4158,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4180,7 +4180,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178009984</coreId>
+              <coreId>2020173407</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4206,7 +4206,7 @@
               <type>0</type>
               <id>98</id>
               <name>p_read_68</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4215,13 +4215,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4237,7 +4237,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1</coreId>
+              <coreId>1177677440</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4263,7 +4263,7 @@
               <type>0</type>
               <id>99</id>
               <name>p_read_69</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4272,13 +4272,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4294,7 +4294,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1853187616</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4320,7 +4320,7 @@
               <type>0</type>
               <id>100</id>
               <name>p_read_70</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4329,13 +4329,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4351,7 +4351,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188310304</coreId>
+              <coreId>1177680792</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4377,7 +4377,7 @@
               <type>0</type>
               <id>101</id>
               <name>p_read_71</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4386,13 +4386,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4408,7 +4408,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155034672</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4434,7 +4434,7 @@
               <type>0</type>
               <id>102</id>
               <name>p_read_72</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4443,13 +4443,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4465,7 +4465,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178019072</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4491,7 +4491,7 @@
               <type>0</type>
               <id>103</id>
               <name>p_read_73</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4500,13 +4500,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4522,7 +4522,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178020816</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4548,7 +4548,7 @@
               <type>0</type>
               <id>104</id>
               <name>p_read_74</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4557,13 +4557,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4579,7 +4579,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1747873391</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4605,7 +4605,7 @@
               <type>0</type>
               <id>105</id>
               <name>p_read_75</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4614,13 +4614,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4636,7 +4636,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1177689664</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4662,7 +4662,7 @@
               <type>0</type>
               <id>106</id>
               <name>p_read_76</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4671,13 +4671,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4693,7 +4693,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178026112</coreId>
+              <coreId>1177691376</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4719,7 +4719,7 @@
               <type>0</type>
               <id>107</id>
               <name>p_read_77</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4728,13 +4728,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4750,7 +4750,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178016048</coreId>
+              <coreId>1177693120</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4776,7 +4776,7 @@
               <type>0</type>
               <id>108</id>
               <name>p_read_78</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4785,13 +4785,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4807,7 +4807,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178029696</coreId>
+              <coreId>1177694576</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4833,7 +4833,7 @@
               <type>0</type>
               <id>109</id>
               <name>p_read_79</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4842,13 +4842,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4864,7 +4864,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178030784</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4890,7 +4890,7 @@
               <type>0</type>
               <id>110</id>
               <name>p_read_80</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4899,13 +4899,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4947,7 +4947,7 @@
               <type>0</type>
               <id>111</id>
               <name>p_read_81</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -4956,13 +4956,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -4978,7 +4978,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178034784</coreId>
+              <coreId>608</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5004,7 +5004,7 @@
               <type>0</type>
               <id>112</id>
               <name>p_read_82</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5013,13 +5013,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5035,7 +5035,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>712</coreId>
+              <coreId>1768320623</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5061,7 +5061,7 @@
               <type>0</type>
               <id>113</id>
               <name>p_read_83</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5070,13 +5070,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5092,7 +5092,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178030736</coreId>
+              <coreId>1177703248</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5118,7 +5118,7 @@
               <type>0</type>
               <id>114</id>
               <name>p_read_84</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5127,13 +5127,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5149,7 +5149,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178040160</coreId>
+              <coreId>1177705664</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5175,7 +5175,7 @@
               <type>0</type>
               <id>115</id>
               <name>p_read_85</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5184,13 +5184,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5206,7 +5206,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178041248</coreId>
+              <coreId>1177707344</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5232,7 +5232,7 @@
               <type>0</type>
               <id>116</id>
               <name>p_read_86</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5241,13 +5241,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5263,7 +5263,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1177708816</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5289,7 +5289,7 @@
               <type>0</type>
               <id>117</id>
               <name>p_read_87</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5298,13 +5298,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5320,7 +5320,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178045232</coreId>
+              <coreId>1177710904</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5346,7 +5346,7 @@
               <type>0</type>
               <id>118</id>
               <name>p_read1074</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5355,13 +5355,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5377,7 +5377,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155034672</coreId>
+              <coreId>1175547744</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5403,7 +5403,7 @@
               <type>0</type>
               <id>119</id>
               <name>p_read973</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5412,13 +5412,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5434,7 +5434,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1</coreId>
+              <coreId>1175548896</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5460,7 +5460,7 @@
               <type>0</type>
               <id>120</id>
               <name>p_read872</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5469,13 +5469,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5491,7 +5491,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1936028192</coreId>
+              <coreId>1175551104</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5517,7 +5517,7 @@
               <type>0</type>
               <id>121</id>
               <name>p_read771</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5526,13 +5526,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5548,7 +5548,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>825046320</coreId>
+              <coreId>1175552848</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5574,7 +5574,7 @@
               <type>0</type>
               <id>122</id>
               <name>p_read670</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5583,13 +5583,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5605,7 +5605,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>575620686</coreId>
+              <coreId>1175554744</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5631,7 +5631,7 @@
               <type>0</type>
               <id>123</id>
               <name>p_read569</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5640,13 +5640,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5662,7 +5662,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>539768369</coreId>
+              <coreId>1734439968</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5688,7 +5688,7 @@
               <type>0</type>
               <id>124</id>
               <name>p_read468</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5697,13 +5697,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5719,7 +5719,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1953391986</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5745,7 +5745,7 @@
               <type>0</type>
               <id>125</id>
               <name>p_read367</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5754,13 +5754,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5776,7 +5776,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188200104</coreId>
+              <coreId>1175555616</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5802,7 +5802,7 @@
               <type>0</type>
               <id>126</id>
               <name>p_read266</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5811,13 +5811,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5833,7 +5833,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188202040</coreId>
+              <coreId>940883536</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5859,7 +5859,7 @@
               <type>0</type>
               <id>127</id>
               <name>p_read165</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5868,13 +5868,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5890,7 +5890,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3156040379</coreId>
+              <coreId>1175563280</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5916,7 +5916,7 @@
               <type>0</type>
               <id>128</id>
               <name>p_read64</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5925,13 +5925,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -5947,7 +5947,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>26</coreId>
+              <coreId>1175565440</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5973,7 +5973,7 @@
               <type>0</type>
               <id>129</id>
               <name>trunc_ln40</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -5982,13 +5982,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6004,7 +6004,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188207168</coreId>
+              <coreId>1175567184</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6029,7 +6029,7 @@
               <type>0</type>
               <id>130</id>
               <name>trunc_ln40_32</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6038,13 +6038,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6060,7 +6060,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3156042323</coreId>
+              <coreId>1175568384</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6085,7 +6085,7 @@
               <type>0</type>
               <id>131</id>
               <name>trunc_ln40_33</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6094,13 +6094,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6116,7 +6116,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6141,7 +6141,7 @@
               <type>0</type>
               <id>132</id>
               <name>trunc_ln40_34</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6150,13 +6150,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6172,7 +6172,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188212200</coreId>
+              <coreId>1175572576</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6197,7 +6197,7 @@
               <type>0</type>
               <id>133</id>
               <name>trunc_ln40_35</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6206,13 +6206,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6228,7 +6228,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188214248</coreId>
+              <coreId>1175574320</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6253,7 +6253,7 @@
               <type>0</type>
               <id>134</id>
               <name>trunc_ln40_36</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6262,13 +6262,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6284,7 +6284,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3156044994</coreId>
+              <coreId>1175573952</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6309,7 +6309,7 @@
               <type>0</type>
               <id>135</id>
               <name>trunc_ln40_37</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6318,13 +6318,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6340,7 +6340,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>20</coreId>
+              <coreId>1175577888</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6365,7 +6365,7 @@
               <type>0</type>
               <id>136</id>
               <name>trunc_ln40_38</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6374,13 +6374,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6396,7 +6396,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188219376</coreId>
+              <coreId>1836214528</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6421,7 +6421,7 @@
               <type>0</type>
               <id>137</id>
               <name>trunc_ln40_39</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6430,13 +6430,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6452,7 +6452,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3156047176</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6477,7 +6477,7 @@
               <type>0</type>
               <id>138</id>
               <name>trunc_ln40_40</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6486,13 +6486,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6508,7 +6508,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>10</coreId>
+              <coreId>1175568688</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6533,7 +6533,7 @@
               <type>0</type>
               <id>139</id>
               <name>trunc_ln40_41</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6542,13 +6542,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6564,7 +6564,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>673197110</coreId>
+              <coreId>1145981250</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6589,7 +6589,7 @@
               <type>0</type>
               <id>140</id>
               <name>trunc_ln40_42</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6598,13 +6598,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6620,7 +6620,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>573125681</coreId>
+              <coreId>1702258035</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6645,7 +6645,7 @@
               <type>0</type>
               <id>141</id>
               <name>trunc_ln40_43</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6654,13 +6654,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6676,7 +6676,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1734439968</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6701,7 +6701,7 @@
               <type>0</type>
               <id>142</id>
               <name>trunc_ln40_44</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6710,13 +6710,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6732,7 +6732,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1948285282</coreId>
+              <coreId>1177713936</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6757,7 +6757,7 @@
               <type>0</type>
               <id>143</id>
               <name>trunc_ln40_45</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6766,13 +6766,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6788,7 +6788,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1885301861</coreId>
+              <coreId>1175591728</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6813,7 +6813,7 @@
               <type>0</type>
               <id>144</id>
               <name>trunc_ln40_46</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6822,13 +6822,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6844,7 +6844,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701012321</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6869,7 +6869,7 @@
               <type>0</type>
               <id>145</id>
               <name>trunc_ln40_47</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6878,13 +6878,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6900,7 +6900,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1281315657</coreId>
+              <coreId>1175595872</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6925,7 +6925,7 @@
               <type>0</type>
               <id>146</id>
               <name>trunc_ln40_48</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6934,13 +6934,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -6956,7 +6956,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>825980012</coreId>
+              <coreId>1175597616</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -6981,7 +6981,7 @@
               <type>0</type>
               <id>147</id>
               <name>trunc_ln40_49</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -6990,13 +6990,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7012,7 +7012,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1667457325</coreId>
+              <coreId>1175655168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7037,7 +7037,7 @@
               <type>0</type>
               <id>148</id>
               <name>trunc_ln40_50</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7046,13 +7046,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7068,7 +7068,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>997420912</coreId>
+              <coreId>1175601312</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7093,7 +7093,7 @@
               <type>0</type>
               <id>149</id>
               <name>trunc_ln40_51</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7102,13 +7102,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7124,7 +7124,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1601200424</coreId>
+              <coreId>1175603096</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7149,7 +7149,7 @@
               <type>0</type>
               <id>150</id>
               <name>trunc_ln40_52</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7158,13 +7158,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7180,7 +7180,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1852138591</coreId>
+              <coreId>980706670</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7205,7 +7205,7 @@
               <type>0</type>
               <id>151</id>
               <name>trunc_ln40_53</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7214,13 +7214,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7236,7 +7236,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1601399156</coreId>
+              <coreId>1702258035</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7261,7 +7261,7 @@
               <type>0</type>
               <id>152</id>
               <name>trunc_ln40_54</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7270,13 +7270,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7292,7 +7292,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1885415456</coreId>
+              <coreId>1701474162</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7317,7 +7317,7 @@
               <type>0</type>
               <id>153</id>
               <name>trunc_ln40_55</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7326,13 +7326,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7348,7 +7348,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1175610136</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7373,7 +7373,7 @@
               <type>0</type>
               <id>154</id>
               <name>trunc_ln40_56</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7382,13 +7382,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7404,7 +7404,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1175611440</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7429,7 +7429,7 @@
               <type>0</type>
               <id>155</id>
               <name>trunc_ln40_57</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7438,13 +7438,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7460,7 +7460,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1175613600</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7485,7 +7485,7 @@
               <type>0</type>
               <id>156</id>
               <name>trunc_ln40_58</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7494,13 +7494,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7516,7 +7516,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188254384</coreId>
+              <coreId>1175615584</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7541,7 +7541,7 @@
               <type>0</type>
               <id>157</id>
               <name>trunc_ln40_59</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7550,13 +7550,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7572,7 +7572,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188256120</coreId>
+              <coreId>1175617328</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7597,7 +7597,7 @@
               <type>0</type>
               <id>158</id>
               <name>trunc_ln40_60</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7606,13 +7606,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7628,7 +7628,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188310304</coreId>
+              <coreId>1175619096</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7653,7 +7653,7 @@
               <type>0</type>
               <id>159</id>
               <name>trunc_ln40_61</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7662,13 +7662,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7684,7 +7684,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188259840</coreId>
+              <coreId>1175620960</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7709,7 +7709,7 @@
               <type>0</type>
               <id>160</id>
               <name>trunc_ln40_62</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7718,13 +7718,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7740,7 +7740,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188261328</coreId>
+              <coreId>1198043776</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7765,7 +7765,7 @@
               <type>0</type>
               <id>161</id>
               <name>trunc_ln40_63</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7774,13 +7774,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7796,7 +7796,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188310304</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7821,7 +7821,7 @@
               <type>0</type>
               <id>162</id>
               <name>trunc_ln40_64</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7830,13 +7830,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7852,7 +7852,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188268120</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7877,7 +7877,7 @@
               <type>0</type>
               <id>163</id>
               <name>trunc_ln40_65</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7886,13 +7886,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7908,7 +7908,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188269248</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7933,7 +7933,7 @@
               <type>0</type>
               <id>164</id>
               <name>trunc_ln40_66</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7942,13 +7942,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -7964,7 +7964,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188271184</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7989,7 +7989,7 @@
               <type>0</type>
               <id>165</id>
               <name>trunc_ln40_67</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -7998,13 +7998,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8020,7 +8020,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1702258035</coreId>
+              <coreId>1175636136</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8045,7 +8045,7 @@
               <type>0</type>
               <id>166</id>
               <name>trunc_ln40_68</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8054,13 +8054,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8076,7 +8076,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3188275576</coreId>
+              <coreId>1175655168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8101,7 +8101,7 @@
               <type>0</type>
               <id>167</id>
               <name>trunc_ln40_69</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8110,13 +8110,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8132,7 +8132,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1970038130</coreId>
+              <coreId>1175638512</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8157,7 +8157,7 @@
               <type>0</type>
               <id>168</id>
               <name>trunc_ln40_70</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8166,13 +8166,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8188,7 +8188,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1663052862</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8213,7 +8213,7 @@
               <type>0</type>
               <id>169</id>
               <name>trunc_ln40_71</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8222,13 +8222,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8244,7 +8244,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>151666223</coreId>
+              <coreId>1145981250</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8269,7 +8269,7 @@
               <type>0</type>
               <id>170</id>
               <name>trunc_ln40_72</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8278,13 +8278,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8300,7 +8300,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1952804462</coreId>
+              <coreId>1702258035</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8325,7 +8325,7 @@
               <type>0</type>
               <id>171</id>
               <name>trunc_ln40_73</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8334,13 +8334,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8356,7 +8356,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1870035297</coreId>
+              <coreId>1175645616</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8381,7 +8381,7 @@
               <type>0</type>
               <id>172</id>
               <name>trunc_ln40_74</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8390,13 +8390,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8412,7 +8412,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2036689696</coreId>
+              <coreId>1175647360</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8437,7 +8437,7 @@
               <type>0</type>
               <id>173</id>
               <name>trunc_ln40_75</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8446,13 +8446,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8468,7 +8468,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2020173407</coreId>
+              <coreId>1175634848</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8493,7 +8493,7 @@
               <type>0</type>
               <id>174</id>
               <name>trunc_ln40_76</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8502,13 +8502,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8524,7 +8524,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1953849204</coreId>
+              <coreId>1175650800</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8549,7 +8549,7 @@
               <type>0</type>
               <id>175</id>
               <name>trunc_ln40_77</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8558,13 +8558,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8580,7 +8580,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1869504807</coreId>
+              <coreId>1869833586</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8605,7 +8605,7 @@
               <type>0</type>
               <id>176</id>
               <name>trunc_ln40_78</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8614,13 +8614,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8636,7 +8636,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>741749052</coreId>
+              <coreId>512</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8661,7 +8661,7 @@
               <type>0</type>
               <id>177</id>
               <name>trunc_ln40_79</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8670,13 +8670,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8692,7 +8692,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1702063717</coreId>
+              <coreId>1198072976</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8717,7 +8717,7 @@
               <type>0</type>
               <id>178</id>
               <name>trunc_ln40_80</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8726,13 +8726,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8748,7 +8748,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1601399156</coreId>
+              <coreId>608</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8773,7 +8773,7 @@
               <type>0</type>
               <id>179</id>
               <name>trunc_ln40_81</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8782,13 +8782,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8804,7 +8804,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1987666223</coreId>
+              <coreId>895969638</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8829,7 +8829,7 @@
               <type>0</type>
               <id>180</id>
               <name>trunc_ln40_82</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8838,13 +8838,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8860,7 +8860,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1836017711</coreId>
+              <coreId>1169913528</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8885,7 +8885,7 @@
               <type>0</type>
               <id>181</id>
               <name>trunc_ln40_83</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8894,13 +8894,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8916,7 +8916,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701735983</coreId>
+              <coreId>1169915632</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8941,7 +8941,7 @@
               <type>0</type>
               <id>182</id>
               <name>trunc_ln40_84</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -8950,13 +8950,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -8972,7 +8972,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>640688172</coreId>
+              <coreId>1169917304</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -8997,7 +8997,7 @@
               <type>0</type>
               <id>183</id>
               <name>trunc_ln40_85</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -9006,13 +9006,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -9028,7 +9028,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1734439968</coreId>
+              <coreId>1169918784</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -9053,7 +9053,7 @@
               <type>0</type>
               <id>184</id>
               <name>trunc_ln40_86</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -9062,13 +9062,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -9084,7 +9084,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>539768864</coreId>
+              <coreId>1169920872</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -9109,7 +9109,7 @@
               <type>0</type>
               <id>185</id>
               <name>trunc_ln40_87</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -9118,13 +9118,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -9140,7 +9140,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>570456169</coreId>
+              <coreId>1169922976</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -9165,7 +9165,7 @@
               <type>0</type>
               <id>186</id>
               <name>trunc_ln40_88</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -9174,13 +9174,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -9196,7 +9196,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1601200444</coreId>
+              <coreId>1169926392</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -9221,7 +9221,7 @@
               <type>0</type>
               <id>187</id>
               <name>trunc_ln40_89</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -9230,13 +9230,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -9252,7 +9252,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1869438833</coreId>
+              <coreId>1918990189</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -9277,7 +9277,7 @@
               <type>0</type>
               <id>188</id>
               <name>trunc_ln40_90</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -9286,13 +9286,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -9308,7 +9308,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1126185511</coreId>
+              <coreId>1207433123</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -9333,7 +9333,7 @@
               <type>0</type>
               <id>189</id>
               <name>trunc_ln40_91</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -9342,13 +9342,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -9364,7 +9364,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>570453615</coreId>
+              <coreId>1169929904</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -9389,7 +9389,7 @@
               <type>0</type>
               <id>190</id>
               <name>trunc_ln40_92</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -9398,13 +9398,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -9420,7 +9420,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1313427026</coreId>
+              <coreId>1634414437</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -9445,7 +9445,7 @@
               <type>0</type>
               <id>191</id>
               <name>trunc_ln40_93</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -9454,13 +9454,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -9476,7 +9476,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1768318322</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -9501,7 +9501,7 @@
               <type>0</type>
               <id>192</id>
               <name>trunc_ln40_94</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>40</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -9510,13 +9510,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>40</second>
@@ -9532,7 +9532,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>570456421</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -9566,7 +9566,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9604,7 +9604,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>129</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -9614,7 +9614,7 @@
               <type>0</type>
               <id>195</id>
               <name>datareg_V</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -9623,13 +9623,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -9645,7 +9645,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -9662,7 +9662,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>130</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -9672,7 +9672,7 @@
               <type>0</type>
               <id>196</id>
               <name>zext_ln45</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -9681,13 +9681,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -9703,7 +9703,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1684371561</coreId>
+              <coreId>1869183073</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -9737,7 +9737,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9775,7 +9775,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>132</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -9785,7 +9785,7 @@
               <type>0</type>
               <id>198</id>
               <name>datareg_V_32</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -9794,13 +9794,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -9816,7 +9816,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -9833,7 +9833,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>133</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -9843,7 +9843,7 @@
               <type>0</type>
               <id>199</id>
               <name>zext_ln45_32</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -9852,13 +9852,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -9874,7 +9874,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>1169947568</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -9908,7 +9908,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9946,7 +9946,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>135</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -9956,7 +9956,7 @@
               <type>0</type>
               <id>201</id>
               <name>datareg_V_33</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -9965,13 +9965,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -9987,7 +9987,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -10004,7 +10004,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>136</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -10014,7 +10014,7 @@
               <type>0</type>
               <id>202</id>
               <name>zext_ln45_33</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -10023,13 +10023,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -10045,7 +10045,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1279810338</coreId>
+              <coreId>480</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -10079,7 +10079,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10117,7 +10117,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>138</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -10127,7 +10127,7 @@
               <type>0</type>
               <id>204</id>
               <name>datareg_V_34</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -10136,13 +10136,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -10158,7 +10158,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -10175,7 +10175,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>139</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -10185,7 +10185,7 @@
               <type>0</type>
               <id>205</id>
               <name>zext_ln45_34</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -10194,13 +10194,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -10216,7 +10216,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>86784</coreId>
+              <coreId>1953068591</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -10250,7 +10250,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10288,7 +10288,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>141</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -10298,7 +10298,7 @@
               <type>0</type>
               <id>207</id>
               <name>datareg_V_35</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -10307,13 +10307,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -10329,7 +10329,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -10346,7 +10346,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>142</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -10356,7 +10356,7 @@
               <type>0</type>
               <id>208</id>
               <name>zext_ln45_35</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -10365,13 +10365,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -10387,7 +10387,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3123827344</coreId>
+              <coreId>1953394531</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -10421,7 +10421,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10459,7 +10459,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>144</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -10469,7 +10469,7 @@
               <type>0</type>
               <id>210</id>
               <name>datareg_V_36</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -10478,13 +10478,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -10500,7 +10500,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -10517,7 +10517,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>145</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -10527,7 +10527,7 @@
               <type>0</type>
               <id>211</id>
               <name>zext_ln45_36</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -10536,13 +10536,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -10558,7 +10558,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1169967576</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -10592,7 +10592,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10630,7 +10630,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>147</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -10640,7 +10640,7 @@
               <type>0</type>
               <id>213</id>
               <name>datareg_V_37</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -10649,13 +10649,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -10671,7 +10671,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -10688,7 +10688,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>148</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -10698,7 +10698,7 @@
               <type>0</type>
               <id>214</id>
               <name>zext_ln45_37</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -10707,13 +10707,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -10729,7 +10729,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1169972288</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -10763,7 +10763,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10801,7 +10801,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>150</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -10811,7 +10811,7 @@
               <type>0</type>
               <id>216</id>
               <name>datareg_V_38</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -10820,13 +10820,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -10842,7 +10842,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -10859,7 +10859,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>151</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -10869,7 +10869,7 @@
               <type>0</type>
               <id>217</id>
               <name>zext_ln45_38</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -10878,13 +10878,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -10900,7 +10900,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1169977296</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -10934,7 +10934,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10972,7 +10972,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>153</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -10982,7 +10982,7 @@
               <type>0</type>
               <id>219</id>
               <name>datareg_V_39</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -10991,13 +10991,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -11013,7 +11013,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -11030,7 +11030,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>154</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -11040,7 +11040,7 @@
               <type>0</type>
               <id>220</id>
               <name>zext_ln45_39</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -11049,13 +11049,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -11105,7 +11105,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11143,7 +11143,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>156</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -11153,7 +11153,7 @@
               <type>0</type>
               <id>222</id>
               <name>datareg_V_40</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -11162,13 +11162,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -11184,7 +11184,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -11201,7 +11201,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>157</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -11211,7 +11211,7 @@
               <type>0</type>
               <id>223</id>
               <name>zext_ln45_40</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -11220,13 +11220,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -11276,7 +11276,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11314,7 +11314,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>159</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -11324,7 +11324,7 @@
               <type>0</type>
               <id>225</id>
               <name>datareg_V_41</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -11333,13 +11333,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -11355,7 +11355,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -11372,7 +11372,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>160</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -11382,7 +11382,7 @@
               <type>0</type>
               <id>226</id>
               <name>zext_ln45_41</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -11391,13 +11391,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -11413,7 +11413,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1169992688</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -11447,7 +11447,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11485,7 +11485,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>162</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -11495,7 +11495,7 @@
               <type>0</type>
               <id>228</id>
               <name>datareg_V_42</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -11504,13 +11504,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -11526,7 +11526,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -11543,7 +11543,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>163</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -11553,7 +11553,7 @@
               <type>0</type>
               <id>229</id>
               <name>zext_ln45_42</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -11562,13 +11562,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -11584,7 +11584,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -11618,7 +11618,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11656,7 +11656,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>165</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -11666,7 +11666,7 @@
               <type>0</type>
               <id>231</id>
               <name>datareg_V_43</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -11675,13 +11675,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -11697,7 +11697,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -11714,7 +11714,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>166</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -11724,7 +11724,7 @@
               <type>0</type>
               <id>232</id>
               <name>zext_ln45_43</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -11733,13 +11733,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -11755,7 +11755,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178208896</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -11789,7 +11789,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11827,7 +11827,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>168</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -11837,7 +11837,7 @@
               <type>0</type>
               <id>234</id>
               <name>datareg_V_44</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -11846,13 +11846,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -11868,7 +11868,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -11885,7 +11885,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>169</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -11895,7 +11895,7 @@
               <type>0</type>
               <id>235</id>
               <name>zext_ln45_44</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -11904,13 +11904,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -11926,7 +11926,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178213832</coreId>
+              <coreId>1170008136</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -11960,7 +11960,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11998,7 +11998,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>171</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -12008,7 +12008,7 @@
               <type>0</type>
               <id>237</id>
               <name>datareg_V_45</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -12017,13 +12017,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -12039,7 +12039,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -12056,7 +12056,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>172</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -12066,7 +12066,7 @@
               <type>0</type>
               <id>238</id>
               <name>zext_ln45_45</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -12075,13 +12075,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -12097,7 +12097,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1170012936</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -12131,7 +12131,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -12169,7 +12169,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>174</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -12179,7 +12179,7 @@
               <type>0</type>
               <id>240</id>
               <name>datareg_V_46</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -12188,13 +12188,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -12210,7 +12210,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -12227,7 +12227,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>175</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -12237,7 +12237,7 @@
               <type>0</type>
               <id>241</id>
               <name>zext_ln45_46</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -12246,13 +12246,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -12268,7 +12268,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178223664</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -12302,7 +12302,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -12340,7 +12340,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>177</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -12350,7 +12350,7 @@
               <type>0</type>
               <id>243</id>
               <name>datareg_V_47</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -12359,13 +12359,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -12381,7 +12381,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -12398,7 +12398,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>178</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -12408,7 +12408,7 @@
               <type>0</type>
               <id>244</id>
               <name>zext_ln45_47</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -12417,13 +12417,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -12439,7 +12439,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1702258035</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -12473,7 +12473,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -12511,7 +12511,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>180</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -12521,7 +12521,7 @@
               <type>0</type>
               <id>246</id>
               <name>datareg_V_48</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -12530,13 +12530,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -12552,7 +12552,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -12569,7 +12569,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>181</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -12579,7 +12579,7 @@
               <type>0</type>
               <id>247</id>
               <name>zext_ln45_48</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -12588,13 +12588,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -12610,7 +12610,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178233632</coreId>
+              <coreId>1601463662</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -12644,7 +12644,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -12682,7 +12682,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>183</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -12692,7 +12692,7 @@
               <type>0</type>
               <id>249</id>
               <name>datareg_V_49</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -12701,13 +12701,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -12723,7 +12723,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -12740,7 +12740,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>184</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -12750,7 +12750,7 @@
               <type>0</type>
               <id>250</id>
               <name>zext_ln45_49</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -12759,13 +12759,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -12781,7 +12781,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178236112</coreId>
+              <coreId>973660504</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -12815,7 +12815,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -12853,7 +12853,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>186</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -12863,7 +12863,7 @@
               <type>0</type>
               <id>252</id>
               <name>datareg_V_50</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -12872,13 +12872,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -12894,7 +12894,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -12911,7 +12911,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>187</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -12921,7 +12921,7 @@
               <type>0</type>
               <id>253</id>
               <name>zext_ln45_50</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -12930,13 +12930,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -12952,7 +12952,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>176</coreId>
+              <coreId>1207426292</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -12986,7 +12986,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -13024,7 +13024,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>189</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -13034,7 +13034,7 @@
               <type>0</type>
               <id>255</id>
               <name>datareg_V_51</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -13043,13 +13043,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -13065,7 +13065,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -13082,7 +13082,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>190</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -13092,7 +13092,7 @@
               <type>0</type>
               <id>256</id>
               <name>zext_ln45_51</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -13101,13 +13101,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -13123,7 +13123,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178248608</coreId>
+              <coreId>973671024</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -13157,7 +13157,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -13195,7 +13195,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>192</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -13205,7 +13205,7 @@
               <type>0</type>
               <id>258</id>
               <name>datareg_V_52</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -13214,13 +13214,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -13236,7 +13236,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -13253,7 +13253,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>193</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -13263,7 +13263,7 @@
               <type>0</type>
               <id>259</id>
               <name>zext_ln45_52</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -13272,13 +13272,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -13294,7 +13294,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178255520</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -13328,7 +13328,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -13366,7 +13366,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>195</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -13376,7 +13376,7 @@
               <type>0</type>
               <id>261</id>
               <name>datareg_V_53</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -13385,13 +13385,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -13407,7 +13407,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -13424,7 +13424,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>196</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -13434,7 +13434,7 @@
               <type>0</type>
               <id>262</id>
               <name>zext_ln45_53</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -13443,13 +13443,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -13465,7 +13465,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>256</coreId>
+              <coreId>1207433038</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -13499,7 +13499,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -13537,7 +13537,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>198</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -13547,7 +13547,7 @@
               <type>0</type>
               <id>264</id>
               <name>datareg_V_54</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -13556,13 +13556,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -13578,7 +13578,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -13595,7 +13595,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>199</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -13605,7 +13605,7 @@
               <type>0</type>
               <id>265</id>
               <name>zext_ln45_54</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -13614,13 +13614,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -13636,7 +13636,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1701012289</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -13670,7 +13670,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -13708,7 +13708,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>201</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -13718,7 +13718,7 @@
               <type>0</type>
               <id>267</id>
               <name>datareg_V_55</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -13727,13 +13727,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -13749,7 +13749,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -13766,7 +13766,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>202</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -13776,7 +13776,7 @@
               <type>0</type>
               <id>268</id>
               <name>zext_ln45_55</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -13785,13 +13785,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -13807,7 +13807,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178270496</coreId>
+              <coreId>1701012289</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -13841,7 +13841,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -13879,7 +13879,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>204</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -13889,7 +13889,7 @@
               <type>0</type>
               <id>270</id>
               <name>datareg_V_56</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -13898,13 +13898,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -13920,7 +13920,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -13937,7 +13937,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>205</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -13947,7 +13947,7 @@
               <type>0</type>
               <id>271</id>
               <name>zext_ln45_56</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -13956,13 +13956,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -13978,7 +13978,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1952917041</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -14012,7 +14012,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -14050,7 +14050,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>207</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -14060,7 +14060,7 @@
               <type>0</type>
               <id>273</id>
               <name>datareg_V_57</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -14069,13 +14069,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -14091,7 +14091,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -14108,7 +14108,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>208</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -14118,7 +14118,7 @@
               <type>0</type>
               <id>274</id>
               <name>zext_ln45_57</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -14127,13 +14127,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -14149,7 +14149,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1884240442</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -14183,7 +14183,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -14221,7 +14221,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>210</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -14231,7 +14231,7 @@
               <type>0</type>
               <id>276</id>
               <name>datareg_V_58</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -14240,13 +14240,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -14262,7 +14262,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -14279,7 +14279,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>211</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -14289,7 +14289,7 @@
               <type>0</type>
               <id>277</id>
               <name>zext_ln45_58</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -14298,13 +14298,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -14320,7 +14320,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178285056</coreId>
+              <coreId>1735289198</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -14354,7 +14354,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -14392,7 +14392,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>213</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -14402,7 +14402,7 @@
               <type>0</type>
               <id>279</id>
               <name>datareg_V_59</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -14411,13 +14411,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -14433,7 +14433,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -14450,7 +14450,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>214</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -14460,7 +14460,7 @@
               <type>0</type>
               <id>280</id>
               <name>zext_ln45_59</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -14469,13 +14469,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -14491,7 +14491,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>176</coreId>
+              <coreId>1751607653</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -14525,7 +14525,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -14563,7 +14563,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>216</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -14573,7 +14573,7 @@
               <type>0</type>
               <id>282</id>
               <name>datareg_V_60</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -14582,13 +14582,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -14604,7 +14604,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -14621,7 +14621,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>217</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -14631,7 +14631,7 @@
               <type>0</type>
               <id>283</id>
               <name>zext_ln45_60</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -14640,13 +14640,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -14662,7 +14662,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178295312</coreId>
+              <coreId>539107901</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -14696,7 +14696,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -14734,7 +14734,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>219</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -14744,7 +14744,7 @@
               <type>0</type>
               <id>285</id>
               <name>datareg_V_61</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -14753,13 +14753,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -14775,7 +14775,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -14792,7 +14792,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>220</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -14802,7 +14802,7 @@
               <type>0</type>
               <id>286</id>
               <name>zext_ln45_61</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -14811,13 +14811,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -14833,7 +14833,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>721</coreId>
+              <coreId>973724168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -14867,7 +14867,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -14905,7 +14905,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>222</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -14915,7 +14915,7 @@
               <type>0</type>
               <id>288</id>
               <name>datareg_V_62</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -14924,13 +14924,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -14946,7 +14946,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -14963,7 +14963,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>223</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -14973,7 +14973,7 @@
               <type>0</type>
               <id>289</id>
               <name>zext_ln45_62</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -14982,13 +14982,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -15004,7 +15004,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178304736</coreId>
+              <coreId>973730984</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -15038,7 +15038,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -15076,7 +15076,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>225</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -15086,7 +15086,7 @@
               <type>0</type>
               <id>291</id>
               <name>datareg_V_63</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -15095,13 +15095,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -15117,7 +15117,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -15134,7 +15134,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>226</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -15144,7 +15144,7 @@
               <type>0</type>
               <id>292</id>
               <name>zext_ln45_63</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -15153,13 +15153,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -15175,7 +15175,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3177945616</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -15209,7 +15209,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -15247,7 +15247,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>228</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -15257,7 +15257,7 @@
               <type>0</type>
               <id>294</id>
               <name>datareg_V_64</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -15266,13 +15266,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -15288,7 +15288,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -15305,7 +15305,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>229</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -15315,7 +15315,7 @@
               <type>0</type>
               <id>295</id>
               <name>zext_ln45_64</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -15324,13 +15324,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -15346,7 +15346,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178315208</coreId>
+              <coreId>973739360</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -15380,7 +15380,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -15418,7 +15418,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>231</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -15428,7 +15428,7 @@
               <type>0</type>
               <id>297</id>
               <name>datareg_V_65</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -15437,13 +15437,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -15459,7 +15459,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -15476,7 +15476,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>232</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -15486,7 +15486,7 @@
               <type>0</type>
               <id>298</id>
               <name>zext_ln45_65</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -15495,13 +15495,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -15517,7 +15517,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>176</coreId>
+              <coreId>973744712</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -15551,7 +15551,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -15589,7 +15589,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>234</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -15599,7 +15599,7 @@
               <type>0</type>
               <id>300</id>
               <name>datareg_V_66</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -15608,13 +15608,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -15630,7 +15630,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -15647,7 +15647,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>235</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -15657,7 +15657,7 @@
               <type>0</type>
               <id>301</id>
               <name>zext_ln45_66</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -15666,13 +15666,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -15722,7 +15722,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -15760,7 +15760,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>237</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -15770,7 +15770,7 @@
               <type>0</type>
               <id>303</id>
               <name>datareg_V_67</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -15779,13 +15779,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -15801,7 +15801,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -15818,7 +15818,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>238</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -15828,7 +15828,7 @@
               <type>0</type>
               <id>304</id>
               <name>zext_ln45_67</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -15837,13 +15837,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -15859,7 +15859,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1819113532</coreId>
+              <coreId>973756136</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -15893,7 +15893,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -15931,7 +15931,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>240</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -15941,7 +15941,7 @@
               <type>0</type>
               <id>306</id>
               <name>datareg_V_68</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -15950,13 +15950,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -15972,7 +15972,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -15989,7 +15989,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>241</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -15999,7 +15999,7 @@
               <type>0</type>
               <id>307</id>
               <name>zext_ln45_68</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -16008,13 +16008,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -16030,7 +16030,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178335568</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -16064,7 +16064,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -16102,7 +16102,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>243</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -16112,7 +16112,7 @@
               <type>0</type>
               <id>309</id>
               <name>datareg_V_69</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -16121,13 +16121,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -16143,7 +16143,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -16160,7 +16160,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>244</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -16170,7 +16170,7 @@
               <type>0</type>
               <id>310</id>
               <name>zext_ln45_69</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -16179,13 +16179,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -16201,7 +16201,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1869098791</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -16235,7 +16235,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -16273,7 +16273,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>246</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -16283,7 +16283,7 @@
               <type>0</type>
               <id>312</id>
               <name>datareg_V_70</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -16292,13 +16292,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -16314,7 +16314,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -16331,7 +16331,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>247</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -16341,7 +16341,7 @@
               <type>0</type>
               <id>313</id>
               <name>zext_ln45_70</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -16350,13 +16350,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -16372,7 +16372,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>694510703</coreId>
+              <coreId>807414835</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -16406,7 +16406,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -16444,7 +16444,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>249</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -16454,7 +16454,7 @@
               <type>0</type>
               <id>315</id>
               <name>datareg_V_71</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -16463,13 +16463,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -16485,7 +16485,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -16502,7 +16502,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>250</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -16512,7 +16512,7 @@
               <type>0</type>
               <id>316</id>
               <name>zext_ln45_71</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -16521,13 +16521,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -16543,7 +16543,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1886220131</coreId>
+              <coreId>1931502951</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -16577,7 +16577,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -16615,7 +16615,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>252</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -16625,7 +16625,7 @@
               <type>0</type>
               <id>318</id>
               <name>datareg_V_72</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -16634,13 +16634,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -16656,7 +16656,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -16673,7 +16673,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>253</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -16683,7 +16683,7 @@
               <type>0</type>
               <id>319</id>
               <name>zext_ln45_72</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -16692,13 +16692,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -16714,7 +16714,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1714383474</coreId>
+              <coreId>1600939363</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -16748,7 +16748,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -16786,7 +16786,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>255</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -16796,7 +16796,7 @@
               <type>0</type>
               <id>321</id>
               <name>datareg_V_73</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -16805,13 +16805,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -16827,7 +16827,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -16844,7 +16844,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>256</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -16854,7 +16854,7 @@
               <type>0</type>
               <id>322</id>
               <name>zext_ln45_73</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -16863,13 +16863,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -16885,7 +16885,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1718513507</coreId>
+              <coreId>940760128</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -16919,7 +16919,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -16957,7 +16957,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>258</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -16967,7 +16967,7 @@
               <type>0</type>
               <id>324</id>
               <name>datareg_V_74</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -16976,13 +16976,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -16998,7 +16998,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -17015,7 +17015,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>259</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -17025,7 +17025,7 @@
               <type>0</type>
               <id>325</id>
               <name>zext_ln45_74</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -17034,13 +17034,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -17056,7 +17056,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1629954160</coreId>
+              <coreId>118</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -17090,7 +17090,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -17128,7 +17128,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>261</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -17138,7 +17138,7 @@
               <type>0</type>
               <id>327</id>
               <name>datareg_V_75</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -17147,13 +17147,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -17169,7 +17169,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -17186,7 +17186,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>262</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -17196,7 +17196,7 @@
               <type>0</type>
               <id>328</id>
               <name>zext_ln45_75</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -17205,13 +17205,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -17227,7 +17227,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1970040691</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -17261,7 +17261,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -17299,7 +17299,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>264</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -17309,7 +17309,7 @@
               <type>0</type>
               <id>330</id>
               <name>datareg_V_76</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -17318,13 +17318,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -17340,7 +17340,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -17357,7 +17357,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>265</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -17367,7 +17367,7 @@
               <type>0</type>
               <id>331</id>
               <name>zext_ln45_76</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -17376,13 +17376,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -17398,7 +17398,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>762078563</coreId>
+              <coreId>940778160</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -17432,7 +17432,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -17470,7 +17470,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>267</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -17480,7 +17480,7 @@
               <type>0</type>
               <id>333</id>
               <name>datareg_V_77</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -17489,13 +17489,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -17511,7 +17511,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -17528,7 +17528,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>268</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -17538,7 +17538,7 @@
               <type>0</type>
               <id>334</id>
               <name>zext_ln45_77</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -17547,13 +17547,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -17569,7 +17569,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1601265520</coreId>
+              <coreId>940783408</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -17603,7 +17603,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -17641,7 +17641,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>270</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -17651,7 +17651,7 @@
               <type>0</type>
               <id>336</id>
               <name>datareg_V_78</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -17660,13 +17660,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -17682,7 +17682,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -17699,7 +17699,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>271</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -17709,7 +17709,7 @@
               <type>0</type>
               <id>337</id>
               <name>zext_ln45_78</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -17718,13 +17718,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -17740,7 +17740,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>941632568</coreId>
+              <coreId>940788496</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -17774,7 +17774,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -17812,7 +17812,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>273</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -17822,7 +17822,7 @@
               <type>0</type>
               <id>339</id>
               <name>datareg_V_79</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -17831,13 +17831,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -17853,7 +17853,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -17870,7 +17870,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>274</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -17880,7 +17880,7 @@
               <type>0</type>
               <id>340</id>
               <name>zext_ln45_79</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -17889,13 +17889,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -17911,7 +17911,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1630019628</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -17945,7 +17945,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -17983,7 +17983,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>276</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -17993,7 +17993,7 @@
               <type>0</type>
               <id>342</id>
               <name>datareg_V_80</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -18002,13 +18002,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -18024,7 +18024,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -18041,7 +18041,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>277</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -18051,7 +18051,7 @@
               <type>0</type>
               <id>343</id>
               <name>zext_ln45_80</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -18060,13 +18060,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -18082,7 +18082,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2036689696</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -18116,7 +18116,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -18154,7 +18154,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>279</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -18164,7 +18164,7 @@
               <type>0</type>
               <id>345</id>
               <name>datareg_V_81</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -18173,13 +18173,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -18195,7 +18195,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -18212,7 +18212,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>280</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -18222,7 +18222,7 @@
               <type>0</type>
               <id>346</id>
               <name>zext_ln45_81</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -18231,13 +18231,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -18253,7 +18253,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1852142702</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -18287,7 +18287,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -18325,7 +18325,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>282</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -18335,7 +18335,7 @@
               <type>0</type>
               <id>348</id>
               <name>datareg_V_82</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -18344,13 +18344,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -18366,7 +18366,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -18383,7 +18383,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>283</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -18393,7 +18393,7 @@
               <type>0</type>
               <id>349</id>
               <name>zext_ln45_82</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -18402,13 +18402,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -18424,7 +18424,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1936025716</coreId>
+              <coreId>940808976</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -18458,7 +18458,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -18496,7 +18496,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>285</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -18506,7 +18506,7 @@
               <type>0</type>
               <id>351</id>
               <name>datareg_V_83</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -18515,13 +18515,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -18537,7 +18537,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -18554,7 +18554,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>286</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -18564,7 +18564,7 @@
               <type>0</type>
               <id>352</id>
               <name>zext_ln45_83</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -18573,13 +18573,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -18595,7 +18595,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1986360064</coreId>
+              <coreId>940814008</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -18629,7 +18629,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -18667,7 +18667,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>288</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -18677,7 +18677,7 @@
               <type>0</type>
               <id>354</id>
               <name>datareg_V_84</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -18686,13 +18686,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -18708,7 +18708,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -18725,7 +18725,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>289</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -18735,7 +18735,7 @@
               <type>0</type>
               <id>355</id>
               <name>zext_ln45_84</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -18744,13 +18744,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -18766,7 +18766,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>7959657</coreId>
+              <coreId>940818816</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -18800,7 +18800,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -18838,7 +18838,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>291</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -18848,7 +18848,7 @@
               <type>0</type>
               <id>357</id>
               <name>datareg_V_85</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -18857,13 +18857,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -18879,7 +18879,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -18896,7 +18896,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>292</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -18906,7 +18906,7 @@
               <type>0</type>
               <id>358</id>
               <name>zext_ln45_85</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -18915,13 +18915,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -18937,7 +18937,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>542329928</coreId>
+              <coreId>1170820576</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -18971,7 +18971,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -19009,7 +19009,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>294</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -19019,7 +19019,7 @@
               <type>0</type>
               <id>360</id>
               <name>datareg_V_86</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -19028,13 +19028,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -19050,7 +19050,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -19067,7 +19067,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>295</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -19077,7 +19077,7 @@
               <type>0</type>
               <id>361</id>
               <name>zext_ln45_86</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -19086,13 +19086,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -19108,7 +19108,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3156056112</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -19142,7 +19142,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -19180,7 +19180,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>297</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -19190,7 +19190,7 @@
               <type>0</type>
               <id>363</id>
               <name>datareg_V_87</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -19199,13 +19199,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -19221,7 +19221,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -19238,7 +19238,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>298</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -19248,7 +19248,7 @@
               <type>0</type>
               <id>364</id>
               <name>zext_ln45_87</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -19257,13 +19257,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -19279,7 +19279,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3156061136</coreId>
+              <coreId>940833936</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -19313,7 +19313,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -19351,7 +19351,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>300</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -19361,7 +19361,7 @@
               <type>0</type>
               <id>366</id>
               <name>datareg_V_88</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -19370,13 +19370,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -19392,7 +19392,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -19409,7 +19409,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>301</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -19419,7 +19419,7 @@
               <type>0</type>
               <id>367</id>
               <name>zext_ln45_88</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -19428,13 +19428,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -19450,7 +19450,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1135366416</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -19484,7 +19484,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -19522,7 +19522,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>303</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -19532,7 +19532,7 @@
               <type>0</type>
               <id>369</id>
               <name>datareg_V_89</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -19541,13 +19541,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -19563,7 +19563,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -19580,7 +19580,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>304</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -19590,7 +19590,7 @@
               <type>0</type>
               <id>370</id>
               <name>zext_ln45_89</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -19599,13 +19599,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -19621,7 +19621,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>940844656</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -19655,7 +19655,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -19693,7 +19693,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>306</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -19703,7 +19703,7 @@
               <type>0</type>
               <id>372</id>
               <name>datareg_V_90</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -19712,13 +19712,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -19734,7 +19734,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -19751,7 +19751,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>307</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -19761,7 +19761,7 @@
               <type>0</type>
               <id>373</id>
               <name>zext_ln45_90</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -19770,13 +19770,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -19792,7 +19792,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>542329928</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -19826,7 +19826,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -19864,7 +19864,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>309</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -19874,7 +19874,7 @@
               <type>0</type>
               <id>375</id>
               <name>datareg_V_91</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -19883,13 +19883,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -19905,7 +19905,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -19922,7 +19922,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>310</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -19932,7 +19932,7 @@
               <type>0</type>
               <id>376</id>
               <name>zext_ln45_91</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -19941,13 +19941,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -19963,7 +19963,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3156081400</coreId>
+              <coreId>940854576</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -19997,7 +19997,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -20035,7 +20035,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>312</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -20045,7 +20045,7 @@
               <type>0</type>
               <id>378</id>
               <name>datareg_V_92</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -20054,13 +20054,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -20076,7 +20076,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -20093,7 +20093,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>313</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -20103,7 +20103,7 @@
               <type>0</type>
               <id>379</id>
               <name>zext_ln45_92</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -20112,13 +20112,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -20134,7 +20134,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>176</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -20168,7 +20168,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -20206,7 +20206,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>315</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -20216,7 +20216,7 @@
               <type>0</type>
               <id>381</id>
               <name>datareg_V_93</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -20225,13 +20225,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -20247,7 +20247,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -20264,7 +20264,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>316</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -20274,7 +20274,7 @@
               <type>0</type>
               <id>382</id>
               <name>zext_ln45_93</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -20283,13 +20283,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -20305,7 +20305,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3156091616</coreId>
+              <coreId>940864928</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -20339,7 +20339,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -20377,7 +20377,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.67</m_delay>
+          <m_delay>0.62</m_delay>
           <m_topoIndex>318</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -20387,7 +20387,7 @@
               <type>0</type>
               <id>384</id>
               <name>datareg_V_94</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -20396,13 +20396,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -20418,7 +20418,7 @@
               <coreName>Sel</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>73</coreId>
+              <coreId>77</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -20435,7 +20435,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.29</m_delay>
+          <m_delay>0.44</m_delay>
           <m_topoIndex>319</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -20445,7 +20445,7 @@
               <type>0</type>
               <id>385</id>
               <name>zext_ln45_94</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>45</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -20454,13 +20454,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>45</second>
@@ -20476,7 +20476,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178075680</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -20501,7 +20501,7 @@
               <type>0</type>
               <id>386</id>
               <name>mrv</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -20510,13 +20510,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -20532,7 +20532,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155179392</coreId>
+              <coreId>1142753568</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -20558,7 +20558,7 @@
               <type>0</type>
               <id>387</id>
               <name>mrv_1</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -20567,13 +20567,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -20589,7 +20589,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>908078080</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -20615,7 +20615,7 @@
               <type>0</type>
               <id>388</id>
               <name>mrv_2</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -20624,13 +20624,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -20646,7 +20646,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155181280</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -20672,7 +20672,7 @@
               <type>0</type>
               <id>389</id>
               <name>mrv_3</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -20681,13 +20681,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -20703,7 +20703,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155184608</coreId>
+              <coreId>784</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -20729,7 +20729,7 @@
               <type>0</type>
               <id>390</id>
               <name>mrv_4</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -20738,13 +20738,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -20760,7 +20760,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>572669294</coreId>
+              <coreId>940860528</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -20786,7 +20786,7 @@
               <type>0</type>
               <id>391</id>
               <name>mrv_5</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -20795,13 +20795,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -20817,7 +20817,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1769353038</coreId>
+              <coreId>940880608</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -20843,7 +20843,7 @@
               <type>0</type>
               <id>392</id>
               <name>mrv_6</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -20852,13 +20852,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -20874,7 +20874,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>940882768</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -20900,7 +20900,7 @@
               <type>0</type>
               <id>393</id>
               <name>mrv_7</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -20909,13 +20909,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -20931,7 +20931,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155191568</coreId>
+              <coreId>1175676288</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -20957,7 +20957,7 @@
               <type>0</type>
               <id>394</id>
               <name>mrv_8</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -20966,13 +20966,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -20988,7 +20988,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1785688576</coreId>
+              <coreId>1184346608</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21014,7 +21014,7 @@
               <type>0</type>
               <id>395</id>
               <name>mrv_9</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21023,13 +21023,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21045,7 +21045,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155193712</coreId>
+              <coreId>1184348416</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21071,7 +21071,7 @@
               <type>0</type>
               <id>396</id>
               <name>mrv_10</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21080,13 +21080,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21102,7 +21102,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155197016</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21128,7 +21128,7 @@
               <type>0</type>
               <id>397</id>
               <name>mrv_11</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21137,13 +21137,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21159,7 +21159,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>544370432</coreId>
+              <coreId>1184352096</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21185,7 +21185,7 @@
               <type>0</type>
               <id>398</id>
               <name>mrv_12</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21194,13 +21194,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21216,7 +21216,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155198736</coreId>
+              <coreId>1184353888</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21242,7 +21242,7 @@
               <type>0</type>
               <id>399</id>
               <name>mrv_13</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21251,13 +21251,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21273,7 +21273,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155202344</coreId>
+              <coreId>1184355728</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21299,7 +21299,7 @@
               <type>0</type>
               <id>400</id>
               <name>mrv_14</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21308,13 +21308,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21330,7 +21330,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>480</coreId>
+              <coreId>1184357360</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21356,7 +21356,7 @@
               <type>0</type>
               <id>401</id>
               <name>mrv_15</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21365,13 +21365,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21387,7 +21387,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155205968</coreId>
+              <coreId>1184359216</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21413,7 +21413,7 @@
               <type>0</type>
               <id>402</id>
               <name>mrv_16</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21422,13 +21422,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21444,7 +21444,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>352</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21470,7 +21470,7 @@
               <type>0</type>
               <id>403</id>
               <name>mrv_17</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21479,13 +21479,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21501,7 +21501,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155209456</coreId>
+              <coreId>1177713936</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21527,7 +21527,7 @@
               <type>0</type>
               <id>404</id>
               <name>mrv_18</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21536,13 +21536,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21558,7 +21558,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155211344</coreId>
+              <coreId>1184364640</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21584,7 +21584,7 @@
               <type>0</type>
               <id>405</id>
               <name>mrv_19</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21593,13 +21593,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21615,7 +21615,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155203296</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21641,7 +21641,7 @@
               <type>0</type>
               <id>406</id>
               <name>mrv_20</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21650,13 +21650,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21672,7 +21672,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>539768369</coreId>
+              <coreId>1184368224</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21698,7 +21698,7 @@
               <type>0</type>
               <id>407</id>
               <name>mrv_21</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21707,13 +21707,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21729,7 +21729,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155218192</coreId>
+              <coreId>1184370200</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21755,7 +21755,7 @@
               <type>0</type>
               <id>408</id>
               <name>mrv_22</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21764,13 +21764,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21786,7 +21786,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155203296</coreId>
+              <coreId>1184371712</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21812,7 +21812,7 @@
               <type>0</type>
               <id>409</id>
               <name>mrv_23</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21821,13 +21821,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21869,7 +21869,7 @@
               <type>0</type>
               <id>410</id>
               <name>mrv_24</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21878,13 +21878,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21900,7 +21900,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155221904</coreId>
+              <coreId>1184375392</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21926,7 +21926,7 @@
               <type>0</type>
               <id>411</id>
               <name>mrv_25</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21935,13 +21935,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -21957,7 +21957,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>304</coreId>
+              <coreId>1184377064</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -21983,7 +21983,7 @@
               <type>0</type>
               <id>412</id>
               <name>mrv_26</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -21992,13 +21992,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22014,7 +22014,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1184378976</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22040,7 +22040,7 @@
               <type>0</type>
               <id>413</id>
               <name>mrv_27</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22049,13 +22049,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22071,7 +22071,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155226912</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22097,7 +22097,7 @@
               <type>0</type>
               <id>414</id>
               <name>mrv_28</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22106,13 +22106,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22128,7 +22128,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155229152</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22154,7 +22154,7 @@
               <type>0</type>
               <id>415</id>
               <name>mrv_29</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22163,13 +22163,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22185,7 +22185,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155230760</coreId>
+              <coreId>1177713936</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22211,7 +22211,7 @@
               <type>0</type>
               <id>416</id>
               <name>mrv_30</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22220,13 +22220,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22242,7 +22242,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>673197112</coreId>
+              <coreId>1184383600</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22268,7 +22268,7 @@
               <type>0</type>
               <id>417</id>
               <name>mrv_s</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22277,13 +22277,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22299,7 +22299,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155833600</coreId>
+              <coreId>1184387888</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22325,7 +22325,7 @@
               <type>0</type>
               <id>418</id>
               <name>mrv_31</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22334,13 +22334,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22356,7 +22356,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155236216</coreId>
+              <coreId>1184389632</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22382,7 +22382,7 @@
               <type>0</type>
               <id>419</id>
               <name>mrv_32</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22391,13 +22391,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22413,7 +22413,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1601200424</coreId>
+              <coreId>1184391568</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22439,7 +22439,7 @@
               <type>0</type>
               <id>420</id>
               <name>mrv_33</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22448,13 +22448,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22470,7 +22470,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1953853243</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22496,7 +22496,7 @@
               <type>0</type>
               <id>421</id>
               <name>mrv_34</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22505,13 +22505,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22527,7 +22527,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1702258035</coreId>
+              <coreId>1414419794</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22553,7 +22553,7 @@
               <type>0</type>
               <id>422</id>
               <name>mrv_35</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22562,13 +22562,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22584,7 +22584,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155243200</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22610,7 +22610,7 @@
               <type>0</type>
               <id>423</id>
               <name>mrv_36</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22619,13 +22619,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22641,7 +22641,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>67840</coreId>
+              <coreId>1184398688</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22667,7 +22667,7 @@
               <type>0</type>
               <id>424</id>
               <name>mrv_37</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22676,13 +22676,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22698,7 +22698,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155237952</coreId>
+              <coreId>1184400480</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22724,7 +22724,7 @@
               <type>0</type>
               <id>425</id>
               <name>mrv_38</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22733,13 +22733,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22755,7 +22755,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1</coreId>
+              <coreId>1184400928</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22781,7 +22781,7 @@
               <type>0</type>
               <id>426</id>
               <name>mrv_39</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22790,13 +22790,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22812,7 +22812,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155249808</coreId>
+              <coreId>1184404064</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22838,7 +22838,7 @@
               <type>0</type>
               <id>427</id>
               <name>mrv_40</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22847,13 +22847,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22869,7 +22869,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155237952</coreId>
+              <coreId>1869833586</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22895,7 +22895,7 @@
               <type>0</type>
               <id>428</id>
               <name>mrv_41</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22904,13 +22904,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22926,7 +22926,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155253872</coreId>
+              <coreId>1184407648</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -22952,7 +22952,7 @@
               <type>0</type>
               <id>429</id>
               <name>mrv_42</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -22961,13 +22961,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -22983,7 +22983,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1184409344</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23009,7 +23009,7 @@
               <type>0</type>
               <id>430</id>
               <name>mrv_43</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23018,13 +23018,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23040,7 +23040,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155257520</coreId>
+              <coreId>1184411112</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23066,7 +23066,7 @@
               <type>0</type>
               <id>431</id>
               <name>mrv_44</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23075,13 +23075,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23097,7 +23097,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1184412368</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23123,7 +23123,7 @@
               <type>0</type>
               <id>432</id>
               <name>mrv_45</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23132,13 +23132,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23180,7 +23180,7 @@
               <type>0</type>
               <id>433</id>
               <name>mrv_46</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23189,13 +23189,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23211,7 +23211,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1667592992</coreId>
+              <coreId>1184416608</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23237,7 +23237,7 @@
               <type>0</type>
               <id>434</id>
               <name>mrv_47</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23246,13 +23246,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23268,7 +23268,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1124815360</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23294,7 +23294,7 @@
               <type>0</type>
               <id>435</id>
               <name>mrv_48</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23303,13 +23303,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23325,7 +23325,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1184418848</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23351,7 +23351,7 @@
               <type>0</type>
               <id>436</id>
               <name>mrv_49</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23360,13 +23360,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23382,7 +23382,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>512</coreId>
+              <coreId>1184421984</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23408,7 +23408,7 @@
               <type>0</type>
               <id>437</id>
               <name>mrv_50</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23417,13 +23417,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23439,7 +23439,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155268000</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23465,7 +23465,7 @@
               <type>0</type>
               <id>438</id>
               <name>mrv_51</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23474,13 +23474,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23496,7 +23496,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155271728</coreId>
+              <coreId>1184425520</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23522,7 +23522,7 @@
               <type>0</type>
               <id>439</id>
               <name>mrv_52</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23531,13 +23531,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23553,7 +23553,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>480</coreId>
+              <coreId>1184427264</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23579,7 +23579,7 @@
               <type>0</type>
               <id>440</id>
               <name>mrv_53</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23588,13 +23588,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23610,7 +23610,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155275232</coreId>
+              <coreId>1184429152</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23636,7 +23636,7 @@
               <type>0</type>
               <id>441</id>
               <name>mrv_54</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23645,13 +23645,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23693,7 +23693,7 @@
               <type>0</type>
               <id>442</id>
               <name>mrv_55</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23702,13 +23702,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23724,7 +23724,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3135133744</coreId>
+              <coreId>542329928</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23750,7 +23750,7 @@
               <type>0</type>
               <id>443</id>
               <name>mrv_56</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23759,13 +23759,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23781,7 +23781,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155280560</coreId>
+              <coreId>1702258035</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23807,7 +23807,7 @@
               <type>0</type>
               <id>444</id>
               <name>mrv_57</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23816,13 +23816,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23838,7 +23838,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1184436320</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23864,7 +23864,7 @@
               <type>0</type>
               <id>445</id>
               <name>mrv_58</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23873,13 +23873,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23895,7 +23895,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155284048</coreId>
+              <coreId>1184437992</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23921,7 +23921,7 @@
               <type>0</type>
               <id>446</id>
               <name>mrv_59</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23930,13 +23930,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -23952,7 +23952,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155285936</coreId>
+              <coreId>1397508187</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -23978,7 +23978,7 @@
               <type>0</type>
               <id>447</id>
               <name>mrv_60</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -23987,13 +23987,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -24009,7 +24009,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155287104</coreId>
+              <coreId>1184441712</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -24035,7 +24035,7 @@
               <type>0</type>
               <id>448</id>
               <name>mrv_61</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -24044,13 +24044,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -24066,7 +24066,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1184443488</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -24092,7 +24092,7 @@
               <type>0</type>
               <id>449</id>
               <name>mrv_62</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -24101,13 +24101,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -24123,7 +24123,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3155291168</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -24149,7 +24149,7 @@
               <type>0</type>
               <id>450</id>
               <name>_ln50</name>
-              <fileName>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
+              <fileName>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>50</lineNumber>
               <contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</contextFuncName>
@@ -24158,13 +24158,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
+                  <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>/home/ayvol/vitis-accel-DNN/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
+                        <first>/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/firmware/nnet_utils/nnet_activation.h</first>
                         <second>relu&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, relu_config4&amp;gt;</second>
                       </first>
                       <second>50</second>
@@ -24226,7 +24226,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3178254656</coreId>
+              <coreId>1189421312</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -24288,7 +24288,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1</coreId>
+              <coreId>448</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1024</bitwidth>
@@ -24322,7 +24322,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>5857</coreId>
+            <coreId>10613</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -31213,7 +31213,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31240,7 +31240,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31267,7 +31267,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31294,7 +31294,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31321,7 +31321,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31348,7 +31348,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31375,7 +31375,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31402,7 +31402,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31429,7 +31429,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31456,7 +31456,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31483,7 +31483,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31510,7 +31510,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31537,7 +31537,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31564,7 +31564,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31591,7 +31591,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31618,7 +31618,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31645,7 +31645,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31672,7 +31672,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31699,7 +31699,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31726,7 +31726,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31753,7 +31753,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31780,7 +31780,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31807,7 +31807,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31834,7 +31834,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31861,7 +31861,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31888,7 +31888,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31915,7 +31915,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31942,7 +31942,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31969,7 +31969,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -31996,7 +31996,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32023,7 +32023,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32050,7 +32050,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32077,7 +32077,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32104,7 +32104,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32131,7 +32131,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32158,7 +32158,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32185,7 +32185,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32212,7 +32212,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32239,7 +32239,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32266,7 +32266,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32293,7 +32293,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32320,7 +32320,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32347,7 +32347,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32374,7 +32374,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32401,7 +32401,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32428,7 +32428,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32455,7 +32455,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32482,7 +32482,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32509,7 +32509,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32536,7 +32536,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32563,7 +32563,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32590,7 +32590,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32617,7 +32617,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32644,7 +32644,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32671,7 +32671,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32698,7 +32698,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32725,7 +32725,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32752,7 +32752,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32779,7 +32779,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32806,7 +32806,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32833,7 +32833,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32860,7 +32860,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32887,7 +32887,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32914,7 +32914,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>15</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -32937,7 +32937,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -32960,7 +32960,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -32983,7 +32983,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33006,7 +33006,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33029,7 +33029,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33052,7 +33052,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33075,7 +33075,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33098,7 +33098,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33121,7 +33121,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33144,7 +33144,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33167,7 +33167,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33190,7 +33190,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33213,7 +33213,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33236,7 +33236,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33259,7 +33259,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33282,7 +33282,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33305,7 +33305,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33328,7 +33328,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33351,7 +33351,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33374,7 +33374,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33397,7 +33397,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33420,7 +33420,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33443,7 +33443,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33466,7 +33466,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33489,7 +33489,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33512,7 +33512,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33535,7 +33535,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33558,7 +33558,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33581,7 +33581,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33604,7 +33604,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33627,7 +33627,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33650,7 +33650,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33673,7 +33673,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33696,7 +33696,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33719,7 +33719,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33742,7 +33742,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33765,7 +33765,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33788,7 +33788,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33811,7 +33811,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33834,7 +33834,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33857,7 +33857,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33880,7 +33880,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33903,7 +33903,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33926,7 +33926,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33949,7 +33949,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33972,7 +33972,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -33995,7 +33995,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34018,7 +34018,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34041,7 +34041,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34064,7 +34064,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34087,7 +34087,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34110,7 +34110,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34133,7 +34133,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34156,7 +34156,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34179,7 +34179,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34202,7 +34202,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34225,7 +34225,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34248,7 +34248,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34271,7 +34271,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34294,7 +34294,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34317,7 +34317,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34340,7 +34340,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34363,7 +34363,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>
@@ -34386,7 +34386,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>8</second>
             </item>
           </second>
         </item>

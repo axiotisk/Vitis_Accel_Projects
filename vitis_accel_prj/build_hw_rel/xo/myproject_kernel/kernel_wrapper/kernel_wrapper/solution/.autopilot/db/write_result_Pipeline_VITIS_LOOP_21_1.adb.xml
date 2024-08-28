@@ -152,63 +152,63 @@ for.inc:0 %i_1 = load i15 %i
 </operation>
 
 <operation id="17" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="16" bw="64" op_0_bw="64" op_1_bw="64">
-<![CDATA[
-for.inc:1 %gmem1_addr = getelementptr i16 %gmem1, i64 %sext_ln21_cast
-
-]]></Node>
-<StgValue><ssdm name="gmem1_addr"/></StgValue>
-</operation>
-
-<operation id="18" st_id="1" stage="1" lat="1">
-<core>Cmp</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="17" bw="1" op_0_bw="15" op_1_bw="15">
-<![CDATA[
-for.inc:2 %icmp_ln21 = icmp_eq  i15 %i_1, i15 16384
-
-]]></Node>
-<StgValue><ssdm name="icmp_ln21"/></StgValue>
-</operation>
-
-<operation id="19" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="18" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
-<![CDATA[
-for.inc:3 %empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 16384, i64 16384, i64 16384
-
-]]></Node>
-<StgValue><ssdm name="empty"/></StgValue>
-</operation>
-
-<operation id="20" st_id="1" stage="1" lat="1">
 <core>Adder</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="19" bw="15" op_0_bw="15" op_1_bw="15">
+<Node id="16" bw="15" op_0_bw="15" op_1_bw="15">
 <![CDATA[
-for.inc:4 %add_ln21 = add i15 %i_1, i15 1
+for.inc:1 %add_ln21 = add i15 %i_1, i15 1
 
 ]]></Node>
 <StgValue><ssdm name="add_ln21"/></StgValue>
+</operation>
+
+<operation id="18" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="17" bw="64" op_0_bw="64" op_1_bw="64">
+<![CDATA[
+for.inc:2 %gmem1_addr = getelementptr i16 %gmem1, i64 %sext_ln21_cast
+
+]]></Node>
+<StgValue><ssdm name="gmem1_addr"/></StgValue>
+</operation>
+
+<operation id="19" st_id="1" stage="1" lat="1">
+<core>Cmp</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="18" bw="1" op_0_bw="15" op_1_bw="15">
+<![CDATA[
+for.inc:3 %icmp_ln21 = icmp_eq  i15 %i_1, i15 16384
+
+]]></Node>
+<StgValue><ssdm name="icmp_ln21"/></StgValue>
+</operation>
+
+<operation id="20" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="19" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
+<![CDATA[
+for.inc:4 %empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 16384, i64 16384, i64 16384
+
+]]></Node>
+<StgValue><ssdm name="empty"/></StgValue>
 </operation>
 
 <operation id="21" st_id="1" stage="1" lat="1">
@@ -741,27 +741,27 @@ for.inc.split:19 %br_ln21 = br void %for.inc
 </dataflow>
 <dataflow id="111" from="i" to="i_1" fromId="10" toId="16">
 </dataflow>
-<dataflow id="112" from="gmem1" to="gmem1_addr" fromId="67" toId="17">
+<dataflow id="112" from="i_1" to="add_ln21" fromId="16" toId="17">
 </dataflow>
-<dataflow id="113" from="sext_ln21_cast" to="gmem1_addr" fromId="12" toId="17">
+<dataflow id="114" from="StgValue_113" to="add_ln21" fromId="113" toId="17">
 </dataflow>
-<dataflow id="114" from="i_1" to="icmp_ln21" fromId="16" toId="18">
+<dataflow id="115" from="gmem1" to="gmem1_addr" fromId="67" toId="18">
 </dataflow>
-<dataflow id="116" from="StgValue_115" to="icmp_ln21" fromId="115" toId="18">
+<dataflow id="116" from="sext_ln21_cast" to="gmem1_addr" fromId="12" toId="18">
 </dataflow>
-<dataflow id="118" from="_ssdm_op_SpecLoopTripCount" to="empty" fromId="117" toId="19">
+<dataflow id="117" from="i_1" to="icmp_ln21" fromId="16" toId="19">
 </dataflow>
-<dataflow id="120" from="StgValue_119" to="empty" fromId="119" toId="19">
+<dataflow id="119" from="StgValue_118" to="icmp_ln21" fromId="118" toId="19">
 </dataflow>
-<dataflow id="121" from="StgValue_119" to="empty" fromId="119" toId="19">
+<dataflow id="121" from="_ssdm_op_SpecLoopTripCount" to="empty" fromId="120" toId="20">
 </dataflow>
-<dataflow id="122" from="StgValue_119" to="empty" fromId="119" toId="19">
+<dataflow id="123" from="StgValue_122" to="empty" fromId="122" toId="20">
 </dataflow>
-<dataflow id="123" from="i_1" to="add_ln21" fromId="16" toId="20">
+<dataflow id="124" from="StgValue_122" to="empty" fromId="122" toId="20">
 </dataflow>
-<dataflow id="125" from="StgValue_124" to="add_ln21" fromId="124" toId="20">
+<dataflow id="125" from="StgValue_122" to="empty" fromId="122" toId="20">
 </dataflow>
-<dataflow id="126" from="icmp_ln21" to="br_ln21" fromId="18" toId="21">
+<dataflow id="126" from="icmp_ln21" to="br_ln21" fromId="19" toId="21">
 </dataflow>
 <dataflow id="127" from="i_1" to="zext_ln21" fromId="16" toId="22">
 </dataflow>
@@ -805,7 +805,7 @@ for.inc.split:19 %br_ln21 = br void %for.inc
 </dataflow>
 <dataflow id="148" from="out_buf_4_addr" to="out_buf_4_load" fromId="31" toId="32">
 </dataflow>
-<dataflow id="149" from="add_ln21" to="store_ln21" fromId="20" toId="33">
+<dataflow id="149" from="add_ln21" to="store_ln21" fromId="17" toId="33">
 </dataflow>
 <dataflow id="150" from="i" to="store_ln21" fromId="10" toId="33">
 </dataflow>
@@ -821,7 +821,7 @@ for.inc.split:19 %br_ln21 = br void %for.inc
 </dataflow>
 <dataflow id="157" from="_ssdm_op_Write.m_axi.p1i16" to="write_ln23" fromId="156" toId="39">
 </dataflow>
-<dataflow id="158" from="gmem1_addr" to="write_ln23" fromId="17" toId="39">
+<dataflow id="158" from="gmem1_addr" to="write_ln23" fromId="18" toId="39">
 </dataflow>
 <dataflow id="159" from="out_buf_0_load" to="write_ln23" fromId="34" toId="39">
 </dataflow>
@@ -829,7 +829,7 @@ for.inc.split:19 %br_ln21 = br void %for.inc
 </dataflow>
 <dataflow id="162" from="_ssdm_op_Write.m_axi.p1i16" to="write_ln23" fromId="156" toId="40">
 </dataflow>
-<dataflow id="163" from="gmem1_addr" to="write_ln23" fromId="17" toId="40">
+<dataflow id="163" from="gmem1_addr" to="write_ln23" fromId="18" toId="40">
 </dataflow>
 <dataflow id="164" from="out_buf_1_load" to="write_ln23" fromId="35" toId="40">
 </dataflow>
@@ -837,7 +837,7 @@ for.inc.split:19 %br_ln21 = br void %for.inc
 </dataflow>
 <dataflow id="166" from="_ssdm_op_Write.m_axi.p1i16" to="write_ln23" fromId="156" toId="41">
 </dataflow>
-<dataflow id="167" from="gmem1_addr" to="write_ln23" fromId="17" toId="41">
+<dataflow id="167" from="gmem1_addr" to="write_ln23" fromId="18" toId="41">
 </dataflow>
 <dataflow id="168" from="out_buf_2_load" to="write_ln23" fromId="36" toId="41">
 </dataflow>
@@ -845,7 +845,7 @@ for.inc.split:19 %br_ln21 = br void %for.inc
 </dataflow>
 <dataflow id="170" from="_ssdm_op_Write.m_axi.p1i16" to="write_ln23" fromId="156" toId="42">
 </dataflow>
-<dataflow id="171" from="gmem1_addr" to="write_ln23" fromId="17" toId="42">
+<dataflow id="171" from="gmem1_addr" to="write_ln23" fromId="18" toId="42">
 </dataflow>
 <dataflow id="172" from="out_buf_3_load" to="write_ln23" fromId="37" toId="42">
 </dataflow>
@@ -869,21 +869,21 @@ for.inc.split:19 %br_ln21 = br void %for.inc
 </dataflow>
 <dataflow id="185" from="_ssdm_op_Write.m_axi.p1i16" to="write_ln23" fromId="156" toId="45">
 </dataflow>
-<dataflow id="186" from="gmem1_addr" to="write_ln23" fromId="17" toId="45">
+<dataflow id="186" from="gmem1_addr" to="write_ln23" fromId="18" toId="45">
 </dataflow>
 <dataflow id="187" from="out_buf_4_load" to="write_ln23" fromId="38" toId="45">
 </dataflow>
 <dataflow id="188" from="StgValue_160" to="write_ln23" fromId="160" toId="45">
 </dataflow>
-<dataflow id="189" from="icmp_ln21" to="StgValue_2" fromId="18" toId="2">
+<dataflow id="189" from="icmp_ln21" to="StgValue_2" fromId="19" toId="2">
 </dataflow>
-<dataflow id="190" from="icmp_ln21" to="StgValue_3" fromId="18" toId="3">
+<dataflow id="190" from="icmp_ln21" to="StgValue_3" fromId="19" toId="3">
 </dataflow>
-<dataflow id="191" from="icmp_ln21" to="StgValue_4" fromId="18" toId="4">
+<dataflow id="191" from="icmp_ln21" to="StgValue_4" fromId="19" toId="4">
 </dataflow>
-<dataflow id="192" from="icmp_ln21" to="StgValue_5" fromId="18" toId="5">
+<dataflow id="192" from="icmp_ln21" to="StgValue_5" fromId="19" toId="5">
 </dataflow>
-<dataflow id="193" from="icmp_ln21" to="StgValue_6" fromId="18" toId="6">
+<dataflow id="193" from="icmp_ln21" to="StgValue_6" fromId="19" toId="6">
 </dataflow>
 </dataflows>
 

@@ -64,33 +64,33 @@ for.cond.i.i:0 %i = phi i15 %add_ln15, void %for.inc.i.i, i15 0, void %entry
 </operation>
 
 <operation id="6" st_id="2" stage="1" lat="1">
+<core>Adder</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="12" bw="15" op_0_bw="15" op_1_bw="15">
+<![CDATA[
+for.cond.i.i:1 %add_ln15 = add i15 %i, i15 1
+
+]]></Node>
+<StgValue><ssdm name="add_ln15"/></StgValue>
+</operation>
+
+<operation id="7" st_id="2" stage="1" lat="1">
 <core>Cmp</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="12" bw="1" op_0_bw="15" op_1_bw="15">
+<Node id="13" bw="1" op_0_bw="15" op_1_bw="15">
 <![CDATA[
-for.cond.i.i:1 %icmp_ln15 = icmp_eq  i15 %i, i15 16384
+for.cond.i.i:2 %icmp_ln15 = icmp_eq  i15 %i, i15 16384
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln15"/></StgValue>
-</operation>
-
-<operation id="7" st_id="2" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="13" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
-<![CDATA[
-for.cond.i.i:2 %empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 16384, i64 16384, i64 16384
-
-]]></Node>
-<StgValue><ssdm name="empty"/></StgValue>
 </operation>
 
 <operation id="8" st_id="2" stage="1" lat="1">
@@ -100,27 +100,27 @@ for.cond.i.i:2 %empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 1
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="14" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32" op_3_bw="0" op_4_bw="15" op_5_bw="15" op_6_bw="32">
+<Node id="14" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-for.cond.i.i:3 %specdataflowpipeline_ln15 = specdataflowpipeline void @_ssdm_op_SpecDataflowPipeline, i32 4294967295, i32 0, void @dataflow_parent_loop_str, i15 %i, i15 16384, i32 0
+for.cond.i.i:3 %empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 16384, i64 16384, i64 16384
 
 ]]></Node>
-<StgValue><ssdm name="specdataflowpipeline_ln15"/></StgValue>
+<StgValue><ssdm name="empty"/></StgValue>
 </operation>
 
 <operation id="9" st_id="2" stage="1" lat="1">
-<core>Adder</core>
+<core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="15" bw="15" op_0_bw="15" op_1_bw="15">
+<Node id="15" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32" op_3_bw="0" op_4_bw="15" op_5_bw="15" op_6_bw="32">
 <![CDATA[
-for.cond.i.i:4 %add_ln15 = add i15 %i, i15 1
+for.cond.i.i:4 %specdataflowpipeline_ln15 = specdataflowpipeline void @_ssdm_op_SpecDataflowPipeline, i32 4294967295, i32 0, void @dataflow_parent_loop_str, i15 %i, i15 16384, i32 0
 
 ]]></Node>
-<StgValue><ssdm name="add_ln15"/></StgValue>
+<StgValue><ssdm name="specdataflowpipeline_ln15"/></StgValue>
 </operation>
 
 <operation id="10" st_id="2" stage="1" lat="1">

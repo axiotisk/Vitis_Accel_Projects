@@ -8,123 +8,108 @@
 # The following environment variables are set when running v++
 Environment variables :
 ------------------------------------------
-NV_LIBCUBLAS_VERSION=11.4.1.1043-1
-NVIDIA_VISIBLE_DEVICES=none
-KUBERNETES_SERVICE_PORT_HTTPS=443
-TURN_TLS=false
-EGL_SERVICE_PORT=8080
-KUBERNETES_SERVICE_PORT=443
+SHELL=/bin/bash
+CONDA_EXE=/home/kaxiotis/miniconda3/bin/conda
+_CE_M=
 RDI_APPROOT=/tools/Xilinx/Vitis/2022.2
 RDI_JAVA_PLATFORM=
-HOSTNAME=egl
 LANGUAGE=en_US:en
-TURN_HOST=turn.nrp-nautilus.io
-MAKE_TERMOUT=/dev/pts/3
+MAKE_TERMOUT=/dev/pts/9
 XIL_SUPPRESS_OVERRIDE_WARNINGS=1
 RDI_BINROOT=/tools/Xilinx/Vitis/2022.2/bin
+TERMCAP=SC|screen.xterm-256color|VT 100/ANSI X3.64 virtual terminal:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:li#49:co#190:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:se=\E[23m:mb=\E[5m:md=\E[1m:mh=\E[2m:mr=\E[7m:me=\E[m:ms:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:vb=\Eg:G0:as=\E(0:ae=\E(B:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\E[5i:pf=\E[4i:Km=\E[M:k0=\E[10~:k1=\EOP:k2=\EOQ:k3=\EOR:k4=\EOS:k5=\E[15~:k6=\E[17~:k7=\E[18~:k8=\E[19~:k9=\E[20~:k;=\E[21~:F1=\E[23~:F2=\E[24~:kB=\E[Z:kh=\E[1~:@1=\E[1~:kH=\E[4~:@7=\E[4~:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:kd=\EOB:kr=\EOC:kl=\EOD:km:
+LC_ADDRESS=de_CH.UTF-8
 XILINX_VIVADO=/tools/Xilinx/Vivado/2022.2
-NVIDIA_REQUIRE_CUDA=cuda>=11.2 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 driver>=450
-NOVNC_ENABLE=true
-DPI=96
-NV_NVTX_VERSION=11.2.152-1
+LC_NAME=de_CH.UTF-8
 RDI_OPT_EXT=.o
 RDI_INSTALLVER=2022.2
 RDI_INSTALLROOT=/tools/Xilinx
-NV_LIBCUSPARSE_VERSION=11.4.1.1152-1
-ENABLE_BASIC_AUTH=true
-EGL_PORT_8080_TCP_PROTO=tcp
-NV_LIBNPP_VERSION=11.3.2.152-1
+WINDOW=0
 RDI_PATCHROOT=
+LC_MONETARY=de_CH.UTF-8
 XILINX_XRT=/opt/xilinx/xrt
-NCCL_VERSION=2.8.4-1
+XML_CATALOG_FILES=file:///home/kaxiotis/miniconda3/envs/hls4ml-tutorial/etc/xml/catalog file:///etc/xml/catalog
 XIL_NO_OVERRIDE=0
 RDI_LIBDIR=/tools/Xilinx/Vitis/2022.2/lib/lnx64.o/Ubuntu/20:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o
-PWD=/home/ayvol/vitis-accel-DNN/vitis_accel_prj
+PWD=/home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj
+GSETTINGS_SCHEMA_DIR=/home/kaxiotis/miniconda3/envs/hls4ml-tutorial/share/glib-2.0/schemas
+LOGNAME=kaxiotis
+XDG_SESSION_TYPE=tty
+CONDA_PREFIX=/home/kaxiotis/miniconda3/envs/hls4ml-tutorial
 _RDI_DONT_SET_XILINX_AS_PATH=True
-NVIDIA_DRIVER_CAPABILITIES=all
-SIZEW=1920
-NV_LIBNPP_PACKAGE=libnpp-11-2=11.3.2.152-1
-SIZEH=1200
-TZ=UTC
+GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
 RDI_PREPEND_PATH=/tools/Xilinx/Vitis/2022.2/bin
 XILINX_DSP=
-LD_PRELOAD=/lib/x86_64-linux-gnu/libudev.so.1
-NV_CUDA_CUDART_VERSION=11.2.152-1
-HOME=/home/user
+MOTD_SHOWN=pam
+HOME=/home/kaxiotis
 SYNTH_COMMON=/tools/Xilinx/Vitis/2022.2/scripts/rt/data
+LC_PAPER=de_CH.UTF-8
 LANG=en_US.UTF-8
-KUBERNETES_PORT_443_TCP=tcp://10.96.0.1:443
-TURN_SHARED_SECRET=cup5dBCknRijK4roVJSEUFikEpu8xdKAqGxubX7CbZ2YkpgC4zFsU5Ukqf97PHsE
-CUDA_VERSION=11.2.2
-NV_LIBCUBLAS_PACKAGE=libcublas-11-2=11.4.1.1043-1
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+VIRTUAL_ENV=/home/kaxiotis/hls4ml/venv_hls4mldev
+PLATFORM_REPO_PATHS=/opt/xilinx/platforms/
 XILINX_HLS=/tools/Xilinx/Vitis_HLS/2022.2
+CONDA_PROMPT_MODIFIER=(hls4ml-tutorial) 
 HDI_PROCESSOR=x86_64
 RDI_BUILD=yes
-XILINXD_LICENSE_FILE=2100@xilinxd
 RDI_PROG=/tools/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/v++
-EGL_SERVICE_HOST=10.110.189.176
-TURN_PORT=3478
-WEBRTC_ENCODER=x264enc
-NV_LIBCUBLAS_PACKAGE_NAME=libcublas-11-2
-TURN_PROTOCOL=udp
+SSH_CONNECTION=10.70.0.31 46850 10.194.48.3 22
 RT_TCL_PATH=/tools/Xilinx/Vitis/2022.2/scripts/rt/base_tcl/tcl
 MFLAGS=
-EGL_PORT=tcp://10.110.189.176:8080
-REFRESH=60
 XILINX_SDK=/tools/Xilinx/Vitis/2022.2
+LESSCLOSE=/usr/bin/lesspipe %s %s
+XDG_SESSION_CLASS=user
 MAKEFLAGS=
-PYTHONPATH=/opt/xilinx/xrt/python
-TERM=xterm
-PASSWD=chuhua123
-APPIMAGE_EXTRACT_AND_RUN=1
-USER=user
-MAKE_TERMERR=/dev/pts/3
+PYTHONPATH=/opt/xilinx/xrt/python:/opt/xilinx/xrt/python::/home/kaxiotis/hls4ml:/home/kaxiotis/hls4ml
+LC_IDENTIFICATION=de_CH.UTF-8
+TERM=screen.xterm-256color
+_CE_CONDA=
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=kaxiotis
+MAKE_TERMERR=/dev/pts/9
 XILINX_PLANAHEAD=/tools/Xilinx/Vitis/2022.2
+CONDA_SHLVL=4
 RDI_BASEROOT=/tools/Xilinx/Vitis
 RDI_TPS_ROOT=/tools/Xilinx/Vivado/2022.2/tps/lnx64
 RDI_JAVA_VERSION=11.0.11_9
-EGL_SERVICE_PORT_HTTP=8080
 RDI_DATADIR=/tools/Xilinx/Vitis/2022.2/data
-DISPLAY=:0
-SHLVL=3
+DISPLAY=localhost:10.0
+SHLVL=4
 MAKELEVEL=1
-NV_CUDA_LIB_VERSION=11.2.2-1
-NVARCH=x86_64
-KUBERNETES_PORT_443_TCP_PROTO=tcp
-CDEPTH=24
+LC_TELEPHONE=de_CH.UTF-8
+LC_MEASUREMENT=de_CH.UTF-8
 XILINX_VIVADO_HLS=/tools/Xilinx/Vivado/2022.2
 XIL_CHECK_TCL_DEBUG=False
-KUBERNETES_PORT_443_TCP_ADDR=10.96.0.1
-WEBRTC_ENABLE_RESIZE=false
-NV_CUDA_COMPAT_PACKAGE=cuda-compat-11-2
-EGL_PORT_8080_TCP=tcp://10.110.189.176:8080
-VGL_DISPLAY=egl
-NV_LIBNCCL_PACKAGE=libnccl2=2.8.4-1+cuda11.2
-LD_LIBRARY_PATH=/tools/Xilinx/Vitis/2022.2/tps/lnx64/java-cef-95.0.4638.69/bin/lib/linux64:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o/Ubuntu/20:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o:/tools/Xilinx/Vitis/2022.2/tps/lnx64/jre11.0.11_9/lib/:/tools/Xilinx/Vitis/2022.2/tps/lnx64/jre11.0.11_9/lib//server:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o/Ubuntu/20:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o:/opt/xilinx/xrt/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/tools/Xilinx/Vitis/2022.2/bin/../lnx64/tools/dot/lib
-HDIPRELDPATH=/tools/Xilinx/Vitis/2022.2/lib/lnx64.o/Ubuntu/20:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o:/opt/xilinx/xrt/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/tools/Xilinx/Vitis/2022.2/bin/../lnx64/tools/dot/lib
-XDG_RUNTIME_DIR=/tmp
+XDG_SESSION_ID=413
+CONDA_PYTHON_EXE=/home/kaxiotis/miniconda3/bin/python
+LD_LIBRARY_PATH=/tools/Xilinx/Vitis/2022.2/tps/lnx64/java-cef-95.0.4638.69/bin/lib/linux64:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o/Ubuntu/20:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o:/tools/Xilinx/Vitis/2022.2/tps/lnx64/jre11.0.11_9/lib/:/tools/Xilinx/Vitis/2022.2/tps/lnx64/jre11.0.11_9/lib//server:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o/Ubuntu/20:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o:/opt/xilinx/xrt/lib:/opt/xilinx/xrt/lib:/tools/Xilinx/Vitis/2022.2/bin/../lnx64/tools/dot/lib
+HDIPRELDPATH=/tools/Xilinx/Vitis/2022.2/lib/lnx64.o/Ubuntu/20:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2022.2/lib/lnx64.o:/opt/xilinx/xrt/lib:/opt/xilinx/xrt/lib:/tools/Xilinx/Vitis/2022.2/bin/../lnx64/tools/dot/lib
+XDG_RUNTIME_DIR=/run/user/1002
+SSH_CLIENT=10.70.0.31 46850 22
+CONDA_DEFAULT_ENV=hls4ml-tutorial
+LC_TIME=de_CH.UTF-8
 TCL_LIBRARY=/tools/Xilinx/Vitis/2022.2/tps/tcl/tcl8.5
-EGL_PORT_8080_TCP_ADDR=10.110.189.176
-KUBERNETES_SERVICE_HOST=10.96.0.1
 LC_ALL=en_US.UTF-8
-KUBERNETES_PORT=tcp://10.96.0.1:443
-KUBERNETES_PORT_443_TCP_PORT=443
-PATH=/tools/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.26/bin:/tools/Xilinx/Vitis/2022.2/bin/../gnu/aarch64/lin/aarch64-linux/bin:/tools/Xilinx/Vitis/2022.2/bin/../gnu/ppc64le/4.9.3/lnx64/bin:/tools/Xilinx/Vitis/2022.2/bin/../gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/tools/Xilinx/Vivado/2022.2/tps/lnx64/gcc-8.3.0/bin:/tools/Xilinx/Vivado/2022.2/gnu/microblaze/lin/bin:/tools/Xilinx/Vitis/2022.2/bin:/tools/Xilinx/Vitis/2022.2/tps/lnx64/jre11.0.11_9/bin:/tools/Xilinx/Vivado/2022.2/bin:/tools/Xilinx/Vitis_HLS/2022.2/bin:/tools/Xilinx/Model_Composer/2022.2/bin:/tools/Xilinx/Vitis/2022.2/gnu/microblaze/lin/bin:/tools/Xilinx/Vitis/2022.2/gnu/arm/lin/bin:/tools/Xilinx/Vitis/2022.2/gnu/microblaze/linux_toolchain/lin64_le/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch64/lin/aarch64-linux/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch64/lin/aarch64-none/bin:/tools/Xilinx/Vitis/2022.2/gnu/armr5/lin/gcc-arm-none-eabi/bin:/tools/Xilinx/Vitis/2022.2/tps/lnx64/cmake-3.3.2/bin:/tools/Xilinx/Vitis/2022.2/aietools/bin:/tools/Xilinx/DocNav:/opt/xilinx/xrt/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+PATH=/tools/Xilinx/Vivado/2022.2/tps/lnx64/binutils-2.26/bin:/tools/Xilinx/Vitis/2022.2/bin/../gnu/aarch64/lin/aarch64-linux/bin:/tools/Xilinx/Vitis/2022.2/bin/../gnu/ppc64le/4.9.3/lnx64/bin:/tools/Xilinx/Vitis/2022.2/bin/../gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/tools/Xilinx/Vivado/2022.2/tps/lnx64/gcc-8.3.0/bin:/tools/Xilinx/Vivado/2022.2/gnu/microblaze/lin/bin:/tools/Xilinx/Vitis/2022.2/bin:/tools/Xilinx/Vitis/2022.2/tps/lnx64/jre11.0.11_9/bin:/tools/Xilinx/Vivado/2022.2/bin:/tools/Xilinx/Vitis_HLS/2022.2/bin:/tools/Xilinx/Model_Composer/2022.2/bin:/tools/Xilinx/Vitis/2022.2/gnu/microblaze/lin/bin:/tools/Xilinx/Vitis/2022.2/gnu/arm/lin/bin:/tools/Xilinx/Vitis/2022.2/gnu/microblaze/linux_toolchain/lin64_le/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch64/lin/aarch64-linux/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch64/lin/aarch64-none/bin:/tools/Xilinx/Vitis/2022.2/gnu/armr5/lin/gcc-arm-none-eabi/bin:/tools/Xilinx/Vitis/2022.2/tps/lnx64/cmake-3.3.2/bin:/tools/Xilinx/Vitis/2022.2/aietools/bin:/tools/Xilinx/DocNav:/opt/xilinx/xrt/bin:/home/kaxiotis/hls4ml/venv_hls4mldev/bin:/home/kaxiotis/.local/bin:/home/kaxiotis/miniconda3/envs/hls4ml-tutorial/bin:/home/kaxiotis/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+STY=1288981.compile_updates
 RT_LIBPATH=/tools/Xilinx/Vitis/2022.2/scripts/rt/data
-NV_LIBNCCL_PACKAGE_NAME=libnccl2
-NV_LIBNCCL_PACKAGE_VERSION=2.8.4-1
 HDI_APPROOT=/tools/Xilinx/Vitis/2022.2
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
 RDI_PLATFORM=lnx64
 MYVIVADO=
-ENABLE_AUDIO=true
-EGL_PORT_8080_TCP_PORT=8080
+SSH_TTY=/dev/pts/0
+CONDA_PREFIX_1=/home/kaxiotis/miniconda3
+CONDA_PREFIX_2=/home/kaxiotis/miniconda3/envs/hls4ml-tutorial
+CONDA_PREFIX_3=/home/kaxiotis/miniconda3
 ISL_IOSTREAMS_RSA=/tools/Xilinx/Vitis/2022.2/tps/isl
-PULSE_SERVER=127.0.0.1:4713
+LC_NUMERIC=de_CH.UTF-8
 XILINX_VITIS=/tools/Xilinx/Vitis/2022.2
 OLDPWD=/tools/Xilinx/Vitis/2022.2/bin
+TARGET=hw
 _=/tools/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/v++
-XILINX_CD_CONNECT_ID=42409
-XILINX_CD_SESSION=a33eed10-664e-4d4b-ac1b-80113e5f292c
+XILINX_CD_CONNECT_ID=36941
+XILINX_CD_SESSION=0ae6b923-1eb0-47c1-b14a-0084e8ebf2a9
 
 
 V++ command line:
@@ -135,15 +120,7 @@ FINAL PROGRAM OPTIONS
 --advanced.prop kernel.kernel_wrapper.kernel_flags=-std=c++11
 --compile
 --config accelerator_card.cfg
---connectivity.nk kernel_wrapper:4
---connectivity.sp kernel_wrapper_1.in:HBM[0:3]
---connectivity.sp kernel_wrapper_1.out:HBM[4:7]
---connectivity.sp kernel_wrapper_2.in:HBM[8:11]
---connectivity.sp kernel_wrapper_2.out:HBM[12:15]
---connectivity.sp kernel_wrapper_3.in:HBM[16:19]
---connectivity.sp kernel_wrapper_3.out:HBM[20:23]
---connectivity.sp kernel_wrapper_4.in:HBM[24:27]
---connectivity.sp kernel_wrapper_4.out:HBM[28:31]
+--connectivity.nk kernel_wrapper:1
 --hls.clock 200000000:kernel_wrapper
 --hls.pre_tcl ./hls_config.tcl
 --include ./
@@ -157,12 +134,11 @@ FINAL PROGRAM OPTIONS
 --messageDb ./build_hw_rel/kernel_wrapper.mdb
 --optimize 0
 --output build_hw_rel/myproject_kernel.xo
---platform xilinx_u55c_gen3x16_xdma_3_202210_1
+--platform xilinx_vck5000_gen4x8_qdma_2_202220_1
 --report_level 0
 --save-temps
 --target hw
 --temp_dir ./build_hw_rel/xo
---vivado.prop run.impl_1.STEPS.PLACE_DESIGN.ARGS.DIRECTIVE=Explore
 
 PARSED COMMAND LINE OPTIONS
 -c 
@@ -182,21 +158,12 @@ firmware/myproject.cpp
 PARSED CONFIG FILE (1) OPTIONS
 file: accelerator_card.cfg
 kernel kernel_wrapper 
-platform xilinx_u55c_gen3x16_xdma_3_202210_1 
+platform xilinx_vck5000_gen4x8_qdma_2_202220_1 
 save-temps 1 
 advanced.prop kernel.kernel_wrapper.kernel_flags=-std=c++11 
 hls.pre_tcl ./hls_config.tcl 
 hls.clock 200000000:kernel_wrapper 
-connectivity.nk kernel_wrapper:4 
-connectivity.sp kernel_wrapper_1.in:HBM[0:3] 
-connectivity.sp kernel_wrapper_1.out:HBM[4:7] 
-connectivity.sp kernel_wrapper_2.in:HBM[8:11] 
-connectivity.sp kernel_wrapper_2.out:HBM[12:15] 
-connectivity.sp kernel_wrapper_3.in:HBM[16:19] 
-connectivity.sp kernel_wrapper_3.out:HBM[20:23] 
-connectivity.sp kernel_wrapper_4.in:HBM[24:27] 
-connectivity.sp kernel_wrapper_4.out:HBM[28:31] 
-vivado.prop run.impl_1.STEPS.PLACE_DESIGN.ARGS.DIRECTIVE=Explore 
+connectivity.nk kernel_wrapper:1 
 
 EXPANDED PARAMETERS
 From application of optMap.xml: 
@@ -204,22 +171,22 @@ From application of optMap.xml:
 
 
 FINAL PLATFORM PATH
-/opt/xilinx/platforms/xilinx_u55c_gen3x16_xdma_3_202210_1/xilinx_u55c_gen3x16_xdma_3_202210_1.xpfm
+/opt/xilinx/platforms/xilinx_vck5000_gen4x8_qdma_2_202220_1/xilinx_vck5000_gen4x8_qdma_2_202220_1.xpfm
 
 ==========================================
 new:  steps log generated by v++ for new launch 
-timestamp: 01 Aug 2024 17:50:20
+timestamp: 24 Aug 2024 01:30:01
 ------------------------------------------
 step: performing high-level synthesis for kernel:kernel_wrapper
-timestamp: 01 Aug 2024 18:15:26
-launch dir: /home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper
-cmd: vitis_hls -f /home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper.tcl -messageDb vitis_hls.pb
+timestamp: 24 Aug 2024 01:50:17
+launch dir: /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper
+cmd: vitis_hls -f /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/myproject_kernel/kernel_wrapper/kernel_wrapper.tcl -messageDb vitis_hls.pb
 V++ internal step status: success
 ------------------------------------------
 V++ internal step: generating system estimate report file
-timestamp: 01 Aug 2024 18:15:26
-output: /home/ayvol/vitis-accel-DNN/vitis_accel_prj/build_hw_rel/xo/reports/myproject_kernel/system_estimate_myproject_kernel.xtxt
+timestamp: 24 Aug 2024 01:50:17
+output: /home/kaxiotis/Vitis_Accel_Projects/vitis_accel_prj/build_hw_rel/xo/reports/myproject_kernel/system_estimate_myproject_kernel.xtxt
 V++ internal step status: success
 ------------------------------------------
 system estimate report task completed
-timestamp: 01 Aug 2024 18:15:27
+timestamp: 24 Aug 2024 01:50:17

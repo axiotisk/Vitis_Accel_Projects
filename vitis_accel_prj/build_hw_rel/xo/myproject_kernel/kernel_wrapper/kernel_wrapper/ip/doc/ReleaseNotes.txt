@@ -4,8 +4,8 @@
 # Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 # ==============================================================
 
-Family       : virtexuplushbm
-Device       : xcu55c
-Package      : -fsvh2892
-Speed Grade  : -2L-e
+Family       : versal
+Device       : xcvc1902
+Package      : -vsvd1760
+Speed Grade  : -2MP-e-S
 Clock Period : 5.000 ns

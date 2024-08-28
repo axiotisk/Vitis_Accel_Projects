@@ -1,13 +1,13 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s'" level="0">
-<item name = "Date">Thu Aug  1 18:04:54 2024
+<item name = "Date">Sat Aug 24 01:43:48 2024
 </item>
 <item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
 <item name = "Project">kernel_wrapper</item>
 <item name = "Solution">solution (Vitis Kernel Flow Target)</item>
-<item name = "Product family">virtexuplus</item>
-<item name = "Target device">xcu55c-fsvh2892-2L-e</item>
+<item name = "Product family">versal</item>
+<item name = "Target device">xcvc1902-vsvd1760-2MP-e-S</item>
 </section>
 
 <section name = "Performance Estimates" level="0">
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00 ns, 0.969 ns, 1.35 ns</column>
+<column name="ap_clk">5.00 ns, 1.068 ns, 1.35 ns</column>
 </table>
 </item>
 </section>
@@ -47,15 +47,13 @@
 <item name = "Summary"><table name="" hasTotal="1">
 <keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
 <column name="DSP">-, -, -, -, -</column>
-<column name="Expression">-, -, 0, 896, -</column>
+<column name="Expression">-, -, 0, 704, -</column>
 <column name="FIFO">-, -, -, -, -</column>
 <column name="Instance">-, -, -, -, -</column>
 <column name="Memory">-, -, -, -, -</column>
 <column name="Multiplexer">-, -, -, -, -</column>
 <column name="Register">-, -, -, -, -</column>
-<specialColumn name="Available SLR">1344, 3008, 869120, 434560, 320</specialColumn>
-<specialColumn name="Utilization SLR (%)">0, 0, 0, ~0, 0</specialColumn>
-<specialColumn name="Available">4032, 9024, 2607360, 1303680, 960</specialColumn>
+<specialColumn name="Available">1934, 1968, 1799680, 899840, 463</specialColumn>
 <specialColumn name="Utilization (%)">0, 0, 0, ~0, 0</specialColumn>
 </table>
 </item>
@@ -79,70 +77,70 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="icmp_ln1649_10_fu_580_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_11_fu_598_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_12_fu_616_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_13_fu_634_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_14_fu_652_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_15_fu_670_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_16_fu_688_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_17_fu_706_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_18_fu_724_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_19_fu_742_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_1_fu_418_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_20_fu_760_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_21_fu_778_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_22_fu_796_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_23_fu_814_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_24_fu_832_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_25_fu_850_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_26_fu_868_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_27_fu_886_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_28_fu_904_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_29_fu_922_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_2_fu_436_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_30_fu_940_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_31_fu_958_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_3_fu_454_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_4_fu_472_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_5_fu_490_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_6_fu_508_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_7_fu_526_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_8_fu_544_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_9_fu_562_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="icmp_ln1649_fu_400_p2">icmp, 0, 0, 13, 16, 1</column>
-<column name="datareg_V_10_fu_586_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_11_fu_604_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_12_fu_622_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_13_fu_640_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_14_fu_658_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_15_fu_676_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_16_fu_694_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_17_fu_712_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_18_fu_730_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_19_fu_748_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_1_fu_424_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_20_fu_766_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_21_fu_784_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_22_fu_802_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_23_fu_820_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_24_fu_838_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_25_fu_856_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_26_fu_874_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_27_fu_892_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_28_fu_910_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_29_fu_928_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_2_fu_442_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_30_fu_946_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_31_fu_964_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_3_fu_460_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_4_fu_478_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_5_fu_496_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_6_fu_514_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_7_fu_532_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_8_fu_550_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_9_fu_568_p3">select, 0, 0, 15, 1, 15</column>
-<column name="datareg_V_fu_406_p3">select, 0, 0, 15, 1, 15</column>
+<column name="icmp_ln1649_10_fu_580_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_11_fu_598_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_12_fu_616_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_13_fu_634_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_14_fu_652_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_15_fu_670_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_16_fu_688_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_17_fu_706_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_18_fu_724_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_19_fu_742_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_1_fu_418_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_20_fu_760_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_21_fu_778_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_22_fu_796_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_23_fu_814_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_24_fu_832_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_25_fu_850_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_26_fu_868_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_27_fu_886_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_28_fu_904_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_29_fu_922_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_2_fu_436_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_30_fu_940_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_31_fu_958_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_3_fu_454_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_4_fu_472_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_5_fu_490_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_6_fu_508_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_7_fu_526_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_8_fu_544_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_9_fu_562_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="icmp_ln1649_fu_400_p2">icmp, 0, 0, 8, 16, 1</column>
+<column name="datareg_V_10_fu_586_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_11_fu_604_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_12_fu_622_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_13_fu_640_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_14_fu_658_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_15_fu_676_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_16_fu_694_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_17_fu_712_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_18_fu_730_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_19_fu_748_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_1_fu_424_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_20_fu_766_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_21_fu_784_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_22_fu_802_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_23_fu_820_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_24_fu_838_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_25_fu_856_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_26_fu_874_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_27_fu_892_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_28_fu_910_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_29_fu_928_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_2_fu_442_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_30_fu_946_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_31_fu_964_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_3_fu_460_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_4_fu_478_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_5_fu_496_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_6_fu_514_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_7_fu_532_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_8_fu_550_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_9_fu_568_p3">select, 0, 0, 14, 1, 15</column>
+<column name="datareg_V_fu_406_p3">select, 0, 0, 14, 1, 15</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">

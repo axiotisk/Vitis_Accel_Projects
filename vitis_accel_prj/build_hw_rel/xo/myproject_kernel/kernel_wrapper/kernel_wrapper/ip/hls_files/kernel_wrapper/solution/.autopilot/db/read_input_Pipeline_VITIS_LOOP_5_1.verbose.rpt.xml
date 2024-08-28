@@ -1,13 +1,13 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'read_input_Pipeline_VITIS_LOOP_5_1'" level="0">
-<item name = "Date">Thu Aug  1 18:04:06 2024
+<item name = "Date">Sat Aug 24 01:41:24 2024
 </item>
 <item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
 <item name = "Project">kernel_wrapper</item>
 <item name = "Solution">solution (Vitis Kernel Flow Target)</item>
-<item name = "Product family">virtexuplus</item>
-<item name = "Target device">xcu55c-fsvh2892-2L-e</item>
+<item name = "Product family">versal</item>
+<item name = "Target device">xcvc1902-vsvd1760-2MP-e-S</item>
 </section>
 
 <section name = "Performance Estimates" level="0">
@@ -48,15 +48,13 @@
 <item name = "Summary"><table name="" hasTotal="1">
 <keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
 <column name="DSP">-, -, -, -, -</column>
-<column name="Expression">-, -, 0, 43, -</column>
+<column name="Expression">-, -, 0, 31, -</column>
 <column name="FIFO">-, -, -, -, -</column>
 <column name="Instance">-, -, -, -, -</column>
 <column name="Memory">-, -, -, -, -</column>
-<column name="Multiplexer">-, -, -, 68, -</column>
+<column name="Multiplexer">-, -, -, 283, -</column>
 <column name="Register">-, -, 820, -, -</column>
-<specialColumn name="Available SLR">1344, 3008, 869120, 434560, 320</specialColumn>
-<specialColumn name="Utilization SLR (%)">0, 0, ~0, ~0, 0</specialColumn>
-<specialColumn name="Available">4032, 9024, 2607360, 1303680, 960</specialColumn>
+<specialColumn name="Available">1934, 1968, 1799680, 899840, 463</specialColumn>
 <specialColumn name="Utilization (%)">0, 0, ~0, ~0, 0</specialColumn>
 </table>
 </item>
@@ -80,23 +78,23 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="add_ln5_fu_119_p2">+, 0, 0, 22, 15, 1</column>
+<column name="add_ln5_fu_113_p2">+, 0, 0, 15, 15, 1</column>
 <column name="ap_block_pp0_stage0_11001">and, 0, 0, 2, 1, 1</column>
 <column name="ap_block_state2_pp0_stage0_iter1">and, 0, 0, 2, 1, 1</column>
 <column name="ap_predicate_op24_read_state2">and, 0, 0, 2, 1, 1</column>
-<column name="icmp_ln5_fu_113_p2">icmp, 0, 0, 13, 15, 16</column>
+<column name="icmp_ln5_fu_119_p2">icmp, 0, 0, 8, 15, 16</column>
 <column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
-<column name="ap_done_int">9, 2, 1, 2</column>
-<column name="ap_enable_reg_pp0_iter2">9, 2, 1, 2</column>
-<column name="ap_phi_mux_empty_51_phi_fu_90_p4">14, 3, 512, 1536</column>
-<column name="ap_sig_allocacmp_i_2">9, 2, 15, 30</column>
-<column name="gmem0_blk_n_R">9, 2, 1, 2</column>
-<column name="i_fu_60">9, 2, 15, 30</column>
-<column name="shiftreg_fu_56">9, 2, 256, 512</column>
+<column name="ap_done_int">2, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter2">2, 2, 1, 2</column>
+<column name="ap_phi_mux_empty_51_phi_fu_90_p4">128, 3, 512, 1536</column>
+<column name="ap_sig_allocacmp_i_2">14, 2, 15, 30</column>
+<column name="gmem0_blk_n_R">2, 2, 1, 2</column>
+<column name="i_fu_60">14, 2, 15, 30</column>
+<column name="shiftreg_fu_56">121, 2, 256, 512</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">
